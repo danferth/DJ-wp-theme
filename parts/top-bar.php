@@ -12,7 +12,7 @@
     <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area top-bar-<?php echo apply_filters( 'filter_mobile_nav_position', 'mobile_nav_position' ); ?>">
             <li class="name">
-                <h1><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+                <h1><a href="<?php echo home_url(); ?>"><img src="<?php  echo get_template_directory_uri() . '/images/TIC-logo-white.png'; ?>" alt="<?php bloginfo( 'name' ); ?>"></a></h1>
             </li>
             <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
