@@ -27,6 +27,18 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 
 	// CDN hosted jQuery placed in the header, as some plugins require that jQuery is loaded in the header.
 	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', array(), '2.1.0', false );
+	
+	//JQ validate
+	wp_enqueue_script( 'validate', get_template_directory_uri() . '/assets/javascript/vendor/jquery.validate.min.js', array('jquery'), '1.11.1', true );
+	
+	//JQ waypoints for scroll triggers
+	wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/assets/javascript/vendor/jquery.waypoints.min.js', array('jquery'), '4.0.0', true );
+	
+	//TweenMax for animations
+	wp_enqueue_script('TweenMax', get_template_directory_uri() . '/assets/javascript/vendor/TweenMax.min.js', array(), '1.18.0', true );
+	
+	//sweetalert cause it's cool man
+	wp_enqueue_script('sweetalert', get_template_directory_uri() . '/assets/javascript/vendor/sweetalert.min.js', array(), '1.0.0');
 
 	// If you'd like to cherry-pick the foundation components you need in your project, head over to Gruntfile.js and see lines 67-88.
 	// It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)
