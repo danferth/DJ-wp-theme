@@ -69,3 +69,44 @@ $medium-breakpoint: em-calc(1024);
 $topbar-breakpoint: em-calc(820);
 $large-breakpoint:  em-calc(1440);
 $xlarge-breakpoint: em-calc(1920);
+
+//========================================
+//======Variables from old theme==========
+//========================================
+
+//COLORS==================================
+$primary-light:	 hsl(202.2, 50.9%, 89.6%);
+$primary-reg:	 hsl(201.2, 93.5%, 36.3%);
+$primary-dark:	 hsl(201.4, 100%, 22.5%);
+//accent----------------------------------
+$accent-light:	 hsl(32.7, 80.7%, 59.4%);
+$accent-reg:	 hsl(32.7, 100%, 44.3%);
+$accent-dark:	 hsl(33, 100%, 33.5%);
+//text------------------------------------
+$title-color-black:     black;
+$body-color-black:      rgba(black,.87);
+$secondary-color-black: rgba(black, .54);
+$tertiary-color-black:  rgba(black, .38);
+$faint-color-black:     rgba(black, .18);
+//---------------------------------------
+$title-color-white:     white;
+$body-color-white:      rgba(white,1);
+$secondary-color-white: rgba(white, .7);
+$tertiary-color-white:  rgba(white, .3);
+$faint-color-white:     rgba(white, .18);
+//FONTS=====================================
+//Oswald:700,300|Source+Sans+Pro:400,300,700
+$font-body: 	"Source Sans Pro", sans-serif;
+$font-title: 	"Oswald", sans-serif;
+//===========================================
+//layout variables
+$nav-bg:			$primary-dark;
+$nav-hover:			$primary-reg;
+$nav-second-bg: 	$primary-light;
+$nav-second-text:   $primary-dark;
+$nav-second-hover:  $primary-dark;
+$nav-side-bg:		$primary-dark;
+$nav-side-hover:	$primary-reg;
+$nav-link-current:	$accent-reg;
+$side-bg:			$primary-dark;
+$footer-bg:			$primary-dark;
