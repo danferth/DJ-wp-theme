@@ -1,10 +1,23 @@
 #footer-container {
+	background:$jet;
+	background:linear-gradient(to bottom, $charcoal 0, $jet 85%);
 	max-width: 100%;
 	width: 100%;
 	margin: 0 auto;
-	border-top: 1px solid #ccc;
+	border-top: 4px solid $iron;
 	margin-top: rem-calc(60);
-
+    h1, h2, h3, h4, h5, h6{
+    	color:$secondary-color;
+    	text-shadow:-1px 0 0 $jet;
+    }
+    a{
+    	color:$iron;
+    	font-weight:bold;
+    	transform:color 250ms;
+    	&:hover{
+    		color:$vapor;
+    	}
+    }
 	#footer {
 		@include grid-row();
 		padding: rem-calc(30) 0;
@@ -16,8 +29,10 @@
 		}
 	}
 	.footer_foot{
+		background:$jet;
 		p{
 			font-size:.75em;
+			color:$iron;
 		}
 	}
 }

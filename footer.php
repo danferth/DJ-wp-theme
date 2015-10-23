@@ -20,7 +20,7 @@
 	</footer>
 	<div class="row footer_foot">
 		<div class="column small-2">
-			<img src="<?php echo get_template_directory_uri(). '/images/TIC-logo-usa.png'; ?>" height='38' width='141'></img>
+			<img src="<?php echo get_template_directory_uri(). '/images/TIC-logo-usa-lightened.png'; ?>" height='38' width='141'></img>
 		</div>
 		<div class="column small-10 end">
 			<p>&copy; 2015 Thomson Instrument Company • 1121 South Cleveland Street, Oceanside, California 92054<br>800-541-4792 | 760-757-8080 • 760-757-9367 (fax) • folks@htslabs.com | Legal / Trademarks</p>

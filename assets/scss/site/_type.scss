@@ -1,0 +1,109 @@
+//==================
+//block quotes
+//=================
+blockquote,
+q {
+	hyphens: none;
+	quotes: none;
+}
+blockquote:before,
+blockquote:after{
+  position:absolute;
+  font-size:4em;
+}
+blockquote:before{
+	content: '\201C';
+  left:-.1em;
+  top:-.20em;
+}
+
+blockquote:after{
+	content: '\201D';
+  right:.2em;
+  bottom:-.7em;
+}
+
+blockquote {
+  color: $secondary-color-black;
+  box-shadow:0 10px 200px $faint-color-black;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.3;
+  position:relative;
+  margin-bottom: 24px;
+  padding: .25em 1.75em;
+  border:1px solid $faint-color-black;
+  border-left:none;
+  border-right:none;
+  z-index:500;
+  footer{
+    margin-top:.5em;
+    font-size:.8em;
+    color:$secondary-color-black;
+    font-style:normal;
+    font-weight:700;
+    cite{
+      font-size:1em;
+      display:block;
+      color:$secondary-color-black;
+      font-weight: 400;
+    }
+  }
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+	font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+	font-weight: 400;
+}
+
+//===============
+//LINKS==========
+//==============
+.entry-content p a,
+.entry-summary p a,
+.page-content p a,
+.comment-content p a {
+	text-decoration: none;
+	text-shadow:none;
+	border-bottom:1px dashed $primary-color;
+	background:transparent;
+	transition:all 250ms;
+	padding:0 .15em;
+	display:inline-block;
+	position:relative;
+	z-index:1;
+	&:before{
+		content:"";
+		width:100%;
+		height:0%;
+		z-index:-1;
+		background:rgba($secondary-color,.4);
+		bottom:0;
+		left:0;
+		position:absolute;
+		transition: height 250ms;
+	}
+}
+
+.entry-content p a:hover,
+.entry-summary p a:hover,
+.page-content p a:hover,
+.comment-content p a:hover,
+.entry-content p a.button,
+.entry-summary p a.button,
+.page-content p a.button,
+.comment-content p a.button {
+	text-decoration: none;
+	border-color:transparent;
+	color:scale-color($primary-color, $lightness: -20%);
+	&:before{
+		height:100%;
+	}
+}

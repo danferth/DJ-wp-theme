@@ -1,16 +1,40 @@
+
+//--------------------------------------------------------------------------------------
+//======================================================================================
+//===============================Variables from old theme===============================
+//======================================================================================
+//--------------------------------------------------------------------------------------
+
+//text------------------------------------
+$title-color-black:     black;
+$body-color-black:      rgba(black,.87);
+$secondary-color-black: rgba(black, .54);
+$tertiary-color-black:  rgba(black, .38);
+$faint-color-black:     rgba(black, .18);
+//---------------------------------------
+$title-color-white:     white;
+$body-color-white:      rgba(white,1);
+$secondary-color-white: rgba(white, .7);
+$tertiary-color-white:  rgba(white, .3);
+$faint-color-white:     rgba(white, .18);
+//FONTS=====================================
+//Oswald:700,300|Source+Sans+Pro:400,300,700
+$font-body: 	"Source Sans Pro", sans-serif;
+$font-title: 	"Oswald", sans-serif;
 /*
 	My custom settings. These variables are copied from _settings.css
 	This file will only contain uncommented settings that are actually used in the theme.
 */
 
 // We use these to define default font stacks
-$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-title: 	"Oswald", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-$font-weight-normal: normal !default;
-$font-weight-bold: bold !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
 
 // Foundation color naming conventions
 $white       : #FFFFFF;
@@ -34,16 +58,25 @@ $jet         : #222222;
 $black       : #000000;
 
 // We use these as default colors throughout
-$primary-color: #008CBA;
-$secondary-color: #e7e7e7;
-$alert-color: #f04124;
-$success-color: #43AC6A;
-$warning-color: #f08a24;
-$info-color: #a0d3e8;
+//COLORS==================================
+$primary-light:	  hsl(202.2, 50.9%, 89.6%);
+$primary-reg:	  hsl(201.2, 93.5%, 36.3%);
+$primary-dark:	  hsl(201.4, 100%, 22.5%);
+//accent----------------------------------
+$accent-light:	  hsl(32.7, 80.7%, 59.4%);
+$accent-reg:	  hsl(32.7, 100%, 44.3%);
+$accent-dark:	  hsl(33, 100%, 33.5%);
+//foundation------------------------------------
+$primary-color:   $primary-reg;  //blue
+$secondary-color: hsl(198, 28%, 90%);  //light blue grey
+$success-color:   hsla(164, 49%, 43%, 1); //teal
+$alert-color:     hsl(0, 94%, 35%);  //orange
+$warning-color:   $accent-reg;  //med red
+$info-color: 	  $primary-light;  //light blue
 
 // We use these to control various global styles
 $body-bg: $white;
-$body-font-color: $jet;
+$body-font-color: $oil;
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-normal;
 $body-font-style: normal;
@@ -53,15 +86,15 @@ $header-text-rendering: optimizeLegibility;
 // Set the link colors and styles for top-level nav
 $topbar-link-weight: bold;
 $topbar-link-color: $white;
-$topbar-link-color-hover: $white;
-$topbar-link-color-active: $white;
+$topbar-link-color-hover: $vapor;
+$topbar-link-color-active: $vapor;
 $topbar-link-color-active-hover: $white;
 
 //$topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: $jet;
-$topbar-link-bg-color-hover: $jet;
-$topbar-link-bg-active: $jet;
-$topbar-link-bg-active-hover: scale-color($jet, $lightness: -14%);
+$topbar-link-bg-hover: scale-color($primary-color, $lightness: -10%);
+$topbar-link-bg-color-hover: $vapor;
+$topbar-link-bg-active: scale-color($primary-color, $lightness: -20%);
+$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -30%);
 
 // Media query breakpoints
 $small-breakpoint:  em-calc(640);
@@ -70,43 +103,210 @@ $topbar-breakpoint: em-calc(820);
 $large-breakpoint:  em-calc(1440);
 $xlarge-breakpoint: em-calc(1920);
 
-//========================================
-//======Variables from old theme==========
-//========================================
+//==========================================
+//======COPIED FROM _SETTINGS.SCSS==========
+//==========================================
 
-//COLORS==================================
-$primary-light:	 hsl(202.2, 50.9%, 89.6%);
-$primary-reg:	 hsl(201.2, 93.5%, 36.3%);
-$primary-dark:	 hsl(201.4, 100%, 22.5%);
-//accent----------------------------------
-$accent-light:	 hsl(32.7, 80.7%, 59.4%);
-$accent-reg:	 hsl(32.7, 100%, 44.3%);
-$accent-dark:	 hsl(33, 100%, 33.5%);
-//text------------------------------------
-$title-color-black:     black;
-$body-color-black:      rgba(black,.87);
-$secondary-color-black: rgba(black, .54);
-$tertiary-color-black:  rgba(black, .38);
-$faint-color-black:     rgba(black, .18);
-//---------------------------------------
-$title-color-white:     white;
-$body-color-white:      rgba(white,1);
-$secondary-color-white: rgba(white, .7);
-$tertiary-color-white:  rgba(white, .3);
-$faint-color-white:     rgba(white, .18);
-//FONTS=====================================
-//Oswald:700,300|Source+Sans+Pro:400,300,700
-$font-body: 	"Source Sans Pro", sans-serif;
-$font-title: 	"Oswald", sans-serif;
-//===========================================
-//layout variables
-$nav-bg:			$primary-dark;
-$nav-hover:			$primary-reg;
-$nav-second-bg: 	$primary-light;
-$nav-second-text:   $primary-dark;
-$nav-second-hover:  $primary-dark;
-$nav-side-bg:		$primary-dark;
-$nav-side-hover:	$primary-reg;
-$nav-link-current:	$accent-reg;
-$side-bg:			$primary-dark;
-$footer-bg:			$primary-dark;
+// Background color for the top bar
+$topbar-bg-color: $primary-color;
+$topbar-bg: $primary-color;
+ 
+ // Style the top bar dropdown elements
+$topbar-dropdown-bg: $primary-color;
+$topbar-dropdown-link-color: $white;
+$topbar-dropdown-link-color-hover: $vapor;
+$topbar-dropdown-link-bg: scale-color($primary-color, $lightness: -10%);
+$topbar-dropdown-link-bg-hover: scale-color($primary-color, $lightness: -20%);
+$topbar-dropdown-link-weight: $font-weight-normal;
+$topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: $white;
+$topbar-dropdown-toggle-alpha: .4;
+
+$topbar-dropdown-label-color: $monsoon;
+$topbar-dropdown-label-text-transform: uppercase;
+$topbar-dropdown-label-font-weight: $font-weight-bold;
+$topbar-dropdown-label-font-size: rem-calc(10);
+$topbar-dropdown-label-bg: $oil;
+
+// Off-canvas
+$tabbar-bg: $primary-color;
+$off-canvas-bg: $primary-color;
+$off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -30%);
+$off-canvas-bg-active: scale-color($tabbar-bg, $lightness: -30%);
+
+//The Grid
+$row-width: rem-calc(1200);
+
+// Typography
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// We use these to control header font styles
+ $header-font-family: $font-family-title;
+ $header-font-weight: 700;
+ $header-font-color: $accent-reg;
+ $header-top-margin: rem-calc(31);
+ $header-bottom-margin: rem-calc(10);
+
+// We use these to control header font sizes
+ $h1-font-size: rem-calc(24);
+ $h2-font-size: rem-calc(22);
+ $h3-font-size: rem-calc(20);
+ $h4-font-size: rem-calc(18);
+ $h5-font-size: rem-calc(16);
+ $h6-font-size: 1rem;
+
+ $paragraph-font-size: rem-calc(14);
+ $paragraph-line-height: 1.5;
+ $paragraph-margin-bottom: rem-calc(21);
+ $paragraph-aside-font-size: rem-calc(12);
+
+// We use these to style blockquotes
+ $blockquote-font-color: $oil;
+ $blockquote-padding: rem-calc(4 28);
+ $blockquote-cite-font-color: $aluminum;
+
+// 30. Tables
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// $include-html-table-classes: $include-html-classes;
+
+// These control the background color for the table and even rows
+// $table-bg: $white;
+// $table-even-row-bg: $snow;
+
+// These control the table cell border style
+// $table-border-style: solid;
+// $table-border-size: 1px;
+// $table-border-color: $gainsboro;
+
+// These control the table head styles
+// $table-head-bg: $white-smoke;
+// $table-head-font-size: rem-calc(14);
+// $table-head-font-color: $jet;
+// $table-head-font-weight: $font-weight-bold;
+// $table-head-padding: rem-calc(8 10 10);
+
+// These control the table foot styles
+// $table-foot-bg: $table-head-bg;
+// $table-foot-font-size: $table-head-font-size;
+// $table-foot-font-color: $table-head-font-color;
+// $table-foot-font-weight: $table-head-font-weight;
+// $table-foot-padding: $table-head-padding;
+
+// These control the caption
+// table-caption-bg: transparent;
+// $table-caption-font-color: $table-head-font-color;
+// $table-caption-font-size: rem-calc(16);
+// $table-caption-font-weight: bold;
+
+// These control the row padding and font styles
+// $table-row-padding: rem-calc(9 10);
+// $table-row-font-size: rem-calc(14);
+// $table-row-font-color: $jet;
+// $table-line-height: rem-calc(18);
+
+// These are for controlling the layout, display and margin of tables
+// $table-layout: auto;
+// $table-display: table-cell;
+// $table-margin-bottom: rem-calc(20);
+
+// 11. Forms
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// $include-html-form-classes: $include-html-classes;
+
+// We use this to set the base for lots of form spacing and positioning styles
+// $form-spacing: rem-calc(16);
+
+// We use these to style the labels in different ways
+// $form-label-pointer: pointer;
+// $form-label-font-size: rem-calc(14);
+// $form-label-font-weight: $font-weight-normal;
+// $form-label-line-height: 1.5;
+// $form-label-font-color: scale-color($black, $lightness: 30%);
+// $form-label-small-transform: capitalize;
+// $form-label-bottom-margin: 0;
+// $input-font-family: inherit;
+// $input-font-color: rgba(0,0,0,0.75);
+// $input-font-size: rem-calc(14);
+// $input-bg-color: $white;
+// $input-focus-bg-color: scale-color($white, $lightness: -2%);
+// $input-border-color: scale-color($white, $lightness: -20%);
+// $input-focus-border-color: scale-color($white, $lightness: -40%);
+// $input-border-style: solid;
+// $input-border-width: 1px;
+// $input-border-radius: $global-radius;
+// $input-disabled-bg: $gainsboro;
+// $input-disabled-cursor: $cursor-default-value;
+// $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+// $input-include-glowing-effect: false;
+
+// We use these to style the fieldset border and spacing.
+// $fieldset-border-style: solid;
+// $fieldset-border-width: 1px;
+// $fieldset-border-color: $gainsboro;
+// $fieldset-padding: rem-calc(20);
+// $fieldset-margin: rem-calc(18 0);
+
+// We use these to style the legends when you use them
+// $legend-bg: $white;
+// $legend-font-weight: $font-weight-bold;
+// $legend-padding: rem-calc(0 3);
+
+// We use these to style the prefix and postfix input elements
+// $input-prefix-bg: scale-color($white, $lightness: -5%);
+// $input-prefix-border-color: scale-color($white, $lightness: -20%);
+// $input-prefix-border-size: 1px;
+// $input-prefix-border-type: solid;
+// $input-prefix-overflow: hidden;
+// $input-prefix-font-color: $oil;
+// $input-prefix-font-color-alt: $white;
+
+// We use this setting to turn on/off HTML5 number spinners (the up/down arrows)
+// $input-number-spinners: true;
+
+// We use these to style the error states for inputs and labels
+// $input-error-message-padding: rem-calc(6 9 9);
+// $input-error-message-top: -1px;
+// $input-error-message-font-size: rem-calc(12);
+// $input-error-message-font-weight: $font-weight-normal;
+// $input-error-message-font-style: italic;
+// $input-error-message-font-color: $white;
+// $input-error-message-bg-color: $alert-color;
+// $input-error-message-font-color-alt: $oil;
+
+// We use this to style the glowing effect of inputs when focused
+// $glowing-effect-fade-time: .45s;
+// $glowing-effect-color: $input-focus-border-color;
+
+// We use this to style the transition when inputs are focused and when the glowing effect is disabled.
+// $input-transition-fade-time: 0.15s;
+// $input-transition-fade-timing-function: linear;
+
+// Select variables
+// $select-bg-color: $ghost;
+// $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
