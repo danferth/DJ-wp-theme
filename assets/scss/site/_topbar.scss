@@ -53,6 +53,26 @@
 	}
 }
 
+.tab-bar{
+	h1{
+		height:100%;
+		position:relative;
+		padding:.1em;
+		a{
+			font-weight:500;
+			height:100%;
+			width:100%;
+			position:absolute;
+			top:0;
+			left:0;
+			img{
+				height:70%;
+				width:auto;
+			}
+		}
+	}
+}
+
 // Switch between the mobile menu (tab-bar) and desktop menu (topbar) based on a custom $topbar-breakpoint value.
 // The $topbar-breakpoint can be edited in _custom-settings.scss.
 
