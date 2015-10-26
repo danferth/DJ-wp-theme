@@ -14,7 +14,8 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	function foundationpress_scripts() {
 	//Google fonts Oswald 300,700 & Source Sans Pro 300,400,700
 	//<link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
-	wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,300,700' );
+	//wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,300,700' );
+
 	// Enqueue the main Stylesheet.
 	wp_enqueue_style( 'main-stylesheet', get_stylesheet_directory_uri() . '/assets/stylesheets/foundation.css' );
 
