@@ -1,0 +1,26 @@
+fieldset{
+    border-radius:.75rem;
+    box-shadow:0 0 5px rgba(darken(white, 30%), .2);
+}
+
+.on-page-form{
+    input[type="text"], input[type="email"], input[type="tel"]{
+        background:white;
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        box-shadow:none;
+       &:focus{
+           background:darken(white,3%);
+           border-radius:5px 5px 0 0;
+       } 
+    }
+    textarea{
+        box-shadow:none;
+        &:focus{
+            background:darken(white, 3%);
+            border-radius:5px;
+            border-color:transparent;
+        }
+    }
+}

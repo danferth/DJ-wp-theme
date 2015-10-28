@@ -31,7 +31,7 @@
 .right-small {
 	border-left: 0;
 }
-
+//tab-bar and top-bar h1
 .top-bar .name {
 	h1{
 		height:100%;
@@ -52,7 +52,6 @@
 		}
 	}
 }
-
 .tab-bar{
 	h1{
 		height:100%;
@@ -71,6 +70,12 @@
 			}
 		}
 	}
+}
+
+//link styles for top-bar
+.top-bar-section ul li>a, .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button){
+	text-shadow:0 1px 0 rgba(darken(white,80%), .4);
+	font-weight:normal;
 }
 
 // Switch between the mobile menu (tab-bar) and desktop menu (topbar) based on a custom $topbar-breakpoint value.

@@ -1,0 +1,27 @@
+.extend{
+    max-width:100%;
+    background:scale-color($primary-color, $lightness: 30%, $saturation: -40%);
+    background:$secondary-color;
+}
+form.top-search-bar{
+    max-width:75rem;
+    margin:0 auto;
+    
+    input[type="text"]{
+        border-radius:7px 0 0 7px;
+    }
+    
+    button[type="submit"]{
+        border-radius:0 7px 7px 0;
+    }
+    
+    input[type="text"], button[type="submit"]{
+        margin:.75rem 0;
+        @media screen and (max-width:$medium-breakpoint){
+            margin:0;
+            border-radius:0;
+            //border-bottom:4px solid $secondary-color;
+        }
+    }
+    
+}//end form.top-search-bar

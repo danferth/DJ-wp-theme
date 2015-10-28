@@ -34,5 +34,10 @@
 			font-size:.75em;
 			color:$iron;
 		}
+		.tic-usa{
+			@media screen and (max-width:$small-breakpoint){
+				margin-bottom:1rem;
+			}
+		}
 	}
 }

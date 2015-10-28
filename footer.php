@@ -19,10 +19,10 @@
 		<?php do_action( 'foundationpress_after_footer' ); ?>
 	</footer>
 	<div class="row footer_foot">
-		<div class="column small-2">
+		<div class="column small-12 medium-4 large-2 tic-usa">
 			<img src="<?php echo get_template_directory_uri(). '/images/TIC-logo-usa-lightened.png'; ?>" height='38' width='141'></img>
 		</div>
-		<div class="column small-10 end">
+		<div class="column small-12 medium-8 large-10 end tic-address">
 			<p>&copy; 2015 Thomson Instrument Company • 1121 South Cleveland Street, Oceanside, California 92054<br>800-541-4792 | 760-757-8080 • 760-757-9367 (fax) • folks@htslabs.com | Legal / Trademarks</p>
 		</div>
 	</div>
