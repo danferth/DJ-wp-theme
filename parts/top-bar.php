@@ -8,7 +8,7 @@
  */
 
 ?>
-<div class="top-bar-container contain-to-grid">
+<div class="top-bar-container contain-to-grid sticky">
     <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area top-bar-<?php echo apply_filters( 'filter_mobile_nav_position', 'mobile_nav_position' ); ?>">
             <li class="name">

@@ -32,7 +32,7 @@
 			<input type="hidden" name="cx" value="009032756241832010141:tvv1cneufti" />
     		<input type="hidden" name="cof" value="FORID:10;NB:1" />
     		<input type="hidden" name="ie" value="UTF-8" />
-			 <input type="text" name="q" maxlength="36" size="17" placeholder="search our site"/>
+			<input type="text" name="q" maxlength="36" size="17" placeholder="search our site"/>
 		</div>
 		<?php do_action( 'foundationpress_searchform_before_search_button' ); ?>
 		<div class="small-4 columns">
