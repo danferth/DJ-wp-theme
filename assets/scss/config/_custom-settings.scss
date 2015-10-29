@@ -18,9 +18,8 @@ $secondary-color-white: rgba(white, .7);
 $tertiary-color-white:  rgba(white, .3);
 $faint-color-white:     rgba(white, .18);
 //FONTS=====================================
-//Oswald:700,300|Source+Sans+Pro:400,300,700
 $font-body: 	"Source Sans Pro", sans-serif;
-$font-title: 	"Oswald", sans-serif;
+$font-title: 	'Avenir Next LT Pro Bold', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 /*
 	My custom settings. These variables are copied from _settings.css
 	This file will only contain uncommented settings that are actually used in the theme.
@@ -59,41 +58,41 @@ $black       : #000000;
 
 // We use these as default colors throughout
 //COLORS==================================
-$primary-light:	  hsl(202.2, 50.9%, 89.6%);
-$primary-reg:	  hsl(201.2, 93.5%, 36.3%);
-$primary-dark:	  hsl(201.4, 100%, 22.5%);
+$primary-light:   hsl(202.2, 50.9%, 89.6%);
+$primary-reg:	    hsl(201.2, 93.5%, 36.3%);
+$primary-dark:	   hsl(201.4, 100%, 22.5%);
 //accent----------------------------------
-$accent-light:	  hsl(32.7, 80.7%, 59.4%);
-$accent-reg:	  hsl(32.7, 100%, 44.3%);
-$accent-dark:	  hsl(33, 100%, 33.5%);
+$accent-light:	   hsl(32.7, 80.7%, 59.4%);
+$accent-reg:	     hsl(32.7, 100%, 44.3%);
+$accent-dark:	    hsl(33, 100%, 33.5%);
 //foundation------------------------------------
-$primary-color:   $primary-reg;  //blue
-$secondary-color: hsl(198, 28%, 90%);  //light blue grey
-$success-color:   hsla(164, 49%, 43%, 1); //teal
-$alert-color:     hsl(0, 94%, 35%);  //orange
-$warning-color:   $accent-reg;  //med red
-$info-color: 	  $primary-light;  //light blue
+$primary-color:   $primary-reg;            //blue
+$secondary-color: hsl(198, 28%, 90%);      //light blue grey
+$success-color:   hsla(164, 49%, 43%, 1);  //teal
+$alert-color:     hsl(0, 94%, 35%);        //red
+$warning-color:   $accent-reg;             //orange
+$info-color: 	    $primary-light;          //light blue
 
 // We use these to control various global styles
-$body-bg: $white;
-$body-font-color: $oil;
-$body-font-family: $font-family-sans-serif;
-$body-font-weight: $font-weight-normal;
-$body-font-style: normal;
-$header-font-weight: 300;
+$body-bg:               $white;
+$body-font-color:       $oil;
+$body-font-family:      $font-family-sans-serif;
+$body-font-weight:      $font-weight-normal;
+$body-font-style:       normal;
+$header-font-weight:    300;
 $header-text-rendering: optimizeLegibility;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-weight: bold;
-$topbar-link-color: $white;
-$topbar-link-color-hover: $vapor;
-$topbar-link-color-active: $vapor;
+$topbar-link-weight:             bold;
+$topbar-link-color:              $white;
+$topbar-link-color-hover:        $vapor;
+$topbar-link-color-active:       $vapor;
 $topbar-link-color-active-hover: $white;
 
 //$topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: scale-color($primary-color, $lightness: -10%);
-$topbar-link-bg-color-hover: $vapor;
-$topbar-link-bg-active: scale-color($primary-color, $lightness: -20%);
+$topbar-link-bg-hover:        scale-color($primary-color, $lightness: -10%);
+$topbar-link-bg-color-hover:  $vapor;
+$topbar-link-bg-active:       scale-color($primary-color, $lightness: -20%);
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -30%);
 
 // Media query breakpoints
@@ -109,7 +108,7 @@ $xlarge-breakpoint: em-calc(1920);
 
 // Background color for the top bar
 $topbar-bg-color: $primary-color;
-$topbar-bg: $primary-color;
+$topbar-bg:       $primary-color;
  
  // Style the top bar dropdown elements
 $topbar-dropdown-bg: $primary-color;
