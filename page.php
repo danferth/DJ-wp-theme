@@ -16,7 +16,6 @@ get_header(); ?>
 <?php get_template_part( 'parts/featured-image' ); ?>
 
 <div class="row default-page-top">
-	<?php get_template_part( 'parts/check-if-sidebar-exist' ); ?>
 	<?php do_action( 'foundationpress_before_content' ); ?>
 
 	<?php while ( have_posts() ) : the_post(); ?>
@@ -24,6 +23,7 @@ get_header(); ?>
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 			</header>
+			<?php get_template_part( 'parts/check-if-sidebar-exist' ); ?>
 			<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
 			<div class="entry-content">
 				<?php the_content(); ?>

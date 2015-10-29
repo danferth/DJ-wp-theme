@@ -4,14 +4,15 @@ Template Name: Kitchen Sink
 */
 get_header(); ?>
 <div class="row full-page-top">
-	<div class="small-12 large-12 columns" role="main">
-
 	<?php /* Start loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 			</header>
+			
+	<div class="small-12 large-12 columns" role="main">
+
 			<div class="entry-content">
 				<?php the_content(); ?>
 			</div>
@@ -135,7 +136,7 @@ get_header(); ?>
 			<hr>
 			<h4 id="forms">Forms</h4>
 			<form>
-				<fieldset>
+				<fieldset class="on-page-form">
 					<legend>Fieldset</legend>
 
 					<div class="row">

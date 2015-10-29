@@ -9,7 +9,7 @@
 
 ?>
 
-<div class="extend">
+<div class="extend hide-for-small-only">
     	
         <?php do_action( 'foundationpress_before_searchform' ); ?>
         

@@ -142,7 +142,7 @@ $row-width: rem-calc(1200);
 // We use these to control header font styles
  $header-font-family: $font-family-title;
  $header-font-weight: 700;
- $header-font-color: $accent-reg;
+ $header-font-color: scale-color($secondary-color, $lightness: -35%);
  $header-top-margin: rem-calc(31);
  $header-bottom-margin: rem-calc(10);
 

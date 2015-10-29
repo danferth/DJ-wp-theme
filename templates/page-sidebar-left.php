@@ -7,8 +7,6 @@ get_header(); ?>
 <?php get_template_part( 'parts/featured-image' ); ?>
 
 <div class="row sidebar-page-top">
-    <div class="small-12 large-8 large-push-4 columns" role="main">
-
         <?php do_action( 'foundationpress_before_content' ); ?>
 
         <?php while ( have_posts() ) : the_post(); ?>
@@ -16,6 +14,8 @@ get_header(); ?>
                 <header>
                     <h1 class="entry-title"><?php the_title(); ?></h1>
                 </header>
+    <div class="small-12 large-8 large-push-4 columns" role="main">
+
                 <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
                 <div class="entry-content">
                     <?php the_content(); ?>

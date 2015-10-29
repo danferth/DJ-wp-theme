@@ -10,8 +10,6 @@
 get_header(); ?>
 
 <div class="row single-page-top">
-	<div class="small-12 large-8 columns" role="main">
-
 	<?php do_action( 'foundationpress_before_content' ); ?>
 
 	<?php while ( have_posts() ) : the_post(); ?>
@@ -20,6 +18,8 @@ get_header(); ?>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 				<?php foundationpress_entry_meta(); ?>
 			</header>
+	<div class="small-12 large-8 columns" role="main">
+
 			<?php do_action( 'foundationpress_post_before_entry_content' ); ?>
 			<div class="entry-content">
 
