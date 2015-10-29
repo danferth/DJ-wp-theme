@@ -1,8 +1,12 @@
 //page header and the included .entry-title
 article header{
-  background:$snow;
+  background:$ghost;
   padding:rem-calc(32) rem-calc(30) 2rem rem-calc(30);
   margin: 0 0 rem-calc(32) 0;
+  border-bottom: 2px solid $smoke;
+    @media screen and (max-width:$small-breakpoint){
+    padding:rem-calc(15) rem-calc(15) 1rem rem-calc(15);
+  }
 }
 .entry-title{
   text-transform:uppercase;
@@ -10,7 +14,11 @@ article header{
   font-family:$font-family-sans-serif;
   font-size:2rem;
   margin:0;
-  color:scale-color($secondary-color, $lightness: -20%, $saturation:-20%);
+  padding:0;
+  color:scale-color($secondary-color, $lightness: -40%, $saturation:-20%);
+  @media screen and (max-width:$small-breakpoint){
+    font-size:1.5rem;
+  }
 }
 
 //==================
