@@ -58,3 +58,9 @@ blockquote.alignright,
 img.alignright {
 	margin: rem-calc(7) 0 rem-calc(7) rem-calc(24);
 }
+
+.form-page-top, .full-page-top, .single-page-top, .sidebar-page-top, .default-page-top{
+	padding-top:rem-calc(32);
+	padding-bottom:rem-calc(60);
+	background:white;
+}

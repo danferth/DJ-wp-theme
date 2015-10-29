@@ -3,7 +3,7 @@
 Template Name: Kitchen Sink
 */
 get_header(); ?>
-<div class="row">
+<div class="row full-page-top">
 	<div class="small-12 large-12 columns" role="main">
 
 	<?php /* Start loop */ ?>

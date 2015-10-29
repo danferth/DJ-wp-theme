@@ -15,7 +15,7 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
 
-<div class="row">
+<div class="row default-page-top">
 	<?php get_template_part( 'parts/check-if-sidebar-exist' ); ?>
 	<?php do_action( 'foundationpress_before_content' ); ?>
 
