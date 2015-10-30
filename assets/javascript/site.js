@@ -175,7 +175,31 @@ TweenMax.staggerFrom(".slide",.75, {
 }, .1);
 
 
+//===========
+//main blocks
+//=============
 
+var mBlocks_inner = $('.main-block .inner-block');
+var mBlocks = $('.main-block');
 
+mBlocks_inner.each(function(){
+  var rHue = Math.floor(Math.random() * (230 - 0)) + 0;
+  $(this).css({'background-color' : 'hsl(' + rHue + ', 30%, 40%)'});
+});
+
+mBlocks.on('click',function(){
+	var link = $(this).attr('data-mainblocklink');
+	window.location.assign(link);
+});
+
+TweenLite.from(mBlocks, .5, {delay:.2, scale:.90, opacity:0, ease:Bounce.easeOut});
+
+// mBlocks_inner.mouseover(function(){
+// 	TweenLite.to(this, .15, {'boxShadow':'0 3px 6px 0 #999999'});
+// });
+
+// mBlocks_inner.mouseout(function(){
+// 	TweenLite.to(this, .25, {'boxShadow':'0 0 3px 1px #999999'});
+// });
 
 });//end doc ready
