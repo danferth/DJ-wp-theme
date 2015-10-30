@@ -44,10 +44,10 @@ function mainblock_shortcode($atts, $content = null, $tag){
             'class'  => '',
             'link'   => get_home_url()
         ), $atts);
-    return "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . $a['link'] . "'> \n
+    return "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . get_home_url() . "/" . $a['link'] . "'> \n
       <div class='inner-block'> \n
         <div class='main-block-image-wrap'> \n
-        <img src='" . $a['img'] . "' /> \n
+        <img src='" . get_template_directory_uri(). "/images/" . $a['img'] . "' /> \n
         </div> \n
         <h3>" . $a['title'] . "</h3> \n
         <p>" . $content . "</p></div></li>";
