@@ -12,4 +12,9 @@ if(!function_exists('remove_wp_open_sans')) :
     add_action('wp_enqueue_scripts', 'remove_wp_open_sans');
     add_action('admin_enqueue_scripts', 'remove_wp_open_sans');
     endif;
+    
+//stop wp from messing with content
+remove_filter('the_content', 'wpautop');
+remove_filter('the_excerpt', 'wpautop');
+
 ?>

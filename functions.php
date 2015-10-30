@@ -51,4 +51,7 @@ require_once( 'library/protocol-relative-theme-assets.php' );
 // TIC functions
 require_once('library/TIC-functions.php');
 
+//Shortcodes
+require_once('library/shortcodes.php');
+
 ?>

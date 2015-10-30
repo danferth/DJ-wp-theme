@@ -4,6 +4,7 @@ article header{
   padding:rem-calc(32) rem-calc(30) 2rem rem-calc(30);
   margin: 0 0 rem-calc(32) 0;
   border-bottom: 2px solid $smoke;
+  border-top:4px solid $smoke;
     @media screen and (max-width:$small-breakpoint){
     padding:rem-calc(15) rem-calc(15) 1rem rem-calc(15);
   }

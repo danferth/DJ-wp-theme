@@ -231,7 +231,7 @@ $row-width: rem-calc(1200);
  $fieldset-border-color: $secondary-color;
 
 
-
+//selection of text on site
 ::selection {
 	background: $secondary-color;
 	color: scale-color($primary-color, $lightness: -20%);
