@@ -194,12 +194,47 @@ mBlocks.on('click',function(){
 
 TweenLite.from(mBlocks, .5, {delay:.2, scale:.90, opacity:0, ease:Bounce.easeOut});
 
-// mBlocks_inner.mouseover(function(){
-// 	TweenLite.to(this, .15, {'boxShadow':'0 3px 6px 0 #999999'});
-// });
+//==============
+//app blocks
+//==============
 
-// mBlocks_inner.mouseout(function(){
-// 	TweenLite.to(this, .25, {'boxShadow':'0 0 3px 1px #999999'});
-// });
+var appBlocks     = $('.appnote-block li'),
+    appBlocksInnerWrap = $('.appnote-block-inner-wrap');
+
+//hover effects
+appBlocksInnerWrap.on('mouseenter', function(e){
+  TweenLite.to(this, .25, {scale:.96, ease: Power2.easeOut});
+});
+appBlocksInnerWrap.on('mouseleave', function(e){
+  TweenLite.to(this, .25, {scale:1, ease: Power2.easeIn});
+});
+
+//auto color
+appBlocksInnerWrap.each(function(){
+  var rHue = Math.floor(Math.random()*(200 - 0));
+  $(this).css({
+    'background-color': 'hsl('+ rHue +', 8%, 92%)',
+    'border-color': 'hsl('+ rHue +', 15%, 40%)'
+  });
+});
+
+//redirect on click
+appBlocks.on('click', function(e){
+	var link = $(this).attr('data-appblocklink');
+	window.location.assign(link);
+});
+
+//waypoint scroll
+//this is to have the li items hidden during scroll up
+appBlocks.css({opacity:0});
+var waypoints = $('.appnote-block').waypoint({
+  handler: function(){
+  appBlocks.css({opacity:1});
+  TweenMax.staggerFrom(appBlocks, .6, {delay:.25, scale:.90, y:300, opacity:0, ease:Power3.easeOut},.125); 
+  this.destroy();
+},
+  offset: '75%'
+});
+
 
 });//end doc ready

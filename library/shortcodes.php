@@ -37,6 +37,7 @@ add_shortcode('hello', 'hello_shortcode');
 ===============================================================================*/
 
 //[mainblock class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
+//this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
 function mainblock_shortcode($atts, $content = null, $tag){
     $a = shortcode_atts( array(
             'title'  => 'needs a title',
@@ -54,4 +55,46 @@ function mainblock_shortcode($atts, $content = null, $tag){
 }
 
 add_shortcode('mainblock', 'mainblock_shortcode');
+
+
+//[appblock class='addedclass' link='link' title='title']<p>short description</p>[/appblock]
+//this needs to be placed inside of ( ul.small-block-grid-#.appnote-block) to work properly
+function appblock_shortcode($atts, $content = null, $tag){
+    $a = shortcode_atts( array(
+            'class' => '',
+            'link' => '',
+            'title' => 'needs a title'
+        ), $atts);
+    return "<li class='" . $a['class'] . "' data-appblocklink='" . get_home_url() . "/" . $a['link'] . "'> \n
+        <div class='appnote-block-inner-wrap'> \n
+        <h4>" . $a['title'] . "</h4> \n
+        <p>" . $content . "</p> \n
+        </div> \n
+        </li>";
+}
+
+add_shortcode('appblock', 'appblock_shortcode');
+
+//[videosingle class='added class' title='title' video='file name of video']
+//no prerequisites this shortcode creates all enclosing divs
+function video_single_shortcode($atts, $content, $tag){
+    $a = shortcode_atts( array(
+            'class' => '',
+            'title' => 'needs a title',
+            'video' => '2015/09/fv-overview'
+        ), $atts);
+    return "<div class='row'> \n
+  <div class='column small-12'> \n
+    <h1>" . $a['title'] . "</h1> \n
+  </div> \n
+  <div class='column small=12 medium-8 large-6 medium-centered single-video " . $a['class'] . "'> \n
+    <video controls=''> \n
+      <source src='" . content_url() . "/uploads/" . $a['video'] . ".mp4' type='video/mp4'> \n
+      <source src='" . content_url() . "/uploads/" . $a['video'] . ".ogv' type='video/ogg'> \n
+    </video> \n
+  </div> \n
+</div>";
+}
+
+add_shortcode('videosingle', 'video_single_shortcode');
 ?>

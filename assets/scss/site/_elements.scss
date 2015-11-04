@@ -34,4 +34,40 @@
   }
 }
 
+//appblocks
+.appnote-block{
+  padding:.5rem 0;
+  overflow:hidden;
+}
+.appnote-block li{
+  cursor:pointer;
+  padding:0 .25rem;
+  .appnote-block-inner-wrap{
+    background:$secondary-color;
+    padding:.5rem;
+    border-top:4px solid $oil;
+    border-bottom:4px solid $oil;
+    min-height:12rem;
+    h4{
+      margin:.5rem 0 .25rem 0;
+      color:$warning-color;
+    }
+    p{
+      color:$tuatara;
+      font-size:.8rem;
+      min-height:8rem;
+      line-height:1.4;
+    }
+  }
+}
+
+//==============
+//video single
+//==============
+.single-video{
+  video{
+    width:100%;
+    height:auto;
+  }
+}
 //next up?
