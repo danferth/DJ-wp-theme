@@ -90,7 +90,6 @@ function video_single_shortcode($atts, $content, $tag){
   <div class='column small=12 medium-8 large-6 medium-centered single-video " . $a['class'] . "'> \n
     <video controls=''> \n
       <source src='" . content_url() . "/uploads/" . $a['video'] . ".mp4' type='video/mp4'> \n
-      <source src='" . content_url() . "/uploads/" . $a['video'] . ".ogv' type='video/ogg'> \n
     </video> \n
   </div> \n
 </div>";
