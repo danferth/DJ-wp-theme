@@ -236,5 +236,12 @@ var waypoints = $('.appnote-block').waypoint({
   offset: '75%'
 });
 
+//===========
+//prefooter
+//==========
+$('.prefooter').on('click', function(e){
+	var link = $(this).attr('data-prefooterlink');
+	window.location.assign(link);
+});
 
 });//end doc ready

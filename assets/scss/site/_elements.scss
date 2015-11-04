@@ -70,4 +70,44 @@
     height:auto;
   }
 }
+
+//=================
+//prefooter
+//================
+.row .prefooter-wrap{
+    background:$smoke;
+    border-top:5px solid $gainsboro;
+    margin-top: rem-calc(65);
+  .prefooter{
+    padding:2rem 1.5rem;
+    border-top:1px solid $snow;
+    border-bottom:1px solid $snow;
+    min-height:8rem;
+    max-height:10rem;
+    overflow:hidden;
+    cursor:pointer;
+    background:$smoke;
+    transition:background 250ms;
+    &:hover{
+      background:$vapor;
+    }
+    p{
+      margin:0;
+      padding:0;
+      font-style:italic;
+      font-size:1rem;
+      text-shadow:0 1px 0 $white;
+      text-align:center;
+      &:after{
+        content:"...";
+      }
+    }
+    &:first-of-type{
+      border-right:1px solid $base;
+    }
+    &:last-of-type{
+      border-left:1px solid $white;
+    }
+  }
+}
 //next up?

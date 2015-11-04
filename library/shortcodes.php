@@ -96,4 +96,38 @@ function video_single_shortcode($atts, $content, $tag){
 }
 
 add_shortcode('videosingle', 'video_single_shortcode');
+
+/*
+[prefooterwrap class='added class']
+
+[prefooter class='' link='link for prefooter']
+content for prefooter
+[/prefooterleft]
+
+[prefooter class='' link='link for prefooter']
+content for prefooter
+[/prefooterleft]
+
+[/prefooter]
+somewhat complicated but better to adjust it a year later here than on every page
+*/
+function prefooterwrap_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array('class' => ''), $atts);
+    return "<div class='row hide-for-small-only prefooter-wrap ". $a['class'] ."'> \n
+    " . do_shortcode($content) . " \n
+    </div>";
+}
+
+function prefooter_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+      'class' => '',
+      'link' => ''
+    ), $atts);
+  return "<div class='column small-12 medium-6 prefooter " . $a['class'] . "' data-prefooterlink='" . get_home_url() . "/" . $a['link'] . "'> \n
+  <p>" . $content . "</p> \n
+</div>";
+}
+
+add_shortcode('prefooterwrap', 'prefooterwrap_shortcode');
+add_shortcode('prefooter', 'prefooter_shortcode');
 ?>
