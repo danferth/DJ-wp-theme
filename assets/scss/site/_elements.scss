@@ -110,4 +110,41 @@
     }
   }
 }
+
+//==================
+//Part number block
+//==================
+.partNumbers .row {
+  background: $silver;
+}
+.partNumbers ul.partNumbers_text_block {
+  margin: 1rem;
+  padding: 0;
+}
+.partNumbers ul.partNumbers_text_block li {
+  list-style: none;
+  margin-bottom: .2rem;
+}
+
+.desc_1 {
+  font-size: .85rem;
+  font-weight: bold;
+  color:$oil;
+}
+
+.desc_2 {
+  font-size: .85rem;
+  color: $steel;
+  font-style: italic;
+}
+
+.part_num {
+  font-size:.75rem;
+  font-weight: bold;
+  color: $aluminum;
+}
+
+
+
+
 //next up?

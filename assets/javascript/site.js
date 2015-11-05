@@ -17,8 +17,6 @@ $('.tc_page-form input[type="radio"]').on('click', function(e) {
 		}
 });
 
-
-
 $('.tc_page-form select#options').on('change', function(e) {
 		var size = $('.tc_page-form input[type="radio"]:checked').attr('id');
 		var conn = $('.tc_page-form option:selected').attr('value');
@@ -192,7 +190,7 @@ mBlocks.on('click',function(){
 	window.location.assign(link);
 });
 
-TweenLite.from(mBlocks, .5, {delay:.2, scale:.90, opacity:0, ease:Bounce.easeOut});
+TweenLite.from(mBlocks, .5, {scale:.90, opacity:0, ease:Bounce.easeOut});
 
 //==============
 //app blocks

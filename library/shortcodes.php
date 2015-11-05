@@ -130,4 +130,69 @@ function prefooter_shortcode($atts, $content=null, $tag){
 
 add_shortcode('prefooterwrap', 'prefooterwrap_shortcode');
 add_shortcode('prefooter', 'prefooter_shortcode');
+
+/*
+[partnumberblock]
+
+[partnumber 
+img  ='partnumber' 
+dec1 ='name of product' 
+dec2 ='secondary description' 
+qty1 ='case qty option 1' 
+pn1  ='option 1 part number' 
+qty2 ='case qty option 2' 
+pn2  ='option 2 part number']
+
+[/partnumberblock]
+*/
+function partnumberblock_shortcode($atts, $content = null, $tag){
+  $a = shortcode_atts( array(
+      'class' => ''
+    ), $atts);
+  return "<div class='row partNumbers'> \n
+      <div class='column small-12'> \n
+      <h1>Part Numbers</h1> \n
+      <ul class='small-block-grid-1 medium-block-grid-2 large-block-grid-3 " . $a['class'] . "'> \n
+      " . do_shortcode($content) . " \n
+      </ul> \n
+      </div> \n
+      </div>";
+}
+
+function partnumber_shortcode($atts, $content, $tag){
+  $a = shortcode_atts(array(
+      'img'  => 'no_image',
+      'dec1' => 'this product needs a name!',
+      'dec2' => 'this product needs a description',
+      'qty1'  => '',
+      'pn1'  => '',
+      'qty2' => '',
+      'pn2'  => ''
+    ), $atts);
+    
+    if($a['qty2'] === '' && $a['pn2'] === ''){
+      $qty_pn = "<li class='part_num'>Case Qty: " . $a['qty1'] . " | Part # " . $a['pn1'] . "</li> \n";
+    }else {
+      $qty_pn = "<li class='part_num'>Case Qty: " . $a['qty1'] . " | Part # " . $a['pn1'] . "</li> \n
+                 <li class='part_num'>Case Qty: " . $a['qty2'] . " | Part # " . $a['pn2'] . "</li> \n";
+    }
+    
+    return "<li> \n
+              <div class='row small-collapse'> \n
+                <div class='column small-8 small-centered medium-4 medium-uncentered'> \n
+                  <img src='http://htslabs.com/images/products/" . $a['img'] . "_lg.jpg' alt='" . $a['dec1'] . "' /> \n
+                </div> \n
+                <div class='column small-12 medium-8'> \n
+                  <ul class='partNumbers_text_block'> \n
+                    <li class='desc_1'>" . $a['dec1'] . "</li> \n
+                    <li class='desc_2'>" . $a['dec2'] . "</li> \n
+                    $qty_pn
+                  </ul> \n
+                </div> \n
+              </div> \n
+            </li>";
+}
+
+add_shortcode('partnumberblock', 'partnumberblock_shortcode');
+add_shortcode('partnumber', 'partnumber_shortcode');
 ?>
