@@ -27,12 +27,12 @@ get_header(); ?>
                 <?php do_action( 'foundationpress_page_before_comments' ); ?>
                 <?php comments_template(); ?>
                 <?php do_action( 'foundationpress_page_after_comments' ); ?>
-            </article>
         <?php endwhile;?>
 
         <?php do_action( 'foundationpress_after_content' ); ?>
 
     </div>
     <?php get_sidebar( 'left' ); ?>
+            </article> <!-- not using this on site so if issue arises (remember the off canvas menu issue?) play with moving this closing article tag to above the sidebar call -->
 </div>
 <?php get_footer(); ?>

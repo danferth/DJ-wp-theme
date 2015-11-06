@@ -40,12 +40,12 @@ get_header(); ?>
 			<?php do_action( 'foundationpress_post_before_comments' ); ?>
 			<?php comments_template(); ?>
 			<?php do_action( 'foundationpress_post_after_comments' ); ?>
-		</article>
 	<?php endwhile;?>
 
 	<?php do_action( 'foundationpress_after_content' ); ?>
 
 	</div>
 	<?php get_sidebar(); ?>
+		</article>
 </div>
 <?php get_footer(); ?>
