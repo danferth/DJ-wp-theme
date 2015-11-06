@@ -35,10 +35,10 @@ get_header(); ?>
 			<!--	<p><?php //the_tags(); ?></p>-->
 			<!--</footer>-->
 			<?php comments_template(); ?>
-		</article>
 	<?php endwhile; // End the loop ?>
 
 	</div>
+		</article>
 </div>
 
 <?php get_footer(); ?>

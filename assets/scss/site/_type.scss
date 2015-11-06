@@ -1,9 +1,11 @@
+//=========================================================
 //page header and the included .entry-title
+//=========================================================
 article header{
-  background:$ghost;
+  background:$silver;
   padding:rem-calc(32) rem-calc(30) 2rem rem-calc(30);
   margin: 0 0 rem-calc(32) 0;
-  border-bottom: 3px solid $smoke;
+  border-bottom: 3px solid $iron;
     @media screen and (max-width:$small-breakpoint){
     padding:rem-calc(15) rem-calc(15) 1rem rem-calc(15);
   }
@@ -16,6 +18,7 @@ article header{
   margin:0;
   padding:0;
   color:scale-color($secondary-color, $lightness: -40%, $saturation:-20%);
+  text-shadow:0 1px 0 $white;
   @media screen and (max-width:$small-breakpoint){
     font-size:1.5rem;
   }
