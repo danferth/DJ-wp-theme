@@ -1,0 +1,49 @@
+//tech library accordion
+.accordion li.accordion-navigation > a{
+  img{
+    margin-right:.5rem;
+    opacity:.6;
+  }
+}
+.accordion .accordion-navigation.active>a{
+  color:$white;
+ &:hover{
+  background:scale-color($primary-color, $lightness: 40%, $saturation: -50%);
+ }
+}
+//tabs inside of tech library accordion
+.tabs{
+ .tab-title>a{
+  outline:none;
+ }
+}
+ul.tabs li.tab-title{
+  @media screen and (max-width:$small-breakpoint){
+    float:none;
+    border-bottom:1px solid rgba($tabs-navigation-bg-color, .3);
+    &:first-of-type{
+      border-top:1px solid rgba($tabs-navigation-active-bg-color, .5);
+    }
+    &:last-of-type{
+      border-bottom:none;
+    }
+  }
+}
+.tabs-content .content ul li{
+  list-style:none;
+  margin-bottom: rem-calc(10);
+  a{
+    color:scale-color($primary-color, $lightness: -20%);
+    font-size:rem-calc(14);
+    display:block;
+    padding:.1rem .2rem;
+    border-radius:3px;
+    &:hover{
+      color:$oil;
+      background:scale-color($secondary-color, $lightness: 50%, $saturation: -50%);
+      i{
+          color:$alert-color;
+      }
+    }
+  }
+}

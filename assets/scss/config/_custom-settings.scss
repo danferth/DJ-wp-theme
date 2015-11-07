@@ -198,33 +198,12 @@ $row-width: rem-calc(1200);
 // These control the table head styles
  $table-head-bg: $vapor;
  $table-head-font-size: rem-calc(12);
-// $table-head-font-color: $jet;
-// $table-head-font-weight: $font-weight-bold;
  $table-head-padding: rem-calc(5 8 8);
-
-// These control the table foot styles
-// $table-foot-bg: $table-head-bg;
-// $table-foot-font-size: $table-head-font-size;
-// $table-foot-font-color: $table-head-font-color;
-// $table-foot-font-weight: $table-head-font-weight;
-// $table-foot-padding: $table-head-padding;
-
-// These control the caption
-// table-caption-bg: transparent;
-// $table-caption-font-color: $table-head-font-color;
-// $table-caption-font-size: rem-calc(16);
-// $table-caption-font-weight: bold;
 
 // These control the row padding and font styles
  $table-row-padding: rem-calc(5 8);
  $table-row-font-size: rem-calc(12);
  $table-row-font-color: $tuatara;
-// $table-line-height: rem-calc(18);
-
-// These are for controlling the layout, display and margin of tables
-// $table-layout: auto;
-// $table-display: table-cell;
-// $table-margin-bottom: rem-calc(20);
 
 // Forms
 
@@ -243,6 +222,31 @@ $row-width: rem-calc(1200);
 	color: scale-color($primary-color, $lightness: -15%);
 	text-shadow: none;
 }
+
+// 01. Accordion
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$accordion-navigation-padding: rem-calc(10 20 10 20);
+$accordion-navigation-bg-color: scale-color($secondary-color, $lightness: 15%);
+$accordion-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%);
+$accordion-navigation-active-bg-color: scale-color($primary-color, $lightness: 40%, $saturation: -50%);
+$accordion-navigation-font-color: $tuatara;
+$accordion-navigation-font-size: rem-calc(14);
+$accordion-content-padding: rem-calc(0 0 10 0);
+
+
+// 31. Tabs
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$tabs-navigation-padding: rem-calc(10);
+$tabs-navigation-bg-color: scale-color($secondary-color, $lightness: 15%);
+$tabs-navigation-active-bg-color: scale-color($primary-color, $lightness: 40%, $saturation: -50%);
+$tabs-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%);
+$tabs-navigation-font-color: $tuatara;
+$tabs-navigation-active-font-color: $white;
+$tabs-navigation-font-size: rem-calc(14);
+$tabs-content-margin-bottom: rem-calc(24);
+
 
 
 
