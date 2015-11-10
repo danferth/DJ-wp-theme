@@ -32,8 +32,19 @@ ul.tabs li.tab-title{
 .tabs-content .content ul li{
   list-style:none;
   margin-bottom: rem-calc(10);
-  a{
+  &.separator{
+    font-weight:bold;
+    font-size:rem-calc(16);
     color:scale-color($primary-color, $lightness: -20%);
+  }
+  &.science{
+    background:$silver;
+    color:$jet;
+    padding:.1rem .2rem;
+    border-radius: 3px;
+  }
+  a{
+    color:$charcoal;
     font-size:rem-calc(14);
     display:block;
     padding:.1rem .2rem;
@@ -44,6 +55,33 @@ ul.tabs li.tab-title{
       i{
           color:$alert-color;
       }
+    }
+  }
+}
+
+.tabs-content .content ul.VID{
+  li{
+    padding-bottom:0;
+    a{
+      position:relative;
+      padding:0;
+      overflow:hidden;
+      border-radius:0;
+      span{
+        background:rgba(white,.8);
+        padding: .2rem;
+        font-size:.75rem;
+        width:100%;
+        position:absolute;
+        left:0;
+        bottom:-200px;
+      }
+    }
+    &.separator{
+      background:$white;
+      color:$oil;
+      text-align:center;
+      line-height:rem-calc(112);
     }
   }
 }

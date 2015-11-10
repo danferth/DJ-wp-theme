@@ -41,4 +41,23 @@ get_header(); ?>
 		</article>
 </div>
 
+<?php
+
+//add multi_expand option to this accordion
+function mytestjs(){
+
+echo "<script>
+	$(document).foundation({
+	accordion: {
+		multi_expand: true,
+		toggleable: true
+	}
+});
+</script>";	
+	
+};
+
+add_action('foundationpress_before_closing_body','mytestjs');
+?>
+
 <?php get_footer(); ?>
