@@ -195,4 +195,25 @@ function partnumber_shortcode($atts, $content, $tag){
 
 add_shortcode('partnumberblock', 'partnumberblock_shortcode');
 add_shortcode('partnumber', 'partnumber_shortcode');
+
+
+//[tech-vid-block product='' video='' date='']video title[/tech-vid-block]
+function tech_vid_block_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+      'product' => '',
+      'video' => '',
+      'date' => '01/01/2015'
+    ), $atts);
+    
+    return "
+    <li data-date='". $a['date'] ."'> \n
+      <a class='video_link_". $a['product']  ."' target='_blank' href='".get_home_url()."/tech-video/?video=". $a['video']  ."&title=". $content  ."'> \n
+        <img src='". content_url() . "/uploads/video/thumbs/" .  $a['product'] . "/" . $a['video']  . ".png' width='200' height='112' > \n
+        <span class='video-title'>".$content."</span> \n
+      </a> \n
+    </li>";
+}
+
+add_shortcode('tech-vid-block', 'tech_vid_block_shortcode');
+
 ?>

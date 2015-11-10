@@ -170,34 +170,30 @@ $('.prefooter').on('click', function(e){
 //tech library
 //===============
 
-//videos
+//videos===
 var TL_vid_block = $('.tabs-content .content ul.VID li a');
-
+//add href to span data attribute as we are disableing the link for better mobile performance here
 $(TL_vid_block).each(function(){
 	var url = $(this).attr('href');
 	$(this).children('span').attr('data-vidlink', url);
 });
 
-
+//on click of link show span (this is for mobile, desktop has the effect with hover)
 $(TL_vid_block).on('click', function(e){
 	var target = $(this).children('span');
 	TweenMax.to(target, .5, {opacity:1, bottom:0, ease:Circ.easeOut});
 	e.preventDefault();
 });
-
+//click on span to redirect
 $(TL_vid_block).children('span').on('click', function(e){
 	var link = $(this).attr('data-vidlink');
 	window.location.assign(link);
 });
-
-
-
+//mouseenter and mouseleave for desktop to show span
 $(TL_vid_block).on('mouseenter', function(e){
 	var target = $(this).children('span');
 	TweenMax.to(target, .5, {opacity:1, bottom:0, height:'100%', ease:Circ.easeOut});
 });
-
-
 $(TL_vid_block).on('mouseleave', function(e){
 	var target = $(this).children('span');
 	TweenMax.to(target, 1, {opacity:0, bottom:-200, height:0, ease:Power1.easeOut});
