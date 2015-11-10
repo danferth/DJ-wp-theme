@@ -68,20 +68,38 @@ ul.tabs li.tab-title{
       overflow:hidden;
       border-radius:0;
       span{
-        background:rgba(white,.8);
-        padding: .2rem;
-        font-size:.75rem;
+        background:rgba(white,.9);
+        padding: 1rem .5rem;
+        color:$jet;
+        font-size:.70rem;
         width:100%;
+        height:0;
+        opacity:0;
         position:absolute;
         left:0;
-        bottom:-200px;
+        bottom:-2rem;
+        @media screen and (max-width:$small-breakpoint){
+          padding:.25rem;
+        }
       }
     }
     &.separator{
       background:$white;
-      color:$oil;
+      color:$base;
       text-align:center;
-      line-height:rem-calc(112);
+      font-size:.9rem;
+      line-height:rem-calc(100);
+      cursor:none;
+      i{
+        color:$gainsboro;
+      }
+      @media screen and (max-width:$small-breakpoint){
+        font-size:.8rem;
+        color:$monsoon;
+        i{
+          display:none;
+        }
+      }
     }
   }
 }
