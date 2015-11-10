@@ -173,16 +173,27 @@ $('.prefooter').on('click', function(e){
 //videos
 var TL_vid_block = $('.tabs-content .content ul.VID li a');
 
+
+$(TL_vid_block).on('click', function(e){
+	var target = $(this).children('span');
+	TweenMax.to(target, .5, {bottom:0, ease:Circ.easeOut});
+	e.preventDefault();
+});
+
+
+
+/*
+
 $(TL_vid_block).on('mouseenter', function(e){
 	var target = $(this).children('span');
 	TweenMax.to(target, .5, {bottom:0, ease:Circ.easeOut});
 });
 
+*/
 $(TL_vid_block).on('mouseleave', function(e){
 	var target = $(this).children('span');
-	TweenMax.to(target, .5, {bottom:-200, ease:Power1.easeOut});
+	TweenMax.to(target, 1, {bottom:-200, ease:Power1.easeOut});
 });
-
 
 
 
