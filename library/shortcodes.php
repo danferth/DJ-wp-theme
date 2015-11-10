@@ -207,7 +207,7 @@ function tech_vid_block_shortcode($atts, $content=null, $tag){
     
     return "
     <li data-date='". $a['date'] ."'> \n
-      <a class='video_link_". $a['product']  ."' target='_blank' href='".get_home_url()."/tech-video/?video=". $a['video']  ."&title=". $content  ."'> \n
+      <a class='video_link_". $a['product']  ."' href='".get_home_url()."/tech-video/?video=". $a['video']  ."&title=". $content  ."'> \n
         <img src='". content_url() . "/uploads/video/thumbs/" .  $a['product'] . "/" . $a['video']  . ".png' width='200' height='112' > \n
         <span class='video-title'>".$content."</span> \n
       </a> \n
