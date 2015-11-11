@@ -1,25 +1,24 @@
 {
- "name": "foundationpress",
- "title": "FoundationPress",
- "version": "1.5.1",
- "description": "FoundationPress is a WordPress starter theme based on Foundation 5 by Zurb",
+ "name": "TIC",
+ "title": "TIC-WP-theme",
+ "version": "1.0.5",
+ "description": "Theme for Thomson Instrument Company wordpress site",
+ "author" : "Dan Klotz <danferth@gmail.com> (http://danferth.com)",
  "keywords": [
-   "FoundationPress",
    "WordPress",
-   "starter theme",
+   "science",
    "Foundation",
    "semantic",
    "mobile first",
-   "customizable",
    "responsive"
  ],
- "homepage": "http://foundationpress.olefredrik.com/",
- "bugs": "https://github.com/olefredrik/FoundationPress/issues",
+ "homepage": "http://htslabs.com.com/",
+ "bugs": "https://github.com/danferth/Thomson-wp-theme/issues",
  "license": "MIT",
  "main": "Gruntfile.js",
  "repository": {
    "type": "git",
-   "url": "https://github.com/olefredrik/FoundationPress.git"
+   "url": "https://github.com/danferth/Thomson-wp-theme.git"
  },
  "devDependencies": {
    "bower": "~1.4.1",
