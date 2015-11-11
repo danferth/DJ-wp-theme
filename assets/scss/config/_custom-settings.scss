@@ -36,25 +36,27 @@ $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
 
 // Foundation color naming conventions
-$white       : #FFFFFF;
-$ghost       : #FAFAFA;
-$snow        : #F9F9F9;
-$vapor       : #F6F6F6;
-$white-smoke : #F5F5F5;
-$silver      : #EFEFEF;
-$smoke       : #EEEEEE;
-$gainsboro   : #DDDDDD;
-$iron        : #CCCCCC;
-$base        : #AAAAAA;
-$aluminum    : #999999;
-$jumbo       : #888888;
-$monsoon     : #777777;
-$steel       : #666666;
-$charcoal    : #555555;
-$tuatara     : #444444;
-$oil         : #333333;
-$jet         : #222222;
-$black       : #000000;
+$base-color: hsla(0, 0%, 67%, 1);
+//$base-color: hsla(360, 50%, 67%, 1); //red example
+$white       : scale-color($base-color, $lightness: 100%);
+$ghost       : scale-color($base-color, $lightness: 94%);
+$snow        : scale-color($base-color, $lightness: 92%);
+$vapor       : scale-color($base-color, $lightness: 89%);
+$white-smoke : scale-color($base-color, $lightness: 88%);
+$silver      : scale-color($base-color, $lightness: 81%);
+$smoke       : scale-color($base-color, $lightness: 80%);
+$gainsboro   : scale-color($base-color, $lightness: 61%);
+$iron        : scale-color($base-color, $lightness: 39%);
+$base        : scale-color($base-color, $lightness:  0%);
+$aluminum    : scale-color($base-color, $lightness: -10%);
+$jumbo       : scale-color($base-color, $lightness: -20%);
+$monsoon     : scale-color($base-color, $lightness: -30%);
+$steel       : scale-color($base-color, $lightness: -40%);
+$charcoal    : scale-color($base-color, $lightness: -50%);
+$tuatara     : scale-color($base-color, $lightness: -60%);
+$oil         : scale-color($base-color, $lightness: -70%);
+$jet         : scale-color($base-color, $lightness: -80%);
+$black       : scale-color($base-color, $lightness: -100%);
 
 // We use these as default colors throughout
 //COLORS==================================
