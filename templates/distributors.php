@@ -51,7 +51,7 @@ get_header(); ?>
 						<p><b>Tel:</b> {{ distributors[distId].tel }}</p>
 						<p><b>Tel:</b> {{ distributors[distId].tel2 }}</p>
 						<p><b>Fax:</b> {{ distributors[distId].fax }}</p>
-						<p><b>website:</b> <a href="{{ distributors[distId].webUrl }}">{{ distributors[distId].web }}</a></p>
+						<p><b>website:</b> <a href="{{ distributors[distId].webUrl }}" target="_blank">{{ distributors[distId].web }}</a></p>
 						<p><b>Email:</b> <a href="mailto:{{ distributors[distId].email }}?subject=Inquiry on Thomson Products&bcc=folks@htslabs.com">{{ distributors[distId].email }}</a></p>
 						<p><b>Notes:</b> {{ distributors[distId].special }}</p>
 				</div>
@@ -85,7 +85,7 @@ get_header(); ?>
 						<td>{{ d.country }}</td>
 						<td>{{ d.tel }}</td>
 						<td>{{ d.fax }}</td>
-						<td><a href="{{ d.webUrl }}">{{ d.web }}</a></td>
+						<td><a href="{{ d.webUrl }}" target="_blank">{{ d.web }}</a></td>
 						<td><a href="mailto:{{ d.email }}?subject=Inquiry on Thomson Products&bcc=folks@htslabs.com">{{ d.email }}</a></td>
 					</tr>	
 					</tbody>
