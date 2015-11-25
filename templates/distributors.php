@@ -18,7 +18,7 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
-				<h1 class="entry-title">{{ welcome }}</h1>
+				<h1 class="entry-title">Thomson Distributors</h1>
 			</header>
 	<div class="small-12 large-12 columns" role="main">
 
