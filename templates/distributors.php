@@ -24,21 +24,65 @@ get_header(); ?>
 
 			<div class="entry-content">
 				
+				<div class="row">
+					<div class="column small-12 medium-6">
+					<button class="medium radius" ng-click="filterType='africa'">Africa</button>
+					<button class="medium radius" ng-click="filterType='europe'">Europe</button>
+					<button class="medium radius" ng-click="filterType='north-america'">North America</button>
+					<button class="medium radius" ng-click="filterType='oceana'">Oceana</button>
+					<button class="medium radius" ng-click="filterType='asia'">Asia</button>
+					<button class="medium radius" ng-click="filterType='middle-east'">Middle East</button>
+					<button class="medium radius" ng-click="filterType='south-america'">South America</button>
+					<button class="medium radius" ng-click="filterType='worldwide'">worldwide</button>
+						<select name="product" id="product" ng-model="search.products">
+							<option value="">search by product</option>
+							<option value="All Products">All Products</option>
+							<option value="Filter Vials">Filter Vials</option>
+							<option value="Well Plates">Well Plates</option>
+							<option value="Flasks">Flasks</option>
+							<option value="Plasmid+">Plasmid+</option>
+							<option value="Transfer Caps">Transfer Caps</option>
+						</select>
+				</div>
+					<div class="column small-12 medium-6 panel radius distributor-single-view">
+						<h4>{{ distributors[distId].company }}</h4>
+						<h5 class="subheader"><i>{{ distributors[distId].products }}</i></h5>
+						<p><pre>{{ distributors[distId].address }}</pre></p>
+						<p><b>Tel:</b> {{ distributors[distId].tel }}</p>
+						<p><b>Tel:</b> {{ distributors[distId].tel2 }}</p>
+						<p><b>Fax:</b> {{ distributors[distId].fax }}</p>
+						<p><b>website:</b> <a href="{{ distributors[distId].webUrl }}">{{ distributors[distId].web }}</a></p>
+						<p><b>Email:</b> <a href="mailto:{{ distributors[distId].email }}?subject=Inquiry on Thomson Products&bcc=folks@htslabs.com">{{ distributors[distId].email }}</a></p>
+						<p><b>Notes:</b> {{ distributors[distId].special }}</p>
+				</div>
+				</div>
+				
 				<table>
 					<thead>
 						<tr>
-							<th>Company</th>
-							<th>Products Sold</th>
+							<th>
+								View Full
+							</th>
+							<th>
+								<a href="" ng-click="sortType='company';sortReverse=!sortReverse">Company</a>
+								<i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i>
+							</th>
+							<th>
+								<a href="" ng-click="sortType = 'country';sortReverse=!sortReverse">Country</a>
+								<i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"</i></i></th>
 							<th>phone</th>
-							<th>fax</th>
+							<th>Fax</th>
 							<th>website</th>
 							<th>email</th>
 						</tr>
 					</thead>
 					<tbody>
-					<tr ng-repeat="d in distributors">
+					<tr ng-repeat="d in distributors | orderBy:sortType:sortReverse | filter:filterType | filter:search">
+						<td>
+							<button style="margin:0;" class="tiny button radius" value="{{ d.id }}" ng-click="singleDist($event)"><i class="fa fa-user"></i></button>
+						</td>
 						<td>{{ d.company }}</td>
-						<td>{{ d.products }}</td>
+						<td>{{ d.country }}</td>
 						<td>{{ d.tel }}</td>
 						<td>{{ d.fax }}</td>
 						<td><a href="{{ d.webUrl }}">{{ d.web }}</a></td>
