@@ -44,8 +44,8 @@ get_header(); ?>
 						</select>
 				</div>
 					<div class="column small-12 medium-6 radius distributor-single-view">
-						<h4 class="company">{{ distributors[distId].company }}</h4>
-						<h6 class="products">{{ distributors[distId].products }}</h6>
+						<h3 class="company">{{ distributors[distId].company }}</h3>
+						<ul class="products"><li ng-repeat="p in distributors[distId].products">{{ p }}</li></ul>
 						<pre class="address">{{ distributors[distId].address }}</pre>
 						<p class="phone"><i class="fa fa-phone-square"></i> {{ distributors[distId].tel }}</p>
 						<p class="phone" ng-if="hasTel2"><i class="fa fa-phone-square"></i> {{ distributors[distId].tel2 }}</p>
