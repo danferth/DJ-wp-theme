@@ -49,6 +49,10 @@ distributors.controller('distController', ['$scope', '$http', '$sce', function($
       
     };
     
+    $scope.scrollToTop = function(){
+      window.scroll(0,0);
+    };
+    
 
     });
     //sorting default

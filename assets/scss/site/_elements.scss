@@ -171,18 +171,15 @@ video.tech-video-page-single{
   background:$ghost;
   margin-bottom:2rem;
   padding-bottom:1rem;
-  border-radius:.5rem 0 0 .5rem;
-  @media screen and (max-width:$small-breakpoint){
-    border-radius:0;
-    border-left:none;
-    margin-bottom:.5rem;
-  }
+  border-radius:.5rem;
   h3.company{
     color:$charcoal;
+    text-shadow:0 1px 0 $white;
     margin:1rem 0 0 0;
   }
   ul.products{
     color:$base;
+    text-shadow:0 1px 0 $white;
     font-style:italic;
     padding:0;
     margin:0;
@@ -202,10 +199,38 @@ video.tech-video-page-single{
   }
   p, pre{
     margin:.5rem 0;
+    text-shadow:0 1px 0 $white;
   }
   .address{
     font-size:.8rem;
     color:$iron;
+  }
+  .phone:before, .fax:before{
+    font:normal normal normal 14px/1 'FontAwesome';
+    margin-right:.25rem;
+  }
+  .phone:before{
+    content:"\f098";
+  }
+  .fax:before{
+    content:"\f1ac";
+  }
+}
+.row.distributor-form{
+  padding-top:1rem;
+  background:$info-color;
+  margin-bottom:1.25rem;
+   ul.button-group{
+    li{
+      a.button{
+      margin-bottom:.5rem;
+      }
+    }
+  }
+  h3{
+    color:$charcoal;
+    text-shadow:0 1px 0 $white;
+    margin-top:0;
   }
 }
 //next up?
