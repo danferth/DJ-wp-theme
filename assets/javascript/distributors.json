@@ -119,8 +119,9 @@
 		"company": "Omega Scientific (Thailand) Co. Ltd.",
 		"products": ["Filter Vials", "Well Plates", "Flasks"],
 		"address": "201/220 M.6 Pravate,\nPravate, Bangkok 10250, Thailand",
-		"tel": "(66) 2 320 5330/320 5531/320 5532",
-		"fax": "(66) 2 320 5534",
+		"tel": "(+66)2-320-5330",
+		"tel2": "(+66)2-320-5531",
+		"fax": "(+66)2-320-5534",
 		"webUrl": "http://www.omegascientific.co.th/",
 		"web": "omegascientific.co.th",
 		"email": "kittisak@omegascientific.co.th"
