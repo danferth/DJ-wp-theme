@@ -39,21 +39,20 @@ get_header(); ?>
 							<option value="All Products">All Products</option>
 							<option value="Filter Vials">Filter Vials</option>
 							<option value="Well Plates">Well Plates</option>
-							<option value="Flasks">Flasks</option>
+							<option value="Flasks">Flasks & Accessories</option>
 							<option value="Plasmid+">Plasmid+</option>
-							<option value="Transfer Caps">Transfer Caps</option>
 						</select>
 				</div>
-					<div class="column small-12 medium-6 panel radius distributor-single-view">
-						<h4>{{ distributors[distId].company }}</h4>
-						<h5 class="subheader"><i>{{ distributors[distId].products }}</i></h5>
-						<p><pre>{{ distributors[distId].address }}</pre></p>
-						<p><b>Tel:</b> {{ distributors[distId].tel }}</p>
-						<p><b>Tel:</b> {{ distributors[distId].tel2 }}</p>
-						<p><b>Fax:</b> {{ distributors[distId].fax }}</p>
-						<p><b>website:</b> <a href="{{ distributors[distId].webUrl }}" target="_blank">{{ distributors[distId].web }}</a></p>
-						<p><b>Email:</b> <a href="mailto:{{ distributors[distId].email }}?subject=Inquiry on Thomson Products&bcc=folks@htslabs.com">{{ distributors[distId].email }}</a></p>
-						<p><b>Notes:</b> {{ distributors[distId].special }}</p>
+					<div class="column small-12 medium-6 radius distributor-single-view">
+						<h4 class="company">{{ distributors[distId].company }}</h4>
+						<h6 class="products">{{ distributors[distId].products }}</h6>
+						<pre class="address">{{ distributors[distId].address }}</pre>
+						<p class="phone"><i class="fa fa-phone-square"></i> {{ distributors[distId].tel }}</p>
+						<p class="phone" ng-if="hasTel2"><i class="fa fa-phone-square"></i> {{ distributors[distId].tel2 }}</p>
+						<p class="fax" ng-if="hasFax"><i class="fa fa-fax"></i> {{ distributors[distId].fax }}</p>
+						<p class="website"><i class="fa fa-globe"></i> <a href="{{ distributors[distId].webUrl }}" target="_blank">{{ distributors[distId].web }}</a></p>
+						<p class="email" ng-if="hasEmail"><i class="fa fa-envelope"></i> <a href="mailto:{{ distributors[distId].email }}?subject=Inquiry on Thomson Products&bcc=folks@htslabs.com">{{ distributors[distId].email }}</a></p>
+						<p class="notes" ng-if="hasNotes"><b>Notes:</b> {{ distributors[distId].special }}</p>
 				</div>
 				</div>
 				
@@ -61,7 +60,7 @@ get_header(); ?>
 					<thead>
 						<tr>
 							<th>
-								View Full
+								View
 							</th>
 							<th>
 								<a href="" ng-click="sortType='company';sortReverse=!sortReverse">Company</a>
@@ -79,7 +78,7 @@ get_header(); ?>
 					<tbody>
 					<tr ng-repeat="d in distributors | orderBy:sortType:sortReverse | filter:filterType | filter:search">
 						<td>
-							<button style="margin:0;" class="tiny button radius" value="{{ d.id }}" ng-click="singleDist($event)"><i class="fa fa-user"></i></button>
+							<button style="margin:0; padding:.5rem;" class="tiny button radius" value="{{ d.id }}" ng-click="singleDist($event)"><i class="fa fa-info-circle fa-lg" value="{{ d.id }}"></i></button>
 						</td>
 						<td>{{ d.company }}</td>
 						<td>{{ d.country }}</td>

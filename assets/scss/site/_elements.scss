@@ -162,4 +162,34 @@ video.tech-video-page-single{
   height:auto;
 }
 
+//=====================================================================
+//=======================Distributors Page=============================
+//=====================================================================
+.distributor-single-view{
+  border:1px solid $silver;
+  border-right:none;
+  background:$ghost;
+  margin-bottom:1rem;
+  border-radius:.5rem 0 0 .5rem;
+  @media screen and (max-width:$small-breakpoint){
+    border-radius:.5rem;
+    border:1px solid $silver;
+  }
+  h4.company{
+    color:$charcoal;
+    margin:1rem 0 0 0;
+  }
+  h6.products{
+    color:$base;
+    font-style:italic;
+    margin:0;
+  }
+  p, pre{
+    margin:.5rem 0;
+  }
+  .address{
+    font-size:.8rem;
+    color:$iron;
+  }
+}
 //next up?
