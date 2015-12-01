@@ -25,17 +25,29 @@ get_header(); ?>
 			<div class="entry-content">
 				
 				<div class="row">
-					<div class="column small-12 medium-11 medium-centered radius distributor-single-view">
+					<div class="column small-12 medium-11 medium-centered radius distributor-single-view clearfix">
 						<h3 class="company" ng-bind="distributors[distId].company"><i class="fa fa-spinner fa-spin"></i></h3>
-						<ul class="products"><li ng-repeat="p in distributors[distId].products" ng-bind="p"></li></ul>
+						<ul class="products">
+							<li ng-repeat="p in distributors[distId].products" ng-bind="p"></li>
+						</ul>
 						<pre class="address" ng-bind="distributors[distId].address"><i class="fa fa-spinner fa-spin"></i></pre>
-						<p class="phone" ng-bind="distributors[distId].tel"><i class="fa fa-spinner fa-spin"></i></p>
-						<p class="phone" ng-if="hasTel2" ng-bind="distributors[distId].tel2"><i class="fa fa-spinner fa-spin"></i></p>
-						<p class="fax" ng-if="hasFax" ng-bind="distributors[distId].fax"><i class="fa fa-spinner fa-spin"></i></p>
-						<p class="website"><i class="fa fa-globe"></i> <a href="{{ distributors[distId].webUrl }}" target="_blank" ng-bind="distributors[distId].web"></a></p>
-						<p class="email" ng-if="hasEmail"><i class="fa fa-envelope"></i> <a href="mailto:{{ distributors[distId].email }}?subject=Inquiry on Thomson Products&bcc=folks@htslabs.com" ng-bind="distributors[distId].email"></a></p>
-						<p class="notes" ng-if="hasNotes" ng-bind="distributors[distId].special"><b>Notes:</b> </p>
-				</div>
+						<div class="column small-12 medium-6 large-3">
+							<p class="phone" ng-bind="distributors[distId].tel"><i class="fa fa-spinner fa-spin"></i></p>
+							<p class="phone" ng-if="hasTel2" ng-bind="distributors[distId].tel2"><i class="fa fa-spinner fa-spin"></i></p>
+							<p class="fax" ng-if="hasFax" ng-bind="distributors[distId].fax"><i class="fa fa-spinner fa-spin"></i></p>
+						</div>
+						<div class="column small-12 medium-6 large-3 end">
+							<p class="website"><i class="fa fa-globe"></i>
+								<a href="{{ distributors[distId].webUrl }}" target="_blank" ng-bind="distributors[distId].web"></a>
+							</p>
+							<p class="email" ng-if="hasEmail"><i class="fa fa-envelope"></i>
+								<a href="mailto:{{ distributors[distId].email }}?subject=Inquiry on Thomson Products&bcc=folks@htslabs.com" ng-bind="distributors[distId].email"></a>
+							</p>
+						</div>
+						<div class="column small-12">
+							<p class="notes" ng-if="hasNotes" ng-bind="distributors[distId].special"><b>Notes:</b> </p>
+						</div>
+					</div>
 				</div>
 				
 				<div class="row distributor-form">

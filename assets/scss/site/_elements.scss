@@ -215,6 +215,11 @@ video.tech-video-page-single{
   .fax:before{
     content:"\f1ac";
   }
+  .notes:before{
+    content:"Notes:";
+    margin-right:.25rem;
+    font-weight:bold;
+  }
 }
 .row.distributor-form{
   padding-top:1rem;
