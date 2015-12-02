@@ -169,7 +169,7 @@ video.tech-video-page-single{
   border:1px solid $silver;
   border-right:none;
   background:$ghost;
-  margin-bottom:2rem;
+  margin-bottom:.6rem;
   padding-bottom:1rem;
   border-radius:.5rem;
   h3.company{
@@ -236,6 +236,24 @@ video.tech-video-page-single{
     color:$charcoal;
     text-shadow:0 1px 0 $white;
     margin-top:0;
+  }
+}
+.joyride-help{
+  color:$iron;
+  text-align:center;
+  margin-bottom:.6rem;
+  transition:color 250ms;
+  cursor:pointer;
+  i{
+    color:scale-color($primary-color, $lightness:50%, $saturation:-50%);
+    transition:color 250ms;
+  }
+  &:hover{
+    color:$base;
+    text-decoration:underline;
+    i{
+      color:$primary-color;
+    }
   }
 }
 //next up?

@@ -48,12 +48,13 @@ get_header(); ?>
 							<p class="notes" ng-if="hasNotes" ng-bind="distributors[distId].special"><b>Notes:</b> </p>
 						</div>
 					</div>
+					<div class="column small-6 small-centered joyride-help">Need help using this page? <i class="fa fa-question-circle fa-large animated pulse infinite"></i></div>
 				</div>
 				
-				<div class="row distributor-form" id="stop2">
+				<div class="row distributor-form">
 					<div class="columns small-12 medium-11 medium-centered">
 					<h3>Refine your search for a distributor</h3>
-					<ul class="button-group even-4 stack-for-small">
+					<ul class="button-group even-4 stack-for-small" id="stop2">
 					<li><a href="" class="button medium" ng-click="filterType='africa'">Africa</a></li>
 					<li><a href="" class="button medium" ng-click="filterType='europe'">Europe</a></li>
 					<li><a href="" class="button medium" ng-click="filterType='north-america'">North America</a></li>
@@ -120,16 +121,43 @@ get_header(); ?>
 
 
 <ul class="joyride-list" data-joyride>
-	<li data-text="next"><p>Welcome to Thomsons Distributors page.  Lets take a moment to show you how it works. Promise really simple</p></li>
-	<li data-id="stop1" data-text="next" data-prev-text="back" data-options="tip_location:top"><p>This is a list of all of our distributors, you can <i>click</i> on the <b>company</b> or <b>country</b> headings to sort the list</p></li>
-	<li data-id="stop2" data-text="next" data-prev-text="back" data-options="tip_location:top"><p>You can use these buttons to narrow your search by region. ( try clicking on "Europe")</p></li>
-	<li data-id="product" data-text="next" data-prev-text="back" data-options="tip_location:top"><p>You can also use the dropdown to norrow the search further by product (now click on the dorpdown and select "Filter Vials")</p></li>
-	<li data-id="stop4" data-text="next" data-prev-text="back" data-options="tip_location:right"><p>One you find a distributor you can <i>click</i> this <i class="fa fa-info-circle"></i> icon to view the full entry for that distributor (click on the <i class="fa fa-info-circle"></i> for any of the distributors shown)</p></li>
+	
+	<li data-text="next" data-options="prev_button: false">
+		<p>Welcome to Thomson's Distributors page. Let's take a moment to show you how it works.</p>
+		<p>Promise really quick & simple. :o)</p>
+	</li>
+	
+	<li data-id="stop1" data-text="next" data-prev-text="back" data-options="tip_location:top">
+		<p>This is a full list of our distributors worldwide.</p>
+		<p>You can <i>click</i> on the <b>company</b> or <b>country</b> headings to sort the list.</p>
+	</li>
+	
+	<li data-id="stop2" data-text="next" data-prev-text="back" data-options="tip_location:top">
+		<p>Use these buttons to narrow your search by region (try clicking on "Asia").</p>
+		<p>The list will update to show only distributors supplying our products in Asia!</p>
+	</li>
+	
+	<li data-id="product" data-text="next" data-prev-text="back" data-options="tip_location:top">
+		<p>You can also use the dropdown to narrow the search further by product lines. Try clicking anywhere in the dropdown bar and select "Filter Vials".</p>
+		<p>The list is now further reduced to suppliers of our Filter Vials in Asia!</p>
+	</li>
+	
+	<li data-id="stop4" data-text="next" data-prev-text="back" data-options="tip_location:right">
+		<p>Once you find a distributor, <i>click</i> the <i class="fa fa-info-circle"></i> icon to view the full entry for the distributor.</p>
+	</li>
+	
+	<li data-text="Done" data-options="prev_button:false">
+		<p>The page will scroll to the top showing the full contact information for the distributor you chose.</p>
+		<p>Thanks for taking part in learning how to use our distributors' page!</p>
+	</li>
+
 </ul>
 
 <script>
 jQuery(document).ready(function($){
-	$(document).foundation('joyride', 'start');
+	$('.joyride-help').on('click', function(){
+		$(document).foundation('joyride', 'start');
+	});
 });
 </script>
 
