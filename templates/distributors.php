@@ -50,7 +50,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="row distributor-form">
+				<div class="row distributor-form" id="stop2">
 					<div class="columns small-12 medium-11 medium-centered">
 					<h3>Refine your search for a distributor</h3>
 					<ul class="button-group even-4 stack-for-small">
@@ -73,11 +73,11 @@ get_header(); ?>
 						</select>
 				</div>
 				</div>
-				
+
 				<table role="grid">
 					<thead>
 						<tr>
-							<th>
+							<th id="stop4">
 								View
 							</th>
 							<th>
@@ -87,7 +87,7 @@ get_header(); ?>
 							<th class="hide-for-small-only">
 								<a href="" ng-click="sortType = 'country';sortReverse=!sortReverse">Country</a>
 								<i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"</i></i></th>
-							<th>phone</th>
+							<th id="stop1">phone</th>
 							<th class="hide-for-small-only">Fax</th>
 							<th>website</th>
 							<th>email</th>
@@ -117,5 +117,20 @@ get_header(); ?>
 	</div>
 		</article>
 </div>
+
+
+<ul class="joyride-list" data-joyride>
+	<li data-text="next"><p>Welcome to Thomsons Distributors page.  Lets take a moment to show you how it works. Promise really simple</p></li>
+	<li data-id="stop1" data-text="next" data-prev-text="back" data-options="tip_location:top"><p>This is a list of all of our distributors, you can <i>click</i> on the <b>company</b> or <b>country</b> headings to sort the list</p></li>
+	<li data-id="stop2" data-text="next" data-prev-text="back" data-options="tip_location:top"><p>You can use these buttons to narrow your search by region. ( try clicking on "Europe")</p></li>
+	<li data-id="product" data-text="next" data-prev-text="back" data-options="tip_location:top"><p>You can also use the dropdown to norrow the search further by product (now click on the dorpdown and select "Filter Vials")</p></li>
+	<li data-id="stop4" data-text="next" data-prev-text="back" data-options="tip_location:right"><p>One you find a distributor you can <i>click</i> this <i class="fa fa-info-circle"></i> icon to view the full entry for that distributor (click on the <i class="fa fa-info-circle"></i> for any of the distributors shown)</p></li>
+</ul>
+
+<script>
+jQuery(document).ready(function($){
+	$(document).foundation('joyride', 'start');
+});
+</script>
 
 <?php get_footer(); ?>
