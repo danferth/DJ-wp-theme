@@ -1,7 +1,7 @@
 [
 
 	{
-		"id": "0",
+		"id": 0,
 		"region": "africa",
 		"country": "All of Africa",
 		"company": "Thomson Instrument Company",
@@ -13,7 +13,7 @@
 		"web": "htslabs.com",
 		"email": "customerservice@hplc1.com"
 	}, {
-		"id": "1",
+		"id": 1,
 		"region": "africa",
 		"country": "All of Africa",
 		"company": "Biosilta",
@@ -28,7 +28,7 @@
 
 
 	{
-		"id": "2",
+		"id": 2,
 		"region": "asia",
 		"country": "China",
 		"company": "Bio Scientific Supplies Co.,Ltd ",
@@ -41,7 +41,7 @@
 		"web": "www.bio-scienti.com",
 		"email": "bioscientific@bio-scienti.com"
 	}, {
-		"id": "3",
+		"id": 3,
 		"region": "asia",
 		"country": "Japan",
 		"company": "GL Science",
@@ -53,7 +53,7 @@
 		"web": "gls.co.jp",
 		"email": "hiro-yamamoto@gls.co.jp"
 	}, {
-		"id": "4",
+		"id": 4,
 		"region": "asia",
 		"country": "Japan",
 		"company": "SCRUM",
@@ -65,7 +65,7 @@
 		"web": "scrum-net.co.jp",
 		"email": "webmaster@scrum-net.co.jp"
 	}, {
-		"id": "5",
+		"id": 5,
 		"region": "asia",
 		"country": "Korea",
 		"company": "LK Lab, Korea",
@@ -77,7 +77,7 @@
 		"web": "lklab.com",
 		"email": "phil@lklab.com"
 	}, {
-		"id": "6",
+		"id": 6,
 		"region": "asia",
 		"country": "Korea",
 		"company": "NOVAPRO Co., Ltd.",
@@ -89,7 +89,7 @@
 		"web": "www.novapro.co.kr",
 		"email": "novapro@daum.net"
 	}, {
-		"id": "7",
+		"id": 7,
 		"region": "asia",
 		"country": "Malaysia",
 		"company": "Omega Scientific (M) Sdn Bhd",
@@ -101,7 +101,7 @@
 		"web": "omegascientific.com.my",
 		"email": "sham@omegascientific.com.my"
 	}, {
-		"id": "8",
+		"id": 8,
 		"region": "asia",
 		"country": "Singapore",
 		"company": "Omega Scientific Pte Ltd",
@@ -113,7 +113,7 @@
 		"web": "omegascientific.com.sg",
 		"email": "phoebe@omegascientific.com.sg"
 	}, {
-		"id": "9",
+		"id": 9,
 		"region": "asia",
 		"country": "Thailand",
 		"company": "Omega Scientific (Thailand) Co. Ltd.",
@@ -128,7 +128,7 @@
 	},
 
 	{
-		"id": "10",
+		"id": 10,
 		"region": "Europe",
 		"country": "Europe",
 		"company": "Biosilta",
@@ -141,7 +141,7 @@
 		"web": "biosilta.com",
 		"email": "info@biosilta.com"
 	}, {
-		"id": "11",
+		"id": 11,
 		"region": "Europe",
 		"country": "Austria",
 		"company": "Axel Semrau GmbH & Co KG",
@@ -154,7 +154,7 @@
 		"web": "www.axel-semrau.de",
 		"email": "info@axel-semrau.de"
 	}, {
-		"id": "12",
+		"id": 12,
 		"region": "Europe",
 		"country": "Austria",
 		"company": "Bartelt GmbH Labor & Datentechnik",
@@ -167,7 +167,7 @@
 		"web": "www.bartelt.at ",
 		"email": "office@bartelt.at "
 	}, {
-		"id": "13",
+		"id": 13,
 		"region": "Europe",
 		"country": "Belgium",
 		"company": "Infors Benelux",
@@ -180,7 +180,7 @@
 		"web": "www.infors-ht.nl",
 		"email": "infors.bnl@infors-ht.com"
 	}, {
-		"id": "14",
+		"id": 14,
 		"region": "Europe",
 		"country": "Czech Republic",
 		"company": "Biotrade s.r.o.",
@@ -193,7 +193,7 @@
 		"web": "www.biotrade.cz",
 		"email": "biotrade@biotrade.cz"
 	}, {
-		"id": "15",
+		"id": 15,
 		"region": "Europe",
 		"country": "Denmark",
 		"company": "Buch & Holm",
@@ -206,7 +206,7 @@
 		"web": "buch-holm.dk",
 		"email": "b-h@buch-holm.dk"
 	}, {
-		"id": "16",
+		"id": 16,
 		"region": "Europe",
 		"country": "Finnland",
 		"company": "Berner Oy",
@@ -219,7 +219,7 @@
 		"web": "www.berner.fi/pro",
 		"email": "pro.tilaukset@berner.fi"
 	}, {
-		"id": "17",
+		"id": 17,
 		"region": "Europe",
 		"country": "France",
 		"company": "BGB Analytik AG",
@@ -232,7 +232,7 @@
 		"web": "bgb-analytik",
 		"email": "sales@bgb-analytik.com"
 	}, {
-		"id": "18",
+		"id": 18,
 		"region": "Europe",
 		"country": "France",
 		"company": "Infors Sarl",
@@ -245,7 +245,7 @@
 		"web": "www.infors-ht.fr",
 		"email": "infors.fr@infors-ht.com"
 	}, {
-		"id": "19",
+		"id": 19,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "Axel Semrau GmbH & Co KG",
@@ -258,7 +258,7 @@
 		"web": "www.axel-semrau.de",
 		"email": "info@axel-semrau.de"
 	}, {
-		"id": "20",
+		"id": 20,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "BGB Analytik Vertrieb GmbH",
@@ -271,7 +271,7 @@
 		"web": "bgb-analytik",
 		"email": "sales.de@bgb-analytik.com"
 	}, {
-		"id": "21",
+		"id": 21,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "Bischoff",
@@ -284,7 +284,7 @@
 		"web": "bischoff-chrom.de",
 		"email": "info@bischoff-chrom.de"
 	}, {
-		"id": "22",
+		"id": 22,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "Chrom4 GMBH",
@@ -297,7 +297,7 @@
 		"web": "lifescience.ca",
 		"email": "kick@lifescience.ca"
 	}, {
-		"id": "23",
+		"id": 23,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "Infors GmbH",
@@ -310,7 +310,7 @@
 		"web": "www.infors-ht.de",
 		"email": "infors.de@infors-ht.com"
 	}, {
-		"id": "24",
+		"id": 24,
 		"region": "Europe",
 		"country": "Greece",
 		"company": "N.ASTERIADIS",
@@ -323,7 +323,7 @@
 		"web": "www.asteriadis.gr",
 		"email": "info@asteriadis.gr"
 	}, {
-		"id": "25",
+		"id": 25,
 		"region": "Europe",
 		"country": "Ireland",
 		"company": "Elementec Ltd",
@@ -336,7 +336,7 @@
 		"web": "www.elementec.ie",
 		"email": "sales@elementec.ie"
 	}, {
-		"id": "26",
+		"id": 26,
 		"region": "Europe",
 		"country": "Italy",
 		"company": "AHSI s.p.a.",
@@ -349,7 +349,7 @@
 		"web": "www.ahsi.it",
 		"email": "info@ahsi.it"
 	}, {
-		"id": "27",
+		"id": 27,
 		"region": "Europe",
 		"country": "Italy",
 		"company": "CPS Analitica Srl",
@@ -362,7 +362,7 @@
 		"web": "cps.it",
 		"email": "cps@cps.it"
 	}, {
-		"id": "28",
+		"id": 28,
 		"region": "Europe",
 		"country": "Italy",
 		"company": "Superchrom Restek",
@@ -375,7 +375,7 @@
 		"web": "www.superchrom.it/",
 		"email": "superchrom@superchrom.it"
 	}, {
-		"id": "29",
+		"id": 29,
 		"region": "Europe",
 		"country": "The Netherlands",
 		"company": "Infors Benelux",
@@ -388,7 +388,7 @@
 		"web": "www.infors-ht.nl",
 		"email": "infors.bnl@infors-ht.com"
 	}, {
-		"id": "30",
+		"id": 30,
 		"region": "Europe",
 		"country": "Norway",
 		"company": "L.A.B. Norway AS",
@@ -401,7 +401,7 @@
 		"web": "www.labnorway.net",
 		"email": "info@labnorway.net"
 	}, {
-		"id": "31",
+		"id": 31,
 		"region": "Europe",
 		"country": "Poland",
 		"company": "BIURO HANDLU ZAGRANICZNEGO 'AGEMA'",
@@ -414,7 +414,7 @@
 		"web": "www.agema-lab.pl",
 		"email": "agema@infocentrum.com"
 	}, {
-		"id": "32",
+		"id": 32,
 		"region": "Europe",
 		"country": "Portugal",
 		"company": "Fisher Scientific",
@@ -427,7 +427,7 @@
 		"web": "www.thermofisher.com",
 		"email": ""
 	}, {
-		"id": "33",
+		"id": 33,
 		"region": "Europe",
 		"country": "Portugal",
 		"company": "Tecnocroma - T&eacute;cnicas Anal&iacute;ticas, Lda.",
@@ -440,7 +440,7 @@
 		"web": "www.tecnocroma.pt",
 		"email": "info@tecnocroma.pt"
 	}, {
-		"id": "34",
+		"id": 34,
 		"region": "Europe",
 		"country": "Romania",
 		"company": "Sartorom",
@@ -453,7 +453,7 @@
 		"web": "www.sartorom.ro",
 		"email": "info@sartorom.ro"
 	}, {
-		"id": "35",
+		"id": 35,
 		"region": "Europe",
 		"country": "Russia",
 		"company": "Dia-M",
@@ -466,7 +466,7 @@
 		"web": "www.dia-m.ru",
 		"email": "info@dia-m.ru"
 	}, {
-		"id": "36",
+		"id": 36,
 		"region": "Europe",
 		"country": "Slovakia",
 		"company": "Biotrade s.r.o.",
@@ -479,7 +479,7 @@
 		"web": "www.biotrade.cz",
 		"email": "biotrade@biotrade.cz"
 	}, {
-		"id": "37",
+		"id": 37,
 		"region": "Europe",
 		"country": "Slovenia",
 		"company": "BIA Laboratory and Process Equipment Company Ltd.",
@@ -492,7 +492,7 @@
 		"web": "bia.si",
 		"email": "sales@bia.si"
 	}, {
-		"id": "38",
+		"id": 38,
 		"region": "Europe",
 		"country": "Spain",
 		"company": "Biogen Cientifica, S.L.",
@@ -505,7 +505,7 @@
 		"web": "www.biogen.es",
 		"email": "biogen@biogencientifica.com"
 	}, {
-		"id": "39",
+		"id": 39,
 		"region": "Europe",
 		"country": "Spain",
 		"company": "Sugelabor",
@@ -518,7 +518,7 @@
 		"web": "sugelabor.com",
 		"email": "info@sugelabor.com"
 	}, {
-		"id": "40",
+		"id": 40,
 		"region": "Europe",
 		"country": "Sweden",
 		"company": "L.A.B. Sweden AB",
@@ -531,7 +531,7 @@
 		"web": "www.lab.se",
 		"email": "info@lab.se"
 	}, {
-		"id": "41",
+		"id": 41,
 		"region": "Europe",
 		"country": "Switzerland",
 		"company": "BGB Analytik AG",
@@ -544,7 +544,7 @@
 		"web": "bgb-analytik",
 		"email": "sales@bgb-analytik.com"
 	}, {
-		"id": "42",
+		"id": 42,
 		"region": "Europe",
 		"country": "Switzerland",
 		"company": "Infors AG, Headoffice",
@@ -557,7 +557,7 @@
 		"web": "infors-ht.com",
 		"email": "info@infors-ht.com"
 	}, {
-		"id": "43",
+		"id": 43,
 		"region": "Europe",
 		"country": "Switzerland",
 		"company": "Brechbuehler",
@@ -570,7 +570,7 @@
 		"web": "brechbuehler.ch",
 		"email": "patrickkugel@brechbuehler.ch"
 	}, {
-		"id": "44",
+		"id": 44,
 		"region": "Europe",
 		"country": "Switzerland",
 		"company": "WICOM International AG , Switzerland",
@@ -583,7 +583,7 @@
 		"web": "www.wicomint.ch",
 		"email": "info@wicomint.ch"
 	}, {
-		"id": "45",
+		"id": 45,
 		"region": "Europe",
 		"country": "UK",
 		"company": "Bioprocess Engineering Services Ltd",
@@ -596,7 +596,7 @@
 		"web": "bioprocess-eng.co.uk",
 		"email": "info@bioprocess-eng.co.uk"
 	}, {
-		"id": "46",
+		"id": 46,
 		"region": "Europe",
 		"country": "UK",
 		"company": "VWR International Ltd.",
@@ -609,7 +609,7 @@
 		"web": "www.vwr.com",
 		"email": "uksales@uk.vwr.com"
 	}, {
-		"id": "47",
+		"id": 47,
 		"region": "Europe",
 		"country": "UK",
 		"company": "Generon",
@@ -622,7 +622,7 @@
 		"web": "generon.co.uk",
 		"email": "info@generon.co.uk"
 	}, {
-		"id": "48",
+		"id": 48,
 		"region": "Europe",
 		"country": "UK",
 		"company": "Thames Restek",
@@ -635,7 +635,7 @@
 		"web": "thamesrestek.co.uk",
 		"email": "sales@thamesrestek.co.uk"
 	}, {
-		"id": "49",
+		"id": 49,
 		"region": "Europe",
 		"country": "ex Yugoslavia Regions",
 		"company": "BIA Laboratory and Process Equipment Company Ltd.",
@@ -649,7 +649,7 @@
 		"email": "sales@bia.si",
 		"special": "ex Yugoslavia Regions (Croatia, Bosnia, Herzegovina, Serbia, Macedonia, Montenegro, Kosovo)"
 	}, {
-		"id": "50",
+		"id": 50,
 		"region": "Middle-East",
 		"country": "Israel",
 		"company": "Yair",
@@ -662,7 +662,7 @@
 		"web": "www.yairtech.co.il",
 		"email": "contact@yairtech.co.il"
 	}, {
-		"id": "51",
+		"id": 51,
 		"region": "north-america",
 		"country": "Canada",
 		"company": "Thomson Instrument Company",
@@ -674,7 +674,7 @@
 		"web": "htslabs.com",
 		"email": "customerservice@hplc1.com"
 	}, {
-		"id": "52",
+		"id": 52,
 		"region": "north-america",
 		"country": "Canada",
 		"company": "Canadian Lifescience",
@@ -686,7 +686,7 @@
 		"web": "lifescience.ca",
 		"email": "Info@lifescience.ca"
 	}, {
-		"id": "53",
+		"id": 53,
 		"region": "north-america",
 		"country": "Canada",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -699,7 +699,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": "54",
+		"id": 54,
 		"region": "north-america",
 		"country": "Caribbean Islands",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -712,7 +712,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": "55",
+		"id": 55,
 		"region": "north-america",
 		"country": "Central America",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -725,7 +725,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": "56",
+		"id": 56,
 		"region": "north-america",
 		"country": "Mexico",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -738,7 +738,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": "57",
+		"id": 57,
 		"region": "north-america",
 		"country": "Puerto Rico",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -751,7 +751,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": "58",
+		"id": 58,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Thomson Instrument Company",
@@ -763,7 +763,7 @@
 		"web": "htslabs.com",
 		"email": "customerservice@hplc1.com"
 	}, {
-		"id": "59",
+		"id": 59,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Boca Scientific",
@@ -776,7 +776,7 @@
 		"web": "bocascientific.com",
 		"email": "syd@bocascientific.com"
 	}, {
-		"id": "60",
+		"id": 60,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Chrom Tech",
@@ -788,7 +788,7 @@
 		"web": "chromtech.com",
 		"email": "sales@chromtech.com"
 	}, {
-		"id": "61",
+		"id": 61,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Fisher",
@@ -800,7 +800,7 @@
 		"web": "fishersci.com",
 		"email": ""
 	}, {
-		"id": "62",
+		"id": 62,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Midland Scientific",
@@ -812,7 +812,7 @@
 		"web": "midlandsci.com",
 		"email": "info@midlandsci.com"
 	}, {
-		"id": "63",
+		"id": 63,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Nurnberg Scientific",
@@ -824,7 +824,7 @@
 		"web": "www.nurnberg.com",
 		"email": "sales@nurnberg.com"
 	}, {
-		"id": "64",
+		"id": 64,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Restek",
@@ -836,7 +836,7 @@
 		"web": "restek.com",
 		"email": "Carrie.Sprout@restek.com"
 	}, {
-		"id": "65",
+		"id": 65,
 		"region": "north-america",
 		"country": "USA",
 		"company": "SepSolutions",
@@ -848,7 +848,7 @@
 		"web": "www.sepsolutions.net",
 		"email": "pbarthel9042@gmail.com"
 	}, {
-		"id": "66",
+		"id": 66,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -861,7 +861,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": "67",
+		"id": 67,
 		"region": "north-america",
 		"country": "USA",
 		"company": "VWR",
@@ -873,7 +873,7 @@
 		"web": "VWR.com",
 		"email": ""
 	}, {
-		"id": "68",
+		"id": 68,
 		"region": "Oceana",
 		"country": "Australia",
 		"company": "Genesearch Pty Ltd.",
@@ -885,7 +885,7 @@
 		"web": "genesearch.com.au",
 		"email": "info@genesearch.com.au"
 	}, {
-		"id": "69",
+		"id": 69,
 		"region": "Oceana",
 		"country": "New Zealand",
 		"company": "Genesearch Pty Ltd.",
@@ -897,7 +897,7 @@
 		"web": "genesearch.com.au",
 		"email": "info@genesearch.com.au"
 	}, {
-		"id": "70",
+		"id": 70,
 		"region": "south-america",
 		"country": "South America",
 		"company": "Thomson Instrument Company",
@@ -911,7 +911,7 @@
 	},
 
 	{
-		"id": "71",
+		"id": 71,
 		"region": "south-america",
 		"country": "Colombia",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -926,7 +926,7 @@
 	},
 
 	{
-		"id": "72",
+		"id": 72,
 		"region": "south-america",
 		"country": "Venezuela",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -939,7 +939,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": "73",
+		"id": 73,
 		"region": "worldwide",
 		"country": "Worldwide",
 		"products": ["All Products", "Filter Vials", "Well Plates", "Flasks", "Plasmid+"],
@@ -954,7 +954,7 @@
 	},
 
 	{
-		"id": "74",
+		"id": 74,
 		"region": "worldwide",
 		"country": "Worldwide",
 		"company": "Restek",

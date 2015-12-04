@@ -2,7 +2,7 @@ var distributors = angular.module('distributors', ['ngSanitize']);
 
 distributors.controller('distController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
     //grab JSON data
-    $http.get('https://tic-wp-danferth.c9.io/wp-content/themes/TIC-f/assets/javascript/distributors.json').then(function(res){
+    $http.get('../wp-content/themes/TIC/assets/javascript/distributors.json').then(function(res){
       $scope.distributors = res.data;
     
     //set defaults for single distributor view
