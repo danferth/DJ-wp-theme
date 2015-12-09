@@ -965,5 +965,17 @@
 		"webUrl": "http://www.restek.com",
 		"web": "restek.com",
 		"email": "Carrie.Sprout@restek.com"
+	},{
+		"id": 75,
+		"region": "Europe",
+		"country": "Ireland",
+		"company": "VWR International Limited",
+		"products": ["Filter Vials"],
+		"address": "Orion Business Park,\nNorth West Business Park,\nBallycoolin, Dublin,  D15 WP96",
+		"tel": "00353 1 88 22 222",
+		"fax": "00353 1 88 22 333 ",
+		"webUrl": "https://ie.vwr.com/store/",
+		"web": "www.vwr.ie",
+		"email": "sales@ie.vwr.com"
 	}
 ]
