@@ -1,0 +1,691 @@
+[
+	{
+	"chemical" : "Acetic Acid (glacial)",
+	"type" : "acid, organic",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "R",
+	"NYLON" : "NR"
+	},{
+	"chemical" : "Acetone",
+	"type" : "ketone",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "NR",
+	"PES" : "GNR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Acetonitrile (ACN)",
+	"type" : "nitrile",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "LTD",
+	"PES" : "NR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Alconox, 1%",
+	"type" : "surfactant/detergent",
+	"polypropylene" : "ND",
+	"PTFE" : "TST",
+	"PVDF" : "TST",
+	"PES" : "ND",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Ammonium Hydroxide",
+	"type" : "caustic",
+	"polypropylene" : "TST",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "NR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Ammonium Sulfate (saturated)",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "NR",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Amyl Acetate",
+	"type" : "ester",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Amyl Alcohol",
+	"type" : "alcohol",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Benzene",
+	"type" : "HC, aromatic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Benzyl Alcohol",
+	"type" : "HC aromatic/alcohol",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Boric Acid (aqueous solution)",
+	"type" : "acid, inorganic",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "TST",
+	"PES" : "GR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Butyl Acetate",
+	"type" : "ester",
+	"polypropylene" : "TST",
+	"PTFE" : "GR",
+	"PVDF" : "TST",
+	"PES" : "GNR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Butyl Alcohol",
+	"type" : "alcohol",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Carbon Tetrachloride",
+	"type" : "HC, halogenated",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Cellosolve (Ethyl)",
+	"type" : "glycol ether",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "ND",
+	"PES" : "GR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "CHAPS (aqueous solution)",
+	"type" : "surfactant/detergent",
+	"polypropylene" : "ND",
+	"PTFE" : "TST",
+	"PVDF" : "ND",
+	"PES" : "ND",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Chloroform",
+	"type" : "HC, halogenated",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Cyclohexanone",
+	"type" : "ketone",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Diethyl Pyrocarbonate, 0.2%",
+	"type" : "carboxylic anhydride",
+	"polypropylene" : "ND",
+	"PTFE" : "ND",
+	"PVDF" : "TST",
+	"PES" : "ND",
+	"NYLON" : "ND"
+	},{
+	"chemical" : "Dimethyl Sulfoxide (DMSO)",
+	"type" : "sulfoxide",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "NR",
+	"PES" : "NR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Dimethylacetamide",
+	"type" : "amide",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "NR",
+	"PES" : "NR",
+	"NYLON" : "NR"
+	},{
+	"chemical" : "Dimethylformamide",
+	"type" : "amide",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "NR",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Dioxane",
+	"type" : "ether",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Ethers",
+	"type" : "ether",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Ethyl Acetate",
+	"type" : "ester",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GNR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Ethyl Alcohol",
+	"type" : "alcohol",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Ethylene Glycol",
+	"type" : "glycol",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Formaldehyde",
+	"type" : "aldehyde",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Formic Acid, 50%",
+	"type" : "acid, organic",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "NR"
+	},{
+	"chemical" : "Freon (TF or PCA)",
+	"type" : "HC, halogenated",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Gasoline",
+	"type" : "HC",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Glycerine (Glycerol)",
+	"type" : "glycol",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Guanidine Hydrochloride, 6M",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "ND",
+	"PTFE" : "GR",
+	"PVDF" : "ND",
+	"PES" : "ND",
+	"NYLON" : "ND"
+	},{
+	"chemical" : "Guanidine Thiocyanate, 5M",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "ND",
+	"PTFE" : "GR",
+	"PVDF" : "ND",
+	"PES" : "ND",
+	"NYLON" : "ND"
+	},{
+	"chemical" : "Helium",
+	"type" : "gas",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "TST",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Hexane",
+	"type" : "HC, aliphatic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Hydrochloric Acid, 1N (HCL)",
+	"type" : "acid, inorganic",
+	"polypropylene" : "GR",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "GR"
+	},{
+	"chemical" : "Hydrochloric Acid, 6N (HCL)",
+	"type" : "acid, inorganic",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "TST",
+	"PES" : "GR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Hydrochloric Acid, conc. (HCL)",
+	"type" : "acid, inorganic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Hydrofluoric Acid",
+	"type" : "acid, inorganic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Hydrogen",
+	"type" : "gas",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Hydrogen Peroxide, 3%",
+	"type" : "peroxide",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Hydrogen Peroxide, 30%",
+	"type" : "peroxide",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Hydrogen Peroxide, 90%",
+	"type" : "peroxide",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "NR"
+	},{
+	"chemical" : "HYPO (aqueous solution)",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Isobutyl Alcohol",
+	"type" : "alcohol",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Isopropyl Acetate",
+	"type" : "ester",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GNR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Isopropyl Alcohol",
+	"type" : "alcohol",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Kerosene",
+	"type" : "HC",
+	"polypropylene" : "TST",
+	"PTFE" : "LTD",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Lactic Acid, 50%",
+	"type" : "acid, organic/alcohol",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "TST",
+	"PES" : "ND",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Lubrol PX (aqueous solution)",
+	"type" : "surfactant/detergent",
+	"polypropylene" : "ND",
+	"PTFE" : "TST",
+	"PVDF" : "ND",
+	"PES" : "ND",
+	"NYLON" : "ND"
+	},{
+	"chemical" : "Methyl Ethyl Ketone (MEK)",
+	"type" : "ketone",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "NR",
+	"PES" : "GNR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Mercaptoethanol, 0.1M",
+	"type" : "alcohol/mercaptan",
+	"polypropylene" : "ND",
+	"PTFE" : "ND",
+	"PVDF" : "ND",
+	"PES" : "ND",
+	"NYLON" : "ND"
+	},{
+	"chemical" : "Methyl Acetate",
+	"type" : "ester",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "NR",
+	"PES" : "GNR",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Methyl Alcohol",
+	"type" : "alcohol",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "GR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Methylene Chloride",
+	"type" : "HC, halogenated",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Methyl Isobutyl Ketone (MIBK)",
+	"type" : "ketone",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Mineral Spirits",
+	"type" : "HC",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Nitric Acid, 6N",
+	"type" : "acid, inorganic",
+	"polypropylene" : "TST",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "R",
+	"NYLON" : "NR"
+	},{
+	"chemical" : "Nitric Acid (concentrated)",
+	"type" : "acid, inorganic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Nitrobenzene",
+	"type" : "HC, aromatic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Nitrogen",
+	"type" : "gas",
+	"polypropylene" : "ND",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Nonidet-P40 (aqueous solution)",
+	"type" : "surfactant/detergent",
+	"polypropylene" : "ND",
+	"PTFE" : "ND",
+	"PVDF" : "ND",
+	"PES" : "ND",
+	"NYLON" : "ND"
+	},{
+	"chemical" : "Ozone",
+	"type" : "gas",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Paraldehyde",
+	"type" : "aldehyde",
+	"polypropylene" : "TST",
+	"PTFE" : "GR",
+	"PVDF" : "TST",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Pentane",
+	"type" : "HC, aliphatic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Petroleum Ether",
+	"type" : "ether",
+	"polypropylene" : "ND",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Phenol (aqueous solution)",
+	"type" : "phenol",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Potassium Hydroxide, 3N",
+	"type" : "caustic",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Pyridine",
+	"type" : "amine",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "NR",
+	"PES" : "NR",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Silicone Oils",
+	"type" : "silicone",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Sodium Carbonate (aqueous solu-tion)",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Water (Brine)",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Sodium Chloride (aqueous solution)",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Sodium Dodecyl Sulfate",
+	"type" : "surfactant/detergent",
+	"polypropylene" : "ND",
+	"PTFE" : "ND",
+	"PVDF" : "ND",
+	"PES" : "ND",
+	"NYLON" : "ND"
+	},{
+	"chemical" : "Sodium Hydroxide, 3N",
+	"type" : "caustic",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "R",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Sodium Hydroxide (concentrated)",
+	"type" : "caustic",
+	"polypropylene" : "R",
+	"PTFE" : "R",
+	"PVDF" : "R",
+	"PES" : "R",
+	"NYLON" : "NR"
+	},{
+	"chemical" : "Sulfuric Acid (concentrated)",
+	"type" : "acid, inorganic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Tetrahydrofuran (THF)",
+	"type" : "ether",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Toluene",
+	"type" : "HC, aromatic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "TCA (aqueous solution)",
+	"type" : "acid, organic",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Trichloroethane",
+	"type" : "HC, halogenated",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Trichloroethylene",
+	"type" : "HC, halogenated",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	},{
+	"chemical" : "Tween 20 (aqueous solution)",
+	"type" : "surfactant/detergent",
+	"polypropylene" : "ND",
+	"PTFE" : "R",
+	"PVDF" : "TST",
+	"PES" : "ND",
+	"NYLON" : "TST"
+	},{
+	"chemical" : "Urea, 8M",
+	"type" : "salt, aqueous solution",
+	"polypropylene" : "R",
+	"PTFE" : "GR",
+	"PVDF" : "R",
+	"PES" : "ND",
+	"NYLON" : "R"
+	},{
+	"chemical" : "Xylene",
+	"type" : "HC, aromatic",
+	"polypropylene" : "NR",
+	"PTFE" : "—",
+	"PVDF" : "—",
+	"PES" : "—",
+	"NYLON" : "—"
+	}
+]

@@ -1,0 +1,399 @@
+[
+	{
+		"drugName" : "5-Fluorouracil",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30,31]
+	},{
+		"drugName" : "(18F) Fluoromisondazole, Misiomidazole",
+		"membrane" : "PVDF",
+		"poreSize" : "0.2",
+		"capColor" : "red",
+		"referance" : [5]
+	},{
+		"drugName" : "Acebutolol",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Acetylsalicylic acid",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Alpha1-Proteinase Inhibitor (Human)",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [28]
+	},{
+		"drugName" : "Alprenolol",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Amiloride",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Amphotericin B for Injection USP",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [14,21,24,32,37]
+	},{
+		"drugName" : "Atenolol",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Azathioprine",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [35]
+	},{
+		"drugName" : "Azodicarbonamide",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [6]
+	},{
+		"drugName" : "Bleomycin Sulfate",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30,31]
+	},{
+		"drugName" : "Caffeine",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Cetirizine",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [34]
+	},{
+		"drugName" : "Chlorothiazide",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Chloramphenicol",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Cimetidine",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Ciprofloxacin",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [29]
+	},{
+		"drugName" : "Cisplatin, Cisplatin Injection",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30,31]
+	},{
+		"drugName" : "Cyclosporine A",
+		"membrane" : "PVDF",
+		"poreSize" : "0.2",
+		"capColor" : "red",
+		"referance" : [10]
+	},{
+		"drugName" : "Cytarabine",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30]
+	},{
+		"drugName" : "Daunorubicin",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [2,30,31]
+	},{
+		"drugName" : "DE-310",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [27]
+	},{
+		"drugName" : "Diclofenac",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [1]
+	},{
+		"drugName" : "Enalapril",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Ethionamide",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [17]
+	},{
+		"drugName" : "Factor IX Complex Heat-Treated",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [28]
+	},{
+		"drugName" : "Gatifloxacin",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [22]
+	},{
+		"drugName" : "Hydrochlorothiazide",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Ibuprofen",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [1]
+	},{
+		"drugName" : "Iosniazid",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [17]
+	},{
+		"drugName" : "isonicotinic acid",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [17]
+	},{
+		"drugName" : "Ketamine",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [26]
+	},{
+		"drugName" : "Las 35917",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [15]
+	},{
+		"drugName" : "Levofloxacin",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [22]
+	},{
+		"drugName" : "Lomefloxacin",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [22]
+	},{
+		"drugName" : "Methyl Gag; NSC-32946",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30,31]
+	},{
+		"drugName" : "Metoprolol",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Mitomycin",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30,31]
+	},{
+		"drugName" : "Morphazinamide",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [17]
+	},{
+		"drugName" : "Nadolol",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Nicotinic acid",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [17]
+	},{
+		"drugName" : "Paclitaxel",
+		"membrane" : "PVDF",
+		"poreSize" : "0.2",
+		"capColor" : "red",
+		"referance" : [7]
+	},{
+		"drugName" : "p-Aminobenzoic acid (PABA)",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [28]
+	},{
+		"drugName" : "p-aminosalicylic acid",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [1]
+	},{
+		"drugName" : "Pefloxacin",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [22]
+	},{
+		"drugName" : "Pentoxifylline (PTX)",
+		"membrane" : "PVDF",
+		"poreSize" : "0.2",
+		"capColor" : "red",
+		"referance" : [23]
+	},{
+		"drugName" : "Phenytoin",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [33]
+	},{
+		"drugName" : "Pyrazinamide",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [17]
+	},{
+		"drugName" : "Pyrimethamine",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [20]
+	},{
+		"drugName" : "Ranitidine",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Rifampicin",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [16]
+	},{
+		"drugName" : "Sabeluzole",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [11]
+	},{
+		"drugName" : "Streptokinase",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [24]
+	},{
+		"drugName" : "Sulfadozine",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [20]
+	},{
+		"drugName" : "Sulphasalazine",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Sulpiride",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Terbutaline",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Thiotepa Parenteral Sterile",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30,31]
+	},{
+		"drugName" : "Timolol",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Tobramycin Vincristine Sulfate",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [4,8,9,13,18,19,30,31,36]
+	},{
+		"drugName" : "Tranexamic acid",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [12]
+	},{
+		"drugName" : "Triamcinolone Acetonide",
+		"membrane" : "PES",
+		"poreSize" : "0.2",
+		"capColor" : "grey",
+		"referance" : [25]
+	},{
+		"drugName" : "Triazinate; NSC-139105",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30]
+	},{
+		"drugName" : "Tropicamide",
+		"membrane" : "PVDF",
+		"poreSize" : ".45",
+		"capColor" : "yellow",
+		"referance" : [3]
+	},{
+		"drugName" : "Vinblastine Sulfate",
+		"membrane" : "PTFE",
+		"poreSize" : "0.2",
+		"capColor" : "green",
+		"referance" : [30,31]
+	}
+]
