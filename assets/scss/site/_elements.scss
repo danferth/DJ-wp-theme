@@ -256,4 +256,25 @@ video.tech-video-page-single{
     }
   }
 }
+
+//=====================================================================
+//================Compound compatibility index Page====================
+//=====================================================================
+.compoundCompatibility{
+  .referanceLink{
+    margin-right:.25rem;
+    &:after{
+      content:",";
+    }
+    &:last-of-type{
+      margin-right:0;
+      &:after{
+        content:"";
+      }
+    }
+  }
+}
+
+
+
 //next up?

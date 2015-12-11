@@ -62,3 +62,15 @@ distributors.controller('distController', ['$scope', '$http', '$sce', function($
     
 
 }]);
+
+var compound = angular.module('compound', []);
+
+compound.controller('compoundController', ['$scope', '$http', function($scope, $http){
+  $http.get('../wp-content/themes/TIC/assets/javascript/compound.json').then(
+    function(rslt){
+      $scope.compounds = rslt.data;
+    });
+    
+    $scope.sortReverse = false;
+    $scope.sortType = "drugName";
+}]);
