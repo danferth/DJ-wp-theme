@@ -74,3 +74,33 @@ compound.controller('compoundController', ['$scope', '$http', function($scope, $
     $scope.sortReverse = false;
     $scope.sortType = "drugName";
 }]);
+
+
+var chemicalIndex = angular.module('chemicalIndex', []);
+
+chemicalIndex.controller('chemicalIndexController', ['$scope', '$http',function($scope, $http){
+  $http.get('../wp-content/themes/TIC/assets/javascript/chemical.json').then(function(rslt){
+    $scope.chemical = rslt.data;
+    
+    
+    $scope.sortType = "chemical";
+    $scope.sortReverse = false;
+    
+    $scope.legend = function(n){
+      var legendSet = {
+        "R" : "Recommended",
+        "GR" : "Generally Recommended",
+        "LTD" : "Limited Recommendation",
+        "NR" : "Not Recommended",
+        "GNR" : "Generally Not Recommended",
+        "TST" : "Testing Recommended",
+        "ND" : "No Data Presently Available "
+      };
+      
+      return legendSet[n];
+      
+    };
+  
+  });
+  
+}]);

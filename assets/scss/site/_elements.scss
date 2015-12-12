@@ -274,7 +274,41 @@ video.tech-video-page-single{
     }
   }
 }
+.referances{
+  margin-top:3rem;
+  padding-bottom:3rem;
+  border-top:4px solid $secondary-color;
+  background:$ghost;
+}
 
-
-
+//=====================================================================
+//================Chemical compatibility index Page====================
+//=====================================================================
+.chemical-index{
+  thead{
+    th{
+      text-align:center;
+    }
+    th span{
+      color:$charcoal;
+      font-size:.65rem;
+      font-weight:normal;
+      font-style:italic;
+    }
+  }
+  tbody{
+    tr td{
+      cursor:pointer;
+      text-align:center;
+      &:first-of-type{
+        text-align:left;
+        span{
+          color:$aluminum;
+          font-size:.7rem;
+          font-style:italic;
+        }
+      }
+    }
+  }
+}
 //next up?
