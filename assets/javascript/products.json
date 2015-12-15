@@ -1,0 +1,834 @@
+[
+	{
+		"line" : "FV",
+		"series" : "standard",
+		"title" : "PVDF Standard|Filter Vial 0.2μm",
+		"description1" : "With Pre-Split Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "35531-200", "qty" : "200"},
+			{"num" : "35531-500", "qty" : "500"}
+		],
+		"image" : "../35531-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "standard",
+		"title" : "PVDF Standard|Filter Vial 0.45μm",
+		"description1" : "With Pre-Split Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "35541-200", "qty" : "200"},
+			{"num" : "35541-500", "qty" : "500"}
+		],
+		"image" : "../35541-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "standard",
+		"title" : "PTFE Standard|Filter Vial 0.2μm",
+		"description1" : "With Pre-Split Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "35530-200", "qty" : "200"},
+			{"num" : "35530-500", "qty" : "500"}
+		],
+		"image" : "../35530-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "standard",
+		"title" : "PTFE Standard|Filter Vial 0.45μm",
+		"description1" : "With Pre-Split Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "35540-200", "qty" : "200"},
+			{"num" : "35540-500", "qty" : "500"}
+		],
+		"image" : "../35540-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "standard",
+		"title" : "PES Standard|Filter Vial 0.2μm",
+		"description1" : "With Pre-Split Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "35535-200", "qty" : "200"},
+			{"num" : "35535-500", "qty" : "500"}
+		],
+		"image" : "../35535-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "standard",
+		"title" : "Nylon Standard|Filter Vial 0.2μm",
+		"description1" : "With Pre-Split Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "35538-200", "qty" : "200"},
+			{"num" : "35538-500", "qty" : "500"}
+		],
+		"image" : "../35538-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "standard",
+		"title" : "Nylon Standard|Filter Vial 0.45μm",
+		"description1" : "With Pre-Split Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "35539-200", "qty" : "200"},
+			{"num" : "35539-500", "qty" : "500"}
+		],
+		"image" : "../35539-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PVDF nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "15531-200", "qty" : "200"},
+			{"num" : "15531-500", "qty" : "500"}
+		],
+		"image" : "../15531-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PVDF nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "with Pre-Slit Cap",
+		"partNumber" : [
+			{"num" : "25531-200", "qty" : "200"},
+			{"num" : "25531-500", "qty" : "500"}
+		],
+		"image" : "../25531-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PVDF nano|Filter Vial 0.45μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "15541-200", "qty" : "200"},
+			{"num" : "15541-500", "qty" : "500"}
+		],
+		"image" : "../15541-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PVDF nano|Filter Vial 0.45μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "with Pre-Slit Cap",
+		"partNumber" : [
+			{"num" : "25541-200", "qty" : "200"},
+			{"num" : "25541-500", "qty" : "500"}
+		],
+		"image" : "../25541-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PTFE nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "15530-200", "qty" : "200"},
+			{"num" : "15530-500", "qty" : "500"}
+		],
+		"image" : "../15530-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PTFE nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "with Pre-Slit Cap",
+		"partNumber" : [
+			{"num" : "25530-200", "qty" : "200"},
+			{"num" : "25530-500", "qty" : "500"}
+		],
+		"image" : "../25530-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PTFE nano|Filter Vial 0.45μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "15540-200", "qty" : "200"},
+			{"num" : "15540-500", "qty" : "500"}
+		],
+		"image" : "../15540-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PTFE nano|Filter Vial 0.45μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "with Pre-Slit Cap",
+		"partNumber" : [
+			{"num" : "25540-200", "qty" : "200"},
+			{"num" : "25540-500", "qty" : "500"}
+		],
+		"image" : "../25540-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PES nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "15535-200", "qty" : "200"},
+			{"num" : "15535-500", "qty" : "500"}
+		],
+		"image" : "../15535-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "PES nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "with Pre-Slit Cap",
+		"partNumber" : [
+			{"num" : "25535-200", "qty" : "200"},
+			{"num" : "25535-500", "qty" : "500"}
+		],
+		"image" : "../25535-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "Nylon nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "15538-200", "qty" : "200"},
+			{"num" : "15538-500", "qty" : "500"}
+		],
+		"image" : "../15538-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "nano",
+		"title" : "Nylon nano|Filter Vial 0.2μm",
+		"description1" : "For samples down to 10μL, Patented",
+		"description2" : "with Pre-Slit Cap",
+		"partNumber" : [
+			{"num" : "25538-200", "qty" : "200"},
+			{"num" : "25538-500", "qty" : "500"}
+		],
+		"image" : "../25538-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extreme",
+		"title" : "PVDF eXtreme|FV0.2μm",
+		"description1" : "With tiered filtration | patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "85531-200", "qty" : "200"},
+			{"num" : "85531-500", "qty" : "500"}
+		],
+		"image" : "../85531-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extreme",
+		"title" : "PVDF eXtreme|FV0.45μm",
+		"description1" : "With tiered filtration | patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "85541-200", "qty" : "200"},
+			{"num" : "85541-500", "qty" : "500"}
+		],
+		"image" : "../85541-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extreme",
+		"title" : "PTFE eXtreme|FV 0.2μm",
+		"description1" : "With tiered filtration | patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "85530-200", "qty" : "200"},
+			{"num" : "85530-500", "qty" : "500"}
+		],
+		"image" : "../85530-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extreme",
+		"title" : "PTFE eXtreme|FV 0.45μm",
+		"description1" : "With tiered filtration | patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "85540-200", "qty" : "200"},
+			{"num" : "85540-500", "qty" : "500"}
+		],
+		"image" : "../85540-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extreme",
+		"title" : "PES eXtreme|FV 0.2μm",
+		"description1" : "With tiered filtration | patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "85535-200", "qty" : "200"},
+			{"num" : "85535-500", "qty" : "500"}
+		],
+		"image" : "../85535-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extreme",
+		"title" : "Nylon eXtreme|FV 0.2μm",
+		"description1" : "With tiered filtration | patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "85538-200", "qty" : "200"},
+			{"num" : "85538-500", "qty" : "500"}
+		],
+		"image" : "../85538-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extreme",
+		"title" : "Nylon eXtreme|FV 0.45μm",
+		"description1" : "With tiered filtration | patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "85539-200", "qty" : "200"},
+			{"num" : "85539-500", "qty" : "500"}
+		],
+		"image" : "../85539-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "mega",
+		"title" : "PVDF MEGA|FV™ 0.2μm",
+		"description1" : "Filter Once for Multiple Applications",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "48831-200", "qty" : "200"},
+			{"num" : "48831-500", "qty" : "500"}
+		],
+		"image" : "../48831-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "mega",
+		"title" : "PVDF MEGA|FV™ 0.45μm",
+		"description1" : "Filter Once for Multiple Applications",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "48841-200", "qty" : "200"},
+			{"num" : "48841-500", "qty" : "500"}
+		],
+		"image" : "../48841-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "mega",
+		"title" : "PTFE MEGA|FV™ 0.2μm",
+		"description1" : "Filter Once for Multiple Applications",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "48830-200", "qty" : "200"},
+			{"num" : "48830-500", "qty" : "500"}
+		],
+		"image" : "../48830-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "mega",
+		"title" : "PTFE MEGA|FV™ 0.45μm",
+		"description1" : "Filter Once for Multiple Applications",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "48840-200", "qty" : "200"},
+			{"num" : "48840-500", "qty" : "500"}
+		],
+		"image" : "../48840-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "mega",
+		"title" : "Nylon MEGA|FV™ 0.2μm",
+		"description1" : "Filter Once for Multiple Applications",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "48838-200", "qty" : "200"},
+			{"num" : "48838-500", "qty" : "500"}
+		],
+		"image" : "../48838-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "mega",
+		"title" : "Nylon MEGA|FV™ 0.45μm",
+		"description1" : "Filter Once for Multiple Applications",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "48839-200", "qty" : "200"},
+			{"num" : "48839-500", "qty" : "500"}
+		],
+		"image" : "../48839-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "mega",
+		"title" : "Storage Cap",
+		"description1" : "For for use with MEGA|FV™",
+		"description2" : "",
+		"partNumber" : [{"num" : "899030", "qty" : "50"}],
+		"image" : "../899030_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extractor",
+		"title" : "PVDF eXtractor3D|FV® 0.2μm",
+		"description1" : "Red Non-Slit Cap For Filtering Solids",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "95531-200", "qty" : "200"},
+			{"num" : "95531-500", "qty" : "500"}
+		],
+		"image" : "../95531-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extractor",
+		"title" : "PVDF eXtractor3D|FV® 0.45μm",
+		"description1" : "Yellow Non-Slit Cap For Filtering Solids",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "95541-200", "qty" : "200"},
+			{"num" : "95541-500", "qty" : "500"}
+		],
+		"image" : "../95541-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extractor",
+		"title" : "PTFE eXtractor3D|FV® 0.2μm",
+		"description1" : "Green Non-Slit Cap For Filtering Solids",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "95530-200", "qty" : "200"},
+			{"num" : "95530-500", "qty" : "500"}
+		],
+		"image" : "../95530-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extractor",
+		"title" : "PTFE eXtractor3D|FV® 0.45μm",
+		"description1" : "Blue Non-Slit Cap For Filtering Solids",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "95540-200", "qty" : "200"},
+			{"num" : "95540-500", "qty" : "500"}
+		],
+		"image" : "../95540-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extractor",
+		"title" : "PES eXtractor3D|FV® 0.2μm",
+		"description1" : "Grey Non-Slit Cap For Filtering Solids",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "95535-200", "qty" : "200"},
+			{"num" : "95535-500", "qty" : "500"}
+		],
+		"image" : "../95535-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extractor",
+		"title" : "Nylon eXtractor3D|FV® 0.2μm",
+		"description1" : "Black Non-Slit Cap For Filtering Solids",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "95538-200", "qty" : "200"},
+			{"num" : "95538-500", "qty" : "500"}
+		],
+		"image" : "../95538-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "extractor",
+		"title" : "Nylon eXtractor3D|FV® 0.45μm",
+		"description1" : "Pink Non-Slit Cap For Filtering Solids",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "95539-200", "qty" : "200"},
+			{"num" : "95539-500", "qty" : "500"}
+		],
+		"image" : "../95539-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "low-evap",
+		"title" : "PVDF Low Evap|Filter Vial 0.2μm",
+		"description1" : "With Low Evaporation Crimp Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "65531-200", "qty" : "200"},
+			{"num" : "65531-500", "qty" : "500"}
+		],
+		"image" : "../65531-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "low-evap",
+		"title" : "PVDF Low Evap|Filter Vial 0.45μm",
+		"description1" : "With Low Evaporation Crimp Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "65541-200", "qty" : "200"},
+			{"num" : "65541-500", "qty" : "500"}
+		],
+		"image" : "../65541-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "low-evap",
+		"title" : "PTFE Low Evap|Filter Vial 0.2μm",
+		"description1" : "With Low Evaporation Crimp Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "65530-200", "qty" : "200"},
+			{"num" : "65530-500", "qty" : "500"}
+		],
+		"image" : "../65530-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "low-evap",
+		"title" : "PTFE Low Evap|Filter Vial 0.45μm",
+		"description1" : "With Low Evaporation Crimp Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "65540-200", "qty" : "200"},
+			{"num" : "65540-500", "qty" : "500"}
+		],
+		"image" : "../65540-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "low-evap",
+		"title" : "Nylon Low Evap|Filter Vial 0.2μm",
+		"description1" : "With Low Evaporation Crimp Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "65538-200", "qty" : "200"},
+			{"num" : "65538-500", "qty" : "500"}
+		],
+		"image" : "../65538-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "low-evap",
+		"title" : "Nylon Low Evap|Filter Vial 0.45μm",
+		"description1" : "With Low Evaporation Crimp Cap, Patented",
+		"description2" : "",
+		"partNumber" : [
+			{"num" : "65539-200", "qty" : "200"},
+			{"num" : "65539-500", "qty" : "500"}
+		],
+		"image" : "../65539-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "accessories",
+		"title" : "Filter Vial Toggle Press",
+		"description1" : "For High Solid Content and Very Viscous liquid samples",
+		"description2" : "",
+		"partNumber" : [{"num" : "35005", "qty" : "1"}],
+		"image" : "../35005-200_lg.jpg"
+	},{
+		"line" : "FV",
+		"series" : "accessories",
+		"title" : "Multi-Use Press",
+		"description1" : "8 Position for MEGA|FV & 48 Position for Autosampler Ready Filter Vials",
+		"description2" : "",
+		"partNumber" : [{"num" : "35015", "qty" : "1"}],
+		"image" : "../35015-200_lg.jpg"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Fritted column w/10 of each size: 10mL, 25mL, 50mL, 100mL, 200mL",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "94520-10", "qty" : "50"}],
+		"image" : "../94520-10_tn.gif"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP Column 10mL or 4g Reservoir with Frit",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "9452086", "qty" : "100"}],
+		"image" : "../9452086_lg.jpg"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP Column 25mL or 12g Reservoir with Frit",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "9452088", "qty" : "100"}],
+		"image" : "../9452088_lg.jpg"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP Column 50mL or 25g Reservoir with Frit",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "9452090", "qty" : "100"}],
+		"image" : "../9452090_tn.gif"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP Column 100mL or 40g Reservoir with Frit",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "9452092", "qty" : "100"}],
+		"image" : "../9452092_tn.gif"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP Column 200mL or 80g Reservoir with Frit",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "9452094", "qty" : "100"}],
+		"image" : "../9452094_tn.gif"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP Column 320mL or 160g Reservoir with Frit",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "9452099", "qty" : "10"}],
+		"image" : "../9452099_tn.gif"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP Column 650mL or 300g Reservoir with Frit",
+		"description1" : "For adding your own resins, Universal fit",
+		"description2" : "Top Frits and Plungers available | Patented",
+		"partNumber" : [{"num" : "9452097", "qty" : "10"}],
+		"image" : "../9452097_tn.gif"
+	},{
+		"line" : "empty-columns",
+		"series" : "",
+		"title" : "Empty SINGLE StEP® Column 600mL or 300g Reservoir",
+		"description1" : "w/5mL Bottom Resin Reservoir w/Frit, Patented",
+		"description2" : "",
+		"partNumber" : [{"num" : "9452097-B", "qty" : "10"}],
+		"image" : "../9452097-B_tn.gif"
+	},{
+		"line" : "empty-columns",
+		"series" : "accessories",
+		"title" : "Dual Ended PP Cap Blue",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "235008", "qty" : "100"}],
+		"image" : "../235008_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Head Space Frits for 4g SINGLE StEP Column",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "491250", "qty" : "100"}],
+		"image" : "../491250_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Head Space Frits for 12g SINGLE StEP Column",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "491252", "qty" : "100"}],
+		"image" : "../491252_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Head Space Frits for 25g SINGLE StEP Column",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "491253", "qty" : "100"}],
+		"image" : "../491253_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Head Space Frits for 40g SINGLE StEP Column",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "491254", "qty" : "100"}],
+		"image" : "../491254_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Head Space Frits for 80g or 90g SINGLE StEP Column",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "491256", "qty" : "100"}],
+		"image" : "../491256_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Head Space Frits for 110g or 160g SINGLE StEP Column",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "491258", "qty" : "100"}],
+		"image" : "../491258_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Head Space Frits for 240g or 300g SINGLE StEP Column",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "491260", "qty" : "100"}],
+		"image" : "../491260_tn.gif"
+	},{
+		"line" : "frits",
+		"series" : "",
+		"title" : "Plunger Set for SINGLE StEP Columns",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "1212278", "qty" : "4"}],
+		"image" : "../1212278_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "",
+		"title" : "Optimum Growth™ 125mL Flask",
+		"description1" : "Sterile | Use with Transfer Cap | Patented",
+		"description2" : "",
+		"partNumber" : [{"num" : "931110", "qty" : "50"}],
+		"image" : "../931110_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "accessories",
+		"title" : "8 Position Carrier for Optimum Growth™ 125mL Flask (931110)",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "1212900", "qty" : "1"}],
+		"image" : "../1212900_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "",
+		"title" : "Optimum Growth™ 250mL Flask",
+		"description1" : "Sterile | Use with Transfer Cap | Patented",
+		"description2" : "",
+		"partNumber" : [{"num" : "931111", "qty" : "50"}],
+		"image" : "../931111_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "accessories",
+		"title" : "8 Position Carrier for Optimum Growth™ 250mL Flask (931111)",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "1212905", "qty" : "1"}],
+		"image" : "../1212905_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "",
+		"title" : "Optimum Growth™ 500mL Flask",
+		"description1" : "Sterile | Use with Transfer Cap | Patented",
+		"description2" : "",
+		"partNumber" : [{"num" : "931112", "qty" : "50"}],
+		"image" : "../931112_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "",
+		"title" : "Optimum Growth™ 1.6L Flask",
+		"description1" : "Sterile | Use with Transfer Cap | Patented",
+		"description2" : "",
+		"partNumber" : [{"num" : "931113", "qty" : "12"}],
+		"image" : "../931113_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "",
+		"title" : "Optimum Growth™ 5L Flask",
+		"description1" : "Sterile | Use with Transfer Cap | Patented",
+		"description2" : "",
+		"partNumber" : [{"num" : "931116", "qty" : "4"}],
+		"image" : "../931116_tn.gif"
+	},{
+		"line" : "OG",
+		"series" : "",
+		"title" : "Optimum Growth™ 5L Flask Sterile w/Port",
+		"description1" : "Sterile | Aseptic & Fast Sampling in the Shaker | Patented",
+		"description2" : "",
+		"partNumber" : [{"num" : "931116-Port", "qty" : "4"}],
+		"image" : "../931116-Port_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "",
+		"title" : "Ultra Yield Flask 125mL",
+		"description1" : "125mL flask, 40-50mL working Volume | Sterile",
+		"description2" : "For best results use AirOtop® Seals",
+		"partNumber" : [{"num" : "931147", "qty" : "50"}],
+		"image" : "../931147_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "",
+		"title" : "Ultra Yield Flask 250mL",
+		"description1" : "250mL flask, 75-110mL working Volume | Sterile",
+		"description2" : "For best results use AirOtop® Seals",
+		"partNumber" : [{"num" : "931144", "qty" : "50"}],
+		"image" : "../931144_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "",
+		"title" : "Ultra Yield Flask 500mL",
+		"description1" : "500mL flask, 125-200mL working Volume | Sterile",
+		"description2" : "For best results use AirOtop® Seals",
+		"partNumber" : [{"num" : "931141", "qty" : "25"}],
+		"image" : "../931141_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "",
+		"title" : "Ultra Yield Flask 2.5L",
+		"description1" : "2.5L flask, 500mL working Volume | Sterile",
+		"description2" : "For best results use AirOtop® Seals",
+		"partNumber" : [{"num" : "931136-B", "qty" : "6"}],
+		"image" : "../931136-B_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "accessories",
+		"title" : "AirOtop Enhanced Seal",
+		"description1" : "For Ultra Yield 2.5L Flask",
+		"description2" : "",
+		"partNumber" : [{"num" : "899425", "qty" : "100"}],
+		"image" : "../899425_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "accessories",
+		"title" : "AirOtop Enhanced Seal",
+		"description1" : "For Ultra Yield 500mL Flask",
+		"description2" : "",
+		"partNumber" : [{"num" : "899424", "qty" : "100"}],
+		"image" : "../899424_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "accessories",
+		"title" : "AirOtop Enhanced Seal",
+		"description1" : "For Ultra Yield 250mL Flask",
+		"description2" : "",
+		"partNumber" : [{"num" : "899423", "qty" : "100"}],
+		"image" : "../899423_tn.gif"
+	},{
+		"line" : "UYF",
+		"series" : "accessories",
+		"title" : "AirOtop Enhanced Seal",
+		"description1" : "For Ultra Yield 125mL Flask",
+		"description2" : "",
+		"partNumber" : [{"num" : "899421", "qty" : "100"}],
+		"image" : "../899421_tn.gif"
+	},{
+		"line" : "Plasmid",
+		"series" : "",
+		"title" : "Plasmid+® Media",
+		"description1" : "Plasmid+ Media in 1L Bottles | Sterile",
+		"description2" : "",
+		"partNumber" : [{"num" : "446300", "qty" : "6"}],
+		"image" : "../446300_tn.gif"
+	},{
+		"line" : "size-exclusion",
+		"series" : "",
+		"title" : "Protein Size Exclusion Column 8.0 x 300mm 10MWKO-150MWKO",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "6960935", "qty" : "1"}],
+		"image" : "../6960935_tn.gif"
+	},{
+		"line" : "size-exclusion",
+		"series" : "",
+		"title" : "Protein Size Exclusion Column 8.0 x 300mm 170-700 MWKO",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "6960940", "qty" : "1"}],
+		"image" : "../6960940_tn.gif"
+	},{
+		"line" : "size-exclusion",
+		"series" : "",
+		"title" : "Protein Size Exclusion Column 8.0 x 300mm 700 MWKO -1200 MWKO",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "6960945", "qty" : "1"}],
+		"image" : "../6960945_tn.gif"
+	},{
+		"line" : "size-exclusion",
+		"series" : "",
+		"title" : "Protein Guard Column 6.0 x 50mm",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "6960955", "qty" : "1"}],
+		"image" : "../6960955_tn.gif"
+	}
+]
