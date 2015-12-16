@@ -104,3 +104,20 @@ chemicalIndex.controller('chemicalIndexController', ['$scope', '$http',function(
   });
   
 }]);
+
+var products = angular.module('products', []);
+products.controller('productsController', ['$scope', '$http',function($scope, $http){
+  
+  $http.get('../wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
+    $scope.products = rslt.data;
+  });
+  
+  $scope.sortType = "line";
+  $scope.sortReverse = false;
+  $scope.test = function(){
+    console.log("test fired");
+    console.log($scope.sortType + " | " + $scope.sortReverse);
+    
+  };
+  
+}]);
