@@ -121,3 +121,14 @@ products.controller('productsController', ['$scope', '$http',function($scope, $h
   };
   
 }]);
+
+var plates = angular.module('platesearch', []);
+plates.controller('platesearchController', ['$scope','$http', function($scope,$http){
+  
+  $http.get('../wp-content/themes/TIC/assets/javascript/plates.json').then(function(rslt){
+    $scope.plates = rslt.data;
+  });
+  
+  $scope.sortType = "partNum";
+  $scope.sortReverse = false;
+}]);
