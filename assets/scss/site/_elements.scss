@@ -328,4 +328,27 @@ video.tech-video-page-single{
     }
   }
 }
+.plate-cards{
+  background:$ghost;
+  border:1px solid $iron;
+  border-radius:.5rem;
+  margin-bottom:2.5rem;
+  padding: 1rem .5rem;
+  p{
+    color:$jumbo;
+    margin:0;
+    b{
+      color:$oil;
+    }
+  }
+  .card-partNum{
+    font-size:1.25rem;
+    color:$iron;
+    font-weight:bold;
+    margin-bottom:.25rem;
+  }
+  .card-stop{
+    margin-bottom:2rem;
+  }
+}
 //next up?
