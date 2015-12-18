@@ -311,4 +311,21 @@ video.tech-video-page-single{
     }
   }
 }
+
+//=====================================================================
+//===========================Plate Search Page=========================
+//=====================================================================
+.platesearch-form{
+  .selection{
+    border-right:1px solid $smoke;
+    min-height:rem-calc(130px);
+    &:last-of-type{
+      border-right:none;
+    }
+    @media screen and (max-width:$small-breakpoint){
+      min-height:1rem;
+      border-bottom:2px solid $smoke;
+    }
+  }
+}
 //next up?
