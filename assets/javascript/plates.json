@@ -2,6 +2,8 @@
  {
 	"partNum" : "951657",
 	"description" : "96 Deep Well Plate, 2mL, Round Well, Round Bottom, Non-sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "round",
@@ -17,6 +19,8 @@
   },{
 	"partNum" : "951652",
 	"description" : "96 Deep Well Plate, 2mL, Square Well, Round Bottom, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "square",
@@ -32,6 +36,8 @@
   },{
 	"partNum" : "951652B",
 	"description" : "96 Deep Well Plate, 2mL, Square Well, V-Bottom, Rim, Raised Lettering, Skirted Bottom, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "square",
@@ -47,6 +53,8 @@
   },{
 	"partNum" : "951652C",
 	"description" : "96 Deep Well Plate, 2mL, Square Well, V-Bottom, Raised Lettering, Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "square",
@@ -62,6 +70,8 @@
   },{
 	"partNum" : "931130",
 	"description" : "96 Deep Well Plate, 2mL, Square Well, Round Bottom, Irreversible, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "square",
@@ -77,6 +87,8 @@
   },{
 	"partNum" : "931134",
 	"description" : "96 Deep Well Plate, 2mL, Round Well, Round Bottom, Irreversible, with Lid, Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "square",
@@ -92,6 +104,8 @@
   },{
 	"partNum" : "931512B",
 	"description" : "96 Well Plate, 650uL, Round Well, Round Bottom, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "0.65ml",
 	"wellShape" : "round",
@@ -107,6 +121,8 @@
   },{
 	"partNum" : "951651",
 	"description" : "96 Well Plate, 1mL,  Round Well, Round Bottom, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "1ml",
 	"wellShape" : "round",
@@ -122,6 +138,8 @@
   },{
 	"partNum" : "9356045",
 	"description" : "96 Well Plate, 500uL,  Round Well, V-Bottom, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "0.5ml",
 	"wellShape" : "round",
@@ -137,6 +155,8 @@
   },{
 	"partNum" : "9352735B",
 	"description" : "96 Well Plate",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "",
 	"wellShape" : "round",
@@ -152,6 +172,8 @@
   },{
 	"partNum" : "951651B",
 	"description" : "96 Well Plate, 1.2mL,  Round Well, Round Bottom, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "1.2ml",
 	"wellShape" : "round",
@@ -167,6 +189,8 @@
   },{
 	"partNum" : "931919",
 	"description" : "96 Deep Well Filter Plate, 2mL, Square Well, Long Drip,  25uM, Non-St",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "square",
@@ -182,6 +206,8 @@
   },{
 	"partNum" : "982340",
 	"description" : "96 Deep Well Filter Plate, 2mL, Square Well, Long Drip,  0.45uM, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "square",
@@ -197,6 +223,8 @@
   },{
 	"partNum" : "921617",
 	"description" : "96 Well 2mL Filter Plate, Hydrophobic GF/C",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "",
@@ -212,6 +240,8 @@
   },{
 	"partNum" : "921623B",
 	"description" : "96 Well 2mL Filter Plate, 25uM PP Long Drip",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "2ml",
 	"wellShape" : "",
@@ -227,6 +257,8 @@
   },{
 	"partNum" : "982085",
 	"description" : "96 Well 800uL Filter Plate, GF/C",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "0.8ml",
 	"wellShape" : "",
@@ -242,6 +274,8 @@
   },{
 	"partNum" : "982105",
 	"description" : "96 Well Filter Plate, 800uL, Square Well, Long Drip,  GF/B, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "0.8ml",
 	"wellShape" : "",
@@ -257,6 +291,8 @@
   },{
 	"partNum" : "982080",
 	"description" : "96 Well Filter Plate, 25uM, Square Well, Long Drip,  GF/B, Non-Sterile",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "0.8ml",
 	"wellShape" : "round",
@@ -272,6 +308,8 @@
   },{
 	"partNum" : "982095",
 	"description" : "96 well 800uL Filter Plate, Hydrophilic PVDF .45uM Long Drip, Polypropylene, Long Drip",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "0.8ml",
 	"wellShape" : "",
@@ -287,6 +325,8 @@
   },{
 	"partNum" : "982150",
 	"description" : "96 Well 400uL Filter Plate, 25uM Polypropylene  Long Drip w/ Frit",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "96",
 	"wellVolume" : "0.4ml",
 	"wellShape" : "",
@@ -302,6 +342,8 @@
   },{
 	"partNum" : "931903",
 	"description" : "48 Well Plate,7.5mL",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "48",
 	"wellVolume" : "7.5ml",
 	"wellShape" : "square",
@@ -317,6 +359,8 @@
   },{
 	"partNum" : "931565-G-1X",
 	"description" : "24 Well Plate, 10.4mL",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "24",
 	"wellVolume" : "10.4ml",
 	"wellShape" : "square",
@@ -332,6 +376,8 @@
   },{
 	"partNum" : "931568",
 	"description" : "24 Well Plate, 10.4mL with Lid",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "24",
 	"wellVolume" : "10.4ml",
 	"wellShape" : "square",
@@ -347,6 +393,8 @@
   },{
 	"partNum" : "93169",
 	"description" : "24 Well Plate, 10mL – Fluorocarbon",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "24",
 	"wellVolume" : "10ml",
 	"wellShape" : "",
@@ -362,6 +410,8 @@
   },{
 	"partNum" : "931504B",
 	"description" : "384 Well Plate, 120uL",
+	"dimensions" : "",
+	"drawing" : "",
 	"wellCount" : "384",
 	"wellVolume" : "0.12ml",
 	"wellShape" : "square",
