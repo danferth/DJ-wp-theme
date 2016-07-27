@@ -113,7 +113,7 @@ mBlocks.on('click',function(){
 	window.location.assign(link);
 });
 
-TweenLite.from(mBlocks, .5, {scale:.90, opacity:0, ease:Bounce.easeOut});
+TweenLite.from(mBlocks, .25, {scale:.90, opacity:0, ease:Power2.easeOut});
 
 //==============
 //app blocks
