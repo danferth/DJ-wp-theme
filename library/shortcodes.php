@@ -227,23 +227,21 @@ add_shortcode('tech-vid-block', 'tech_vid_block_shortcode');
 // echo $prod_url;
 // echo "<img src='".$prod_url."915MR_lg.jpg' />";
 
-//[product_image  ng='' src='']
-function product_image_shortcoad($atts, $content, $tag){
+//[ng_product_image src='' width='' height='']
+function ng_product_image_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
-    'ng' => false,
-    'src' => ''
+    'src'     => '',
+    'width'   => '',
+    'height'  => ''
     ), $atts);
   $content_url = wp_upload_dir();
   $prod_url = $content_url['baseurl']."/products/";
-  if($a['ng'] === false){
-    $output = "<img src='".$prod_url.$a['src']."' alt='".$a['src']."' />";
-  }else{
-    $output = "<img ng-src='".$prod_url."{{".$a['src']."}}' alt='{{".$a['src']."}}' />";
-  }
+  $output = "<img ng-src='".$prod_url."{{".$a['src']."}}' alt='{{".$a['src']."}}' width='".$a['width']."' height='".$a['height']."' />";
+
     return $output;
 }
 
-add_shortcode('product_image', 'product_image_shortcoad');
+add_shortcode('ng_product_image', 'ng_product_image_shortcode');
 
 
 

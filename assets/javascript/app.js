@@ -114,12 +114,6 @@ products.controller('productsController', ['$scope', '$http',function($scope, $h
   
   $scope.sortType = "line";
   $scope.sortReverse = false;
-  $scope.test = function(){
-    console.log("test fired");
-    console.log($scope.sortType + " | " + $scope.sortReverse);
-    
-  };
-  
 }]);
 
 var plates = angular.module('platesearch', []);
