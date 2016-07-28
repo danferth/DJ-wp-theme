@@ -216,4 +216,35 @@ function tech_vid_block_shortcode($atts, $content=null, $tag){
 
 add_shortcode('tech-vid-block', 'tech_vid_block_shortcode');
 
+
+
+//to get to the images folder for product images
+
+
+//this worksd on page just need to get angular on board
+// $image_url = wp_upload_dir();
+// $prod_url = $image_url['baseurl']."/products/";
+// echo $prod_url;
+// echo "<img src='".$prod_url."915MR_lg.jpg' />";
+
+//[product_image  ng='' src='']
+function product_image_shortcoad($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'ng' => false,
+    'src' => ''
+    ), $atts);
+  $content_url = wp_upload_dir();
+  $prod_url = $content_url['baseurl']."/products/";
+  if($a['ng'] === false){
+    $output = "<img src='".$prod_url.$a['src']."' alt='".$a['src']."' />";
+  }else{
+    $output = "<img ng-src='".$prod_url."{{".$a['src']."}}' alt='{{".$a['src']."}}' />";
+  }
+    return $output;
+}
+
+add_shortcode('product_image', 'product_image_shortcoad');
+
+
+
 ?>
