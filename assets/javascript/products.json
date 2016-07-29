@@ -4,7 +4,7 @@
 		"series" : "standard",
 		"accessory" : false,
 		"title" : "PVDF Standard|Filter Vial 0.2μm",
-		"description1" : "With Pre-Split Cap",
+		"description1" : "Red Pre-Split Cap",
 		"description2" : "",
 		"partNumber" : [
 			{"num" : "35531-200", "qty" : "200"},
@@ -17,7 +17,7 @@
 		"series" : "standard",
 		"accessory" : false,
 		"title" : "PVDF Standard|Filter Vial 0.45μm",
-		"description1" : "With Pre-Split Cap",
+		"description1" : "Yellow Pre-Split Cap",
 		"description2" : "",
 		"partNumber" : [
 			{"num" : "35541-200", "qty" : "200"},
@@ -30,7 +30,7 @@
 		"series" : "standard",
 		"accessory" : false,
 		"title" : "PTFE Standard|Filter Vial 0.2μm",
-		"description1" : "With Pre-Split Cap",
+		"description1" : "Green Pre-Split Cap",
 		"description2" : "",
 		"partNumber" : [
 			{"num" : "35530-200", "qty" : "200"},
@@ -43,7 +43,7 @@
 		"series" : "standard",
 		"accessory" : false,
 		"title" : "PTFE Standard|Filter Vial 0.45μm",
-		"description1" : "With Pre-Split Cap",
+		"description1" : "Blue Pre-Split Cap",
 		"description2" : "",
 		"partNumber" : [
 			{"num" : "35540-200", "qty" : "200"},
@@ -56,7 +56,7 @@
 		"series" : "standard",
 		"accessory" : false,
 		"title" : "PES Standard|Filter Vial 0.2μm",
-		"description1" : "With Pre-Split Cap",
+		"description1" : "Grey Pre-Split Cap",
 		"description2" : "",
 		"partNumber" : [
 			{"num" : "35535-200", "qty" : "200"},
@@ -69,7 +69,7 @@
 		"series" : "standard",
 		"accessory" : false,
 		"title" : "Nylon Standard|Filter Vial 0.2μm",
-		"description1" : "With Pre-Split Cap",
+		"description1" : "Black Pre-Split Cap",
 		"description2" : "",
 		"partNumber" : [
 			{"num" : "35538-200", "qty" : "200"},
@@ -82,7 +82,7 @@
 		"series" : "standard",
 		"accessory" : false,
 		"title" : "Nylon Standard|Filter Vial 0.45μm",
-		"description1" : "With Pre-Split Cap",
+		"description1" : "Pink Pre-Split Cap",
 		"description2" : "",
 		"partNumber" : [
 			{"num" : "35539-200", "qty" : "200"},
@@ -96,7 +96,7 @@
 		"accessory" : false,
 		"title" : "PVDF nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "",
+		"description2" : "Red Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "15531-200", "qty" : "200"},
 			{"num" : "15531-500", "qty" : "500"}
@@ -109,7 +109,7 @@
 		"accessory" : false,
 		"title" : "PVDF nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "with Pre-Slit Cap",
+		"description2" : "Red Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "25531-200", "qty" : "200"},
 			{"num" : "25531-500", "qty" : "500"}
@@ -122,7 +122,7 @@
 		"accessory" : false,
 		"title" : "PVDF nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "",
+		"description2" : "Yellow Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "15541-200", "qty" : "200"},
 			{"num" : "15541-500", "qty" : "500"}
@@ -135,7 +135,7 @@
 		"accessory" : false,
 		"title" : "PVDF nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "with Pre-Slit Cap",
+		"description2" : "Yellow Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "25541-200", "qty" : "200"},
 			{"num" : "25541-500", "qty" : "500"}
@@ -148,7 +148,7 @@
 		"accessory" : false,
 		"title" : "PTFE nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "",
+		"description2" : "Green Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "15530-200", "qty" : "200"},
 			{"num" : "15530-500", "qty" : "500"}
@@ -161,7 +161,7 @@
 		"accessory" : false,
 		"title" : "PTFE nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "with Pre-Slit Cap",
+		"description2" : "Green Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "25530-200", "qty" : "200"},
 			{"num" : "25530-500", "qty" : "500"}
@@ -174,7 +174,7 @@
 		"accessory" : false,
 		"title" : "PTFE nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "",
+		"description2" : "Blue Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "15540-200", "qty" : "200"},
 			{"num" : "15540-500", "qty" : "500"}
@@ -187,7 +187,7 @@
 		"accessory" : false,
 		"title" : "PTFE nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "with Pre-Slit Cap",
+		"description2" : "Blue Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "25540-200", "qty" : "200"},
 			{"num" : "25540-500", "qty" : "500"}
@@ -200,7 +200,7 @@
 		"accessory" : false,
 		"title" : "PES nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "",
+		"description2" : "Grey Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "15535-200", "qty" : "200"},
 			{"num" : "15535-500", "qty" : "500"}
@@ -213,7 +213,7 @@
 		"accessory" : false,
 		"title" : "PES nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "with Pre-Slit Cap",
+		"description2" : "Grey Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "25535-200", "qty" : "200"},
 			{"num" : "25535-500", "qty" : "500"}
@@ -226,7 +226,7 @@
 		"accessory" : false,
 		"title" : "Nylon nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "",
+		"description2" : "Black Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "15538-200", "qty" : "200"},
 			{"num" : "15538-500", "qty" : "500"}
@@ -239,7 +239,7 @@
 		"accessory" : false,
 		"title" : "Nylon nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
-		"description2" : "with Pre-Slit Cap",
+		"description2" : "Black Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "25538-200", "qty" : "200"},
 			{"num" : "25538-500", "qty" : "500"}
@@ -252,7 +252,7 @@
 		"accessory" : false,
 		"title" : "PVDF eXtreme|FV0.2μm",
 		"description1" : "With tiered filtration",
-		"description2" : "",
+		"description2" : "Red Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "85531-200", "qty" : "200"},
 			{"num" : "85531-500", "qty" : "500"}
@@ -265,7 +265,7 @@
 		"accessory" : false,
 		"title" : "PVDF eXtreme|FV0.45μm",
 		"description1" : "With tiered filtration",
-		"description2" : "",
+		"description2" : "Yellow Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "85541-200", "qty" : "200"},
 			{"num" : "85541-500", "qty" : "500"}
@@ -278,7 +278,7 @@
 		"accessory" : false,
 		"title" : "PTFE eXtreme|FV 0.2μm",
 		"description1" : "With tiered filtration",
-		"description2" : "",
+		"description2" : "Green Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "85530-200", "qty" : "200"},
 			{"num" : "85530-500", "qty" : "500"}
@@ -291,7 +291,7 @@
 		"accessory" : false,
 		"title" : "PTFE eXtreme|FV 0.45μm",
 		"description1" : "With tiered filtration",
-		"description2" : "",
+		"description2" : "Blue Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "85540-200", "qty" : "200"},
 			{"num" : "85540-500", "qty" : "500"}
@@ -304,7 +304,7 @@
 		"accessory" : false,
 		"title" : "PES eXtreme|FV 0.2μm",
 		"description1" : "With tiered filtration",
-		"description2" : "",
+		"description2" : "Grey Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "85535-200", "qty" : "200"},
 			{"num" : "85535-500", "qty" : "500"}
@@ -317,7 +317,7 @@
 		"accessory" : false,
 		"title" : "Nylon eXtreme|FV 0.2μm",
 		"description1" : "With tiered filtration",
-		"description2" : "",
+		"description2" : "Black Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "85538-200", "qty" : "200"},
 			{"num" : "85538-500", "qty" : "500"}
@@ -330,7 +330,7 @@
 		"accessory" : false,
 		"title" : "Nylon eXtreme|FV 0.45μm",
 		"description1" : "With tiered filtration",
-		"description2" : "",
+		"description2" : "Pink Pre-Slit Cap",
 		"partNumber" : [
 			{"num" : "85539-200", "qty" : "200"},
 			{"num" : "85539-500", "qty" : "500"}
@@ -430,8 +430,8 @@
 		"series" : "extractor",
 		"accessory" : false,
 		"title" : "PVDF eXtractor3D|FV® 0.2μm",
-		"description1" : "Red Non-Slit Cap For Filtering Solids",
-		"description2" : "",
+		"description1" : "For Filtering Solids",
+		"description2" : "Red Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "95531-200", "qty" : "200"},
 			{"num" : "95531-500", "qty" : "500"}
@@ -443,8 +443,8 @@
 		"series" : "extractor",
 		"accessory" : false,
 		"title" : "PVDF eXtractor3D|FV® 0.45μm",
-		"description1" : "Yellow Non-Slit Cap For Filtering Solids",
-		"description2" : "",
+		"description1" : "For Filtering Solids",
+		"description2" : "Yellow Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "95541-200", "qty" : "200"},
 			{"num" : "95541-500", "qty" : "500"}
@@ -456,8 +456,8 @@
 		"series" : "extractor",
 		"accessory" : false,
 		"title" : "PTFE eXtractor3D|FV® 0.2μm",
-		"description1" : "Green Non-Slit Cap For Filtering Solids",
-		"description2" : "",
+		"description1" : "For Filtering Solids",
+		"description2" : "Green Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "95530-200", "qty" : "200"},
 			{"num" : "95530-500", "qty" : "500"}
@@ -469,8 +469,8 @@
 		"series" : "extractor",
 		"accessory" : false,
 		"title" : "PTFE eXtractor3D|FV® 0.45μm",
-		"description1" : "Blue Non-Slit Cap For Filtering Solids",
-		"description2" : "",
+		"description1" : "For Filtering Solids",
+		"description2" : "Blue Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "95540-200", "qty" : "200"},
 			{"num" : "95540-500", "qty" : "500"}
@@ -482,8 +482,8 @@
 		"series" : "extractor",
 		"accessory" : false,
 		"title" : "PES eXtractor3D|FV® 0.2μm",
-		"description1" : "Grey Non-Slit Cap For Filtering Solids",
-		"description2" : "",
+		"description1" : "For Filtering Solids",
+		"description2" : "Grey Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "95535-200", "qty" : "200"},
 			{"num" : "95535-500", "qty" : "500"}
@@ -495,8 +495,8 @@
 		"series" : "extractor",
 		"accessory" : false,
 		"title" : "Nylon eXtractor3D|FV® 0.2μm",
-		"description1" : "Black Non-Slit Cap For Filtering Solids",
-		"description2" : "",
+		"description1" : "For Filtering Solids",
+		"description2" : "Black Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "95538-200", "qty" : "200"},
 			{"num" : "95538-500", "qty" : "500"}
@@ -508,8 +508,8 @@
 		"series" : "extractor",
 		"accessory" : false,
 		"title" : "Nylon eXtractor3D|FV® 0.45μm",
-		"description1" : "Pink Non-Slit Cap For Filtering Solids",
-		"description2" : "",
+		"description1" : "For Filtering Solids",
+		"description2" : "Pink Non-Slit Cap",
 		"partNumber" : [
 			{"num" : "95539-200", "qty" : "200"},
 			{"num" : "95539-500", "qty" : "500"}
@@ -521,8 +521,8 @@
 		"series" : "low-evap",
 		"accessory" : false,
 		"title" : "PVDF Low Evap|Filter Vial 0.2μm",
-		"description1" : "With Low Evaporation Crimp Cap",
-		"description2" : "",
+		"description1" : "For Low Evaporation",
+		"description2" : "Red  Crimp Cap",
 		"partNumber" : [
 			{"num" : "65531-200", "qty" : "200"},
 			{"num" : "65531-500", "qty" : "500"}
@@ -534,8 +534,8 @@
 		"series" : "low-evap",
 		"accessory" : false,
 		"title" : "PVDF Low Evap|Filter Vial 0.45μm",
-		"description1" : "With Low Evaporation Crimp Cap",
-		"description2" : "",
+		"description1" : "For Low Evaporation",
+		"description2" : "Yellow Crimp Cap",
 		"partNumber" : [
 			{"num" : "65541-200", "qty" : "200"},
 			{"num" : "65541-500", "qty" : "500"}
@@ -547,8 +547,8 @@
 		"series" : "low-evap",
 		"accessory" : false,
 		"title" : "PTFE Low Evap|Filter Vial 0.2μm",
-		"description1" : "With Low Evaporation Crimp Cap",
-		"description2" : "",
+		"description1" : "For Low Evaporation",
+		"description2" : "Green Crimp Cap",
 		"partNumber" : [
 			{"num" : "65530-200", "qty" : "200"},
 			{"num" : "65530-500", "qty" : "500"}
@@ -560,8 +560,8 @@
 		"series" : "low-evap",
 		"accessory" : false,
 		"title" : "PTFE Low Evap|Filter Vial 0.45μm",
-		"description1" : "With Low Evaporation Crimp Cap",
-		"description2" : "",
+		"description1" : "For Low Evaporation",
+		"description2" : "Blue Crimp Cap",
 		"partNumber" : [
 			{"num" : "65540-200", "qty" : "200"},
 			{"num" : "65540-500", "qty" : "500"}
@@ -573,8 +573,8 @@
 		"series" : "low-evap",
 		"accessory" : false,
 		"title" : "Nylon Low Evap|Filter Vial 0.2μm",
-		"description1" : "With Low Evaporation Crimp Cap",
-		"description2" : "",
+		"description1" : "For Low Evaporation",
+		"description2" : "Black Crimp Cap",
 		"partNumber" : [
 			{"num" : "65538-200", "qty" : "200"},
 			{"num" : "65538-500", "qty" : "500"}
@@ -586,8 +586,8 @@
 		"series" : "low-evap",
 		"accessory" : false,
 		"title" : "Nylon Low Evap|Filter Vial 0.45μm",
-		"description1" : "With Low Evaporation Crimp Cap",
-		"description2" : "",
+		"description1" : "For Low Evaporation",
+		"description2" : "Pink Crimp Cap",
 		"partNumber" : [
 			{"num" : "65539-200", "qty" : "200"},
 			{"num" : "65539-500", "qty" : "500"}
@@ -600,7 +600,7 @@
 		"accessory" : true,
 		"title" : "Filter Vial Toggle Press",
 		"description1" : "For High Solid Content and Very Viscous liquid samples",
-		"description2" : "",
+		"description2" : "5 Position Autosampler Ready Filter Vials",
 		"partNumber" : [{"num" : "35005", "qty" : "1"}],
 		"image" : "35005_lg.jpg",
 		"thum_image" : "35005_tn.png"
@@ -1193,5 +1193,235 @@
 		"partNumber" : [{"num" : "931618-8", "qty" : "8"}],
 		"image" : "931618_lg.jpg",
 		"thum_image" : "931618_tn.png"
+	},{
+		"line" : "well plates",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "24 Well Plate, 10.4mL, Square Well, Round Bottom, Individualy Wrapped|Sterile",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "931565-G-1X", "qty" : "20"}],
+		"image" : "931565-G-1X_lg.jpg",
+		"thum_image" : "931565-G-1X_tn.png"
+	},{
+		"line" : "well plates",
+		"series" : "well plates",
+		"accessory" : false,
+		"title" : "24 Well Plate, 10.4mL, Square Well, Round Bottom, Individualy Wrapped with Lid|Sterile",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "931568", "qty" : "20"}],
+		"image" : "931568_lg.jpg",
+		"thum_image" : "931568_tn.png"
+	},{
+		"line" : "well plates",
+		"series" : "well plates",
+		"accessory" : false,
+		"title" : "48 Well Plate, 5mL, V-Bottom",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "931904", "qty" : "25"}],
+		"image" : "931904_lg.jpg",
+		"thum_image" : "931904_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 2mL, Round Well, Round Bottom",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "951657", "qty" : "50"}],
+		"image" : "951657_lg.jpg",
+		"thum_image" : "951657_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 2mL, Square Well, Round Bottom",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "951652", "qty" : "100"}],
+		"image" : "951652_lg.jpg",
+		"thum_image" : "951652_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 2mL, Square Well, V-Bottom| Rim| Raised Lettering| Skirted Bottom",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "951652B", "qty" : "50"}],
+		"image" : "951652B_lg.jpg",
+		"thum_image" : "951652B_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 2mL, Square Well, V-Bottom, Raised Lettering|Sterile",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "951652C", "qty" : "50"}],
+		"image" : "951652C_lg.jpg",
+		"thum_image" : "951652C_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 2mL, Square Well, Round Bottom| Irreversible",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "931130", "qty" : "32"}],
+		"image" : "931130_lg.jpg",
+		"thum_image" : "931130_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 650uL, Round Well, Round Bottom",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "931512B", "qty" : "50"}],
+		"image" : "931512B_lg.jpg",
+		"thum_image" : "931512B_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 500uL,  Round Well, V-Bottom",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "9356045", "qty" : "50"}],
+		"image" : "9356045_lg.jpg",
+		"thum_image" : "9356045_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 1.2mL,  Round Well, Round Bottom|Sterile",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "951651B", "qty" : "50"}],
+		"image" : "951651B_lg.jpg",
+		"thum_image" : "951651B_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Plate, 2mL,  Square Well, Round Bottom with Lid|Sterile",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "9311134", "qty" : "32"}],
+		"image" : "9311134_lg.jpg",
+		"thum_image" : "9311134_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "well plate",
+		"accessory" : false,
+		"title" : "96 Well Filter Plate, 2mL, Long Drip | 25µM Polypropylene",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "931919", "qty" : "25"}],
+		"image" : "931919_lg.jpg",
+		"thum_image" : "931919_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "tube rack",
+		"accessory" : false,
+		"title" : "96 Position Tube Racks, 1.2mL,  filled with Tubes in  Strips of 12, 50 Racks/Case",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "896050", "qty" : "50"}],
+		"image" : "896050_lg.jpg",
+		"thum_image" : "896050_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "tube rack",
+		"accessory" : true,
+		"title" : "12-Strip Cap 400/Case",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "896060", "qty" : "400"}],
+		"image" : "896060_lg.jpg",
+		"thum_image" : "896060_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "tube rack",
+		"accessory" : true,
+		"title" : "1.2mL Micro Tubes, Loose, fits in 96 Position Tube Rack, 400/Case",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "896020", "qty" : "400"}],
+		"image" : "896020_lg.jpg",
+		"thum_image" : "896020_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "cap mat",
+		"accessory" : true,
+		"title" : "96 Well Cap mat, For Wide Round Wells | Use with 951657, 9356045",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "359747", "qty" : "50"}],
+		"image" : "359747_lg.jpg",
+		"thum_image" : "359747_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "cap mat",
+		"accessory" : true,
+		"title" : "96 Well Bottom Mat, For Long Drip Filter Plates| Use with 931919",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "982005", "qty" : "100"}],
+		"image" : "982005_lg.jpg",
+		"thum_image" : "982005_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "cap mat",
+		"accessory" : true,
+		"title" : "96 Well Cap mat, For Square Wells | Use with 931130",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "A210100", "qty" : "100"}],
+		"image" : "A210100_lg.jpg",
+		"thum_image" : "A210100_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "seal",
+		"accessory" : true,
+		"title" : "Adhesive Foil Plate Seal| Use with All Plates",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "899405-1", "qty" : "100"}],
+		"image" : "899405-1_lg.jpg",
+		"thum_image" : "899405-1_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "seal",
+		"accessory" : true,
+		"title" : "Airporous Plate Seal For Growing Cultures |  Use with All Plates",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "899410", "qty" : "100"}],
+		"image" : "899410_lg.jpg",
+		"thum_image" : "899410_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "seal",
+		"accessory" : true,
+		"title" : "Pierceable Foil Heat Seal| For use with Pippettes & Autosamplers",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "899403", "qty" : "100"}],
+		"image" : "899403_lg.jpg",
+		"thum_image" : "899403_tn.png"
+	},{
+		"line" : "well plate",
+		"series" : "seal",
+		"accessory" : true,
+		"title" : "Pierceable Foil Heat Seal| For use with All Plates",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "899406", "qty" : "100"}],
+		"image" : "899406_lg.jpg",
+		"thum_image" : "899406_tn.png"
 	}
 ]
