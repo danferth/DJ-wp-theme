@@ -206,7 +206,7 @@
   },{
 	"type" : "filter plate",
 	"partNum" : "931919",
-	"description" : "96 Well Filter Plate, 2mL, Long Drip | 25µM Polypropylene",
+	"description" : "96 Well Filter Plate, 2mL, Long Drip | 25µm Polypropylene",
 	"wellCount" : "96",
 	"wellVolume" : "2mL",
 	"wellShape" : "square",
@@ -221,7 +221,7 @@
 	"accessory" : false,
     "notes" : ""
   },{
-	"type" : "tube rack",
+	"type" : "well plate",
 	"partNum" : "896050",
 	"description" : "96 Position Tube Racks, 1.2mL,  filled with Tubes in  Strips of 12, 50 Racks/Case",
 	"wellCount" : "96",
@@ -238,7 +238,7 @@
 	"accessory" : false,
     "notes" : ""
   },{
-	"type" : "tube rack",
+	"type" : "well plate",
 	"partNum" : "896060",
 	"description" : "12-Strip Cap 400/Case",
 	"wellCount" : "",
@@ -255,7 +255,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "tube rack",
+	"type" : "well plate",
 	"partNum" : "896020",
 	"description" : "1.2mL Micro Tubes, Loose, fits in 96 Position Tube Rack, 400/Case",
 	"wellCount" : "400",
@@ -272,7 +272,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "cap mat",
+	"type" : "plate cover",
 	"partNum" : "359747",
 	"description" : "96 Well Cap mat, For Wide Round Wells | Use with 951657, 9356045",
 	"wellCount" : "",
@@ -289,7 +289,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "cap mat",
+	"type" : "plate cover",
 	"partNum" : "982005",
 	"description" : "96 Well Bottom Mat, For Long Drip Filter Plates| Use with 931919",
 	"wellCount" : "",
@@ -306,7 +306,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "cap mat",
+	"type" : "plate cover",
 	"partNum" : "A210100",
 	"description" : "96 Well Cap mat, For Square Wells | Use with 931130",
 	"wellCount" : "",
@@ -323,7 +323,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "seal",
+	"type" : "plate cover",
 	"partNum" : "899405-1",
 	"description" : "Adhesive Foil Plate Seal| Use with All Plates",
 	"wellCount" : "",
@@ -340,7 +340,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "seal",
+	"type" : "plate cover",
 	"partNum" : "899410",
 	"description" : "Airporous Plate Seal For Growing Cultures |  Use with All Plates",
 	"wellCount" : "",
@@ -357,7 +357,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "seal",
+	"type" : "plate cover",
 	"partNum" : "899403",
 	"description" : "Pierceable Foil Heat Seal| For use with Pippettes & Autosamplers",
 	"wellCount" : "",
@@ -374,7 +374,7 @@
 	"accessory" : true,
     "notes" : ""
   },{
-	"type" : "seal",
+	"type" : "plate cover",
 	"partNum" : "899406",
 	"description" : "Pierceable Foil Heat Seal| For use with All Plates",
 	"wellCount" : "",
