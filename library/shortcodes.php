@@ -220,13 +220,6 @@ add_shortcode('tech-vid-block', 'tech_vid_block_shortcode');
 
 //to get to the images folder for product images
 
-
-//this worksd on page just need to get angular on board
-// $image_url = wp_upload_dir();
-// $prod_url = $image_url['baseurl']."/products/";
-// echo $prod_url;
-// echo "<img src='".$prod_url."915MR_lg.jpg' />";
-
 //[ng_product_image src='' width='' height='']
 function ng_product_image_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
@@ -244,5 +237,40 @@ function ng_product_image_shortcode($atts, $content, $tag){
 add_shortcode('ng_product_image', 'ng_product_image_shortcode');
 
 
+//display part numbers for a given series
+//[parts title='' series='']
+function parts_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'title' => '',
+    'line' => '',
+    'series' => ''
+    ), $atts);
+  $content_url = wp_upload_dir();
+  $prod_url = $content_url['baseurl']."/products/";
+  $output = "
+  <div class='partnumber_set row'>
+    <h1>".$a['title']."</h1>
+    <div class='partnumber_item column small-12' ng-repeat='p in products | filter:p.line=\"".$a['line']."\" | filter:p.series=\"".$a['series']."\"'>
+      <div class='partnumber_image medium-2 column'>
+        <img ng-src='".$prod_url."{{ p.thum_image }}' alt='{{ p.thum_image }}' width='50' height='50' />
+      </div>
+      <div class='partnumber_text medium-10 column'>
+        <ul>
+          <li class='partnumber_title'>{{ p.title }}</li>
+          <li class='partnumber_description'>{{ p.description1 }}</li>
+          <li class='partnumber_description'>{{ p.description2 }}</li>
+        </ul>
+        <ul>
+          <li class='partnumber_number' ng-repeat='pn in p.partNumber'>
+          {{ pn.num }} | {{ pn.qty }}
+          </li>
+        <ul>
+    
+  </div>
+  </div>
+  ";
+  return $output;
+}
 
+add_shortcode('parts', 'parts_shortcode')
 ?>

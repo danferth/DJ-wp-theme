@@ -126,3 +126,18 @@ plates.controller('platesearchController', ['$scope','$http', function($scope,$h
   $scope.sortType = "partNum";
   $scope.sortReverse = false;
 }]);
+
+
+var product_page = angular.module('product_page', []);
+product_page.controller('product_pageController', ['$scope', '$http', function($scope,$http){
+  
+  $http.get('../wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
+    $scope.products = rslt.data;
+  });
+  
+  
+  
+  
+  
+  
+}]);
