@@ -1158,7 +1158,7 @@
 		"series" : "bidirectional",
 		"accessory" : false,
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 1.6L Flask",
-		"description1" : "for Peristaltic Pump, 2' tubing welds to 1/4\" C-Flex 16",
+		"description1" : "For Peristaltic Pump, 2' tubing welds to 1/4\" C-Flex 16",
 		"description2" : "Sterile",
 		"partNumber" : [{"num" : "931704-8", "qty" : "8"}],
 		"image" : "931704_lg.jpg",
@@ -1168,7 +1168,7 @@
 		"series" : "bidirectional",
 		"accessory" : false,
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 1.6L Flask",
-		"description1" : "for Peristaltic Pump, 2' Tubing with Luer Lock",
+		"description1" : "For Peristaltic Pump, 2' Tubing with Luer Lock",
 		"description2" : "Sterile",
 		"partNumber" : [{"num" : "931702-8", "qty" : "8"}],
 		"image" : "931702_lg.jpg",
@@ -1178,7 +1178,7 @@
 		"series" : "bidirectional",
 		"accessory" : false,
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 5L Flask",
-		"description1" : "for Peristaltic Pump, 2' tubing welds to 1/4\" C-Flex 16",
+		"description1" : "For Peristaltic Pump, 2' tubing welds to 1/4\" C-Flex 16",
 		"description2" : "Sterile",
 		"partNumber" : [{"num" : "931614-8", "qty" : "8"}],
 		"image" : "931614_lg.jpg",
@@ -1188,7 +1188,7 @@
 		"series" : "bidirectional",
 		"accessory" : false,
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 5L Flask",
-		"description1" : "for Peristaltic Pump, 2' Tubing with Luer Lock",
+		"description1" : "For Peristaltic Pump, 2' Tubing with Luer Lock",
 		"description2" : "Sterile",
 		"partNumber" : [{"num" : "931618-8", "qty" : "8"}],
 		"image" : "931618_lg.jpg",
@@ -1423,5 +1423,395 @@
 		"partNumber" : [{"num" : "899406", "qty" : "100"}],
 		"image" : "899406_lg.jpg",
 		"thum_image" : "899406_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "test tubes",
+		"accessory" : false,
+		"title" : "Culture tubes 25x150",
+		"description1" : "60mL",
+		"description2" : "",
+		"partNumber" : [{"num" : "351692B", "qty" : "504"}],
+		"image" : "351692B_lg.jpg",
+		"thum_image" : "351692B_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "test tubes",
+		"accessory" : false,
+		"title" : "Round Bottom tube",
+		"description1" : "18mL",
+		"description2" : "",
+		"partNumber" : [{"num" : "81778", "qty" : "756"}],
+		"image" : "81778_lg.jpg",
+		"thum_image" : "81778_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "pierceable caps",
+		"accessory" : false,
+		"title" : "13mm Black Cap | PTFE/SIL",
+		"description1" : "For 4mL",
+		"description2" : "",
+		"partNumber" : [{"num" : "55511W", "qty" : "1000"}],
+		"image" : "55511W_lg.jpg",
+		"thum_image" : "55511W_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "pierceable caps",
+		"accessory" : false,
+		"title" : "15mm Pierceable Teflon/Silicone Cap",
+		"description1" : "For 8mL",
+		"description2" : "",
+		"partNumber" : [{"num" : "81705", "qty" : "1000"}],
+		"image" : "81705_lg.jpg",
+		"thum_image" : "81705_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "pierceable caps",
+		"accessory" : false,
+		"title" : "22mm Pierceable Teflon/Silicone Cap",
+		"description1" : "For 20mL Scint.",
+		"description2" : "",
+		"partNumber" : [{"num" : "81715", "qty" : "1000"}],
+		"image" : "81715_lg.jpg",
+		"thum_image" : "81715_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "pierceable caps",
+		"accessory" : false,
+		"title" : "24mm Pierceable Teflon/Silicone Cap",
+		"description1" : "For 20mL & 40mL",
+		"description2" : "",
+		"partNumber" : [{"num" : "402805", "qty" : "1000"}],
+		"image" : "402805_lg.jpg",
+		"thum_image" : "402805_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "med chem vials",
+		"accessory" : false,
+		"title" : "4.0mL Clear Vial w/Spot, 13mm",
+		"description1" : "w/o Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "50012M", "qty" : "1000"}],
+		"image" : "50012M_lg.jpg",
+		"thum_image" : "50012M_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "med chem vials",
+		"accessory" : false,
+		"title" : "4.0mL Amber Vial w/Spot 13mm",
+		"description1" : "w/o Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "50012MA", "qty" : "1000"}],
+		"image" : "50012MA_lg.jpg",
+		"thum_image" : "50012MA_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "med chem vials",
+		"accessory" : false,
+		"title" : "20mL Clear Vial 24mm",
+		"description1" : "w/o Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "205410", "qty" : "1000"}],
+		"image" : "205410_lg.jpg",
+		"thum_image" : "205410_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "med chem vials",
+		"accessory" : false,
+		"title" : "20mL Amber Vial 24mm",
+		"description1" : "w/o Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "205410A", "qty" : "1000"}],
+		"image" : "205410A_lg.jpg",
+		"thum_image" : "205410A_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "med chem vials",
+		"accessory" : false,
+		"title" : "40mL Clear Vial 24mm",
+		"description1" : "w/o Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "402877", "qty" : "1000"}],
+		"image" : "402877_lg.jpg",
+		"thum_image" : "402877_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "med chem vials",
+		"accessory" : false,
+		"title" : "40mL Amber Vial 24mm",
+		"description1" : "w/o Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "402877A", "qty" : "1000"}],
+		"image" : "402877A_lg.jpg",
+		"thum_image" : "402877A_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "med chem vials",
+		"accessory" : false,
+		"title" : "45mL Clear Vial 24mm",
+		"description1" : "w/o Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "402898", "qty" : "432"}],
+		"image" : "402898_lg.jpg",
+		"thum_image" : "402898_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "storage caps",
+		"accessory" : false,
+		"title" : "13mm Storage Cap",
+		"description1" : "White, PTFE Lined",
+		"description2" : "For 4mL",
+		"partNumber" : [{"num" : "50425-W", "qty" : "1000"}],
+		"image" : "50425-W_lg.jpg",
+		"thum_image" : "50425-W_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "storage caps",
+		"accessory" : false,
+		"title" : "15mm Storage Cap",
+		"description1" : "Black, PTFE Lined",
+		"description2" : "For 8mm",
+		"partNumber" : [{"num" : "81700", "qty" : "1000"}],
+		"image" : "81700_lg.jpg",
+		"thum_image" : "81700_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "Limited Volume 300μL PP Snap Cap Vials",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "30312", "qty" : "1000"}],
+		"image" : "30312_lg.jpg",
+		"thum_image" : "30312_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "2.0mL Clear Snap Vial",
+		"description1" : "w/Marking Spot",
+		"description2" : "",
+		"partNumber" : [{"num" : "70211M", "qty" : "1000"}],
+		"image" : "70211M_lg.jpg",
+		"thum_image" : "70211M_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "11mm Clear Snap Cap",
+		"description1" : "PTFE/Red Rubber Septa",
+		"description2" : "",
+		"partNumber" : [{"num" : "70502", "qty" : "1000"}],
+		"image" : "70502_lg.jpg",
+		"thum_image" : "70502_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "11mm Clear Snap Cap",
+		"description1" : "PTFE/Silicone Septa",
+		"description2" : "",
+		"partNumber" : [{"num" : "70512", "qty" : "1000"}],
+		"image" : "70512_lg.jpg",
+		"thum_image" : "70512_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "2.0 mL Clear Vial",
+		"description1" : "w/Marking Spot",
+		"description2" : "9mm",
+		"partNumber" : [{"num" : "61629M-2", "qty" : "1000"}],
+		"image" : "61629M-2_lg.jpg",
+		"thum_image" : "61629M-2_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "2.0mL Amber Vial ",
+		"description1" : "w/Marking Spot",
+		"description2" : "9mm",
+		"partNumber" : [{"num" : "61629MA-B", "qty" : "1000"}],
+		"image" : "61629MA-B_lg.jpg",
+		"thum_image" : "61629MA-B_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "9mm Caps PTFE/Silicone",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "65691B-2", "qty" : "1000"}],
+		"image" : "65691B-2_lg.jpg",
+		"thum_image" : "65691B-2_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "1.4mL Clr. High Recovery Vial",
+		"description1" : "with Ptfe/Silicone Pre-slit Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "67117", "qty" : "100"}],
+		"image" : "67117_lg.jpg",
+		"thum_image" : "67117_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "hplc vials",
+		"accessory" : false,
+		"title" : "9mm Caps PTFE/Silicone",
+		"description1" : "Pre-slit Cap",
+		"description2" : "",
+		"partNumber" : [{"num" : "65671B-2", "qty" : "1000"}],
+		"image" : "65671B-2_lg.jpg",
+		"thum_image" : "65671B-2_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "cap mats",
+		"accessory" : false,
+		"title" : "96 Position Teflon Cap Mat",
+		"description1" : "For Shell Vials",
+		"description2" : "",
+		"partNumber" : [{"num" : "399125", "qty" : "25"}],
+		"image" : "399125_lg.jpg",
+		"thum_image" : "399125_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "cap mats",
+		"accessory" : false,
+		"title" : "24 Position Teflon Cap Mat",
+		"description1" : "For 4mL vials p/n 1212205",
+		"description2" : "",
+		"partNumber" : [{"num" : "399128", "qty" : "20"}],
+		"image" : "399128_lg.jpg",
+		"thum_image" : "399128_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "cap mats",
+		"accessory" : false,
+		"title" : "24 Position Teflon Cap Mat",
+		"description1" : "For 18mm Test Tube w/rack 1212095",
+		"description2" : "",
+		"partNumber" : [{"num" : "399138", "qty" : "20"}],
+		"image" : "399138_lg.jpg",
+		"thum_image" : "399138_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "cap mats",
+		"accessory" : false,
+		"title" : "24 Position Teflon Cap Mat",
+		"description1" : "For 4ml Plastic Rack 1212280",
+		"description2" : "",
+		"partNumber" : [{"num" : "399137", "qty" : "20"}],
+		"image" : "399137_lg.jpg",
+		"thum_image" : "399137_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "cap mats",
+		"accessory" : false,
+		"title" : "48 Position Teflon Cap Mat",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "399139", "qty" : "20"}],
+		"image" : "399139_lg.jpg",
+		"thum_image" : "399139_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "inserts",
+		"accessory" : false,
+		"title" : "250μL Glass Insert",
+		"description1" : "Flat Bottom",
+		"description2" : "",
+		"partNumber" : [{"num" : "30412", "qty" : "1000"}],
+		"image" : "30412_lg.jpg",
+		"thum_image" : "30412_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "inserts",
+		"accessory" : false,
+		"title" : "250μL Glass Insert",
+		"description1" : "w/Bottom Spring",
+		"description2" : "",
+		"partNumber" : [{"num" : "55811", "qty" : "100"}],
+		"image" : "55811_lg.jpg",
+		"thum_image" : "55811_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "inserts",
+		"accessory" : false,
+		"title" : "250μL Glass Insert",
+		"description1" : "w/Bottom Spring Sylanized",
+		"description2" : "",
+		"partNumber" : [{"num" : "55811Z", "qty" : "100"}],
+		"image" : "55811Z_lg.jpg",
+		"thum_image" : "55811Z_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "inserts",
+		"accessory" : false,
+		"title" : "250μL 6x31mm",
+		"description1" : "Conical point, stand alone",
+		"description2" : "no spring required",
+		"partNumber" : [{"num" : "55815", "qty" : "100"}],
+		"image" : "55815_lg.jpg",
+		"thum_image" : "55815_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "well blocks",
+		"accessory" : false,
+		"title" : "24 Position Well Block",
+		"description1" : "For 4mL Vials",
+		"description2" : "Automation-friendly",
+		"partNumber" : [{"num" : "1212280", "qty" : "25"}],
+		"image" : "1212280_lg.jpg",
+		"thum_image" : "1212280_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "well blocks",
+		"accessory" : false,
+		"title" : "8 Position Well Block",
+		"description1" : "For 20mL & 40mL Vials",
+		"description2" : "Automation-friendly",
+		"partNumber" : [{"num" : "1212305", "qty" : "25"}],
+		"image" : "1212305_lg.jpg",
+		"thum_image" : "1212305_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "microwave vials",
+		"accessory" : false,
+		"title" : "Microwave Vial Cap",
+		"description1" : "",
+		"description2" : "",
+		"partNumber" : [{"num" : "90814", "qty" : "100"}],
+		"image" : "90814_lg.jpg",
+		"thum_image" : "90814_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "microwave vials",
+		"accessory" : false,
+		"title" : "Microwave Vial 2-5mL Kit",
+		"description1" : "(Vial, Stir Bar, Cap)",
+		"description2" : "",
+		"partNumber" : [{"num" : "81792", "qty" : "100"}],
+		"image" : "81792_lg.jpg",
+		"thum_image" : "81792_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "high temperature vial caps",
+		"accessory" : false,
+		"title" : "White High Temperature Cap",
+		"description1" : "13mm | for 4mL",
+		"description2" : "",
+		"partNumber" : [{"num" : "50425-WH", "qty" : "432"}],
+		"image" : "50425-WH_lg.jpg",
+		"thum_image" : "50425-WH_tn.png"
+	},{
+		"line" : "glassware",
+		"series" : "high temperature vial caps",
+		"accessory" : false,
+		"title" : "White High Temperature Cap",
+		"description1" : "15mm | for 8mL",
+		"description2" : "",
+		"partNumber" : [{"num" : "81700WH", "qty" : "1000"}],
+		"image" : "81700WH_lg.jpg",
+		"thum_image" : "81700WH_tn.png"
 	}
 ]
