@@ -1,8 +1,13 @@
+//grab the url
+var protocol = window.location.protocol;
+var hostname = window.location.hostname;
+var url = protocol + "//" + hostname;
+
 var distributors = angular.module('distributors', ['ngSanitize']);
 
 distributors.controller('distController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
     //grab JSON data
-    $http.get('../wp-content/themes/TIC/assets/javascript/distributors.json').then(function(res){
+    $http.get(url+'/wp-content/themes/TIC/assets/javascript/distributors.json').then(function(res){
       $scope.distributors = res.data;
     
     //set defaults for single distributor view
@@ -66,7 +71,7 @@ distributors.controller('distController', ['$scope', '$http', '$sce', function($
 var compound = angular.module('compound', []);
 
 compound.controller('compoundController', ['$scope', '$http', function($scope, $http){
-  $http.get('../wp-content/themes/TIC/assets/javascript/compound.json').then(
+  $http.get(url+'/wp-content/themes/TIC/assets/javascript/compound.json').then(
     function(rslt){
       $scope.compounds = rslt.data;
     });
@@ -79,7 +84,7 @@ compound.controller('compoundController', ['$scope', '$http', function($scope, $
 var chemicalIndex = angular.module('chemicalIndex', []);
 
 chemicalIndex.controller('chemicalIndexController', ['$scope', '$http',function($scope, $http){
-  $http.get('../wp-content/themes/TIC/assets/javascript/chemical.json').then(function(rslt){
+  $http.get(url+'/wp-content/themes/TIC/assets/javascript/chemical.json').then(function(rslt){
     $scope.chemical = rslt.data;
     
     
@@ -108,7 +113,7 @@ chemicalIndex.controller('chemicalIndexController', ['$scope', '$http',function(
 var products = angular.module('products', []);
 products.controller('productsController', ['$scope', '$http',function($scope, $http){
   
-  $http.get('../wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
+  $http.get(url+'/wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
     $scope.products = rslt.data;
   });
   
@@ -119,7 +124,7 @@ products.controller('productsController', ['$scope', '$http',function($scope, $h
 var plates = angular.module('platesearch', []);
 plates.controller('platesearchController', ['$scope','$http', function($scope,$http){
   
-  $http.get('../wp-content/themes/TIC/assets/javascript/plates.json').then(function(rslt){
+  $http.get(url+'/wp-content/themes/TIC/assets/javascript/plates.json').then(function(rslt){
     $scope.plates = rslt.data;
   });
   
@@ -131,7 +136,7 @@ plates.controller('platesearchController', ['$scope','$http', function($scope,$h
 var product_page = angular.module('product_page', []);
 product_page.controller('product_pageController', ['$scope', '$http', function($scope,$http){
   
-  $http.get('../wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
+  $http.get(url+'/wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
     $scope.products = rslt.data;
   });
   
