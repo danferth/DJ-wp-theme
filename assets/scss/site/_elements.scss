@@ -126,19 +126,22 @@
 //=====================================================================
 
 .partnumber_set{
-  padding: 0 1rem;
-  background:$primary-light;
+  padding: 0 1rem .5rem 1rem;
+  background:$secondary-color;
+  h4{
+    margin: .5rem 0 .15rem 0;
+    
+  }
 }
 .partnumber_item{
-  margin: .25rem auto;
-  padding:.25rem 0;
-  border:1px solid $gainsboro;
+  margin: .15rem auto;
+  padding:.15rem 0;
   border-radius:.5rem;
-  background:$ghost;
+  background:$white;
 }
 .partnumber_image{
   img{
-    width:50%;
+    width:45%;
     height:auto;
     border:1px solid $ghost;
     border-radius:.5rem;
@@ -156,18 +159,20 @@
   }
   .partnumber_title{
     font-weight:bold;
-    margin-bottom:.25rem;
+    margin-bottom:.15rem;
+    text-decoration:underline;
+    font-size:.75rem;
   }
   .partnumber_description{
     font-style:italic;
-    font-size:.75rem;
+    font-size:.70rem;
   }
   .partnumber_number{
-    margin-top:.25rem;
+    margin-top:.15rem;
       display:inline-block;
       float:left;
       margin-right:1rem;
-      font-size:.75rem;
+      font-size:.70rem;
       color:$base;
   }
 }

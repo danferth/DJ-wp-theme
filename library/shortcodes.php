@@ -185,7 +185,7 @@ function parts_shortcode($atts, $content, $tag){
   $prod_url = $content_url['baseurl']."/products/";
   $output = "
   <div class='partnumber_set row'>
-    <h3>".$a['title']."</h3>
+    <h4>".$a['title']."</h4>
     <div class='partnumber_item column small-12' ng-repeat='p in products | filter:p.line=\"".$a['line']."\" | filter:p.series=\"".$a['series']."\" | filter:p.series=\"".$a['filter']."\"'>
       <div class='partnumber_image medium-2 column'>
         <img ng-src='".$prod_url."{{ p.image }}' alt='{{ p.image }}'/>
