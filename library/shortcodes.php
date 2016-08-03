@@ -173,7 +173,7 @@ add_shortcode('ng_product_image', 'ng_product_image_shortcode');
 
 
 //display part numbers for a given series
-//[parts title='' series='']
+//[parts title='' series='' line='' filter='']
 function parts_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
     'title' => '',
