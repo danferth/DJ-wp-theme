@@ -138,6 +138,7 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
   
   $http.get(url+'/wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
     $scope.products = rslt.data;
+
   });
   
   
