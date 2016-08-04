@@ -424,7 +424,7 @@
 		"partNumber" : [{"num" : "899030", "qty" : "50"}],
 		"image" : "899030_lg.jpg",
 		"thum_image" : "899030_tn.png",
-		"tag" : []
+		"tag" : ["accessory"]
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -1276,7 +1276,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 650uL",
+		"title" : "96 Well Plate, 650µL",
 		"description1" : "Round Well, Round Bottom",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
 		"partNumber" : [{"num" : "931512B", "qty" : "50"}],
@@ -1286,7 +1286,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 500uL",
+		"title" : "96 Well Plate, 500µL",
 		"description1" : "Round Well, V-Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, 359747",
 		"partNumber" : [{"num" : "9356045", "qty" : "50"}],
@@ -1378,7 +1378,7 @@
 		"series" : "plate cover",
 		"title" : "96 Well cap mat",
 		"description1" : "For Square Wells",
-		"description2" : "Use with 931130",
+		"description2" : "Use with 931130, 951652",
 		"partNumber" : [{"num" : "A210100", "qty" : "100"}],
 		"image" : "A210100_lg.jpg",
 		"thum_image" : "A210100_tn.png",
