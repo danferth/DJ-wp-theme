@@ -1325,7 +1325,7 @@
 		"tag" : []
 	},{
 		"line" : "well plate",
-		"series" : "well plate",
+		"series" : "tube rack",
 		"title" : "96 Position Tube Racks, 1.2mL",
 		"description1" : "filled with Tubes in Strips of 12",
 		"description2" : "Use with 896060 & 896020",
@@ -1335,24 +1335,24 @@
 		"tag" : []
 	},{
 		"line" : "well plate",
-		"series" : "well plate",
+		"series" : "tube rack",
 		"title" : "12-Strip Cap 400/Case",
 		"description1" : "",
 		"description2" : "Use with 896050",
 		"partNumber" : [{"num" : "896060", "qty" : "400"}],
 		"image" : "896060_lg.jpg",
 		"thum_image" : "896060_tn.png",
-		"tag" : []
+		"tag" : ["accessory"]
 	},{
 		"line" : "well plate",
-		"series" : "well plate",
+		"series" : "tube rack",
 		"title" : "1.2mL Micro Tubes",
 		"description1" : "Loose",
 		"description2" : "Use with 96 Position Tube Rack",
 		"partNumber" : [{"num" : "896020", "qty" : "400"}],
 		"image" : "896020_lg.jpg",
 		"thum_image" : "896020_tn.png",
-		"tag" : []
+		"tag" : ["accessory"]
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
