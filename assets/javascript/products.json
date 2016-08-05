@@ -615,8 +615,8 @@
 		"thum_image" : "35015-476_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Fritted column w/10 of each size: 10mL, 25mL, 50mL, 100mL, 200mL",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -625,8 +625,8 @@
 		"thum_image" : "94520-10_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 10mL or 4g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -635,8 +635,8 @@
 		"thum_image" : "9452086_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 25mL or 12g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -645,8 +645,8 @@
 		"thum_image" : "9452088_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 50mL or 25g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -655,8 +655,8 @@
 		"thum_image" : "9452090_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 100mL or 40g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -665,8 +665,8 @@
 		"thum_image" : "9452092_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 200mL or 80g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -675,8 +675,8 @@
 		"thum_image" : "9452094_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 320mL or 160g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -685,8 +685,8 @@
 		"thum_image" : "9452099_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 650mL or 300g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
@@ -695,8 +695,8 @@
 		"thum_image" : "9452097_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
-		"series" : "",
+		"line" : "columns",
+		"series" : "column",
 		"title" : "Empty SINGLE StEP® Column 600mL or 300g Reservoir",
 		"description1" : "w/5mL Bottom Resin Reservoir w/Frit",
 		"description2" : "",
@@ -705,7 +705,7 @@
 		"thum_image" : "9452097-B_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "accessory",
 		"title" : "Dual Ended PP Cap Blue",
 		"description1" : "",
@@ -715,7 +715,7 @@
 		"thum_image" : "235008_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "frits",
 		"title" : "Head Space Frits for 4g SINGLE StEP® Column",
 		"description1" : "",
@@ -725,7 +725,7 @@
 		"thum_image" : "491250_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "frits",
 		"title" : "Head Space Frits for 12g SINGLE StEP® Column",
 		"description1" : "",
@@ -735,7 +735,7 @@
 		"thum_image" : "491252_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "frits",
 		"title" : "Head Space Frits for 25g SINGLE StEP® Column",
 		"description1" : "",
@@ -745,7 +745,7 @@
 		"thum_image" : "491253_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "frits",
 		"title" : "Head Space Frits for 40g SINGLE StEP® Column",
 		"description1" : "",
@@ -755,7 +755,7 @@
 		"thum_image" : "491254_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "frits",
 		"title" : "Head Space Frits for 80g or 90g SINGLE StEP® Column",
 		"description1" : "",
@@ -765,7 +765,7 @@
 		"thum_image" : "491256_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "frits",
 		"title" : "Head Space Frits for 110g or 160g SINGLE StEP® Column",
 		"description1" : "",
@@ -775,7 +775,7 @@
 		"thum_image" : "491258_tn.png",
 		"tag" : []
 	},{
-		"line" : "empty-columns",
+		"line" : "columns",
 		"series" : "frits",
 		"title" : "Head Space Frits for 240g or 300g SINGLE StEP® Column",
 		"description1" : "",
