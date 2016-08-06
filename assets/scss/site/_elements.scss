@@ -419,13 +419,17 @@ video.tech-video-page-single{
   left:0;
   right:0;
   bottom:0;
+  cursor:pointer;
 }
 .overlay-content{
   background:$white;
   padding: 3rem 5rem;
-  margin-top:15%;
+  margin-top:20%;
+  cursor:pointer;
 }
-
+.hidden{
+  visibility:hidden;
+}
 
 
 //next up?
