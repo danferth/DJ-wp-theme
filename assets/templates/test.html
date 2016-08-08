@@ -1,0 +1,12 @@
+<div class='overlay hidden show-for-medium-up'>
+	<div class='overlay-content'>
+		<div class='row'>
+			<div class='small=12 column'>
+			    <h1>from directive</h1>
+				<ul>
+	<li ng-repeat="p in products | filter:{line:'FV'} | filter:{series:'standard'}">{{ p.title }}</li>
+</ul>
+			</div>
+		</div>
+	</div>
+</div>

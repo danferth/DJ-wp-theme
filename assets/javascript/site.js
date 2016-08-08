@@ -220,5 +220,22 @@ var footer_waypint = new Waypoint({
 	offset: '80%'
 });
 
+//==================
+//OVERLAY===========
+//==================
+//var overlay = "<div class='overlay hidden'><div class='overlay-content'><div class='row'><div class='small=12 column'><p>Here is some content</p></div></div></div></div>";
+
+//	$('body').prepend(overlay);
+	
+	$('button.overlayBtn').on('click', function(){
+		$('.overlay').removeClass('hidden');
+		$('.overlay-content').addClass('animated fadeInUp');
+	});
+	
+	$('.overlay').on('click', function(){
+		$(this).addClass('hidden');
+		$('.overlay-content').removeClass('animated fadeInUp')
+	});
+
 
 });//end doc ready

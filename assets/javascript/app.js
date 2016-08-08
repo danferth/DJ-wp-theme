@@ -141,9 +141,5 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
 
   });
   
-  
-  
-  
-  
-  
 }]);
+

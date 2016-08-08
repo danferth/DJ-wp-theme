@@ -38,28 +38,9 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 
-
-<ul>
-	<li ng-repeat="p in products | filter:{line:'FV'} | filter:{series:'standard'}">{{ p.title }}</li>
-</ul>
+<test></test>
 
 <button class="button large overlayBtn">Show me the overlay</button>
-
-<script>
-var overlay = "<div class='overlay hidden'><div class='overlay-content'><div class='row'><div class='small=12 column'><p>Here is some content</p></div></div></div></div>";
-
-	$('body').prepend(overlay);
-	
-	$('button.overlayBtn').on('click', function(){
-		$('.overlay').removeClass('hidden');
-		$('.overlay-content').addClass('animated fadeInUp');
-	});
-	
-	$('.overlay').on('click', function(){
-		$(this).addClass('hidden');
-		$('.overlay-content').removeClass('animated fadeInUp')
-	});
-</script>
 
 
 <!-- ========================END======================== -->
