@@ -141,5 +141,14 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
 
   });
   
+  $scope.setPart = function(p, $index){
+    $scope.set = p.partNumber[0].num;
+  };
+  
+  $scope.triggerOverlay = function(e){
+    $('.overlay').removeClass('hidden');
+		$('.overlay-content').addClass('animated fadeInUp');
+  };
+  
 }]);
 

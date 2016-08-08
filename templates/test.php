@@ -38,10 +38,13 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 
+<ul>
+	<li class="overlayTrigger" ng-repeat="p in products | filter:{line:'OG'} | filter:{series:'flask'}" ng-click="setPart(p, $index);triggerOverlay()">{{ p.title }} | <b>{{ p.partNumber[0].num }}</b></li>
+</ul>
+
+<p>{{ set }}</p>
+
 <test></test>
-
-<button class="button large overlayBtn">Show me the overlay</button>
-
 
 <!-- ========================END======================== -->
 </div><!-- END DIV FOR CONTENT -->
