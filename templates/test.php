@@ -37,7 +37,9 @@ get_header(); ?>
 				<?php //the_content(); this is normally uncomented and WP adds the content of the page from the db  this page is more for testing so put everything in here that you would mornally and have it just work ?>
 			
 <!-- =======================START======================= -->
+<p>test page here</p></p>
 
+{{ hello }}
 
 
 <!-- ========================END======================== -->
