@@ -427,6 +427,10 @@ video.tech-video-page-single{
   padding: 3rem 5rem;
   margin-top:12%;
   cursor:pointer;
+  .row{
+    max-width:75rem;
+    margin:0 auto;
+  }
 }
 .hidden{
   visibility:hidden;

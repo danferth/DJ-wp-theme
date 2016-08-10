@@ -2,33 +2,29 @@
 	<div class="overlay-content">
 
 		<div class="row">
-			<div class="column small-12" style="outline:1px solid black;">
-				<p class="card-partNum">Part # :{{ set.partNum }} | Qty/case : {{ set.qty }}</p>
-				<p class="card-stop"><b>Description : </b>{{ set.description }}</p>
-			</div>
-			
-			<div class="column small-4" style="outline:1px solid black;">
+
+			<div class="column small-3">
 				<img src="../wp-content/uploads/products/{{ set.partNum }}_lg.jpg" alt="Thomson well plate part number # {{ set.partNum }}">
 			</div>
 
-			<div class="column small-4" style="outline:1px solid black;">
+			<div class="column small-5">
+				<p class="card-partNum"><b>Part # : </b>{{ set.partNum }} | <b>Qty/case : </b>{{ set.qty }}</p>
+				<p class="card-stop"><b>Description : </b>{{ set.description }}</p>
 				<p><b>No. of Wells : </b>{{ set.wellCount }}</p>
 				<p><b>Well Vol. : </b>{{ set.wellVolume }}</p>
 				<p><b>Well Shape : </b>{{ set.wellShape }}</p>
 				<p class="card-stop"><b>Well Bottom : </b>{{ set.wellBottom }}</p>
-				<p><b>ANSI-SLAS : </b>{{ set.ANSI-SLAS }}</p>
-				<p><b>Sterile : </b>{{ set.sterile }}</p>
 			</div>
 
-			<div class="column small-4" style="outline:1px solid black;">
+			<div class="column small-4">
+				<p><b>ANSI-SLAS : </b>{{ set.ANSI-SLAS }}</p>
+				<p><b>Sterile : </b>{{ set.sterile }}</p>
 				<p><b>Filter : </b>{{ set.filter }}</p>
 				<p class="card-stop"><b>Collection Plate : </b>{{ set.collectionPlate }}</p>
 				<p class="card-stop"><b>Works with : </b>{{ set.worksWith }}</p>
-			</div>
-
-			<div class="card-notes column small-12" style="outline:1px solid black;">
 				<p><b>Notes : </b>{{ set.notes }}</p>
 			</div>
+			
 		</div>
 
 	</div>
