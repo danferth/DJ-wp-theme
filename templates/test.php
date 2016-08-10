@@ -20,6 +20,8 @@ $ngController = get_post_meta($post->ID, "ng-controller", true);
 $ng_controller = "ng-controller='" . $ngController . "'";
 }
 
+$science = $_GET['sci'];
+
 get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
@@ -39,9 +41,9 @@ get_header(); ?>
 <!-- =======================START======================= -->
 <p>test page here</p></p>
 
-{{ hello }}
+<p>{{ hello }}</p>
 
-
+<?php echo "<p>".$science."</p>"; ?>  
 <!-- ========================END======================== -->
 </div><!-- END DIV FOR CONTENT -->
 			

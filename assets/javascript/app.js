@@ -135,6 +135,30 @@ plates.controller('platesearchController', ['$scope','$http', function($scope,$h
   
 }]);
 
+plates.filter('tostring', function(){
+    return function(item){
+        var rslt = "";
+        for(var i = 0; i < item.length; i++){
+            if(i < item.length-1){
+                rslt += item[i] + ", ";
+            }else{
+              rslt += item[i];
+            }
+        }
+      return rslt;
+    }
+});
+
+plates.filter('yesNo', function(){
+  return function(item){
+    if(item === false || item === 1){
+      return "No";
+    }else if(item === true || item === 0){
+      return "Yes";
+    }
+  }
+});
+
 //=====Product pages=====
 var product_page = angular.module('product_page', []);
 product_page.controller('product_pageController', ['$scope', '$http', function($scope,$http){
