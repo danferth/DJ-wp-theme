@@ -53,6 +53,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	//app.js (angular stuff goes here for now)
 	wp_enqueue_script('app', get_template_directory_uri(). '/assets/javascript/app.js', array('angular'), '1.0.0', true);
 	wp_enqueue_script('directives', get_template_directory_uri(). '/assets/javascript/directives.js', array('angular'), '1.0.0', true);
+	wp_enqueue_script('filters', get_template_directory_uri(). '/assets/javascript/filters.js', array('angular'), '1.0.0', true);
 
 	// If you'd like to cherry-pick the foundation components you need in your project, head over to Gruntfile.js and see lines 67-88.
 	// It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)
