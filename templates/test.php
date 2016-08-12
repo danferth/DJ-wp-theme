@@ -39,7 +39,19 @@ get_header(); ?>
 				<?php //the_content(); this is normally uncomented and WP adds the content of the page from the db  this page is more for testing so put everything in here that you would mornally and have it just work ?>
 			
 <!-- =======================START======================= -->
- 
+
+<table>
+	<tr ng-repeat="p in products" ng-click="test(p.partNum);">
+		<td>{{ p.partNum }}</td>
+		<td>{{ p.title }}</td>
+		<td>{{ p.line }}</td>
+		<td>{{ p.series }}</td>
+	</tr>
+</table>
+  
+      
+      
+      
 <!-- ========================END======================== -->
 </div><!-- END DIV FOR CONTENT -->
 			

@@ -5,275 +5,275 @@
 		"title" : "PVDF Standard|Filter Vial 0.2μm",
 		"description1" : "Red Pre-Split Cap",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "35531-200", "qty" : "200"},
-			{"num" : "35531-500", "qty" : "500"}
+		"partNum" : "35531",
+		"partNumber" : [{"num" : "35531-200", "qty" : "200"},
+						{"num" : "35531-500", "qty" : "500"}
 		],
 		"image" : "35531_lg.jpg",
 		"thum_image" : "35531_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
 		"title" : "PVDF Standard|Filter Vial 0.45μm",
 		"description1" : "Yellow Pre-Split Cap",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "35541-200", "qty" : "200"},
-			{"num" : "35541-500", "qty" : "500"}
+		"partNum" : "35541",
+		"partNumber" : [{"num" : "35541-200", "qty" : "200"},
+						{"num" : "35541-500", "qty" : "500"}
 		],
 		"image" : "35541_lg.jpg",
 		"thum_image" : "35541_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
 		"title" : "PTFE Standard|Filter Vial 0.2μm",
 		"description1" : "Green Pre-Split Cap",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "35530-200", "qty" : "200"},
-			{"num" : "35530-500", "qty" : "500"}
+		"partNum" : "35530",
+		"partNumber" : [{"num" : "35530-200", "qty" : "200"},
+						{"num" : "35530-500", "qty" : "500"}
 		],
 		"image" : "35530_lg.jpg",
 		"thum_image" : "35530_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
 		"title" : "PTFE Standard|Filter Vial 0.45μm",
 		"description1" : "Blue Pre-Split Cap",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "35540-200", "qty" : "200"},
-			{"num" : "35540-500", "qty" : "500"}
+		"partNum" : "35540",
+		"partNumber" : [{"num" : "35540-200", "qty" : "200"},
+						{"num" : "35540-500", "qty" : "500"}
 		],
 		"image" : "35540_lg.jpg",
 		"thum_image" : "35540_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
 		"title" : "PES Standard|Filter Vial 0.2μm",
 		"description1" : "Grey Pre-Split Cap",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "35535-200", "qty" : "200"},
-			{"num" : "35535-500", "qty" : "500"}
+		"partNum" : "35535",
+		"partNumber" : [{"num" : "35535-200", "qty" : "200"},
+						{"num" : "35535-500", "qty" : "500"}
 		],
 		"image" : "35535_lg.jpg",
 		"thum_image" : "35535_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
 		"title" : "Nylon Standard|Filter Vial 0.2μm",
 		"description1" : "Black Pre-Split Cap",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "35538-200", "qty" : "200"},
-			{"num" : "35538-500", "qty" : "500"}
+		"partNum" : "35538",
+		"partNumber" : [{"num" : "35538-200", "qty" : "200"},
+						{"num" : "35538-500", "qty" : "500"}
 		],
 		"image" : "35538_lg.jpg",
 		"thum_image" : "35538_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
 		"title" : "Nylon Standard|Filter Vial 0.45μm",
 		"description1" : "Pink Pre-Split Cap",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "35539-200", "qty" : "200"},
-			{"num" : "35539-500", "qty" : "500"}
+		"partNum" : "35539",
+		"partNumber" : [{"num" : "35539-200", "qty" : "200"},
+						{"num" : "35539-500", "qty" : "500"}
 		],
 		"image" : "35539_lg.jpg",
 		"thum_image" : "35539_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/standard/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PVDF nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Red Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "15531-200", "qty" : "200"},
-			{"num" : "15531-500", "qty" : "500"}
+		"partNum" : "15531",
+		"partNumber" : [{"num" : "15531-200", "qty" : "200"},
+						{"num" : "15531-500", "qty" : "500"}
 		],
 		"image" : "15531_lg.jpg",
 		"thum_image" : "15531_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PVDF nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Red Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "25531-200", "qty" : "200"},
-			{"num" : "25531-500", "qty" : "500"}
+		"partNum" : "25531",
+		"partNumber" : [{"num" : "25531-200", "qty" : "200"},
+						{"num" : "25531-500", "qty" : "500"}
 		],
 		"image" : "25531_lg.jpg",
 		"thum_image" : "25531_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PVDF nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Yellow Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "15541-200", "qty" : "200"},
-			{"num" : "15541-500", "qty" : "500"}
+		"partNum" : "15541",
+		"partNumber" : [{"num" : "15541-200", "qty" : "200"},
+						{"num" : "15541-500", "qty" : "500"}
 		],
 		"image" : "15541_lg.jpg",
 		"thum_image" : "15541_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PVDF nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Yellow Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "25541-200", "qty" : "200"},
-			{"num" : "25541-500", "qty" : "500"}
+		"partNum" : "25541",
+		"partNumber" : [{"num" : "25541-200", "qty" : "200"},
+						{"num" : "25541-500", "qty" : "500"}
 		],
 		"image" : "25541_lg.jpg",
 		"thum_image" : "25541_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PTFE nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Green Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "15530-200", "qty" : "200"},
-			{"num" : "15530-500", "qty" : "500"}
+		"partNum" : "15530",
+		"partNumber" : [{"num" : "15530-200", "qty" : "200"},
+						{"num" : "15530-500", "qty" : "500"}
 		],
 		"image" : "15530_lg.jpg",
 		"thum_image" : "15530_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PTFE nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Green Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "25530-200", "qty" : "200"},
-			{"num" : "25530-500", "qty" : "500"}
+		"partNum" : "25530",
+		"partNumber" : [{"num" : "25530-200", "qty" : "200"},
+						{"num" : "25530-500", "qty" : "500"}
 		],
 		"image" : "25530_lg.jpg",
 		"thum_image" : "25530_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PTFE nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Blue Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "15540-200", "qty" : "200"},
-			{"num" : "15540-500", "qty" : "500"}
+		"partNum" : "15540",
+		"partNumber" : [{"num" : "15540-200", "qty" : "200"},
+						{"num" : "15540-500", "qty" : "500"}
 		],
 		"image" : "15540_lg.jpg",
 		"thum_image" : "15540_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PTFE nano|Filter Vial 0.45μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Blue Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "25540-200", "qty" : "200"},
-			{"num" : "25540-500", "qty" : "500"}
+		"partNum" : "25540",
+		"partNumber" : [{"num" : "25540-200", "qty" : "200"},
+						{"num" : "25540-500", "qty" : "500"}
 		],
 		"image" : "25540_lg.jpg",
 		"thum_image" : "25540_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PES nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Grey Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "15535-200", "qty" : "200"},
-			{"num" : "15535-500", "qty" : "500"}
+		"partNum" : "15535",
+		"partNumber" : [{"num" : "15535-200", "qty" : "200"},
+						{"num" : "15535-500", "qty" : "500"}
 		],
 		"image" : "15535_lg.jpg",
 		"thum_image" : "15535_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "PES nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Grey Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "25535-200", "qty" : "200"},
-			{"num" : "25535-500", "qty" : "500"}
+		"partNum" : "25535",
+		"partNumber" : [{"num" : "25535-200", "qty" : "200"},
+						{"num" : "25535-500", "qty" : "500"}
 		],
 		"image" : "25535_lg.jpg",
 		"thum_image" : "25535_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "Nylon nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Black Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "15538-200", "qty" : "200"},
-			{"num" : "15538-500", "qty" : "500"}
+		"partNum" : "15538",
+		"partNumber" : [{"num" : "15538-200", "qty" : "200"},
+						{"num" : "15538-500", "qty" : "500"}
 		],
 		"image" : "15538_lg.jpg",
 		"thum_image" : "15538_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
 		"title" : "Nylon nano|Filter Vial 0.2μm",
 		"description1" : "For samples down to 10μL",
 		"description2" : "Black Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "25538-200", "qty" : "200"},
-			{"num" : "25538-500", "qty" : "500"}
+		"partNum" : "25538",
+		"partNumber" : [{"num" : "25538-200", "qty" : "200"},
+						{"num" : "25538-500", "qty" : "500"}
 		],
 		"image" : "25538_lg.jpg",
 		"thum_image" : "25538_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "filter-vials/nano/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
 		"title" : "PVDF eXtreme|FV0.2μm",
 		"description1" : "With tiered filtration",
 		"description2" : "Red Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "85531-200", "qty" : "200"},
-			{"num" : "85531-500", "qty" : "500"}
+		"partNum" : "85531",
+		"partNumber" : [{"num" : "85531-200", "qty" : "200"},
+						{"num" : "85531-500", "qty" : "500"}
 		],
 		"image" : "85531_lg.jpg",
 		"thum_image" : "85531_tn.png",
@@ -285,9 +285,9 @@
 		"title" : "PVDF eXtreme|FV0.45μm",
 		"description1" : "With tiered filtration",
 		"description2" : "Yellow Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "85541-200", "qty" : "200"},
-			{"num" : "85541-500", "qty" : "500"}
+		"partNum" : "85541",
+		"partNumber" : [{"num" : "85541-200", "qty" : "200"},
+						{"num" : "85541-500", "qty" : "500"}
 		],
 		"image" : "85541_lg.jpg",
 		"thum_image" : "85541_tn.png",
@@ -299,9 +299,9 @@
 		"title" : "PTFE eXtreme|FV 0.2μm",
 		"description1" : "With tiered filtration",
 		"description2" : "Green Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "85530-200", "qty" : "200"},
-			{"num" : "85530-500", "qty" : "500"}
+		"partNum" : "85530",
+		"partNumber" : [{"num" : "85530-200", "qty" : "200"},
+						{"num" : "85530-500", "qty" : "500"}
 		],
 		"image" : "85530_lg.jpg",
 		"thum_image" : "85530_tn.png",
@@ -313,9 +313,9 @@
 		"title" : "PTFE eXtreme|FV 0.45μm",
 		"description1" : "With tiered filtration",
 		"description2" : "Blue Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "85540-200", "qty" : "200"},
-			{"num" : "85540-500", "qty" : "500"}
+		"partNum" : "85540",
+		"partNumber" : [{"num" : "85540-200", "qty" : "200"},
+						{"num" : "85540-500", "qty" : "500"}
 		],
 		"image" : "85540_lg.jpg",
 		"thum_image" : "85540_tn.png",
@@ -327,9 +327,9 @@
 		"title" : "PES eXtreme|FV 0.2μm",
 		"description1" : "With tiered filtration",
 		"description2" : "Grey Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "85535-200", "qty" : "200"},
-			{"num" : "85535-500", "qty" : "500"}
+		"partNum" : "85535",
+		"partNumber" : [{"num" : "85535-200", "qty" : "200"},
+						{"num" : "85535-500", "qty" : "500"}
 		],
 		"image" : "85535_lg.jpg",
 		"thum_image" : "85535_tn.png",
@@ -341,9 +341,9 @@
 		"title" : "Nylon eXtreme|FV 0.2μm",
 		"description1" : "With tiered filtration",
 		"description2" : "Black Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "85538-200", "qty" : "200"},
-			{"num" : "85538-500", "qty" : "500"}
+		"partNum" : "85538",
+		"partNumber" : [{"num" : "85538-200", "qty" : "200"},
+						{"num" : "85538-500", "qty" : "500"}
 		],
 		"image" : "85538_lg.jpg",
 		"thum_image" : "85538_tn.png",
@@ -355,9 +355,9 @@
 		"title" : "Nylon eXtreme|FV 0.45μm",
 		"description1" : "With tiered filtration",
 		"description2" : "Pink Pre-Slit Cap",
-		"partNumber" : [
-			{"num" : "85539-200", "qty" : "200"},
-			{"num" : "85539-500", "qty" : "500"}
+		"partNum" : "85539",
+		"partNumber" : [{"num" : "85539-200", "qty" : "200"},
+						{"num" : "85539-500", "qty" : "500"}
 		],
 		"image" : "85539_lg.jpg",
 		"thum_image" : "85539_tn.png",
@@ -369,9 +369,9 @@
 		"title" : "PVDF MEGA|FV™ 0.2μm",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "48831-50", "qty" : "50"},
-			{"num" : "48831-300", "qty" : "300"}
+		"partNum" : "48831",
+		"partNumber" : [{"num" : "48831-50", "qty" : "50"},
+						{"num" : "48831-300", "qty" : "300"}
 		],
 		"image" : "48831_lg.jpg",
 		"thum_image" : "48831_tn.png",
@@ -383,9 +383,9 @@
 		"title" : "PVDF MEGA|FV™ 0.45μm",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "48841-50", "qty" : "50"},
-			{"num" : "48841-300", "qty" : "300"}
+		"partNum" : "48841",
+		"partNumber" : [{"num" : "48841-50", "qty" : "50"},
+						{"num" : "48841-300", "qty" : "300"}
 		],
 		"image" : "48841_lg.jpg",
 		"thum_image" : "48841_tn.png",
@@ -397,9 +397,9 @@
 		"title" : "PTFE MEGA|FV™ 0.2μm",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "48830-50", "qty" : "50"},
-			{"num" : "48830-300", "qty" : "300"}
+		"partNum" : "48830",
+		"partNumber" : [{"num" : "48830-50", "qty" : "50"},
+						{"num" : "48830-300", "qty" : "300"}
 		],
 		"image" : "48830_lg.jpg",
 		"thum_image" : "48830_tn.png",
@@ -411,9 +411,9 @@
 		"title" : "PTFE MEGA|FV™ 0.45μm",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "48840-50", "qty" : "50"},
-			{"num" : "48840-300", "qty" : "300"}
+		"partNum" : "48840",
+		"partNumber" : [{"num" : "48840-50", "qty" : "50"},
+						{"num" : "48840-300", "qty" : "300"}
 		],
 		"image" : "48840_lg.jpg",
 		"thum_image" : "48840_tn.png",
@@ -425,9 +425,9 @@
 		"title" : "Nylon MEGA|FV™ 0.2μm",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "48838-50", "qty" : "50"},
-			{"num" : "48838-300", "qty" : "300"}
+		"partNum" : "48838",
+		"partNumber" : [{"num" : "48838-50", "qty" : "50"},
+						{"num" : "48838-300", "qty" : "300"}
 		],
 		"image" : "48838_lg.jpg",
 		"thum_image" : "48838_tn.png",
@@ -439,9 +439,9 @@
 		"title" : "Nylon MEGA|FV™ 0.45μm",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
-		"partNumber" : [
-			{"num" : "48839-50", "qty" : "50"},
-			{"num" : "48839-300", "qty" : "300"}
+		"partNum" : "48839",
+		"partNumber" : [{"num" : "48839-50", "qty" : "50"},
+						{"num" : "48839-300", "qty" : "300"}
 		],
 		"image" : "48839_lg.jpg",
 		"thum_image" : "48839_tn.png",
@@ -453,6 +453,7 @@
 		"title" : "Storage Cap",
 		"description1" : "For for use with MEGA|FV™",
 		"description2" : "",
+		"partNum" : "899030",
 		"partNumber" : [{"num" : "899030", "qty" : "50"}],
 		"image" : "899030_lg.jpg",
 		"thum_image" : "899030_tn.png",
@@ -463,9 +464,9 @@
 		"title" : "PVDF eXtractor3D|FV® 0.2μm",
 		"description1" : "For Filtering Solids",
 		"description2" : "Red Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "95531-200", "qty" : "200"},
-			{"num" : "95531-500", "qty" : "500"}
+		"partNum" : "95531",
+		"partNumber" : [{"num" : "95531-200", "qty" : "200"},
+						{"num" : "95531-500", "qty" : "500"}
 		],
 		"image" : "95531_lg.jpg",
 		"thum_image" : "95531_tn.png",
@@ -477,9 +478,9 @@
 		"title" : "PVDF eXtractor3D|FV® 0.45μm",
 		"description1" : "For Filtering Solids",
 		"description2" : "Yellow Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "95541-200", "qty" : "200"},
-			{"num" : "95541-500", "qty" : "500"}
+		"partNum" : "95541",
+		"partNumber" : [{"num" : "95541-200", "qty" : "200"},
+						{"num" : "95541-500", "qty" : "500"}
 		],
 		"image" : "95541_lg.jpg",
 		"thum_image" : "95541_tn.png",
@@ -491,9 +492,9 @@
 		"title" : "PTFE eXtractor3D|FV® 0.2μm",
 		"description1" : "For Filtering Solids",
 		"description2" : "Green Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "95530-200", "qty" : "200"},
-			{"num" : "95530-500", "qty" : "500"}
+		"partNum" : "95530",
+		"partNumber" : [{"num" : "95530-200", "qty" : "200"},
+						{"num" : "95530-500", "qty" : "500"}
 		],
 		"image" : "95530_lg.jpg",
 		"thum_image" : "95530_tn.png",
@@ -505,9 +506,9 @@
 		"title" : "PTFE eXtractor3D|FV® 0.45μm",
 		"description1" : "For Filtering Solids",
 		"description2" : "Blue Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "95540-200", "qty" : "200"},
-			{"num" : "95540-500", "qty" : "500"}
+		"partNum" : "95540",
+		"partNumber" : [{"num" : "95540-200", "qty" : "200"},
+						{"num" : "95540-500", "qty" : "500"}
 		],
 		"image" : "95540_lg.jpg",
 		"thum_image" : "95540_tn.png",
@@ -519,9 +520,9 @@
 		"title" : "PES eXtractor3D|FV® 0.2μm",
 		"description1" : "For Filtering Solids",
 		"description2" : "Grey Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "95535-200", "qty" : "200"},
-			{"num" : "95535-500", "qty" : "500"}
+		"partNum" : "95535",
+		"partNumber" : [{"num" : "95535-200", "qty" : "200"},
+						{"num" : "95535-500", "qty" : "500"}
 		],
 		"image" : "95535_lg.jpg",
 		"thum_image" : "95535_tn.png",
@@ -533,9 +534,9 @@
 		"title" : "Nylon eXtractor3D|FV® 0.2μm",
 		"description1" : "For Filtering Solids",
 		"description2" : "Black Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "95538-200", "qty" : "200"},
-			{"num" : "95538-500", "qty" : "500"}
+		"partNum" : "95538",
+		"partNumber" : [{"num" : "95538-200", "qty" : "200"},
+						{"num" : "95538-500", "qty" : "500"}
 		],
 		"image" : "95538_lg.jpg",
 		"thum_image" : "95538_tn.png",
@@ -547,9 +548,9 @@
 		"title" : "Nylon eXtractor3D|FV® 0.45μm",
 		"description1" : "For Filtering Solids",
 		"description2" : "Pink Non-Slit Cap",
-		"partNumber" : [
-			{"num" : "95539-200", "qty" : "200"},
-			{"num" : "95539-500", "qty" : "500"}
+		"partNum" : "95539",
+		"partNumber" : [{"num" : "95539-200", "qty" : "200"},
+						{"num" : "95539-500", "qty" : "500"}
 		],
 		"image" : "95539_lg.jpg",
 		"thum_image" : "95539_tn.png",
@@ -561,9 +562,9 @@
 		"title" : "PVDF Low Evap|Filter Vial 0.2μm",
 		"description1" : "For Low Evaporation",
 		"description2" : "Red  Crimp Cap",
-		"partNumber" : [
-			{"num" : "65531-200", "qty" : "200"},
-			{"num" : "65531-500", "qty" : "500"}
+		"partNum" : "65531",
+		"partNumber" : [{"num" : "65531-200", "qty" : "200"},
+						{"num" : "65531-500", "qty" : "500"}
 		],
 		"image" : "65531_lg.jpg",
 		"thum_image" : "65531_tn.png",
@@ -575,9 +576,9 @@
 		"title" : "PVDF Low Evap|Filter Vial 0.45μm",
 		"description1" : "For Low Evaporation",
 		"description2" : "Yellow Crimp Cap",
-		"partNumber" : [
-			{"num" : "65541-200", "qty" : "200"},
-			{"num" : "65541-500", "qty" : "500"}
+		"partNum" : "65541",
+		"partNumber" : [{"num" : "65541-200", "qty" : "200"},
+						{"num" : "65541-500", "qty" : "500"}
 		],
 		"image" : "65541_lg.jpg",
 		"thum_image" : "65541_tn.png",
@@ -589,9 +590,9 @@
 		"title" : "PTFE Low Evap|Filter Vial 0.2μm",
 		"description1" : "For Low Evaporation",
 		"description2" : "Green Crimp Cap",
-		"partNumber" : [
-			{"num" : "65530-200", "qty" : "200"},
-			{"num" : "65530-500", "qty" : "500"}
+		"partNum" : "65530",
+		"partNumber" : [{"num" : "65530-200", "qty" : "200"},
+						{"num" : "65530-500", "qty" : "500"}
 		],
 		"image" : "65530_lg.jpg",
 		"thum_image" : "65530_tn.png",
@@ -603,9 +604,9 @@
 		"title" : "PTFE Low Evap|Filter Vial 0.45μm",
 		"description1" : "For Low Evaporation",
 		"description2" : "Blue Crimp Cap",
-		"partNumber" : [
-			{"num" : "65540-200", "qty" : "200"},
-			{"num" : "65540-500", "qty" : "500"}
+		"partNum" : "65540",
+		"partNumber" : [{"num" : "65540-200", "qty" : "200"},
+						{"num" : "65540-500", "qty" : "500"}
 		],
 		"image" : "65540_lg.jpg",
 		"thum_image" : "65540_tn.png",
@@ -617,9 +618,9 @@
 		"title" : "Nylon Low Evap|Filter Vial 0.2μm",
 		"description1" : "For Low Evaporation",
 		"description2" : "Black Crimp Cap",
-		"partNumber" : [
-			{"num" : "65538-200", "qty" : "200"},
-			{"num" : "65538-500", "qty" : "500"}
+		"partNum" : "65538",
+		"partNumber" : [{"num" : "65538-200", "qty" : "200"},
+						{"num" : "65538-500", "qty" : "500"}
 		],
 		"image" : "65538_lg.jpg",
 		"thum_image" : "65538_tn.png",
@@ -631,9 +632,9 @@
 		"title" : "Nylon Low Evap|Filter Vial 0.45μm",
 		"description1" : "For Low Evaporation",
 		"description2" : "Pink Crimp Cap",
-		"partNumber" : [
-			{"num" : "65539-200", "qty" : "200"},
-			{"num" : "65539-500", "qty" : "500"}
+		"partNum" : "65539",
+		"partNumber" : [{"num" : "65539-200", "qty" : "200"},
+						{"num" : "65539-500", "qty" : "500"}
 		],
 		"image" : "65539_lg.jpg",
 		"thum_image" : "65539_tn.png",
@@ -645,6 +646,7 @@
 		"title" : "Filter Vial Toggle Press",
 		"description1" : "For High Solid Content and Very Viscous liquid samples",
 		"description2" : "5 Position Autosampler Ready Filter Vials",
+		"partNum" : "35005",
 		"partNumber" : [{"num" : "35005", "qty" : "1"}],
 		"image" : "35005_lg.jpg",
 		"thum_image" : "35005_tn.png",
@@ -656,6 +658,7 @@
 		"title" : "Multi-Use Press",
 		"description1" : "8 Position for MEGA|FV",
 		"description2" : "48 Position for Autosampler Ready Filter Vials",
+		"partNum" : "35015",
 		"partNumber" : [{"num" : "35015", "qty" : "1"}],
 		"image" : "35015-476_lg.jpg",
 		"thum_image" : "35015-476_tn.png",
@@ -667,6 +670,7 @@
 		"title" : "Fritted column w/10 of each size: 10mL, 25mL, 50mL, 100mL, 200mL",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "94520-10",
 		"partNumber" : [{"num" : "94520-10", "qty" : "50"}],
 		"image" : "94520-10_lg.jpg",
 		"thum_image" : "94520-10_tn.png",
@@ -678,6 +682,7 @@
 		"title" : "Empty SINGLE StEP® Column 10mL or 4g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "9452086",
 		"partNumber" : [{"num" : "9452086", "qty" : "100"}],
 		"image" : "9452086_lg.jpg",
 		"thum_image" : "9452086_tn.png",
@@ -689,6 +694,7 @@
 		"title" : "Empty SINGLE StEP® Column 25mL or 12g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "9452088",
 		"partNumber" : [{"num" : "9452088", "qty" : "100"}],
 		"image" : "9452088_lg.jpg",
 		"thum_image" : "9452088_tn.png",
@@ -700,6 +706,7 @@
 		"title" : "Empty SINGLE StEP® Column 50mL or 25g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "9452090",
 		"partNumber" : [{"num" : "9452090", "qty" : "100"}],
 		"image" : "9452090_lg.jpg",
 		"thum_image" : "9452090_tn.png",
@@ -711,6 +718,7 @@
 		"title" : "Empty SINGLE StEP® Column 100mL or 40g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "9452092",
 		"partNumber" : [{"num" : "9452092", "qty" : "100"}],
 		"image" : "9452092_lg.jpg",
 		"thum_image" : "9452092_tn.png",
@@ -722,6 +730,7 @@
 		"title" : "Empty SINGLE StEP® Column 200mL or 80g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "9452094",
 		"partNumber" : [{"num" : "9452094", "qty" : "100"}],
 		"image" : "9452094_lg.jpg",
 		"thum_image" : "9452094_tn.png",
@@ -733,6 +742,7 @@
 		"title" : "Empty SINGLE StEP® Column 320mL or 160g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "9452099",
 		"partNumber" : [{"num" : "9452099", "qty" : "10"}],
 		"image" : "9452099_lg.jpg",
 		"thum_image" : "9452099_tn.png",
@@ -744,6 +754,7 @@
 		"title" : "Empty SINGLE StEP® Column 650mL or 300g Reservoir with Frit",
 		"description1" : "For adding your own resins, Universal fit",
 		"description2" : "Top Frits available",
+		"partNum" : "9452097",
 		"partNumber" : [{"num" : "9452097", "qty" : "10"}],
 		"image" : "9452097_lg.jpg",
 		"thum_image" : "9452097_tn.png",
@@ -755,6 +766,7 @@
 		"title" : "Empty SINGLE StEP® Column 600mL or 300g Reservoir",
 		"description1" : "w/5mL Bottom Resin Reservoir w/Frit",
 		"description2" : "",
+		"partNum" : "9452097-B",
 		"partNumber" : [{"num" : "9452097-B", "qty" : "10"}],
 		"image" : "9452097-B_lg.jpg",
 		"thum_image" : "9452097-B_tn.png",
@@ -766,6 +778,7 @@
 		"title" : "Dual Ended PP Cap Blue",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "235008",
 		"partNumber" : [{"num" : "235008", "qty" : "100"}],
 		"image" : "235008_lg.jpg",
 		"thum_image" : "235008_tn.png",
@@ -777,6 +790,7 @@
 		"title" : "Head Space Frits for 4g SINGLE StEP® Column",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "491250",
 		"partNumber" : [{"num" : "491250", "qty" : "100"}],
 		"image" : "491250_lg.jpg",
 		"thum_image" : "491250_tn.png",
@@ -788,6 +802,7 @@
 		"title" : "Head Space Frits for 12g SINGLE StEP® Column",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "491252",
 		"partNumber" : [{"num" : "491252", "qty" : "100"}],
 		"image" : "491252_lg.jpg",
 		"thum_image" : "491252_tn.png",
@@ -799,6 +814,7 @@
 		"title" : "Head Space Frits for 25g SINGLE StEP® Column",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "491253",
 		"partNumber" : [{"num" : "491253", "qty" : "100"}],
 		"image" : "491253_lg.jpg",
 		"thum_image" : "491253_tn.png",
@@ -810,6 +826,7 @@
 		"title" : "Head Space Frits for 40g SINGLE StEP® Column",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "491254",
 		"partNumber" : [{"num" : "491254", "qty" : "100"}],
 		"image" : "491254_lg.jpg",
 		"thum_image" : "491254_tn.png",
@@ -821,6 +838,7 @@
 		"title" : "Head Space Frits for 80g or 90g SINGLE StEP® Column",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "491256",
 		"partNumber" : [{"num" : "491256", "qty" : "100"}],
 		"image" : "491256_lg.jpg",
 		"thum_image" : "491256_tn.png",
@@ -832,6 +850,7 @@
 		"title" : "Head Space Frits for 110g or 160g SINGLE StEP® Column",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "491258",
 		"partNumber" : [{"num" : "491258", "qty" : "100"}],
 		"image" : "491258_lg.jpg",
 		"thum_image" : "491258_tn.png",
@@ -843,6 +862,7 @@
 		"title" : "Head Space Frits for 240g or 300g SINGLE StEP® Column",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "491260",
 		"partNumber" : [{"num" : "491260", "qty" : "100"}],
 		"image" : "491260_lg.jpg",
 		"thum_image" : "491260_tn.png",
@@ -854,6 +874,7 @@
 		"title" : "Optimum Growth™ 125mL Flask",
 		"description1" : "Use with Transfer Cap",
 		"description2" : "Sterile",
+		"partNum" : "931110",
 		"partNumber" : [{"num" : "931110", "qty" : "50"}],
 		"image" : "931110_lg.jpg",
 		"thum_image" : "931110_tn.png",
@@ -865,6 +886,7 @@
 		"title" : "125mL 8 Position Carrier",
 		"description1" : "For Optimum Growth™ 125mL Flask (931110)",
 		"description2" : "",
+		"partNum" : "1212900",
 		"partNumber" : [{"num" : "1212900", "qty" : "1"}],
 		"image" : "1212900_lg.jpg",
 		"thum_image" : "1212900_tn.png",
@@ -876,6 +898,7 @@
 		"title" : "Optimum Growth™ 250mL Flask",
 		"description1" : "Use with Transfer Cap",
 		"description2" : "Sterile",
+		"partNum" : "931111",
 		"partNumber" : [{"num" : "931111", "qty" : "50"}],
 		"image" : "931111_lg.jpg",
 		"thum_image" : "931111_tn.png",
@@ -887,6 +910,7 @@
 		"title" : "250mL 8 Position Carrier",
 		"description1" : "For Optimum Growth™ 250mL Flask (931111)",
 		"description2" : "",
+		"partNum" : "1212905",
 		"partNumber" : [{"num" : "1212905", "qty" : "1"}],
 		"image" : "1212905_lg.jpg",
 		"thum_image" : "1212905_tn.png",
@@ -898,6 +922,7 @@
 		"title" : "Optimum Growth™ 500mL Flask",
 		"description1" : "Use with Transfer Cap",
 		"description2" : "Sterile",
+		"partNum" : "931112",
 		"partNumber" : [{"num" : "931112", "qty" : "50"}],
 		"image" : "931112_lg.jpg",
 		"thum_image" : "931112_tn.png",
@@ -909,6 +934,7 @@
 		"title" : "Optimum Growth™ 1.6L Flask",
 		"description1" : "Use with Transfer Cap",
 		"description2" : "Sterile",
+		"partNum" : "931113",
 		"partNumber" : [{"num" : "931113", "qty" : "12"}],
 		"image" : "931113_lg.jpg",
 		"thum_image" : "931113_tn.png",
@@ -920,6 +946,7 @@
 		"title" : "Optimum Growth™ 5L Flask",
 		"description1" : "Use with Transfer Cap",
 		"description2" : "Sterile",
+		"partNum" : "931116",
 		"partNumber" : [{"num" : "931116", "qty" : "4"}],
 		"image" : "931116_lg.jpg",
 		"thum_image" : "931116_tn.png",
@@ -931,7 +958,8 @@
 		"title" : "Optimum Growth™ 5L Flask Sterile w/Port",
 		"description1" : "Aseptic & Fast Sampling in the Shaker",
 		"description2" : "Sterile",
-		"partNumber" : [{"num" : "931116-Port-E", "qty" : "4"}],
+		"partNum" : "931116-PORT-E",
+		"partNumber" : [{"num" : "931116-PORT-E", "qty" : "4"}],
 		"image" : "931116-PORT-E_lg.jpg",
 		"thum_image" : "931116-PORT-E_tn.png",
 		"tag" : [],
@@ -942,6 +970,7 @@
 		"title" : "Multiported Optimum Growth™ 1.6L Flask ",
 		"description1" : "w/ Bidirectional Transfer/Feed & Sampling Ability",
 		"description2" : "Sterile",
+		"partNum" : "931113-PORT-TRT",
 		"partNumber" : [{"num" : "931113-PORT-TRT", "qty" : "12"}],
 		"image" : "931113-PORT-TRT_lg.jpg",
 		"thum_image" : "931113-PORT-TRT_tn.png",
@@ -953,6 +982,7 @@
 		"title" : "Optimum Growth™ 2.8L Flask",
 		"description1" : "Use with Transfer Cap",
 		"description2" : "Sterile",
+		"partNum" : "931114",
 		"partNumber" : [{"num" : "931114", "qty" : "6"}],
 		"image" : "931114_lg.jpg",
 		"thum_image" : "931114_tn.png",
@@ -964,6 +994,7 @@
 		"title" : "Multiported Optimum Growth™ 5L Flask",
 		"description1" : "w/ Bidirectional Transfer/Feed & Sampling Ability",
 		"description2" : "Sterile",
+		"partNum" : "931116-PORT-E-TRT",
 		"partNumber" : [{"num" : "931116-PORT-E-TRT", "qty" : "4"}],
 		"image" : "931116-PORT-E-TRT_lg.jpg",
 		"thum_image" : "931116-PORT-E-TRT_tn.png",
@@ -975,7 +1006,8 @@
 		"title" : "Optimum Growth™ Vent Caps",
 		"description1" : "For Optimum Growth™ 5L, 2.8L & 1.6L Flasks",
 		"description2" : "Sterile",
-		"partNumber" : [{"num" : "931116-PORT-E-TRT", "qty" : "24"}],
+		"partNum" : "899116",
+		"partNumber" : [{"num" : "899116", "qty" : "24"}],
 		"image" : "899116_lg.jpg",
 		"thum_image" : "899116_tn.png",
 		"tag" : [],
@@ -986,6 +1018,7 @@
 		"title" : "Optimum Growth™ Solid Cap",
 		"description1" : "For Optimum Growth™ 5L, 2.8L & 1.6L Flasks",
 		"description2" : "Sterile",
+		"partNum" : "899600-B",
 		"partNumber" : [{"num" : "899600-B", "qty" : "24"}],
 		"image" : "899600-B_lg.jpg",
 		"thum_image" : "899600-B_tn.png",
@@ -997,6 +1030,7 @@
 		"title" : "Optimum Growth™ 5L Flask with Solid Cap",
 		"description1" : "For storage",
 		"description2" : "Sterile",
+		"partNum" : "931116-SC-B",
 		"partNumber" : [{"num" : "931116-SC-B", "qty" : "4"}],
 		"image" : "931116-SC-B_lg.jpg",
 		"thum_image" : "931116-SC-B_tn.png",
@@ -1008,6 +1042,7 @@
 		"title" : "Ultra Yield™ Flask 125mL",
 		"description1" : "125mL flask, 40-50mL working Volume",
 		"description2" : "Sterile | For best results use AirOtop® Seals",
+		"partNum" : "931147",
 		"partNumber" : [{"num" : "931147", "qty" : "50"}],
 		"image" : "931147_lg.jpg",
 		"thum_image" : "931147_tn.png",
@@ -1019,6 +1054,7 @@
 		"title" : "Ultra Yield™ Flask 250mL",
 		"description1" : "250mL flask, 75-110mL working Volume",
 		"description2" : "Sterile | For best results use AirOtop® Seals",
+		"partNum" : "931144",
 		"partNumber" : [{"num" : "931144", "qty" : "50"}],
 		"image" : "931144_lg.jpg",
 		"thum_image" : "931144_tn.png",
@@ -1030,6 +1066,7 @@
 		"title" : "Ultra Yield™ Flask 500mL",
 		"description1" : "500mL flask, 125-200mL working Volume",
 		"description2" : "Sterile | For best results use AirOtop® Seals",
+		"partNum" : "931141",
 		"partNumber" : [{"num" : "931141", "qty" : "25"}],
 		"image" : "931141_lg.jpg",
 		"thum_image" : "931141_tn.png",
@@ -1041,6 +1078,7 @@
 		"title" : "Ultra Yield™ Flask 2.5L",
 		"description1" : "2.5L flask, 500mL working Volume",
 		"description2" : "Sterile | For best results use AirOtop® Seals",
+		"partNum" : "931136-B",
 		"partNumber" : [{"num" : "931136-B", "qty" : "6"}],
 		"image" : "931136-B_lg.jpg",
 		"thum_image" : "931136-B_tn.png",
@@ -1052,6 +1090,7 @@
 		"title" : "AirOtop Enhanced Seal",
 		"description1" : "For Ultra Yield 2.5L Flask",
 		"description2" : "Sterile",
+		"partNum" : "899425",
 		"partNumber" : [{"num" : "899425", "qty" : "100"}],
 		"image" : "899425_lg.jpg",
 		"thum_image" : "899425_tn.png",
@@ -1063,6 +1102,7 @@
 		"title" : "AirOtop Enhanced Seal",
 		"description1" : "For Ultra Yield 500mL Flask",
 		"description2" : "Sterile",
+		"partNum" : "899424",
 		"partNumber" : [{"num" : "899424", "qty" : "100"}],
 		"image" : "899424_lg.jpg",
 		"thum_image" : "899424_tn.png",
@@ -1074,6 +1114,7 @@
 		"title" : "AirOtop Enhanced Seal",
 		"description1" : "For Ultra Yield 250mL Flask",
 		"description2" : "Sterile",
+		"partNum" : "899423",
 		"partNumber" : [{"num" : "899423", "qty" : "100"}],
 		"image" : "899423_lg.jpg",
 		"thum_image" : "899423_tn.png",
@@ -1085,6 +1126,7 @@
 		"title" : "AirOtop Enhanced Seal",
 		"description1" : "For Ultra Yield 125mL Flask",
 		"description2" : "Sterile",
+		"partNum" : "899421",
 		"partNumber" : [{"num" : "899421", "qty" : "100"}],
 		"image" : "899421_lg.jpg",
 		"thum_image" : "899421_tn.png",
@@ -1096,6 +1138,7 @@
 		"title" : "Plasmid+® Media",
 		"description1" : "Plasmid+ Media in 1L Bottles",
 		"description2" : "Sterile",
+		"partNum" : "446300",
 		"partNumber" : [{"num" : "446300", "qty" : "6"}],
 		"image" : "446300_lg.jpg",
 		"thum_image" : "446300_tn.png",
@@ -1107,6 +1150,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 1.6L Flask",
 		"description1" : "7/16\" Male Connection",
 		"description2" : "Sterile",
+		"partNum" : "931706",
 		"partNumber" : [{"num" : "931706-4", "qty" : "4"},
 						{"num" : "931706-20", "qty" : "20"}],
 		"image" : "931706_lg.jpg",
@@ -1119,6 +1163,7 @@
 		"title" : "Inversion Transfer CProduct Nameap for Optimum Growth™ 1.6L Flask",
 		"description1" : "2' Tubing to weld to 1/4\" C-Flex 16",
 		"description2" : "Sterile",
+		"partNum" : "931705",
 		"partNumber" : [{"num" : "931705-4", "qty" : "4"},
 						{"num" : "931705-20", "qty" : "20"}],
 		"image" : "931705_lg.jpg",
@@ -1131,6 +1176,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 1.6L Flask",
 		"description1" : "2' Tubing to weld to 7/16\" C-Flex 24",
 		"description2" : "Sterile",
+		"partNum" : "931708",
 		"partNumber" : [{"num" : "931708-4", "qty" : "4"},
 						{"num" : "931708-20", "qty" : "20"}],
 		"image" : "931708_lg.jpg",
@@ -1143,6 +1189,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 1.6L Flask",
 		"description1" : "with 2' Tubing with Luer Lock",
 		"description2" : "Sterile",
+		"partNum" : "931710",
 		"partNumber" : [{"num" : "931710-4", "qty" : "4"},
 						{"num" : "931710-20", "qty" : "20"}],
 		"image" : "931710_lg.jpg",
@@ -1155,6 +1202,7 @@
 		"title" : "Stand with Ring for Inverting Optimum Growth™ 1.6L Flask",
 		"description1" : "to use w/1.6L Inversion Transfer Caps",
 		"description2" : "",
+		"partNum" : "931609",
 		"partNumber" : [{"num" : "931609", "qty" : "1"}],
 		"image" : "931609_lg.jpg",
 		"thum_image" : "931609_tn.png",
@@ -1166,6 +1214,7 @@
 		"title" : "Ring Only for Inverting Optimum Growth™ 1.6L Flask ",
 		"description1" : "reqires a 22\" stand",
 		"description2" : "",
+		"partNum" : "931700",
 		"partNumber" : [{"num" : "931700", "qty" : "1"}],
 		"image" : "931700_lg.jpg",
 		"thum_image" : "931700_tn.png",
@@ -1177,6 +1226,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
 		"description1" : "1/4\" Barb Connection",
 		"description2" : "Sterile",
+		"partNum" : "931594",
 		"partNumber" : [{"num" : "931594-4", "qty" : "4"},
 						{"num" : "931594-20", "qty" : "20"}],
 		"image" : "931594_lg.jpg",
@@ -1189,6 +1239,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
 		"description1" : "7/16\" Male Connection",
 		"description2" : "Sterile",
+		"partNum" : "931596",
 		"partNumber" : [{"num" : "931596-4", "qty" : "4"},
 						{"num" : "931596-20", "qty" : "20"}],
 		"image" : "931596_lg.jpg",
@@ -1201,6 +1252,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
 		"description1" : "2' Tubing to weld to 1/4\" C-Flex 16",
 		"description2" : "Sterile",
+		"partNum" : "931595",
 		"partNumber" : [{"num" : "931595-4", "qty" : "4"},
 						{"num" : "931595-20", "qty" : "20"}],
 		"image" : "931595_lg.jpg",
@@ -1213,6 +1265,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
 		"description1" : "2' Tubing to weld to 7/16\" C-Flex 24",
 		"description2" : "Sterile",
+		"partNum" : "931598",
 		"partNumber" : [{"num" : "931598-4", "qty" : "4"},
 						{"num" : "931598-20", "qty" : "20"}],
 		"image" : "931598_lg.jpg",
@@ -1225,6 +1278,7 @@
 		"title" : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
 		"description1" : "with 2' Tubing with Luer Lock",
 		"description2" : "Sterile",
+		"partNum" : "931616",
 		"partNumber" : [{"num" : "931616-4", "qty" : "4"},
 						{"num" : "931616-20", "qty" : "20"}],
 		"image" : "931616_lg.jpg",
@@ -1237,6 +1291,7 @@
 		"title" : "Stand with Ring for Inverting Optimum Growth™ 5 Liter Flask",
 		"description1" : "to use w/5L Inversion Transfer Caps",
 		"description2" : "",
+		"partNum" : "931606",
 		"partNumber" : [{"num" : "931606", "qty" : "1"}],
 		"image" : "931606_lg.jpg",
 		"thum_image" : "931606_tn.png",
@@ -1248,6 +1303,7 @@
 		"title" : "Ring Only for Inverting Optimum Growth™ 5L Flask",
 		"description1" : "requires a 22\" stand",
 		"description2" : "",
+		"partNum" : "931607",
 		"partNumber" : [{"num" : "931607", "qty" : "1"}],
 		"image" : "931607_lg.jpg",
 		"thum_image" : "931607_tn.png",
@@ -1259,6 +1315,7 @@
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 1.6L Flask",
 		"description1" : "For Peristaltic Pump, 2' tubing welds to 1/4\" C-Flex 16",
 		"description2" : "Sterile",
+		"partNum" : "931704",
 		"partNumber" : [{"num" : "931704-8", "qty" : "8"}],
 		"image" : "931704_lg.jpg",
 		"thum_image" : "931704_tn.png",
@@ -1270,6 +1327,7 @@
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 1.6L Flask",
 		"description1" : "For Peristaltic Pump, 2' Tubing with Luer Lock",
 		"description2" : "Sterile",
+		"partNum" : "931702",
 		"partNumber" : [{"num" : "931702-8", "qty" : "8"}],
 		"image" : "931702_lg.jpg",
 		"thum_image" : "931702_tn.png",
@@ -1281,6 +1339,7 @@
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 5L Flask",
 		"description1" : "For Peristaltic Pump, 2' tubing welds to 1/4\" C-Flex 16",
 		"description2" : "Sterile",
+		"partNum" : "931614",
 		"partNumber" : [{"num" : "931614-8", "qty" : "8"}],
 		"image" : "931614_lg.jpg",
 		"thum_image" : "931614_tn.png",
@@ -1292,6 +1351,7 @@
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 5L Flask",
 		"description1" : "For Peristaltic Pump, 2' Tubing with Luer Lock",
 		"description2" : "Sterile",
+		"partNum" : "931618",
 		"partNumber" : [{"num" : "931618-8", "qty" : "8"}],
 		"image" : "931618_lg.jpg",
 		"thum_image" : "931618_tn.png",
@@ -1303,6 +1363,7 @@
 		"title" : "24 Well Plate, 10.4mL",
 		"description1" : "Square Well, Round Bottom | Individualy Wrapped | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
+		"partNum" : "931565-G-1X",
 		"partNumber" : [{"num" : "931565-G-1X", "qty" : "20"}],
 		"image" : "931565-G-1X_lg.jpg",
 		"thum_image" : "931565-G-1X_tn.png",
@@ -1314,6 +1375,7 @@
 		"title" : "24 Well Plate, 10.4mL, Square Well, Round Bottom",
 		"description1" : "Individualy Wrapped with Lid | Sterile",
 		"description2" : "",
+		"partNum" : "931568",
 		"partNumber" : [{"num" : "931568", "qty" : "20"}],
 		"image" : "931568_lg.jpg",
 		"thum_image" : "931568_tn.png",
@@ -1325,6 +1387,7 @@
 		"title" : "48 Well Plate, 5mL",
 		"description1" : "square, V-Bottom",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
+		"partNum" : "931904",
 		"partNumber" : [{"num" : "931904", "qty" : "25"}],
 		"image" : "931904_lg.jpg",
 		"thum_image" : "931904_tn.png",
@@ -1336,6 +1399,7 @@
 		"title" : "96 Well Plate, 2mL",
 		"description1" : "Round Well, Round Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, 359747",
+		"partNum" : "951657",
 		"partNumber" : [{"num" : "951657", "qty" : "50"}],
 		"image" : "951657_lg.jpg",
 		"thum_image" : "951657_tn.png",
@@ -1347,6 +1411,7 @@
 		"title" : "96 Well Plate 2mL",
 		"description1" : "Square Well, Round Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
+		"partNum" : "951652",
 		"partNumber" : [{"num" : "951652", "qty" : "100"}],
 		"image" : "951652_lg.jpg",
 		"thum_image" : "951652_tn.png",
@@ -1358,6 +1423,7 @@
 		"title" : "96 Well Plate, 2mL",
 		"description1" : "Square Well, V-Bottom | Rim | Raised Lettering | Skirted Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
+		"partNum" : "951652B",
 		"partNumber" : [{"num" : "951652B", "qty" : "50"}],
 		"image" : "951652B_lg.jpg",
 		"thum_image" : "951652B_tn.png",
@@ -1369,6 +1435,7 @@
 		"title" : "96 Well Plate, 2mL",
 		"description1" : "Square Well, V-Bottom, Raised Lettering | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
+		"partNum" : "951652C",
 		"partNumber" : [{"num" : "951652C", "qty" : "50"}],
 		"image" : "951652C_lg.jpg",
 		"thum_image" : "951652C_tn.png",
@@ -1380,6 +1447,7 @@
 		"title" : "96 Well Plate, 2mL",
 		"description1" : "Square Well, Round Bottom | Irreversible",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
+		"partNum" : "931130",
 		"partNumber" : [{"num" : "931130", "qty" : "32"}],
 		"image" : "931130_lg.jpg",
 		"thum_image" : "931130_tn.png",
@@ -1391,6 +1459,7 @@
 		"title" : "96 Well Plate, 650µL",
 		"description1" : "Round Well, Round Bottom",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
+		"partNum" : "931512B",
 		"partNumber" : [{"num" : "931512B", "qty" : "50"}],
 		"image" : "931512B_lg.jpg",
 		"thum_image" : "931512B_tn.png",
@@ -1402,6 +1471,7 @@
 		"title" : "96 Well Plate, 500µL",
 		"description1" : "Round Well, V-Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, 359747",
+		"partNum" : "9356045",
 		"partNumber" : [{"num" : "9356045", "qty" : "50"}],
 		"image" : "9356045_lg.jpg",
 		"thum_image" : "9356045_tn.png",
@@ -1413,6 +1483,7 @@
 		"title" : "96 Well Plate, 1.2mL",
 		"description1" : "Round Well, Round Bottom | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
+		"partNum" : "951651B",
 		"partNumber" : [{"num" : "951651B", "qty" : "50"}],
 		"image" : "951651B_lg.jpg",
 		"thum_image" : "951651B_tn.png",
@@ -1424,6 +1495,7 @@
 		"title" : "96 Well Plate, 2mL",
 		"description1" : "Square Well, Round Bottom with Lid | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
+		"partNum" : "9311134",
 		"partNumber" : [{"num" : "9311134", "qty" : "32"}],
 		"image" : "9311134_lg.jpg",
 		"thum_image" : "9311134_tn.png",
@@ -1435,6 +1507,7 @@
 		"title" : "96 Well Filter Plate, 2mL",
 		"description1" : "Square Well, Long Drip | 25µm Polypropylene filter",
 		"description2" : "Use with 931130",
+		"partNum" : "931919",
 		"partNumber" : [{"num" : "931919", "qty" : "25"}],
 		"image" : "931919_lg.jpg",
 		"thum_image" : "931919_tn.png",
@@ -1446,6 +1519,7 @@
 		"title" : "96 Position Tube Racks, 1.2mL",
 		"description1" : "filled with Tubes in Strips of 12",
 		"description2" : "Use with 896060 & 896020",
+		"partNum" : "896050",
 		"partNumber" : [{"num" : "896050", "qty" : "50"}],
 		"image" : "896050_lg.jpg",
 		"thum_image" : "896050_tn.png",
@@ -1457,6 +1531,7 @@
 		"title" : "12-Strip Cap 400/Case",
 		"description1" : "",
 		"description2" : "Use with 896050",
+		"partNum" : "896060",
 		"partNumber" : [{"num" : "896060", "qty" : "400"}],
 		"image" : "896060_lg.jpg",
 		"thum_image" : "896060_tn.png",
@@ -1467,6 +1542,7 @@
 		"title" : "1.2mL Micro Tubes",
 		"description1" : "Loose",
 		"description2" : "Use with 96 Position Tube Rack",
+		"partNum" : "896020",
 		"partNumber" : [{"num" : "896020", "qty" : "400"}],
 		"image" : "896020_lg.jpg",
 		"thum_image" : "896020_tn.png",
@@ -1477,6 +1553,7 @@
 		"title" : "96 Well Cap mat",
 		"description1" : ", For Wide Round Wells",
 		"description2" : "Use with 951657 & 9356045",
+		"partNum" : "359747",
 		"partNumber" : [{"num" : "359747", "qty" : "50"}],
 		"image" : "359747_lg.jpg",
 		"thum_image" : "359747_tn.png",
@@ -1488,6 +1565,7 @@
 		"title" : "96 Well Bottom Mat",
 		"description1" : "For Long Drip Filter Plates",
 		"description2" : "Use with 931919",
+		"partNum" : "982005",
 		"partNumber" : [{"num" : "982005", "qty" : "100"}],
 		"image" : "982005_lg.jpg",
 		"thum_image" : "982005_tn.png",
@@ -1499,6 +1577,7 @@
 		"title" : "96 Well cap mat",
 		"description1" : "For Square Wells",
 		"description2" : "Use with 931130, 951652",
+		"partNum" : "A210100",
 		"partNumber" : [{"num" : "A210100", "qty" : "100"}],
 		"image" : "A210100_lg.jpg",
 		"thum_image" : "A210100_tn.png",
@@ -1510,6 +1589,7 @@
 		"title" : "Adhesive Foil Plate Seal",
 		"description1" : "",
 		"description2" : "Use with all plates",
+		"partNum" : "899405-1",
 		"partNumber" : [{"num" : "899405-1", "qty" : "100"}],
 		"image" : "899405-1_lg.jpg",
 		"thum_image" : "899405-1_tn.png",
@@ -1521,6 +1601,7 @@
 		"title" : "Airporous Plate Seal",
 		"description1" : " For Growing Cultures",
 		"description2" : "Use with all plates",
+		"partNum" : "899410",
 		"partNumber" : [{"num" : "899410", "qty" : "100"}],
 		"image" : "899410_lg.jpg",
 		"thum_image" : "899410_tn.png",
@@ -1532,6 +1613,7 @@
 		"title" : "Pierceable Foil Heat Seal",
 		"description1" : "",
 		"description2" : "Use with all plates",
+		"partNum" : "899403",
 		"partNumber" : [{"num" : "899403", "qty" : "100"}],
 		"image" : "899403_lg.jpg",
 		"thum_image" : "899403_tn.png",
@@ -1543,6 +1625,7 @@
 		"title" : "Long Term Storage Foil Heat Seal",
 		"description1" : "",
 		"description2" : "Use with all plates",
+		"partNum" : "899406",
 		"partNumber" : [{"num" : "899406", "qty" : "100"}],
 		"image" : "899406_lg.jpg",
 		"thum_image" : "899406_tn.png",
@@ -1554,6 +1637,7 @@
 		"title" : "Culture tubes 25x150",
 		"description1" : "60mL",
 		"description2" : "",
+		"partNum" : "351692B",
 		"partNumber" : [{"num" : "351692B", "qty" : "504"}],
 		"image" : "351692B_lg.jpg",
 		"thum_image" : "351692B_tn.png",
@@ -1565,6 +1649,7 @@
 		"title" : "Round Bottom tube",
 		"description1" : "18mL",
 		"description2" : "",
+		"partNum" : "81778",
 		"partNumber" : [{"num" : "81778", "qty" : "756"}],
 		"image" : "81778_lg.jpg",
 		"thum_image" : "81778_tn.png",
@@ -1576,6 +1661,7 @@
 		"title" : "13mm Black Cap | PTFE/SIL",
 		"description1" : "For 4mL",
 		"description2" : "",
+		"partNum" : "55511W",
 		"partNumber" : [{"num" : "55511W", "qty" : "1000"}],
 		"image" : "55511W_lg.jpg",
 		"thum_image" : "55511W_tn.png",
@@ -1587,6 +1673,7 @@
 		"title" : "15mm Pierceable Teflon/Silicone Cap",
 		"description1" : "For 8mL",
 		"description2" : "",
+		"partNum" : "81705",
 		"partNumber" : [{"num" : "81705", "qty" : "1000"}],
 		"image" : "81705_lg.jpg",
 		"thum_image" : "81705_tn.png",
@@ -1598,6 +1685,7 @@
 		"title" : "22mm Pierceable Teflon/Silicone Cap",
 		"description1" : "For 20mL Scint.",
 		"description2" : "",
+		"partNum" : "81715",
 		"partNumber" : [{"num" : "81715", "qty" : "1000"}],
 		"image" : "81715_lg.jpg",
 		"thum_image" : "81715_tn.png",
@@ -1609,6 +1697,7 @@
 		"title" : "24mm Pierceable Teflon/Silicone Cap",
 		"description1" : "For 20mL & 40mL",
 		"description2" : "",
+		"partNum" : "402805",
 		"partNumber" : [{"num" : "402805", "qty" : "1000"}],
 		"image" : "402805_lg.jpg",
 		"thum_image" : "402805_tn.png",
@@ -1620,6 +1709,7 @@
 		"title" : "4.0mL Clear Vial w/Spot, 13mm",
 		"description1" : "w/o Cap",
 		"description2" : "",
+		"partNum" : "50012M",
 		"partNumber" : [{"num" : "50012M", "qty" : "1000"}],
 		"image" : "50012M_lg.jpg",
 		"thum_image" : "50012M_tn.png",
@@ -1631,6 +1721,7 @@
 		"title" : "4.0mL Amber Vial w/Spot 13mm",
 		"description1" : "w/o Cap",
 		"description2" : "",
+		"partNum" : "50012MA",
 		"partNumber" : [{"num" : "50012MA", "qty" : "1000"}],
 		"image" : "50012MA_lg.jpg",
 		"thum_image" : "50012MA_tn.png",
@@ -1642,6 +1733,7 @@
 		"title" : "20mL Clear Vial 24mm",
 		"description1" : "w/o Cap",
 		"description2" : "",
+		"partNum" : "205410",
 		"partNumber" : [{"num" : "205410", "qty" : "1000"}],
 		"image" : "205410_lg.jpg",
 		"thum_image" : "205410_tn.png",
@@ -1653,6 +1745,7 @@
 		"title" : "20mL Amber Vial 24mm",
 		"description1" : "w/o Cap",
 		"description2" : "",
+		"partNum" : "205410A",
 		"partNumber" : [{"num" : "205410A", "qty" : "1000"}],
 		"image" : "205410A_lg.jpg",
 		"thum_image" : "205410A_tn.png",
@@ -1664,6 +1757,7 @@
 		"title" : "40mL Clear Vial 24mm",
 		"description1" : "w/o Cap",
 		"description2" : "",
+		"partNum" : "402877",
 		"partNumber" : [{"num" : "402877", "qty" : "1000"}],
 		"image" : "402877_lg.jpg",
 		"thum_image" : "402877_tn.png",
@@ -1675,6 +1769,7 @@
 		"title" : "40mL Amber Vial 24mm",
 		"description1" : "w/o Cap",
 		"description2" : "",
+		"partNum" : "402877A",
 		"partNumber" : [{"num" : "402877A", "qty" : "1000"}],
 		"image" : "402877A_lg.jpg",
 		"thum_image" : "402877A_tn.png",
@@ -1686,6 +1781,7 @@
 		"title" : "45mL Clear Vial 24mm",
 		"description1" : "w/o Cap",
 		"description2" : "",
+		"partNum" : "402898",
 		"partNumber" : [{"num" : "402898", "qty" : "432"}],
 		"image" : "402898_lg.jpg",
 		"thum_image" : "402898_tn.png",
@@ -1697,6 +1793,7 @@
 		"title" : "13mm Storage Cap",
 		"description1" : "White, PTFE Lined",
 		"description2" : "For 4mL",
+		"partNum" : "50425-W",
 		"partNumber" : [{"num" : "50425-W", "qty" : "1000"}],
 		"image" : "50425-W_lg.jpg",
 		"thum_image" : "50425-W_tn.png",
@@ -1708,6 +1805,7 @@
 		"title" : "15mm Storage Cap",
 		"description1" : "Black, PTFE Lined",
 		"description2" : "For 8mm",
+		"partNum" : "81700",
 		"partNumber" : [{"num" : "81700", "qty" : "1000"}],
 		"image" : "81700_lg.jpg",
 		"thum_image" : "81700_tn.png",
@@ -1719,6 +1817,7 @@
 		"title" : "Limited Volume 300μL PP Snap Cap Vials",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "30312",
 		"partNumber" : [{"num" : "30312", "qty" : "1000"}],
 		"image" : "30312_lg.jpg",
 		"thum_image" : "30312_tn.png",
@@ -1730,6 +1829,7 @@
 		"title" : "2.0mL Clear Snap Vial",
 		"description1" : "w/Marking Spot",
 		"description2" : "",
+		"partNum" : "70211M",
 		"partNumber" : [{"num" : "70211M", "qty" : "1000"}],
 		"image" : "70211M_lg.jpg",
 		"thum_image" : "70211M_tn.png",
@@ -1741,6 +1841,7 @@
 		"title" : "11mm Clear Snap Cap",
 		"description1" : "PTFE/Red Rubber Septa",
 		"description2" : "",
+		"partNum" : "70502",
 		"partNumber" : [{"num" : "70502", "qty" : "1000"}],
 		"image" : "70502_lg.jpg",
 		"thum_image" : "70502_tn.png",
@@ -1752,6 +1853,7 @@
 		"title" : "11mm Clear Snap Cap",
 		"description1" : "PTFE/Silicone Septa",
 		"description2" : "",
+		"partNum" : "70512",
 		"partNumber" : [{"num" : "70512", "qty" : "1000"}],
 		"image" : "70512_lg.jpg",
 		"thum_image" : "70512_tn.png",
@@ -1763,6 +1865,7 @@
 		"title" : "2.0 mL Clear Vial",
 		"description1" : "w/Marking Spot",
 		"description2" : "9mm",
+		"partNum" : "61629M-2",
 		"partNumber" : [{"num" : "61629M-2", "qty" : "1000"}],
 		"image" : "61629M-2_lg.jpg",
 		"thum_image" : "61629M-2_tn.png",
@@ -1774,6 +1877,7 @@
 		"title" : "2.0mL Amber Vial ",
 		"description1" : "w/Marking Spot",
 		"description2" : "9mm",
+		"partNum" : "61629MA-B",
 		"partNumber" : [{"num" : "61629MA-B", "qty" : "1000"}],
 		"image" : "61629MA-B_lg.jpg",
 		"thum_image" : "61629MA-B_tn.png",
@@ -1785,6 +1889,7 @@
 		"title" : "9mm Caps PTFE/Silicone",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "65691B-2",
 		"partNumber" : [{"num" : "65691B-2", "qty" : "1000"}],
 		"image" : "65691B-2_lg.jpg",
 		"thum_image" : "65691B-2_tn.png",
@@ -1796,6 +1901,7 @@
 		"title" : "1.4mL Clr. High Recovery Vial",
 		"description1" : "with Ptfe/Silicone Pre-slit Cap",
 		"description2" : "",
+		"partNum" : "67117",
 		"partNumber" : [{"num" : "67117", "qty" : "100"}],
 		"image" : "67117_lg.jpg",
 		"thum_image" : "67117_tn.png",
@@ -1807,6 +1913,7 @@
 		"title" : "9mm Caps PTFE/Silicone",
 		"description1" : "Pre-slit Cap",
 		"description2" : "",
+		"partNum" : "65671B-2",
 		"partNumber" : [{"num" : "65671B-2", "qty" : "1000"}],
 		"image" : "65671B-2_lg.jpg",
 		"thum_image" : "65671B-2_tn.png",
@@ -1818,6 +1925,7 @@
 		"title" : "96 Position Teflon Cap Mat",
 		"description1" : "For Shell Vials",
 		"description2" : "",
+		"partNum" : "399125",
 		"partNumber" : [{"num" : "399125", "qty" : "25"}],
 		"image" : "399125_lg.jpg",
 		"thum_image" : "399125_tn.png",
@@ -1829,6 +1937,7 @@
 		"title" : "24 Position Teflon Cap Mat",
 		"description1" : "For 4mL vials p/n 1212205",
 		"description2" : "",
+		"partNum" : "399128",
 		"partNumber" : [{"num" : "399128", "qty" : "20"}],
 		"image" : "399128_lg.jpg",
 		"thum_image" : "399128_tn.png",
@@ -1840,6 +1949,7 @@
 		"title" : "24 Position Teflon Cap Mat",
 		"description1" : "For 18mm Test Tube w/rack 1212095",
 		"description2" : "",
+		"partNum" : "399138",
 		"partNumber" : [{"num" : "399138", "qty" : "20"}],
 		"image" : "399138_lg.jpg",
 		"thum_image" : "399138_tn.png",
@@ -1851,6 +1961,7 @@
 		"title" : "24 Position Teflon Cap Mat",
 		"description1" : "For 4ml Plastic Rack 1212280",
 		"description2" : "",
+		"partNum" : "399137",
 		"partNumber" : [{"num" : "399137", "qty" : "20"}],
 		"image" : "399137_lg.jpg",
 		"thum_image" : "399137_tn.png",
@@ -1862,6 +1973,7 @@
 		"title" : "48 Position Teflon Cap Mat",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "399139",
 		"partNumber" : [{"num" : "399139", "qty" : "20"}],
 		"image" : "399139_lg.jpg",
 		"thum_image" : "399139_tn.png",
@@ -1873,6 +1985,7 @@
 		"title" : "250μL Glass Insert",
 		"description1" : "Flat Bottom",
 		"description2" : "",
+		"partNum" : "30412",
 		"partNumber" : [{"num" : "30412", "qty" : "1000"}],
 		"image" : "30412_lg.jpg",
 		"thum_image" : "30412_tn.png",
@@ -1884,6 +1997,7 @@
 		"title" : "250μL Glass Insert",
 		"description1" : "w/Bottom Spring",
 		"description2" : "",
+		"partNum" : "55811",
 		"partNumber" : [{"num" : "55811", "qty" : "100"}],
 		"image" : "55811_lg.jpg",
 		"thum_image" : "55811_tn.png",
@@ -1895,6 +2009,7 @@
 		"title" : "250μL Glass Insert",
 		"description1" : "w/Bottom Spring Sylanized",
 		"description2" : "",
+		"partNum" : "55811Z",
 		"partNumber" : [{"num" : "55811Z", "qty" : "100"}],
 		"image" : "55811Z_lg.jpg",
 		"thum_image" : "55811Z_tn.png",
@@ -1906,6 +2021,7 @@
 		"title" : "250μL 6x31mm",
 		"description1" : "Conical point, stand alone",
 		"description2" : "no spring required",
+		"partNum" : "55815",
 		"partNumber" : [{"num" : "55815", "qty" : "100"}],
 		"image" : "55815_lg.jpg",
 		"thum_image" : "55815_tn.png",
@@ -1917,6 +2033,7 @@
 		"title" : "24 Position Well Block",
 		"description1" : "For 4mL Vials",
 		"description2" : "Automation-friendly",
+		"partNum" : "1212280",
 		"partNumber" : [{"num" : "1212280", "qty" : "25"}],
 		"image" : "1212280_lg.jpg",
 		"thum_image" : "1212280_tn.png",
@@ -1928,6 +2045,7 @@
 		"title" : "8 Position Well Block",
 		"description1" : "For 20mL & 40mL Vials",
 		"description2" : "Automation-friendly",
+		"partNum" : "1212305",
 		"partNumber" : [{"num" : "1212305", "qty" : "25"}],
 		"image" : "1212305_lg.jpg",
 		"thum_image" : "1212305_tn.png",
@@ -1939,6 +2057,7 @@
 		"title" : "Microwave Vial Cap",
 		"description1" : "",
 		"description2" : "",
+		"partNum" : "90814",
 		"partNumber" : [{"num" : "90814", "qty" : "100"}],
 		"image" : "90814_lg.jpg",
 		"thum_image" : "90814_tn.png",
@@ -1950,6 +2069,7 @@
 		"title" : "Microwave Vial 2-5mL Kit",
 		"description1" : "(Vial, Stir Bar, Cap)",
 		"description2" : "",
+		"partNum" : "81792",
 		"partNumber" : [{"num" : "81792", "qty" : "100"}],
 		"image" : "81792_lg.jpg",
 		"thum_image" : "81792_tn.png",
@@ -1961,6 +2081,7 @@
 		"title" : "White High Temperature Cap",
 		"description1" : "13mm | for 4mL",
 		"description2" : "",
+		"partNum" : "50425-WH",
 		"partNumber" : [{"num" : "50425-WH", "qty" : "432"}],
 		"image" : "50425-WH_lg.jpg",
 		"thum_image" : "50425-WH_tn.png",
@@ -1972,6 +2093,7 @@
 		"title" : "White High Temperature Cap",
 		"description1" : "15mm | for 8mL",
 		"description2" : "",
+		"partNum" : "81700WH",
 		"partNumber" : [{"num" : "81700WH", "qty" : "1000"}],
 		"image" : "81700WH_lg.jpg",
 		"thum_image" : "81700WH_tn.png",

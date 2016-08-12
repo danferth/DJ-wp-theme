@@ -111,6 +111,11 @@ products.controller('productsController', ['$scope', '$http',function($scope, $h
   
   $scope.sortType = "line";
   $scope.sortReverse = false;
+  
+  $scope.goToProduct = function(n){
+    //console.log(url + "/" + n);
+    window.location.href = url + "/" + n;
+  };
 }]);
 
 //=====Plates search page=====
@@ -165,7 +170,6 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
   
   $http.get(url+'/wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
     $scope.products = rslt.data;
-
   });
 }]);
 
@@ -173,9 +177,12 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
 var test = angular.module('test', []);
 test.controller('testController', ['$scope', '$http', function($scope, $http){
   $http.get(url+'/wp-content/themes/TIC/assets/javascript/products.json').then(function(rslt){
-    $scope.data = rslt.data;
+    $scope.products = rslt.data;
   });
   
   $scope.hello = "dude there you are!";
+  $scope.test = function(n){
+    console.log(n + " got clicked");
+  };
 }]);
 
