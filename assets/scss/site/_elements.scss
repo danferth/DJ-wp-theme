@@ -345,7 +345,7 @@ video.tech-video-page-single{
 }
 
 //=====================================================================
-//================================overlay==============================
+//=========================product referance table=====================
 //=====================================================================
 table.product-ref-table{
   th, tr, td{
@@ -390,18 +390,10 @@ table.product-ref-table{
   p{
     color:$jumbo;
     margin:0;
+    font-size:.9rem;
     b{
       color:$oil;
     }
-  }
-  .card-partNum{
-    font-size:1.25rem;
-    color:$iron;
-    font-weight:bold;
-    margin-bottom:.25rem;
-  }
-  .card-stop{
-    margin-bottom:2rem;
   }
   .card-image{
     img{
