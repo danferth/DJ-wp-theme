@@ -1,7 +1,3 @@
-var protocol = window.location.protocol;
-var hostname = window.location.hostname;
-var url = protocol + "//" + hostname;
-
 //=====plate search=====
 plates.directive('plateSearch', function(){
   return{
