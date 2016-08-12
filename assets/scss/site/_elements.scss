@@ -126,25 +126,35 @@
 //=====================================================================
 
 .partnumber_set{
-  padding: 0 1rem .5rem 1rem;
-  background:$secondary-color;
+  padding: 0 0 .5rem 0;
+  background:$white;
+  &:nth-child(1){
+    border-top:3px solid $primary-dark;
+  }
   h4{
-    margin: .5rem 0 .15rem 0;
-    
+    margin: .5rem 0 .2rem 0;
+    font-size:1rem;
   }
 }
 .partnumber_item{
-  margin: .15rem auto;
+  margin: 0rem auto;
   padding:.15rem 0;
-  border-radius:.5rem;
+  border-bottom:1px solid $base;
   background:$white;
+  &:nth-child(2){
+    border-top:1px solid $base;
+  }
+  &:nth-child(even){
+    background:$ghost;
+  }
 }
 .partnumber_image{
   img{
-    width:45%;
+    width:auto;
     height:auto;
+    max-height:3rem;
     border:1px solid $ghost;
-    border-radius:.5rem;
+    border-radius:.2rem;
   }
 }
 .partnumber_text{
@@ -161,19 +171,16 @@
     font-weight:bold;
     margin-bottom:.15rem;
     text-decoration:underline;
-    font-size:.75rem;
+    font-size:.7rem;
   }
   .partnumber_description{
     font-style:italic;
-    font-size:.70rem;
+    font-size:.6rem;
   }
   .partnumber_number{
     margin-top:.15rem;
-      display:inline-block;
-      float:left;
-      margin-right:1rem;
-      font-size:.70rem;
-      color:$base;
+    font-size:.6rem;
+    font-weight:bold;
   }
 }
 

@@ -185,12 +185,18 @@ function parts_shortcode($atts, $content, $tag){
   $prod_url = $content_url['baseurl']."/products/";
   $output = "
   <div class='partnumber_set row'>
+    
+    <div class='small-12 column'>
     <h4>".$a['title']." Part Numbers</h4>
+    </div>
+    
     <div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"} | filter:\"".$a['filter']."\"'>
-      <div class='partnumber_image medium-2 column'>
+      
+      <div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
         <img ng-src='".$prod_url."{{ p.image }}' alt='{{ p.image }}'/>
       </div>
-      <div class='partnumber_text medium-10 column'>
+      
+      <div class='partnumber_text small-12 show-for-small-only column'>
         <ul>
           <li class='partnumber_title'>{{ p.title }}</li>
           <li class='partnumber_description'>{{ p.description1 }}</li>
@@ -201,8 +207,24 @@ function parts_shortcode($atts, $content, $tag){
           pn# {{ pn.num }} | case/qty: {{ pn.qty }}
           </li>
         <ul>
-    
-  </div>
+      </div>
+      
+      <div class='partnumber_text show-for-medium-up medium-5 column'>
+        <ul>
+          <li class='partnumber_title'>{{ p.title }}</li>
+          <li class='partnumber_description'>{{ p.description1 }}</li>
+          <li class='partnumber_description'>{{ p.description2 }}</li>
+        </ul>
+      </div>
+      <div class='partnumber_text show-for-medium-up medium-5 end column'>
+        <ul>
+          <li class='partnumber_number' ng-repeat='pn in p.partNumber'>
+          pn# {{ pn.num }} | case/qty: {{ pn.qty }}
+          </li>
+        <ul>
+      </div>
+      
+    </div>
   </div>
   ";
   return $output;
