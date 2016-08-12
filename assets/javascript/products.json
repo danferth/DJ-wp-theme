@@ -12,7 +12,7 @@
 		"image" : "35531_lg.jpg",
 		"thum_image" : "35531_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/standard/"
+		"URL" : "fv/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -26,7 +26,7 @@
 		"image" : "35541_lg.jpg",
 		"thum_image" : "35541_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/standard/"
+		"URL" : "fv/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -40,7 +40,7 @@
 		"image" : "35530_lg.jpg",
 		"thum_image" : "35530_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/standard/"
+		"URL" : "fv/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -54,7 +54,7 @@
 		"image" : "35540_lg.jpg",
 		"thum_image" : "35540_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/standard/"
+		"URL" : "fv/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -68,7 +68,7 @@
 		"image" : "35535_lg.jpg",
 		"thum_image" : "35535_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/standard/"
+		"URL" : "fv/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -82,7 +82,7 @@
 		"image" : "35538_lg.jpg",
 		"thum_image" : "35538_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/standard/"
+		"URL" : "fv/standard/"
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -96,7 +96,7 @@
 		"image" : "35539_lg.jpg",
 		"thum_image" : "35539_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/standard/"
+		"URL" : "fv/standard/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -110,7 +110,7 @@
 		"image" : "15531_lg.jpg",
 		"thum_image" : "15531_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -124,7 +124,7 @@
 		"image" : "25531_lg.jpg",
 		"thum_image" : "25531_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -138,7 +138,7 @@
 		"image" : "15541_lg.jpg",
 		"thum_image" : "15541_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -152,7 +152,7 @@
 		"image" : "25541_lg.jpg",
 		"thum_image" : "25541_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -166,7 +166,7 @@
 		"image" : "15530_lg.jpg",
 		"thum_image" : "15530_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -180,7 +180,7 @@
 		"image" : "25530_lg.jpg",
 		"thum_image" : "25530_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -194,7 +194,7 @@
 		"image" : "15540_lg.jpg",
 		"thum_image" : "15540_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -208,7 +208,7 @@
 		"image" : "25540_lg.jpg",
 		"thum_image" : "25540_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -222,7 +222,7 @@
 		"image" : "15535_lg.jpg",
 		"thum_image" : "15535_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -236,7 +236,7 @@
 		"image" : "25535_lg.jpg",
 		"thum_image" : "25535_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -250,7 +250,7 @@
 		"image" : "15538_lg.jpg",
 		"thum_image" : "15538_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -264,7 +264,7 @@
 		"image" : "25538_lg.jpg",
 		"thum_image" : "25538_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/nano/"
+		"URL" : "fv/nano/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -278,7 +278,7 @@
 		"image" : "85531_lg.jpg",
 		"thum_image" : "85531_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extreme/"
+		"URL" : "fv/extreme/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -292,7 +292,7 @@
 		"image" : "85541_lg.jpg",
 		"thum_image" : "85541_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extreme/"
+		"URL" : "fv/extreme/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -306,7 +306,7 @@
 		"image" : "85530_lg.jpg",
 		"thum_image" : "85530_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extreme/"
+		"URL" : "fv/extreme/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -320,7 +320,7 @@
 		"image" : "85540_lg.jpg",
 		"thum_image" : "85540_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extreme/"
+		"URL" : "fv/extreme/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -334,7 +334,7 @@
 		"image" : "85535_lg.jpg",
 		"thum_image" : "85535_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extreme/"
+		"URL" : "fv/extreme/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -348,7 +348,7 @@
 		"image" : "85538_lg.jpg",
 		"thum_image" : "85538_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extreme/"
+		"URL" : "fv/extreme/"
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -362,7 +362,7 @@
 		"image" : "85539_lg.jpg",
 		"thum_image" : "85539_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extreme/"
+		"URL" : "fv/extreme/"
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -376,7 +376,7 @@
 		"image" : "48831_lg.jpg",
 		"thum_image" : "48831_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/mega/"
+		"URL" : "fv/mega/"
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -390,7 +390,7 @@
 		"image" : "48841_lg.jpg",
 		"thum_image" : "48841_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/mega/"
+		"URL" : "fv/mega/"
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -404,7 +404,7 @@
 		"image" : "48830_lg.jpg",
 		"thum_image" : "48830_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/mega/"
+		"URL" : "fv/mega/"
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -418,7 +418,7 @@
 		"image" : "48840_lg.jpg",
 		"thum_image" : "48840_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/mega/"
+		"URL" : "fv/mega/"
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -432,7 +432,7 @@
 		"image" : "48838_lg.jpg",
 		"thum_image" : "48838_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/mega/"
+		"URL" : "fv/mega/"
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -446,7 +446,7 @@
 		"image" : "48839_lg.jpg",
 		"thum_image" : "48839_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/mega/"
+		"URL" : "fv/mega/"
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -458,7 +458,7 @@
 		"image" : "899030_lg.jpg",
 		"thum_image" : "899030_tn.png",
 		"tag" : ["accessory"],
-		"URL" : "filter-vials/mega/"
+		"URL" : "fv/mega/"
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -472,7 +472,7 @@
 		"image" : "95531_lg.jpg",
 		"thum_image" : "95531_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extractor/"
+		"URL" : "fv/extractor/"
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -486,7 +486,7 @@
 		"image" : "95541_lg.jpg",
 		"thum_image" : "95541_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extractor/"
+		"URL" : "fv/extractor/"
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -500,7 +500,7 @@
 		"image" : "95530_lg.jpg",
 		"thum_image" : "95530_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extractor/"
+		"URL" : "fv/extractor/"
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -514,7 +514,7 @@
 		"image" : "95540_lg.jpg",
 		"thum_image" : "95540_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extractor/"
+		"URL" : "fv/extractor/"
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -528,7 +528,7 @@
 		"image" : "95535_lg.jpg",
 		"thum_image" : "95535_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extractor/"
+		"URL" : "fv/extractor/"
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -542,7 +542,7 @@
 		"image" : "95538_lg.jpg",
 		"thum_image" : "95538_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extractor/"
+		"URL" : "fv/extractor/"
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -556,7 +556,7 @@
 		"image" : "95539_lg.jpg",
 		"thum_image" : "95539_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/extractor/"
+		"URL" : "fv/extractor/"
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -570,7 +570,7 @@
 		"image" : "65531_lg.jpg",
 		"thum_image" : "65531_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/low-evap/"
+		"URL" : "fv/low-evap/"
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -584,7 +584,7 @@
 		"image" : "65541_lg.jpg",
 		"thum_image" : "65541_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/low-evap/"
+		"URL" : "fv/low-evap/"
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -598,7 +598,7 @@
 		"image" : "65530_lg.jpg",
 		"thum_image" : "65530_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/low-evap/"
+		"URL" : "fv/low-evap/"
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -612,7 +612,7 @@
 		"image" : "65540_lg.jpg",
 		"thum_image" : "65540_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/low-evap/"
+		"URL" : "fv/low-evap/"
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -626,7 +626,7 @@
 		"image" : "65538_lg.jpg",
 		"thum_image" : "65538_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/low-evap/"
+		"URL" : "fv/low-evap/"
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -640,7 +640,7 @@
 		"image" : "65539_lg.jpg",
 		"thum_image" : "65539_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/low-evap/"
+		"URL" : "fv/low-evap/"
 	},{
 		"line" : "FV",
 		"series" : "accessory",
@@ -652,7 +652,7 @@
 		"image" : "35005_lg.jpg",
 		"thum_image" : "35005_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/accessories/"
+		"URL" : "fv/fv-accessories/"
 	},{
 		"line" : "FV",
 		"series" : "accessory",
@@ -664,7 +664,7 @@
 		"image" : "35015-476_lg.jpg",
 		"thum_image" : "35015-476_tn.png",
 		"tag" : [],
-		"URL" : "filter-vials/accessories/"
+		"URL" : "fv/fv-accessories/"
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -880,7 +880,7 @@
 		"image" : "931110_lg.jpg",
 		"thum_image" : "931110_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/"
+		"URL" : "og/"
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -892,7 +892,7 @@
 		"image" : "1212900_lg.jpg",
 		"thum_image" : "1212900_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-accessories/"
+		"URL" : "og/og-accessories/"
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -904,7 +904,7 @@
 		"image" : "931111_lg.jpg",
 		"thum_image" : "931111_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/"
+		"URL" : "og/"
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -916,7 +916,7 @@
 		"image" : "1212905_lg.jpg",
 		"thum_image" : "1212905_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-accessories/"
+		"URL" : "og/og-accessories/"
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -928,7 +928,7 @@
 		"image" : "931112_lg.jpg",
 		"thum_image" : "931112_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/"
+		"URL" : "og/"
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -940,7 +940,7 @@
 		"image" : "931113_lg.jpg",
 		"thum_image" : "931113_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/"
+		"URL" : "og/"
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -952,7 +952,7 @@
 		"image" : "931116_lg.jpg",
 		"thum_image" : "931116_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/"
+		"URL" : "og/"
 	},{
 		"line" : "OG",
 		"series" : "special",
@@ -988,7 +988,7 @@
 		"image" : "931114_lg.jpg",
 		"thum_image" : "931114_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/"
+		"URL" : "og/"
 	},{
 		"line" : "OG",
 		"series" : "special",
@@ -1012,7 +1012,7 @@
 		"image" : "899116_lg.jpg",
 		"thum_image" : "899116_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-accessories/"
+		"URL" : "og/og-accessories/"
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -1024,7 +1024,7 @@
 		"image" : "899600-B_lg.jpg",
 		"thum_image" : "899600-B_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-accessories/"
+		"URL" : "og/og-accessories/"
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -1036,7 +1036,7 @@
 		"image" : "931116-SC-B_lg.jpg",
 		"thum_image" : "931116-SC-B_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-accessories/"
+		"URL" : "og/og-accessories/"
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1048,7 +1048,7 @@
 		"image" : "931147_lg.jpg",
 		"thum_image" : "931147_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/"
+		"URL" : "uyf/"
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1060,7 +1060,7 @@
 		"image" : "931144_lg.jpg",
 		"thum_image" : "931144_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/"
+		"URL" : "uyf/"
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1072,7 +1072,7 @@
 		"image" : "931141_lg.jpg",
 		"thum_image" : "931141_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/"
+		"URL" : "uyf/"
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1084,7 +1084,7 @@
 		"image" : "931136-B_lg.jpg",
 		"thum_image" : "931136-B_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/"
+		"URL" : "uyf/"
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1096,7 +1096,7 @@
 		"image" : "899425_lg.jpg",
 		"thum_image" : "899425_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/airotop/"
+		"URL" : "uyf/airotop/"
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1108,7 +1108,7 @@
 		"image" : "899424_lg.jpg",
 		"thum_image" : "899424_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/airotop/"
+		"URL" : "uyf/airotop/"
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1120,7 +1120,7 @@
 		"image" : "899423_lg.jpg",
 		"thum_image" : "899423_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/airotop/"
+		"URL" : "uyf/airotop/"
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1132,7 +1132,7 @@
 		"image" : "899421_lg.jpg",
 		"thum_image" : "899421_tn.png",
 		"tag" : [],
-		"URL" : "ultra-yield-flasks/airotop/"
+		"URL" : "uyf/airotop/"
 	},{
 		"line" : "UYF",
 		"series" : "media",
@@ -1144,7 +1144,7 @@
 		"image" : "446300_lg.jpg",
 		"thum_image" : "446300_tn.png",
 		"tag" : [],
-		"URL" : "plasmid-media/"
+		"URL" : "uyf/plasmid/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1157,7 +1157,7 @@
 		"image" : "931706_lg.jpg",
 		"thum_image" : "931706_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1170,7 +1170,7 @@
 		"image" : "931705_lg.jpg",
 		"thum_image" : "931705_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1183,7 +1183,7 @@
 		"image" : "931708_lg.jpg",
 		"thum_image" : "931708_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1196,7 +1196,7 @@
 		"image" : "931710_lg.jpg",
 		"thum_image" : "931710_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1208,7 +1208,7 @@
 		"image" : "931609_lg.jpg",
 		"thum_image" : "931609_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1220,7 +1220,7 @@
 		"image" : "931700_lg.jpg",
 		"thum_image" : "931700_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1233,7 +1233,7 @@
 		"image" : "931594_lg.jpg",
 		"thum_image" : "931594_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1246,7 +1246,7 @@
 		"image" : "931596_lg.jpg",
 		"thum_image" : "931596_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1259,7 +1259,7 @@
 		"image" : "931595_lg.jpg",
 		"thum_image" : "931595_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1272,7 +1272,7 @@
 		"image" : "931598_lg.jpg",
 		"thum_image" : "931598_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1285,7 +1285,7 @@
 		"image" : "931616_lg.jpg",
 		"thum_image" : "931616_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/inversion-transfer-caps/"
+		"URL" : "og/tc/inversion/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1297,7 +1297,7 @@
 		"image" : "931606_lg.jpg",
 		"thum_image" : "931606_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1309,7 +1309,7 @@
 		"image" : "931607_lg.jpg",
 		"thum_image" : "931607_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1321,7 +1321,7 @@
 		"image" : "931704_lg.jpg",
 		"thum_image" : "931704_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1333,7 +1333,7 @@
 		"image" : "931702_lg.jpg",
 		"thum_image" : "931702_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1345,7 +1345,7 @@
 		"image" : "931614_lg.jpg",
 		"thum_image" : "931614_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1357,7 +1357,7 @@
 		"image" : "931618_lg.jpg",
 		"thum_image" : "931618_tn.png",
 		"tag" : [],
-		"URL" : "optimum-growth-flasks/optimum-growth-transfer-caps/bidirectional/"
+		"URL" : "og/tc/bidirectional/"
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
