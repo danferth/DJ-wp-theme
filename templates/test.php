@@ -40,14 +40,7 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 
-<table>
-	<tr ng-repeat="p in products" ng-click="test(p.partNum);">
-		<td>{{ p.partNum }}</td>
-		<td>{{ p.title }}</td>
-		<td>{{ p.line }}</td>
-		<td>{{ p.series }}</td>
-	</tr>
-</table>
+
   
       
       
