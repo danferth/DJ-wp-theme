@@ -171,6 +171,23 @@ function ng_product_image_shortcode($atts, $content, $tag){
 
 add_shortcode('ng_product_image', 'ng_product_image_shortcode');
 
+//[img class='myClass' src='folder/in/uploads/image.jpg' width='100' height='100' alt='alt-text']
+function img_shortcode($atts, $content, $tag){
+    $a = shortcode_atts(array(
+            'class' => '',
+            'src' => '',
+            'width' => '',
+            'height' => '',
+            'alt' => ''
+        ), $atts);
+    $base = wp_upload_dir();
+    $dir = $base['baseurl']."/";
+    $output = "<img class='".$a['class']."' src='".$dir ."/".$a['src'] ."' width='".$a['width']."' height='".$a['height']."' alt='".$a['src']."'/>";
+    return $output;
+}
+//add shortcode
+add_shortcode('img', 'img_shortcode');
+
 
 //display part numbers for a given series
 //[parts title='' series='' line='' filter='']
