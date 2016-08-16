@@ -65,7 +65,7 @@ function appblock_shortcode($atts, $content = null, $tag){
             'link' => '',
             'title' => 'needs a title'
         ), $atts);
-    return "<li class='" . $a['class'] . "' data-appblocklink='" . get_home_url() . "/" . $a['link'] . "'> \n
+    return "<li class='" . $a['class'] . "' data-appblocklink='" . home_url() . "/" . $a['link'] . "'> \n
         <div class='appnote-block-inner-wrap'> \n
         <h4>" . $a['title'] . "</h4> \n
         <p>" . $content . "</p> \n
@@ -123,7 +123,7 @@ function prefooter_shortcode($atts, $content=null, $tag){
       'class' => '',
       'link' => ''
     ), $atts);
-  return "<div class='column small-12 medium-6 prefooter " . $a['class'] . "' data-prefooterlink='" . get_home_url() . "/" . $a['link'] . "'> \n
+  return "<div class='column small-12 medium-6 prefooter " . $a['class'] . "' data-prefooterlink='" . home_url() . "/" . $a['link'] . "'> \n
   <p>" . $content . "</p> \n
 </div>";
 }
