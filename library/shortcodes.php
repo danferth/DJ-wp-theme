@@ -43,9 +43,9 @@ function mainblock_shortcode($atts, $content = null, $tag){
             'title'  => 'needs a title',
             'img'    => '',
             'class'  => '',
-            'link'   => get_home_url()
+            'link'   => home_url()
         ), $atts);
-    return "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . get_home_url() . "/" . $a['link'] . "'> \n
+    return "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . home_url() . "/" . $a['link'] . "'> \n
       <div class='inner-block'> \n
         <div class='main-block-image-wrap'> \n
         <img src='" . get_template_directory_uri(). "/images/" . $a['img'] . "' /> \n
@@ -142,7 +142,7 @@ function tech_vid_block_shortcode($atts, $content=null, $tag){
     
     return "
     <li data-date='". $a['date'] ."'> \n
-      <a class='video_link_". $a['product']  ."' href='".get_home_url()."/tech-video/?video=". $a['video']  ."&title=". $content  ."'> \n
+      <a class='video_link_". $a['product']  ."' href='". home_url() ."/tech-video/?video=". $a['video']  ."&title=". $content  ."'> \n
         <img src='". content_url() . "/uploads/video/thumbs/" .  $a['product'] . "/" . $a['video']  . ".png' width='200' height='112' > \n
         <span class='video-title'>".$content."</span> \n
       </a> \n

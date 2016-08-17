@@ -40,32 +40,7 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 
-<?php 
 
-echo "get_home_url(); | " . get_home_url() . "</br>";
-echo "home_url() | " . home_url() . "</br>";
-
-echo "</br></br>";
-echo "get_home_url('/test'); | " . get_home_url('/test') . "</br>";
-echo "home_url('/test') | " . home_url('/test') . "</br>";
-
-
-echo "</br></br>";
-echo "includes_url() | " . includes_url() . "</br>";
-echo "content_url(); | " . content_url() . "</br>";
-echo "content_url('/myfolder/'); | " . content_url('/myfolder/') . "</br>";
-echo "plugins_url() | " . plugins_url() . "</br>";
-
-echo "</br></br>";
-echo "<pre>";
-echo "wp_upload_dir(); | " . print_r(wp_upload_dir()) . "</br>";
-echo "</pre>";
-
-echo "</br></br>";
-$content_url = wp_upload_dir();
-$prod_url = $content_url['url'];
-echo $prod_url;
-?>
   
       
       
