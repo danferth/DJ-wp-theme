@@ -162,8 +162,7 @@ function ng_product_image_shortcode($atts, $content, $tag){
     'width'   => '',
     'height'  => ''
     ), $atts);
-  $content_url = wp_upload_dir();
-  $prod_url = $content_url['baseurl']."/products/";
+  $prod_url =  content_url('/uploads/products/');
   $output = "<img ng-src='".$prod_url."{{".$a['src']."}}' alt='{{".$a['src']."}}' width='".$a['width']."' height='".$a['height']."' />";
 
     return $output;
@@ -180,8 +179,7 @@ function img_shortcode($atts, $content, $tag){
             'height' => '',
             'alt' => ''
         ), $atts);
-    $base = wp_upload_dir();
-    $dir = $base['baseurl']."/";
+    $dir =  content_url('/uploads/');
     $output = "<img class='".$a['class']."' src='".$dir ."/".$a['src'] ."' width='".$a['width']."' height='".$a['height']."' alt='".$a['src']."'/>";
     return $output;
 }
