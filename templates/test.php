@@ -40,10 +40,18 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 
-<div class="full-background"
-style="background-image: url('https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?q=80&fm=jpg&s=c895a1f219d174952415b9b7a0811e62');">
-
-<div class="science-selection">
+<div class="full-background show-for-medium-up row" <?php echo do_shortcode('[bgImg src="page/UYF-hero.jpg"]') ?> >
+	<div class="science-selection medium-12 column">
+		<select name="sub-science">
+			<option value="">choose your cell line</option>
+			<option value="ecoli"><i>E. coli</i></option>
+			<option value="microbial">microbial</option>
+			<option value="pick-bactiria">pink backtiria</option>
+			<option value="streptomyces">streptomyces</option>
+		</select>
+	</div>
+</div>
+<div class="show-for-small-only row">
 	<select name="sub-science">
 		<option value="">choose your cell line</option>
 		<option value="ecoli"><i>E. coli</i></option>
@@ -52,10 +60,6 @@ style="background-image: url('https://images.unsplash.com/photo-1441716844725-09
 		<option value="streptomyces">streptomyces</option>
 	</select>
 </div>
-
-</div>
-
-<?php echo do_shortcode('[img src="page/UYF-hero.jpg"]') ?>
   
       
       

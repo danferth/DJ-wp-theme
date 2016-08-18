@@ -452,17 +452,22 @@ table.product-ref-table{
 //=====================================================================
 
 .full-background{
-  width:100%;
-  height:400px;
+  width:auto;
+  height:500px;
   background-repeat: no-repeat;
   background-position:center center;
-  background-attachment:fixed;
-  background-size: cover;
+  //background-attachment:fixed;
+  //background-size: contain;
 }
 
 .science-selection select{
   margin:300px 15% 0 15%;
   width:70%;
+  opacity:.75;
+  transition:opacity 300ms;
+  &:hover{
+    opacity:1;
+  }
 }
 
 //next up?

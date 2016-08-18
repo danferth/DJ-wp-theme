@@ -152,9 +152,11 @@ function tech_vid_block_shortcode($atts, $content=null, $tag){
 add_shortcode('tech-vid-block', 'tech_vid_block_shortcode');
 
 
+//====================
+//IMAGES IMAGES IMAGES
+//====================
 
-//to get to the images folder for product images
-
+//ANGULAR IMAGES
 //[ng_product_image src='' width='' height='']
 function ng_product_image_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
@@ -170,6 +172,7 @@ function ng_product_image_shortcode($atts, $content, $tag){
 
 add_shortcode('ng_product_image', 'ng_product_image_shortcode');
 
+//JUST AN IMAGES TAG
 //[img class='myClass' src='folder/in/uploads/image.jpg' width='100' height='100' alt='alt-text']
 function img_shortcode($atts, $content, $tag){
     $a = shortcode_atts(array(
@@ -183,8 +186,20 @@ function img_shortcode($atts, $content, $tag){
     $output = "<img class='".$a['class']."' src='".$dir ."/".$a['src'] ."' width='".$a['width']."' height='".$a['height']."' alt='".$a['src']."'/>";
     return $output;
 }
-//add shortcode
 add_shortcode('img', 'img_shortcode');
+
+//STYLE ATTRIBUTE FOR BACKGROUND IMAGE
+//[bgImage src="page/foobar.jpg"]
+function bgImg_shortcode($atts, $content, $tag){
+  $a = shortcode_atts(array(
+      'src' => ''), $atts);
+  $dir = content_url('/uploads/');
+  $output = "style='background-image: url(\"" . $dir . $a['src'] . "\");'";
+  return $output;
+}
+add_shortcode('bgImg', 'bgImg_shortcode');
+
+
 
 
 //display part numbers for a given series
