@@ -5,11 +5,11 @@
   opacity:0;
     cursor:pointer;
   .inner-block{
-    padding:1.5rem 1rem;
+    padding: 1rem  1rem 1.5rem 1rem;
     background:scale-color(white, $lightness:-60%);
     box-shadow: 0 0 5px 0 $steel;
     color:$white;
-    border-radius:.5rem;
+    border-radius:.35rem;
     transition: box-shadow 150ms;
     &:hover{
         box-shadow: 0 0 5px 0 $oil, 0 5px 8px 0 $jumbo;

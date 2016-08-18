@@ -105,9 +105,21 @@ var mBlocks = $('.main-block');
 
 //random color
 mBlocks_inner.each(function(){
+	var randomColors = ["4A6D80", "728053", "807152", "4B8076"];
+	var colorLength = randomColors.length;
+	var random = Math.floor(Math.random() * (colorLength - 0)) + 0;
+	$(this).css({'background-color' : "#" + randomColors[random]});
+});
+
+/*
+old function that created random colors from hue selection worked
+but wasn't happy with color results went with
+something simpler with more controll of colors
+mBlocks_inner.each(function(){
   var rHue = Math.floor(Math.random() * (230 - 0)) + 0;
   $(this).css({'background-color' : 'hsl(' + rHue + ', 30%, 40%)'});
 });
+*/
 
 //click to get to `data-mainblocklink`
 mBlocks.on('click',function(){
