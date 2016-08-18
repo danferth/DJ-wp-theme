@@ -103,17 +103,20 @@ $('.tc_page-form select#options').on('change', function(e) {
 var mBlocks_inner = $('.main-block .inner-block');
 var mBlocks = $('.main-block');
 
+//random color
 mBlocks_inner.each(function(){
   var rHue = Math.floor(Math.random() * (230 - 0)) + 0;
   $(this).css({'background-color' : 'hsl(' + rHue + ', 30%, 40%)'});
 });
 
+//click to get to `data-mainblocklink`
 mBlocks.on('click',function(){
 	var link = $(this).attr('data-mainblocklink');
 	window.location.assign(link);
 });
 
-TweenLite.from(mBlocks, .20, {scale:.90, opacity:0, ease:Power2.easeOut});
+//on load animation
+TweenLite.to(mBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
 
 //==============
 //app blocks
