@@ -9,12 +9,16 @@ function mainblock_shortcode($atts, $content = null, $tag){
             'link'   => home_url()
         ), $atts);
     return "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . home_url() . "/" . $a['link'] . "'> \n
-      <div class='inner-block' data-equalizer-watch='block'> \n
-        <div class='main-block-image-wrap'> \n
-        <img src='" . get_template_directory_uri(). "/images/" . $a['img'] . "' /> \n
-        </div> \n
-        <h3>" . $a['title'] . "</h3> \n
-        <p>" . $content . "</p></div></li>";
+              <div class='inner-block' data-equalizer-watch='block'> \n
+                <div class='main-block-image-wrap'> \n
+                  <img src='" . get_template_directory_uri(). "/images/" . $a['img'] . "' /> \n
+                </div> \n
+                
+                  <h3>" . $a['title'] . "</h3> \n
+                  <p>" . $content . "</p> \n
+                
+              </div> \n
+            </li>";
 }
 
 add_shortcode('mainblock', 'mainblock_shortcode');

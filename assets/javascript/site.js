@@ -100,16 +100,22 @@ $('.tc_page-form select#options').on('change', function(e) {
 //main blocks
 //=============
 
-var mBlocks_inner = $('.main-block .inner-block');
 var mBlocks = $('.main-block');
-
-//random color
-mBlocks_inner.each(function(){
-	var randomColors = ["4A6D80", "728053", "807152", "4B8076"];
-	var colorLength = randomColors.length;
-	var random = Math.floor(Math.random() * (colorLength - 0)) + 0;
-	$(this).css({'background-color' : "#" + randomColors[random]});
+//click to get to `data-mainblocklink`
+mBlocks.on('click',function(){
+	var link = $(this).attr('data-mainblocklink');
+	window.location.assign(link);
 });
+
+//var below used for random colors
+//var mBlocks_border = $('.main-block-image-wrap');
+//random color
+// mBlocks_border.each(function(){
+// 	var randomColors = ["CFDEE6", "DEE6CF", "E6DECF", "CFE6E4"];
+// 	var colorLength = randomColors.length;
+// 	var random = Math.floor(Math.random() * (colorLength - 0)) + 0;
+// 	$(this).css({'border-top' : "2px solid #" + randomColors[random]});
+// });
 
 /*
 old function that created random colors from hue selection worked
@@ -121,11 +127,6 @@ mBlocks_inner.each(function(){
 });
 */
 
-//click to get to `data-mainblocklink`
-mBlocks.on('click',function(){
-	var link = $(this).attr('data-mainblocklink');
-	window.location.assign(link);
-});
 
 //on load animation
 TweenLite.to(mBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
