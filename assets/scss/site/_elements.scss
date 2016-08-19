@@ -9,11 +9,13 @@
     background:$ghost;
     box-shadow: 0 0 5px 0 $steel;
     color:$white;
-    border-radius: .25rem;
+    border-radius: .30rem;
+    transform-origin:50% 50%;
     transition: all 150ms;
     &:hover{
         box-shadow: 0 0 5px 0 $oil, 0 5px 8px 0 $jumbo;
         background: scale-color($secondary-color, $lightness:40%, $saturation:50%);
+        transform:scale(1.005);
     }
       h3{
           margin:0;
@@ -23,9 +25,8 @@
           
       }
       p{
-        padding: 0 .25rem;
-        padding: 0 .75rem;
-        font-size:.95rem;
+        padding: 0 .75rem 1rem .75rem;
+        font-size:.88rem;
         line-height:1.45;
         margin:0;
         color:$monsoon;
@@ -34,8 +35,7 @@
   }
 
   .main-block-image-wrap{
-    border-radius:.25rem .25rem 0 0;
-   //border-top: 4px solid $secondary-color;
+    border-radius:.30rem .30rem 0 0;
     width:100%;
     height:auto;
     overflow:hidden;
@@ -48,7 +48,7 @@
       width:100%;
       height:100%;
       z-index:300;
-      border-radius: .25rem .25rem 0 0;
+      border-radius: .30rem .30rem 0 0;
       box-shadow:inset 0 0 20px 5px rgba($black, .15);
     }
     img{
