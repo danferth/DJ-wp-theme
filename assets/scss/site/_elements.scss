@@ -194,15 +194,24 @@
     margin-bottom:.15rem;
     text-decoration:underline;
     font-size:.7rem;
+    @media screen and (max-width:$small-breakpoint){
+      font-size:1rem;
+    } 
   }
   .partnumber_description{
     font-style:italic;
     font-size:.6rem;
+    @media screen and (max-width:$small-breakpoint){
+      font-size:.75rem;
+    } 
   }
   .partnumber_number{
     margin-top:.15rem;
-    font-size:.6rem;
+    font-size:.7rem;
     font-weight:bold;
+     @media screen and (max-width:$small-breakpoint){
+      font-size:.75rem;
+    } 
   }
 }
 
@@ -474,19 +483,25 @@ table.product-ref-table{
 //=====================================================================
 
 .full-background{
-  width:auto;
-  height:500px;
+  //width:auto;
+  //height:500px;
   background-repeat: no-repeat;
   background-position:center center;
   //background-attachment:fixed;
-  //background-size: contain;
+  background-size: contain;
+  @media screen and (max-width:$medium-breakpoint){
+    
+  }
 }
 
 .science-selection select{
-  margin:300px 15% 0 15%;
+  margin:380px 15% 0 15%;
   width:70%;
   opacity:.75;
   transition:opacity 300ms;
+   @media screen and (max-width:$medium-breakpoint){
+    margin:10% 5% 0 5%;
+  }
   &:hover{
     opacity:1;
   }
