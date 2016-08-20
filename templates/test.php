@@ -40,8 +40,11 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 
-<div class="full-background show-for-medium-up row" <?php echo do_shortcode('[bgImg src="page/UYF-hero.jpg"]') ?> >
-	<div class="science-selection medium-12 column">
+<div class="full-background show-for-medium-up row">
+	<div class="full-background-image medium-12 column">
+		<?php echo do_shortcode("[img class='full-image' src='page/UYF-hero.jpg']"); ?>
+	</div>
+	<div class="full-background-select medium-12 column">
 		<select name="sub-science">
 			<option value="">choose your cell line</option>
 			<option value="ecoli"><i>E. coli</i></option>

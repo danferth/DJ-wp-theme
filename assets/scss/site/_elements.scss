@@ -483,28 +483,30 @@ table.product-ref-table{
 //=====================================================================
 
 .full-background{
-  //width:auto;
-  //height:500px;
-  background-repeat: no-repeat;
-  background-position:center center;
-  //background-attachment:fixed;
-  background-size: contain;
-  @media screen and (max-width:$medium-breakpoint){
-    
-  }
+ position:relative;
+}
+.full-background-image{
+  
+}
+.full-background-select{
+  position:absolute;
+  top:60%;
+  left:0;
+  right:0;
+  select{
+    margin: 0 15%;
+    width:70%;
+    opacity:.75;
+    transition:opacity 300ms;
+     @media screen and (max-width:$medium-breakpoint){
+      margin: 0 5%;
+      width: 90%;
+    }
+    &:hover{
+      opacity:1;
+    }
 }
 
-.science-selection select{
-  margin:380px 15% 0 15%;
-  width:70%;
-  opacity:.75;
-  transition:opacity 300ms;
-   @media screen and (max-width:$medium-breakpoint){
-    margin:10% 5% 0 5%;
-  }
-  &:hover{
-    opacity:1;
-  }
 }
 
 //next up?
