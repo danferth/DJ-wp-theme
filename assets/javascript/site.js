@@ -179,8 +179,7 @@ var waypoints = $('.appnote-block').waypoint({
 //======================
 
 //set height on load for hero image
-var heroWidth = $('.full-background').width() + "px";
-console.log(heroWidth);
+
 
 
 

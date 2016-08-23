@@ -180,9 +180,11 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
     $scope.products = rslt.data;
   });
   
-  $scope.hello = "dude there you are!";
-  $scope.test = function(n){
-    console.log(n + " got clicked");
+  $scope.triggerOverlay = function(e){
+    $('.overlay').removeClass('hidden');
+		$('.overlay-content').addClass('animated fadeInUp');
+		console.log('I just got clicked');
   };
+
 }]);
 
