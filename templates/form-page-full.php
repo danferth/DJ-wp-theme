@@ -101,7 +101,7 @@ if($form_success == "true"){
 			text: 'Our apologies but there was an error <b>" . $first_name . "</b>, we have logged this and will have a fix soon!',
 			type: 'error',
 			html: true,
-			confirmButtonText: 'well shit!'
+			confirmButtonText: 'OK'
 		});
 	";
 }

@@ -2,12 +2,31 @@
 /*
 Template Name: test
 */
+
+
+//for forms
+if(isset($_GET['success'])){
+	$form_success = $_GET['success'];
+}
+
+$first_name = $_GET['first_name'];
+
+if(get_post_meta($post->ID, "form-parse")){
+$parse = '/wp-content/themes/TIC/form-parse/' . get_post_meta($post->ID, "form-parse", true) . '.php';
+}
+
+if(get_post_meta($post->ID, "form-ID")){
+$form_id = get_post_meta($post->ID, "form-ID", true);
+}
+
+//for prefooter
 if(get_post_meta($post->ID, "has-prefooter")){
 $prefooter_class = "has-prefooter";
 }else{
 	$prefooter_class = "";
 }
 
+//for angular
 $ng_app = "";
 if(get_post_meta($post->ID, "ng-app")){
 $ngApp = get_post_meta($post->ID, "ng-app", true);
@@ -20,6 +39,7 @@ $ngController = get_post_meta($post->ID, "ng-controller", true);
 $ng_controller = "ng-controller='" . $ngController . "'";
 }
 
+//for raodmap
 $science = $_GET['sci'];
 
 get_header(); ?>
@@ -55,19 +75,19 @@ get_header(); ?>
 
 <div class="show-for-small-only row">
 	<div class="small-12 column">
-		<select name="sub-science">
+		<select name="sub-science" ng-model="cellLineChoice" ng-options="cellLine.label for cellLine in cellLines">
 			<option value="">choose your cell line</option>
-			<option value="ecoli"><i>E. coli</i></option>
-			<option value="microbial">microbial</option>
-			<option value="pick-bactiria">pink backtiria</option>
-			<option value="streptomyces">streptomyces</option>
 		</select>
 	</div>
 </div>
 
 <div class="row">
 	<div class="small-12 medium-7 column">
-		{{ cellLineChoice.label }}
+		<p>{{ cellLineChoice.label }}</p>
+		<p>{{ fname }}</p>
+		<p>{{ lname }}</p>
+		<p>{{ email }}</p>
+		<p>{{ zipCode }}</p>
 		<h2>Thomson Ultra Yield™ Solution</h2>
 		<p>Thomson’s Ultra Yield Flasks™ (patented) have proven over the last decade to enhance the growth of E.coli & other microbial cells. The patented flask design makes them the work horse of protein and DNA labs worldwide. The Ultra Yield Flasks come in standardized sizes of 125mL, 250mL, 500mL and 2.5L.</p>
 			<p>The flasks are designed to be closed on top by using our Enhanced AirOTop™ Seals (patented). These seals are designed to fit on the tops of the flasks. Enhanced AirOtop™ Seals are sterile, easy to use, and single use. The Enhanced AirOtop™ Seals properties include a 0.2µm resealable sterile membrane barrier providing high air exchange for all types of shake flasks.  Multiple sizes are available to keep all of your flasks covered. Testing has been conducted at multiple customer sites with great results on up to 24 hours of growth. The organisms tested included Protista (Algae), E.coli and other microbes which have resulted in improved cell density, a more neutral pH of the cultures with the increased gas exchange.</p>

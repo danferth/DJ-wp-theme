@@ -12,21 +12,25 @@
 			    
 			    <div class="row">
 			      <div class="small-12 medium-4 column">
-			        <input type="text" name="fname" placeholder="First Name"/>
+			        <input type="text" name="fname" placeholder="First Name" ng-model="fname"/>
 		        </div>
 			      <div class="small-12 medium-4 column end">
-			        <input type="text" name="lname" placeholder="Last Name"/>
+			        <input type="text" name="lname" placeholder="Last Name" ng-model="lname"/>
 			     </div>
 			   </div>
 			   
 			   <div class="row">
-			     <div class="small-12 medium-8 column">
-			       <input type="email" name="email" placeholder="email"/>
+			     <div class="small-12 medium-6 column">
+			       <input type="email" name="email" placeholder="email" ng-model="email"/>
+			     </div>
+			     <div class="small-12 medium-2 column end">
+			       <input type="text" name="zipcode" placeholder="Zip Code" ng-model="zipCode"/>
 			     </div>
 			   </div>
 			   
 			   <div class="row">
 			     <div class="small-8 column">
+			       <?php echo "Hello from PHP!"; ?>
 			       <p>Thanks for stopping by!</p>
 			       <p>Please complete the above form for more information on <b>Ultra Yield&trade; Flasks for {{ cellLineChoice.label }} Development</b></p>
 			     </div>

@@ -24,7 +24,7 @@ test.directive('productInquery', function(){
   return{
     restrict: 'E',
     replace: 'true',
-    templateUrl: url+'/wp-content/themes/TIC/assets/templates/product-inquery.html',
+    templateUrl: url+'/wp-content/themes/TIC/assets/templates/product-inquery.php',
     link: function(scope, elem, attrs){
       // elem.bind('click', function(){
       //   elem.addClass('hidden');
