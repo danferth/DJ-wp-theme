@@ -185,6 +185,15 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
 		$('.overlay-content').addClass('animated fadeInUp');
 		console.log('I just got clicked');
   };
+  
+  //select
+  $scope.cellLines = [
+    { "value" : "ecoli", "label" : "E. Coli" },
+    { "value" : "microbial", "label" : "Microbial" },
+    { "value" : "pink backtirium", "label" : "Pink Bacterium" },
+    { "value" : "streptomyces" , "label" : "streptomyces" } 
+    ];
 
+  $scope.cellLineChoice = { "value" : "", "label" : "no cell line selected" };
 }]);
 
