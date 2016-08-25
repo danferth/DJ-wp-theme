@@ -197,8 +197,8 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
   $scope.cellLineChoice = { "value" : "", "label" : "no cell line selected" };
   
   //form
-  $scope.fname = "";
-  $scope.lname = "";
+  $scope.first_name = "";
+  $scope.last_name = "";
   $scope.email = "";
   $scope.zipCode = "";
 }]);

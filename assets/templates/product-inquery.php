@@ -8,29 +8,36 @@
 			</div>
 			
 			<div class="test small-12 column">
-			  <form>
+			  <form action="/wp-content/themes/TIC/form-parse/parse-product-overlay.php" method="POST" id="product-overlay-form">
 			    
 			    <div class="row">
 			      <div class="small-12 medium-4 column">
-			        <input type="text" name="fname" placeholder="First Name" ng-model="fname"/>
+			        <span id="first-name">
+			          <input type="text" name="first-name" placeholder="First Name" ng-model="first_name" required/>
+			        </span>
 		        </div>
 			      <div class="small-12 medium-4 column end">
-			        <input type="text" name="lname" placeholder="Last Name" ng-model="lname"/>
+			        <span id="last-name">
+			          <input type="text" name="last-name" placeholder="Last Name" ng-model="last_name" required/>
+			        </span>
 			     </div>
 			   </div>
 			   
 			   <div class="row">
 			     <div class="small-12 medium-6 column">
-			       <input type="email" name="email" placeholder="email" ng-model="email"/>
+			       <span id="email">
+			         <input type="email" name="email" placeholder="email" ng-model="email" required/>
+			       </span>
 			     </div>
 			     <div class="small-12 medium-2 column end">
-			       <input type="text" name="zipcode" placeholder="Zip Code" ng-model="zipCode"/>
+			       <span id="zipCode">
+			         <input type="text" name="zipcode" placeholder="Zip Code" ng-model="zipCode" required/>
+			       </span>
 			     </div>
 			   </div>
 			   
 			   <div class="row">
 			     <div class="small-8 column">
-			       <?php echo "Hello from PHP!"; ?>
 			       <p>Thanks for stopping by!</p>
 			       <p>Please complete the above form for more information on <b>Ultra Yield&trade; Flasks for {{ cellLineChoice.label }} Development</b></p>
 			     </div>
