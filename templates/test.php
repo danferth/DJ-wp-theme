@@ -8,8 +8,17 @@ Template Name: test
 if(isset($_GET['success'])){
 	$form_success = $_GET['success'];
 }
-
+if(isset($_GET['first_name'])){
 $first_name = $_GET['first_name'];
+}
+
+if(isset($_GET['form_type'])){
+	$form_type = $_GET['form_type'];
+}
+
+if(isset($_GET['product'])){
+	$product_type = $_GET['product'];
+}
 
 //for prefooter
 if(get_post_meta($post->ID, "has-prefooter")){
@@ -77,7 +86,7 @@ get_header(); ?>
 			<p>The flasks are designed to be closed on top by using our Enhanced AirOTop™ Seals (patented). These seals are designed to fit on the tops of the flasks. Enhanced AirOtop™ Seals are sterile, easy to use, and single use. The Enhanced AirOtop™ Seals properties include a 0.2µm resealable sterile membrane barrier providing high air exchange for all types of shake flasks.  Multiple sizes are available to keep all of your flasks covered. Testing has been conducted at multiple customer sites with great results on up to 24 hours of growth. The organisms tested included Protista (Algae), E.coli and other microbes which have resulted in improved cell density, a more neutral pH of the cultures with the increased gas exchange.</p>
 	</div>
 	<div class="small-12 medium-6 large-5 column">
-		<product-inquery product="Yo Mama"></product-inquery>
+		<product-inquery product="Ultra Yield Flask"></product-inquery>
 	</div>
 </div>
 
@@ -134,5 +143,47 @@ get_header(); ?>
 	</div>
 		</article>
 </div>
+
+<script type="text/javascript">
+<?php
+if($form_success == "true"){
+	echo "
+		window.onload = swal({
+			title: 'Success',
+			text: '" . $first_name . " your ". $form_type ." submission was a success we will contact you shortly about your inquiry into ". $product_type ."!',
+			type: 'success',
+			html: true,
+			confirmButtonText: 'Thanks'
+		});
+	";
+}elseif($form_success == "false"){
+	echo "
+		window.onload = swal({
+			title: 'Whoops',
+			text: 'Our apologies but there was an error <b>" . $first_name . "</b>, we have logged this and will have a fix soon!',
+			type: 'error',
+			html: true,
+			confirmButtonText: 'OK'
+		});
+	";
+}
+
+?>
+
+function hasHTML5validation(){
+	return (typeof document.createElement('input').checkValidity == 'function');
+}
+if( !hasHTML5validation() ){
+	<?php 
+	echo 'onload=function(){document.forms["product-inquery-sample"].reset()};
+	onload=function(){document.forms["product-inquery-quote"].reset()};
+	onload=function(){document.forms["product-inquery-contact"].reset()};
+	jQuery(document).ready(function($){
+		$("#product-inquery-sample").validate();
+		$("#product-inquery-quote").validate();
+		$("#product-inquery-contact").validate();
+	});'; ?>
+}
+</script>
 
 <?php get_footer(); ?>

@@ -2,8 +2,8 @@
 
 	<div class="product-inquery small-12 column">
 		<button class="product-inquery-button buttom expand">Get a Sample</button>
-		<form class="product-inquery-form" id="product-inquery-sample" action="" method="GET">
-			<fieldset>
+		<form class="product-inquery-form" id="product-inquery-sample" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
+			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
             <input type="text" name="first-name" placeholder="First Name" required/>
@@ -25,6 +25,7 @@
           </span>
 				</div>
 				<div class="small-12 column">
+				  <input type="hidden" name="form" value="sample"/>
 					<input type="hidden" name="cell_line" ng-value="cell_line_choice.label" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input class="button expand" type="submit" name="Submit" />
@@ -35,8 +36,8 @@
 	
 	<div class="product-inquery small-12 column">
 		<button class="product-inquery-button buttom expand">Get a Quote</button>
-		<form class="product-inquery-form" id="product-inquery-quote" action="" method="">
-			<fieldset>
+		<form class="product-inquery-form" id="product-inquery-quote" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
+			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
             <input type="text" name="first-name" placeholder="First Name" required/>
@@ -58,6 +59,7 @@
           </span>
 				</div>
 				<div class="small-12 column">
+				  <input type="hidden" name="form" value="quote"/>
 				  <input type="hidden" name="cell_line" ng-value="cell_line_choice" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input class="button expand" type="submit" name="Submit" />
@@ -68,8 +70,8 @@
 	
 	<div class="product-inquery small-12 column">
 		<button class="product-inquery-button buttom expand">Contact Me</button>
-		<form class="product-inquery-form" id="product-inquery-contact" action="" method="">
-			<fieldset>
+		<form class="product-inquery-form" id="product-inquery-contact" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
+			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
             <input type="text" name="first-name" placeholder="First Name" required/>
@@ -91,6 +93,7 @@
           </span>
 				</div>
 				<div class="small-12 column">
+				  <input type="hidden" name="form" value="contact"/>
 				  <input type="hidden" name="cell_line" ng-value="cell_line_choice" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input class="button expand" type="submit" name="Submit" />
