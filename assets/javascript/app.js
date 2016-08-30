@@ -180,12 +180,6 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
     $scope.products = rslt.data;
   });
   
-  $scope.triggerOverlay = function(e){
-    $('.overlay').removeClass('hidden');
-		$('.overlay-content').addClass('animated fadeInUp');
-		console.log('I just got clicked');
-  };
-  
   //select
   $scope.cellLines = [
     { "value" : "ecoli", "label" : "E. Coli" },
@@ -194,12 +188,17 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
     { "value" : "streptomyces" , "label" : "streptomyces" } 
     ];
 
-  $scope.cellLineChoice = { "value" : "", "label" : "no cell line selected" };
+  $scope.cell_line_choice = { "value" : "", "label" : "no cell line selected" };
+  
+  $scope.product = "no product set!";
   
   //form
   $scope.first_name = "";
   $scope.last_name = "";
   $scope.email = "";
   $scope.zipCode = "";
+  
+
+  
 }]);
 

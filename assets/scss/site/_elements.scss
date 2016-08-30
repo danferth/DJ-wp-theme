@@ -510,8 +510,28 @@ table.product-ref-table{
       opacity:1;
       box-shadow: 0 0 5px 0 $base;
     }
+  }
 }
 
+//product inquery module
+.product-inquery-module{
+	border:1px solid grey;
+	padding:2rem 1rem; //manipulated in app.js under product_page
+	border-radius:.25rem;
+  form{
+    fieldset{
+      margin:0;
+    }
+  }
+	.product-inquery{
+		margin-bottom:1.5rem; //manipulated in app.js under product_page
+		&:last-of-type{
+			margin-bottom:0; //manipulated in app.js under product_page
+		}
+	}
+}
+.product-inquery-button{
+  margin:0;
 }
 
 //next up?
