@@ -1,7 +1,7 @@
 <div class="product-inquery-module small-12 column">
 
 	<div class="product-inquery small-12 column">
-		<button class="product-inquery-button buttom expand">Get a Sample</button>
+		<button class="product-inquery-button buttom expand" data-text="Get a Sample">Get a Sample</button>
 		<form class="product-inquery-form" id="product-inquery-sample" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
@@ -35,7 +35,7 @@
 	</div>
 	
 	<div class="product-inquery small-12 column">
-		<button class="product-inquery-button buttom expand">Get a Quote</button>
+		<button class="product-inquery-button buttom expand" data-text="Get a Quote">Get a Quote</button>
 		<form class="product-inquery-form" id="product-inquery-quote" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
@@ -69,7 +69,7 @@
 	</div>
 	
 	<div class="product-inquery small-12 column">
-		<button class="product-inquery-button buttom expand">Contact Me</button>
+		<button class="product-inquery-button buttom expand" data-text="Contact Me">Contact Me</button>
 		<form class="product-inquery-form" id="product-inquery-contact" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">

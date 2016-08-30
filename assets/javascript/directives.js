@@ -49,11 +49,14 @@ $('.product-inquery-module').css({
 //on button click
 prodInqBtn.on('click', function(e) {
 	var target = $(this).siblings('.product-inquery-form');
+	var btnText = $(this).attr('data-text');
 	//check to see if open
 	if ($(this).parent('.product-inquery').hasClass('open')) {
 		//remove classes
 		$('.product-inquery').not('.open').removeClass('closed');
 		$(this).parent('.product-inquery').removeClass('open');
+		//restore button text
+		$(this).text(btnText);
 		//close form
 		target.hide();
 		//add back margin to button div
@@ -87,6 +90,8 @@ prodInqBtn.on('click', function(e) {
 		//set classes
 		$(this).parent('.product-inquery').addClass('open');
 		$('.product-inquery').not('.open').addClass('closed');
+		//change button text
+		$(this).text('close form');
 		//JQ hide others
 		$('.closed').hide();
 		//slide form down
