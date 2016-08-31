@@ -12,7 +12,7 @@ header('HTTP/1.1 303 See Other');
 	if (is_array($_POST)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
-		$body .= sprintf("<h2>" . $_POST['form'] . "Product Inquery Submission</h2>\n");
+		$body .= sprintf("<h2>" . $_POST['form'] . "Product Inquiry Submission</h2>\n");
 		$body .= sprintf("<hr />");
 		$body .= sprintf("\nName: <strong>%s %s</strong><br />\n",$_POST['first-name'],$_POST['last-name']);
 
@@ -20,7 +20,7 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("Zip code: <b>%s</b></br>\n",$_POST['zip-code']);
 		$body .= sprintf("<br />");
 		$body .= sprintf("Product: <b>%s</b></br>\n",$_POST['product']);
-		$body .= sprintf("Inquery type: <b>%s</b></br>\n",$_POST['form']);
+		$body .= sprintf("Inquiry type: <b>%s</b></br>\n",$_POST['form']);
 
 		$body .= sprintf("<br /><hr />");
 		$body .= sprintf("For internal use:<br />\n");
@@ -34,14 +34,14 @@ header('HTTP/1.1 303 See Other');
 			$mail = new PHPMailer;
 			$mail->setFrom($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
 			$mail->addReplyTo($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
-			//$mail->addAddress('web_submissions@htslabs.com', 'Product Inquery');
-			$mail->addAddress('dan@htslabs.com', 'Product Inquery');	//uncoment for testing to dan@htslabs.com
-			$mail->Subject = $_POST['form'] . " Product Inquery";
+			//$mail->addAddress('web_submissions@htslabs.com', 'Product Inquiry');
+			$mail->addAddress('dan@htslabs.com', ' Product Inquiry');	//uncoment for testing to dan@htslabs.com
+			$mail->Subject = $_POST['form'] . " Product Inquiry";
 			$mail->msgHTML($body);
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
 				$error_date = date('m\-d\-Y\-h:iA');
-				$log = "logs/product-inquery-error.txt";
+				$log = "logs/product-inquiry-error.txt";
 				$fp = fopen($log,"a+");
 				fwrite($fp,$error_date . "\n" . $mail_error . "\n\n");
 				fclose($fp);

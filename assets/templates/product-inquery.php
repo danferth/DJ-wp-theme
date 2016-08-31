@@ -1,8 +1,8 @@
-<div class="product-inquery-module small-12 column">
+<div class="product-inquiry-module small-12 column">
 
-	<div class="product-inquery small-12 column">
-		<button class="product-inquery-button buttom expand" data-text="Get a Sample">Get a Sample</button>
-		<form class="product-inquery-form" id="product-inquery-sample" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
+	<div class="product-inquiry small-12 column">
+		<button class="product-inquiry-button buttom expand" data-text="Get a Sample">Get a Sample</button>
+		<form class="product-inquiry-form" id="product-inquiry-sample" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
@@ -34,9 +34,9 @@
 		</form>
 	</div>
 	
-	<div class="product-inquery small-12 column">
-		<button class="product-inquery-button buttom expand" data-text="Get a Quote">Get a Quote</button>
-		<form class="product-inquery-form" id="product-inquery-quote" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
+	<div class="product-inquiry small-12 column">
+		<button class="product-inquiry-button buttom expand" data-text="Get a Quote">Get a Quote</button>
+		<form class="product-inquiry-form" id="product-inquiry-quote" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
@@ -68,9 +68,9 @@
 		</form>
 	</div>
 	
-	<div class="product-inquery small-12 column">
-		<button class="product-inquery-button buttom expand" data-text="Contact Me">Contact Me</button>
-		<form class="product-inquery-form" id="product-inquery-contact" action="/wp-content/themes/TIC/form-parse/parse-product-inquery.php" method="POST">
+	<div class="product-inquiry small-12 column">
+		<button class="product-inquiry-button buttom expand" data-text="Contact Me">Contact Me</button>
+		<form class="product-inquiry-form" id="product-inquiry-contact" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">

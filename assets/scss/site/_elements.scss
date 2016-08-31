@@ -513,8 +513,8 @@ table.product-ref-table{
   }
 }
 
-//product inquery module
-.product-inquery-module{
+//product inquiry module
+.product-inquiry-module{
 	border:1px solid grey;
 	padding:2rem 1rem; //manipulated in app.js under product_page
 	border-radius:.25rem;
@@ -524,14 +524,14 @@ table.product-ref-table{
       border-radius: 0 0 .5rem .5rem;
     }
   }
-	.product-inquery{
+	.product-inquiry{
 		margin-bottom:1.5rem; //manipulated in app.js under product_page
 		&:last-of-type{
 			margin-bottom:0; //manipulated in app.js under product_page
 		}
 	}
 }
-.product-inquery-button{
+.product-inquiry-button{
   margin:0;
 }
 
