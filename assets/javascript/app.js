@@ -193,10 +193,37 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
   $scope.product = "no product set!";
   
   //form
-  $scope.first_name = "";
-  $scope.last_name = "";
-  $scope.email = "";
-  $scope.zipCode = "";
+  
+  $scope.last_name = sessionStorage.getItem('lname');
+  $scope.email = sessionStorage.getItem('email');
+  $scope.zipCode = sessionStorage.getItem('zipCode');
+  
+  
+  
+  if(sessionStorage.getItem('fname')){
+    $scope.first_name = sessionStorage.getItem('fname');
+  }
+    if(sessionStorage.getItem('lname')){
+    $scope.last_name = sessionStorage.getItem('lname');
+  }
+    if(sessionStorage.getItem('email')){
+    $scope.email = sessionStorage.getItem('email');
+  }
+    if(sessionStorage.getItem('zipCode')){
+    $scope.zip_code = sessionStorage.getItem('zipCode');
+  }
+  
+    $scope.setter = function(e){
+    var fname = $('input[name="first-name"]').val(),
+        lname = $('input[name="last-name"]').val(),
+        email = $('input[name="email"]').val(),
+        zipCode = $('input[name="zip-code"]').val();
+    sessionStorage.setItem('fname', fname);
+    sessionStorage.setItem('lname', lname);
+    sessionStorage.setItem('email', email);
+    sessionStorage.setItem('zipCode', zipCode);
+  };
+  
   
 
   

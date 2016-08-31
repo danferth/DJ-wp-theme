@@ -35,7 +35,7 @@ header('HTTP/1.1 303 See Other');
 			$mail->setFrom($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
 			$mail->addReplyTo($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
 			//$mail->addAddress('web_submissions@htslabs.com', 'Product Inquiry');
-			$mail->addAddress('dan@htslabs.com', ' Product Inquiry');	//uncoment for testing to dan@htslabs.com
+			$mail->addAddress('dan@htslabs.com, lisa@htslabs.com', ' Product Inquiry');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = $_POST['form'] . " Product Inquiry";
 			$mail->msgHTML($body);
 			if (!$mail->send()){
