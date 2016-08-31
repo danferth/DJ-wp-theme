@@ -12,7 +12,7 @@ header('HTTP/1.1 303 See Other');
 	if (is_array($_POST)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
-		$body .= sprintf("<h2>" . $_POST['form'] . "Product Inquiry Submission</h2>\n");
+		$body .= sprintf("<h2>" . $_POST['form'] . " Product Inquiry Submission</h2>\n");
 		$body .= sprintf("<hr />");
 		$body .= sprintf("\nName: <strong>%s %s</strong><br />\n",$_POST['first-name'],$_POST['last-name']);
 
@@ -35,7 +35,8 @@ header('HTTP/1.1 303 See Other');
 			$mail->setFrom($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
 			$mail->addReplyTo($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
 			//$mail->addAddress('web_submissions@htslabs.com', 'Product Inquiry');
-			$mail->addAddress('dan@htslabs.com, lisa@htslabs.com', ' Product Inquiry');	//uncoment for testing to dan@htslabs.com
+			$mail->addAddress('dan@htslabs.com', ' Product Inquiry');	//uncoment for testing to dan@htslabs.com
+			$mail->addAddress('lisa.wanders@htslabs.com', ' Product Inquiry');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = $_POST['form'] . " Product Inquiry";
 			$mail->msgHTML($body);
 			if (!$mail->send()){
