@@ -86,7 +86,7 @@ get_header(); ?>
 			<p>The flasks are designed to be closed on top by using our Enhanced AirOTop™ Seals (patented). These seals are designed to fit on the tops of the flasks. Enhanced AirOtop™ Seals are sterile, easy to use, and single use. The Enhanced AirOtop™ Seals properties include a 0.2µm resealable sterile membrane barrier providing high air exchange for all types of shake flasks.  Multiple sizes are available to keep all of your flasks covered. Testing has been conducted at multiple customer sites with great results on up to 24 hours of growth. The organisms tested included Protista (Algae), E.coli and other microbes which have resulted in improved cell density, a more neutral pH of the cultures with the increased gas exchange.</p>
 	</div>
 	<div class="small-12 medium-6 large-5 column">
-		<product-inquery product="Ultra Yield Flask"></product-inquery>
+		<product-inquiry product="Ultra Yield Flask"></product-inquiry>
 	</div>
 </div>
 
