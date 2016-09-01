@@ -3,13 +3,13 @@
 Template Name: test
 */
 
-
 //for forms
 if(isset($_GET['success'])){
 	$form_success = $_GET['success'];
 }
+
 if(isset($_GET['first_name'])){
-$first_name = $_GET['first_name'];
+	$first_name = $_GET['first_name'];
 }
 
 if(isset($_GET['form_type'])){
@@ -22,7 +22,7 @@ if(isset($_GET['product'])){
 
 //for prefooter
 if(get_post_meta($post->ID, "has-prefooter")){
-$prefooter_class = "has-prefooter";
+	$prefooter_class = "has-prefooter";
 }else{
 	$prefooter_class = "";
 }
@@ -30,14 +30,14 @@ $prefooter_class = "has-prefooter";
 //for angular
 $ng_app = "";
 if(get_post_meta($post->ID, "ng-app")){
-$ngApp = get_post_meta($post->ID, "ng-app", true);
-$ng_app = "ng-app='" . $ngApp . "'";
+	$ngApp = get_post_meta($post->ID, "ng-app", true);
+	$ng_app = "ng-app='" . $ngApp . "'";
 }
 
 $ng_controller = "";
 if(get_post_meta($post->ID, "ng-controller")){
-$ngController = get_post_meta($post->ID, "ng-controller", true);
-$ng_controller = "ng-controller='" . $ngController . "'";
+	$ngController = get_post_meta($post->ID, "ng-controller", true);
+	$ng_controller = "ng-controller='" . $ngController . "'";
 }
 
 //for raodmap
@@ -65,7 +65,7 @@ get_header(); ?>
 		<?php echo do_shortcode("[img class='full-image' src='page/UYF-hero.jpg']"); ?>
 	</div>
 	<div class="full-background-select medium-12 column">
-		<select name="sub-science" ng-model="cell_line_choice" ng-options="cellLine.label for cellLine in cellLines">
+		<select name="sub-science" ng-model="industry" ng-options="industry.label for industry in industry_options">
 			<option value="">choose your cell line</option>
 		</select>
 	</div>
@@ -73,7 +73,7 @@ get_header(); ?>
 
 <div class="show-for-small-only row">
 	<div class="small-12 column">
-		<select name="sub-science" ng-model="cellLineChoice" ng-options="cellLine.label for cellLine in cellLines">
+		<select name="sub-science" ng-model="industry" ng-options="industry.label for industry in industry_options">
 			<option value="">choose your cell line</option>
 		</select>
 	</div>
@@ -81,6 +81,7 @@ get_header(); ?>
 
 <div class="row">
 	<div class="small-12 medium-6 large-7 column">
+		<p>{{ product }}</p>
 		<h2>Thomson Ultra Yield™ Solution</h2>
 		<p>Thomson’s Ultra Yield Flasks™ (patented) have proven over the last decade to enhance the growth of E.coli & other microbial cells. The patented flask design makes them the work horse of protein and DNA labs worldwide. The Ultra Yield Flasks come in standardized sizes of 125mL, 250mL, 500mL and 2.5L.</p>
 			<p>The flasks are designed to be closed on top by using our Enhanced AirOTop™ Seals (patented). These seals are designed to fit on the tops of the flasks. Enhanced AirOtop™ Seals are sterile, easy to use, and single use. The Enhanced AirOtop™ Seals properties include a 0.2µm resealable sterile membrane barrier providing high air exchange for all types of shake flasks.  Multiple sizes are available to keep all of your flasks covered. Testing has been conducted at multiple customer sites with great results on up to 24 hours of growth. The organisms tested included Protista (Algae), E.coli and other microbes which have resulted in improved cell density, a more neutral pH of the cultures with the increased gas exchange.</p>

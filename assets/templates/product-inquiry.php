@@ -26,7 +26,7 @@
 				</div>
 				<div class="small-12 column">
 				  <input type="hidden" name="form" value="sample"/>
-					<input type="hidden" name="cell_line" ng-value="cell_line_choice.label" />
+					<input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input class="button expand" type="submit" name="Submit" ng-click="setter()"/>
 				</div>
@@ -60,7 +60,7 @@
 				</div>
 				<div class="small-12 column">
 				  <input type="hidden" name="form" value="quote"/>
-				  <input type="hidden" name="cell_line" ng-value="cell_line_choice" />
+				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input class="button expand" type="submit" name="Submit" ng-click="setter()" />
 				</div>
@@ -94,7 +94,7 @@
 				</div>
 				<div class="small-12 column">
 				  <input type="hidden" name="form" value="contact"/>
-				  <input type="hidden" name="cell_line" ng-value="cell_line_choice" />
+				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input class="button expand" type="submit" name="Submit" ng-click="setter()" />
 				</div>

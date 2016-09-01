@@ -17,6 +17,9 @@ plates.directive('plateSearch', function(){
   };
 });
   
+
+
+
 //=====test directive=====
 
 //=====Product Inquiry=====

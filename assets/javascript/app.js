@@ -180,25 +180,26 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
     $scope.products = rslt.data;
   });
   
-  //select
-  $scope.cellLines = [
-    { "value" : "ecoli", "label" : "E. Coli" },
-    { "value" : "microbial", "label" : "Microbial" },
-    { "value" : "pink backtirium", "label" : "Pink Bacterium" },
-    { "value" : "streptomyces" , "label" : "streptomyces" } 
-    ];
-
-  $scope.cell_line_choice = { "value" : "", "label" : "no cell line selected" };
-  
+  //product set with attribute on <product-inquiry product="foobar"></product-inquiry>
   $scope.product = "no product set!";
   
-  //form
+  //select
+  if($scope.product == 'Ultra Yield Flask'){
+    $scope.industry_options = [
+      { "value" : "ecoli", "label" : "E. Coli" },
+      { "value" : "microbial", "label" : "Microbial" },
+      { "value" : "pink backtirium", "label" : "Pink Bacterium" },
+      { "value" : "streptomyces" , "label" : "streptomyces" } 
+    ];
+  }
+
+  $scope.industry = { "value" : "", "label" : "no cell line selected" };
   
+  
+  //form
   $scope.last_name = sessionStorage.getItem('lname');
   $scope.email = sessionStorage.getItem('email');
   $scope.zipCode = sessionStorage.getItem('zipCode');
-  
-  
   
   if(sessionStorage.getItem('fname')){
     $scope.first_name = sessionStorage.getItem('fname');
@@ -214,18 +215,17 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
   }
   
     $scope.setter = function(e){
-    var fname = $('input[name="first-name"]').val(),
-        lname = $('input[name="last-name"]').val(),
-        email = $('input[name="email"]').val(),
+    var fname   = $('input[name="first-name"]').val(),
+        lname   = $('input[name="last-name"]').val(),
+        email   = $('input[name="email"]').val(),
         zipCode = $('input[name="zip-code"]').val();
+        
     sessionStorage.setItem('fname', fname);
     sessionStorage.setItem('lname', lname);
     sessionStorage.setItem('email', email);
     sessionStorage.setItem('zipCode', zipCode);
   };
   
-  
 
-  
 }]);
 

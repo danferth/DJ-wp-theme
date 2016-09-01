@@ -173,21 +173,6 @@ var waypoints = $('.appnote-block').waypoint({
   offset: '75%'
 });
 
-
-//======================
-// HERO on product pages
-//======================
-
-//set height on load for hero image
-
-
-
-
-
-
-
-
-
 //===========
 //prefooter
 //==========
