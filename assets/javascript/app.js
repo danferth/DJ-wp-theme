@@ -182,18 +182,17 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
   
   //product set with attribute on <product-inquiry product="foobar"></product-inquiry>
   $scope.product = "no product set!";
-  
   //select
-  if($scope.product == 'Ultra Yield Flask'){
-    $scope.industry_options = [
+
+    $scope.UYF_options = [
       { "value" : "ecoli", "label" : "E. Coli" },
       { "value" : "microbial", "label" : "Microbial" },
       { "value" : "pink backtirium", "label" : "Pink Bacterium" },
       { "value" : "streptomyces" , "label" : "streptomyces" } 
     ];
-  }
 
-  $scope.industry = { "value" : "", "label" : "no cell line selected" };
+
+  $scope.industry = { "value" : "", "label" : "no industry selected" };
   
   
   //form
