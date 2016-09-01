@@ -12,16 +12,16 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("<body>");
 		$body .= sprintf("<h2>Contact form submission results:</h2>\n");
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\nCompany: <strong>%s</strong><br />\n",$_POST['company']);
-		$body .= sprintf("\nName: <strong>%s %s</strong><br />\n",$_POST['firstName'],$_POST['lastName']);
+		$body .= sprintf("\nCompany: <b>%s</b><br />\n",$_POST['company']);
+		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$_POST['firstName'],$_POST['lastName']);
 
 		if ($_POST['title'] == "title"){
 			$title = "";
 		}else{$title = $_POST['title'];}
 
-		$body .= sprintf("\nTitle: <strong>".$title."</strong><br />\n");
-		$body .= sprintf("\nTelephone: <strong>%s</strong><br />\n",$_POST['telephone']);
-		$body .= sprintf("\nEmail: <strong>%s</strong><br />\n",$_POST['email']);
+		$body .= sprintf("\nTitle: <b>".$title."</b><br />\n");
+		$body .= sprintf("\nTelephone: <b>%s</b><br />\n",$_POST['telephone']);
+		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$_POST['email']);
 		$body .= sprintf("<br />");
 
 		if ($_POST['message'] == "please enter your question here:"){

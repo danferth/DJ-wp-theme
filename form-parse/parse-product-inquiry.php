@@ -14,9 +14,9 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("<body>");
 		$body .= sprintf("<h2>" . $_POST['form'] . " Product Inquiry Submission</h2>\n");
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\nName: <strong>%s %s</strong><br />\n",$_POST['first-name'],$_POST['last-name']);
+		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$_POST['first-name'],$_POST['last-name']);
 
-		$body .= sprintf("\nEmail: <strong>%s</strong><br />\n",$_POST['email']);
+		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$_POST['email']);
 		$body .= sprintf("Zip code: <b>%s</b></br>\n",$_POST['zip-code']);
 		$body .= sprintf("<br />");
 		$body .= sprintf("Product: <b>%s</b></br>\n",$_POST['product']);

@@ -11,12 +11,12 @@ header('HTTP/1.1 303 See Other');
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		
-		$body .= sprintf("Company: <strong>".$_POST['company']."</strong><br />\n");
-		$body .= sprintf("Name: <strong>".$_POST['firstName']." ".$_POST['lastName']."</strong><br />\n");
-		$body .= sprintf("Phone: <strong>".$_POST['phone']."</strong><br />\n");
-		$body .= sprintf("Email: <strong>".$_POST['email']."</strong><br />\n");
-		$body .= sprintf("Zipcode: <strong>".$_POST['zipCode']."</strong>br />\n");
-		$body .= sprintf("Country: <strong>".$_POST['country']."</strong><br />\n");
+		$body .= sprintf("Company: <b>".$_POST['company']."</b><br />\n");
+		$body .= sprintf("Name: <b>".$_POST['firstName']." ".$_POST['lastName']."</b><br />\n");
+		$body .= sprintf("Phone: <b>".$_POST['phone']."</b><br />\n");
+		$body .= sprintf("Email: <b>".$_POST['email']."</b><br />\n");
+		$body .= sprintf("Zipcode: <b>".$_POST['zipCode']."</b>br />\n");
+		$body .= sprintf("Country: <b>".$_POST['country']."</b><br />\n");
 
 		$body .= sprintf("<hr /><h4>Request Message</h4>");
 
@@ -25,7 +25,7 @@ header('HTTP/1.1 303 See Other');
 			}else{$message = $_POST['message'];}
 			$messageSafe = strip_tags($message);
 
-			$body .= wordwrap(sprintf("<strong>%s</strong>",$messageSafe,75,"\n"));	
+			$body .= wordwrap(sprintf("<b>%s</b>",$messageSafe,75,"\n"));	
 			$body .= sprintf("<hr />");
 			$body .= sprintf("For internal use:");
 			$body .= sprintf("<br />-----------------");

@@ -13,15 +13,15 @@ header('HTTP/1.1 303 See Other');
 		
 		$body .= sprintf("<h2>Terms &amp; Conditions Acceptance:</h2>\n");
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\nCompany: <strong>%s</strong><br />\n",$_POST['company']);
-		$body .= sprintf("\nName: <strong>%s %s</strong><br />\n",$_POST['fname'],$_POST['lname']);
+		$body .= sprintf("\nCompany: <b>%s</b><br />\n",$_POST['company']);
+		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$_POST['fname'],$_POST['lname']);
 		if ($_POST['title'] == "title"){
 			$title = "";
 			}else{$title = $_POST['title'];}
 		if ($title !=""){
-		$body .= sprintf("\nTitle: <strong>".$title."</strong><br />\n");}
-		$body .= sprintf("\nTelephone: <strong>%s</strong><br />\n",$_POST['phone']);
-		$body .= sprintf("\nEmail: <strong>%s</strong><br />\n",$_POST['email']);
+		$body .= sprintf("\nTitle: <b>".$title."</b><br />\n");}
+		$body .= sprintf("\nTelephone: <b>%s</b><br />\n",$_POST['phone']);
+		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$_POST['email']);
 		$body .= sprintf("<br />");
 		$body .= sprintf("<br /><hr />");
 		$body .= sprintf("For internal use:<br />\n");
