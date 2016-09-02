@@ -1077,12 +1077,36 @@
 		"line" : "UYF",
 		"series" : "flask",
 		"title" : "Ultra Yield™ Flask 2.5L",
-		"description1" : "2.5L flask, 500mL working Volume",
+		"description1" : "2.5L flask, 500mL-1L working Volume",
 		"description2" : "Sterile | For best results use AirOtop® Seals",
 		"partNum" : "931136-B",
 		"partNumber" : [{"num" : "931136-B", "qty" : "6"}],
 		"image" : "931136-B_lg.jpg",
 		"thum_image" : "931136-B_tn.png",
+		"tag" : [],
+		"URL" : "uyf/"
+	},{
+		"line" : "UYF",
+		"series" : "flask",
+		"title" : "2.5L Ultra Yield™ Flask w/ Vent Cap",
+		"description1" : "2.5L flask, 500mL-1L working Volume",
+		"description2" : "Sterile | Comes with vent cap",
+		"partNum" : "931136-B-VC",
+		"partNumber" : [{"num" : "931136-B-VC", "qty" : "6"}],
+		"image" : "931136-B-VC_lg.jpg",
+		"thum_image" : "931136-B-VC_tn.png",
+		"tag" : [],
+		"URL" : "uyf/"
+	},{
+		"line" : "UYF",
+		"series" : "flask",
+		"title" : "Vent Cap for 2.5L Ultra Yield™ Flask",
+		"description1" : "for Ultra Yield™ 2.5L Flask",
+		"description2" : "Sterile | Use with 2.5L Ultra Yield™ Flask",
+		"partNum" : "899566",
+		"partNumber" : [{"num" : "899566", "qty" : "24"}],
+		"image" : "899566_lg.jpg",
+		"thum_image" : "899566_tn.png",
 		"tag" : [],
 		"URL" : "uyf/"
 	},{
