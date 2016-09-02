@@ -32,7 +32,7 @@ test.directive('productInquiry', function(){
       
       //set products attribute
       scope.product = attrs["product"];
-      console.log(scope.product);
+
 //==============================
 //===PRODUCT INQUIRY MODULE=====
 //==============================

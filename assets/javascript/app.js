@@ -196,10 +196,7 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
   
   
   //form
-  $scope.last_name = sessionStorage.getItem('lname');
-  $scope.email = sessionStorage.getItem('email');
-  $scope.zipCode = sessionStorage.getItem('zipCode');
-  
+
   if(sessionStorage.getItem('fname')){
     $scope.first_name = sessionStorage.getItem('fname');
   }
@@ -213,11 +210,11 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
     $scope.zip_code = sessionStorage.getItem('zipCode');
   }
   
-    $scope.setter = function(e){
-    var fname   = $('input[name="first-name"]').val(),
-        lname   = $('input[name="last-name"]').val(),
-        email   = $('input[name="email"]').val(),
-        zipCode = $('input[name="zip-code"]').val();
+    $scope.setter = function(formID){
+    var fname   = $('#'+formID+' input[name="first-name"]').val(),
+        lname   = $('#'+formID+' input[name="last-name"]').val(),
+        email   = $('#'+formID+' input[name="email"]').val(),
+        zipCode = $('#'+formID+' input[name="zip-code"]').val();
         
     sessionStorage.setItem('fname', fname);
     sessionStorage.setItem('lname', lname);
