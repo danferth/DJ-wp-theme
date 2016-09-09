@@ -61,9 +61,9 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 <div class="full-background show-for-medium-up row">
-	<div class="full-background-image medium-12 column">
+
 		<?php echo do_shortcode("[img class='full-image' src='page/UYF-hero.jpg']"); ?>
-	</div>
+
 	<div class="full-background-select medium-12 column">
 		<select name="sub-science" ng-model="industry" ng-options="UYF.label for UYF in UYF_options">
 			<option value="">choose your cell line</option>
@@ -73,7 +73,7 @@ get_header(); ?>
 
 <div class="show-for-small-only row">
 	<div class="small-12 column">
-		<select name="sub-science" ng-model="industry" ng-options="industry.label for industry in industry_options">
+		<select name="sub-science" ng-model="industry" ng-options="UYF.label for UYF in UYF_options">
 			<option value="">choose your cell line</option>
 		</select>
 	</div>
@@ -81,8 +81,6 @@ get_header(); ?>
 
 <div class="row">
 	<div class="small-12 medium-6 large-7 column">
-		<p>{{ product }}</p>
-		<p>{{ industry.label }}</p>
 		<h2>Thomson Ultra Yield™ Solution</h2>
 		<p>Thomson’s Ultra Yield Flasks™ (patented) have proven over the last decade to enhance the growth of E.coli & other microbial cells. The patented flask design makes them the work horse of protein and DNA labs worldwide. The Ultra Yield Flasks come in standardized sizes of 125mL, 250mL, 500mL and 2.5L.</p>
 			<p>The flasks are designed to be closed on top by using our Enhanced AirOTop™ Seals (patented). These seals are designed to fit on the tops of the flasks. Enhanced AirOtop™ Seals are sterile, easy to use, and single use. The Enhanced AirOtop™ Seals properties include a 0.2µm resealable sterile membrane barrier providing high air exchange for all types of shake flasks.  Multiple sizes are available to keep all of your flasks covered. Testing has been conducted at multiple customer sites with great results on up to 24 hours of growth. The organisms tested included Protista (Algae), E.coli and other microbes which have resulted in improved cell density, a more neutral pH of the cultures with the increased gas exchange.</p>
@@ -112,11 +110,58 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="row">
+
+<div class="video-row row">
 	<div class="small-12 column">
-		<?php echo do_shortcode("[img src='page/UYF-scaleable-hero.jpg']"); ?>
+		<h2>A Video About Our Product</h2>
 	</div>
+	<div class="video-row-video small-12 medium-6 large-7 column">
+		<div class="flex-video widescreen">
+			<video src="<?php echo content_url('/uploads/video/videos/') . "ATR-UYF.mp4"; ?>" controls>
+  			Sorry, your browser doesn't support embedded videos, 
+  			but don't worry, you can <a href="<?php echo content_url . "/uploads/video/videos/" . $video .".mp4"; ?>">download it</a>
+  			and watch it with your favorite video player!
+			</video>
+		</div>
+	</div>
+
+	<div class="video-row-text small-12 medium-6 large-5 column">
+		<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+		sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+		magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+		quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+		ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+		dolor in hendrerit in vulputate velit esse molestie consequat,
+		vel illum dolore eu feugiat nulla facilisis at vero eros et
+		accumsan et iusto odio dignissim qui blandit praesent luptatum
+		zzril delenit augue duis dolore te feugait nulla facilisi.
+		Nam liber tempor cum soluta nobis eleifend option congue
+		nihil imperdiet doming id quod mazim placerat facer possim
+		assum. Typi non habent claritatem insitam; est usus legentis
+		in iis qui facit eorum claritatem. Investigationes
+		demonstraverunt lectores legere me lius quod ii legunt saepius.
+		Claritas est etiam processus dynamicus, qui sequitur mutationem
+		consuetudium lectorum. Mirum est notare quam littera gothica,
+		quam nunc putamus parum claram, anteposuerit litterarum formas
+		humanitatis per seacula quarta decima et quinta decima. Eodem
+		modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+		in futurum. </p>
+	</div>
+	
 </div>
+
+
+
+
+
+
+
+<!-- for a full width background place image only into row div -->
+<div class="row">
+		<?php echo do_shortcode("[img src='page/UYF-scaleable-hero.jpg']"); ?>
+</div>
+
+
 
 <div class="row">
 	<div class="small-12 medium-6 column">
@@ -130,6 +175,8 @@ get_header(); ?>
 		<?php echo do_shortcode("[img src='page/UYF-gsk-data.jpg']"); ?>
 	</div>
 </div>
+
+
     <?php 
     echo do_shortcode("[parts title='Ultra Yield Flask' line='UYF' series='flask']");
     ?>  

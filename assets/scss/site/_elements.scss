@@ -490,9 +490,10 @@ table.product-ref-table{
 
 .full-background{
  position:relative;
-}
-.full-background-image{
-  
+ img{
+   width:100%;
+   height:auto;
+ }
 }
 .full-background-select{
   position:absolute;
@@ -509,7 +510,7 @@ table.product-ref-table{
     color:$black;
      @media screen and (max-width:$medium-breakpoint){
       margin: 0 5%;
-      width: 90%;
+      width: 95%;
       box-shadow: 0 0 5px 0 $base;
     }
     &:hover{
@@ -549,5 +550,11 @@ table.product-ref-table{
   margin:0;
 }
 
+//=====================================================================
+//========================Product page video row=======================
+//=====================================================================
+.video-row{
+  background:$silver;
+}
 
 //next up?
