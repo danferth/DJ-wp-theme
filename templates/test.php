@@ -61,9 +61,7 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 <div class="full-background show-for-medium-up row">
-
 		<?php echo do_shortcode("[img class='full-image' src='page/UYF-hero.jpg']"); ?>
-
 	<div class="full-background-select medium-12 column">
 		<select name="sub-science" ng-model="industry" ng-options="UYF.label for UYF in UYF_options">
 			<option value="">choose your cell line</option>

@@ -658,8 +658,8 @@
     "date"            : "01/01/2015",
     "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/mega_fv_how_2.png"
   },{
-    "title"           : "Determination of Hexavalent Chromium in Water by Ion Exchange – ICP MS with the SINGLE STEP&reg; Filter Vials",
-    "description"     : "",
+    "title"           : "Determination of Hexavalent Chromium in Water by Ion Exchange – ICP MS with the Filter Vials",
+    "description"     : "This method utilizes a hyphenated technique, Ion Exchange Chromatography (IC) coupled to an Inductively Coupled Plasma Mass Spectrometry (ICP-MS) to determine Cr(VI) in treated drinking water, surface water, and ground water.",
     "citation"        : "",
     "link"            : "chromium-appNote.pdf",
     "linkType"        : "pdf",
@@ -672,8 +672,8 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Corn Syrup Analysis Saccharides E-61 Test by HPLC with the SINGLE STEP&reg; Filter Vials",
-    "description"     : "",
+    "title"           : "Corn Syrup Analysis Saccharides E-61 Test by HPLC with the Filter Vials",
+    "description"     : "Customers conducting the CRA E-61 test prefer Thomson PVDF .45&mu;M Filter Vials to the standard syringe Filter method, for Cost Savings & Speed of use.",
     "citation"        : "",
     "link"            : "E61-Test.pdf",
     "linkType"        : "pdf",
@@ -686,21 +686,21 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Furanic Compound Analysis Using the Standard Test Method, ASTM-D5837 by HPLC with the SINGLE STEP&reg; Filter Vials",
-    "description"     : "",
+    "title"           : "Furanic Compound Analysis Using the Standard Test Method, ASTM-D5837 by HPLC with the Filter Vials",
+    "description"     : "...Filter the eluate with a 0.5-µm or smaller polytetrauoroethylene (PTFE) Filter Vial prior to insertion for analysis in the HPLC system.",
     "citation"        : "",
     "link"            : "ASTM-D5837.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
     "productLine"     : "FV",
-    "subProductLine"  : "all",
+    "subProductLine"  : "standard",
     "science"         : "",
     "industry"        : "Food/Agriculture/Environmental",
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "How to Mass Spec Your TLC Spots Using Thomson SINGLE STEP&reg; Filter Vials",
+    "title"           : "How to Mass Spec Your TLC Spots Using Thomson Filter Vials",
     "description"     : "",
     "citation"        : "",
     "link"            : "mass-spec-your-tlc-spots.pdf",
@@ -709,12 +709,12 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : "pharmaceuticals",
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Protein Precipitation with SINGLE STEP&reg; Filter Vials",
+    "title"           : "Protein Precipitation with Filter Vials",
     "description"     : "",
     "citation"        : "",
     "link"            : "protein-crash-WEB.pdf",
@@ -728,7 +728,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Thomson SINGLE STEP&reg; Filter Vials for Antibody Analysis",
+    "title"           : "Thomson Filter Vials for Antibody Analysis",
     "description"     : "",
     "citation"        : "",
     "link"            : "FVantibodiesAPnote.pdf",
@@ -737,7 +737,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : "pharmaceuticals",
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1317,8 +1317,8 @@
     "image"           : ""
   },{
     "title"           : "AOAC 2015 Pesticide Analysis in Ground Water",
-    "description"     : "",
-    "citation"        : "",
+    "description"     : "...investigated the potential for streamlining sample preparation method for the analysis of Prosulfuron and its metabolites in ground water using the Thomson Standard|FV compared to syringe filtration and centrifugation.",
+    "citation"        : "Olga Almaraz, Blake Gentry, Stephanie Benton, Steven Perez <br>Adpen Laboratories, Inc., 11757 Central Parkway, Jacksonville, Florida 32224",
     "link"            : "thomson-AOAC-2015-Water.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
