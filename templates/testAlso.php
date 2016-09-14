@@ -79,12 +79,12 @@ get_header(); ?>
          <table>
             <thead>
                <tr>
-                  <th>type</th>
-                  <th>prod</th>
-                  <th>subProd</th>
+                  <th><a href="" ng-click="sortType='type'; sortReverse=!sortReverse;">type <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
+                  <th><a href="" ng-click="sortType='productLine'; sortReverse=!sortReverse;">prod <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
+                  <th><a href="" ng-click="sortType='subProductLine'; sortReverse=!sortReverse;">subProd <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
                   <!--<th>science</th>-->
                   <!--<th>industry</th>-->
-                  <th>title</th>
+                  <th><a href="" ng-click="sortType='title'; sortReverse=!sortReverse;">title <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
                   <th>description</th>
                   <th>citation</th>
                   <!--<th>link</th>-->
@@ -93,7 +93,7 @@ get_header(); ?>
                </tr>
             </thead>
             <tbody>
-              <tr ng-repeat="d in techdata | filter:search">
+              <tr ng-repeat="d in techdata | orderBy:sortType:sortReverse | filter:search">
               	<td ng-bind-html="d.type"></td>
               	<td ng-bind-html="d.productLine"></td>
               	<td ng-bind-html="d.subProductLine"></td>

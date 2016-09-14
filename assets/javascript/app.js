@@ -233,7 +233,8 @@ testAlso.controller('testAlsoController',['$scope','$http', function($scope,$htt
     $scope.techdata = rslt.data;
   });
   
-  $scope.hello = "dude!";
+  $scope.sortType = "index";
+  $scope.sortReverse = false;
   
 }]);
 
