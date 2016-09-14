@@ -225,3 +225,15 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
 
 }]);
 
+var testAlso = angular.module('testAlso',['ngSanitize']);
+
+testAlso.controller('testAlsoController',['$scope','$http', function($scope,$http){
+  
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+  });
+  
+  $scope.hello = "dude!";
+  
+}]);
+
