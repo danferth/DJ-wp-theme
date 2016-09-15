@@ -2381,7 +2381,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield&trade; Flask General Information",
-    "description"     : "",
+    "description"     : "Flier on Ultra Yield Flask General Information",
     "citation"        : "",
     "link"            : "uyf-flier.pdf",
     "linkType"        : "pdf",
@@ -2394,22 +2394,8 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "Ultra Yield Flask&trade; Data and Method of use from Genentech, GSK, and Pfizer for E.coli, and other microbes",
-    "description"     : "",
-    "citation"        : "",
-    "link"            : "UltraYieldFlaskHandoutWEB.pdf",
-    "linkType"        : "pdf",
-    "type"            : "GI",
-    "productLine"     : "UYF",
-    "subProductLine"  : "flask",
-    "science"         : "",
-    "industry"        : "",
-    "tags"            : [],
-    "date"            : "01/01/2015",
-    "image"           : ""
-    },{
     "title"           : "Thomson Flask Clamp Compatibility Chart",
-    "description"     : "",
+    "description"     : "Table showing the compatibility with Thomson Ultra Yield&trade; Flasks and common shaker clamps",
     "citation"        : "",
     "link"            : "clamp-chart.pdf",
     "linkType"        : "pdf",
@@ -2423,7 +2409,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield Flask Cost Benefit Analysis",
-    "description"     : "",
+    "description"     : "Tables showing the cost and benifit analysis of Ultra Yield&trade; Flasks",
     "citation"        : "",
     "link"            : "UYF-cost-savings.pdf",
     "linkType"        : "pdf",
@@ -2437,7 +2423,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield Flask&trade; FAQs",
-    "description"     : "",
+    "description"     : "Frequently asked questions on Thomson Ultra Yield&trade; Flasks",
     "citation"        : "",
     "link"            : "",
     "linkType"        : "page",
@@ -2493,7 +2479,7 @@
     "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/UYF/Ultra-Yield-Flask-Protein.png"
     },{
     "title"           : "Ultra Yield&trade; Flask Standard Protein Protocol",
-    "description"     : "",
+    "description"     : "The Ultra Yield Flask&trade; is a disposable shake flask design that supports high-density culture growth in rich media. The Ultra Yield&trade; Flask achieves this by using a near-vertical wall angle coupled with a six baffle design that has been optimized for the fermentation of <i>E. coli</i>, <i>P. pastoris</i>, <i>S. pombe</i>, <i>Schizomycetes</i>, and other microbes.",
     "citation"        : "",
     "link"            : "UYF-standard-protein-protocol.pdf",
     "linkType"        : "pdf",
@@ -2507,7 +2493,7 @@
     "image"           : ""
     },{
     "title"           : "Growing Aspergillus in Ultra Yield Flasks&trade;",
-    "description"     : "",
+    "description"     : "Flier showing the fill volume and shake speeds for growing Aspergillus in Ultra Yield&trade; Flasks",
     "citation"        : "",
     "link"            : "growing-aspergillus.pdf",
     "linkType"        : "pdf",
@@ -2521,7 +2507,7 @@
     "image"           : ""
     },{
     "title"           : "Growing Bacillus in Ultra Yield Flasks&trade;",
-    "description"     : "",
+    "description"     : "Flier showing the fill volume and shake speeds for growing Bacillus in Ultra Yield&trade; Flasks",
     "citation"        : "",
     "link"            : "growing-bacillus.pdf",
     "linkType"        : "pdf",
@@ -2535,7 +2521,7 @@
     "image"           : ""
     },{
     "title"           : "Growing Trichoderma in Ultra Yield Flasks&trade;",
-    "description"     : "",
+    "description"     : "Flier showing the fill volume and shake speeds for growing Trichoderma in Ultra Yield&trade; Flasks",
     "citation"        : "",
     "link"            : "growing-trichoderma.pdf",
     "linkType"        : "pdf",
@@ -2549,8 +2535,8 @@
     "image"           : ""
     },{
     "title"           : "Pichia Pastoris & Ultra Yield Flasks&trade;",
-    "description"     : "",
-    "citation"        : "",
+    "description"     : "... 2 liters of culture was equally divided between a 2.8 liter Fernbach flask and a 2.5 liter Thomson Ultra Yield Flask. ...  Cell density at stationary phase was approximately 2x higher in the Ultra Yield Flask than in the Fernbach Flask.",
+    "citation"        : "Dr. Tom Chappell, Dr. Knut Madden, Dr. James Cregg CEO BioGrammatics",
     "link"            : "Pichia-Pastoris-and-Ultra-Yield-Flasks.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
@@ -2563,7 +2549,7 @@
     "image"           : ""
     },{
     "title"           : "Protein & DNA APnote Compilation",
-    "description"     : "",
+    "description"     : "Flier describing the many benefits of using the Ultra Yield&trade; Flask in protein expression",
     "citation"        : "",
     "link"            : "Protien-DNA.pdf",
     "linkType"        : "pdf",
@@ -2577,7 +2563,7 @@
     "image"           : ""
     },{
     "title"           : "Protocol for Streptomyces",
-    "description"     : "",
+    "description"     : "This protocol ... for purifying hed KS-CLF heterodimer from 1 L (2 X 500 mL) of Streptomyces culture [using Ultra Yield&trade; Flasks]. The same protocol can be scaled up whenever necessary to purify more protein.",
     "citation"        : "",
     "link"            : "UYF_Protocal_for_Streptomyces.pdf",
     "linkType"        : "pdf",
@@ -2591,7 +2577,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield Flasks&trade; & AirOtop Seals&trade;Minimize Secondary Proteins",
-    "description"     : "",
+    "description"     : "Flier showing data on Ultra Yield&trade; Flasks and Enhanced AirOtop&trade; Seals for minimizing secondary proteins",
     "citation"        : "",
     "link"            : "UYF-minimizes-secondary-proteins.pdf",
     "linkType"        : "pdf",
@@ -2605,7 +2591,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield Flask&trade; Improvments for DNA Growth",
-    "description"     : "",
+    "description"     : "Presentation on Ultra Yield&trade; Flasks and DNA growth",
     "citation"        : "",
     "link"            : "",
     "linkType"        : "page",
@@ -2619,7 +2605,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield Flask&trade; Protein Growth",
-    "description"     : "",
+    "description"     : "Presentation on Ultra Yield&trade; Flasks and protein growth",
     "citation"        : "",
     "link"            : "",
     "linkType"        : "page",
@@ -2633,7 +2619,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield Flask&trade; vs Corning&reg; Flask",
-    "description"     : "",
+    "description"     : "Comparision of Corning&reg; Screw Cap Flask and Thomson Ultra Yield&trade; Flask",
     "citation"        : "",
     "link"            : "UYF-vs-Corning.pdf",
     "linkType"        : "pdf",
@@ -2647,7 +2633,7 @@
     "image"           : ""
     },{
     "title"           : "Ultra Yield Flask&trade; vs Glass Flask",
-    "description"     : "",
+    "description"     : "Comparision of Glass Fernbach and Thomson Ultra Yield&trade; Flasks",
     "citation"        : "",
     "link"            : "UYF-vs-Earl.pdf",
     "linkType"        : "pdf",
@@ -2660,9 +2646,9 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "Twists and Turns in Protein Expression In Early Drug Discovery it’s Often Unclear Which Recombinant Proteins Will Be Affected by Changing the Host Cell",
-    "description"     : "",
-    "citation"        : "",
+    "title"           : "Twists and Turns in Protein Expression: In Early Drug Discovery it’s Often Unclear Which Recombinant Proteins Will Be Affected by Changing the Host Cell",
+    "description"     : "Challenges associated with E. coli include lengthy purification, protein aggregation, and inefficient refolding. These drawbacks can be overcome with an expression platform ...",
+    "citation"        : "Angelo DePalma, Ph.D.",
     "link"            : "http://www.genengnews.com/gen-articles/twists-and-turns-in-protein-expression/5589/?page=2",
     "linkType"        : "link",
     "type"            : "PW",
@@ -2675,8 +2661,8 @@
     "image"           : ""
     },{
     "title"           : "Evolution of Shake Flask Technology: Novel Product Introductions Offer Advantages by Increasing DNA and Protein Production",
-    "description"     : "",
-    "citation"        : "",
+    "description"     : "Before and for a time after the research career of Louis Pasteur, microbiology essentially remained a static task. Glass bottles would rest on shelves until the contents were analyzed. This all changed in 1949, when the Nobel Prize was awarded for the development of the antibiotic streptomycin.",
+    "citation"        : "Daniel Bruecher, Ph.D.",
     "link"            : "http://www.genengnews.com/gen-articles/evolution-of-shake-flask-technology/5579/?kwrd=ultra%20yield",
     "linkType"        : "link",
     "type"            : "PW",
@@ -2689,8 +2675,8 @@
     "image"           : ""
     },{
     "title"           : "Crystal Structure of a Novel Dimeric Form of NS5A Domain I Protein from Hepatitis C Virus",
-    "description"     : "",
-    "citation"        : "",
+    "description"     : "A new protein expression vector design utilizing an N-terminal six-histidine tag and tobacco etch virus protease cleavage site upstream of the hepatitis C virus NS5A sequence has resulted in a more straightforward purification method and improved yields of purified NS5A domain I protein.",
+    "citation"        : "Robert A. Love*, Oleg Brodsky, Michael J. Hickey, Peter A. Wells and Ciar&aacute;n N. Cronin Structural Biology Group, Pfizer Global Research and Development, La Jolla Laboratories, San Diego, California 92121 *Corresponding author",
     "link"            : "http://jvi.asm.org/cgi/content/abstract/83/9/4395",
     "linkType"        : "link",
     "type"            : "PW",
@@ -2703,8 +2689,8 @@
     "image"           : ""
     },{
     "title"           : "Economical parallel protein expression screening and scale-up with the Ultra Yield Flasks&trade;",
-    "description"     : "",
-    "citation"        : "",
+    "description"     : "A novel microfermentation and scale-up platform for parallel protein production in Escherichia coli is described. ... Experimental data is presented demonstrating that the Ultra Yield flask generates, on average, an equivalent amount of recombinant protein per unit cell culture density as do traditional shake flask designs but at a substantially greater amount per unit volume.",
+    "citation"        : "Brodsky O<sup>1</sup>, Cronin CN<br/><sup>1</sup>Department of Structural Biology, Pfizer Global Research and Development, 10628 Science Center Drive, La Jolla, CA 92121, USA.",
     "link"            : "http://www.ncbi.nlm.nih.gov/pubmed/17187226",
     "linkType"        : "link",
     "type"            : "PW",
@@ -2717,8 +2703,8 @@
     "image"           : ""
     },{
     "title"           : "Strategies to maximize heterologous protein expression in Escherichia coli with minimal cost",
-    "description"     : "",
-    "citation"        : "",
+    "description"     : "Automation and miniaturization are key issues of high-throughput research projects in the post-genomic era. ... In this review, we describe recent efforts to continue to minimize the cost for the parallel processing of multiple protein targets and focus on those materials and strategies that are highly suitable for the traditional academic laboratory.",
+    "citation"        : "Wolfgang Peti<sup>1</sup>, Rebecca Page<sup>2</sup><br/><sup>1</sup> Brown University, Department of Molecular Pharmacology, Physiology, and Biotechnology, Box G-E3, Providence, RI 02912, USA<br/><sup>2</sup> Brown University, Department of Molecular Biology, Cell Biology and Biochemistry, Box G-E4, Providence, RI 02912, USA",
     "link"            : "http://www.sciencedirect.com/science/article/pii/S1046592806001951",
     "linkType"        : "link",
     "type"            : "PW",
@@ -2730,9 +2716,9 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "High-yield production of biologically active recombinant protein",
-    "description"     : "",
-    "citation"        : "",
+    "title"           : "High-yield production of biologically active recombinant protein in shake flask culture by combination of enzyme-based glucose delivery and increased oxygen transfer",
+    "description"     : "[R]eport describes the combined use of an enzyme-based glucose release system (EnBase&reg;) and high-aeration shake flask (Ultra Yield Flask&trade;). The benefit of this combination is demonstrated by over 100-fold improvement in the active yield of recombinant alcohol dehydrogenase expressed in <i>E. coli</i>",
+    "citation"        : "Kaisa Ukkonen<sup>1,2*</sup>, Antti Vasala<sup>1</sup>, Heikki Ojamo<sup>2</sup> and Peter Neubauer<sup>3</sup><br/> <sup>1</sup>BioSilta Oy, P. O. Box 4300, FI-90014 Oulu, Finland. <sup>2</sup>Bioprocess Engineering Laboratory, Department of Process and Environmental Engineering, University of Oulu, P. O. Box 4300, FI-90014 Oulu, Finland. <sup>3</sup>Chair of Bioprocess Engineering, Department of Biotechnology, Technische Universität Berlin, Ackerstrasse 71-76, D-13355 Berlin, Germany.",
     "link"            : "http://www.microbialcellfactories.com/content/pdf/1475-2859-10-107.pdf",
     "linkType"        : "link",
     "type"            : "PW",
@@ -2744,11 +2730,11 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "Ultra Yield Flasks&trade; use from Dr. Page and Dr. Peti at Brown",
-    "description"     : "",
-    "citation"        : "",
-    "link"            : "http://www.abrf.org/ResearchGroups/ProteinExpressionResearchGroup/Activities/Page-PERG2007.pdf",
-    "linkType"        : "link",
+    "title"           : "Strategies for Maximizing Strategies for Maximizing Heterologous Protein Heterologous Protein Expression in Expression in E. coli E. coli with Minimal Cost",
+    "description"     : "Presentation given by Rebecca Page at ABRF 2007 Recombinant Protein Satellite Workshop held in Tampa: &ldquolState-of-the-Art Technologies for Producing High-Quality Recombinant Proteins in Core Facilities.&rdquo;,
+    "citation"        : "Rebecca Page Rebecca Page, Department of Molecular Biology, Biochemistry and Department of Molecular Biology, Biochemistry and Cell Biology",
+    "link"            : "page-perg2007.pdf",
+    "linkType"        : "PDF",
     "type"            : "PW",
     "productLine"     : "UYF",
     "subProductLine"  : "flask",
@@ -2759,7 +2745,7 @@
     "image"           : ""
     },{
     "title"           : "Plasmid+&reg; General Information",
-    "description"     : "",
+    "description"     : "Flier on general information for Plasmid+&reg; Media",
     "citation"        : "",
     "link"            : "plasmid-flier.pdf",
     "linkType"        : "pdf",
@@ -2773,7 +2759,7 @@
     "image"           : ""
     },{
     "title"           : "Plasmid+&reg; FAQs",
-    "description"     : "",
+    "description"     : "Frequently asked questions on Thomson Plasmid+&reg; Media",
     "citation"        : "",
     "link"            : "",
     "linkType"        : "page",
@@ -2800,22 +2786,8 @@
     "date"            : "01/01/2015",
     "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/PLASMID/Plasmid-vs-LB-media.png"
     },{
-    "title"           : "Plasmid+&reg; & Ultra Yield&trade; Flask The Definitive Combination",
-    "description"     : "",
-    "citation"        : "",
-    "link"            : "plasmid-the-definitive-combination.pdf",
-    "linkType"        : "pdf",
-    "type"            : "APPNOTE",
-    "productLine"     : "UYF",
-    "subProductLine"  : "plasmid",
-    "science"         : "",
-    "industry"        : "",
-    "tags"            : [],
-    "date"            : "01/01/2015",
-    "image"           : ""
-    },{
     "title"           : "Plasmid+&reg; DNA Purification Optimization",
-    "description"     : "",
+    "description"     : "Plasmid+&reg; Media in Thomson Ultra Yield Flasks&trade; can increase your DNA yield 1000% on average. Understandably, adjustments must be made to the purification process.",
     "citation"        : "",
     "link"            : "DNA-purification-optimization.pdf",
     "linkType"        : "pdf",
@@ -2828,8 +2800,8 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "Plasmid+&reg; DNA Protocol",
-    "description"     : "",
+    "title"           : "Improved DNA Protocol for <i>E. coli</i>",
+    "description"     : "PLASMID+&reg; liquid media is an enriched media specifically designed for plasmid DNA production. PLASMID+&reg; supports much higher cell densities and plasmid yields than LB media. Optimal shake flask yields are achieved using Ultra Yield&trade; Flasks ... , which facilitates maximum culture aeration. PLASMID+&reg; media may also be used in a bioreactor with continuous aeration and agitation",
     "citation"        : "",
     "link"            : "PlasmidDNAgrowth.pdf",
     "linkType"        : "pdf",
@@ -2843,7 +2815,7 @@
     "image"           : ""
     },{
     "title"           : "Plasmid+&reg; vs Circlegrow&reg;",
-    "description"     : "",
+    "description"     : "Comparison of Plasmid+&reg; media to Circlegrow&reg; media",
     "citation"        : "",
     "link"            : "PlasmidvsCirclegrow.pdf",
     "linkType"        : "pdf",
@@ -2857,7 +2829,7 @@
     "image"           : ""
     },{
     "title"           : "Media Adjusment for Mini-Prep&reg; to Midi-Prep&reg;",
-    "description"     : "",
+    "description"     : "Flier explaining the media adjustment needed when using Plasmid+&reg; media",
     "citation"        : "",
     "link"            : "plasmidPlus-mini-midi.pdf",
     "linkType"        : "pdf",
@@ -2871,7 +2843,7 @@
     "image"           : ""
     },{
     "title"           : "Mini-Prep&reg;",
-    "description"     : "",
+    "description"     : "Flier explaining the media adjustment needed when using Plasmid+&reg; media",
     "citation"        : "",
     "link"            : "Mini-Prep.pdf",
     "linkType"        : "pdf",
@@ -2885,7 +2857,7 @@
     "image"           : ""
     },{
     "title"           : "Midi-Prep&reg;",
-    "description"     : "",
+    "description"     : "Flier explaining the media adjustment needed when using Plasmid+&reg; media",
     "citation"        : "",
     "link"            : "Midi-Prep.pdf",
     "linkType"        : "pdf",
@@ -2899,7 +2871,7 @@
     "image"           : ""
     },{
     "title"           : "Media Adjusment for Maxi-Prep&reg; Mega-Prep&reg; & Giga-Prep&reg;",
-    "description"     : "",
+    "description"     : "Flier explaining the media adjustment needed when using Plasmid+&reg; media",
     "citation"        : "",
     "link"            : "plasmidPlus-maxi-giga.pdf",
     "linkType"        : "pdf",
@@ -2913,7 +2885,7 @@
     "image"           : ""
     },{
     "title"           : "Maxi-Prep&reg;",
-    "description"     : "",
+    "description"     : "Flier explaining the media adjustment needed when using Plasmid+&reg; media",
     "citation"        : "",
     "link"            : "Maxi-Prep.pdf",
     "linkType"        : "pdf",
@@ -2927,7 +2899,7 @@
     "image"           : ""
     },{
     "title"           : "Mega-Prep&reg;",
-    "description"     : "",
+    "description"     : "Flier explaining the media adjustment needed when using Plasmid+&reg; media",
     "citation"        : "",
     "link"            : "Mega-Prep.pdf",
     "linkType"        : "pdf",
@@ -2941,7 +2913,7 @@
     "image"           : ""
     },{
     "title"           : "Giga-Prep&reg;",
-    "description"     : "",
+    "description"     : "Flier explaining the media adjustment needed when using Plasmid+&reg; media",
     "citation"        : "",
     "link"            : "Giga-Prep.pdf",
     "linkType"        : "pdf",
