@@ -156,7 +156,7 @@
   },{
     "title"           : "Simple Protection with Filter Vials",
     "description"     : " Thomson Instrument Company ... has developed a simple SINGLE StEP Filter Vial ... has allowed for the filtration process to become a SINGLE StEP in the autosampler vial itself.",
-    "citation"        : "Sam Ellis<sup>1</sup>, James Doom<sup>2</sup> , John Tyhonas<sup>3</sup><br/>1 Thomson Instrument Company, 2 Pfizer, 3 Takeda",
+    "citation"        : "Sam Ellis<sup>1</sup>, James Doom<sup>2</sup> , John Tyhonas<sup>3</sup><br/><sup>1</sup>Thomson Instrument Company, <sup>2</sup>Pfizer, <sup>3</sup>Takeda",
     "link"            : "FV-simple-protection.pdf",
     "linkType"        : "pdf",
     "type"            : "GI",
@@ -645,7 +645,7 @@
     "image"           : ""
   },{
     "title"           : "Corn Syrup Analysis Saccharides E-61 Test by HPLC with the Filter Vials",
-    "description"     : "Customers conducting the CRA E-61 test prefer Thomson PVDF .45&mu;M Filter Vials to the standard syringe Filter method, for Cost Savings & Speed of use.",
+    "description"     : "Customers conducting the CRA E-61 test prefer Thomson PVDF .45&mu;m Filter Vials to the standard syringe Filter method, for Cost Savings & Speed of use.",
     "citation"        : "",
     "link"            : "E61-Test.pdf",
     "linkType"        : "pdf",
@@ -659,7 +659,7 @@
     "image"           : ""
   },{
     "title"           : "Furanic Compound Analysis Using the Standard Test Method, ASTM-D5837 by HPLC with the Filter Vials",
-    "description"     : "...Filter the eluate with a 0.5-µm or smaller polytetrafluoroethylene (PTFE) Filter Vial prior to insertion for analysis in the HPLC system.",
+    "description"     : "...Filter the eluate with a 0.5&mu;m or smaller polytetrafluoroethylene (PTFE) Filter Vial prior to insertion for analysis in the HPLC system.",
     "citation"        : "",
     "link"            : "ASTM-D5837.pdf",
     "linkType"        : "pdf",
@@ -826,7 +826,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Screening and Quantitation of 250 Pesticides in Cranberry Juice using the Thomson eXtreme|FV® (patented) by LC/MS/MS",
+    "title"           : "Screening and Quantitation of 250 Pesticides in Cranberry Juice using the Thomson eXtreme|FV&reg; (patented) by LC/MS/MS",
     "description"     : "[A]nalysis of 250 pesticides in cranberry juice using only one method in store-bought juice and simple sample preparation using the Thomson [eXtreme|FV&reg;] in a dilute-and-shoot approach without sample enrichment.",
     "citation"        : "Z.Yang, L. Maljers, Bruker, Chemical & Applied Markets (CAM) Division. &ldquo;Screening and Quantitation of 250 Pesticides in Fruit Juices with Positive/Negative Switching LC/MS/MS.&rdquo; Poster presented as part of NACRW-FPRW Conference, St. Petersburg, FL., 20-23 July 2014.",
     "link"            : "eXtreme_cranberry_juice.pdf",
@@ -869,8 +869,8 @@
     "image"           : ""
   },{
     "title"           : "eXtreme|FV&reg; vs SPE for the Analysis of Pesticides in Orange Juice by GC/MS",
-    "description"     : "Pesticides act as toxins when found in sufficient quantities as residues in food. Solid Phase Extraction (SPE) is a common sample preparation technique used prior to GC or LC analysis of pesticides in food.  eXtreme® Filter Vials offer multi-layer filtration for viscous samples and samples containing up to 30% solid particulates.",
-    "citation"        : "Authors: Uday Sathe<sup>1</sup>, Karine Aylozyan<sup>1</sup>, Lisa Wanders<sup>2</sup>, Joe Machamer<sup>2</sup>, & Sam Ellis<sup>2</sup><br/>Micro Quality Labs<sup>1</sup> | Thomson Instrument Company<sup>2</sup>",
+    "description"     : "Pesticides act as toxins when found in sufficient quantities as residues in food. Solid Phase Extraction (SPE) is a common sample preparation technique used prior to GC or LC analysis of pesticides in food.  eXtreme|FV&reg; offer multi-layer filtration for viscous samples and samples containing up to 30% solid particulates.",
+    "citation"        : "Authors: Uday Sathe<sup>1</sup>, Karine Aylozyan<sup>1</sup>, Lisa Wanders<sup>2</sup>, Joe Machamer<sup>2</sup>, & Sam Ellis<sup>2</sup><br/><sup>1</sup>Micro Quality Labs<br/><sup>2</sup>Thomson Instrument Company",
     "link"            : "SPE-vs-eXtreme-OJ.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
@@ -896,7 +896,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Screening and Quantitation of 250 Pesticides in Apple, Cranberry, Orange, Vegetable and White Grape Juices using the eXtreme|FV® by LC/MS/MS",
+    "title"           : "Screening and Quantitation of 250 Pesticides in Apple, Cranberry, Orange, Vegetable and White Grape Juices using the eXtreme|FV&reg; by LC/MS/MS",
     "description"     : "[A]nalysis of 250 pesticides in store-bought juice using one method and simple sample preparation using the Thomson [eXtreme|FV&reg;] in a dilute-and-shoot approach without sample enrichment ... sample preparation is explored using eXtreme|FV&reg; for sample clean-up instead of lengthy alternatives like SPE or centrifugation followed by liquid-liquid extraction.",
     "citation"        : "Z.Yang, L. Maljers, Bruker, Chemical & Applied Markets (CAM) Division. &ldquo;Screening and Quantitation of 250 Pesticides in Fruit Juices with Positive/Negative Switching LC/MS/MS.&rdquo; Poster presented as part of NACRW-FPRW Conference, St. Petersburg, FL., 20-23 July 2014.",
     "link"            : "pesticide-in-juice.pdf",
@@ -910,8 +910,8 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Routine Targeted Quantitation & Identification of Pesticide Residues in Avocado, Carrot, Grape & Orange using the eXtreme|FV® by LC-MS/MS",
-    "description"     : "Thomson eXtreme|FV®s for clean-up, and the Sciex Scheduled MRM Pro Algorithm for identification of pesticides in fruit and vegetables analysis.",
+    "title"           : "Routine Targeted Quantitation & Identification of Pesticide Residues in Avocado, Carrot, Grape & Orange using the eXtreme|FV&reg; by LC-MS/MS",
+    "description"     : "Thomson eXtreme|FV&reg;s for clean-up, and the Sciex Scheduled MRM Pro Algorithm for identification of pesticides in fruit and vegetables analysis.",
     "citation"        : "A. Schreiber, AB SCIEX, Concord, ON, Canada; J. Jasak, AB SCIEX, Darmstadt, Germany. &ldquo;Routine Targeted Quantitation and Identification of Pesticide Residues using Triple Quadrupole LC-MS/MS and Advanced Scheduling of MRM Transitions&rdquo; Poster presented as part of NACRW-FPRW Conference, St. Petersburg, FL., 20-23 July 2014.",
     "link"            : "pesticide-in-veggie.pdf",
     "linkType"        : "pdf",
@@ -952,7 +952,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Routine Targeted Quantitation & Identification of Pesticide Residues in Oranges using the Thomson eXtreme|FV® by LC-MS/MS",
+    "title"           : "Routine Targeted Quantitation & Identification of Pesticide Residues in Oranges using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Using QuEChERS for extraction, eXtreme|FV&reg; for clean-up, and UHPLC ... provide good resolution and excellent peak shape, making it possible to detect hundreds of pesticides of a wide variety of compound classes and chemical properties in [store bought oranges].",
     "citation"        : "Schreiber, AB SCIEX, Concord, ON, Canada; J. Jasak, AB SCIEX, Darmstadt, Germany. &ldquo;Routine Targeted Quantitation and Identification of Pesticide Residues using Triple Quadrupole LC-MS/MS and Advanced Scheduling of MRM Transitions&rdquo; Poster presented as part of NACRW-FPRW Conference, St. Petersburg, FL., 20-23 July 2014.",
     "link"            : "extreme_orange.pdf",
@@ -1008,7 +1008,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Routine Targeted Quantitation & Identification of Pesticide Residues in Spinach using the Thomson eXtreme|FV® by LC-MS/MS",
+    "title"           : "Routine Targeted Quantitation & Identification of Pesticide Residues in Spinach using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Using QuEChERS for extraction, eXtreme|FV&reg; for clean-up, and UHPLC ... provide good resolution and excellent peak shape, making it possible to detect hundreds of pesticides of a wide variety of compound classes and chemical properties in [store bought spinach].",
     "citation"        : "A. Schreiber, AB SCIEX, Concord, ON, Canada; J. Jasak, AB SCIEX, Darmstadt, Germany. &ldquo;Routine Targeted Quantitation and Identification of Pesticide Residues using Triple Quadrupole LC-MS/MS and Advanced Scheduling of MRM Transitions&rdquo; Poster presented as part of NACRW-FPRW Conference, St. Petersburg, FL., 20-23 July 2014.",
     "link"            : "extreme_spinach.pdf",
@@ -1094,7 +1094,7 @@
   },{
     "title"           : "Sample Preparation for the Analysis of 12 Opiates in Urine using the Thomson eXtreme Filter Vials&reg; by LCMS/MS ",
     "description"     : "This improved sample preparation method allows for the quantitative measurement of Opioids in urine. ... samples are hydrolyzed, then prepared using the eXtreme|FV&reg; followed by LC/MS/MS analysis.",
-    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/>1. Health Network Laboratories, Allentown, PA.<br/>2. Analytical Asociates, Inc,. East Greenville, PA",
+    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
     "link"            : "analysis-of-12-opiates-in-urine.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
@@ -1108,7 +1108,7 @@
   },{
     "title"           : "Quick and Easy Sample Preparation of Urine for the Analysis of Psychoactive Drugs using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "This improved sample preparation method allows for the quantitative measurement of Benzodiazepines ... urine samples were prepared using the eXtreme|FV&reg;, followed by LC/MS/MS analysis.",
-    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/>1. Health Network Laboratories, Allentown, PA.<br/>2. Analytical Asociates, Inc,. East Greenville, PA",
+    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
     "link"            : "analysis-of-psychoactive-drugs.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
@@ -1122,7 +1122,7 @@
   },{
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : " Traditionally, SPE, SLE and centrifugation have been used to reduce matrix interference prior to MS analysis. ...  eXtreme|FV&reg; ... offer multi-layer filtration for viscous samples and samples containing up to 30% solid particulates.",
-    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/>1. Health Network Laboratories, Allentown, PA.<br/>2. Analytical Asociates, Inc,. East Greenville, PA",
+    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
     "link"            : "pain-management-supplemental-analysis-in-urine.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
@@ -1136,7 +1136,7 @@
   },{
     "title"           : "Improved Sample Preparation Methods for Athlete Doping Analysis of Common Compounds in Urine by LCMS",
     "description"     : "The Australian Sports Drug Testing Laboratory, ... invested time in determining a limited number of comprehensive screening methods. These methods, using Thomson’s eXtreme|FV&reg; ... , comply with the World Anti-Doping Agency’s (WADA) Prohibited List.",
-    "citation"        : "Authors : Dr. Catrin Goebel<sup>2</sup>, Lisa Wanders<sup>1</sup>, Sam Ellis<sup>1</sup><br />1.Thomson Instrument Company 2.Australian Sports Drug Testing Laboratory in the National Measurement Institute Department of Industry",
+    "citation"        : "Authors : Dr. Catrin Goebel<sup>2</sup>, Lisa Wanders<sup>1</sup>, Sam Ellis<sup>1</sup><br /><sup>1</sup>Thomson Instrument Company <sup>2</sup>Australian Sports Drug Testing Laboratory in the National Measurement Institute Department of Industry",
     "link"            : "urine-analysis.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
@@ -1150,7 +1150,7 @@
   },{
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse in Oral Fluid samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "The goal of this study was to improve the sample preparation for the analysis of drugs of abuse/pain management panels in oral fluids.  The oral fluid samples were collected with Intercept&reg; i2he&trade; Oral Fluid Collection Devices. The diluted oral fluid samples were filtered using Thomson Filter Vials, followed by LC/MS/MS analysis.",
-    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/>1. Health Network Laboratories, Allentown, PA.<br/>2. Analytical Asociates, Inc,. East Greenville, PA",
+    "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
     "link"            : "Improved_Method_for_the_Analysis_of_31_Drugs_of_Abuse_in_Oral_Fluid_samples_using_the_Thomson_eXtremeFV_by_LC-MS-MS.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
@@ -1176,7 +1176,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "10μL Filtration with 2μL Injection using nano|FV&trade; by LC-MS",
+    "title"           : "10&mu;L Filtration with 2&mu;L Injection using nano|FV&trade; by LC-MS",
     "description"     : "",
     "citation"        : "",
     "link"            : "10filtration2injection.pdf",
@@ -1331,7 +1331,7 @@
     "image"           : ""
   },{
     "title"           : "Spin Column to Filter Vial Cross Reference",
-    "description"     : "Thomson nano|Filter Vials® are the fast and convenient choice over many different Spin Columns. Get the same clean sample with minimal loss without the need to wait for centrifuging.",
+    "description"     : "Thomson nano|Filter Vials&reg; are the fast and convenient choice over many different Spin Columns. Get the same clean sample with minimal loss without the need to wait for centrifuging.",
     "citation"        : "",
     "link"            : "",
     "linkType"        : "page",
@@ -1360,7 +1360,7 @@
   },{
     "title"           : "Time and Cost Effective Methods for Reducing Background Noise and Signal Suppression in Problem Matrices for Residue Analysis by LC-MS/MS",
     "description"     : "Poster presented at NACRW 2016",
-    "citation"        : "Joseph Kolb<sup>1</sup>, Ariana Ramdin<sup>1</sup>, Ryan Undeen<sup>1</sup>, Dennis Peterson<sup>2</sup>, Sam Ellis<sup>2</sup> Lisa Wanders<sup>2</sup><br />1Merieux NutriSciences Corporation, Gainsville, FL 32607<br/>2Thomson Instrument Company, Oceanside, CA 92054",
+    "citation"        : "Joseph Kolb<sup>1</sup>, Ariana Ramdin<sup>1</sup>, Ryan Undeen<sup>1</sup>, Dennis Peterson<sup>2</sup>, Sam Ellis<sup>2</sup> Lisa Wanders<sup>2</sup><br /><sup>1</sup>Merieux NutriSciences Corporation, Gainsville, FL 32607<br/><sup>2</sup>Thomson Instrument Company, Oceanside, CA 92054",
     "link"            : "NACRW_2016_Poster_Reducing_Background_Noise.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1372,7 +1372,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Improved Sample Preparation of Biological Samples Using the Thomson eXtreme|FV®& Analysis by LC-MS/MS",
+    "title"           : "Improved Sample Preparation of Biological Samples Using the Thomson eXtreme|FV&reg;& Analysis by LC-MS/MS",
     "description"     : "Presentation presented at MSACL 2016",
     "citation"        : "",
     "link"            : "MSACL-2016-improved_sample_preparation_of_biological_samples_using_the_thomson_extreme_filter_vial.pdf",
@@ -1386,9 +1386,9 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Improved Sample Preparation for the Analysis of 12 Opiates in Urine using the Thomson eXtreme Filter Vials®by LC-MS/MS",
+    "title"           : "Improved Sample Preparation for the Analysis of 12 Opiates in Urine using the Thomson eXtreme Filter Vials&reg;by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2016",
-    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Dennis Peterson<sup>3</sup>, Sam Ellis<sup>3</sup><br />1 Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br />2 Analytical Associates, 225 Millwood Drive, East Greenville, PA<br />3Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Dennis Peterson<sup>3</sup>, Sam Ellis<sup>3</sup><br /><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br /><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br /><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
     "link"            : "MSACL-2016-improved_sample_preparation_for_the_analysis_of_12_opiates_in_urine_using_extreme_filter_vials.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1400,9 +1400,9 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Quick and Easy Sample Preparation of Urine for the Analysis of Psychoactive Drugs using the Thomson eXtreme Filter Vials®by LC-MS/MS",
+    "title"           : "Quick and Easy Sample Preparation of Urine for the Analysis of Psychoactive Drugs using the Thomson eXtreme Filter Vials&reg;by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2016",
-    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Dennis Peterson<sup>3</sup>, Sam Ellis<sup>3</sup><br/>1 Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/>2 Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/>3Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Dennis Peterson<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
     "link"            : "MSACL-2016-quick_and_easy_sample_preparation_of_urine_for_the_analysis_of_psychoactive_drugs_using_extreme_filter_vials.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1542,7 +1542,7 @@
   },{
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at ASMS 2015",
-    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/>1 Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/>2 Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/>3Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
     "link"            : "ASMS-2015-urine.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1570,7 +1570,7 @@
   },{
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse/Pain Management Panel in Oral Fluid Samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at ASMS 2015",
-    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/>1 Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/>2 OraSure Technologies, Inc. 150 Webster Street, Bethlehem, PA 18015<br/>3Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>OraSure Technologies, Inc. 150 Webster Street, Bethlehem, PA 18015<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
     "link"            : "ASMS-2015-oral.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1612,7 +1612,7 @@
   },{
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse/Pain Management Panel in Oral Fluid Samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2015",
-    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/>1 Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/>2 OraSure Technologies, Inc. 150 Webster Street, Bethlehem, PA 18015<br/>3Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>OraSure Technologies, Inc. 150 Webster Street, Bethlehem, PA 18015<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
     "link"            : "Lisa_Wanders-MSACL-2015-Improved_Method_31_Drugs_of_Abuse_in_Oral_Fluid.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1626,7 +1626,7 @@
   },{
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2015",
-    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/>1 Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/>2 Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/>3Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
     "link"            : "Lisa_Wanders-MSACL-2015-Improved_Method_Pain_Management__in_Urine.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1778,7 +1778,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
   },{
-    "title"           : "Optimum Growth Flask™ Tips & Tricks for CHO & HEK",
+    "title"           : "Optimum Growth Flask&trade; Tips & Tricks for CHO & HEK",
     "description"     : "General information about the Optimum Growth&trade; line of flasks as well as tips and tricks for CHO and HEK cell lines with the flasks",
     "citation"        : "",
     "link"            : "optimum_growth_cho_hek.pdf",
@@ -2073,7 +2073,7 @@
     "image"           : ""
     },{
     "title"           : "How to Efficiently Shake Viscous Culture Broths Culture Broth Viscosity Evaluated in Shake Flasks Studies",
-    "description"     : "In biotechnology, the use of shake flasks is widespread due to their easy handling, especially in process design and optimization as well as in small-scale upstream processing and inoculum production. Recently, geometrically optimized Thomson Optimum Growth™ shake flasks were introduced to the market, promoting higher yields with the same shaker footprint.",
+    "description"     : "In biotechnology, the use of shake flasks is widespread due to their easy handling, especially in process design and optimization as well as in small-scale upstream processing and inoculum production. Recently, geometrically optimized Thomson Optimum Growth&trade; shake flasks were introduced to the market, promoting higher yields with the same shaker footprint.",
     "citation"        : "Jolanda Meister , Rüdiger W. Maschke , Soren Werner , Gernot T. John, Ph.D. , Dieter Eibl, Ph.D., Ph.D.",
     "link"            : "http://www.genengnews.com/gen-articles/how-to-efficiently-shake-viscous-culture-broths/5825/?kwrd=optimum%20growth%20flask",
     "linkType"        : "link",
@@ -2086,7 +2086,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "Eliminating Steps in the Bioprocess Pipeline with Aseptic Optimum Growth™ Sampling Flasks",
+    "title"           : "Eliminating Steps in the Bioprocess Pipeline with Aseptic Optimum Growth&trade; Sampling Flasks",
     "description"     : "Poster presented at BioProcess 2016",
     "citation"        : "Sam Ellis, Joe Machamer, Mike MyLymuk, Ana Sirianni, Thomson Instrument Company, Oceanside, CA",
     "link"            : "BioProcess_2016_thomson_poster_og.pdf",
@@ -2102,7 +2102,7 @@
     },{
     "title"           : "Scalable Transient CHO Method that in 7-12 days may become Stable Cell Pools & Stable Lines for Quantities needed in Toxicology Studies",
     "description"     : "Poster presented at BioProcess 2016",
-    "citation"        : " Joseph Abad<sup>2</sup>, James Brady<sup>2</sup>, Weili Wang<sup>2</sup>, Joe Machamer<sup>1</sup>, Ana Sirianni<sup>1</sup>, Sam Ellis<sup>1</sup><br/>1Thomson Instrument Company, Oceanside, CA<br/>2Maxcyte, Gaithersburg, MD",
+    "citation"        : " Joseph Abad<sup>2</sup>, James Brady<sup>2</sup>, Weili Wang<sup>2</sup>, Joe Machamer<sup>1</sup>, Ana Sirianni<sup>1</sup>, Sam Ellis<sup>1</sup><br/><sup>1</sup>Thomson Instrument Company, Oceanside, CA<br/><sup>2</sup>Maxcyte, Gaithersburg, MD",
     "link"            : "BioProcess_2016_thomson_poster_cho.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -2114,7 +2114,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "PEGS 2016 Speed Improvement in Mid-Scale Biological Processes in: CHO, Hybridoma, HEK 293 and Cell Lines Using Single Use Optimum Growth™ Flasks 125mL-5L with Additional Features",
+    "title"           : "PEGS 2016 Speed Improvement in Mid-Scale Biological Processes in: CHO, Hybridoma, HEK 293 and Cell Lines Using Single Use Optimum Growth&trade; Flasks 125mL-5L with Additional Features",
     "description"     : "Poster presented at PEGS 2016",
     "citation"        : "Sam Ellis, Joe Machamer, Mike MyLymuk, Dennis Peterson, Ana Sirianni, Thomson Instrument Company, Oceanside, CA",
     "link"            : "Pegs_2016_poster-optimum%20growth.pdf",
@@ -2128,7 +2128,7 @@
     "date"            : "01/01/2015",
     "image"           : ""
     },{
-    "title"           : "Maximizing Cell Line Development Time: Minimizing FTE Time with Optimum Growth™ Flasks & Additions",
+    "title"           : "Maximizing Cell Line Development Time: Minimizing FTE Time with Optimum Growth&trade; Flasks & Additions",
     "description"     : "Poster presented at PEGS 2016",
     "citation"        : " Sam Ellis, Joe Machamer, Mike MyLymuk, Dennis Peterson, Ana Sirianni, Thomson Instrument Company, Oceanside, CA",
     "link"            : "Pegs_2016_poster-transfer-caps.pdf",
@@ -2200,7 +2200,7 @@
     },{
     "title"           : "Development and Optimization of CHOgro&trade; Transient Expression Technologies for High Titer Antibody Production in Suspension CHO cells",
     "description"     : "Poster presented at BioProcess 2015 by Mirus&reg;",
-    "citation"        : "Anthony Lauer<sup>1</sup>, James Ludtke<sup>1</sup>, Chuenchanok Khodthong<sup>1</sup>, Shannon Bruse<sup>1</sup>,<sup>2</sup> and Laura Juckem<sup>1</sup><br/>1Mirus Bio LLC, Madison, Wisconsin USA, 2 Current affiliation: Regeneron Genetics Center, Tarrytown, New York USA",
+    "citation"        : "Anthony Lauer<sup>1</sup>, James Ludtke<sup>1</sup>, Chuenchanok Khodthong<sup>1</sup>, Shannon Bruse<sup>1</sup>,<sup>2</sup> and Laura Juckem<sup>1</sup><br/><sup>1</sup>Mirus Bio LLC, Madison, Wisconsin USA, <sup>2</sup>Current affiliation: Regeneron Genetics Center, Tarrytown, New York USA",
     "link"            : "bioprocess-2015-mirus-CHOgro-poster.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -2731,7 +2731,7 @@
     "image"           : ""
     },{
     "title"           : "Strategies for Maximizing Strategies for Maximizing Heterologous Protein Heterologous Protein Expression in Expression in E. coli E. coli with Minimal Cost",
-    "description"     : "Presentation given by Rebecca Page at ABRF 2007 Recombinant Protein Satellite Workshop held in Tampa: &ldquolState-of-the-Art Technologies for Producing High-Quality Recombinant Proteins in Core Facilities.&rdquo;,
+    "description"     : "Presentation given by Rebecca Page at ABRF 2007 Recombinant Protein Satellite Workshop held in Tampa: &ldquolState-of-the-Art Technologies for Producing High-Quality Recombinant Proteins in Core Facilities.&rdquo;",
     "citation"        : "Rebecca Page Rebecca Page, Department of Molecular Biology, Biochemistry and Department of Molecular Biology, Biochemistry and Cell Biology",
     "link"            : "page-perg2007.pdf",
     "linkType"        : "PDF",
@@ -2969,7 +2969,7 @@
     "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/AIROTOP/How-to-use-AirOtop-Seals.png"
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs BugStopper&reg;",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to Whatman BugStopper&reg;",
     "citation"        : "",
     "link"            : "",
     "linkType"        : "page",
@@ -2983,7 +2983,7 @@
     "image"           : ""
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs Cheese Cloth",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to Cheese Cloth",
     "citation"        : "",
     "link"            : "AirOtopvsCheeseCloth.pdf",
     "linkType"        : "pdf",
@@ -2997,7 +2997,7 @@
     "image"           : ""
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs Foam Plug",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to foam plug",
     "citation"        : "",
     "link"            : "AirOtopvsFoamPlug.pdf",
     "linkType"        : "pdf",
@@ -3011,7 +3011,7 @@
     "image"           : ""
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs Foil",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to foil",
     "citation"        : "",
     "link"            : "AirOtop-vs-Foil.pdf",
     "linkType"        : "pdf",
@@ -3025,7 +3025,7 @@
     "image"           : ""
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs Metal Cap",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to Metal Cap",
     "citation"        : "",
     "link"            : "AirOtopvsMetalCap.pdf",
     "linkType"        : "pdf",
@@ -3039,7 +3039,7 @@
     "image"           : ""
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs MilliWrap&trade;",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to MilliWrap&trade;",
     "citation"        : "",
     "link"            : "AirOtopvsMilliWrap.pdf",
     "linkType"        : "pdf",
@@ -3053,7 +3053,7 @@
     "image"           : ""
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs Paper Towel",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to paper towel",
     "citation"        : "",
     "link"            : "AirOtopvsPaperTowel.pdf",
     "linkType"        : "pdf",
@@ -3067,13 +3067,83 @@
     "image"           : ""
     },{
     "title"           : "AirOtop Enhanced Seal&trade; vs Screw Cap",
-    "description"     : "",
+    "description"     : "Comparision of Enhanced AirOtop&trade; Seals to screw cap",
     "citation"        : "",
     "link"            : "AirOtopvsScrewCap.pdf",
     "linkType"        : "pdf",
     "type"            : "COMP",
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
+    "science"         : "",
+    "industry"        : "",
+    "tags"            : [],
+    "date"            : "01/01/2015",
+    "image"           : ""
+    },{
+    "title"           : "Well Plate Catalog",
+    "description"     : "Catalog of Thomson Well Plates, Filter Plates, Cap Mats& Seals",
+    "citation"        : "",
+    "link"            : "wellplate-catalog.pdf",
+    "linkType"        : "PDF",
+    "type"            : "GI",
+    "productLine"     : "well plate",
+    "subProductLine"  : "well plate",
+    "science"         : "",
+    "industry"        : "",
+    "tags"            : [],
+    "date"            : "01/01/2015",
+    "image"           : ""
+    },{
+    "title"           : "SINGLE StEP&reg; Empty Columns",
+    "description"     : "Flier on general information for Thomson Empty Columns",
+    "citation"        : "",
+    "link"            : "SingleStEPemptyColumns.pdf",
+    "linkType"        : "PDF",
+    "type"            : "GI",
+    "productLine"     : "columns",
+    "subProductLine"  : "column",
+    "science"         : "",
+    "industry"        : "",
+    "tags"            : [],
+    "date"            : "01/01/2015",
+    "image"           : ""
+    },{
+    "title"           : "Glassware General Information",
+    "description"     : "Flier on general information for Thomson Glassware",
+    "citation"        : "",
+    "link"            : "glassware-general-information.pdf",
+    "linkType"        : "PDF",
+    "type"            : "GI",
+    "productLine"     : "glassware",
+    "subProductLine"  : "",
+    "science"         : "",
+    "industry"        : "",
+    "tags"            : [],
+    "date"            : "01/01/2015",
+    "image"           : ""
+    },{
+    "title"           : "Compound Management: Total System",
+    "description"     : "Flier outlineing Thomson's Total System for Compound Management",
+    "citation"        : "",
+    "link"            : "Total-System.pdf",
+    "linkType"        : "PDF",
+    "type"            : "GI",
+    "productLine"     : "glassware",
+    "subProductLine"  : "",
+    "science"         : "",
+    "industry"        : "",
+    "tags"            : [],
+    "date"            : "01/01/2015",
+    "image"           : ""
+    },{
+    "title"           : "LC-MS Purification in Drug Discovery",
+    "description"     : "Cephalon Use of Thomson Metal Racks",
+    "citation"        : "G&eacute;rard Ross&eacute;, Ph.D., Inform 2007, New Horizons of Laboratory Informatics Management. May 7-10, 2007, Miami, FL",
+    "link"            : "cephalon.pdf",
+    "linkType"        : "PDF",
+    "type"            : "PW",
+    "productLine"     : "glassware",
+    "subProductLine"  : "",
     "science"         : "",
     "industry"        : "",
     "tags"            : [],

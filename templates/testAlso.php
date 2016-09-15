@@ -82,14 +82,14 @@ get_header(); ?>
                   <th><a href="" ng-click="sortType='type'; sortReverse=!sortReverse;">type <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
                   <th><a href="" ng-click="sortType='productLine'; sortReverse=!sortReverse;">prod <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
                   <th><a href="" ng-click="sortType='subProductLine'; sortReverse=!sortReverse;">subProd <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <!--<th>science</th>-->
-                  <!--<th>industry</th>-->
                   <th><a href="" ng-click="sortType='title'; sortReverse=!sortReverse;">title <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <th>description</th>
-                  <th>citation</th>
+                  <th>science</th>
+                  <th>industry</th>
+                  <!--<th>description</th>-->
+                  <!--<th>citation</th>-->
                   <!--<th>link</th>-->
                   <!--<th>link type</th>-->
-                  <!--<th>tags</th>-->
+                  <th>tags</th>
                </tr>
             </thead>
             <tbody>
@@ -97,14 +97,14 @@ get_header(); ?>
               	<td ng-bind-html="d.type"></td>
               	<td ng-bind-html="d.productLine"></td>
               	<td ng-bind-html="d.subProductLine"></td>
-              	<!--<td ng-bind-html="d.science"></td>-->
-              	<!--<td ng-bind-html="d.industry"></td>-->
               	<td ng-bind-html="d.title"></td>
-              	<td ng-bind-html="d.description"></td>
-              	<td ng-bind-html="d.citation"></td>
+              	<td ng-bind-html="d.science"></td>
+              	<td ng-bind-html="d.industry"></td>
+              	<!--<td ng-bind-html="d.description"></td>-->
+              	<!--<td ng-bind-html="d.citation"></td>-->
               	<!--<td ng-bind-html="d.link"></td>-->
               	<!--<td ng-bind-html="d.linkType"></td>-->
-              	<!--<td ng-bind-html="d.tags"></td>-->
+              	<td ng-bind-html="d.tags"></td>
               </tr> 
             </tbody>
          </table>
