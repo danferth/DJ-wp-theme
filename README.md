@@ -1,5 +1,7 @@
 # TIC Wordpress Theme
 
+
+
 ### 1. While you're working on your project, run:
 
 ```bash
@@ -48,6 +50,53 @@ Version control on these files are turned off because they are automatically gen
 
 * `assets/javascript/vendor`: Vendor scripts are copied from `assets/javascript/components/` to this directory. We use this path for enqueing the vendor scripts in WordPress.
 
+### Shortcodes
+
+```
+[mainblock class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
+//this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
+
+[appblock class='addedclass' link='link' title='title']<p>short description</p>[/appblock]
+//this needs to be placed inside of ( ul.small-block-grid-#.appnote-block) to work properly
+
+[videosingle class='added class' title='title' video='file name of video']
+//no prerequisites this shortcode creates all enclosing divs
+
+[prefooterwrap class='added class']
+
+[prefooter class='' link='link for prefooter']
+content for prefooter
+[/prefooterleft]
+
+[prefooter class='' link='link for prefooter']
+content for prefooter
+[/prefooterleft]
+
+[/prefooter]
+
+//somewhat complicated but better to adjust it a year later here than on every page
+
+[tech-vid-block product='' video='' date='']video title[/tech-vid-block]
+
+//====================
+//IMAGES IMAGES IMAGES
+//====================
+
+//ANGULAR IMAGES
+[ng_product_image src='' width='' height='']
+
+//JUST AN IMAGES TAG
+[img class='myClass' src='folder/in/uploads/image.jpg' width='100' height='100' alt='alt-text']
+
+//STYLE ATTRIBUTE FOR BACKGROUND IMAGE
+[bgImage src="page/foobar.jpg"]
+
+//display part numbers for a given series
+[parts title='' series='' line='' filter='']
+
+
+
+```
 ## Unit Testing With Travis-CI
 
 FoundationPress is completely ready to be deployed to and tested by Travis-CI for WordPress Coding Standards and best practices. All you need to do to activate the test is sign up and follow the instructions to point Travis-CI towards your repo. Just don't forget to update the status badge to point to your repositories unit test.
