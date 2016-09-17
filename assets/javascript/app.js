@@ -225,6 +225,8 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
 
 }]);
 
+
+//test also page
 var testAlso = angular.module('testAlso',['ngSanitize']);
 
 testAlso.controller('testAlsoController',['$scope','$http', function($scope,$http){
@@ -237,4 +239,31 @@ testAlso.controller('testAlsoController',['$scope','$http', function($scope,$htt
   $scope.sortReverse = false;
   
 }]);
+
+//=========techlibrary=================
+
+var techlibrary = angular.module('techlibrary', ['ngSanitize']);
+techlibrary.controller('techlibraryController',['$scope', '$http', function($scope, $http){
+  
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+  
+var productLineArray = [];
+
+for(var pl in $scope.techdata){
+productLineArray.push($scope.techdata[pl].subProductLine);
+	}
+			
+productLineArray = productLineArray.sort();
+$scope.productLine = productLineArray.filter(function(elem, index, self){
+	return index == self.indexOf(elem);
+});
+			
+  });
+  
+  $scope.product = "";
+  $scope.searchByProduct = "subProductLine='"+$scope.product+"'";
+			
+}]);
+
 

@@ -53,7 +53,7 @@ Version control on these files are turned off because they are automatically gen
 ### Shortcodes
 
 ```
-[mainblock class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
+[mainblock title='' class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
 //this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
 
 [appblock class='addedclass' link='link' title='title']<p>short description</p>[/appblock]

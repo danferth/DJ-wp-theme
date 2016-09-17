@@ -1,5 +1,5 @@
 <?php
-//[mainblock class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
+//[mainblock title='title' class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
 //this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
 function mainblock_shortcode($atts, $content = null, $tag){
     $a = shortcode_atts( array(
