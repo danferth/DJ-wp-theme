@@ -94,7 +94,8 @@ content for prefooter
 //display part numbers for a given series
 [parts title='' series='' line='' filter='']
 
-
+//Tech Library <select> for product
+[tech_select]
 
 ```
 ## Unit Testing With Travis-CI

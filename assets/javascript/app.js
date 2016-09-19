@@ -238,6 +238,9 @@ testAlso.controller('testAlsoController',['$scope','$http', function($scope,$htt
   $scope.sortType = "index";
   $scope.sortReverse = false;
   
+  $scope.key = "";
+  $scope.value = "";
+  
 }]);
 
 //=========techlibrary=================
@@ -262,7 +265,6 @@ $scope.productLine = productLineArray.filter(function(elem, index, self){
   });
   
   $scope.product = "";
-  $scope.searchByProduct = "subProductLine='"+$scope.product+"'";
 			
 }]);
 

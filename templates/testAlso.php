@@ -66,10 +66,10 @@ get_header(); ?>
          <input type="text" ng-model="search" placeholder="search tech library data" />
       </div>
       <div class="small-3 column">
-      <input type="text" ng-model="key" placeholder="key" disabled/>
+      <input type="text" ng-model="key" placeholder="key"/>
       </div>
       <div class="small-3 column">
-      <input type="text" ng-model="value" placeholder="value" disabled/>
+      <input type="text" ng-model="value" placeholder="value"/>
       </div>
    </div>
 
@@ -93,7 +93,7 @@ get_header(); ?>
                </tr>
             </thead>
             <tbody>
-              <tr ng-repeat="d in techdata | orderBy:sortType:sortReverse | filter:search">
+              <tr ng-repeat="d in techdata | orderBy:sortType:sortReverse | filter:search | filter:{key:value}">
               	<td ng-bind-html="d.type"></td>
               	<td ng-bind-html="d.productLine"></td>
               	<td ng-bind-html="d.subProductLine"></td>
