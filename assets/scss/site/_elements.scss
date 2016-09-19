@@ -564,4 +564,36 @@ table.product-ref-table{
   background:$silver;
 }
 
+
+//=====================================================================
+//==============================tech links=============================
+//=====================================================================
+
+.tech-link-wrap{
+  &:nth-child(even){
+    background:$ghost;
+  }
+}
+.tech-link{
+  margin:.5rem 0;
+  padding:.25rem;
+  p{
+    margin:0;
+  }
+  .tech-link-title{
+    font-weight:bold;
+    text-decoration:underline;
+    font-size:.75rem;
+    color:$black;
+  }
+  .tech-link-description{
+    font-size:.70rem;
+  }
+  .tech-link-citation{
+    font-style:italic;
+    font-size:.6rem;
+    color:$base;
+  }
+}
+
 //next up?

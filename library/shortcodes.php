@@ -260,4 +260,21 @@ function tech_select_shortcode($atts, $content, $tag){
 }
 add_shortcode('tech_select', 'tech_select_shortcode');
 
+
+//Tech Library select for product
+//[tech_link]
+function tech_link_shortcode($atts, $content, $tag){
+  $output = "
+  <div class='tech-link'>\n
+    <p class='tech-link-title' ng-bind-html='n.title'></p>\n
+    <p class='tech-link-description' ng-bind-html='n.description'></p>\n
+    <p class='tech-link-citation' ng-bind-html='n.citation'></p>\n
+  </div>";
+  return $output;
+}
+add_shortcode('tech_link', 'tech_link_shortcode');
+
+
+
+
 ?>

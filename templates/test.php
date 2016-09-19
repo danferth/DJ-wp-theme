@@ -174,6 +174,14 @@ get_header(); ?>
 	</div>
 </div>
 
+<div class="row">
+	<div class="small-12 column">
+		<h4>Application Notes</h4>
+	</div>
+<div class="tech-link-wrap small-12 column" ng-repeat="n in techdata | filter:{type : 'APPNOTE', subProductLine : 'Uflask'}">
+  <?php echo do_shortcode("[tech_link]"); ?>
+	</div>
+</div>
 
     <?php 
     echo do_shortcode("[parts title='Ultra Yield Flask' line='UYF' series='flask']");
