@@ -65,12 +65,6 @@ get_header(); ?>
       <div class="small-6 column">
          <input type="text" ng-model="search" placeholder="search tech library data" />
       </div>
-      <div class="small-3 column">
-      <input type="text" ng-model="key" placeholder="key"/>
-      </div>
-      <div class="small-3 column">
-      <input type="text" ng-model="value" placeholder="value"/>
-      </div>
    </div>
 
    <div class="row">
@@ -80,6 +74,7 @@ get_header(); ?>
             <thead>
                <tr>
                   <th><a href="" ng-click="sortType='id'; sortReverse=!sortReverse;">id <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
+                  <th><a href="" ng-click="sortType='type'; sortReverse=!sortReverse;">type <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
                   <th><a href="" ng-click="sortType='productLine'; sortReverse=!sortReverse;">prod <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
                   <th><a href="" ng-click="sortType='subProductLine'; sortReverse=!sortReverse;">subProd <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
                   <th><a href="" ng-click="sortType='title'; sortReverse=!sortReverse;">title <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
@@ -93,8 +88,9 @@ get_header(); ?>
                </tr>
             </thead>
             <tbody>
-              <tr ng-repeat="d in techdata | orderBy:sortType:sortReverse | filter:search | filter:{key:value}">
+              <tr ng-repeat="d in techdata | orderBy:sortType:sortReverse | filter:search">
               	<td ng-bind-html="d.id"></td>
+              	<td ng-bind-html="d.type"></td>
               	<td ng-bind-html="d.productLine"></td>
               	<td ng-bind-html="d.subProductLine"></td>
               	<td ng-bind-html="d.title"></td>

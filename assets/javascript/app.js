@@ -269,7 +269,42 @@ $scope.productLine = productLineArray.filter(function(elem, index, self){
   });
   
   $scope.product = "";
+  
+  $scope.sendId = function(techId){
+    window.location= url+"/tech?id="+techId;
+  };
 			
+}]);
+
+//===============techResult======================
+var techResult = angular.module('techResult', ['ngSanitize']);
+techResult.controller('techResultController', ['$scope', '$http', '$filter', function($scope, $http, $filter){
+   
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+    
+    //get query for tech note
+    function getQueryVariable(variable){
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        if(pair[0] == variable){return pair[1];}
+    }
+      return(false);
+    };
+  
+  $scope.techQuery = getQueryVariable('id');
+  $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
+  
+    
+  
+  
+    
+    
+    
+  });
+  
 }]);
 
 

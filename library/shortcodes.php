@@ -265,7 +265,7 @@ add_shortcode('tech_select', 'tech_select_shortcode');
 //[tech_link]
 function tech_link_shortcode($atts, $content, $tag){
   $output = "
-  <div class='tech-link'>\n
+  <div class='tech-link' ng-click='sendId(n.id);'>\n
     <p class='tech-link-title' ng-bind-html='n.title'></p>\n
     <p class='tech-link-description' ng-bind-html='n.description'></p>\n
     <p class='tech-link-citation' ng-bind-html='n.citation'></p>\n
