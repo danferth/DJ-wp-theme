@@ -76,4 +76,46 @@ get_header(); ?>
 		</article>
 </div>
 
+<script type="text/javascript">
+<?php
+if($form_success == "true"){
+	echo "
+		window.onload = swal({
+			title: 'Success',
+			text: '" . $first_name . " your ". $form_type ." submission was a success we will contact you shortly about your inquiry into ". $product_type ."!',
+			type: 'success',
+			html: true,
+			confirmButtonText: 'Thanks'
+		});
+	";
+}elseif($form_success == "false"){
+	echo "
+		window.onload = swal({
+			title: 'Whoops',
+			text: 'Our apologies but there was an error <b>" . $first_name . "</b>, we have logged this and will have a fix soon!',
+			type: 'error',
+			html: true,
+			confirmButtonText: 'OK'
+		});
+	";
+}
+
+?>
+
+function hasHTML5validation(){
+	return (typeof document.createElement('input').checkValidity == 'function');
+}
+if( !hasHTML5validation() ){
+	<?php 
+	echo 'onload=function(){document.forms["product-inquery-sample"].reset()};
+	onload=function(){document.forms["product-inquery-quote"].reset()};
+	onload=function(){document.forms["product-inquery-contact"].reset()};
+	jQuery(document).ready(function($){
+		$("#product-inquery-sample").validate();
+		$("#product-inquery-quote").validate();
+		$("#product-inquery-contact").validate();
+	});'; ?>
+}
+</script>
+
 <?php get_footer(); ?>

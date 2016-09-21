@@ -214,6 +214,11 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
     sessionStorage.setItem('email', email);
     sessionStorage.setItem('zipCode', zipCode);
   };
+  
+  $scope.sendId = function(techId){
+    window.location= url+"/tech?id="+techId;
+  };
+  
 }]);
 
 //=====test page=====
@@ -227,7 +232,7 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
     $scope.techdata = rslt.data;
   });
   
-  
+  $scope.welcome = "Hello, sorry but there is no test being conducted on this page at the moment. Possibly the test you were looking for has been moved to production. whatever page you are thinking was going to display is now where it should be on the site.";
   
 
 }]);
@@ -251,9 +256,6 @@ testAlso.controller('testAlsoController',['$scope','$http', function($scope,$htt
 }]);
 
 //=========techlibrary=================
-
-//=====good read maybe? about using services to share functions and what not between controllers
-//==http://fdietz.github.io/recipes-with-angular-js/controllers/sharing-code-between-controllers-using-services.html
 
 var techlibrary = angular.module('techlibrary', ['ngSanitize']);
 techlibrary.controller('techlibraryController',['$scope', '$http', function($scope, $http){
