@@ -274,6 +274,35 @@ function tech_link_shortcode($atts, $content, $tag){
 }
 add_shortcode('tech_link', 'tech_link_shortcode');
 
+//Product page video row with descriptive paragraph
+//[product_video src='video file name.mp4' title='title of video']<p>content for paragraph next to video</p>[/product_video]
+
+function product_video_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'title' => '',
+    'src' => ''
+    ), $atts);
+  $output = "
+    <div class='video-row row'>\n
+	<div class='small-12 column'>\n
+		<h2>" . $a['title'] . "</h2>\n
+	</div>\n
+	<div class='video-row-video small-12 medium-6 large-7 column'>\n
+		<div class='flex-video widescreen'>\n
+			<video src='" . content_url('/uploads/video/videos/').$a['src'] . "' controls>\n
+  			Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href='" . content_url('/uploads/video/videos/').$a['src'] . "'>download it</a> and watch it with your favorite video player!\n
+			</video>\n
+		</div>\n
+	</div>\n
+
+	<div class='video-row-text small-12 medium-6 large-5 column'>\n
+		" . $content . "
+	</div>\n
+</div>";
+
+return $output;
+}
+add_shortcode('product_video', 'product_video_shortcode');
 
 
 

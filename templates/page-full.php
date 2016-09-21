@@ -2,23 +2,46 @@
 /*
 Template Name: Full Width
 */
+
+//for forms
+if(isset($_GET['success'])){
+	$form_success = $_GET['success'];
+}
+
+if(isset($_GET['first_name'])){
+	$first_name = $_GET['first_name'];
+}
+
+if(isset($_GET['form_type'])){
+	$form_type = $_GET['form_type'];
+}
+
+if(isset($_GET['product'])){
+	$product_type = $_GET['product'];
+}
+
+//for prefooter
 if(get_post_meta($post->ID, "has-prefooter")){
-$prefooter_class = "has-prefooter";
+	$prefooter_class = "has-prefooter";
 }else{
 	$prefooter_class = "";
 }
 
+//for angular
 $ng_app = "";
 if(get_post_meta($post->ID, "ng-app")){
-$ngApp = get_post_meta($post->ID, "ng-app", true);
-$ng_app = "ng-app='" . $ngApp . "'";
+	$ngApp = get_post_meta($post->ID, "ng-app", true);
+	$ng_app = "ng-app='" . $ngApp . "'";
 }
 
 $ng_controller = "";
 if(get_post_meta($post->ID, "ng-controller")){
-$ngController = get_post_meta($post->ID, "ng-controller", true);
-$ng_controller = "ng-controller='" . $ngController . "'";
+	$ngController = get_post_meta($post->ID, "ng-controller", true);
+	$ng_controller = "ng-controller='" . $ngController . "'";
 }
+
+//for raodmap
+$science = $_GET['sci'];
 
 
 get_header(); ?>

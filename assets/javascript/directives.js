@@ -18,12 +18,10 @@ plates.directive('plateSearch', function(){
 });
   
 
-
-
 //=====test directive=====
 
 //=====Product Inquiry=====
-test.directive('productInquiry', function(){
+product_page.directive('productInquiry', function(){
   return{
     restrict: 'E',
     replace: 'true',

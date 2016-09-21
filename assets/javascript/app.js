@@ -165,21 +165,12 @@ plates.filter('yesNo', function(){
 });
 
 //=====Product pages=====
-var product_page = angular.module('product_page', []);
+var product_page = angular.module('product_page', ['ngSanitize']);
 product_page.controller('product_pageController', ['$scope', '$http', function($scope,$http){
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
     $scope.products = rslt.data;
   });
-}]);
-
-//=====test page=====
-var test = angular.module('test', ['ngSanitize']);
-test.controller('testController', ['$scope', '$http', function($scope, $http){
-  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
-    $scope.products = rslt.data;
-  });
-  
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
   });
@@ -198,9 +189,7 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
 
   $scope.industry = { "value" : "", "label" : "no industry selected" };
   
-  
   //form
-
   if(sessionStorage.getItem('fname')){
     $scope.first_name = sessionStorage.getItem('fname');
   }
@@ -225,6 +214,20 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
     sessionStorage.setItem('email', email);
     sessionStorage.setItem('zipCode', zipCode);
   };
+}]);
+
+//=====test page=====
+var test = angular.module('test', ['ngSanitize']);
+test.controller('testController', ['$scope', '$http', function($scope, $http){
+  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
+    $scope.products = rslt.data;
+  });
+  
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+  });
+  
+  
   
 
 }]);

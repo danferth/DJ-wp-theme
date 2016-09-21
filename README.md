@@ -97,6 +97,10 @@ content for prefooter
 //Tech Library <select> for product
 [tech_select]
 
+//Product page video row with descriptive paragraph
+//[product_video src='video file name.mp4' title='title of video']<p>content for paragraph next to video</p>[/product_video]
+
+
 ```
 ## Unit Testing With Travis-CI
 
