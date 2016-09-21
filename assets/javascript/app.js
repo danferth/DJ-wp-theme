@@ -249,6 +249,9 @@ testAlso.controller('testAlsoController',['$scope','$http', function($scope,$htt
 
 //=========techlibrary=================
 
+//=====good read maybe? about using services to share functions and what not between controllers
+//==http://fdietz.github.io/recipes-with-angular-js/controllers/sharing-code-between-controllers-using-services.html
+
 var techlibrary = angular.module('techlibrary', ['ngSanitize']);
 techlibrary.controller('techlibraryController',['$scope', '$http', function($scope, $http){
   
