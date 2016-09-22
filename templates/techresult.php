@@ -44,7 +44,7 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
-				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<h1 class="entry-title" ng-bind-html="pageTitle">Technical Note</h1>
 			</header>
 	<div class="small-12 large-12 columns" role="main" >
 
@@ -53,10 +53,10 @@ get_header(); ?>
 			
 <!-- =======================START======================= -->
 
-<div class="row">
+<div class=" tech-APPNOTE row" ng-show="APPNOTE">
 	<div class="small-12 column">
 		<p ng-bind-html="techNote.id"></p>
-		<p ng-bind-html="techNote.type"></p>
+		<p ng-bind-html="setType"></p>
 		<p ng-bind-html="techNote.title"></p>
 		<p ng-bind-html="techNote.description"></p>
 	</div>

@@ -305,6 +305,33 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', fun
   $scope.techQuery = getQueryVariable('id');
   $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
   
+  if($scope.techNote.type === 'GI'){
+    $scope.GI = true;
+    $scope.pageTitle = "General Information";
+  }
+  if($scope.techNote.type === 'COMP'){
+    $scope.COMP = true;
+    $scope.pageTitle = "Comparisons to Our Products";
+  }
+  if($scope.techNote.type === 'FAQ'){
+    $scope.FAQ = true;
+    $scope.pageTitle = "FAQ";
+    if($scope.techNote.linkType === "page"){
+      window.location = url+"/"+$scope.techNote.link;
+    }
+  }
+  if($scope.techNote.type === 'VIDEO'){
+    $scope.VIDEO = true;
+    $scope.pageTitle = "Video";
+  }
+  if($scope.techNote.type === 'APPNOTE'){
+    $scope.APPNOTE = true;
+    $scope.pageTitle = "Application Note";
+  }
+  if($scope.techNote.type === 'PW'){
+    $scope.PW = true;
+    $scope.pageTitle = "Published Works";
+  }
     
   
   
