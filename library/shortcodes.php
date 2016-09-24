@@ -304,6 +304,4 @@ return $output;
 }
 add_shortcode('product_video', 'product_video_shortcode');
 
-
-
 ?>

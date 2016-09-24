@@ -319,7 +319,7 @@
     "title"           : "Filter Vial Overview: Standard, eXtreme|FV&reg; &, nano|Filter Vials&trade;, eXtractor|FV&reg;",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=fv-overview&title=<b&>ilter Vial Overview: Standard, eXtreme|FV&reg; &, nano|Filter Vials&trade;, eXtractor|FV&reg;",
+    "link"            : "fv-overview",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -328,13 +328,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/fv-overview.png"
+    "image"           : "fv-overview.png"
   },{
     "id"              : 23,
     "title"           : "How to use a Filter Vial",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=How-to-use-a-filter-vial&title=How to use a Filter Vial",
+    "link"            : "How-to-use-a-filter-vial",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -343,13 +343,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/How-to-use-a-filter-vial.png"
+    "image"           : "How-to-use-a-filter-vial.png"
   },{
     "id"              : 24,
     "title"           : "How to use the Multi-Use Press",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=48position&title=How to use the Multi-Use Press",
+    "link"            : "48position",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -358,13 +358,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/48position.png"
+    "image"           : "48position.png"
   },{
     "id"              : 25,
     "title"           : "Sample Loss With Syringe Filters",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=Sample-Loss&title=Sample Loss With Syringe Filters",
+    "link"            : "Sample-Loss",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -373,13 +373,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/Sample-Loss.png"
+    "image"           : "Sample-Loss.png"
   },{
     "id"              : 26,
     "title"           : "Syringe Filter Dangers",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=Syringe-Filter-Dangers&title=Syringe Filter Dangers",
+    "link"            : "Syringe-Filter-Dangers",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -388,13 +388,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/Syringe-Filter-Dangers.png"
+    "image"           : "Syringe-Filter-Dangers.png"
   },{
     "id"              : 27,
     "title"           : "The Filter Vial Revolution",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=FV-revolution&title=The Filter Vial Revolution",
+    "link"            : "FV-revolution",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -403,13 +403,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/FV-revolution.png"
+    "image"           : "FV-revolution.png"
   },{
     "id"              : 28,
     "title"           : "Front End Full Automation for Filter Vials (Autosampler Ready) Grabber D885 (Brechbuler) for PAL System",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=youtube&title=Front End Full Automation for Filter Vials (Autosampler Ready) Grabber D885 (Brechbuler) for PAL System",
+    "link"            : "youtube",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -418,13 +418,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/youtube.png"
+    "image"           : "youtube.png"
   },{
     "id"              : 29,
     "title"           : "How to use an eXtreme|FV&reg;-PVDF",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=eXtreme-PVDF&title=How to use an eXtreme|FV&reg;-PVDF",
+    "link"            : "eXtreme-PVDF",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -433,13 +433,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/eXtreme-PVDF.png"
+    "image"           : "eXtreme-PVDF.png"
   },{
     "id"              : 30,
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=urine-appnote&title=Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
+    "link"            : "urine-appnote",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -448,13 +448,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/urine-appnote.png"
+    "image"           : "urine-appnote.png"
   },{
     "id"              : 31,
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse in Oral Fluid samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=oral-fluids-appnote&title=Improved Method for the Analysis of 31 Drugs of Abuse in Oral Fluid samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
+    "link"            : "oral-fluids-appnote",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -463,13 +463,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/oral-fluids-appnote.png"
+    "image"           : "oral-fluids-appnote.png"
   },{
     "id"              : 32,
     "title"           : "eXtreme|FV&reg; for Antibody Analysis",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=Thomson-Filter-Vials-for-Antibody-Analysis&title=eXtreme|FV&reg; for Antibody Analysis",
+    "link"            : "Thomson-Filter-Vials-for-Antibody-Analysis",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -478,13 +478,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/Thomson-Filter-Vials-for-Antibody-Analysis.png"
+    "image"           : "Thomson-Filter-Vials-for-Antibody-Analysis.png"
   },{
     "id"              : 33,
     "title"           : "Pharmaceutical & Food Sample Filtration with eXtractor|FV&reg;",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=ex3d&title=Pharmaceutical & Food Sample Filtration with eXtractor|FV&reg;",
+    "link"            : "ex3d",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -493,13 +493,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/ex3d.png"
+    "image"           : "ex3d.png"
   },{
     "id"              : 34,
     "title"           : "How to use MEGA|FV&trade;",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=mega_fv_how_2&title=How to use MEGA|FV&trade;",
+    "link"            : "mega_fv_how_2",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "FV",
@@ -508,7 +508,7 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/FV/mega_fv_how_2.png"
+    "image"           : "mega_fv_how_2.png"
   },{
     "id"              : 35,
     "title"           : "Determination of Hexavalent Chromium in Water by Ion Exchange – ICP MS with the Filter Vials",
@@ -1834,7 +1834,7 @@
     "title"           : "Optimum Growth for PhytoPlankton Production",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=phyto-plankton&title=Optimum Growth for PhytoPlankton Production",
+    "link"            : "phyto-plankton",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -1843,13 +1843,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/OG/phyto-plankton.png"
+    "image"           : "phyto-plankton.png"
     },{
     "id"              : 124,
     "title"           : "Optimum Growth Flasks with Sample Port for Insect and Mammalian Cells",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=samplePort&title=Optimum Growth Flasks with Sample Port for Insect and Mammalian Cells",
+    "link"            : "samplePort",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -1858,13 +1858,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/OG/samplePort.png"
+    "image"           : "samplePort.png"
     },{
     "id"              : 125,
     "title"           : "Optimum Growth Flasks with Sample Port for Algae",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=sample-port&title=Optimum Growth Flasks with Sample Port for Algae",
+    "link"            : "sample-port",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -1873,13 +1873,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/OG/sample-port.png"
+    "image"           : "sample-port.png"
     },{
     "id"              : 126,
     "title"           : "Alternative to Sticky Mats",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=rugmat&title=Alternative to Sticky Mats",
+    "link"            : "rugmat",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -1888,13 +1888,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/OG/rugmat.png"
+    "image"           : "rugmat.png"
     },{
     "id"              : 127,
     "title"           : "125mL & 250mL Optimum Growth&trade; Flask Carrier",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=flask-carrier&title=125mL & 250mL Optimum Growth&trade; Flask Carrier",
+    "link"            : "flask-carrier",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -1903,7 +1903,7 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/OG/flask-carrier.png"
+    "image"           : "flask-carrier.png"
     },{
     "id"              : 128,
     "title"           : "Amgen Process Groups' Data for CHO Stable Cell Lines Establishing Vessel Change",
@@ -2224,7 +2224,7 @@
     "title"           : "Bidirectional Transfer Cap Options",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=tc-options&title=Bidirectional Transfer Cap Options",
+    "link"            : "tc-options",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -2233,13 +2233,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/TC/tc-options.png"
+    "image"           : "tc-options.png"
     },{
     "id"              : 150,
     "title"           : "Transfer Cap with 7/16\" Quick Connect",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=tc716qc&title=Transfer Cap with 7/16&quot; Quick Connect",
+    "link"            : "tc716qc",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -2248,13 +2248,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/TC/tc716qc.png"
+    "image"           : "tc716qc.png"
     },{
     "id"              : 151,
     "title"           : "Transfer Cap with 1/4\" Quick Connect",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=tc14qc&title=Transfer Cap with 1/4&quot; Quick Connect",
+    "link"            : "tc14qc",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
    "productLine"     : "OG",
@@ -2263,13 +2263,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/TC/tc14qc.png"
+    "image"           : "tc14qc.png"
     },{
     "id"              : 152,
     "title"           : "Transfer Cap for Tube Fusing to 7/16\" for welding C-Flex 24",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=tc716tf&title=Transfer Cap for Tube Fusing to 7/16&quot; for welding C-Flex 24",
+    "link"            : "tc716tf",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -2278,13 +2278,13 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/TC/tc716tf.png"
+    "image"           : "tc716tf.png"
     },{
     "id"              : 153,
     "title"           : "Transfer Cap for Tube Fusing to 1/4\" for welding C-Flex 16",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=tc14tf&title=Transfer Cap for Tube Fusing to 1/4&quot; for welding C-Flex 16",
+    "link"            : "tc14tf",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "OG",
@@ -2293,7 +2293,7 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/TC/tc14tf.png"
+    "image"           : "tc14tf.png"
     },{
     "id"              : 154,
     "title"           : "Aseptic Cap&trade;-vs-Transfer Cap",
@@ -2404,7 +2404,7 @@
     "title"           : "HT Infors/ATR Shakers & Ultra Yield Flasks&trade;",
     "description"     : "",
     "citation"        : "",
-    "link"            : "http://0072015.htslabs.com/tech-video/?video=ATR-UYF&title=HT Infors/ATR Shakers & Ultra Yield Flasks&trade;",
+    "link"            : "ATR-UYF",
     "linkType"        : "mp4",
     "type"            : "VIDEO",
     "productLine"     : "UYF",
@@ -2413,7 +2413,7 @@
     "industry"        : "",
     "tags"            : [],
     "date"            : "01/01/2015",
-    "image"           : "http://0072015.htslabs.com/wp-content/uploads/video/thumbs/UYF/ATR-UYF.png"
+    "image"           : "ATR-UYF.png"
     },{
     "id"              : 162,
     "title"           : "Ultra Yield&trade; Flask Standard Protein Protocol",

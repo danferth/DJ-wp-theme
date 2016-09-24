@@ -286,7 +286,12 @@ $scope.productLine = productLineArray.filter(function(elem, index, self){
 
 //===============techResult======================
 var techResult = angular.module('techResult', ['ngSanitize']);
-techResult.controller('techResultController', ['$scope', '$http', '$filter', function($scope, $http, $filter){
+
+techResult.config(function($sceDelegateProvider) {
+     $sceDelegateProvider.resourceUrlWhitelist(['self']);
+     });
+     
+techResult.controller('techResultController', ['$scope', '$http', '$filter', '$sce', function($scope, $http, $filter, $sce){
    
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
@@ -304,7 +309,12 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', fun
   
   $scope.techQuery = getQueryVariable('id');
   $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
-  
+  $scope.GI = false;
+  $scope.COMP = false;
+  $scope.FAQ = false;
+  $scope.VIDEO = false;
+  $scope.APPNOTE = false;
+  $scope.PW = false;
   if($scope.techNote.type === 'GI'){
     $scope.GI = true;
     $scope.pageTitle = "General Information";
@@ -320,8 +330,11 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', fun
       window.location = url+"/"+$scope.techNote.link;
     }
   }
+    
   if($scope.techNote.type === 'VIDEO'){
     $scope.VIDEO = true;
+    $sce.trustAsResourceUrl($scope.techNote.link);
+    $sce.trustAsResourceUrl($scope.techNote.image);
     $scope.pageTitle = "Video";
   }
   if($scope.techNote.type === 'APPNOTE'){
