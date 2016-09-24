@@ -65,8 +65,8 @@ get_header(); ?>
 <div class=" tech-VIDEO row" ng-show="VIDEO">
 	<div class="small-12 flex-video column">
 		<video controls="" muted="" autoplay="autoplay">
-	<source ng-src="<?php echo content_url('/uploads/video/videos/'); ?>{{ techNote.link }}.mp4" type="video/mp4">
-		<img ng-src="<?php echo content_url('/uploads/video/thumbs/'); ?>{{ techNote.image }}" alt="{{ techNote.description }}" title="No video playback capabilities, please download the video below">
+	<source ng-src="<?php echo content_url('/uploads/video/videos/'); ?>{{ trustedVideoURL }}.mp4" type="video/mp4">
+		<!--<img ng-src="<?php //echo content_url('/uploads/video/thumbs/'); ?>{{ techNote.image }}" alt="{{ techNote.description }}" title="No video playback capabilities, please download the video below">-->
 </video>
 	</div>
 	

@@ -309,6 +309,7 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', '$s
   
   $scope.techQuery = getQueryVariable('id');
   $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
+  
   $scope.GI = false;
   $scope.COMP = false;
   $scope.FAQ = false;
@@ -330,11 +331,11 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', '$s
       window.location = url+"/"+$scope.techNote.link;
     }
   }
-    
+  // posible solution at http://www.rubencanton.com/blog/2014/07/adding-video-src-with-angular.html 
   if($scope.techNote.type === 'VIDEO'){
     $scope.VIDEO = true;
-    $sce.trustAsResourceUrl($scope.techNote.link);
-    $sce.trustAsResourceUrl($scope.techNote.image);
+    $scope.trustedVideoURL = $sce.trustAsResourceUrl($scope.techNote.link);
+    
     $scope.pageTitle = "Video";
   }
   if($scope.techNote.type === 'APPNOTE'){
