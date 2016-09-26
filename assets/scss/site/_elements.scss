@@ -163,13 +163,14 @@
 .partnumber_set{
   padding: 0 0 .5rem 0;
   background:$white;
-  &:nth-child(1){
-    border-top:3px solid $primary-dark;
-  }
+  border-top:3px solid $primary-dark;
   h4{
     margin: .5rem 0 .2rem 0;
     font-size:1rem;
   }
+}
+.partnumber_set ~ .partnumber_set{
+  border-top:none;
 }
 .partnumber_item{
   margin: 0rem auto;
@@ -605,4 +606,66 @@ table.product-ref-table{
   }
 }
 
+//=====================================================================
+//==========================PDF download link==========================
+//=====================================================================
+.pdfDownloadWrap{
+  border-top:2px solid $jumbo;
+  &:hover{
+    .pdfDownloadHover{
+      opacity:1;
+    }
+  }
+  .pdfDownloadHover{
+    color:$jumbo;
+    font-size:.75rem;
+    text-shadow:0 1px 0 $smoke;
+    opacity:0;
+    transition:opacity 500ms;
+    
+  }
+  .pdfDownloadIcon{
+    text-decoration:none;
+    border:none;
+    font-size:1.25rem;
+    .down{
+      color:$jet;
+    }
+    .file{
+      color:$alert-color;
+    }
+    &:before{
+      background:transparent;
+    }
+    &:hover{
+      .down{
+        color:lighten($jet, 25%);
+      }
+      .file{
+        color:lighten($alert-color, 25%);
+      }
+    }
+  }
+}
+
+//=====================================================================
+//====================tech result page for PDF info====================
+//=====================================================================
+.tech-description{
+  font-size: .8rem;
+}
+.tech-citation{
+  font-size:.75rem;
+  color:$jumbo;
+  font-style:italic;
+}
+//=====================================================================
+//===================tech result page for VIDEO info===================
+//=====================================================================
+
+.tech-VIDEO{
+  video{
+    width:100%;
+  }
+}
 //next up?

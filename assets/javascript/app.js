@@ -216,7 +216,8 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
   };
   
   $scope.sendId = function(techId){
-    window.location= url+"/tech?id="+techId;
+    var newURL = url+"/tech?id="+techId;
+    window.open(newURL, '_blank');
   };
   
 }]);
@@ -279,7 +280,8 @@ $scope.productLine = productLineArray.filter(function(elem, index, self){
   $scope.product = "";
   
   $scope.sendId = function(techId){
-    window.location= url+"/tech?id="+techId;
+    var newURL = url+"/tech?id="+techId;
+    window.open(newURL, '_blank');
   };
 			
 }]);
@@ -290,7 +292,13 @@ var techResult = angular.module('techResult', ['ngSanitize']);
 techResult.config(function($sceDelegateProvider) {
      $sceDelegateProvider.resourceUrlWhitelist(['self']);
      });
-     
+
+techResult.filter('trustUrl', function ($sce) {
+    return function(url) {
+      return $sce.trustAsResourceUrl(url);
+    };
+});
+    
 techResult.controller('techResultController', ['$scope', '$http', '$filter', '$sce', function($scope, $http, $filter, $sce){
    
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
@@ -310,43 +318,40 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', '$s
   $scope.techQuery = getQueryVariable('id');
   $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
   
-  $scope.GI = false;
-  $scope.COMP = false;
-  $scope.FAQ = false;
-  $scope.VIDEO = false;
-  $scope.APPNOTE = false;
-  $scope.PW = false;
   if($scope.techNote.type === 'GI'){
-    $scope.GI = true;
     $scope.pageTitle = "General Information";
   }
   if($scope.techNote.type === 'COMP'){
-    $scope.COMP = true;
     $scope.pageTitle = "Comparisons to Our Products";
   }
   if($scope.techNote.type === 'FAQ'){
-    $scope.FAQ = true;
     $scope.pageTitle = "FAQ";
-    if($scope.techNote.linkType === "page"){
-      window.location = url+"/"+$scope.techNote.link;
-    }
   }
-  // posible solution at http://www.rubencanton.com/blog/2014/07/adding-video-src-with-angular.html 
   if($scope.techNote.type === 'VIDEO'){
-    $scope.VIDEO = true;
-    $scope.trustedVideoURL = $sce.trustAsResourceUrl($scope.techNote.link);
-    
-    $scope.pageTitle = "Video";
+    $scope.pageTitle = $scope.techNote.title;
   }
   if($scope.techNote.type === 'APPNOTE'){
-    $scope.APPNOTE = true;
     $scope.pageTitle = "Application Note";
   }
   if($scope.techNote.type === 'PW'){
-    $scope.PW = true;
     $scope.pageTitle = "Published Works";
   }
-    
+  
+  if($scope.techNote.linkType === "pdf"){
+      $scope.PDF = true;
+    }
+  if($scope.techNote.linkType === "page"){
+      window.location = url+"/"+$scope.techNote.link;
+    }
+  if($scope.techNote.linkType === "link"){
+      window.location = url+"/"+$scope.techNote.link;
+    }
+  if($scope.techNote.linkType === "mp4"){
+    $scope.VIDEO = true;
+    $scope.videoUrl = url + "/wp-content/uploads/video/videos/" + $scope.techNote.link + '.mp4';
+      //$scope.trustedVideoURL = $sce.trustAsResourceUrl($scope.techNote.link);
+    // posible solution at http://www.rubencanton.com/blog/2014/07/adding-video-src-with-angular.html
+    }
   
   
     

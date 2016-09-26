@@ -190,14 +190,14 @@ function parts_shortcode($atts, $content, $tag){
     <div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"} | filter:\"".$a['filter']."\"'>
       
       <div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
-        <img ng-src='".$prod_url."{{ p.image }}' alt='{{ p.image }}'/>
+        <img ng-src='".$prod_url."{{ p.image }}'/>
       </div>
       
       <div class='partnumber_text small-12 show-for-small-only column'>
         <ul>
-          <li class='partnumber_title'>{{ p.title }}</li>
-          <li class='partnumber_description'>{{ p.description1 }}</li>
-          <li class='partnumber_description'>{{ p.description2 }}</li>
+          <li class='partnumber_title' ng-bind-html='p.title'><i class='fa fa-spinner' aria-hidden='true'></i></li>
+          <li class='partnumber_description' ng-bind-html='p.description1'><i class='fa fa-spinner' aria-hidden='true'></i></li>
+          <li class='partnumber_description' ng-bind-html='p.description2'><i class='fa fa-spinner' aria-hidden='true'></i></li>
         </ul>
         <ul>
           <li class='partnumber_number' ng-repeat='pn in p.partNumber'>
@@ -208,9 +208,9 @@ function parts_shortcode($atts, $content, $tag){
       
       <div class='partnumber_text show-for-medium-up medium-5 column'>
         <ul>
-          <li class='partnumber_title'>{{ p.title }}</li>
-          <li class='partnumber_description'>{{ p.description1 }}</li>
-          <li class='partnumber_description'>{{ p.description2 }}</li>
+          <li class='partnumber_title' ng-bind-html='p.title'><i class='fa fa-spinner' aria-hidden='true'></i></li>
+          <li class='partnumber_description' ng-bind-html='p.description1'><i class='fa fa-spinner' aria-hidden='true'></i></li>
+          <li class='partnumber_description' ng-bind-html='p.description2'><i class='fa fa-spinner' aria-hidden='true'></i></li>
         </ul>
       </div>
       <div class='partnumber_text show-for-medium-up medium-5 end column'>
@@ -266,9 +266,9 @@ add_shortcode('tech_select', 'tech_select_shortcode');
 function tech_link_shortcode($atts, $content, $tag){
   $output = "
   <div class='tech-link' ng-click='sendId(n.id);'>\n
-    <p class='tech-link-title' ng-bind-html='n.title'></p>\n
-    <p class='tech-link-description' ng-bind-html='n.description'></p>\n
-    <p class='tech-link-citation' ng-bind-html='n.citation'></p>\n
+    <p class='tech-link-title' ng-bind-html='n.title'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
+    <p class='tech-link-description' ng-bind-html='n.description'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
+    <p class='tech-link-citation' ng-bind-html='n.citation'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
   </div>";
   return $output;
 }

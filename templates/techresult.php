@@ -52,32 +52,42 @@ get_header(); ?>
 				<?php //the_content(); this is normally uncomented and WP adds the content of the page from the db  this page is more for testing so put everything in here that you would mornally and have it just work ?>
 			
 <!-- =======================START======================= -->
-<!-- ==============APPNOTE==================== -->
-<div class=" tech-APPNOTE row" ng-show="APPNOTE">
+
+<!-- ==============PDF's==================== -->
+<div class="tech-PDF row" ng-show="PDF">
 	<div class="small-12 medium-8 large-10 column">
 		<h2 class="tech-title" ng-bind-html="techNote.title"></h2>
-		<p class="tech-description" ng-bind-html="techNote.description"></p>
-		<p class="tech-citation" ng-bind-html="techNote.citation"></p>
-		<p><a href="<?php echo content_url('/uploads/downloads/'); ?>{{ techNote.link }}">Download <i class="fa fa-file-pdf-o"></i> now</a></p>
+		<p class="tech-description"><b>Description:</b> <span ng-bind-html="techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
+		<p class="tech-citation"><b>Citation:</b> <span ng-bind-html="techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
+		<p class="pdfDownloadWrap">
+			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/downloads/'); ?>{{ techNote.link }}"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-pdf-o"></i></a>
+			<span class="pdfDownloadHover">Download PDF Now!</span>
+		</p>
 	</div>
 </div>
+
 <!-- ==============VIDEO==================== -->
-<div class=" tech-VIDEO row" ng-show="VIDEO">
-	<div class="small-12 flex-video column">
-		<video controls="" muted="" autoplay="autoplay">
-	<source ng-src="<?php echo content_url('/uploads/video/videos/'); ?>{{ trustedVideoURL }}.mp4" type="video/mp4">
-		<!--<img ng-src="<?php //echo content_url('/uploads/video/thumbs/'); ?>{{ techNote.image }}" alt="{{ techNote.description }}" title="No video playback capabilities, please download the video below">-->
-</video>
+<div class="row" ng-show="VIDEO">
+	<div class="tech-VIDEO small-12 medium-8 medium-centered column">
+		<video src="{{ videoUrl | trustUrl }}" controls muted autoplay>
+			Our apologies, but video playback in not possible at this time. <a href="<?php echo content_url('/uploads/video/videos/'); ?>{{ techNote.link }}.mp4">Please download</a> the video to play it the video player of your choice. 
+			
+		</video>
 	</div>
 	
 	<div class="small-12 column">
-		<h2 class="tech-title" ng-bind-html="techNote.title"></h2>
-		<p class="tech-description" ng-bind-html="techNote.description"></p>
-		<p class="tech-citation" ng-bind-html="techNote.citation"></p>
-		<p><a href="<?php echo content_url('/uploads/video/videos/'); ?>{{ techNote.link }}.mp4">Download <i class="fa fa-file-video-o"></i> now</a></p>
+		<p class="tech-description"><b>Description:</b> <span ng-bind-html="techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
+		<p class="tech-citation"><b>Citation:</b> <span ng-bind-html="techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
+		<p class="pdfDownloadWrap">
+			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/video/videos/'); ?>{{ techNote.link }}.mp4"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-video-o"></i></a>
+			<span class="pdfDownloadHover">Download Video!</span>
+		</p>
 	</div>
+
 </div>
-      
+
+<!-- ==============GI==================== -->
+    
 <!-- ========================END======================== -->
 </div><!-- END DIV FOR CONTENT -->
 			
