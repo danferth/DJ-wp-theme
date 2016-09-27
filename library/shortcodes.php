@@ -23,30 +23,6 @@ function mainblock_shortcode($atts, $content = null, $tag){
 
 add_shortcode('mainblock', 'mainblock_shortcode');
 
-
-
-//[videosingle class='added class' title='title' video='file name of video']
-//no prerequisites this shortcode creates all enclosing divs
-function video_single_shortcode($atts, $content, $tag){
-    $a = shortcode_atts( array(
-            'class' => '',
-            'title' => 'needs a title',
-            'video' => '2015/09/fv-overview'
-        ), $atts);
-    return "<div class='row'> \n
-  <div class='column small-12'> \n
-    <h1>" . $a['title'] . "</h1> \n
-  </div> \n
-  <div class='column small=12 medium-8 large-6 medium-centered single-video " . $a['class'] . "'> \n
-    <video controls=''> \n
-      <source src='" . content_url() . "/uploads/" . $a['video'] . ".mp4' type='video/mp4'> \n
-    </video> \n
-  </div> \n
-</div>";
-}
-
-add_shortcode('videosingle', 'video_single_shortcode');
-
 /*
 [prefooterwrap class='added class']
 
@@ -117,19 +93,6 @@ function img_shortcode($atts, $content, $tag){
     return $output;
 }
 add_shortcode('img', 'img_shortcode');
-
-//STYLE ATTRIBUTE FOR BACKGROUND IMAGE
-//[bgImage src="page/foobar.jpg"]
-function bgImg_shortcode($atts, $content, $tag){
-  $a = shortcode_atts(array(
-      'src' => ''), $atts);
-  $dir = content_url('/uploads/');
-  $output = "style='background-image: url(\"" . $dir . $a['src'] . "\");'";
-  return $output;
-}
-add_shortcode('bgImg', 'bgImg_shortcode');
-
-
 
 
 //display part numbers for a given series
@@ -237,6 +200,63 @@ function tech_link_shortcode($atts, $content, $tag){
 }
 add_shortcode('tech_link', 'tech_link_shortcode');
 
+//****************************************************************************************************************
+//***********************************************PAGE LAYOUT******************************************************
+//****************************************************************************************************************
+
+function shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'att1' => 'default',
+    'att2' => 'default'
+    ), $atts);
+    $output = "markup";
+    return $output;
+}
+add_shortcode('element', 'function');
+
+//***hero image with select for industry*****
+//[hero_select src="folder/image.jpg" class="" placeholder="placeholder" product="for industry in app.js"]
+function hero_select_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'src' => '',
+    'class' => '',
+    'placeholder' => '',
+    'product' => ''
+    ), $atts);
+    $output = "<div class='full-background ".$a['class']." show-for-medium-up row'>\n
+		<img src='".content_url('/uploads/') . $a['src'] ."'/>\n
+	<div class='full-background-select medium-12 column'>\n
+		<select name='sub-science' ng-model='industry' ng-options='".$a['product'].".label for ".$a['product']." in ".$a['product']."_options'>\n
+			<option value=''>".$a['placeholder']."</option>\n
+		</select>\n
+	</div>\n
+</div>\n
+\n
+<div class='show-for-small-only row'>\n
+	<div class='small-12 column'>\n
+		<select name='sub-science' ng-model='industry' ng-options='".$a['product'].".label for ".$a['product']." in ".$a['product']."_options'>\n
+			<option value=''>".$a['placeholder']."</option>\n
+		</select>\n
+	</div>\n
+</div>";
+    return $output;
+}
+add_shortcode('hero_select', 'hero_select_shortcode');
+
+//*******full page width image******
+//[image_full src=“image.jpg]
+function image_full_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'src' => ''
+    ), $atts);
+    $output="<div class='row'>
+		<img src='".content_url('/uploads/') . $a['src'] ."'/>\n
+    </div>";
+    return $output;
+}
+add_shortcode('image_full', 'image_full_shortcode');
+
+
 //Product page video row with descriptive paragraph
 //[product_video src='video file name.mp4' title='title of video']<p>content for paragraph next to video</p>[/product_video]
 
@@ -266,5 +286,10 @@ function product_video_shortcode($atts, $content=null, $tag){
 return $output;
 }
 add_shortcode('product_video', 'product_video_shortcode');
+
+
+
+
+
 
 ?>

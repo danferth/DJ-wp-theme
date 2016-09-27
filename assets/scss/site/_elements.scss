@@ -496,6 +496,7 @@ table.product-ref-table{
 //=========================Product page elements=======================
 //=====================================================================
 
+//hero_select_shortcode
 .full-background{
  position:relative;
  img{
@@ -578,7 +579,7 @@ table.product-ref-table{
     background:$ghost;
   }
   &:hover{
-    z-index:1000;
+    z-index:90;
     box-shadow:0 0 5px $jet;
     background:lighten($secondary-color, 3%);
     border-radius:.25rem;
