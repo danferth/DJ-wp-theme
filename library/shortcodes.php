@@ -24,23 +24,6 @@ function mainblock_shortcode($atts, $content = null, $tag){
 add_shortcode('mainblock', 'mainblock_shortcode');
 
 
-//[appblock class='addedclass' link='link' title='title']<p>short description</p>[/appblock]
-//this needs to be placed inside of ( ul.small-block-grid-#.appnote-block) to work properly
-function appblock_shortcode($atts, $content = null, $tag){
-    $a = shortcode_atts( array(
-            'class' => '',
-            'link' => '',
-            'title' => 'needs a title'
-        ), $atts);
-    return "<li class='" . $a['class'] . "' data-appblocklink='" . home_url() . "/" . $a['link'] . "'> \n
-        <div class='appnote-block-inner-wrap'> \n
-        <h4>" . $a['title'] . "</h4> \n
-        <p>" . $content . "</p> \n
-        </div> \n
-        </li>";
-}
-
-add_shortcode('appblock', 'appblock_shortcode');
 
 //[videosingle class='added class' title='title' video='file name of video']
 //no prerequisites this shortcode creates all enclosing divs
@@ -97,26 +80,6 @@ function prefooter_shortcode($atts, $content=null, $tag){
 
 add_shortcode('prefooterwrap', 'prefooterwrap_shortcode');
 add_shortcode('prefooter', 'prefooter_shortcode');
-
-
-//[tech-vid-block product='' video='' date='']video title[/tech-vid-block]
-function tech_vid_block_shortcode($atts, $content=null, $tag){
-  $a = shortcode_atts( array(
-      'product' => '',
-      'video' => '',
-      'date' => '01/01/2015'
-    ), $atts);
-    
-    return "
-    <li data-date='". $a['date'] ."'> \n
-      <a class='video_link_". $a['product']  ."' href='". home_url() ."/tech-video/?video=". $a['video']  ."&title=". $content  ."'> \n
-        <img src='". content_url() . "/uploads/video/thumbs/" .  $a['product'] . "/" . $a['video']  . ".png' width='200' height='112' > \n
-        <span class='video-title'>".$content."</span> \n
-      </a> \n
-    </li>";
-}
-
-add_shortcode('tech-vid-block', 'tech_vid_block_shortcode');
 
 
 //====================
@@ -261,7 +224,7 @@ function tech_select_shortcode($atts, $content, $tag){
 add_shortcode('tech_select', 'tech_select_shortcode');
 
 
-//Tech Library select for product
+//Display tech library link
 //[tech_link]
 function tech_link_shortcode($atts, $content, $tag){
   $output = "

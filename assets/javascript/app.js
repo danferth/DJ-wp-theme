@@ -333,8 +333,6 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', '$s
   if($scope.techNote.linkType === "mp4"){
     $scope.VIDEO = true;
     $scope.videoUrl = url + "/wp-content/uploads/video/videos/" + $scope.techNote.link + '.mp4';
-      //$scope.trustedVideoURL = $sce.trustAsResourceUrl($scope.techNote.link);
-    // posible solution at http://www.rubencanton.com/blog/2014/07/adding-video-src-with-angular.html
     }
     
   });
