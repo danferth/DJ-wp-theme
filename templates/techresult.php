@@ -61,7 +61,7 @@ get_header(); ?>
 		<p class="tech-citation"><b>Citation:</b> <span ng-bind-html="techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
 		<p class="pdfDownloadWrap">
 			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/downloads/'); ?>{{ techNote.link }}"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-pdf-o"></i></a>
-			<span class="pdfDownloadHover">Download PDF Now!</span>
+			<span class="pdfDownloadHover"><i class="fa fa-arrow-left"></i> Download PDF Now!</span>
 		</p>
 	</div>
 </div>
@@ -80,7 +80,7 @@ get_header(); ?>
 		<p class="tech-citation"><b>Citation:</b> <span ng-bind-html="techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
 		<p class="pdfDownloadWrap">
 			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/video/videos/'); ?>{{ techNote.link }}.mp4"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-video-o"></i></a>
-			<span class="pdfDownloadHover">Download Video!</span>
+			<span class="pdfDownloadHover"><i class="fa fa-arrow-left"></i> Download Video!</span>
 		</p>
 	</div>
 

@@ -222,40 +222,6 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
   
 }]);
 
-//=====test page=====
-var test = angular.module('test', ['ngSanitize']);
-test.controller('testController', ['$scope', '$http', function($scope, $http){
-  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
-    $scope.products = rslt.data;
-  });
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
-  
-  $scope.welcome = "Hello, sorry but there is no test being conducted on this page at the moment. Possibly the test you were looking for has been moved to production. whatever page you are thinking was going to display is now where it should be on the site.";
-  
-
-}]);
-
-
-//test also page
-var testAlso = angular.module('testAlso',['ngSanitize']);
-
-testAlso.controller('testAlsoController',['$scope','$http', function($scope,$http){
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
-  
-  $scope.sortType = "index";
-  $scope.sortReverse = false;
-  
-  $scope.key = "";
-  $scope.value = "";
-  
-}]);
-
 //=========techlibrary=================
 
 var techlibrary = angular.module('techlibrary', ['ngSanitize']);
@@ -277,12 +243,30 @@ $scope.productLine = productLineArray.filter(function(elem, index, self){
 			
   });
   
-  $scope.product = "";
+$scope.product = "";
   
-  $scope.sendId = function(techId){
-    var newURL = url+"/tech?id="+techId;
-    window.open(newURL, '_blank');
-  };
+$scope.sendId = function(techId){
+  var newURL = url+"/tech?id="+techId;
+  window.open(newURL, '_blank');
+};
+
+//get query for tech note
+function getQueryVariable(variable){
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if(pair[0] == variable){
+      return pair[1];
+    }
+  }
+  return(false);
+};
+
+$scope.GETproduct = getQueryVariable('product');
+if($scope.GETproduct){
+  $scope.product = $scope.GETproduct;
+}
 			
 }]);
 
@@ -352,12 +336,42 @@ techResult.controller('techResultController', ['$scope', '$http', '$filter', '$s
       //$scope.trustedVideoURL = $sce.trustAsResourceUrl($scope.techNote.link);
     // posible solution at http://www.rubencanton.com/blog/2014/07/adding-video-src-with-angular.html
     }
-  
-  
-    
-    
     
   });
+  
+}]);
+
+//=====test page=====
+var test = angular.module('test', ['ngSanitize']);
+test.controller('testController', ['$scope', '$http', function($scope, $http){
+  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
+    $scope.products = rslt.data;
+  });
+  
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+  });
+  
+  $scope.welcome = "Hello, sorry but there is no test being conducted on this page at the moment. Possibly the test you were looking for has been moved to production. whatever page you are thinking was going to display is now where it should be on the site.";
+  
+
+}]);
+
+
+//test also page
+var testAlso = angular.module('testAlso',['ngSanitize']);
+
+testAlso.controller('testAlsoController',['$scope','$http', function($scope,$http){
+  
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+  });
+  
+  $scope.sortType = "index";
+  $scope.sortReverse = false;
+  
+  $scope.key = "";
+  $scope.value = "";
   
 }]);
 
