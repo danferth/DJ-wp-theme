@@ -13,12 +13,12 @@
    "responsive"
  ],
  "homepage": "http://htslabs.com.com/",
- "bugs": "https://github.com/danferth/Thomson-wp-theme/issues",
+ "bugs": "https://github.com/danferth/DJ-wp-theme/issues",
  "license": "MIT",
  "main": "Gruntfile.js",
  "repository": {
    "type": "git",
-   "url": "https://github.com/danferth/Thomson-wp-theme.git"
+   "url": "https://github.com/danferth/DJ-wp-theme.git"
  },
  "devDependencies": {
    "bower": "~1.4.1",

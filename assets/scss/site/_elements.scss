@@ -651,13 +651,31 @@ table.product-ref-table{
 //=====================================================================
 //====================tech result page for PDF info====================
 //=====================================================================
+.tech-description, .tech-citation{
+  position:relative;
+  padding-left:100px;
+  &:before{
+    position:absolute;
+    top: 0;
+    left: 0;
+    color:$jet;
+    font-weight:bold;
+    font-style:normal;
+  }
+}
 .tech-description{
   font-size: .8rem;
+  &:before{
+    content: "Description:";
+  }
 }
 .tech-citation{
   font-size:.75rem;
   color:$jumbo;
   font-style:italic;
+  &:before{
+    content:"Citation:";
+  }
 }
 //=====================================================================
 //===================tech result page for VIDEO info===================

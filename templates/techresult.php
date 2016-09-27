@@ -57,8 +57,8 @@ get_header(); ?>
 <div class="tech-PDF row" ng-show="PDF">
 	<div class="small-12 medium-8 large-10 column">
 		<h2 class="tech-title" ng-bind-html="techNote.title"></h2>
-		<p class="tech-description"><b>Description:</b> <span ng-bind-html="techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
-		<p class="tech-citation"><b>Citation:</b> <span ng-bind-html="techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
+		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>
+		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="pdfDownloadWrap">
 			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/downloads/'); ?>{{ techNote.link }}"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-pdf-o"></i></a>
 			<span class="pdfDownloadHover"><i class="fa fa-arrow-left"></i> Download PDF Now!</span>
@@ -76,8 +76,8 @@ get_header(); ?>
 	</div>
 	
 	<div class="small-12 column">
-		<p class="tech-description"><b>Description:</b> <span ng-bind-html="techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
-		<p class="tech-citation"><b>Citation:</b> <span ng-bind-html="techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></span></p>
+		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>
+		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="pdfDownloadWrap">
 			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/video/videos/'); ?>{{ techNote.link }}.mp4"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-video-o"></i></a>
 			<span class="pdfDownloadHover"><i class="fa fa-arrow-left"></i> Download Video!</span>
