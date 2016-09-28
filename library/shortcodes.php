@@ -418,9 +418,59 @@ return $output;
 }
 add_shortcode('product_video', 'product_video_shortcode');
 
+//**********comparison********************
+// [comparison class=" " title=" "]
+//     [comparison_left l_title=" "]
+//       <ul></ul>
+//     [/comparison_left]
+//     [comparison_right r_title=" "]
+//       <ul></ul>
+//     [/comparison_right]
+// [/comparison]
 
+//[comparison_left l_title=" "]
+function comparison_left_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'l_title' => ''
+    ), $atts);
+    $output = "
+    <div class='comparison-left small-12 medium-6 column'>
+      <h2>".$a['l_title']."</h2>
+      ".$content."
+    </div>
+    ";
+    return $output;
+}
+add_shortcode('comparison_left', 'comparison_left_shortcode');
 
+//[comparison_right r_title=" "]
+function comparison_right_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'r_title' => ''
+    ), $atts);
+    $output = "
+    <div class='comparison-right small-12 medium-6 column'>
+      <h2>".$a['r_title']."</h2>
+      ".$content."
+    </div>
+    ";
+    return $output;
+}
+add_shortcode('comparison_right', 'comparison_right_shortcode');
 
-
+//[comparison class=" " title=" "]
+function comparison_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'class' => '',
+    'title' => '',
+    ), $atts);
+    $output = "<div class='comparison row ".$a['class']."'>";
+    if($a['title']){$output .= "<div class='small-12 column'>
+        <h2>".$a['title']."</h2>
+      </div>";}
+    $output .= do_shortcode($content) . "</div>";
+    return $output;
+}
+add_shortcode('comparison', 'comparison_shortcode');
 
 ?>
