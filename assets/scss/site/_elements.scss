@@ -558,7 +558,16 @@ table.product-ref-table{
 .product-inquiry-button{
   margin:0;
 }
-
+//column text
+.column-text{
+  column-count:4;
+  @media screen and (max-width:$medium-breakpoint){
+    column-count:2;
+  }
+  @media screen and (max-width:$small-breakpoint){
+    column-count:1;
+  }
+}
 //=====================================================================
 //========================Product page video row=======================
 //=====================================================================

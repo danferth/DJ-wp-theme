@@ -257,7 +257,9 @@ function image_full_shortcode($atts, $content, $tag){
 add_shortcode('image_full', 'image_full_shortcode');
 
 //**********intro paragraph and inquiry module
-//[intro_quiry title="header" product="for emails sent"]<p>content</p>[/intro_quiry]
+//[intro_quiry title="header" product="for emails sent"]
+//<p>content</p>
+//[/intro_quiry]
 function intro_quiry_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'title' => '',
@@ -278,7 +280,9 @@ function intro_quiry_shortcode($atts, $content=null, $tag){
 add_shortcode('intro_quiry', 'intro_quiry_shortcode');
 
 //******text on the left image on the right***********
-//[text_image src="image" caption="caption" title="header"]<p>text</p>[/text_image]
+//[text_image src="image" caption="caption" title="header"]
+//<p>text</p>
+//[/text_image]
 function text_image_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'src' => '',
@@ -301,7 +305,9 @@ function text_image_shortcode($atts, $content=null, $tag){
 add_shortcode('text_image', 'text_image_shortcode');
 
 //******text on the left image on the right***********
-//[text_image src="image" caption="caption" title="header"]<p>text</p>[/text_image]
+//[text_image src="image" caption="caption" title="header"]
+//<p>text</p>
+//[/text_image]
 function image_text_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'src' => '',
@@ -359,10 +365,31 @@ function dual_image_shortcode($atts, $content, $tag){
 }
 add_shortcode('dual_image', 'dual_image_shortcode');
 
+//********column text just text***************************
+//[column_text title="header"]
+//<p>ONLY P TAGS ALLOWD</p>
+//[/column_text]
+function column_text_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'title' => ''
+    ), $atts);
+    $output = "
+    <div class='row'>\n
+      <div class='small-12 column'>\n
+        <h2>".$a['title']."</h2>
+      </div>\n
+      <div class='column-text small-12 column'>\n
+        ".$content."\n
+      </div>\n
+    </div>";
+    return $output;
+}
+add_shortcode('column_text', 'column_text_shortcode');
 
-
-//Product page video row with descriptive paragraph
-//[product_video src='video file name.mp4' title='title of video']<p>content for paragraph next to video</p>[/product_video]
+//******video row with descriptive paragraph**************
+//[product_video src='video file name.mp4' title='title of video']
+//<p>content for paragraph next to video</p>
+//[/product_video]
 
 function product_video_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
