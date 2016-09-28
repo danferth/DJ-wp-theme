@@ -256,6 +256,73 @@ function image_full_shortcode($atts, $content, $tag){
 }
 add_shortcode('image_full', 'image_full_shortcode');
 
+//**********intro paragraph and inquiry module
+//[intro_quiry title="header" product="for emails sent"]<p>content</p>[/intro_quiry]
+function intro_quiry_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'title' => '',
+    'product' => ''
+    ), $atts);
+    $output = "
+    <div class='row'>\n
+	    <div class='small-12 medium-6 large-7 column'>\n
+		    <h2>".$a['title']."</h2>\n
+		    ".$content."
+	    </div>\n
+	    <div class='small-12 medium-6 large-5 column'>\n
+		    <product-inquiry product='".$a['product']."'></product-inquiry>\n
+	    </div>\n
+    </div>";
+  return $output;
+}
+add_shortcode('intro_quiry', 'intro_quiry_shortcode');
+
+//******text on the left image on the right***********
+//[text_image src="image" caption="caption" title="header"]<p>text</p>[/text_image]
+function text_image_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'src' => '',
+    'caption' => '',
+    'title' => ''
+    ), $atts);
+    $output = "
+    <div class='row'>\n
+	    <div class='small-12 medium-7 large-5 column'>\n
+		    <h2>".$a['title']."</h2>\n
+		    ".$content."
+	    </div>\n
+	    <div class='small-12 medium-5 large-7 column'>\n
+		    <img src='".content_url('/uploads/') . $a['src'] ."'/>\n
+		    <p class='disclaimer'>".$a['caption']."</p>\n
+	    </div>\n
+    </div>";
+    return $output;
+}
+add_shortcode('text_image', 'text_image_shortcode');
+
+//******text on the left image on the right***********
+//[text_image src="image" caption="caption" title="header"]<p>text</p>[/text_image]
+function image_text_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'src' => '',
+    'caption' => '',
+    'title' => ''
+    ), $atts);
+    $output = "
+    <div class='row'>\n
+	    <div class='small-12 medium-7 large-5 column'>\n
+		    <img src='".content_url('/uploads/') . $a['src'] ."'/>\n
+		    <p class='disclaimer'>".$a['caption']."</p>\n
+	    </div>\n
+	    <div class='small-12 medium-5 large-7 column'>\n
+		    <h2>".$a['title']."</h2>\n
+		    ".$content."
+	    </div>\n
+    </div>";
+    return $output;
+}
+add_shortcode('image_text', 'image_text_shortcode');
+
 
 //Product page video row with descriptive paragraph
 //[product_video src='video file name.mp4' title='title of video']<p>content for paragraph next to video</p>[/product_video]
