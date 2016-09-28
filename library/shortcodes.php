@@ -323,6 +323,43 @@ function image_text_shortcode($atts, $content=null, $tag){
 }
 add_shortcode('image_text', 'image_text_shortcode');
 
+//**********dual images*************
+// [dual_image
+// l_title=”left title”
+// l_src=”left image”
+// l_caption=”left caption”
+// r_title=”right title”
+// r_src=”right image”
+// r_caption=”right caption”]
+
+function dual_image_shortcode($atts, $content, $tag){
+  $a = shortcode_atts(array(
+    'l_title'   => '',
+    'l_src'     => '',
+    'l_caption' => '',
+    'r_title'   => '',
+    'r_src'     => '',
+    'r_caption' => ''
+    ), $atts);
+    $output="
+    <div class='row'>\n
+	<div class='small-12 medium-6 column'>\n
+		<h2>".$a['l_title']."</h2>\n
+		<img src='".content_url('/uploads/') . $a['l_src'] ."'/>\n
+		<p class='disclaimer'>".$a['l_caption']."</p>\n
+	</div>\n
+\n
+	<div class='small-12 medium-6 column'>\n
+		<h2>".$a['r_title']."</h2>\n
+		<img src='".content_url('/uploads/') . $a['r_src'] ."'/>\n
+		<p class='disclaimer'>".$a['r_caption']."</p>\n
+	</div>\n
+</div>";
+    return $output;
+}
+add_shortcode('dual_image', 'dual_image_shortcode');
+
+
 
 //Product page video row with descriptive paragraph
 //[product_video src='video file name.mp4' title='title of video']<p>content for paragraph next to video</p>[/product_video]
