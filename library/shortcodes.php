@@ -159,29 +159,34 @@ add_shortcode('parts', 'parts_shortcode');
 //[tech_select]
 function tech_select_shortcode($atts, $content, $tag){
   
-  $output = "<select name='product' ng-model='product'>\n
-  <option value=''>Select Product</option>\n
-  <optgroup label='Filter Vials'>\n
-    <option value='all'>All Filter Vials</option>\n
-    <option value='standard'>Standard|Filter Vials</option>\n
-    <option value='extreme'>eXtreme|FV®</option>\n
-    <option value='nano'>nano|Filter Vial®</option>\n
-    <option value='extractor'>eXtractor3D|FV®</option>\n
-    <option value='mega'>MEGA|FV™</option>\n
-    <option value='lowevap'>LowEvap|Filter Vial</option>\n
-  </optgroup>\n
-  <optgroup label='Optimum Growth™'>\n
-    <option value='Oflask'>Optimum Growth™ Flask</option>\n
-    <option value='TC'>Transfer Cap</option>\n
-  </optgroup>\n
-  <optgroup label='Ultra Yield™ Flask'>\n
-    <option value='Uflask'>Ultra Yield™ Flask</option>\n
-    <option value='plasmid'>Plasmid+®</option>\n
-    <option value='airotop'>Enhanced AirOtop™ Seals</option>\n
-  </optgroup>\n
-  <option value='wellplate'>Well Plate</option>\n
-  <option value='column'>SINGLE StEP® Flash Column</option>\n
-</select>";
+  $output = "
+<div class='row'>\n
+  <div class='first small-12 column'>\n
+    <select name='product' ng-model='product'>\n
+      <option value=''>Select Product</option>\n
+      <optgroup label='Filter Vials'>\n
+        <option value='all'>All Filter Vials</option>\n
+        <option value='standard'>Standard|Filter Vials</option>\n
+        <option value='extreme'>eXtreme|FV®</option>\n
+        <option value='nano'>nano|Filter Vial®</option>\n
+        <option value='extractor'>eXtractor3D|FV®</option>\n
+        <option value='mega'>MEGA|FV™</option>\n
+        <option value='lowevap'>LowEvap|Filter Vial</option>\n
+      </optgroup>\n
+      <optgroup label='Optimum Growth™'>\n
+        <option value='Oflask'>Optimum Growth™ Flask</option>\n
+        <option value='TC'>Transfer Cap</option>\n
+      </optgroup>\n
+      <optgroup label='Ultra Yield™ Flask'>\n
+        <option value='Uflask'>Ultra Yield™ Flask</option>\n
+        <option value='plasmid'>Plasmid+®</option>\n
+        <option value='airotop'>Enhanced AirOtop™ Seals</option>\n
+      </optgroup>\n
+      <option value='wellplate'>Well Plate</option>\n
+      <option value='column'>SINGLE StEP® Flash Column</option>\n
+    </select>\n
+  </div>\n
+</div>";
   return $output;
 }
 add_shortcode('tech_select', 'tech_select_shortcode');
@@ -192,7 +197,11 @@ add_shortcode('tech_select', 'tech_select_shortcode');
 function tech_link_shortcode($atts, $content, $tag){
   $output = "
   <div class='tech-link' ng-click='sendId(n.id);'>\n
-    <p class='tech-link-title' ng-bind-html='n.title'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
+    <p class='tech-link-title'>
+      <i class=' tech-pdf-icon fa fa-file-pdf-o' ng-if='n.linkType==\"pdf\"'></i>
+      <i class=' tech-video-icon fa fa-video-camera' ng-if='n.linkType==\"mp4\"'></i>
+      </i><span ng-bind-html='n.title'><i class='fa fa-spinner' aria-hidden='true'></i></span>
+    </p>\n
     <p class='tech-link-description' ng-bind-html='n.description'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
     <p class='tech-link-citation' ng-bind-html='n.citation'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
   </div>";

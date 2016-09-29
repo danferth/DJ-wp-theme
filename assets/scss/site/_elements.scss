@@ -2,8 +2,14 @@
 .top-bar-section .dropdown {
   z-index:1000;
 }
-
-
+//=====================================================================
+//========================FULL WIDTH CSS===============================
+//=====================================================================
+//use this class so the first element like a 
+//paragraph or select is not flush against the header of page
+.first{
+  margin-top:2rem;
+}
 //=====================================================================
 //==========================main blocks================================
 //=====================================================================
@@ -67,36 +73,6 @@
     img{
       width:100%;
       height:auto;
-    }
-  }
-}
-
-
-//=====================================================================
-//===========================appblocks=================================
-//=====================================================================
-.appnote-block{
-  padding:.5rem 0;
-  overflow:hidden;
-}
-.appnote-block li{
-  cursor:pointer;
-  padding:0 .25rem;
-  .appnote-block-inner-wrap{
-    background:$secondary-color;
-    padding:.5rem;
-    border-top:4px solid $oil;
-    border-bottom:4px solid $oil;
-    min-height:12rem;
-    h4{
-      margin:.5rem 0 .25rem 0;
-      color:$warning-color;
-    }
-    p{
-      color:$tuatara;
-      font-size:.8rem;
-      min-height:8rem;
-      line-height:1.4;
     }
   }
 }
@@ -622,6 +598,14 @@ table.product-ref-table{
     font-size:.75rem;
     color:$black;
   }
+  .tech-pdf-icon{
+    color:$alert-color;
+    margin-right:.5rem;
+  }
+  .tech-video-icon{
+    color:$primary-color;
+    margin-right:.5rem;
+  }
   .tech-link-description{
     font-size:.70rem;
   }
@@ -717,6 +701,46 @@ table.product-ref-table{
 .tech-VIDEO{
   video{
     width:100%;
+  }
+}
+
+//=====================================================================
+//============================info-module==============================
+//=====================================================================
+.info-module{
+  ul{
+    margin:0;
+    padding:0;
+    &:after{
+      clear:both;
+      content:"";
+      display:table;
+    }
+    li{
+      list-style:none;
+      float:left;
+      width:19%;
+      text-align:center;
+      background:$silver;
+      &:nth-child(1){
+        background:$primary-color;
+        color:$white;
+        text-transform:uppercase;
+        width:5%;
+        padding: .5rem 0;
+      }
+      a{
+        width:100%;
+        height:100%;
+        padding: .5rem 0;
+        display:block;
+        font-weight:bold;
+        transition: background 300ms;
+        &:hover{
+          background:$gainsboro;
+        }
+      }
+    }
   }
 }
 //next up?
