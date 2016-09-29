@@ -230,16 +230,16 @@ techlibrary.controller('techlibraryController',['$scope', '$http', function($sco
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
   
-var productLineArray = [];
+// var productLineArray = [];
 
-for(var pl in $scope.techdata){
-productLineArray.push($scope.techdata[pl].subProductLine);
-	}
+// for(var pl in $scope.techdata){
+// productLineArray.push($scope.techdata[pl].subProductLine);
+// 	}
 			
-productLineArray = productLineArray.sort();
-$scope.productLine = productLineArray.filter(function(elem, index, self){
-	return index == self.indexOf(elem);
-});
+// productLineArray = productLineArray.sort();
+// $scope.productLine = productLineArray.filter(function(elem, index, self){
+// 	return index == self.indexOf(elem);
+// });
 			
   });
   
@@ -266,6 +266,7 @@ function getQueryVariable(variable){
 $scope.GETproduct = getQueryVariable('product');
 if($scope.GETproduct){
   $scope.product = $scope.GETproduct;
+  $('option[value="'+$scope.product+'"]').attr('selected', 'selected');
 }
 			
 }]);
