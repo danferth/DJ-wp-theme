@@ -1361,6 +1361,18 @@
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
+		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 2.8L Flask",
+		"description1" : "For Peristaltic Pump, 2' Tubing with Luer Lock",
+		"description2" : "Sterile",
+		"partNum" : "931804",
+		"partNumber" : [{"num" : "931804-8", "qty" : "8"}],
+		"image" : "931804_lg.jpg",
+		"thum_image" : "931804_tn.png",
+		"tag" : [],
+		"URL" : "og/tc/bidirectional/"
+	},{
+		"line" : "TC",
+		"series" : "bidirectional",
 		"title" : "Bidirectional Transfer Cap for Optimum Growth™ 5L Flask",
 		"description1" : "For Peristaltic Pump, 2' tubing welds to 1/4\" C-Flex 16",
 		"description2" : "Sterile",

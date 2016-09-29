@@ -473,4 +473,34 @@ function comparison_shortcode($atts, $content=null, $tag){
 }
 add_shortcode('comparison', 'comparison_shortcode');
 
+//*****tech link module**********
+// [tech_link_module
+// title=""
+// key1=""
+// value1=""
+// key2=""
+// value2=""]
+function techlink_module_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'title'   => '',
+    'key1'    => '',
+    'value1'  => '',
+    'key2'    => '',
+    'value2'  => ''
+    ), $atts);
+  $output = "
+  <div class='row tech-link-module'>
+	<div class='small-12 column'>
+		<h4>".$a['title']."</h4>
+	</div>
+<div class='tech-link-wrap small-12 column' ng-repeat=";
+  $output .='"';
+  $output .= "n in techdata | filter:{".$a['key1']." : '".$a['value1']."', ".$a['key2']." : '".$a['value2']."'} | limitTo:5";
+  $output .= '">';
+  $output .= do_shortcode('[tech_link]');
+  $output .= "</div></div>";
+  return $output;
+}
+add_shortcode('tech_link_module', 'techlink_module_shortcode');
+
 ?>

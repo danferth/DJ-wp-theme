@@ -568,11 +568,28 @@ table.product-ref-table{
     column-count:1;
   }
 }
+//comparison shortcode
+.comparison{
+  
+}
+.comparison-left{
+  h2{
+    color:lighten($warning-color, 20%);
+    margin-top:0;
+  }
+  color:$iron;
+}
+.comparison-right{
+  h2{
+    color:$primary-color;
+    margin-top:0;
+  }
+}
 //=====================================================================
 //========================Product page video row=======================
 //=====================================================================
 .video-row{
-  background:$silver;
+  background:$ghost;
 }
 
 
@@ -616,6 +633,13 @@ table.product-ref-table{
   }
 }
 
+//on product page use class .tech-link-module for spacific styles
+.tech-link-module{
+  border-top:3px solid $primary-dark;
+  h4{
+    margin:0.5rem 0 0.2rem 0;
+  }
+}
 //=====================================================================
 //==========================PDF download link==========================
 //=====================================================================
