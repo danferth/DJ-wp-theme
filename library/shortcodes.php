@@ -435,7 +435,7 @@ function comparison_left_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "
     <div class='comparison-left small-12 medium-6 column'>
-      <h2>".$a['l_title']."</h2>
+      <h4>".$a['l_title']."</h4>
       ".$content."
     </div>
     ";
@@ -450,7 +450,7 @@ function comparison_right_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "
     <div class='comparison-right small-12 medium-6 column'>
-      <h2>".$a['r_title']."</h2>
+      <h4>".$a['r_title']."</h4>
       ".$content."
     </div>
     ";
@@ -466,7 +466,7 @@ function comparison_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "<div class='comparison row ".$a['class']."'>";
     if($a['title']){$output .= "<div class='small-12 column'>
-        <h2>".$a['title']."</h2>
+        <h4>".$a['title']."</h4>
       </div>";}
     $output .= do_shortcode($content) . "</div>";
     return $output;
