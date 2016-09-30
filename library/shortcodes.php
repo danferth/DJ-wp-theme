@@ -302,7 +302,7 @@ function text_image_shortcode($atts, $content=null, $tag){
     <div class='row'>\n
 	    <div class='small-12 medium-7 large-5 column'>\n
 		    <h2>".$a['title']."</h2>\n
-		    ".$content."
+		    ".do_shortcode($content)."
 	    </div>\n
 	    <div class='small-12 medium-5 large-7 column'>\n
 		    <img src='".content_url('/uploads/') . $a['src'] ."'/>\n
@@ -314,9 +314,9 @@ function text_image_shortcode($atts, $content=null, $tag){
 add_shortcode('text_image', 'text_image_shortcode');
 
 //******text on the left image on the right***********
-//[text_image src="image" caption="caption" title="header"]
+//[image_text src="image" caption="caption" title="header"]
 //<p>text</p>
-//[/text_image]
+//[/image_text]
 function image_text_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'src' => '',
@@ -331,7 +331,7 @@ function image_text_shortcode($atts, $content=null, $tag){
 	    </div>\n
 	    <div class='small-12 medium-5 large-7 column'>\n
 		    <h2>".$a['title']."</h2>\n
-		    ".$content."
+		    ".do_shortcode($content)."
 	    </div>\n
     </div>";
     return $output;
@@ -511,5 +511,31 @@ function techlink_module_shortcode($atts, $content, $tag){
   return $output;
 }
 add_shortcode('tech_link_module', 'techlink_module_shortcode');
+
+
+
+//******info module*********
+//[info_module faq=" " product=" "]
+function info_module_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'faq' => '',
+    'product' => ''
+    ), $atts);
+    $output="
+<div class='info-module row'>\n
+  <div class='small-12'>\n
+    <ul>\n
+      <li><i class='fa fa-info-circle' aria-hidden='true'></i></li>\n
+      <li><a href='".$a['faq']."' target='_blank'>FAQ's</a></li>\n
+      <li><a href='/tl/gi/?product=".$a['product']."' target='_blank'>General Information</a></li>\n
+      <li><a href='/tl/v/?product=".$a['product']."' target='_blank'>Videos</a></li>\n
+      <li><a href='/tl/an/?product=".$a['product']."' target='_blank'>Applications</a></li>\n
+      <li><a href='/tl/pw/?product=".$a['product']."' target='_blank'>Published Works</a></li>\n
+    </ul>\n
+  </div>\n
+</div>";
+    return $output;
+}
+add_shortcode('info_module', 'info_module_shortcode');
 
 ?>

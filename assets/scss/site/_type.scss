@@ -2,10 +2,10 @@
 //page header and the included .entry-title
 //=========================================================
 article header{
-  background:$vapor;
-  padding:rem-calc(32) rem-calc(30) 2rem rem-calc(30);
+  background:$white;
+  padding: rem-calc(32) rem-calc(30) 2rem rem-calc(30);
   margin: 0 0 0 0;
-  border-bottom: 3px solid $iron;
+  border-bottom: 3px solid $aluminum;
     @media screen and (max-width:$small-breakpoint){
     padding:rem-calc(15) rem-calc(15) 1rem rem-calc(15);
   }

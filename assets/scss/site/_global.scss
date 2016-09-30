@@ -7,8 +7,8 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	background:$charcoal;
-	background:linear-gradient(to right, $charcoal 0%, $jet 25%, $jet 75%, $charcoal 100%);
+	background:$white;
+	//background:linear-gradient(to right, $charcoal 0%, $jet 25%, $jet 75%, $charcoal 100%);
 }
 
 // Reset margin and padding on figure element

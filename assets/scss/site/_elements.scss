@@ -510,7 +510,7 @@ table.product-ref-table{
 	border:1px solid $iron;
 	box-shadow: 0 0 4px 0 $smoke;
 	padding:2rem 1rem; //manipulated in directives.js under product_page
-	border-radius:.25rem;
+	//border-radius:.25rem;
 	margin-top: 2.5625rem;
 	margin-bottom:.625rem;
 	transition:all 300ms;
@@ -521,7 +521,7 @@ table.product-ref-table{
   form{
     fieldset{
       margin:0;
-      border-radius: 0 0 .5rem .5rem;
+      border-radius: 0 0 0 0;
     }
   }
 	.product-inquiry{
@@ -716,6 +716,9 @@ table.product-ref-table{
       content:"";
       display:table;
     }
+    @media screen and (max-width:$small-breakpoint){
+      margin-bottom:1rem;
+    }
     li{
       list-style:none;
       float:left;
@@ -728,6 +731,16 @@ table.product-ref-table{
         text-transform:uppercase;
         width:5%;
         padding: .5rem 0;
+      }
+      @media screen and (max-width:$small-breakpoint){
+        width:100%;
+        &:nth-child(1){
+          display:none;
+        }
+        a{
+          font-size:.75rem;
+          border-bottom:1px solid $black;
+        }
       }
       a{
         width:100%;
