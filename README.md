@@ -53,52 +53,156 @@ Version control on these files are turned off because they are automatically gen
 ### Shortcodes
 
 ```
-[mainblock title='' class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
+ ///////////////////////////////////////////////////////////
+   _____ __               __                 __         
+  / ___// /_  ____  _____/ /__________  ____/ /__  _____
+  \__ \/ __ \/ __ \/ ___/ __/ ___/ __ \/ __  / _ \/ ___/
+ ___/ / / / / /_/ / /  / /_/ /__/ /_/ / /_/ /  __(__  ) 
+/____/_/ /_/\____/_/   \__/\___/\____/\__,_/\___/____/  
+//////////////////////////////////////////////////////////                                                        
+
+//*******Main block modules for roadmap and tech library*******
 //this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
+[mainblock title='title' class='addedclass' img='src' link='href']
+<p> or <ul>
+[/mainblock]
 
-[appblock class='addedclass' link='link' title='title']<p>short description</p>[/appblock]
-//this needs to be placed inside of ( ul.small-block-grid-#.appnote-block) to work properly
-
-[videosingle class='added class' title='title' video='file name of video']
-//no prerequisites this shortcode creates all enclosing divs
-
-[prefooterwrap class='added class']
-
-[prefooter class='' link='link for prefooter']
-content for prefooter
-[/prefooterleft]
-
-[prefooter class='' link='link for prefooter']
-content for prefooter
-[/prefooterleft]
-
-[/prefooter]
-
-//somewhat complicated but better to adjust it a year later here than on every page
-
-[tech-vid-block product='' video='' date='']video title[/tech-vid-block]
-
-//====================
-//IMAGES IMAGES IMAGES
-//====================
-
-//ANGULAR IMAGES
-[ng_product_image src='' width='' height='']
-
-//JUST AN IMAGES TAG
-[img class='myClass' src='folder/in/uploads/image.jpg' width='100' height='100' alt='alt-text']
-
-//STYLE ATTRIBUTE FOR BACKGROUND IMAGE
-[bgImage src="page/foobar.jpg"]
-
-//display part numbers for a given series
-[parts title='' series='' line='' filter='']
-
-//Tech Library <select> for product
+//*******<select> of all sub products*******
+//used ONLY in tech library
 [tech_select]
 
-//Product page video row with descriptive paragraph
-//[product_video src='video file name.mp4' title='title of video']<p>content for paragraph next to video</p>[/product_video]
+  _____                                 
+ |_   _|                                
+   | |  _ __ ___   __ _  __ _  ___  ___ 
+   | | | '_ ` _ \ / _` |/ _` |/ _ \/ __|
+  _| |_| | | | | | (_| | (_| |  __/\__ \
+ |_____|_| |_| |_|\__,_|\__, |\___||___/
+                         __/ |          
+                        |___/           
+
+
+//*******ANGULAR IMAGES*******
+[ng_product_image src='' width='' height='']
+
+//*******JUST AN IMAGES TAG*******
+[img class='myClass' src='folder/in/uploads/image.jpg' width='100' height='100' alt='alt-text']
+
+ _______  _______  _______  _______    ___      _______  __   __  _______  __   __  _______ 
+|       ||   _   ||       ||       |  |   |    |   _   ||  | |  ||       ||  | |  ||       |
+|    _  ||  |_|  ||    ___||    ___|  |   |    |  |_|  ||  |_|  ||   _   ||  | |  ||_     _|
+|   |_| ||       ||   | __ |   |___   |   |    |       ||       ||  | |  ||  |_|  |  |   |  
+|    ___||       ||   ||  ||    ___|  |   |___ |       ||_     _||  |_|  ||       |  |   |  
+|   |    |   _   ||   |_| ||   |___   |       ||   _   |  |   |  |       ||       |  |   |  
+|___|    |__| |__||_______||_______|  |_______||__| |__|  |___|  |_______||_______|  |___|  
+
+
+//******info module*********
+//at top of page DO NOT add class="first" to it
+[info_module faq=" " product=" "]
+
+
+//***hero image with select for industry*****
+[hero_select src="folder/image.jpg" class="" placeholder="placeholder" product="for industry in app.js"]
+
+
+//*******full page width image******
+[image_full src=“image.jpg]
+
+
+//**********intro paragraph and inquiry module
+[intro_quiry title="header" product="for emails sent"]
+	<p>content</p>
+[/intro_quiry]
+
+
+//******text on the left image on the right***********
+[text_image src="image" caption="caption" title="header"]
+	<p>text</p>
+[/text_image]
+
+
+//******text on the left image on the right***********
+[image_text src="image" caption="caption" title="header"]
+	<p>text</p>
+[/image_text]
+
+
+//**********dual images*************
+[dual_image
+l_title=”left title”
+l_src=”left image”
+l_caption=”left caption”
+r_title=”right title”
+r_src=”right image”
+r_caption=”right caption”]
+
+
+//********column text just text***************************
+[column_text title="header"]
+	<p>ONLY P TAGS ALLOWD</p>
+[/column_text]
+
+
+//******video row with descriptive paragraph**************
+[product_video src='video file name.mp4' title='title of video']
+	<p>content for paragraph next to video</p>
+[/product_video]
+
+
+//**********comparison********************
+[comparison class=" " title=" "]
+	[comparison_left l_title=" "]
+		<ul></ul>
+	[/comparison_left]
+	[comparison_right r_title=" "]
+		<ul></ul>
+	[/comparison_right]
+[/comparison]
+
+
+▓█████  ███▄    █ ▓█████▄     ▒█████    █████▒    ██▓███   ▄▄▄        ▄████ ▓█████ 
+▓█   ▀  ██ ▀█   █ ▒██▀ ██▌   ▒██▒  ██▒▓██   ▒    ▓██░  ██▒▒████▄     ██▒ ▀█▒▓█   ▀ 
+▒███   ▓██  ▀█ ██▒░██   █▌   ▒██░  ██▒▒████ ░    ▓██░ ██▓▒▒██  ▀█▄  ▒██░▄▄▄░▒███   
+▒▓█  ▄ ▓██▒  ▐▌██▒░▓█▄   ▌   ▒██   ██░░▓█▒  ░    ▒██▄█▓▒ ▒░██▄▄▄▄██ ░▓█  ██▓▒▓█  ▄ 
+░▒████▒▒██░   ▓██░░▒████▓    ░ ████▓▒░░▒█░       ▒██▒ ░  ░ ▓█   ▓██▒░▒▓███▀▒░▒████▒
+░░ ▒░ ░░ ▒░   ▒ ▒  ▒▒▓  ▒    ░ ▒░▒░▒░  ▒ ░       ▒▓▒░ ░  ░ ▒▒   ▓▒█░ ░▒   ▒ ░░ ▒░ ░
+ ░ ░  ░░ ░░   ░ ▒░ ░ ▒  ▒      ░ ▒ ▒░  ░         ░▒ ░       ▒   ▒▒ ░  ░   ░  ░ ░  ░
+   ░      ░   ░ ░  ░ ░  ░    ░ ░ ░ ▒   ░ ░       ░░         ░   ▒   ░ ░   ░    ░   
+   ░  ░         ░    ░           ░ ░                            ░  ░      ░    ░  ░
+                   ░                                                               
+
+
+
+//*******Display tech library link*******
+//used in tech link module
+[tech_link]
+
+
+//*****tech link module**********
+[tech_link_module
+title=""
+key1=""
+value1=""
+key2=""
+value2=""]
+
+
+//*******display part numbers for a given series*******
+[parts title='' series='' line='' filter='']
+
+
+//*******Prefooter modules*******
+//somewhat complicated but better to
+//adjust it a year later here than on every page latter
+//still in development and not used yet
+[prefooterwrap class='added class']
+	[prefooter class='' link='link for prefooter']
+		content for prefooter
+	[/prefooterleft]
+	[prefooter class='' link='link for prefooter']
+		content for prefooter
+	[/prefooterleft]
+[/prefooter]
 
 
 ```
