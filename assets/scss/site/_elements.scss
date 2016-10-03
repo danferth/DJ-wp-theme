@@ -549,18 +549,54 @@ table.product-ref-table{
   
 }
 .comparison-left{
-  h4{
+  h3{
     color:lighten($warning-color, 20%);
     margin-top:0;
   }
   color:$iron;
 }
 .comparison-right{
-  h4{
+  h3{
     color:$primary-color;
     margin-top:0;
   }
 }
+//related products module
+.related-product-module{
+  .related-product-wrap{
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    &:hover{
+      .related-product-pannel{
+        bottom:0;
+      }
+    }
+    img{
+      width:100%;
+      height:auto;
+    }
+    .related-product-pannel{
+      position:absolute;
+      left:0;
+      bottom:-50%;
+      width:100%;
+      height:50%;
+      padding:1rem 1.5rem;
+      background: rgba($white, .9);
+      box-shadow: inset 0 0 20px $silver;
+      transition:bottom 500ms;
+      @media screen and (max-width:$medium-breakpoint){
+        bottom:0;
+        background:rgba($white, .6);
+      }
+      h5{
+        margin:0;
+      }
+    }
+  }
+}
+
 //=====================================================================
 //========================Product page video row=======================
 //=====================================================================

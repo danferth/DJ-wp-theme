@@ -131,47 +131,17 @@ mBlocks_inner.each(function(){
 //on load animation
 TweenLite.to(mBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
 
-//==============
-//app blocks
-//==============
-
-var appBlocks     = $('.appnote-block li'),
-    appBlocksInnerWrap = $('.appnote-block-inner-wrap');
-
-//hover effects
-appBlocksInnerWrap.on('mouseenter', function(e){
-  TweenLite.to(this, .25, {scale:.96, ease: Power2.easeOut});
-});
-appBlocksInnerWrap.on('mouseleave', function(e){
-  TweenLite.to(this, .25, {scale:1, ease: Power2.easeIn});
+//=======================
+//related products module
+//=======================
+var relatedModule = $('.related-product-wrap');
+//click to get to `data-mainblocklink`
+relatedModule.on('click',function(){
+	var link = $(this).attr('data-link');
+	window.location.assign(url+link);
 });
 
-//auto color
-appBlocksInnerWrap.each(function(){
-  var rHue = Math.floor(Math.random()*(200 - 0));
-  $(this).css({
-    'background-color': 'hsl('+ rHue +', 8%, 92%)',
-    'border-color': 'hsl('+ rHue +', 15%, 40%)'
-  });
-});
 
-//redirect on click
-appBlocks.on('click', function(e){
-	var link = $(this).attr('data-appblocklink');
-	window.location.assign(link);
-});
-
-//waypoint scroll
-//this is to have the li items hidden during scroll up
-appBlocks.css({opacity:0});
-var waypoints = $('.appnote-block').waypoint({
-  handler: function(){
-  appBlocks.css({opacity:1});
-  TweenMax.staggerFrom(appBlocks, .6, {delay:.25, scale:.90, y:300, opacity:0, ease:Power3.easeOut},.125); 
-  this.destroy();
-},
-  offset: '75%'
-});
 
 //===========
 //prefooter
