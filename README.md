@@ -172,6 +172,14 @@ r_caption=”right caption”]
                    ░                                                               
 
 
+//******related product module*********
+[related_product_module_wrap title="" module_count=""]
+	[related_product_module src="" title="" link=""]
+		<p>content</p>
+	[/related_product_module]
+	....
+[/related_product_module_wrap]
+
 
 //*******Display tech library link*******
 //used in tech link module
