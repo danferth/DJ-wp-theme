@@ -538,4 +538,56 @@ function info_module_shortcode($atts, $content, $tag){
 }
 add_shortcode('info_module', 'info_module_shortcode');
 
+//******related product module*********
+// [related_product_module_wrap title="" module_count=""]
+//   [related_product_module src="" title="" link=""]
+//     <p>content</p>
+//   [/related_product_module]
+//   ....
+// [/related_product_module_wrap]
+function related_product_module_wrap_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'title' => '',
+    'module_count' => ''
+    ), $atts);
+  $output = "
+<div class='row'>
+  <div class='related-product-module small-12 column'>
+    <div class='small-12 column'>
+      <h2>".$a['title']."</h2>
+    </div>
+    <ul class='small-block-grid-1 medium-block-grid-".$a['module_count']."'>
+    ".do_shortcode($content)."
+    </ul>
+  </div>
+</div>";
+  return $output;
+}
+add_shortcode('related_product_module_wrap', 'related_product_module_wrap_shortcode');
+
+function related_product_module_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'src' => '',
+    'title' => '',
+    'link' => ''
+    ), $atts);
+  $output = "
+<li>
+  <div class='related-product-wrap' data-link='".$a['link']."'>
+    <img src='".content_url('/uploads/') . $a['src'] ."'/>
+    <div class='related-product-pannel'>
+      <h5>".$a['title']."</h5>
+        ".$content."
+    </div>
+  </div>
+</li>  
+  ";
+  return $output;
+}
+add_shortcode('related_product_module', 'related_product_module_shortcode');
+
+
+
+
+
 ?>
