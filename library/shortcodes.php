@@ -304,7 +304,7 @@ function text_image_shortcode($atts, $content=null, $tag){
 		    <h2>".$a['title']."</h2>\n
 		    ".do_shortcode($content)."
 	    </div>\n
-	    <div class='small-12 medium-5 large-7 column'>\n
+	    <div class='push-down small-12 medium-5 large-7 column'>\n
 		    <img src='".content_url('/uploads/') . $a['src'] ."'/>\n
 		    <p class='disclaimer'>".$a['caption']."</p>\n
 	    </div>\n
@@ -325,7 +325,7 @@ function image_text_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "
     <div class='row'>\n
-	    <div class='small-12 medium-7 large-5 column'>\n
+	    <div class='push-down small-12 medium-7 large-5 column'>\n
 		    <img src='".content_url('/uploads/') . $a['src'] ."'/>\n
 		    <p class='disclaimer'>".$a['caption']."</p>\n
 	    </div>\n

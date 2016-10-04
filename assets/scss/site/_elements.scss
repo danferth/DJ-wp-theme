@@ -600,6 +600,12 @@ table.product-ref-table{
   }
 }
 
+//[text_image] & [image_text] shortcodes have image flush with top
+// needs to be pushed down to be inline with text not header 
+.push-down{
+  margin-top:4rem;
+}
+
 //=====================================================================
 //========================Product page video row=======================
 //=====================================================================
