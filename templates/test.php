@@ -62,6 +62,17 @@ get_header(); ?>
 <!-- =======================START======================= -->
 
      <p ng-bind-html="welcome"></p> 
+     
+     
+     
+     <script>
+     	
+     	var mypath = window.location.pathname;
+     	
+     	console.log(mypath);
+     	
+     	
+     </script>
 <!-- ========================END======================== -->
 </div><!-- END DIV FOR CONTENT -->
 			

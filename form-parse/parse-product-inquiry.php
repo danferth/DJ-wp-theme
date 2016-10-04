@@ -4,9 +4,10 @@ date_default_timezone_set('America/Los_Angeles');
 $first_name = trim($_POST['first-name']);
 $form_type = trim($_POST['form']);
 $product_type = trim($_POST['product']);
+$path = trim($_POST['path']);
 $query_string = '?first_name='.$first_name.'&form_type='.$form_type.'&product='.$product_type;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
-$next_page = 'test/';
+$next_page = $path;
 header('HTTP/1.1 303 See Other');
 
 	if (is_array($_POST)){

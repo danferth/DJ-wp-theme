@@ -218,7 +218,9 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
     sessionStorage.setItem('zipCode', zipCode);
     sessionStorage.setItem('phone', phone);
   };
+  $scope.path = window.location.pathname;
   
+  //onclick for tech items on product page
   $scope.sendId = function(techId){
     var newURL = url+"/tech?id="+techId;
     window.open(newURL, '_blank');
