@@ -522,6 +522,9 @@ table.product-ref-table{
     fieldset{
       margin:0;
       border-radius: 0 0 0 0;
+      .disclaimer{
+        margin-bottom:0;
+      }
     }
   }
 	.product-inquiry{

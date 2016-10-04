@@ -202,17 +202,21 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
     if(sessionStorage.getItem('zipCode')){
     $scope.zip_code = sessionStorage.getItem('zipCode');
   }
-  
+    if(sessionStorage.getItem('phone')){
+    $scope.phone = sessionStorage.getItem('phone');
+  }
     $scope.setter = function(formID){
     var fname   = $('#'+formID+' input[name="first-name"]').val(),
         lname   = $('#'+formID+' input[name="last-name"]').val(),
         email   = $('#'+formID+' input[name="email"]').val(),
-        zipCode = $('#'+formID+' input[name="zip-code"]').val();
+        zipCode = $('#'+formID+' input[name="zip-code"]').val(),
+        phone   = $('#'+formID+' input[name="phone"]').val();
         
     sessionStorage.setItem('fname', fname);
     sessionStorage.setItem('lname', lname);
     sessionStorage.setItem('email', email);
     sessionStorage.setItem('zipCode', zipCode);
+    sessionStorage.setItem('phone', phone);
   };
   
   $scope.sendId = function(techId){

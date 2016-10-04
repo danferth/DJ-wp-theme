@@ -18,6 +18,7 @@ header('HTTP/1.1 303 See Other');
 
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$_POST['email']);
 		$body .= sprintf("Zip code: <b>%s</b></br>\n",$_POST['zip-code']);
+		$body .= sprintf("Phone: <b>%s</b></br>\n",$_POST['phone']);
 		$body .= sprintf("<br />");
 		$body .= sprintf("Product: <b>%s</b></br>\n",$_POST['product']);
 		$body .= sprintf("Industry: <b>%s</b></br>\n",$_POST['industry']);

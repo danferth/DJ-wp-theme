@@ -6,29 +6,35 @@
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
-            <input type="text" name="first-name" placeholder="First Name" ng-value="first_name" required/>
+            <input type="text" name="first-name" placeholder="First Name*" ng-value="first_name" required/>
           </span>
 				</div>
 				<div class="small-12 medium-6 column">
 					<span id="last-name">
-            <input type="text" name="last-name" placeholder="Last Name" ng-value="last_name" required/>
+            <input type="text" name="last-name" placeholder="Last Name*" ng-value="last_name" required/>
           </span>
 				</div>
 				<div class="small-12 medium-8 column">
 					<span id="email">
-            <input type="email" name="email" placeholder="Email" ng-value="email" required/>
+            <input type="email" name="email" placeholder="Email*" ng-value="email" required/>
           </span>
 				</div>
 				<div class="small-12 medium-4 column">
 					<span id="zip-code">
-            <input type="text" name="zip-code" placeholder="Zip Code" ng-value="zip_code" required/>
+            <input type="text" name="zip-code" placeholder="Zip Code*" ng-value="zip_code" required/>
           </span>
 				</div>
-				<div class="small-12 column">
+				<div class="small-12 medium-8 column">
+				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
+				</div>
+				<div class="small-12 medium-4 column">
 				  <input type="hidden" name="form" value="sample"/>
 					<input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
-					<input class="button expand" type="submit" name="Submit" ng-click="setter('product-inquiry-sample')"/>
+					<input class="button small" type="submit" name="Submit" ng-click="setter('product-inquiry-sample')"/>
+				</div>
+				<div class="small-12 column">
+				  <p class="disclaimer">* Required Field</p>
 				</div>
 			</fieldset>
 		</form>
@@ -40,29 +46,35 @@
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
-            <input type="text" name="first-name" placeholder="First Name" ng-value="first_name" required/>
+            <input type="text" name="first-name" placeholder="First Name*" ng-value="first_name" required/>
           </span>
 				</div>
 				<div class="small-12 medium-6 column">
 					<span id="last-name">
-            <input type="text" name="last-name" placeholder="Last Name" ng-value="last_name" required/>
+            <input type="text" name="last-name" placeholder="Last Name*" ng-value="last_name" required/>
           </span>
 				</div>
 				<div class="small-12 medium-8 column">
 					<span id="email">
-            <input type="email" name="email" placeholder="Email" ng-value="email" required/>
+            <input type="email" name="email" placeholder="Email*" ng-value="email" required/>
           </span>
 				</div>
 				<div class="small-12 medium-4 column">
 					<span id="zip-code">
-            <input type="text" name="zip-code" placeholder="Zip Code" ng-value="zip_code" required/>
+            <input type="text" name="zip-code" placeholder="Zip Code*" ng-value="zip_code" required/>
           </span>
 				</div>
-				<div class="small-12 column">
+				<div class="small-12 medium-8 column">
+				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
+				</div>
+				<div class="small-12 medium-4 column">
 				  <input type="hidden" name="form" value="quote"/>
 				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
-					<input class="button expand" type="submit" name="Submit" ng-click="setter('product-inquiry-quote')" />
+					<input class="button small" type="submit" name="Submit" ng-click="setter('product-inquiry-quote')" />
+				</div>
+				<div class="small-12 column">
+				  <p class="disclaimer">* Required Field</p>
 				</div>
 			</fieldset>
 		</form>
@@ -74,29 +86,35 @@
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
-            <input type="text" name="first-name" placeholder="First Name" ng-value="first_name" required/>
+            <input type="text" name="first-name" placeholder="First Name*" ng-value="first_name" required/>
           </span>
 				</div>
 				<div class="small-12 medium-6 column">
 					<span id="last-name">
-            <input type="text" name="last-name" placeholder="Last Name" ng-value="last_name" required/>
+            <input type="text" name="last-name" placeholder="Last Name*" ng-value="last_name" required/>
           </span>
 				</div>
 				<div class="small-12 medium-8 column">
 					<span id="email">
-            <input type="email" name="email" placeholder="Email" ng-value="email" required/>
+            <input type="email" name="email" placeholder="Email*" ng-value="email" required/>
           </span>
 				</div>
 				<div class="small-12 medium-4 column">
 					<span id="zip-code">
-            <input type="text" name="zip-code" placeholder="Zip Code" ng-value="zip_code" required/>
+            <input type="text" name="zip-code" placeholder="Zip Code*" ng-value="zip_code" required/>
           </span>
 				</div>
-				<div class="small-12 column">
+				<div class="small-12 medium-8 column">
+				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
+				</div>
+				<div class="small-12 medium-4 column">
 				  <input type="hidden" name="form" value="contact"/>
 				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
-					<input class="button expand" type="submit" name="Submit" ng-click="setter('product-inquiry-contact')" />
+					<input class="button small" type="submit" name="Submit" ng-click="setter('product-inquiry-contact')" />
+				</div>
+				<div class="small-12 column">
+				  <p class="disclaimer">* Required Field</p>
 				</div>
 			</fieldset>
 		</form>

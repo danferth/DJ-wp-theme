@@ -213,16 +213,6 @@ add_shortcode('tech_link', 'tech_link_shortcode');
 //***********************************************PAGE LAYOUT******************************************************
 //****************************************************************************************************************
 
-function shortcode($atts, $content, $tag){
-  $a = shortcode_atts( array(
-    'att1' => 'default',
-    'att2' => 'default'
-    ), $atts);
-    $output = "markup";
-    return $output;
-}
-add_shortcode('element', 'function');
-
 //***hero image with select for industry*****
 //[hero_select src="folder/image.jpg" class="" placeholder="placeholder" product="for industry in app.js"]
 function hero_select_shortcode($atts, $content, $tag){
@@ -264,6 +254,53 @@ function image_full_shortcode($atts, $content, $tag){
     return $output;
 }
 add_shortcode('image_full', 'image_full_shortcode');
+
+//******centered block********
+//!!!!! MUST CLOSE THIS TAG !!!!!!!!
+//[centered class=" " src=" " caption=" " title=" "][/centered]
+function centered_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'class'   => '',
+    'src'     => '',
+    'caption' => '',
+    'title'   => ''
+    ), $atts);
+    
+  if($a['src']){
+   $output = "<div class='row'>";
+   
+    if($a['title']){
+      $output .= "<div class='small-12 medium-8 medium-centered column'><h2>".$a['title']."</h2></div>";
+    }
+   
+  $output .= "<div class='";
+    if(!$a['title']){ $output .="push-down ";}
+  
+  $output .="small-12 medium-8 medium-centered column'>
+      <img src='".content_url('/uploads/').$a['src']."' />
+    </div>
+    <div class='small-12 medium-8 medium-centered column'>
+      <p class='disclaimer'>".$a['caption']."</p>
+    </div>
+  </div>";
+  }else{
+   $output = "<div class='row'>";
+   
+    if($a['title']){
+      $output .= "<div class='small-12 medium-8 medium-centered column'><h2>".$a['title']."</h2></div>";
+    }
+   
+   $output .= "<div class='small-12 medium-8 medium-centered column'>
+      ".$content."
+    </div>
+  </div>"; 
+  }
+  return $output;
+}
+add_shortcode('centered', 'centered_shortcode');
+
+
+
 
 //**********intro paragraph and inquiry module
 //[intro_quiry title="header" product="for emails sent"]
