@@ -109,6 +109,11 @@ Version control on these files are turned off because they are automatically gen
 [image_full src=“image.jpg]
 
 
+//******centered block********
+//!!!!! MUST CLOSE THIS TAG !!!!!!!!
+[centered class=" " src=" " caption=" " title=" "][/centered]
+
+
 //**********intro paragraph and inquiry module
 [intro_quiry title="header" product="for emails sent"]
 	<p>content</p>

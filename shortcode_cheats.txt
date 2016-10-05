@@ -1,4 +1,4 @@
- ///////////////////////////////////////////////////////////
+﻿ ///////////////////////////////////////////////////////////
    _____ __               __                 __         
   / ___// /_  ____  _____/ /__________  ____/ /__  _____
   \__ \/ __ \/ __ \/ ___/ __/ ___/ __ \/ __  / _ \/ ___/
@@ -52,6 +52,14 @@
 
 //*******full page width image******
 [image_full src=“image.jpg]
+
+
+//******centered block********
+
+//!!!!! MUST CLOSE THIS TAG !!!!!!!!
+
+(src, title & caption are optional)
+[centered class=" " src=" " caption=" " title=" "][/centered]
 
 
 //**********intro paragraph and inquiry module
