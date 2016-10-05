@@ -32,7 +32,7 @@
 					<input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input type="hidden" name="path" ng-value="path" />
-					<input class="button small" type="submit" name="Submit" ng-click="setter('product-inquiry-sample')"/>
+					<input class="button small" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-sample')"/>
 				</div>
 				<div class="small-12 column">
 				  <p class="disclaimer">* Required Field</p>
@@ -73,7 +73,7 @@
 				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input type="hidden" name="path" ng-value="path" />
-					<input class="button small" type="submit" name="Submit" ng-click="setter('product-inquiry-quote')" />
+					<input class="button small" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-quote')" />
 				</div>
 				<div class="small-12 column">
 				  <p class="disclaimer">* Required Field</p>
@@ -114,7 +114,7 @@
 				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
 					<input type="hidden" name="path" ng-value="path" />
-					<input class="button small" type="submit" name="Submit" ng-click="setter('product-inquiry-contact')" />
+					<input class="button small" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-contact')" />
 				</div>
 				<div class="small-12 column">
 				  <p class="disclaimer">* Required Field</p>

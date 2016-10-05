@@ -944,6 +944,18 @@
 	},{
 		"line" : "OG",
 		"series" : "flask",
+		"title" : "Optimum Growth™ 2.8L Flask",
+		"description1" : "Use with Transfer Cap",
+		"description2" : "Sterile",
+		"partNum" : "931114",
+		"partNumber" : [{"num" : "931114", "qty" : "6"}],
+		"image" : "931114_lg.jpg",
+		"thum_image" : "931114_tn.png",
+		"tag" : [],
+		"URL" : "og/"
+	},{
+		"line" : "OG",
+		"series" : "flask",
 		"title" : "Optimum Growth™ 5L Flask",
 		"description1" : "Use with Transfer Cap",
 		"description2" : "Sterile",
@@ -977,18 +989,6 @@
 		"thum_image" : "931113-PORT-TRT_tn.png",
 		"tag" : [],
 		"URL" : ""
-	},{
-		"line" : "OG",
-		"series" : "flask",
-		"title" : "Optimum Growth™ 2.8L Flask",
-		"description1" : "Use with Transfer Cap",
-		"description2" : "Sterile",
-		"partNum" : "931114",
-		"partNumber" : [{"num" : "931114", "qty" : "6"}],
-		"image" : "931114_lg.jpg",
-		"thum_image" : "931114_tn.png",
-		"tag" : [],
-		"URL" : "og/"
 	},{
 		"line" : "OG",
 		"series" : "special",
