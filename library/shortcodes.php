@@ -519,6 +519,57 @@ function comparison_shortcode($atts, $content=null, $tag){
 }
 add_shortcode('comparison', 'comparison_shortcode');
 
+//==================================================
+
+//**********deul boxes********************
+// [deul_boxes class=" " title=" "]
+//     [deul_box class=" " title=" "]
+//       <p>content</p>
+//     [/deul_box]
+//     [deul_box class=" " title=" "]
+//       <p>content</p>
+//     [/deul_box]
+// [/deul_boxes]
+
+//[deul_box class=" " title=" "]
+function deul_box_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'title' => '',
+    'class' => ''
+    ), $atts);
+    $output = "
+    <div class='".$a['class']." comparison-left small-12 medium-6 column'>";
+      if($a['title']){$output .= "<div class='small-12 column'>
+        <h2>".$a['title']."</h2>
+      </div>";}
+      $output .= $content."</div>";
+    return $output;
+}
+add_shortcode('deul_box', 'deul_box_shortcode');
+
+//[deul_boxes class=" " title=" "]
+function deul_boxes_shortcode($atts, $content=null, $tag){
+  $a = shortcode_atts( array(
+    'class' => '',
+    'title' => '',
+    ), $atts);
+    $output = "<div class='row ".$a['class']."'>";
+    if($a['title']){$output .= "<div class='small-12 column'>
+        <h2>".$a['title']."</h2>
+      </div>";}
+    $output .= do_shortcode($content) . "</div>";
+    return $output;
+}
+add_shortcode('deul_boxes', 'deul_boxes_shortcode');
+
+
+
+
+
+
+
+//==================================================
+
 //*****tech link module**********
 // [tech_link_module
 // title=""
