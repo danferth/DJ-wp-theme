@@ -522,17 +522,17 @@ add_shortcode('comparison', 'comparison_shortcode');
 //==================================================
 
 //**********deul boxes********************
-// [deul_boxes class=" " title=" "]
-//     [deul_box class=" " title=" "]
+// [duel_boxes class=" " title=" "]
+//     [duel_box class=" " title=" "]
 //       <p>content</p>
-//     [/deul_box]
-//     [deul_box class=" " title=" "]
+//     [/duel_box]
+//     [duel_box class=" " title=" "]
 //       <p>content</p>
-//     [/deul_box]
-// [/deul_boxes]
+//     [/duel_box]
+// [/duel_boxes]
 
-//[deul_box class=" " title=" "]
-function deul_box_shortcode($atts, $content=null, $tag){
+//[duel_box class=" " title=" "]
+function duel_box_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'title' => '',
     'class' => ''
@@ -545,10 +545,10 @@ function deul_box_shortcode($atts, $content=null, $tag){
       $output .= do_shortcode($content)."</div>";
     return $output;
 }
-add_shortcode('deul_box', 'deul_box_shortcode');
+add_shortcode('duel_box', 'duel_box_shortcode');
 
-//[deul_boxes class=" " title=" "]
-function deul_boxes_shortcode($atts, $content=null, $tag){
+//[duel_boxes class=" " title=" "]
+function duel_boxes_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'class' => '',
     'title' => '',
@@ -560,7 +560,7 @@ function deul_boxes_shortcode($atts, $content=null, $tag){
     $output .= do_shortcode($content) . "</div>";
     return $output;
 }
-add_shortcode('deul_boxes', 'deul_boxes_shortcode');
+add_shortcode('duel_boxes', 'duel_boxes_shortcode');
 
 
 
