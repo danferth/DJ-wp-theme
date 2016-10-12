@@ -542,7 +542,7 @@ function deul_box_shortcode($atts, $content=null, $tag){
       if($a['title']){$output .= "<div class='small-12 column'>
         <h2>".$a['title']."</h2>
       </div>";}
-      $output .= $content."</div>";
+      $output .= do_shortcode($content)."</div>";
     return $output;
 }
 add_shortcode('deul_box', 'deul_box_shortcode');
