@@ -609,6 +609,13 @@ table.product-ref-table{
   margin-top:4rem;
 }
 
+//page-module is for column elements in a page that need solid bg
+.page-module{
+  background:$info-color;
+  border-radius:.25rem;
+  border: 1px solid $aluminum;
+}
+
 //=====================================================================
 //========================Product page video row=======================
 //=====================================================================

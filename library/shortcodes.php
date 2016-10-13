@@ -377,6 +377,7 @@ add_shortcode('image_text', 'image_text_shortcode');
 
 //**********dual images*************
 // [dual_image
+// class=" "
 // l_title=”left title”
 // l_src=”left image”
 // l_caption=”left caption”
@@ -386,6 +387,7 @@ add_shortcode('image_text', 'image_text_shortcode');
 
 function dual_image_shortcode($atts, $content, $tag){
   $a = shortcode_atts(array(
+    'class'     => '',
     'l_title'   => '',
     'l_src'     => '',
     'l_caption' => '',
@@ -394,7 +396,7 @@ function dual_image_shortcode($atts, $content, $tag){
     'r_caption' => ''
     ), $atts);
     $output="
-    <div class='row'>\n
+    <div class='row ".$a['class']."'>\n
 	<div class='small-12 medium-6 column'>\n
 		<h2>".$a['l_title']."</h2>\n
 		<img src='".content_url('/uploads/') . $a['l_src'] ."'/>\n
@@ -519,9 +521,7 @@ function comparison_shortcode($atts, $content=null, $tag){
 }
 add_shortcode('comparison', 'comparison_shortcode');
 
-//==================================================
-
-//**********deul boxes********************
+//**********duel boxes********************
 // [duel_boxes class=" " title=" "]
 //     [duel_box class=" " title=" "]
 //       <p>content</p>
@@ -538,10 +538,8 @@ function duel_box_shortcode($atts, $content=null, $tag){
     'class' => ''
     ), $atts);
     $output = "
-    <div class='".$a['class']." comparison-left small-12 medium-6 column'>";
-      if($a['title']){$output .= "<div class='small-12 column'>
-        <h2>".$a['title']."</h2>
-      </div>";}
+    <div class='".$a['class']." small-12 medium-6 column'>";
+      if($a['title']){$output .= "<h2>".$a['title']."</h2>";}
       $output .= do_shortcode($content)."</div>";
     return $output;
 }
@@ -561,14 +559,6 @@ function duel_boxes_shortcode($atts, $content=null, $tag){
     return $output;
 }
 add_shortcode('duel_boxes', 'duel_boxes_shortcode');
-
-
-
-
-
-
-
-//==================================================
 
 //*****tech link module**********
 // [tech_link_module
