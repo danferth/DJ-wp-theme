@@ -609,13 +609,25 @@ table.product-ref-table{
   margin-top:4rem;
 }
 
-//page-module is for column elements in a page that need solid bg
+//page-module is for column elements in a page that need to stand out
 .page-module{
-  background:$info-color;
+  background:lighten($info-color, 5%);
   border-radius:.25rem;
-  border: 1px solid $aluminum;
+  border: 1px solid $iron;
+  padding:.5rem 1rem;
+  margin-bottom: 1rem;
+  h1, h2, h3, h4, h5, h6{
+    margin-top:.5rem;
+  }
 }
 
+
+//FV page module for types of FV elements
+.min-max{
+  font-size:.7rem;
+  line-height:1.2;
+  margin-bottom:.5rem;
+}
 //=====================================================================
 //========================Product page video row=======================
 //=====================================================================

@@ -341,10 +341,10 @@ function text_image_shortcode($atts, $content=null, $tag){
 		    <h2>".$a['title']."</h2>\n
 		    ".do_shortcode($content)."
 	    </div>\n
-	    <div class='push-down small-12 medium-5 column'>\n
-		    <img src='".content_url('/uploads/') . $a['src'] ."'/>\n
-		    <p class='disclaimer'>".$a['caption']."</p>\n
-	    </div>\n
+	    <div class='push-down small-12 medium-5 column'>\n";
+		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
+		    if($a['caption']){$output .= "<p class='disclaimer'>".$a['caption']."</p>\n";}
+	    $output .= "</div>\n
     </div>";
     return $output;
 }
@@ -362,10 +362,10 @@ function image_text_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "
     <div class='row'>\n
-	    <div class='push-down small-12 medium-5 column'>\n
-		    <img src='".content_url('/uploads/') . $a['src'] ."'/>\n
-		    <p class='disclaimer'>".$a['caption']."</p>\n
-	    </div>\n
+	    <div class='push-down small-12 medium-5 column'>\n";
+		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
+		    if($a['caption']){$output .= "<p class='disclaimer'>".$a['caption']."</p>\n";}
+	    $output .= "</div>\n
 	    <div class='small-12 medium-7 column'>\n
 		    <h2>".$a['title']."</h2>\n
 		    ".do_shortcode($content)."
