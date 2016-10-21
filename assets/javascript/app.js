@@ -226,6 +226,13 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
     window.open(newURL, '_blank');
   };
   
+  //for setting session storage for page to page
+  //this isn't used yet opted for a separate page for well plates for now
+  $scope.setStorage = function(key, value){
+    sessionStorage.setItem(key, value);
+  }
+  
+  
 }]);
 
 //=========techlibrary=================
