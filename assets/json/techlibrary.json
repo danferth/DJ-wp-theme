@@ -3164,5 +3164,20 @@
     "tags"            : [],
     "date"            : "10/14/2016",
     "image"           : ""
+    },{
+    "id"              : 212,
+    "title"           : "Maintaining HPLC Performance Through the use of Thomson HPLC Filter Vials",
+    "description"     : "Routine analysis of samples containing cell culture media and/or supernatant by HPLC can lead to performance issues and can require frequent purchasing of new columns and increased HPLC maintenance. ... Here, we demonstrate that using Thomson [filter vials]] during sample preparation results in minimal impact preparation time, no detectable loss in product, and improved column performance leading to extended column lifetimes.",
+    "citation"        : "Srilaxmi Sarikonda, Nathan P. Oien, Ph.D. and James G. Smedley III, Ph.D.<br/>Analytical Development, KBI Biopharma, Research Triangle Park, NC",
+    "link"            : "maintaining-HPLC-performance.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "FV",
+    "subProductLine"  : "all",
+    "science"         : "",
+    "industry"        : "",
+    "tags"            : [],
+    "date"            : "10/26/2016",
+    "image"           : ""
     }
 ]
