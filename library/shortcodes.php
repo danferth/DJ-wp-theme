@@ -107,13 +107,13 @@ function parts_shortcode($atts, $content, $tag){
   $content_url = wp_upload_dir();
   $prod_url = $content_url['baseurl']."/products/";
   $output = "
-  <div class='partnumber_set row'>
-    
-    <div class='small-12 column'>
+  <div class='partnumber_set row'>";
+if($a['title']){    
+    $output .= "<div class='small-12 column'>
     <h4>".$a['title']." Part Numbers</h4>
-    </div>
-    
-    <div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"} | filter:\"".$a['filter']."\"'>
+    </div>";
+}
+  $output .=  "<div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"} | filter:".$a['filter']."'>
       
       <div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
         <img ng-src='".$prod_url."{{ p.image }}'/>
