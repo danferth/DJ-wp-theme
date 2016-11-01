@@ -425,12 +425,11 @@ function column_text_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'title' => ''
     ), $atts);
-    $output = "
-    <div class='row'>\n
-      <div class='small-12 column'>\n
+    $output = "<div class='row'>\n";
+      if($a['title']){$output .= "<div class='small-12 column'>\n
         <h2>".$a['title']."</h2>
-      </div>\n
-      <div class='column-text small-12 column'>\n
+      </div>\n";}
+      $output .= "<div class='column-text small-12 column'>\n
         ".$content."\n
       </div>\n
     </div>";
@@ -668,8 +667,16 @@ function related_product_module_shortcode($atts, $content=null, $tag){
 }
 add_shortcode('related_product_module', 'related_product_module_shortcode');
 
+//links and what not oh god here we go down the rabbit hole.......
 
-
-
+function uploads_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'src' => ''
+    ), $atts);
+  $uploads = content_url('/uploads/');
+  $output = $uploads . $a['src'];
+  return $output;
+}
+add_shortcode('uploads', 'uploads_shortcode');
 
 ?>
