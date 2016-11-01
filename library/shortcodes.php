@@ -113,9 +113,14 @@ if($a['title']){
     <h4>".$a['title']." Part Numbers</h4>
     </div>";
 }
-  $output .=  "<div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"} | filter:".$a['filter']."'>
+  $output .=  "<div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"}";
+  if($a['filter']){
+    $output .= "| filter:".$a['filter']."'>";
+  }else{
+    $output .= "'>";
+  }
       
-      <div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
+      $output .= "<div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
         <img ng-src='".$prod_url."{{ p.image }}'/>
       </div>
       
@@ -148,8 +153,7 @@ if($a['title']){
       </div>
       
     </div>
-  </div>
-  ";
+  </div>";
   return $output;
 }
 
