@@ -155,6 +155,14 @@ $row-width: rem-calc(1200);
  $h4-font-size: rem-calc(18);
  $h5-font-size: rem-calc(16);
  $h6-font-size: 1rem;
+ 
+// We use these to control header size reduction on small screens
+ $h1-font-reduction: rem-calc(10);
+ $h2-font-reduction: rem-calc(3);
+ $h3-font-reduction: rem-calc(3);
+ $h4-font-reduction: rem-calc(5);
+ $h5-font-reduction: 0;
+ $h6-font-reduction: 0;
 
  $paragraph-font-size: rem-calc(14);
  $paragraph-line-height: 1.5;
@@ -165,6 +173,12 @@ $row-width: rem-calc(1200);
  $blockquote-font-color: $oil;
  $blockquote-padding: rem-calc(4 28);
  $blockquote-cite-font-color: $aluminum;
+ 
+// We use these to style the <hr> element
+// $hr-border-width: 1px;
+// $hr-border-style: solid;
+// $hr-border-color: $gainsboro;
+// $hr-margin: rem-calc(20);
 
 // 30. Tables
 // - - - - - - - - - - - - - - - - - - - - - - - - -
