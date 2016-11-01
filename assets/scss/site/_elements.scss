@@ -1,6 +1,6 @@
 //shamefull corrections to the core!========
-.top-bar-section .dropdown {
-  z-index:1000;
+.top-bar-container {
+
 }
 .entry-content table{
   width:100%;  //this may have to be moved to core if no issues creep up.
@@ -18,7 +18,9 @@
 //=====================================================================
 .main-block{
   opacity:0;
-    cursor:pointer;
+  cursor:pointer;
+  z-index:80;
+  position:relative;
   .inner-block{
     padding: 0;
     background:$ghost;
