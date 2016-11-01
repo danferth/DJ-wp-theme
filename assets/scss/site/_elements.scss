@@ -20,20 +20,20 @@
   position:relative;
   .inner-block{
     padding: 0;
-    background:$white;
+    background:$ghost;
     box-shadow: 0 0 5px 0 $steel;
     color:$oil;
-    border-radius: .30rem;
+    border-radius: 0 0 .30rem .30rem;
     transform-origin:50% 50%;
     transition: all 150ms;
     &:hover{
         box-shadow: 0 0 8px 0 $oil;
-        background: $ghost;
+        background: $white;
         .main-block-image-wrap{
           //background:$black;
           img{
             //opacity:.25;
-            transform:scale(1.1);
+            transform:scale(1.05);
           }
         }
     }
@@ -60,7 +60,6 @@
   }
 
   .main-block-image-wrap{
-    border-radius:.30rem .30rem 0 0;
     width:100%;
     height:auto;
     overflow:hidden;
@@ -80,7 +79,7 @@
       width:100%;
       height:auto;
       transform-origin:50% 50%;
-      transition:all 500ms;
+      transition:all 1000ms;
     }
   }
 }
