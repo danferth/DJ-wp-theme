@@ -1186,7 +1186,7 @@
 		"image" : "931706_lg.jpg",
 		"thum_image" : "931706_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1199,7 +1199,7 @@
 		"image" : "931705_lg.jpg",
 		"thum_image" : "931705_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1212,7 +1212,7 @@
 		"image" : "931708_lg.jpg",
 		"thum_image" : "931708_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1225,7 +1225,7 @@
 		"image" : "931710_lg.jpg",
 		"thum_image" : "931710_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1237,7 +1237,7 @@
 		"image" : "931609_lg.jpg",
 		"thum_image" : "931609_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1249,7 +1249,7 @@
 		"image" : "931700_lg.jpg",
 		"thum_image" : "931700_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1262,7 +1262,7 @@
 		"image" : "931594_lg.jpg",
 		"thum_image" : "931594_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1275,7 +1275,7 @@
 		"image" : "931596_lg.jpg",
 		"thum_image" : "931596_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1288,7 +1288,7 @@
 		"image" : "931595_lg.jpg",
 		"thum_image" : "931595_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1301,7 +1301,7 @@
 		"image" : "931598_lg.jpg",
 		"thum_image" : "931598_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1314,7 +1314,7 @@
 		"image" : "931616_lg.jpg",
 		"thum_image" : "931616_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/inversion/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1326,7 +1326,7 @@
 		"image" : "931606_lg.jpg",
 		"thum_image" : "931606_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1338,7 +1338,7 @@
 		"image" : "931607_lg.jpg",
 		"thum_image" : "931607_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1350,7 +1350,7 @@
 		"image" : "931704_lg.jpg",
 		"thum_image" : "931704_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1362,7 +1362,7 @@
 		"image" : "931702_lg.jpg",
 		"thum_image" : "931702_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1374,7 +1374,7 @@
 		"image" : "931804_lg.jpg",
 		"thum_image" : "931804_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1386,7 +1386,7 @@
 		"image" : "931614_lg.jpg",
 		"thum_image" : "931614_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1398,7 +1398,7 @@
 		"image" : "931618_lg.jpg",
 		"thum_image" : "931618_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/bidirectional/"
+		"URL" : "og/tc/"
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
