@@ -682,15 +682,4 @@ function uploads_shortcode($atts, $content, $tag){
 }
 add_shortcode('uploads', 'uploads_shortcode');
 
-//testing a theroy
-function test_shortcode($atts, $content, $tag){
-  $a = shortcode_atts(array (
-    'pull' => false
-    ), $atts);
-    $class = "push ";
-    if($a['pull']){$class = "";}
-  $output = "<p class='".$class."another-class'>this is how we do the brand new dance now!...</p>";
-  return $output;
-}
-add_shortcode('test', 'test_shortcode');
 ?>
