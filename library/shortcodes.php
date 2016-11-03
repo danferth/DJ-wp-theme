@@ -337,10 +337,13 @@ function text_image_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'src' => '',
     'caption' => '',
-    'title' => ''
+    'title' => '',
+    'pull' => false
     ), $atts);
+    $class = "push-down ";
+    if($a['pull']){$class = "";}
     $output = "<div class='row'>\n
-	    <div class='push-down small-12 medium-5 medium-push-7 column'>\n";
+	    <div class='".$class."small-12 medium-5 medium-push-7 column'>\n";
 		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
 		    if($a['caption']){$output .= "<p class='disclaimer'>".$a['caption']."</p>\n";}
 	    $output .= "</div>\n
@@ -679,4 +682,15 @@ function uploads_shortcode($atts, $content, $tag){
 }
 add_shortcode('uploads', 'uploads_shortcode');
 
+//testing a theroy
+function test_shortcode($atts, $content, $tag){
+  $a = shortcode_atts(array (
+    'pull' => false
+    ), $atts);
+    $class = "push ";
+    if($a['pull']){$class = "";}
+  $output = "<p class='".$class."another-class'>this is how we do the brand new dance now!...</p>";
+  return $output;
+}
+add_shortcode('test', 'test_shortcode');
 ?>
