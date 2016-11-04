@@ -168,14 +168,14 @@ plates.filter('yesNo', function(){
 var product_page = angular.module('product_page', ['ngSanitize']);
 product_page.controller('product_pageController', ['$scope', '$http', function($scope,$http){
   
-  $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
-    $scope.tcinfo = rslt.data;
-  });
   $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
     $scope.products = rslt.data;
   });
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
+  });
+  $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
+    $scope.tcinfo = rslt.data;
   });
   
   //product set with attribute on <product-inquiry product="foobar"></product-inquiry>
