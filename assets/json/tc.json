@@ -11,8 +11,8 @@
 		"thum_image"      : "931706_tn.png",
 		"tag"             : [],
 		"flask"           : ["1.6L", "2.8L"],
-		"tubing_length"   : "",
-		"tubing_diameter" : "",
+		"tubing_length"   : "n/a",
+		"tubing_diameter" : "n/a",
 		"connection"      : "7/16\" (11.1mm) Barb"
 	},{
 		"type"            : "inversion",
@@ -58,7 +58,7 @@
 		"flask"           : ["1.6L", "2.8L"],
 		"tubing_length"   : "2'",
 		"tubing_diameter" : "C-Flex 16 ID: 1/8\" (3.1mm), OD: 1/4\" (6.35mm)",
-		"connection"      : "Female Lure Lock"
+		"connection"      : "Female Luer Lock"
 	},{
 		"type"            : "inversion",
 		"title"           : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
@@ -71,8 +71,8 @@
 		"thum_image"      : "931594_tn.png",
 		"tag"             : [],
 		"flask"           : ["5L"],
-		"tubing_length"   : "",
-		"tubing_diameter" : "",
+		"tubing_length"   : "n/a",
+		"tubing_diameter" : "n/a",
 		"connection"      : "1/4\" (6.35mm) Barb"
 	},{
 		"type"            : "inversion",
@@ -86,8 +86,8 @@
 		"thum_image"      : "931596_tn.png",
 		"tag"             : [],
 		"flask"           : ["5L"],
-		"tubing_length"   : "",
-		"tubing_diameter" : "",
+		"tubing_length"   : "n/a",
+		"tubing_diameter" : "n/a",
 		"connection"      : "7/16\" (11.1mm) Barb"
 	},{
 		"type"            : "inversion",
@@ -161,7 +161,7 @@
 		"flask"           : ["1.6L"],
 		"tubing_length"   : "2'",
 		"tubing_diameter" : "C-Flex 16 ID: 1/8\" (3.1mm), OD: 1/4\" (6.35mm)",
-		"connection"      : "Lure Lock"
+		"connection"      : "Luer Lock"
 	},{
 		"type"            : "bidirectional",
 		"title"           : "Bidirectional Transfer Cap for Optimum Growth™ 2.8L Flask",
@@ -203,7 +203,7 @@
 		"flask"           : ["5L"],
 		"tubing_length"   : "2'",
 		"tubing_diameter" : "C-Flex 16 ID: 1/8\" (3.1mm), OD: 1/4\" (6.35mm)",
-		"connection"      : "Lure Lock"
+		"connection"      : "Luer Lock"
 	},{
 		"type"            : "accessory",
 		"title"           : "Stand with Ring for Inverting Optimum Growth™ 1.6L Flask",
