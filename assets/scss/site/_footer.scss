@@ -13,9 +13,10 @@
     a{
     	color:$iron;
     	font-weight:bold;
-    	transform:color 250ms;
+    	transition:all 250ms;
+    	text-shadow:-1px 0 0 $jet;
     	&:hover{
-    		color:$vapor;
+    		color:$white;
     	}
     }
 	#footer {
