@@ -22,7 +22,7 @@ tic.directive('plateSearch', function(){
 //==============================
 //===PRODUCT INQUIRY MODULE=====
 //==============================
-product_page.directive('productInquiry', function(){
+tic.directive('productInquiry', function(){
   return{
     restrict: 'E',
     replace: 'true',

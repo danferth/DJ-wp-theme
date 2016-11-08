@@ -1,4 +1,4 @@
-<div class="product-inquiry-module small-12 column">
+<div class="product-inquiry-module small-12 column" ng-controller="inquiryController">
 
 	<div class="product-inquiry small-12 column">
 		<button class="product-inquiry-button buttom expand" data-text="Get a Sample">Get a Sample</button>

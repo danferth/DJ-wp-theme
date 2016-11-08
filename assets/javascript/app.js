@@ -68,6 +68,12 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
       window.scroll(0,0);
     };
   
+  //onclick for tech items on product page
+  $scope.sendId = function(techId){
+    var newURL = url+"/tech?id="+techId;
+    window.open(newURL, '_blank');
+  };
+  
 }]);
 
 //=====distributors page=====
@@ -161,7 +167,7 @@ tic.controller('chemicalIndexController', ['$scope', '$http',function($scope, $h
   });
 }]);
 
-//=====product search=====
+//=====product search page=====
 tic.controller('productsController', ['$scope', '$http',function($scope, $http){
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
@@ -199,36 +205,8 @@ tic.controller('platesearchController', ['$scope','$http', function($scope,$http
 }]);
 
 
-
-//=====Product pages=====
-var product_page = angular.module('product_page', ['ngSanitize']);
-product_page.controller('product_pageController', ['$scope', '$http', function($scope,$http){
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
-    $scope.products = rslt.data;
-  });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
-    $scope.tcinfo = rslt.data;
-  });
-  
-  //product set with attribute on <product-inquiry product="foobar"></product-inquiry>
-  $scope.product = "no product set!";
-  //select
-
-    $scope.UYF_options = [
-      { "value" : "ecoli", "label" : "E. Coli" },
-      { "value" : "microbial", "label" : "Microbial" },
-      { "value" : "pink backtirium", "label" : "Pink Bacterium" },
-      { "value" : "streptomyces" , "label" : "streptomyces" } 
-    ];
-
-
-  $scope.industry = { "value" : "", "label" : "no industry selected" };
-  
-  //form
+//=====inquiry module======
+tic.controller('inquiryController', ['$scope', function($scope){
   if(sessionStorage.getItem('fname')){
     $scope.first_name = sessionStorage.getItem('fname');
   }
@@ -258,12 +236,34 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
     sessionStorage.setItem('phone', phone);
   };
   $scope.path = window.location.pathname;
+}]);
+
+//=====Product pages=====
+tic.controller('product_pageController', ['$scope', '$http', function($scope,$http){
   
-  //onclick for tech items on product page
-  $scope.sendId = function(techId){
-    var newURL = url+"/tech?id="+techId;
-    window.open(newURL, '_blank');
-  };
+  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
+    $scope.products = rslt.data;
+  });
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+  });
+  $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
+    $scope.tcinfo = rslt.data;
+  });
+  
+  //product set with attribute on <product-inquiry product="foobar"></product-inquiry>
+  $scope.product = "no product set!";
+  //select
+
+    $scope.UYF_options = [
+      { "value" : "ecoli", "label" : "E. Coli" },
+      { "value" : "microbial", "label" : "Microbial" },
+      { "value" : "pink backtirium", "label" : "Pink Bacterium" },
+      { "value" : "streptomyces" , "label" : "streptomyces" } 
+    ];
+
+
+  $scope.industry = { "value" : "", "label" : "no industry selected" };
   
 }]);
 
