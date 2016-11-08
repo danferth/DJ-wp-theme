@@ -1,4 +1,6 @@
-//=====plate search=====
+//==============================
+//=========PLATE SEARCH=========
+//==============================
 tic.directive('plateSearch', function(){
   return{
     restrict: 'E',
@@ -17,10 +19,9 @@ tic.directive('plateSearch', function(){
   };
 });
   
-
-//=====test directive=====
-
-//=====Product Inquiry=====
+//==============================
+//===PRODUCT INQUIRY MODULE=====
+//==============================
 product_page.directive('productInquiry', function(){
   return{
     restrict: 'E',
@@ -31,9 +32,6 @@ product_page.directive('productInquiry', function(){
       //set products attribute
       scope.product = attrs["product"];
 
-//==============================
-//===PRODUCT INQUIRY MODULE=====
-//==============================
 
 var prodInqForm = $('.product-inquiry-form');
 var prodInqBtn = $('.product-inquiry-button');
@@ -111,5 +109,9 @@ prodInqBtn.on('click', function(e) {
     }//end link function
   };
 });
-  
+
+//=====test directive=====
+
+
+
 //=====test directive=====

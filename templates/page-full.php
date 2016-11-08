@@ -28,20 +28,11 @@ if(get_post_meta($post->ID, "has-prefooter")){
 }
 
 //for angular
-$ng_app = "";
-if(get_post_meta($post->ID, "ng-app")){
-	$ngApp = get_post_meta($post->ID, "ng-app", true);
-	$ng_app = "ng-app='" . $ngApp . "'";
-}
-
 $ng_controller = "";
 if(get_post_meta($post->ID, "ng-controller")){
 	$ngController = get_post_meta($post->ID, "ng-controller", true);
 	$ng_controller = "ng-controller='" . $ngController . "'";
 }
-
-//for raodmap
-$science = $_GET['sci'];
 
 
 get_header(); ?>
@@ -61,14 +52,6 @@ get_header(); ?>
 				<?php the_content(); ?>
 			</div>
 			
-			<!-- the below footer and enclosed p tag caused a position issue with the 
-			prefooter optional addition to pages. It caused the prefooter to not sit 
-			flush to the top of the  footer so is comented out as this site will probably 
-			not have a series of multiple pages  uncoment or create new temploate to use -->
-			<!--<footer>-->
-			<!--	<?php //wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>-->
-			<!--	<p><?php //the_tags(); ?></p>-->
-			<!--</footer>-->
 			<?php comments_template(); ?>
 	<?php endwhile; // End the loop ?>
 

@@ -28,12 +28,6 @@ if(get_post_meta($post->ID, "has-prefooter")){
 }
 
 //for angular
-$ng_app = "";
-if(get_post_meta($post->ID, "ng-app")){
-	$ngApp = get_post_meta($post->ID, "ng-app", true);
-	$ng_app = "ng-app='" . $ngApp . "'";
-}
-
 $ng_controller = "";
 if(get_post_meta($post->ID, "ng-controller")){
 	$ngController = get_post_meta($post->ID, "ng-controller", true);
@@ -47,68 +41,21 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
 
-<div class="row full-page-top <?php echo $prefooter_class; ?>">
+<div class="row full-page-top <?php echo $prefooter_class; ?>" ng-app="tic" ng-controller="ticController">
 	<?php /* Start loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+		<article <?php post_class() ?> id="post-<?php the_ID(); ?>" <?php echo $ng_controller; ?>>
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 			</header>
-	<div class="small-12 large-12 columns" role="main" <?php echo $ng_app . " " . $ng_controller; ?>>
+	<div class="small-12 large-12 columns" role="main">
 
 			<div class="entry-content">
 				<?php //the_content(); this is normally uncomented and WP adds the content of the page from the db  this page is more for testing so put everything in here that you would mornally and have it just work ?>
 			
 <!-- =======================START======================= -->
 
-      <div class="row">
-      <div class="small-6 column">
-         <input type="text" ng-model="search" placeholder="search tech library data" />
-      </div>
-   </div>
-
-   <div class="row">
-      <div class="column small-12">
-
-         <table>
-            <thead>
-               <tr>
-                  <th><a href="" ng-click="sortType='id'; sortReverse=!sortReverse;">id <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <th><a href="" ng-click="sortType='linkType'; sortReverse=!sortReverse;">link type <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <th><a href="" ng-click="sortType='link'; sortReverse=!sortReverse;">link <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <th><a href="" ng-click="sortType='productLine'; sortReverse=!sortReverse;">prod <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <th><a href="" ng-click="sortType='subProductLine'; sortReverse=!sortReverse;">subProd <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <th><a href="" ng-click="sortType='title'; sortReverse=!sortReverse;">title <i class="fa" ng-class="sortReverse ? 'fa-caret-up' : 'fa-caret-down'"></i></th>
-                  <th>science</th>
-                  <th>industry</th>
-                  <!--<th>description</th>-->
-                  <!--<th>citation</th>-->
-                  <!--<th>link</th>-->
-                  <!--<th>link type</th>-->
-                  <th>tags</th>
-               </tr>
-            </thead>
-            <tbody>
-              <tr ng-repeat="d in techdata | orderBy:sortType:sortReverse | filter:search">
-              	<td ng-bind-html="d.id"></td>
-              	<td ng-bind-html="d.linkType"></td>
-              	<td ng-bind-html="d.link"></td>
-              	<td ng-bind-html="d.productLine"></td>
-              	<td ng-bind-html="d.subProductLine"></td>
-              	<td ng-bind-html="d.title"></td>
-              	<td ng-bind-html="d.science"></td>
-              	<td ng-bind-html="d.industry"></td>
-              	<!--<td ng-bind-html="d.description"></td>-->
-              	<!--<td ng-bind-html="d.citation"></td>-->
-              	<!--<td ng-bind-html="d.link"></td>-->
-              	<!--<td ng-bind-html="d.linkType"></td>-->
-              	<td ng-bind-html="d.tags"></td>
-              </tr> 
-            </tbody>
-         </table>
-
-      </div>
-   </div>
+      
 <!-- ========================END======================== -->
 </div><!-- END DIV FOR CONTENT -->
 			

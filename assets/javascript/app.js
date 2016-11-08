@@ -16,6 +16,33 @@ tic.filter('trustUrl', function ($sce) {
     };
 });
 
+tic.filter('tostring', function(){
+    return function(item){
+        var rslt = "";
+        for(var i = 0; i < item.length; i++){
+            if(i < item.length-1){
+                rslt += item[i] + ", ";
+            }else{
+              rslt += item[i];
+            }
+        }
+      return rslt;
+    }
+});
+
+tic.filter('yesNo', function(){
+  return function(item){
+    if(item === false || item === 1){
+      return "No";
+    }else if(item === true || item === 0){
+      return "Yes";
+    }
+  }
+  
+});
+
+//main controller on page set at top level div
+//page specific placed on <article> & module specific controllers placed on module wraper <div>
 tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
   
   //for setting session storage for page to page
@@ -171,29 +198,7 @@ tic.controller('platesearchController', ['$scope','$http', function($scope,$http
   
 }]);
 
-tic.filter('tostring', function(){
-    return function(item){
-        var rslt = "";
-        for(var i = 0; i < item.length; i++){
-            if(i < item.length-1){
-                rslt += item[i] + ", ";
-            }else{
-              rslt += item[i];
-            }
-        }
-      return rslt;
-    }
-});
 
-tic.filter('yesNo', function(){
-  return function(item){
-    if(item === false || item === 1){
-      return "No";
-    }else if(item === true || item === 0){
-      return "Yes";
-    }
-  }
-});
 
 //=====Product pages=====
 var product_page = angular.module('product_page', ['ngSanitize']);
@@ -267,32 +272,16 @@ tic.controller('techlibraryController',['$scope', '$http', function($scope, $htt
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
-  
-// var productLineArray = [];
-
-// for(var pl in $scope.techdata){
-// productLineArray.push($scope.techdata[pl].subProductLine);
-// 	}
-			
-// productLineArray = productLineArray.sort();
-// $scope.productLine = productLineArray.filter(function(elem, index, self){
-// 	return index == self.indexOf(elem);
-// });
-			
   });
   
-$scope.product = "";
-  
-$scope.sendId = function(techId){
-  var newURL = url+"/tech?id="+techId;
-  window.open(newURL, '_blank');
-};
+  $scope.product = "";
 
-$scope.GETproduct = $scope.getQueryVariable('product');
-if($scope.GETproduct){
-  $scope.product = $scope.GETproduct;
-  $('option[value="'+$scope.product+'"]').attr('selected', 'selected');
-}
+  $scope.GETproduct = $scope.getQueryVariable('product');
+  
+  if($scope.GETproduct){
+    $scope.product = $scope.GETproduct;
+    $('option[value="'+$scope.product+'"]').attr('selected', 'selected');
+  }
 			
 }]);
 
@@ -343,8 +332,7 @@ tic.controller('techResultController', ['$scope', '$http', '$filter', '$sce', fu
 }]);
 
 //=====test page=====
-var test = angular.module('test', ['ngSanitize']);
-test.controller('testController', ['$scope', '$http', function($scope, $http){
+tic.controller('testController', ['$scope', '$http', function($scope, $http){
   $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
     $scope.products = rslt.data;
   });
@@ -360,9 +348,7 @@ test.controller('testController', ['$scope', '$http', function($scope, $http){
 
 
 //test also page
-var testAlso = angular.module('testAlso',['ngSanitize']);
-
-testAlso.controller('testAlsoController',['$scope','$http', function($scope,$http){
+tic.controller('testAlsoController',['$scope','$http', function($scope,$http){
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;

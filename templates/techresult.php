@@ -20,12 +20,6 @@ if(get_post_meta($post->ID, "has-prefooter")){
 }
 
 //for angular
-$ng_app = "";
-if(get_post_meta($post->ID, "ng-app")){
-	$ngApp = get_post_meta($post->ID, "ng-app", true);
-	$ng_app = "ng-app='" . $ngApp . "'";
-}
-
 $ng_controller = "";
 if(get_post_meta($post->ID, "ng-controller")){
 	$ngController = get_post_meta($post->ID, "ng-controller", true);
