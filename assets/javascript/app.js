@@ -3,9 +3,48 @@ var protocol = window.location.protocol;
 var hostname = window.location.hostname;
 var url = protocol + "//" + hostname;
 
+//one module to rull them all
+var tic = angular.module('tic', ['ngSanitize']);
+
+tic.config(function($sceDelegateProvider) {
+    $sceDelegateProvider.resourceUrlWhitelist(['self']);
+    });
+
+tic.filter('trustUrl', function ($sce) {
+    return function(url) {
+      return $sce.trustAsResourceUrl(url);
+    };
+});
+
+tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
+  
+  //for setting session storage for page to page
+  //this isn't used yet opted for a separate page for well plates for now
+  $scope.setStorage = function(key, value){
+    sessionStorage.setItem(key, value);
+  };
+  
+  //get query for tech note
+  $scope.getQueryVariable = function(variable){
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i=0;i<vars.length;i++) {
+      var pair = vars[i].split("=");
+      if(pair[0] == variable){
+        return pair[1];
+      }
+    }
+    return(false);
+  };
+  //set with ng-click to scroll to top used on distributors page
+  $scope.scrollToTop = function(){
+      window.scroll(0,0);
+    };
+  
+}]);
+
 //=====distributors page=====
-var distributors = angular.module('distributors', ['ngSanitize']);
-distributors.controller('distController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
+tic.controller('distController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
     //grab JSON data
     $http.get(url+'/wp-content/themes/TIC/assets/json/distributors.json').then(function(res){
       $scope.distributors = res.data;
@@ -53,10 +92,6 @@ distributors.controller('distController', ['$scope', '$http', '$sce', function($
       }
     };
     
-    $scope.scrollToTop = function(){
-      window.scroll(0,0);
-    };
-    
   });
     //sorting default
     $scope.sortType = 'company';
@@ -65,8 +100,7 @@ distributors.controller('distController', ['$scope', '$http', '$sce', function($
 }]);
 
 //=====compound compatibility=====
-var compound = angular.module('compound', []);
-compound.controller('compoundController', ['$scope', '$http', function($scope, $http){
+tic.controller('compoundController', ['$scope', '$http', function($scope, $http){
   $http.get(url+'/wp-content/themes/TIC/assets/json/compound.json').then(
     function(rslt){
       $scope.compounds = rslt.data;
@@ -77,8 +111,7 @@ compound.controller('compoundController', ['$scope', '$http', function($scope, $
 }]);
 
 //=====chemical compatibility=====
-var chemicalIndex = angular.module('chemicalIndex', []);
-chemicalIndex.controller('chemicalIndexController', ['$scope', '$http',function($scope, $http){
+tic.controller('chemicalIndexController', ['$scope', '$http',function($scope, $http){
   $http.get(url+'/wp-content/themes/TIC/assets/json/chemical.json').then(function(rslt){
     $scope.chemical = rslt.data;
     
@@ -102,8 +135,7 @@ chemicalIndex.controller('chemicalIndexController', ['$scope', '$http',function(
 }]);
 
 //=====product search=====
-var products = angular.module('products', []);
-products.controller('productsController', ['$scope', '$http',function($scope, $http){
+tic.controller('productsController', ['$scope', '$http',function($scope, $http){
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
     $scope.products = rslt.data;
@@ -119,8 +151,7 @@ products.controller('productsController', ['$scope', '$http',function($scope, $h
 }]);
 
 //=====Plates search page=====
-var plates = angular.module('platesearch', []);
-plates.controller('platesearchController', ['$scope','$http', function($scope,$http){
+tic.controller('platesearchController', ['$scope','$http', function($scope,$http){
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/plates.json').then(function(rslt){
     $scope.plates = rslt.data;
@@ -140,7 +171,7 @@ plates.controller('platesearchController', ['$scope','$http', function($scope,$h
   
 }]);
 
-plates.filter('tostring', function(){
+tic.filter('tostring', function(){
     return function(item){
         var rslt = "";
         for(var i = 0; i < item.length; i++){
@@ -154,7 +185,7 @@ plates.filter('tostring', function(){
     }
 });
 
-plates.filter('yesNo', function(){
+tic.filter('yesNo', function(){
   return function(item){
     if(item === false || item === 1){
       return "No";
@@ -229,19 +260,10 @@ product_page.controller('product_pageController', ['$scope', '$http', function($
     window.open(newURL, '_blank');
   };
   
-  //for setting session storage for page to page
-  //this isn't used yet opted for a separate page for well plates for now
-  $scope.setStorage = function(key, value){
-    sessionStorage.setItem(key, value);
-  };
-  
-  
 }]);
 
 //=========techlibrary=================
-
-var techlibrary = angular.module('techlibrary', ['ngSanitize']);
-techlibrary.controller('techlibraryController',['$scope', '$http', function($scope, $http){
+tic.controller('techlibraryController',['$scope', '$http', function($scope, $http){
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
@@ -266,20 +288,7 @@ $scope.sendId = function(techId){
   window.open(newURL, '_blank');
 };
 
-//get query for tech note
-function getQueryVariable(variable){
-  var query = window.location.search.substring(1);
-  var vars = query.split("&");
-  for (var i=0;i<vars.length;i++) {
-    var pair = vars[i].split("=");
-    if(pair[0] == variable){
-      return pair[1];
-    }
-  }
-  return(false);
-};
-
-$scope.GETproduct = getQueryVariable('product');
+$scope.GETproduct = $scope.getQueryVariable('product');
 if($scope.GETproduct){
   $scope.product = $scope.GETproduct;
   $('option[value="'+$scope.product+'"]').attr('selected', 'selected');
@@ -288,35 +297,12 @@ if($scope.GETproduct){
 }]);
 
 //===============techResult======================
-var techResult = angular.module('techResult', ['ngSanitize']);
-
-techResult.config(function($sceDelegateProvider) {
-     $sceDelegateProvider.resourceUrlWhitelist(['self']);
-     });
-
-techResult.filter('trustUrl', function ($sce) {
-    return function(url) {
-      return $sce.trustAsResourceUrl(url);
-    };
-});
-    
-techResult.controller('techResultController', ['$scope', '$http', '$filter', '$sce', function($scope, $http, $filter, $sce){
+tic.controller('techResultController', ['$scope', '$http', '$filter', '$sce', function($scope, $http, $filter, $sce){
    
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
-    
-    //get query for tech note
-    function getQueryVariable(variable){
-      var query = window.location.search.substring(1);
-      var vars = query.split("&");
-      for (var i=0;i<vars.length;i++) {
-        var pair = vars[i].split("=");
-        if(pair[0] == variable){return pair[1];}
-    }
-      return(false);
-    };
   
-  $scope.techQuery = getQueryVariable('id');
+  $scope.techQuery = $scope.getQueryVariable('id');
   $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
   
   if($scope.techNote.type === 'GI'){
@@ -381,12 +367,6 @@ testAlso.controller('testAlsoController',['$scope','$http', function($scope,$htt
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
   });
-  
-  $scope.sortType = "index";
-  $scope.sortReverse = false;
-  
-  $scope.key = "";
-  $scope.value = "";
   
 }]);
 

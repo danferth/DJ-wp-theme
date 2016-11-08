@@ -39,10 +39,10 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
 
-<div class="row full-page-top <?php echo $prefooter_class; ?>" <?php echo $ng_app . " " . $ng_controller; ?>>
+<div class="row full-page-top <?php echo $prefooter_class; ?>" ng-app="tic" ng-controller="ticController">
 	<?php /* Start loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+		<article <?php post_class() ?> id="post-<?php the_ID(); ?>" <?php echo $ng_controller; ?>>
 			<header>
 				<h1 class="entry-title" ng-bind-html="pageTitle">Technical Note</h1>
 			</header>

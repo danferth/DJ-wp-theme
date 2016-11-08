@@ -1,5 +1,5 @@
 //=====plate search=====
-plates.directive('plateSearch', function(){
+tic.directive('plateSearch', function(){
   return{
     restrict: 'E',
     replace: 'true',
