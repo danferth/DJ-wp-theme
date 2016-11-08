@@ -3,6 +3,10 @@ var protocol = window.location.protocol;
 var hostname = window.location.hostname;
 var url = protocol + "//" + hostname;
 
+
+//=============================================================================
+//=========MAIN APP MODULE=====================================================
+//=============================================================================
 //one module to rull them all
 var tic = angular.module('tic', ['ngSanitize']);
 
@@ -41,10 +45,25 @@ tic.filter('yesNo', function(){
   
 });
 
+//=============================================================================
+//=========MAIN SITE CONTROLLER================================================
+//=============================================================================
 //main controller on page set at top level div
 //page specific placed on <article> & module specific controllers placed on module wraper <div>
 tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
-  
+  //set up data for most of site
+  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
+    $scope.products = rslt.data;
+  });
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
+  });
+  $http.get(url+'/wp-content/themes/TIC/assets/json/plates.json').then(function(rslt){
+    $scope.plates = rslt.data;
+  });
+  $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
+    $scope.tcinfo = rslt.data;
+  });
   //for setting session storage for page to page
   //this isn't used yet opted for a separate page for well plates for now
   $scope.setStorage = function(key, value){
@@ -74,7 +93,54 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
     window.open(newURL, '_blank');
   };
   
+  //trigger overlay. primarily used on plate search page
+  $scope.triggerOverlay = function(e){
+    $('.overlay').removeClass('hidden');
+		$('.overlay-content').addClass('animated fadeInUp');
+  };
+  
 }]);
+
+//=============================================================================
+//=========MODULES=============================================================
+//=============================================================================
+
+//=====inquiry module======
+tic.controller('inquiryController', ['$scope', function($scope){
+  if(sessionStorage.getItem('fname')){
+    $scope.first_name = sessionStorage.getItem('fname');
+  }
+    if(sessionStorage.getItem('lname')){
+    $scope.last_name = sessionStorage.getItem('lname');
+  }
+    if(sessionStorage.getItem('email')){
+    $scope.email = sessionStorage.getItem('email');
+  }
+    if(sessionStorage.getItem('zipCode')){
+    $scope.zip_code = sessionStorage.getItem('zipCode');
+  }
+    if(sessionStorage.getItem('phone')){
+    $scope.phone = sessionStorage.getItem('phone');
+  }
+    $scope.setter = function(formID){
+    var fname   = $('#'+formID+' input[name="first-name"]').val(),
+        lname   = $('#'+formID+' input[name="last-name"]').val(),
+        email   = $('#'+formID+' input[name="email"]').val(),
+        zipCode = $('#'+formID+' input[name="zip-code"]').val(),
+        phone   = $('#'+formID+' input[name="phone"]').val();
+        
+    sessionStorage.setItem('fname', fname);
+    sessionStorage.setItem('lname', lname);
+    sessionStorage.setItem('email', email);
+    sessionStorage.setItem('zipCode', zipCode);
+    sessionStorage.setItem('phone', phone);
+  };
+  $scope.path = window.location.pathname;
+}]);
+
+//======================================================================================
+//=========PAGES========================================================================
+//======================================================================================
 
 //=====distributors page=====
 tic.controller('distController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
@@ -168,11 +234,7 @@ tic.controller('chemicalIndexController', ['$scope', '$http',function($scope, $h
 }]);
 
 //=====product search page=====
-tic.controller('productsController', ['$scope', '$http',function($scope, $http){
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
-    $scope.products = rslt.data;
-  });
+tic.controller('productsController', ['$scope', function($scope){
   
   $scope.sortType = "line";
   $scope.sortReverse = false;
@@ -184,12 +246,8 @@ tic.controller('productsController', ['$scope', '$http',function($scope, $http){
 }]);
 
 //=====Plates search page=====
-tic.controller('platesearchController', ['$scope','$http', function($scope,$http){
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/plates.json').then(function(rslt){
-    $scope.plates = rslt.data;
-  });
-  
+tic.controller('platesearchController', ['$scope', function($scope){
+
   $scope.sortType = "partNum";
   $scope.sortReverse = false;
   
@@ -197,60 +255,11 @@ tic.controller('platesearchController', ['$scope','$http', function($scope,$http
     $scope.set = rslt;
   };
   
-  $scope.triggerOverlay = function(e){
-    $('.overlay').removeClass('hidden');
-		$('.overlay-content').addClass('animated fadeInUp');
-  };
-  
-}]);
-
-
-//=====inquiry module======
-tic.controller('inquiryController', ['$scope', function($scope){
-  if(sessionStorage.getItem('fname')){
-    $scope.first_name = sessionStorage.getItem('fname');
-  }
-    if(sessionStorage.getItem('lname')){
-    $scope.last_name = sessionStorage.getItem('lname');
-  }
-    if(sessionStorage.getItem('email')){
-    $scope.email = sessionStorage.getItem('email');
-  }
-    if(sessionStorage.getItem('zipCode')){
-    $scope.zip_code = sessionStorage.getItem('zipCode');
-  }
-    if(sessionStorage.getItem('phone')){
-    $scope.phone = sessionStorage.getItem('phone');
-  }
-    $scope.setter = function(formID){
-    var fname   = $('#'+formID+' input[name="first-name"]').val(),
-        lname   = $('#'+formID+' input[name="last-name"]').val(),
-        email   = $('#'+formID+' input[name="email"]').val(),
-        zipCode = $('#'+formID+' input[name="zip-code"]').val(),
-        phone   = $('#'+formID+' input[name="phone"]').val();
-        
-    sessionStorage.setItem('fname', fname);
-    sessionStorage.setItem('lname', lname);
-    sessionStorage.setItem('email', email);
-    sessionStorage.setItem('zipCode', zipCode);
-    sessionStorage.setItem('phone', phone);
-  };
-  $scope.path = window.location.pathname;
 }]);
 
 //=====Product pages=====
-tic.controller('product_pageController', ['$scope', '$http', function($scope,$http){
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
-    $scope.products = rslt.data;
-  });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
-    $scope.tcinfo = rslt.data;
-  });
-  
+tic.controller('product_pageController', ['$scope', function($scope){
+
   //product set with attribute on <product-inquiry product="foobar"></product-inquiry>
   $scope.product = "no product set!";
   //select
@@ -268,11 +277,7 @@ tic.controller('product_pageController', ['$scope', '$http', function($scope,$ht
 }]);
 
 //=========techlibrary=================
-tic.controller('techlibraryController',['$scope', '$http', function($scope, $http){
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
+tic.controller('techlibraryController',['$scope', function($scope){
   
   $scope.product = "";
 
@@ -286,10 +291,7 @@ tic.controller('techlibraryController',['$scope', '$http', function($scope, $htt
 }]);
 
 //===============techResult======================
-tic.controller('techResultController', ['$scope', '$http', '$filter', '$sce', function($scope, $http, $filter, $sce){
-   
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
+tic.controller('techResultController', ['$scope', '$filter', '$sce', function($scope, $filter, $sce){
   
   $scope.techQuery = $scope.getQueryVariable('id');
   $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
@@ -326,20 +328,11 @@ tic.controller('techResultController', ['$scope', '$http', '$filter', '$sce', fu
     $scope.VIDEO = true;
     $scope.videoUrl = url + "/wp-content/uploads/video/videos/" + $scope.techNote.link + '.mp4';
     }
-    
-  });
   
 }]);
 
 //=====test page=====
-tic.controller('testController', ['$scope', '$http', function($scope, $http){
-  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
-    $scope.products = rslt.data;
-  });
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
+tic.controller('testController', ['$scope', function($scope){
   
   $scope.welcome = "Hello, sorry but there is no test being conducted on this page at the moment. Possibly the test you were looking for has been moved to production. whatever page you are thinking was going to display is now where it should be on the site.";
   
@@ -348,11 +341,8 @@ tic.controller('testController', ['$scope', '$http', function($scope, $http){
 
 
 //test also page
-tic.controller('testAlsoController',['$scope','$http', function($scope,$http){
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
+tic.controller('testAlsoController',['$scope', function($scope){
+
   
 }]);
 
