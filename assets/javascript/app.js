@@ -99,6 +99,12 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
 		$('.overlay-content').addClass('animated fadeInUp');
   };
   
+  //=========various page variables==============
+  //tc lookup module
+  $scope.tc_type = "";
+  $scope.tc_conn = "";
+  $scope.tc_flask = "";
+  
 }]);
 
 //=============================================================================
