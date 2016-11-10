@@ -55,14 +55,14 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
   $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
     $scope.products = rslt.data;
   });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
   $http.get(url+'/wp-content/themes/TIC/assets/json/plates.json').then(function(rslt){
     $scope.plates = rslt.data;
   });
   $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
     $scope.tcinfo = rslt.data;
+  });
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techdata = rslt.data;
   });
   //for setting session storage for page to page
   //this isn't used yet opted for a separate page for well plates for now
@@ -297,43 +297,47 @@ tic.controller('techlibraryController',['$scope', function($scope){
 }]);
 
 //===============techResult======================
-tic.controller('techResultController', ['$scope', '$filter', '$sce', function($scope, $filter, $sce){
-  
+tic.controller('techResultController', ['$scope', '$http', '$filter', '$sce', function($scope, $http, $filter, $sce){
+
   $scope.techQuery = $scope.getQueryVariable('id');
-  $scope.techNote = $filter('filter')($scope.techdata, {id: $scope.techQuery })[0];
   
-  if($scope.techNote.type === 'GI'){
-    $scope.pageTitle = "General Information";
-  }
-  if($scope.techNote.type === 'COMP'){
-    $scope.pageTitle = "Comparisons to Our Products";
-  }
-  if($scope.techNote.type === 'FAQ'){
-    $scope.pageTitle = "FAQ";
-  }
-  if($scope.techNote.type === 'VIDEO'){
-    $scope.pageTitle = $scope.techNote.title;
-  }
-  if($scope.techNote.type === 'APPNOTE'){
-    $scope.pageTitle = "Application Note";
-  }
-  if($scope.techNote.type === 'PW'){
-    $scope.pageTitle = "Published Works";
-  }
+  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
+    $scope.techlibrary = rslt.data;
+    $scope.techNote = $filter('filter')($scope.techlibrary, {id: $scope.techQuery })[0];
   
-  if($scope.techNote.linkType === "pdf"){
-      $scope.PDF = true;
+    if($scope.techNote.type === 'GI'){
+      $scope.pageTitle = "General Information";
     }
-  if($scope.techNote.linkType === "page"){
-      window.location = url+"/"+$scope.techNote.link;
+    if($scope.techNote.type === 'COMP'){
+      $scope.pageTitle = "Comparisons to Our Products";
     }
-  if($scope.techNote.linkType === "link"){
-      window.location = url+"/"+$scope.techNote.link;
+    if($scope.techNote.type === 'FAQ'){
+      $scope.pageTitle = "FAQ";
     }
-  if($scope.techNote.linkType === "mp4"){
-    $scope.VIDEO = true;
-    $scope.videoUrl = url + "/wp-content/uploads/video/videos/" + $scope.techNote.link + '.mp4';
+    if($scope.techNote.type === 'VIDEO'){
+      $scope.pageTitle = $scope.techNote.title;
     }
+    if($scope.techNote.type === 'APPNOTE'){
+      $scope.pageTitle = "Application Note";
+    }
+    if($scope.techNote.type === 'PW'){
+      $scope.pageTitle = "Published Works";
+    }
+    
+    if($scope.techNote.linkType === "pdf"){
+        $scope.PDF = true;
+      }
+    if($scope.techNote.linkType === "page"){
+        window.location = url+"/"+$scope.techNote.link;
+      }
+    if($scope.techNote.linkType === "link"){
+        window.location = url+"/"+$scope.techNote.link;
+      }
+    if($scope.techNote.linkType === "mp4"){
+      $scope.VIDEO = true;
+      $scope.videoUrl = url + "/wp-content/uploads/video/videos/" + $scope.techNote.link + '.mp4';
+      }
+  });
   
 }]);
 
