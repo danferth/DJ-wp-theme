@@ -17,7 +17,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	//wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,300,700' );
 
 	// Enqueue the main Stylesheet.
-	wp_enqueue_style( 'main-stylesheet', get_stylesheet_directory_uri() . '/assets/stylesheets/foundation.css?v=1.0.2' );
+	wp_enqueue_style( 'main-stylesheet', get_stylesheet_directory_uri() . '/assets/stylesheets/foundation.css?v=1.0.4' );
 
 	// Deregister the jquery version bundled with WordPress.
 	wp_deregister_script( 'jquery' );
@@ -49,7 +49,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	wp_enqueue_script('angular-sanitize', get_template_directory_uri() . '/assets/javascript/lib/angular-sanitize.min.js', array('angular'), '1.4', true);
 	
 	//app.js (angular stuff goes here for now)
-	wp_enqueue_script('app', get_template_directory_uri(). '/assets/javascript/app.js', array('angular'), '1.0.1', true);
+	wp_enqueue_script('app', get_template_directory_uri(). '/assets/javascript/app.js', array('angular'), '1.0.5', true);
 	wp_enqueue_script('directives', get_template_directory_uri(). '/assets/javascript/directives.js', array('angular'), '1.0.1', true);
 	//site.js TIC custome js for pages
 	wp_enqueue_script('site', get_template_directory_uri() . '/assets/javascript/site.js', array('jquery'), '1.0.2', true);
