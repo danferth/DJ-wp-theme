@@ -14,6 +14,19 @@
   display:inline-block;
   margin-right:1.5rem;
 }
+//for ng-repeat of multiples in spans. Appends space and comma to all but last
+.multiple-spans{
+  span{
+    &:after{
+      content:", ";
+    }
+    &:last-of-type{
+      &:after{
+        content:" ";
+      }
+    }
+  }
+}
 //=====================================================================
 //==========================main blocks================================
 //=====================================================================
