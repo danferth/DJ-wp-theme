@@ -94,8 +94,9 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
 		$('.overlay-content').addClass('animated fadeInUp');
   };
   
-  //for setting session storage for page to page
-  //this isn't used yet opted for a separate page for well plates for now
+//=======================================================
+//==================SESSION STORAGE======================
+//=======================================================
   $scope.setStorage = function(key, value){
     sessionStorage.setItem(key, value);
   };
@@ -104,16 +105,13 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
     return rslt;
   }
   
-  //=========site sessionStorage variables==============
-  //localstorage variables or site
-  $scope.science      = "";
-  $scope.industry     = "";
-  //localstorage variables for product
-  $scope.prod_line    = "";
-  $scope.prod_series  = "";
-  //localstorage variables for techlibrary
-  $scope.tl_line      = "";
-  $scope.tl_subLine   = "";
+//===========site sessionStorage variables===============
+
+  if($scope.getStorage('science')){      $scope.science      = $scope.getStorage('science'); }
+  if($scope.getStorage('industry')){     $scope.industry     = $scope.getStorage('industry');  }
+  //sessionStorage variables for product
+  if($scope.getStorage('prod_line')){    $scope.prod_line    = $scope.getStorage('prod_line'); }
+  if($scope.getStorage('prod_series')){  $scope.prod_series  = $scope.getStorage('prod_series'); }
   
   //=========various page variables==============
   //tc lookup module
@@ -303,13 +301,26 @@ tic.controller('product_pageController', ['$scope', function($scope){
 tic.controller('techlibraryController',['$scope', function($scope){
   
   $scope.product = "";
+  $scope.line = "";
 
   $scope.GETproduct = $scope.getQueryVariable('product');
   
-  if($scope.GETproduct){
-    $scope.product = $scope.GETproduct;
-    $('option[value="'+$scope.product+'"]').attr('selected', 'selected');
+  //sessionStorage variables for techlibrary
+  if($scope.getStorage('tl_line')){
+    $scope.tl_line      = $scope.getStorage('tl_line');
+    $scope.line = $scope.tl_line;
   }
+  
+  if($scope.getStorage('tl_subLine')){
+    $scope.tl_subLine   = $scope.getStorage('tl_subLine');
+    $scope.product = $scope.tl_subLine;
+  }
+  
+  if($scope.tl_subLine){
+    $('option[value="'+$scope.tl_subLine+'"]').attr('selected', true);
+    console.log("storage says "+$scope.tl_subLine);
+  }
+
 			
 }]);
 

@@ -3,12 +3,19 @@
 //this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
 function mainblock_shortcode($atts, $content = null, $tag){
     $a = shortcode_atts( array(
-            'title'  => 'needs a title',
-            'img'    => '',
-            'class'  => '',
-            'link'   => home_url()
+            'title'   => 'needs a title',
+            'img'     => '',
+            'class'   => '',
+            'storage' => '',
+            'link'    => home_url()
         ), $atts);
-    return "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . home_url() . "/" . $a['link'] . "'> \n
+    $output =  "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . home_url() . "/" . $a['link'] . "'";
+    
+    if($a['storage']){
+      $output .= "ng-click = \"setStorage(".$a['storage'].")\" ";
+    }
+    
+    $output .= "> \n
               <div class='inner-block' data-equalizer-watch='block'> \n
                 <div class='main-block-image-wrap'> \n
                   <img src='" . get_template_directory_uri(). "/images/" . $a['img'] . "' /> \n
@@ -19,6 +26,8 @@ function mainblock_shortcode($atts, $content = null, $tag){
                 
               </div> \n
             </li>";
+            
+    return $output;
 }
 
 add_shortcode('mainblock', 'mainblock_shortcode');
@@ -187,7 +196,7 @@ function tech_select_shortcode($atts, $content, $tag){
         <option value='airotop'>Enhanced AirOtop™ Seals</option>\n
       </optgroup>\n
       <option value='wellplate'>Well Plate</option>\n
-      <option value='column'>SINGLE StEP® Flash Column</option>\n
+      <option value='column' ng-selected='column'>SINGLE StEP® Flash Column</option>\n
     </select>\n
   </div>\n
 </div>";
@@ -610,11 +619,11 @@ function info_module_shortcode($atts, $content, $tag){
   <div class='small-12'>\n
     <ul>\n
       <li><i class='fa fa-info-circle' aria-hidden='true'></i></li>\n
-      <li><a href='".$a['faq']."' target='_blank'>FAQ's</a></li>\n
-      <li><a href='/tl/gi/?product=".$a['product']."' target='_blank'>General Information</a></li>\n
-      <li><a href='/tl/v/?product=".$a['product']."' target='_blank'>Videos</a></li>\n
-      <li><a href='/tl/an/?product=".$a['product']."' target='_blank'>Applications</a></li>\n
-      <li><a href='/tl/pw/?product=".$a['product']."' target='_blank'>Published Works</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='".$a['faq']."' target='_blank'>FAQ's</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/gi/' target='_blank'>General Information</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/v/' target='_blank'>Videos</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/an/' target='_blank'>Applications</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/pw/' target='_blank'>Published Works</a></li>\n
     </ul>\n
   </div>\n
 </div>";
