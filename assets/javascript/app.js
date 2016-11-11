@@ -64,11 +64,6 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
   $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
     $scope.techdata = rslt.data;
   });
-  //for setting session storage for page to page
-  //this isn't used yet opted for a separate page for well plates for now
-  $scope.setStorage = function(key, value){
-    sessionStorage.setItem(key, value);
-  };
   
   //get query for tech note
   $scope.getQueryVariable = function(variable){
@@ -99,11 +94,33 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
 		$('.overlay-content').addClass('animated fadeInUp');
   };
   
+  //for setting session storage for page to page
+  //this isn't used yet opted for a separate page for well plates for now
+  $scope.setStorage = function(key, value){
+    sessionStorage.setItem(key, value);
+  };
+  $scope.getStorage = function(key){
+    var rslt = sessionStorage.getItem(key)
+    return rslt;
+  }
+  
+  //=========site sessionStorage variables==============
+  //localstorage variables or site
+  $scope.science      = "";
+  $scope.industry     = "";
+  //localstorage variables for product
+  $scope.prod_line    = "";
+  $scope.prod_series  = "";
+  //localstorage variables for techlibrary
+  $scope.tl_line      = "";
+  $scope.tl_subLine   = "";
+  
   //=========various page variables==============
   //tc lookup module
-  $scope.tc_type = "";
-  $scope.tc_conn = "";
-  $scope.tc_flask = "";
+  $scope.tc_type      = "";
+  $scope.tc_conn      = "";
+  $scope.tc_flask     = "";
+  
   
 }]);
 
