@@ -85,7 +85,7 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
   //onclick for tech items on product page
   $scope.sendId = function(techId){
     var newURL = url+"/tech?id="+techId;
-    window.open(newURL, '_blank');
+    window.location.href = newURL;
   };
   
   //trigger overlay. primarily used on plate search page

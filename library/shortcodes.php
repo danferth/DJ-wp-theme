@@ -619,11 +619,11 @@ function info_module_shortcode($atts, $content, $tag){
   <div class='small-12'>\n
     <ul>\n
       <li><i class='fa fa-info-circle' aria-hidden='true'></i></li>\n
-      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='".$a['faq']."' target='_blank'>FAQ's</a></li>\n
-      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/gi/' target='_blank'>General Information</a></li>\n
-      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/v/' target='_blank'>Videos</a></li>\n
-      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/an/' target='_blank'>Applications</a></li>\n
-      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/pw/' target='_blank'>Published Works</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='".$a['faq']."'>FAQ's</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/gi/'>General Information</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/v/'>Videos</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/an/'>Applications</a></li>\n
+      <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/pw/'>Published Works</a></li>\n
     </ul>\n
   </div>\n
 </div>";
