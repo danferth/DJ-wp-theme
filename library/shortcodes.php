@@ -175,7 +175,7 @@ function tech_select_shortcode($atts, $content, $tag){
   $output = "
 <div class='row'>\n
   <div class='first small-12 column'>\n
-    <select name='product' ng-model='product'>\n
+    <select name='product' ng-model='product' ng-change='selectChange()'>\n
       <option value=''>Select Product</option>\n
       <optgroup label='Filter Vials'>\n
         <option value='all'>All Filter Vials</option>\n
@@ -184,7 +184,7 @@ function tech_select_shortcode($atts, $content, $tag){
         <option value='nano'>nano|Filter Vial®</option>\n
         <option value='extractor'>eXtractor3D|FV®</option>\n
         <option value='mega'>MEGA|FV™</option>\n
-        <option value='lowevap'>LowEvap|Filter Vial</option>\n
+        <option value='low-evap'>LowEvap|Filter Vial</option>\n
       </optgroup>\n
       <optgroup label='Optimum Growth™'>\n
         <option value='Oflask'>Optimum Growth™ Flask</option>\n
@@ -196,7 +196,7 @@ function tech_select_shortcode($atts, $content, $tag){
         <option value='airotop'>Enhanced AirOtop™ Seals</option>\n
       </optgroup>\n
       <option value='wellplate'>Well Plate</option>\n
-      <option value='column' ng-selected='column'>SINGLE StEP® Flash Column</option>\n
+      <option value='column'>SINGLE StEP® Flash Column</option>\n
     </select>\n
   </div>\n
 </div>";

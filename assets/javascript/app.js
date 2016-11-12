@@ -301,19 +301,22 @@ tic.controller('product_pageController', ['$scope', function($scope){
 tic.controller('techlibraryController',['$scope', function($scope){
   
   $scope.product = "";
-  $scope.line = "";
+  
+  $scope.selectChange = function(){
+    $scope.setStorage('tl_subLine', $scope.product);
+  };
 
   $scope.GETproduct = $scope.getQueryVariable('product');
   
   //sessionStorage variables for techlibrary
   if($scope.getStorage('tl_line')){
-    $scope.tl_line      = $scope.getStorage('tl_line');
-    $scope.line = $scope.tl_line;
+    $scope.tl_line  = $scope.getStorage('tl_line');
+    $scope.line     = $scope.tl_line;
   }
   
   if($scope.getStorage('tl_subLine')){
-    $scope.tl_subLine   = $scope.getStorage('tl_subLine');
-    $scope.product = $scope.tl_subLine;
+    $scope.tl_subLine = $scope.getStorage('tl_subLine');
+    $scope.product    = $scope.tl_subLine;
   }
   
   if($scope.tl_subLine){
