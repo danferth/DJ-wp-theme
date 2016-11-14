@@ -298,13 +298,22 @@ tic.controller('product_pageController', ['$scope', function($scope){
 }]);
 
 //=========techlibrary=================
-tic.controller('techlibraryController',['$scope', function($scope){
+tic.controller('techlibraryController',['$scope', '$http', '$filter', function($scope, $http, $filter){
   
   $scope.product = "";
   
   $scope.selectChange = function(){
     $scope.setStorage('tl_subLine', $scope.product);
+      $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
   };
+  
+  $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json').then(function(rslt){
+    $scope.prodinfo = rslt.data;
+    $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
+  console.log($scope.pi.key_features);
+  });
+  
+  
 
   $scope.GETproduct = $scope.getQueryVariable('product');
   
@@ -321,7 +330,6 @@ tic.controller('techlibraryController',['$scope', function($scope){
   
   if($scope.tl_subLine){
     $('option[value="'+$scope.tl_subLine+'"]').attr('selected', true);
-    console.log("storage says "+$scope.tl_subLine);
   }
 
 			

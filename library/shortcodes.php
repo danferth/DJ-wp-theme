@@ -171,11 +171,13 @@ add_shortcode('parts', 'parts_shortcode');
 //Tech Library select for product
 //[tech_select]
 function tech_select_shortcode($atts, $content, $tag){
-  
+  $a = shortcode_atts( array(
+    'class' => ''
+    ), $atts);
   $output = "
 <div class='row'>\n
-  <div class='first small-12 column'>\n
-    <select name='product' ng-model='product' ng-change='selectChange()'>\n
+  <div class='small-12 column'>\n
+    <select class='".$a['class']."' name='product' ng-model='product' ng-change='selectChange()'>\n
       <option value=''>Select Product</option>\n
       <optgroup label='Filter Vials'>\n
         <option value='all'>All Filter Vials</option>\n
@@ -203,6 +205,26 @@ function tech_select_shortcode($atts, $content, $tag){
   return $output;
 }
 add_shortcode('tech_select', 'tech_select_shortcode');
+
+//tech library navigation
+//[tech_nav]
+function tech_nav_shortcode($atts, $content, $tag){
+  $a = shortcode_atts(array(
+    "class" => ""
+    ), $atts);
+  $output = "<div class='row'>\n
+    <div class='small-12 column'>\n
+      <ul class='techlibrary_navigation ".$a['class']."'>\n
+        <li><a href='/tl/gi/'>General Information</a></li>\n
+        <li><a href='tl/v/'>Videos</a></li>\n
+        <li><a href='tl/an/'>Application Notes</a></li>\n
+        <li><a href='tl/pw/'>Published Works</a></li>\n
+      </ul>\n
+    </div>\n
+  </div>";
+  return $output;
+}
+add_shortcode('tech_nav', 'tech_nav_shortcode');
 
 
 //Display tech library link
