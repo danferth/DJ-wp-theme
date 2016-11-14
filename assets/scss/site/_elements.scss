@@ -846,4 +846,40 @@ table.product-ref-table{
 .techlibrary_product_info_module{
   border-right:4px solid $secondary-color;
 }
+
+//=====================================================================
+//=======================tech library nav bar==========================
+//=====================================================================
+.techlibrary_navigation{
+  margin: 0 0 1rem 0;
+  padding: 0;
+  &:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
+  li{
+    float:left;
+    width:25%;
+    background:$snow;
+    list-style:none;
+    border-right:1px solid $base;
+    &:last-of-type{
+      border-right:none;
+    }
+    a{
+      display:inline-block;
+      width:100%;
+      height:100%;
+      color:$monsoon;
+      font-weight:bold;
+      text-align:center;
+      padding:.5rem 0;
+      &:hover{
+        background:$smoke;
+        color:$jet;
+      }
+    }
+  }
+}
 //next up?
