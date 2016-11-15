@@ -304,18 +304,26 @@ tic.controller('techlibraryController',['$scope', '$http', '$filter', function($
   
   $scope.selectChange = function(){
     $scope.setStorage('tl_subLine', $scope.product);
-      $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
+    $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
   };
+  
+  //see watch is cool try it with the bs above on the selectChange() function
+  $scope.$watch('product', function(){
+    if($scope.product != ""){
+      $scope.product_select_message = "Select a Different Product";
+      $scope.library_select_message = "Explore " + $scope.pi.title;
+    }else{
+      $scope.product_select_message = "Select a Product to Explore";
+      $scope.library_select_message = "Or Explore our Full Library";
+    }
+  });
+  
   
   $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json').then(function(rslt){
     $scope.prodinfo = rslt.data;
     $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
-  console.log($scope.pi.key_features);
   });
   
-  
-
-  $scope.GETproduct = $scope.getQueryVariable('product');
   
   //sessionStorage variables for techlibrary
   if($scope.getStorage('tl_line')){
