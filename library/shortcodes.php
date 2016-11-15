@@ -22,7 +22,7 @@ function mainblock_shortcode($atts, $content = null, $tag){
                 </div> \n
                 
                   <h3>" . $a['title'] . "</h3> \n
-                  <p>" . $content . "</p> \n
+                  $content
                 
               </div> \n
             </li>";

@@ -841,28 +841,65 @@ table.product-ref-table{
 
 
 //=====================================================================
-//=================tech library product info module====================
+//=========================tech library HOME===========================
 //=====================================================================
-.techlibrary_product_info_module{
-  border-right:4px solid $secondary-color;
+//product info and selection div
+.techlibrary-home-tiles h2, .techlibrary-home-product-info h2{
+  margin: 0 0 1.5rem 0;
+  position:relative;
+  z-index:1;
+  //z-index:50;
+  &:after{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    bottom: .25rem;
+    left:0;
+    width:100%;
+    border-bottom:1px solid $gainsboro;
+  }
+}
+
+.techlibrary-home-product-info{
   h3{
     margin-top:0;
     margin-bottom:0;
-  }
-  h4{
-    margin-top:0;
-    margin-bottom:.45rem;
-    font-style:italic;
-    font-size:1rem;
+    color:$tuatara;
+    border-bottom:1px dashed $secondary-color;
+    span{
+      margin-top:0;
+      margin-bottom:.45rem;
+      font-size:.75rem;
+      font-family:$font-family-sans-serif;
+      display:block;
+      color:$monsoon;
+    }
   }
   h5{
-    //margin-top:.5rem;
-    //margin-bottom:0;
+    margin-top:.5rem;
+    margin-bottom:0;
+    color:$iron;
+  }
+  p, li{
+    font-size: .75rem;
   }
   .product_info_links{
     list-style:none;
     &:hover{
       text-decoration:underline;
+    }
+  }
+}
+
+//tiles div
+.techlibrary-home-tiles{
+  border-left:4px solid $smoke;
+  .main-block .inner-block h3{
+    @media screen and (min-width:$small-breakpoint){
+      font-size:.95rem;
+    }
+    @media screen and (min-width:$medium-breakpoint){
+      font-size: 1.05rem;
     }
   }
 }

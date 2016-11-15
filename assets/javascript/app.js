@@ -336,7 +336,7 @@ tic.controller('techlibraryController',['$scope', '$http', '$filter', function($
         $scope.library_select_message = "Explore " + $scope.pi.title;
       }else{
         $scope.product_select_message = "Select a Product to Explore";
-        $scope.library_select_message = "Or Explore our Full Library";
+        $scope.library_select_message = "Or Explore Our Full Library";
       }
     });
     
