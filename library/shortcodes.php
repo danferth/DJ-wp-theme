@@ -177,7 +177,7 @@ function tech_select_shortcode($atts, $content, $tag){
   $output = "
 <div class='row'>\n
   <div class='small-12 column'>\n
-    <select class='".$a['class']."' name='product' ng-model='product' ng-change='selectChange()'>\n
+    <select class='".$a['class']."' name='product' ng-model='product' ng-change='setStorage(\"tl_subLine\", product)'>\n
       <option value=''>Select Product</option>\n
       <optgroup label='Filter Vials'>\n
         <option value='all'>All Filter Vials</option>\n
