@@ -845,6 +845,26 @@ table.product-ref-table{
 //=====================================================================
 .techlibrary_product_info_module{
   border-right:4px solid $secondary-color;
+  h3{
+    margin-top:0;
+    margin-bottom:0;
+  }
+  h4{
+    margin-top:0;
+    margin-bottom:.45rem;
+    font-style:italic;
+    font-size:1rem;
+  }
+  h5{
+    //margin-top:.5rem;
+    //margin-bottom:0;
+  }
+  .product_info_links{
+    list-style:none;
+    &:hover{
+      text-decoration:underline;
+    }
+  }
 }
 
 //=====================================================================
