@@ -31,7 +31,7 @@ tic.filter('tostring', function(){
             }
         }
       return rslt;
-    }
+    };
 });
 
 tic.filter('yesNo', function(){
@@ -41,8 +41,16 @@ tic.filter('yesNo', function(){
     }else if(item === true || item === 0){
       return "Yes";
     }
-  }
+  };
   
+});
+
+tic.factory('techdataFactory', function($http){
+  var factory = {};
+  factory.getData = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json');
+  };
+  return factory;
 });
 
 //=============================================================================
@@ -50,7 +58,7 @@ tic.filter('yesNo', function(){
 //=============================================================================
 //main controller on page set at top level div
 //page specific placed on <article> & module specific controllers placed on module wraper <div>
-tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
+tic.controller('ticController', ['$scope', '$http', '$sce', 'techdataFactory', function($scope, $http, $sce, techdataFactory){
   //set up data for most of site
   $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
     $scope.products = rslt.data;
@@ -61,9 +69,9 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
   $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
     $scope.tcinfo = rslt.data;
   });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techdata = rslt.data;
-  });
+  techdataFactory.getData().then(function(responce){
+   $scope.techdata = responce.data;
+ });
   
   //get query for tech note
   $scope.getQueryVariable = function(variable){
@@ -99,7 +107,6 @@ tic.controller('ticController', ['$scope', '$http', '$sce', function($scope, $ht
 //=======================================================
   $scope.setStorage = function(key, value){
     sessionStorage.setItem(key, value);
-    console.log(key+' just got set to '+value);
   };
   $scope.getStorage = function(key){
     var rslt = sessionStorage.getItem(key);
@@ -300,22 +307,24 @@ tic.controller('product_pageController', ['$scope', function($scope){
 }]);
 
 //=========techlibrary=================
-tic.controller('techlibraryController',['$scope', '$http', '$filter', function($scope, $http, $filter){
+tic.controller('techlibraryController',['$scope', '$http', '$filter', 'techdataFactory',  function($scope, $http, $filter, techdataFactory){
+ 
+ techdataFactory.getData().then(function(responce){
+   $scope.techdata = responce.data;
+ });
+ 
  //check and set variables from session storage
   if($scope.getStorage('tl_line')){
     $scope.line  = $scope.getStorage('tl_line');
   }
   if($scope.getStorage('tl_subLine')){
     $scope.product = $scope.getStorage('tl_subLine');
-    console.log('we have a product it is '+$scope.product);
   }else{
     $scope.product = "";
-    console.log('we do not have a product');
   }
   //set select to $scope.product if has value
   if($scope.product){
     $('option[value="'+$scope.product+'"]').attr('selected', true);
-    console.log('we set the select to '+$scope.product);
   }
   //get json $ set $scope.pi object from $scope.product variable and json
   $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json').then(function(rslt){
@@ -323,13 +332,11 @@ tic.controller('techlibraryController',['$scope', '$http', '$filter', function($
     //sets $scope.pi to object from variable
     $scope.set_pi = function(){
       $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
-      console.log("we have product object and it is: "+$scope.pi.title);
       return $scope.pi;
     }
     //watch for changes to $scope.product
     $scope.$watch('product', function(){
       //call to set $scope.pi object to new product
-      console.log('watch just detected $scope.product is now '+$scope.product);
       $scope.set_pi();
       if($scope.product != ""){
         $scope.product_select_message = "Select a Different Product";
@@ -338,10 +345,8 @@ tic.controller('techlibraryController',['$scope', '$http', '$filter', function($
         $scope.product_select_message = "Select a Product to Explore";
         $scope.library_select_message = "Or Explore Our Full Library";
       }
-    });
-    
-    
-  });
+    }); //END $watch
+  }); //END $http
 
 }]);
 
