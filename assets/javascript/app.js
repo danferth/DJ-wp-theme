@@ -45,9 +45,30 @@ tic.filter('yesNo', function(){
   
 });
 
-tic.factory('techdataFactory', function($http){
+tic.factory('dataFactory', function($http){
   var factory = {};
-  factory.getData = function(){
+  factory.get_chemical = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/chemical.json');
+  };
+  factory.get_compound = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/compound.json');
+  };
+  factory.get_distributors = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/distributors.json');
+  };
+  factory.get_plates = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/plates.json');
+  };
+  factory.get_prodinfo = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json');
+  };
+  factory.get_products = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/products.json');
+  };
+  factory.get_tc = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json');
+  };
+  factory.get_techdata = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json');
   };
   return factory;
@@ -58,19 +79,19 @@ tic.factory('techdataFactory', function($http){
 //=============================================================================
 //main controller on page set at top level div
 //page specific placed on <article> & module specific controllers placed on module wraper <div>
-tic.controller('ticController', ['$scope', '$http', '$sce', 'techdataFactory', function($scope, $http, $sce, techdataFactory){
-  //set up data for most of site
-  $http.get(url+'/wp-content/themes/TIC/assets/json/products.json').then(function(rslt){
-    $scope.products = rslt.data;
-  });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/plates.json').then(function(rslt){
-    $scope.plates = rslt.data;
-  });
-  $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json').then(function(rslt){
-    $scope.tcinfo = rslt.data;
-  });
-  techdataFactory.getData().then(function(responce){
+tic.controller('ticController', ['$scope', '$sce', 'dataFactory', function($scope, $sce, dataFactory){
+  //get json data
+  dataFactory.get_techdata().then(function(responce){
    $scope.techdata = responce.data;
+ });
+ dataFactory.get_products().then(function(responce){
+   $scope.products = responce.data;
+ });
+ dataFactory.get_plates().then(function(responce){
+   $scope.plates = responce.data;
+ });
+ dataFactory.get_tc().then(function(responce){
+   $scope.tcinfo = responce.data;
  });
   
   //get query for tech note
@@ -112,7 +133,7 @@ tic.controller('ticController', ['$scope', '$http', '$sce', 'techdataFactory', f
     var rslt = sessionStorage.getItem(key);
     console.log(key+' was requested!');
     return rslt;
-  }
+  };
   
 //===========site sessionStorage variables===============
 
@@ -173,10 +194,11 @@ tic.controller('inquiryController', ['$scope', function($scope){
 //======================================================================================
 
 //=====distributors page=====
-tic.controller('distController', ['$scope', '$http', '$sce', function($scope, $http, $sce){
+tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($scope, $sce, dataFactory){
     //grab JSON data
-    $http.get(url+'/wp-content/themes/TIC/assets/json/distributors.json').then(function(res){
-      $scope.distributors = res.data;
+  dataFactory.get_distributors().then(function(responce){
+    $scope.distributors = responce.data;
+  });
     
     //set defaults for single distributor view
     $scope.distId = "73";
@@ -221,7 +243,6 @@ tic.controller('distController', ['$scope', '$http', '$sce', function($scope, $h
       }
     };
     
-  });
     //sorting default
     $scope.sortType = 'company';
     $scope.sortReverse = false;
@@ -229,21 +250,21 @@ tic.controller('distController', ['$scope', '$http', '$sce', function($scope, $h
 }]);
 
 //=====compound compatibility=====
-tic.controller('compoundController', ['$scope', '$http', function($scope, $http){
-  $http.get(url+'/wp-content/themes/TIC/assets/json/compound.json').then(
-    function(rslt){
-      $scope.compounds = rslt.data;
-    });
+tic.controller('compoundController', ['$scope', 'dataFactory', function($scope, dataFactory){
+  dataFactory.get_compound().then(function(responce){
+   $scope.compounds = responce.data;
+ });
     
     $scope.sortReverse = false;
     $scope.sortType = "drugName";
 }]);
 
 //=====chemical compatibility=====
-tic.controller('chemicalIndexController', ['$scope', '$http',function($scope, $http){
-  $http.get(url+'/wp-content/themes/TIC/assets/json/chemical.json').then(function(rslt){
-    $scope.chemical = rslt.data;
-    
+tic.controller('chemicalIndexController', ['$scope', 'dataFactory', function($scope, dataFactory){
+  dataFactory.get_chemical().then(function(responce){
+   $scope.chemical = responce.data;
+  });
+
     $scope.sortType = "chemical";
     $scope.sortReverse = false;
     
@@ -260,7 +281,7 @@ tic.controller('chemicalIndexController', ['$scope', '$http',function($scope, $h
       
       return legendSet[n];
     };
-  });
+    
 }]);
 
 //=====product search page=====
@@ -307,10 +328,13 @@ tic.controller('product_pageController', ['$scope', function($scope){
 }]);
 
 //=========techlibrary=================
-tic.controller('techlibraryController',['$scope', '$http', '$filter', 'techdataFactory',  function($scope, $http, $filter, techdataFactory){
+tic.controller('techlibraryController',['$scope', '$http', '$filter', 'dataFactory',  function($scope, $http, $filter, dataFactory){
  
- techdataFactory.getData().then(function(responce){
+ dataFactory.get_techdata().then(function(responce){
    $scope.techdata = responce.data;
+ });
+ dataFactory.get_prodinfo().then(function(responce){
+   $scope.prodinfo = responce.data;
  });
  
  //check and set variables from session storage
@@ -333,7 +357,7 @@ tic.controller('techlibraryController',['$scope', '$http', '$filter', 'techdataF
     $scope.set_pi = function(){
       $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
       return $scope.pi;
-    }
+    };
     //watch for changes to $scope.product
     $scope.$watch('product', function(){
       //call to set $scope.pi object to new product
