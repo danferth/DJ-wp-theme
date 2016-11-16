@@ -898,8 +898,10 @@ table.product-ref-table{
     @media screen and (min-width:$small-breakpoint){
       font-size:.95rem;
     }
-    @media screen and (min-width:$medium-breakpoint){
-      font-size: 1.05rem;
+  }
+  .main-block .inner-block p, .main-block .inner-block li{
+    @media screen and (min-width:$small-breakpoint){
+      font-size:.75rem;
     }
   }
 }
