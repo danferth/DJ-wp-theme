@@ -45,7 +45,7 @@ tic.filter('yesNo', function(){
   
 });
 
-tic.factory('dataFactory', function($http){
+tic.factory('dataFactory', function($http, $filter){
   var factory = {};
   factory.get_chemical = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/chemical.json');
@@ -328,16 +328,30 @@ tic.controller('product_pageController', ['$scope', function($scope){
 }]);
 
 //=========techlibrary=================
-tic.controller('techlibraryController',['$scope', '$http', '$filter', 'dataFactory',  function($scope, $http, $filter, dataFactory){
- 
- dataFactory.get_techdata().then(function(responce){
-   $scope.techdata = responce.data;
- });
- dataFactory.get_prodinfo().then(function(responce){
-   $scope.prodinfo = responce.data;
- });
- 
- //check and set variables from session storage
+tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  function($scope, $filter, dataFactory){
+  $scope.product = "";
+  
+  dataFactory.get_techdata().then(function(responce){
+    $scope.techdata = responce.data;
+  });
+  
+  dataFactory.get_prodinfo().then(function(responce){
+    $scope.prodinfo = responce.data;
+    //watch for changes to $scope.product
+    $scope.$watch('product', function(){
+      $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product})[0];
+      console.log($scope.pi.title);
+      if($scope.product != ""){
+        $scope.product_select_message = "Select a Different Product";
+        $scope.library_select_message = "Explore " + $scope.pi.title;
+      }else{
+        $scope.product_select_message = "Select a Product to Explore";
+        $scope.library_select_message = "Or Explore Our Full Library";
+      }
+    }); //END $watch
+  });
+
+  //check and set variables from session storage
   if($scope.getStorage('tl_line')){
     $scope.line  = $scope.getStorage('tl_line');
   }
@@ -350,37 +364,16 @@ tic.controller('techlibraryController',['$scope', '$http', '$filter', 'dataFacto
   if($scope.product){
     $('option[value="'+$scope.product+'"]').attr('selected', true);
   }
-  //get json $ set $scope.pi object from $scope.product variable and json
-  $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json').then(function(rslt){
-    $scope.prodinfo = rslt.data;
-    //sets $scope.pi to object from variable
-    $scope.set_pi = function(){
-      $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product })[0];
-      return $scope.pi;
-    };
-    //watch for changes to $scope.product
-    $scope.$watch('product', function(){
-      //call to set $scope.pi object to new product
-      $scope.set_pi();
-      if($scope.product != ""){
-        $scope.product_select_message = "Select a Different Product";
-        $scope.library_select_message = "Explore " + $scope.pi.title;
-      }else{
-        $scope.product_select_message = "Select a Product to Explore";
-        $scope.library_select_message = "Or Explore Our Full Library";
-      }
-    }); //END $watch
-  }); //END $http
+
 
 }]);
 
 //===============techResult======================
-tic.controller('techResultController', ['$scope', '$http', '$filter', '$sce', function($scope, $http, $filter, $sce){
+tic.controller('techResultController', ['$scope', '$filter', '$sce', 'dataFactory', function($scope, $filter, $sce, dataFactory){
 
   $scope.techQuery = $scope.getQueryVariable('id');
-  
-  $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json').then(function(rslt){
-    $scope.techlibrary = rslt.data;
+  dataFactory.get_techdata().then(function(responce){
+    $scope.techlibrary = responce.data;
     $scope.techNote = $filter('filter')($scope.techlibrary, {id: $scope.techQuery })[0];
   
     if($scope.techNote.type === 'GI'){
@@ -415,8 +408,8 @@ tic.controller('techResultController', ['$scope', '$http', '$filter', '$sce', fu
       $scope.VIDEO = true;
       $scope.videoUrl = url + "/wp-content/uploads/video/videos/" + $scope.techNote.link + '.mp4';
       }
-  });
   
+  });
 }]);
 
 //=====test page=====
