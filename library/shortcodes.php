@@ -175,8 +175,6 @@ function tech_select_shortcode($atts, $content, $tag){
     'class' => ''
     ), $atts);
   $output = "
-<div class='row'>\n
-  <div class='small-12 column'>\n
     <select class='".$a['class']."' name='product' ng-model='product' ng-change='setStorage(\"tl_subLine\", product)'>\n
       <option value=''>Select Product</option>\n
       <optgroup label='Filter Vials'>\n
@@ -199,9 +197,7 @@ function tech_select_shortcode($atts, $content, $tag){
       </optgroup>\n
       <option value='wellplate'>Well Plate</option>\n
       <option value='column'>SINGLE StEP® Flash Column</option>\n
-    </select>\n
-  </div>\n
-</div>";
+    </select>";
   return $output;
 }
 add_shortcode('tech_select', 'tech_select_shortcode');
@@ -212,14 +208,12 @@ function tech_nav_shortcode($atts, $content, $tag){
   $a = shortcode_atts(array(
     "class" => ""
     ), $atts);
-  $output = "<div class='row'>\n
-      <ul class='techlibrary_navigation ".$a['class']."'>\n
+  $output = "<ul class='techlibrary_navigation ".$a['class']."'>\n
         <li><a href='/tl/gi/'>General Information</a></li>\n
         <li><a href='tl/v/'>Videos</a></li>\n
         <li><a href='tl/an/'>Application Notes</a></li>\n
         <li><a href='tl/pw/'>Published Works</a></li>\n
-      </ul>\n
-  </div>";
+      </ul>";
   return $output;
 }
 add_shortcode('tech_nav', 'tech_nav_shortcode');
@@ -241,6 +235,25 @@ function tech_link_shortcode($atts, $content, $tag){
   return $output;
 }
 add_shortcode('tech_link', 'tech_link_shortcode');
+
+function techlibrary_top_shortcode($atts, $content, $tag){
+  $a = shortcode_atts(array(
+    'class' => ''
+    ),$atts);
+  $output = "<div class='row'>\n
+  <div class='small-12 medium-6 column'>\n
+    <h5>Search a Different Product</h5>\n
+    ".do_shortcode('[tech_select]')."
+  </div>\n
+  <div class='small-12 medium-6 column'>\n
+    <h5>Jump to a Different Section</h5>\n
+    ".do_shortcode('[tech_nav]')."
+  </div>\n
+</div>\n
+<hr/>";
+  return $output;
+}
+add_shortcode('techlibrary_top', 'techlibrary_top_shortcode');
 
 //****************************************************************************************************************
 //***********************************************PAGE LAYOUT******************************************************
