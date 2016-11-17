@@ -803,16 +803,9 @@ table.product-ref-table{
     li{
       list-style:none;
       float:left;
-      width:19%;
+      width:20%;
       text-align:center;
       background:$silver;
-      &:nth-child(1){
-        background:$primary-color;
-        color:$white;
-        text-transform:uppercase;
-        width:5%;
-        padding: .5rem 0;
-      }
       @media screen and (max-width:$small-breakpoint){
         width:100%;
         &:nth-child(1){

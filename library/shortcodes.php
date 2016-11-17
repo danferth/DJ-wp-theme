@@ -650,7 +650,6 @@ function info_module_shortcode($atts, $content, $tag){
     $output="
 <div class='info-module row'>\n
     <ul>\n
-      <li><i class='fa fa-info-circle' aria-hidden='true'></i></li>\n
       <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='".$a['faq']."'>FAQ's</a></li>\n
       <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/gi/'>General Information</a></li>\n
       <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/v/'>Videos</a></li>\n
