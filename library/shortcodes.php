@@ -722,4 +722,14 @@ function uploads_shortcode($atts, $content, $tag){
 }
 add_shortcode('uploads', 'uploads_shortcode');
 
+function template_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'src' => ''
+    ), $atts);
+  $uploads = get_template_directory_uri()."/";
+  $output = $uploads . $a['src'];
+  return $output;
+}
+add_shortcode('template', 'template_shortcode');
+
 ?>
