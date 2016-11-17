@@ -15,15 +15,15 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("<body>");
 		$body .= sprintf("<h2>" . $_POST['form'] . " Product Inquiry Submission</h2>\n");
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$_POST['first-name'],$_POST['last-name']);
+		$body .= sprintf("\nName: <b>%s %s</b><br/>\n",$_POST['first-name'],$_POST['last-name']);
 
-		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$_POST['email']);
-		$body .= sprintf("Zip code: <b>%s</b></br>\n",$_POST['zip-code']);
-		$body .= sprintf("Phone: <b>%s</b></br>\n",$_POST['phone']);
+		$body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
+		$body .= sprintf("Zip code: <b>%s</b><br/>\n",$_POST['zip-code']);
+		$body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
 		$body .= sprintf("<br />");
-		$body .= sprintf("Product: <b>%s</b></br>\n",$_POST['product']);
-		$body .= sprintf("Industry: <b>%s</b></br>\n",$_POST['industry']);
-		$body .= sprintf("Inquiry type: <b>%s</b></br>\n",$_POST['form']);
+		$body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
+		$body .= sprintf("Industry: <b>%s</b><br/>\n",$_POST['industry']);
+		$body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
 
 		$body .= sprintf("<br /><hr />");
 		$body .= sprintf("For internal use:<br />\n");
