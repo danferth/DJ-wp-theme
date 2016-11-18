@@ -131,7 +131,6 @@ tic.controller('ticController', ['$scope', '$sce', 'dataFactory', function($scop
   };
   $scope.getStorage = function(key){
     var rslt = sessionStorage.getItem(key);
-    console.log(key+' was requested!');
     return rslt;
   };
   
@@ -291,7 +290,6 @@ tic.controller('productsController', ['$scope', function($scope){
   $scope.sortReverse = false;
   
   $scope.goToProduct = function(n){
-    //console.log(url + "/" + n);
     window.location.href = url + "/" + n;
   };
 }]);
