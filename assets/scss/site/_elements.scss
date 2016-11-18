@@ -929,9 +929,18 @@ table.product-ref-table{
   }
 }
 //class needed for dimming tiles
-.dim{
+.techlibrary-home-tiles .dim{
   opacity:.25 !important;
   cursor:none;
+  .inner-block:hover{
+    box-shadow:0 0 5px 0 $steel;
+    background:$ghost;
+    .main-block-image-wrap{
+      img{
+        transform:scale(1); 
+      }
+    }
+  }
 }
 //=====================================================================
 //=======================tech library nav bar==========================
