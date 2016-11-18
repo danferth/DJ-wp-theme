@@ -392,6 +392,34 @@ table.product-ref-table{
 //===========================Plate Search Page=========================
 //=====================================================================
 .platesearch-form{
+  .wellCount input[type='radio'], .wellShape input[type='radio']{
+    position:absolute;
+    opacity:0;
+  }
+  .wellCount label{
+    background:lighten($primary-color, 5%);
+    color:$white;
+    text-align:center;
+    padding:.25rem .5rem;
+    border-radius:50%;
+    transition:all 150ms;
+    &:hover{
+      background:darken($primary-color, 5%);
+    }
+  }
+  .wellCount input[type='radio']:checked + label{
+    background:darken($primary-color, 15%);
+  }
+  .wellShape label img{
+    opacity:.55;
+    transition:all 150ms;
+    &:hover{
+      opacity:1;
+    }
+  }
+  .wellShape input[type='radio']:checked + label img{
+    opacity:1;
+  }
   .selection{
     border-right:1px solid $smoke;
     min-height:rem-calc(130px);
@@ -898,7 +926,11 @@ table.product-ref-table{
     }
   }
 }
-
+//class needed for dimming tiles
+.dim{
+  opacity:.25 !important;
+  cursor:none;
+}
 //=====================================================================
 //=======================tech library nav bar==========================
 //=====================================================================
@@ -930,6 +962,16 @@ table.product-ref-table{
       &:hover{
         background:$smoke;
         color:$jet;
+      }
+    }
+    .disable{
+      background:$white;
+      color:$gainsboro;
+      cursor:none;
+      &:hover{
+        background:$white;
+        color:$gainsboro;
+        cursor:none;
       }
     }
   }

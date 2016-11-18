@@ -331,8 +331,62 @@ tic.controller('product_pageController', ['$scope', function($scope){
 tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  function($scope, $filter, dataFactory){
   $scope.product = "";
   
+  $scope.gi   = "";
+  $scope.v    = "";
+  $scope.an   = "";
+  $scope.pw   = "";
+  $scope.faq  = "";
+  $scope.comp = "";
+  
   dataFactory.get_techdata().then(function(responce){
     $scope.techdata = responce.data;
+    $scope.$watch('product', function(){
+      $scope.tl_rslt = $filter('filter')($scope.techdata, {subProductLine : $scope.product});
+      $scope.gi   = $filter('filter')($scope.tl_rslt, {type : 'GI'});
+      $scope.faq  = $filter('filter')($scope.tl_rslt, {type : 'FAQ'});
+      $scope.comp = $filter('filter')($scope.tl_rslt, {type : 'COMP'});
+      $scope.v    = $filter('filter')($scope.tl_rslt, {type : 'VIDEO'});
+      $scope.an   = $filter('filter')($scope.tl_rslt, {type : 'APPNOTE'});
+      $scope.pw   = $filter('filter')($scope.tl_rslt, {type : 'PW'});
+      //checks for length on result and dim or undim tiles
+      $scope.noGo = function(main, nav){
+        $(main).addClass('dim');
+        $(main).attr('data-mainblocklink', '');
+        
+        $(nav+" a").addClass('disable');
+        $(nav+" a").on('click', function(e){
+          e.preventDefault();
+        });
+      };
+      $scope.yesGo = function(main, nav, url){
+        $(main).removeClass('dim');
+        $(main).attr('data-mainblocklink', url);
+        
+        $(nav+" a").removeClass('disable');
+        $(nav+" a").off();
+      };
+      if($scope.gi.length == 0 && $scope.faq.length == 0 && $scope.comp.length == 0){
+        $scope.noGo('.tl-home-gi', '.tl-nav-gi');
+      }else{
+        $scope.yesGo('.tl-home-gi', '.tl-nav-gi', 'tl/gi');
+      }
+       if($scope.v.length == 0){
+        $scope.noGo('.tl-home-v', '.tl-nav-v');
+      }else{
+        $scope.yesGo('.tl-home-v', '.tl-nav-v', 'tl/v');
+      }
+       if($scope.an.length == 0){
+        $scope.noGo('.tl-home-an', '.tl-nav-an');
+      }else{
+        $scope.yesGo('.tl-home-an', '.tl-nav-an', 'tl/an');
+      }
+       if($scope.pw.length == 0){
+        $scope.noGo('.tl-home-pw', '.tl-nav-pw');
+      }else{
+        $scope.yesGo('.tl-home-pw', '.tl-nav-pw', 'tl/pw');
+      }
+    });
+    
   });
   
   dataFactory.get_prodinfo().then(function(responce){
@@ -340,7 +394,6 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
     //watch for changes to $scope.product
     $scope.$watch('product', function(){
       $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product})[0];
-      console.log($scope.pi.title);
       if($scope.product != ""){
         $scope.product_select_message = "Select a Different Product";
         $scope.library_select_message = "Explore " + $scope.pi.title;
@@ -364,8 +417,8 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
   if($scope.product){
     $('option[value="'+$scope.product+'"]').attr('selected', true);
   }
-
-
+  
+  
 }]);
 
 //===============techResult======================
