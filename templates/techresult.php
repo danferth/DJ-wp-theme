@@ -79,6 +79,13 @@ get_header(); ?>
 
 </div>
 
+<div class="row" ng-controller="techlibraryController">
+	<div class="small-12 medium-6 column">
+	<p></p>Explore more of what {{ pi.title }} has to offer in one of the categories below.</p>
+	<?php echo do_shortcode('[tech_nav]'); ?>
+	</div>
+</div>
+
 <!-- ==============GI==================== -->
     
 <!-- ========================END======================== -->

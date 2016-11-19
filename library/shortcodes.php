@@ -209,10 +209,10 @@ function tech_nav_shortcode($atts, $content, $tag){
     "class" => ""
     ), $atts);
   $output = "<ul class='techlibrary_navigation ".$a['class']."'>\n
-        <li class='tl-nav-gi'><a href='tl/gi/'>General Information</a></li>\n
-        <li class='tl-nav-v'><a href='tl/v/'>Videos</a></li>\n
-        <li class='tl-nav-an'><a href='tl/an/'>Application Notes</a></li>\n
-        <li class='tl-nav-pw'><a href='tl/pw/'>Published Works</a></li>\n
+        <li class='tl-nav-gi'><a href='tl/gi/' ng-class='{disable: !gi.length}'>General Information</a></li>\n
+        <li class='tl-nav-v'><a href='tl/v/'   ng-class='{disable: !v.length}' >Videos</a></li>\n
+        <li class='tl-nav-an'><a href='tl/an/' ng-class='{disable: !an.length}'>Application Notes</a></li>\n
+        <li class='tl-nav-pw'><a href='tl/pw/' ng-class='{disable: !pw.length}'>Published Works</a></li>\n
       </ul>";
   return $output;
 }

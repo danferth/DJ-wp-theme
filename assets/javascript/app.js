@@ -351,7 +351,6 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
         $(main).addClass('dim');
         $(main).attr('data-mainblocklink', '');
         
-        $(nav+" a").addClass('disable');
         $(nav+" a").on('click', function(e){
           e.preventDefault();
         });
@@ -360,7 +359,6 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
         $(main).removeClass('dim');
         $(main).attr('data-mainblocklink', url);
         
-        $(nav+" a").removeClass('disable');
         $(nav+" a").off();
       };
       if($scope.gi.length == 0 && $scope.faq.length == 0 && $scope.comp.length == 0){
@@ -368,17 +366,17 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
       }else{
         $scope.yesGo('.tl-home-gi', '.tl-nav-gi', 'tl/gi');
       }
-       if($scope.v.length == 0){
+      if($scope.v.length == 0){
         $scope.noGo('.tl-home-v', '.tl-nav-v');
       }else{
         $scope.yesGo('.tl-home-v', '.tl-nav-v', 'tl/v');
       }
-       if($scope.an.length == 0){
+      if($scope.an.length == 0){
         $scope.noGo('.tl-home-an', '.tl-nav-an');
       }else{
         $scope.yesGo('.tl-home-an', '.tl-nav-an', 'tl/an');
       }
-       if($scope.pw.length == 0){
+      if($scope.pw.length == 0){
         $scope.noGo('.tl-home-pw', '.tl-nav-pw');
       }else{
         $scope.yesGo('.tl-home-pw', '.tl-nav-pw', 'tl/pw');
