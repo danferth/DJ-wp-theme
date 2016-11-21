@@ -10,7 +10,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -25,7 +25,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -40,7 +40,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -55,7 +55,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "standard",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -70,7 +70,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -85,7 +85,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -100,7 +100,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extractor",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -115,7 +115,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "mega",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -130,7 +130,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "low-evap",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -145,7 +145,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -160,7 +160,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -175,7 +175,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -190,7 +190,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -205,7 +205,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -220,7 +220,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -235,7 +235,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -250,7 +250,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -265,7 +265,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -280,7 +280,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -295,7 +295,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -310,7 +310,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -325,7 +325,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "fv-overview.png"
@@ -340,7 +340,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "How-to-use-a-filter-vial.png"
@@ -355,7 +355,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "48position.png"
@@ -370,7 +370,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "Sample-Loss.png"
@@ -385,7 +385,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "Syringe-Filter-Dangers.png"
@@ -400,7 +400,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "FV-revolution.png"
@@ -415,7 +415,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "youtube.png"
@@ -430,7 +430,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "eXtreme-PVDF.png"
@@ -445,7 +445,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "urine-appnote.png"
@@ -460,7 +460,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "oral-fluids-appnote.png"
@@ -475,7 +475,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "Thomson-Filter-Vials-for-Antibody-Analysis.png"
@@ -490,7 +490,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extractor",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "ex3d.png"
@@ -505,7 +505,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "mega",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "mega_fv_how_2.png"
@@ -520,7 +520,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -535,7 +535,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -550,7 +550,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "standard",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -565,7 +565,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -580,7 +580,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extractor",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -595,7 +595,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -610,7 +610,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -625,7 +625,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -640,7 +640,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -655,7 +655,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -670,7 +670,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -685,7 +685,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -700,7 +700,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -715,7 +715,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -730,7 +730,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -745,7 +745,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -760,7 +760,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -775,7 +775,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -790,7 +790,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -805,7 +805,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -820,7 +820,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -835,7 +835,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -850,7 +850,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -865,7 +865,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -880,7 +880,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -895,7 +895,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -910,7 +910,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -925,7 +925,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -940,7 +940,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -955,7 +955,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Food/Agriculture/Environmental",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -970,7 +970,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -985,7 +985,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1000,7 +1000,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1015,7 +1015,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Toxicology/Forensics",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1030,7 +1030,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Toxicology/Forensics",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1045,7 +1045,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Toxicology/Forensics",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1060,7 +1060,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Toxicology/Forensics",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1075,7 +1075,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Toxicology/Forensics",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1090,7 +1090,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "Toxicology/Forensics",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1105,7 +1105,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1120,7 +1120,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1135,7 +1135,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1150,7 +1150,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1165,7 +1165,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1180,7 +1180,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1195,7 +1195,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1210,7 +1210,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1225,7 +1225,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1240,7 +1240,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1255,7 +1255,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1270,7 +1270,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1285,7 +1285,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "Pharmaceuticals",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1300,7 +1300,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1315,7 +1315,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1330,7 +1330,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1345,7 +1345,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1360,7 +1360,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1375,7 +1375,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1390,7 +1390,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : ["pesticide", "honey"],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1405,7 +1405,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "standard",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : ["PTFE", "pesticide", "ground water"],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1420,7 +1420,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : ["PVDF", "PTFE", "juice", "vegetable", "friut", "orange", "LCMS", "GCMS", "MC/MS/MS", "GC/MS", "pesticide"],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1435,7 +1435,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extractor",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1450,7 +1450,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1465,7 +1465,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "nano",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1480,7 +1480,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1495,7 +1495,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1510,7 +1510,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1525,7 +1525,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1540,7 +1540,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extractor",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1555,7 +1555,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1570,7 +1570,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1585,7 +1585,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1600,7 +1600,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1615,7 +1615,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1630,7 +1630,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extractor",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1645,7 +1645,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1660,7 +1660,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1675,7 +1675,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1690,7 +1690,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1705,7 +1705,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1720,7 +1720,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extractor",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1735,7 +1735,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1750,7 +1750,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1765,7 +1765,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1780,7 +1780,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1795,7 +1795,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1810,7 +1810,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1825,7 +1825,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1840,7 +1840,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "phyto-plankton.png"
@@ -1855,7 +1855,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "samplePort.png"
@@ -1870,7 +1870,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "sample-port.png"
@@ -1885,7 +1885,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "rugmat.png"
@@ -1900,7 +1900,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "flask-carrier.png"
@@ -1915,7 +1915,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1930,7 +1930,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1945,7 +1945,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1960,7 +1960,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1975,7 +1975,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -1990,7 +1990,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2005,7 +2005,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2020,7 +2020,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2035,7 +2035,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2050,7 +2050,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2065,7 +2065,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2080,7 +2080,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2095,7 +2095,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2110,7 +2110,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2125,7 +2125,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2140,7 +2140,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2155,7 +2155,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2170,7 +2170,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2185,7 +2185,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2200,7 +2200,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2215,7 +2215,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2230,7 +2230,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "tc-options.png"
@@ -2245,7 +2245,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "tc716qc.png"
@@ -2260,7 +2260,7 @@
    "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "tc14qc.png"
@@ -2275,7 +2275,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "tc716tf.png"
@@ -2290,7 +2290,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "tc14tf.png"
@@ -2305,7 +2305,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2320,7 +2320,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "TC",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2335,7 +2335,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2350,7 +2350,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2365,7 +2365,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2380,7 +2380,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2395,7 +2395,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2410,7 +2410,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : "ATR-UYF.png"
@@ -2425,7 +2425,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2440,7 +2440,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2455,7 +2455,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2470,7 +2470,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2485,7 +2485,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2500,7 +2500,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2515,7 +2515,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2530,7 +2530,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2545,7 +2545,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2560,7 +2560,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2575,7 +2575,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2590,7 +2590,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2605,7 +2605,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2620,7 +2620,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2635,7 +2635,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2650,7 +2650,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2665,7 +2665,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2680,7 +2680,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2695,7 +2695,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "Uflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2710,7 +2710,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2725,7 +2725,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2740,7 +2740,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2755,7 +2755,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2770,7 +2770,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2785,7 +2785,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2800,7 +2800,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2815,7 +2815,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2830,7 +2830,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2845,7 +2845,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2860,7 +2860,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2875,7 +2875,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "plasmid",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2890,7 +2890,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2905,7 +2905,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2920,7 +2920,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2935,7 +2935,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2950,7 +2950,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2965,7 +2965,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2980,7 +2980,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -2995,7 +2995,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3010,7 +3010,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3025,7 +3025,7 @@
     "productLine"     : "UYF",
     "subProductLine"  : "airotop",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3040,7 +3040,7 @@
     "productLine"     : "wellplate",
     "subProductLine"  : "wellplate",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3055,7 +3055,7 @@
     "productLine"     : "columns",
     "subProductLine"  : "column",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3070,7 +3070,7 @@
     "productLine"     : "glassware",
     "subProductLine"  : "glassware",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3085,7 +3085,7 @@
     "productLine"     : "glassware",
     "subProductLine"  : "glassware",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3100,7 +3100,7 @@
     "productLine"     : "glassware",
     "subProductLine"  : "glassware",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "01/01/2015",
     "image"           : ""
@@ -3115,7 +3115,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "10/14/2016",
     "image"           : ""
@@ -3130,7 +3130,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "10/14/2016",
     "image"           : ""
@@ -3145,7 +3145,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "extreme",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "10/14/2016",
     "image"           : ""
@@ -3160,7 +3160,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "10/14/2016",
     "image"           : ""
@@ -3175,7 +3175,7 @@
     "productLine"     : "FV",
     "subProductLine"  : "all",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "10/26/2016",
     "image"           : ""
@@ -3190,7 +3190,7 @@
     "productLine"     : "OG",
     "subProductLine"  : "Oflask",
     "science"         : "",
-    "industry"        : "",
+    "industry"        : [],
     "tags"            : [],
     "date"            : "10/26/2016",
     "image"           : ""
