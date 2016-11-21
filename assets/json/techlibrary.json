@@ -3179,5 +3179,20 @@
     "tags"            : [],
     "date"            : "10/26/2016",
     "image"           : ""
+    },{
+    "id"              : 213,
+    "title"           : "Evaluating the Impact of High Pluronic&reg; WF68 Concentrations on Antibody Producing CHO Cell Lines",
+    "description"     : "Routine analysis of samples containing cell culture media and/or supernatant by HPLC can lead to performance issues and can require frequent purchasing of new columns and increased HPLC maintenance. ... Here, we demonstrate that using Thomson [filter vials]] during sample preparation results in minimal impact preparation time, no detectable loss in product, and improved column performance leading to extended column lifetimes.",
+    "citation"        : "Tharmala Tharmalingam, Chetan T. Goudar<br />Cell Science & Technology, Process & Product Development, Amgen Inc. One Amgen<br />Center Drive, Thousand Oaks 91320, California; telephone: 8054475321;<br />fax: 805-499-6819; e-mail: cgoudar@amgen.com",
+    "link"            : "Tharmalingam_et_al-2015-Biotechnology_and_Bioengineering.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "OG",
+    "subProductLine"  : "Oflask",
+    "science"         : "",
+    "industry"        : "",
+    "tags"            : [],
+    "date"            : "10/26/2016",
+    "image"           : ""
     }
 ]
