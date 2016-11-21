@@ -328,7 +328,7 @@ tic.controller('product_pageController', ['$scope', function($scope){
 //=========techlibrary=================
 tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  function($scope, $filter, dataFactory){
   $scope.product = "";
-  
+  $scope.searchanything = "";
   $scope.gi   = "";
   $scope.v    = "";
   $scope.an   = "";

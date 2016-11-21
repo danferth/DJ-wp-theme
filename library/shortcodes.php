@@ -213,7 +213,8 @@ function tech_nav_shortcode($atts, $content, $tag){
         <li class='tl-nav-v'><a href='tl/v/'   ng-class='{disable: !v.length}' >Videos</a></li>\n
         <li class='tl-nav-an'><a href='tl/an/' ng-class='{disable: !an.length}'>Application Notes</a></li>\n
         <li class='tl-nav-pw'><a href='tl/pw/' ng-class='{disable: !pw.length}'>Published Works</a></li>\n
-      </ul>";
+      </ul>\n
+      <input type='text' id='searchanything' ng-model='searchanything' placeholder='search anything!'/>";
   return $output;
 }
 add_shortcode('tech_nav', 'tech_nav_shortcode');
