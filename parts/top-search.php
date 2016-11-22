@@ -9,8 +9,8 @@
 
 ?>
 <?php do_action( 'foundationpress_before_searchform' ); ?>
-<form class="top-search-bar" role="search" method="get" id="cse-search-box" action="<?php echo home_url( '/results/' ); ?>">
-	<div class="extend hide-for-small-only">
+<form class="top-search-bar show-for-large-up" role="search" method="get" id="cse-search-box" action="<?php echo home_url( '/results/' ); ?>">
+	<div class="extend">
   	<div class="row collapse">
 <?php do_action( 'foundationpress_searchform_top' ); ?>
     	<div class="medium-5 medium-push-6 large-3 large-push-8 column">
