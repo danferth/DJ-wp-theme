@@ -48,7 +48,7 @@ somewhat complicated but better to adjust it a year later here than on every pag
 */
 function prefooterwrap_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array('class' => ''), $atts);
-    return "<div class='row hide-for-small-only prefooter-wrap ". $a['class'] ."'> \n
+    return "<div class='". $a['class'] ." row hide-for-small-only prefooter-wrap'> \n
     " . do_shortcode($content) . " \n
     </div>";
 }
@@ -58,7 +58,7 @@ function prefooter_shortcode($atts, $content=null, $tag){
       'class' => '',
       'link' => ''
     ), $atts);
-  return "<div class='column small-12 medium-6 prefooter " . $a['class'] . "' data-prefooterlink='" . home_url() . "/" . $a['link'] . "'> \n
+  return "<div class='" . $a['class'] . " column small-12 medium-6 prefooter' data-prefooterlink='" . home_url() . "/" . $a['link'] . "'> \n
   <p>" . $content . "</p> \n
 </div>";
 }
@@ -109,6 +109,7 @@ add_shortcode('img', 'img_shortcode');
 function parts_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
     'title' => '',
+    'class' => '',
     'line' => '',
     'series' => '',
     'filter' => ''
@@ -116,7 +117,7 @@ function parts_shortcode($atts, $content, $tag){
   $content_url = wp_upload_dir();
   $prod_url = $content_url['baseurl']."/products/";
   $output = "
-  <div class='partnumber_set row'>";
+  <div class='" . $a['class'] . " partnumber_set row'>";
 if($a['title']){    
     $output .= "<div class='small-12 column'>
     <h4>".$a['title']." Part Numbers</h4>
@@ -208,7 +209,7 @@ function tech_nav_shortcode($atts, $content, $tag){
   $a = shortcode_atts(array(
     "class" => ""
     ), $atts);
-  $output = "<ul class='techlibrary_navigation ".$a['class']."'>\n
+  $output = "<ul class='".$a['class']." techlibrary_navigation'>\n
         <li class='tl-nav-gi'><a href='tl/gi/' ng-class='{disable: !gi.length}'>General Information</a></li>\n
         <li class='tl-nav-v'><a href='tl/v/'   ng-class='{disable: !v.length}' >Videos</a></li>\n
         <li class='tl-nav-an'><a href='tl/an/' ng-class='{disable: !an.length}'>Application Notes</a></li>\n
@@ -237,11 +238,14 @@ function tech_link_shortcode($atts, $content, $tag){
 }
 add_shortcode('tech_link', 'tech_link_shortcode');
 
+
+//Display tech library top ([product_select] and [tech_nav] are housed)
+//[tech_top class='']
 function techlibrary_top_shortcode($atts, $content, $tag){
   $a = shortcode_atts(array(
     'class' => ''
     ),$atts);
-  $output = "<div class='row'>\n
+  $output = "<div class='".$a['class']." row'>\n
   <div class='small-12 medium-6 column'>\n
     <h5>Search a Different Product</h5>\n
     ".do_shortcode('[tech_select]')."
@@ -293,9 +297,10 @@ add_shortcode('hero_select', 'hero_select_shortcode');
 //[image_full src=“image.jpg]
 function image_full_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
+    'class' => '',
     'src' => ''
     ), $atts);
-    $output="<div class='row'>
+    $output="<div class='".$a['class']." row'>
 		<img src='".content_url('/uploads/') . $a['src'] ."'/>\n
     </div>";
     return $output;
@@ -314,7 +319,7 @@ function centered_shortcode($atts, $content=null, $tag){
     ), $atts);
     
   if($a['src']){
-   $output = "<div class='row'>";
+   $output = "<div class='".$a['class']." row'>";
    
     if($a['title']){
       $output .= "<div class='small-12 medium-8 medium-centered column'><h2>".$a['title']."</h2></div>";
@@ -331,7 +336,7 @@ function centered_shortcode($atts, $content=null, $tag){
     </div>
   </div>";
   }else{
-   $output = "<div class='row'>";
+   $output = "<div class='".$a['class']." row'>";
    
     if($a['title']){
       $output .= "<div class='small-12 medium-8 medium-centered column'><h2>".$a['title']."</h2></div>";
@@ -355,11 +360,12 @@ add_shortcode('centered', 'centered_shortcode');
 //[/intro_quiry]
 function intro_quiry_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
+    'class' => '',
     'title' => '',
     'product' => ''
     ), $atts);
     $output = "
-    <div class='row'>\n
+    <div class='".$a['class']." row'>\n
 	    <div class='small-12 medium-6 large-7 column'>\n
 		    <h2>".$a['title']."</h2>\n
 		    ".$content."
@@ -379,13 +385,14 @@ add_shortcode('intro_quiry', 'intro_quiry_shortcode');
 function text_image_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'src' => '',
+    'class' => '',
     'caption' => '',
     'title' => '',
     'pull' => false
     ), $atts);
     $class = "push-down ";
     if($a['pull']){$class = "";}
-    $output = "<div class='row'>\n
+    $output = "<div class='".$a['class']." row'>\n
 	    <div class='".$class."small-12 medium-5 medium-push-7 column'>\n";
 		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
 		    if($a['caption']){$output .= "<p class='disclaimer'>".$a['caption']."</p>\n";}
@@ -407,11 +414,12 @@ add_shortcode('text_image', 'text_image_shortcode');
 function image_text_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'src' => '',
+    'class' => '',
     'caption' => '',
     'title' => ''
     ), $atts);
     $output = "
-    <div class='row'>\n
+    <div class='".$a['class']." row'>\n
 	    <div class='push-down small-12 medium-5 column'>\n";
 		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
 		    if($a['caption']){$output .= "<p class='disclaimer'>".$a['caption']."</p>\n";}
@@ -469,9 +477,10 @@ add_shortcode('dual_image', 'dual_image_shortcode');
 //[/column_text]
 function column_text_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
-    'title' => ''
+    'title' => '',
+    'class' => ''
     ), $atts);
-    $output = "<div class='row'>\n";
+    $output = "<div class='".$a['class']." row'>\n";
       if($a['title']){$output .= "<div class='small-12 column'>\n
         <h2>".$a['title']."</h2>
       </div>\n";}
@@ -491,10 +500,11 @@ add_shortcode('column_text', 'column_text_shortcode');
 function product_video_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'title' => '',
+    'class' => '',
     'src' => ''
     ), $atts);
   $output = "
-    <div class='video-row row'>\n
+    <div class='".$a['class']." video-row row'>\n
 	<div class='small-12 column'>\n
 		<h2>" . $a['title'] . "</h2>\n
 	</div>\n
@@ -619,13 +629,14 @@ add_shortcode('duel_boxes', 'duel_boxes_shortcode');
 function techlink_module_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
     'title'   => '',
+    'class'   => '',
     'key1'    => '',
     'value1'  => '',
     'key2'    => '',
     'value2'  => ''
     ), $atts);
   $output = "
-  <div class='row tech-link-module'>
+  <div class='".$a['class']." row tech-link-module'>
 	<div class='small-12 column'>
 		<h4>".$a['title']."</h4>
 	</div>
@@ -646,10 +657,11 @@ add_shortcode('tech_link_module', 'techlink_module_shortcode');
 function info_module_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
     'faq' => '',
-    'product' => ''
+    'product' => '',
+    'class' => ''
     ), $atts);
     $output="
-<div class='info-module row'>\n
+<div class='".$a['class']." info-module row'>\n
     <ul>\n
       <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='".$a['faq']."'>FAQ's</a></li>\n
       <li ng-click='setStorage(\"tl_subLine\",\"".$a['product']."\")'><a href='/tl/gi/'>General Information</a></li>\n
@@ -672,10 +684,11 @@ add_shortcode('info_module', 'info_module_shortcode');
 function related_product_module_wrap_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'title' => '',
+    'class' => '',
     'module_count' => ''
     ), $atts);
   $output = "
-<div class='row'>
+<div class='".$a['class']." row'>
   <div class='related-product-module small-12 column'>
     <div class='small-12 column'>
       <h2>".$a['title']."</h2>
@@ -692,11 +705,12 @@ add_shortcode('related_product_module_wrap', 'related_product_module_wrap_shortc
 function related_product_module_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
     'src' => '',
+    'class' => '',
     'title' => '',
     'link' => ''
     ), $atts);
   $output = "
-<li>
+<li class='".$a['class']."'>
   <div class='related-product-wrap' data-link='".$a['link']."'>
     <img src='".content_url('/uploads/') . $a['src'] ."'/>
     <div class='related-product-pannel'>
