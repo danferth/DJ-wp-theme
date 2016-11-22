@@ -642,7 +642,7 @@ function techlink_module_shortcode($atts, $content, $tag){
 	</div>
 <div class='tech-link-wrap small-12 column' ng-repeat=";
   $output .='"';
-  $output .= "n in techdata | filter:{".$a['key1']." : '".$a['value1']."', ".$a['key2']." : '".$a['value2']."'} | limitTo:5";
+  $output .= "n in techdata | filter:{".$a['key1']." : '".$a['value1']."', ".$a['key2']." : '".$a['value2']."'} | orderBy: '-date' | limitTo:5";
   $output .= '">';
   $output .= do_shortcode('[tech_link]');
   $output .= "</div></div>";
