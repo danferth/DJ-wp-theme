@@ -11,7 +11,7 @@
 		"fax": "760-757-9367",
 		"webUrl": "http://htslabs.com",
 		"web": "htslabs.com",
-		"email": "customerservice@hplc1.com"
+		"email": "customerservice@htslabs.com"
 	}, {
 		"id": 1,
 		"region": "africa",
@@ -91,57 +91,30 @@
 	}, {
 		"id": 7,
 		"region": "asia",
-		"country": "Malaysia",
-		"company": "Omega Scientific (M) Sdn Bhd",
+		"country": "Singapore",
+		"company": "Palico Biotech Pte Ltd",
 		"products": ["Filter Vials", "Well Plates", "Flasks"],
-		"address": "Suite E6-2, 2nd Floor, Jalan Selaman 1/2, Dataran Palma,\n68000 Ampang, Selangor Darul Ehsan, Malaysia",
-		"tel": "(60) 3 4270 1272",
-		"fax": "(60) 3 4270 1375",
-		"webUrl": "http://www.omegascientific.com.my",
-		"web": "omegascientific.com.my",
-		"email": "sham@omegascientific.com.my"
+		"address": "18 Boon Lay Way<br/> #06-104 TradeHub 21</br> Singapore 609966",
+		"tel": "(65) 6465 1350",
+		"fax": "(65) 6465 1360",
+		"webUrl": "http://www.palicobio.com",
+		"web": "www.palicobio.com",
+		"email": "sales@palicobio.com"
 	}, {
 		"id": 8,
 		"region": "asia",
-		"country": "Singapore",
-		"company": "Omega Scientific Pte Ltd",
-		"products": ["Filter Vials", "Well Plates", "Flasks"],
-		"address": "1 Kaki Bukit View #05-15/16,\nTechview, Singapore 415941",
-		"tel": "(65) 6744 6645",
-		"fax": "(65) 6744 9958",
-		"webUrl": "http://www.omegascientific.com.sg",
-		"web": "omegascientific.com.sg",
-		"email": "phoebe@omegascientific.com.sg"
+		"country": "Taiwan",
+		"company": "LEFO Science CO., Ltd.",
+		"products": ["Well Plates", "Flasks"],
+		"address": "#328-1, Sec. 2, Shipai Rd., Taipei, 112, Taiwan",
+		"tel": "+886-2-28726874",
+		"tel2": "(+66)2-320-5531",
+		"fax": "+886-2-28726674",
+		"webUrl": "http://www.lefoscience.com/",
+		"web": "www.lefoscience.com",
+		"email": "edward@lefoscience.com"
 	}, {
 		"id": 9,
-		"region": "asia",
-		"country": "Thailand",
-		"company": "Omega Scientific (Thailand) Co. Ltd.",
-		"products": ["Filter Vials", "Well Plates", "Flasks"],
-		"address": "201/220 M.6 Pravate,\nPravate, Bangkok 10250, Thailand",
-		"tel": "(+66)2-320-5330",
-		"tel2": "(+66)2-320-5531",
-		"fax": "(+66)2-320-5534",
-		"webUrl": "http://www.omegascientific.co.th/",
-		"web": "omegascientific.co.th",
-		"email": "kittisak@omegascientific.co.th"
-	},
-
-	{
-		"id": 10,
-		"region": "Europe",
-		"country": "Europe",
-		"company": "Biosilta",
-		"products": ["Flasks", "Well Plates"],
-		"address": "BioSilta Oy, P.O. Box 4300 90014 University of Oulu\nFinland",
-		"tel": "+358-(0)50-527-4970",
-		"tel2": "",
-		"fax": "+358-(0)207 001 500",
-		"webUrl": "http://www.biosilta.com",
-		"web": "biosilta.com",
-		"email": "info@biosilta.com"
-	}, {
-		"id": 11,
 		"region": "Europe",
 		"country": "Austria",
 		"company": "Axel Semrau GmbH & Co KG",
@@ -154,7 +127,7 @@
 		"web": "www.axel-semrau.de",
 		"email": "info@axel-semrau.de"
 	}, {
-		"id": 12,
+		"id": 10,
 		"region": "Europe",
 		"country": "Austria",
 		"company": "Bartelt GmbH Labor & Datentechnik",
@@ -167,33 +140,7 @@
 		"web": "www.bartelt.at ",
 		"email": "office@bartelt.at "
 	}, {
-		"id": 13,
-		"region": "Europe",
-		"country": "Belgium",
-		"company": "Infors Benelux",
-		"products": ["Flasks", "Well Plates"],
-		"address": "Markweg 9-A\nNL-6883 JL Velp (GLD)\nP.O. Box 125\nNL-6880 AC Velp (GLD)",
-		"tel": "+31 (0)263 693 100",
-		"tel2": "",
-		"fax": "+31 (0)263 693 109",
-		"webUrl": "http://www.infors-ht.nl/",
-		"web": "www.infors-ht.nl",
-		"email": "infors.bnl@infors-ht.com"
-	}, {
-		"id": 14,
-		"region": "Europe",
-		"country": "Czech Republic",
-		"company": "Biotrade s.r.o.",
-		"products": ["Flasks", "Well Plates"],
-		"address": "Slikova 20\nCZ-169 00 PRAHA 6",
-		"tel": "+420 (2)2051 31 62",
-		"tel2": "",
-		"fax": "+420 (2)3335 66 45",
-		"webUrl": "http://www.biotrade.cz/",
-		"web": "www.biotrade.cz",
-		"email": "biotrade@biotrade.cz"
-	}, {
-		"id": 15,
+		"id": 11,
 		"region": "Europe",
 		"country": "Denmark",
 		"company": "Buch & Holm",
@@ -206,7 +153,7 @@
 		"web": "buch-holm.dk",
 		"email": "b-h@buch-holm.dk"
 	}, {
-		"id": 16,
+		"id": 12,
 		"region": "Europe",
 		"country": "Finnland",
 		"company": "Berner Oy",
@@ -219,7 +166,7 @@
 		"web": "www.berner.fi/pro",
 		"email": "pro.tilaukset@berner.fi"
 	}, {
-		"id": 17,
+		"id": 13,
 		"region": "Europe",
 		"country": "France",
 		"company": "BGB Analytik AG",
@@ -232,20 +179,20 @@
 		"web": "bgb-analytik",
 		"email": "sales@bgb-analytik.com"
 	}, {
-		"id": 18,
+		"id": 14,
 		"region": "Europe",
 		"country": "France",
-		"company": "Infors Sarl",
+		"company": "CliniSciences",
 		"products": ["Flasks", "Well Plates"],
-		"address": "2, rue du Buisson aux Fraises\nB&acirc;timent D13\nF-91300 Massy",
-		"tel": "+33 1 69 30 95 04",
+		"address": "183, avenue Georges Clémenceau<br/>92000 Nanterre - France",
+		"tel": "+33 9 77 40 09 09",
 		"tel2": "",
-		"fax": "+33 1 69 30 95 05",
-		"webUrl": "http://www.infors-ht.fr/",
-		"web": "www.infors-ht.fr",
-		"email": "infors.fr@infors-ht.com"
+		"fax": "+33 9 77 40 10 11",
+		"webUrl": "http://www.clinisciences.com/",
+		"web": "www.clinisciences.com",
+		"email": "info@clinisciences.com"
 	}, {
-		"id": 19,
+		"id": 15,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "Axel Semrau GmbH & Co KG",
@@ -258,7 +205,7 @@
 		"web": "www.axel-semrau.de",
 		"email": "info@axel-semrau.de"
 	}, {
-		"id": 20,
+		"id": 16,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "BGB Analytik Vertrieb GmbH",
@@ -271,7 +218,7 @@
 		"web": "bgb-analytik",
 		"email": "sales.de@bgb-analytik.com"
 	}, {
-		"id": 21,
+		"id": 17,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "Bischoff",
@@ -284,7 +231,7 @@
 		"web": "bischoff-chrom.de",
 		"email": "info@bischoff-chrom.de"
 	}, {
-		"id": 22,
+		"id": 18,
 		"region": "Europe",
 		"country": "Germany",
 		"company": "Chrom4 GMBH",
@@ -297,33 +244,7 @@
 		"web": "lifescience.ca",
 		"email": "kick@lifescience.ca"
 	}, {
-		"id": 23,
-		"region": "Europe",
-		"country": "Germany",
-		"company": "Infors GmbH",
-		"products": ["Flasks", "Well Plates"],
-		"address": "Dachauer Str. 6\nDE-85254 Einsbach",
-		"tel": "+49 (0)8135 8333",
-		"tel2": "",
-		"fax": "+49 (0)8135 8320",
-		"webUrl": "http://www.infors-ht.de/",
-		"web": "www.infors-ht.de",
-		"email": "infors.de@infors-ht.com"
-	}, {
-		"id": 24,
-		"region": "Europe",
-		"country": "Greece",
-		"company": "N.ASTERIADIS",
-		"products": ["Flasks", "Well Plates"],
-		"address": "8, rue Prasakaki Street\nGR-54622 Thessaloniki",
-		"tel": "+30 2310 260 331",
-		"tel2": "",
-		"fax": "+30 2310 260 393",
-		"webUrl": "http://www.asteriadis.gr/scientific/company/el/index.html",
-		"web": "www.asteriadis.gr",
-		"email": "info@asteriadis.gr"
-	}, {
-		"id": 25,
+		"id": 19,
 		"region": "Europe",
 		"country": "Ireland",
 		"company": "Elementec Ltd",
@@ -336,20 +257,33 @@
 		"web": "www.elementec.ie",
 		"email": "sales@elementec.ie"
 	}, {
-		"id": 26,
+		"id": 20,
+		"region": "Europe",
+		"country": "Ireland",
+		"company": "VWR International Limited",
+		"products": ["Flasks"],
+		"address": "Orion Business Park,<br>North West Business Park,<br>Ballycoolin, Dublin,  D15 WP96",
+		"tel": "00353 1 88 22 222",
+		"tel2": "",
+		"fax": "00353 1 88 22 333",
+		"webUrl": "https://ie.vwr.com/store/",
+		"web": "www.vwr.ie",
+		"email": "sales@ie.vwr.com"
+	}, {
+		"id": 21,
 		"region": "Europe",
 		"country": "Italy",
-		"company": "AHSI s.p.a.",
+		"company": "CliniSciences",
 		"products": ["Flasks", "Well Plates"],
-		"address": "Viale delle Industrie, 33\nI-20044 Bernareggio (MI)",
-		"tel": "+39 68 27 1",
+		"address": "Via Maremmana inf. 378<br/>00012 Guidonia Montecelio - Italy",
+		"tel": "+39 06 94 80 56 71",
 		"tel2": "",
-		"fax": "+39 68 27 500",
-		"webUrl": "http://www.ahsi.it/",
-		"web": "www.ahsi.it",
-		"email": "info@ahsi.it"
+		"fax": "+39 06 94 80 00 21",
+		"webUrl": "http://www.clinisciences.com/",
+		"web": "www.clinisciences.com",
+		"email": "italia@clinisciences.com"
 	}, {
-		"id": 27,
+		"id": 22,
 		"region": "Europe",
 		"country": "Italy",
 		"company": "CPS Analitica Srl",
@@ -362,7 +296,7 @@
 		"web": "cps.it",
 		"email": "cps@cps.it"
 	}, {
-		"id": 28,
+		"id": 23,
 		"region": "Europe",
 		"country": "Italy",
 		"company": "Superchrom Restek",
@@ -375,20 +309,20 @@
 		"web": "www.superchrom.it/",
 		"email": "superchrom@superchrom.it"
 	}, {
-		"id": 29,
+		"id": 24,
 		"region": "Europe",
-		"country": "The Netherlands",
-		"company": "Infors Benelux",
+		"country": "Morocco",
+		"company": "Hexabiogen",
 		"products": ["Flasks", "Well Plates"],
-		"address": "Markweg 9-A\nNL-6883 JL Velp (GLD)\nP.O. Box 125\nNL-6880 AC Velp (GLD)",
-		"tel": "+31 (0)263 693 100",
+		"address": "TACHFINE 2, immeuble D appt. N&deg;4<br/>Yassmine 2 - CHARAF<br/>Marrakech - Maroc",
+		"tel": "+212 5 24 35 84 75",
 		"tel2": "",
-		"fax": "+31 (0)263 693 109",
-		"webUrl": "http://www.infors-ht.nl/",
-		"web": "www.infors-ht.nl",
-		"email": "infors.bnl@infors-ht.com"
+		"fax": "+212 5 24 35 84 73",
+		"webUrl": "http://www.hexabiogen.com/",
+		"web": "www.hexabiogen.com",
+		"email": "maroc@hexabiogen.com"
 	}, {
-		"id": 30,
+		"id": 25,
 		"region": "Europe",
 		"country": "Norway",
 		"company": "L.A.B. Norway AS",
@@ -401,20 +335,7 @@
 		"web": "www.labnorway.net",
 		"email": "info@labnorway.net"
 	}, {
-		"id": 31,
-		"region": "Europe",
-		"country": "Poland",
-		"company": "BIURO HANDLU ZAGRANICZNEGO 'AGEMA'",
-		"products": ["Flasks", "Well Plates"],
-		"address": "EWA & MICHAL MATCZAK S.C.\nForeign Trade Office\n18/36 Gornicza Street\nPL-91-765 Lodz",
-		"tel": "+48 42 617 12 69",
-		"tel2": "",
-		"fax": "+48 42 617 12 70",
-		"webUrl": "http://www.agema-lab.pl/",
-		"web": "www.agema-lab.pl",
-		"email": "agema@infocentrum.com"
-	}, {
-		"id": 32,
+		"id": 26,
 		"region": "Europe",
 		"country": "Portugal",
 		"company": "Fisher Scientific",
@@ -427,7 +348,7 @@
 		"web": "www.thermofisher.com",
 		"email": ""
 	}, {
-		"id": 33,
+		"id": 27,
 		"region": "Europe",
 		"country": "Portugal",
 		"company": "Tecnocroma - T&eacute;cnicas Anal&iacute;ticas, Lda.",
@@ -440,20 +361,7 @@
 		"web": "www.tecnocroma.pt",
 		"email": "info@tecnocroma.pt"
 	}, {
-		"id": 34,
-		"region": "Europe",
-		"country": "Romania",
-		"company": "Sartorom",
-		"products": ["Flasks", "Well Plates"],
-		"address": "Sos. Bucuresti-Magurele nr. 232\nRO-051434 Bucharest",
-		"tel": "+40 21 255 31 32",
-		"tel2": "",
-		"fax": "+40 21 255 30 66",
-		"webUrl": "http://www.sartorom.ro/",
-		"web": "www.sartorom.ro",
-		"email": "info@sartorom.ro"
-	}, {
-		"id": 35,
+		"id": 28,
 		"region": "Europe",
 		"country": "Russia",
 		"company": "Dia-M",
@@ -466,20 +374,7 @@
 		"web": "www.dia-m.ru",
 		"email": "info@dia-m.ru"
 	}, {
-		"id": 36,
-		"region": "Europe",
-		"country": "Slovakia",
-		"company": "Biotrade s.r.o.",
-		"products": ["Flasks", "Well Plates"],
-		"address": "Slikova 20\nCZ-169 00 PRAHA 6",
-		"tel": "+420 (2)2051 31 62",
-		"tel2": "",
-		"fax": "+420 (2)3335 66 45",
-		"webUrl": "http://www.biotrade.cz/",
-		"web": "www.biotrade.cz",
-		"email": "biotrade@biotrade.cz"
-	}, {
-		"id": 37,
+		"id": 29,
 		"region": "Europe",
 		"country": "Slovenia",
 		"company": "BIA Laboratory and Process Equipment Company Ltd.",
@@ -492,7 +387,7 @@
 		"web": "bia.si",
 		"email": "sales@bia.si"
 	}, {
-		"id": 38,
+		"id": 30,
 		"region": "Europe",
 		"country": "Spain",
 		"company": "Biogen Cientifica, S.L.",
@@ -505,7 +400,20 @@
 		"web": "www.biogen.es",
 		"email": "biogen@biogencientifica.com"
 	}, {
-		"id": 39,
+		"id": 31,
+		"region": "Europe",
+		"country": "Spain",
+		"company": "CliniSciences",
+		"products": ["Flasks", "Well Plates"],
+		"address": "Alt de Gironella, 67<br/>08017 Barcelona - Spain",
+		"tel": "512 702 901 / 912 694 065",
+		"tel2": "",
+		"fax": "512 702 902 / 912 694 074",
+		"webUrl": "http://www.clinisciences.com/",
+		"web": "www.clinisciences.com",
+		"email": "espana@clinisciences.com"
+	}, {
+		"id": 32,
 		"region": "Europe",
 		"country": "Spain",
 		"company": "Sugelabor",
@@ -518,7 +426,7 @@
 		"web": "sugelabor.com",
 		"email": "info@sugelabor.com"
 	}, {
-		"id": 40,
+		"id": 33,
 		"region": "Europe",
 		"country": "Sweden",
 		"company": "L.A.B. Sweden AB",
@@ -531,7 +439,7 @@
 		"web": "www.lab.se",
 		"email": "info@lab.se"
 	}, {
-		"id": 41,
+		"id": 34,
 		"region": "Europe",
 		"country": "Switzerland",
 		"company": "BGB Analytik AG",
@@ -544,20 +452,7 @@
 		"web": "bgb-analytik",
 		"email": "sales@bgb-analytik.com"
 	}, {
-		"id": 42,
-		"region": "Europe",
-		"country": "Switzerland",
-		"company": "Infors AG, Headoffice",
-		"products": ["Flasks", "Well Plates"],
-		"address": "Rittergasse 27\nCH-4103 Bottmingen-Basel",
-		"tel": "+41 (0)61 425 77 00",
-		"tel2": "",
-		"fax": "+41 (0)61 425 77 01",
-		"webUrl": "http://infors-ht.com/index.php/en/",
-		"web": "infors-ht.com",
-		"email": "info@infors-ht.com"
-	}, {
-		"id": 43,
+		"id": 35,
 		"region": "Europe",
 		"country": "Switzerland",
 		"company": "Brechbuehler",
@@ -570,7 +465,7 @@
 		"web": "brechbuehler.ch",
 		"email": "patrickkugel@brechbuehler.ch"
 	}, {
-		"id": 44,
+		"id": 36,
 		"region": "Europe",
 		"country": "Switzerland",
 		"company": "WICOM International AG , Switzerland",
@@ -583,7 +478,20 @@
 		"web": "www.wicomint.ch",
 		"email": "info@wicomint.ch"
 	}, {
-		"id": 45,
+		"id": 37,
+		"region": "Europe",
+		"country": "Tunisia",
+		"company": "Hexabiogen",
+		"products": ["Filter Vials", "Well Plates", "Flasks"],
+		"address": "23 rue Abbes Ibn Farness<br/>2083 La Gazelle - Ariana<br/>Tunisie",
+		"tel": "+216 50 762 907",
+		"tel2": "",
+		"fax": "+216 70 934 573",
+		"webUrl": "http://www.hexabiogen.com/",
+		"web": "www.hexabiogen.com",
+		"email": "info@hexabiogen.com"
+	}, {
+		"id": 38,
 		"region": "Europe",
 		"country": "UK",
 		"company": "Bioprocess Engineering Services Ltd",
@@ -596,7 +504,7 @@
 		"web": "bioprocess-eng.co.uk",
 		"email": "info@bioprocess-eng.co.uk"
 	}, {
-		"id": 46,
+		"id": 39,
 		"region": "Europe",
 		"country": "UK",
 		"company": "VWR International Ltd.",
@@ -609,7 +517,7 @@
 		"web": "www.vwr.com",
 		"email": "uksales@uk.vwr.com"
 	}, {
-		"id": 47,
+		"id": 40,
 		"region": "Europe",
 		"country": "UK",
 		"company": "Generon",
@@ -622,7 +530,7 @@
 		"web": "generon.co.uk",
 		"email": "info@generon.co.uk"
 	}, {
-		"id": 48,
+		"id": 41,
 		"region": "Europe",
 		"country": "UK",
 		"company": "Thames Restek",
@@ -635,7 +543,7 @@
 		"web": "thamesrestek.co.uk",
 		"email": "sales@thamesrestek.co.uk"
 	}, {
-		"id": 49,
+		"id": 42,
 		"region": "Europe",
 		"country": "ex Yugoslavia Regions",
 		"company": "BIA Laboratory and Process Equipment Company Ltd.",
@@ -649,7 +557,7 @@
 		"email": "sales@bia.si",
 		"special": "ex Yugoslavia Regions (Croatia, Bosnia, Herzegovina, Serbia, Macedonia, Montenegro, Kosovo)"
 	}, {
-		"id": 50,
+		"id": 43,
 		"region": "Middle-East",
 		"country": "Israel",
 		"company": "Yair",
@@ -662,7 +570,7 @@
 		"web": "www.yairtech.co.il",
 		"email": "contact@yairtech.co.il"
 	}, {
-		"id": 51,
+		"id": 44,
 		"region": "north-america",
 		"country": "Canada",
 		"company": "Thomson Instrument Company",
@@ -672,9 +580,9 @@
 		"fax": "760-757-9367",
 		"webUrl": "http://htslabs.com",
 		"web": "htslabs.com",
-		"email": "customerservice@hplc1.com"
+		"email": "customerservice@htslabs.com"
 	}, {
-		"id": 52,
+		"id": 45,
 		"region": "north-america",
 		"country": "Canada",
 		"company": "Canadian Lifescience",
@@ -686,7 +594,7 @@
 		"web": "lifescience.ca",
 		"email": "Info@lifescience.ca"
 	}, {
-		"id": 53,
+		"id": 46,
 		"region": "north-america",
 		"country": "Canada",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -699,7 +607,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": 54,
+		"id": 47,
 		"region": "north-america",
 		"country": "Caribbean Islands",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -712,7 +620,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": 55,
+		"id": 48,
 		"region": "north-america",
 		"country": "Central America",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -725,7 +633,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": 56,
+		"id": 49,
 		"region": "north-america",
 		"country": "Mexico",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -738,7 +646,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": 57,
+		"id": 50,
 		"region": "north-america",
 		"country": "Puerto Rico",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -751,7 +659,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": 58,
+		"id": 51,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Thomson Instrument Company",
@@ -761,9 +669,9 @@
 		"fax": "760-757-9367",
 		"webUrl": "http://htslabs.com",
 		"web": "htslabs.com",
-		"email": "customerservice@hplc1.com"
+		"email": "customerservice@htslabs.com"
 	}, {
-		"id": 59,
+		"id": 52,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Boca Scientific",
@@ -776,7 +684,7 @@
 		"web": "bocascientific.com",
 		"email": "syd@bocascientific.com"
 	}, {
-		"id": 60,
+		"id": 53,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Chrom Tech",
@@ -788,7 +696,7 @@
 		"web": "chromtech.com",
 		"email": "sales@chromtech.com"
 	}, {
-		"id": 61,
+		"id": 54,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Fisher",
@@ -800,19 +708,19 @@
 		"web": "fishersci.com",
 		"email": ""
 	}, {
-		"id": 62,
+		"id": 55,
 		"region": "north-america",
 		"country": "USA",
-		"company": "Midland Scientific",
-		"products": ["Filter Vials", "Flasks", "Well Plates"],
-		"address": "1202 South 11th Street\nOmaha, NE 68108",
-		"tel": "800-642-5263",
-		"fax": "402-346-7694",
-		"webUrl": "http://www.midlandsci.com",
-		"web": "midlandsci.com",
-		"email": "info@midlandsci.com"
+		"company": "Government Scientific Source",
+		"products": ["All Products", "Filter Vials", "Well Plates", "Flasks", "Plasmid+"],
+		"address": "12351 Sunrise Valley Dr.<br /> Reston, VA 20191",
+		"tel": "800-248-8030",
+		"fax": "703-734-1803",
+		"webUrl": "http://www.govsci.com/",
+		"web": "govsci.com",
+		"email": "gss-sales@govsci.com"
 	}, {
-		"id": 63,
+		"id": 56,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Nurnberg Scientific",
@@ -824,7 +732,7 @@
 		"web": "www.nurnberg.com",
 		"email": "sales@nurnberg.com"
 	}, {
-		"id": 64,
+		"id": 57,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Restek",
@@ -836,7 +744,7 @@
 		"web": "restek.com",
 		"email": "Carrie.Sprout@restek.com"
 	}, {
-		"id": 65,
+		"id": 58,
 		"region": "north-america",
 		"country": "USA",
 		"company": "SepSolutions",
@@ -848,7 +756,7 @@
 		"web": "www.sepsolutions.net",
 		"email": "pbarthel9042@gmail.com"
 	}, {
-		"id": 66,
+		"id": 59,
 		"region": "north-america",
 		"country": "USA",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -861,7 +769,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": 67,
+		"id": 60,
 		"region": "north-america",
 		"country": "USA",
 		"company": "VWR",
@@ -873,7 +781,7 @@
 		"web": "VWR.com",
 		"email": ""
 	}, {
-		"id": 68,
+		"id": 61,
 		"region": "Oceana",
 		"country": "Australia",
 		"company": "Genesearch Pty Ltd.",
@@ -885,7 +793,7 @@
 		"web": "genesearch.com.au",
 		"email": "info@genesearch.com.au"
 	}, {
-		"id": 69,
+		"id": 62,
 		"region": "Oceana",
 		"country": "New Zealand",
 		"company": "Genesearch Pty Ltd.",
@@ -897,7 +805,7 @@
 		"web": "genesearch.com.au",
 		"email": "info@genesearch.com.au"
 	}, {
-		"id": 70,
+		"id": 63,
 		"region": "south-america",
 		"country": "South America",
 		"company": "Thomson Instrument Company",
@@ -907,11 +815,11 @@
 		"fax": "760-757-9367",
 		"webUrl": "http://htslabs.com",
 		"web": "htslabs.com",
-		"email": "customerservice@hplc1.com"
+		"email": "customerservice@htslabs.com"
 	},
 
 	{
-		"id": 71,
+		"id": 64,
 		"region": "south-america",
 		"country": "Colombia",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -926,7 +834,7 @@
 	},
 
 	{
-		"id": 72,
+		"id": 65,
 		"region": "south-america",
 		"country": "Venezuela",
 		"company": "Shimadzu Scientific Instruments, Inc",
@@ -939,7 +847,7 @@
 		"web": "www.ssi.shimadzu.com",
 		"email": "sampleprep@shimadzu.com"
 	}, {
-		"id": 73,
+		"id": 66,
 		"region": "worldwide",
 		"country": "Worldwide",
 		"products": ["All Products", "Filter Vials", "Well Plates", "Flasks", "Plasmid+"],
@@ -950,11 +858,11 @@
 		"fax": "760-757-9367",
 		"webUrl": "http://htslabs.com",
 		"web": "htslabs.com",
-		"email": "customerservice@hplc1.com"
+		"email": "customerservice@htslabs.com"
 	},
 
 	{
-		"id": 74,
+		"id": 67,
 		"region": "worldwide",
 		"country": "Worldwide",
 		"company": "Restek",
@@ -965,17 +873,5 @@
 		"webUrl": "http://www.restek.com",
 		"web": "restek.com",
 		"email": "Carrie.Sprout@restek.com"
-	},{
-		"id": 75,
-		"region": "Europe",
-		"country": "Ireland",
-		"company": "VWR International Limited",
-		"products": ["Filter Vials"],
-		"address": "Orion Business Park,\nNorth West Business Park,\nBallycoolin, Dublin,  D15 WP96",
-		"tel": "00353 1 88 22 222",
-		"fax": "00353 1 88 22 333 ",
-		"webUrl": "https://ie.vwr.com/store/",
-		"web": "www.vwr.ie",
-		"email": "sales@ie.vwr.com"
 	}
 ]
