@@ -24,6 +24,7 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
 		$body .= sprintf("Industry: <b>%s</b><br/>\n",$_POST['industry']);
 		$body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
+		$body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
 
 		$body .= sprintf("<br /><hr />");
 		$body .= sprintf("For internal use:<br />\n");

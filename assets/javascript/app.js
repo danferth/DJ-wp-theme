@@ -157,6 +157,9 @@ tic.controller('ticController', ['$scope', '$sce', 'dataFactory', function($scop
 
 //=====inquiry module======
 tic.controller('inquiryController', ['$scope', function($scope){
+  if(sessionStorage.getItem('science')){
+    $scope.science = $scope.getStorage('science');
+  }
   if(sessionStorage.getItem('fname')){
     $scope.first_name = sessionStorage.getItem('fname');
   }
