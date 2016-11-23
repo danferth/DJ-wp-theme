@@ -11,27 +11,6 @@ mBlocks.on('click',function(){
 	window.location.assign(link);
 });
 
-//var below used for random colors
-//var mBlocks_border = $('.main-block-image-wrap');
-//random color
-// mBlocks_border.each(function(){
-// 	var randomColors = ["CFDEE6", "DEE6CF", "E6DECF", "CFE6E4"];
-// 	var colorLength = randomColors.length;
-// 	var random = Math.floor(Math.random() * (colorLength - 0)) + 0;
-// 	$(this).css({'border-top' : "2px solid #" + randomColors[random]});
-// });
-
-/*
-old function that created random colors from hue selection worked
-but wasn't happy with color results went with
-something simpler with more controll of colors
-mBlocks_inner.each(function(){
-  var rHue = Math.floor(Math.random() * (230 - 0)) + 0;
-  $(this).css({'background-color' : 'hsl(' + rHue + ', 30%, 40%)'});
-});
-*/
-
-
 //on load animation
 TweenLite.to(mBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
 
@@ -43,17 +22,6 @@ var relatedModule = $('.related-product-wrap');
 relatedModule.on('click',function(){
 	var link = $(this).attr('data-link');
 	window.location.assign(url+link);
-});
-
-
-
-//===========
-//prefooter
-//==========
-//redirect on click
-$('.prefooter').on('click', function(e){
-	var link = $(this).attr('data-prefooterlink');
-	window.location.assign(link);
 });
 
 //==================

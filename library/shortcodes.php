@@ -33,33 +33,29 @@ function mainblock_shortcode($atts, $content = null, $tag){
 add_shortcode('mainblock', 'mainblock_shortcode');
 
 /*
-[prefooterwrap class='added class']
-
-[prefooter class='' link='link for prefooter']
-content for prefooter
-[/prefooterleft]
-
-[prefooter class='' link='link for prefooter']
-content for prefooter
-[/prefooterleft]
-
-[/prefooter]
+[prefooterwrap class='']
+  [prefooter class='tweet']
+    //add twitter or linked in embed
+  [/prefooter]
+  [prefooter class='tweet']
+    //add twitter or linked in embed
+  [/prefooter]
+[/prefooterwrap]
 somewhat complicated but better to adjust it a year later here than on every page
 */
 function prefooterwrap_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array('class' => ''), $atts);
-    return "<div class='". $a['class'] ." row hide-for-small-only prefooter-wrap'> \n
+    return "<div class='". $a['class'] ." row prefooter-wrap' data-equalizer='prefooter'> \n
     " . do_shortcode($content) . " \n
     </div>";
 }
 
 function prefooter_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array(
-      'class' => '',
-      'link' => ''
+      'class' => ''
     ), $atts);
-  return "<div class='" . $a['class'] . " column small-12 medium-6 prefooter' data-prefooterlink='" . home_url() . "/" . $a['link'] . "'> \n
-  <p>" . $content . "</p> \n
+  return "<div class='" . $a['class'] . " column small-12 medium-6 prefooter' data-equalizer-watch='prefooter'> \n
+  " . $content . "\n
 </div>";
 }
 

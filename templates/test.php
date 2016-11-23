@@ -51,11 +51,15 @@ get_header(); ?>
 	<div class="small-12 large-12 columns" role="main">
 
 			<div class="entry-content">
-				<?php //the_content(); this is normally uncomented and WP adds the content of the page from the db  this page is more for testing so put everything in here that you would mornally and have it just work ?>
+				<?php the_content(); 
+				//coment out this and uncoment to bellow to go back to regular mode
+				?>
 			
 <!-- =======================START======================= -->
 
-     <p ng-bind-html="welcome"></p> 
+     <!--
+     uncoment and comment out the_content(); above to go back to hard coding
+     <p ng-bind-html="welcome"></p> -->
 
 <!-- ========================END======================== -->
 </div><!-- END DIV FOR CONTENT -->

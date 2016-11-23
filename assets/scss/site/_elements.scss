@@ -119,19 +119,11 @@
 //=====================================================================
 //==============================prefooter==============================
 //=====================================================================
-.row .prefooter-wrap{
-    background:$smoke;
-    background:linear-gradient(to bottom, $silver 0%, $gainsboro 100%);
-    border-top:5px solid $gainsboro;
-    margin-top: rem-calc(65);
+.prefooter-wrap{
+    background:$white;
+    border-top:3px solid $ghost;
   .prefooter{
-    padding:2rem 1.5rem;
-    border-top:1px solid $snow;
-    border-bottom:1px solid $snow;
-    min-height:8rem;
-    max-height:10rem;
-    overflow:hidden;
-    cursor:pointer;
+    padding: 2rem;
     background:transparent;
     transition:background 300ms;
     display:flex;
@@ -139,24 +131,7 @@
     justify-content:center;
     flex-direction:column;
     &:hover{
-      background:$silver;
-    }
-    p{
-      margin:0;
-      padding:0;
-      font-style:italic;
-      font-size:1rem;
-      text-shadow:0 1px 0 $white;
-      text-align:center;
-      &:after{
-        content:"...";
-      }
-    }
-    &:first-of-type{
-      border-right:1px solid $base;
-    }
-    &:last-of-type{
-      border-left:1px solid $white;
+      background:$ghost;
     }
   }
 }
@@ -1019,6 +994,7 @@ table.product-ref-table{
     background:$snow;
     margin: 0 4rem 0 0;
     padding: .25rem .5rem .25rem 1rem;
+    border-radius:0 .5rem .5rem 0;
     transition:all 350ms;
     li{
       margin: 0 0 .25rem 0;
