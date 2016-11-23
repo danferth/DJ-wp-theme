@@ -45,8 +45,10 @@ somewhat complicated but better to adjust it a year later here than on every pag
 */
 function prefooterwrap_shortcode($atts, $content=null, $tag){
   $a = shortcode_atts( array('class' => ''), $atts);
-    return "<div class='". $a['class'] ." row prefooter-wrap' data-equalizer='prefooter'> \n
+    return "<div class='row'> \n
+    <div class='". $a['class'] ." prefooter-wrap small-12 medium-8 medium-centered column' data-equalizer='prefooter'>\n
     " . do_shortcode($content) . " \n
+    </div>\n
     </div>";
 }
 

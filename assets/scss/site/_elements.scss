@@ -121,9 +121,10 @@
 //=====================================================================
 .prefooter-wrap{
     background:$white;
-    border-top:3px solid $ghost;
+    margin-top:4rem;
   .prefooter{
-    padding: 2rem;
+    padding: 1rem;
+    border-top:3px solid $ghost;
     background:transparent;
     transition:background 300ms;
     display:flex;
