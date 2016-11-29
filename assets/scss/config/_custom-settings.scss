@@ -103,34 +103,33 @@ $xlarge-breakpoint: em-calc(1920);
 //======COPIED FROM _SETTINGS.SCSS==========
 //==========================================
 // Background color for the top bar
-$topbar-bg-color: $gainsboro;
-$topbar-bg:       $silver;
-$topbar-link-color: $charcoal;
-$topbar-link-shadow: $vapor;
-$topbar-link-color-hover: $jet;
-$topbar-link-color-active: $topbar-link-color-hover;
+$topbar-bg-color:                $smoke;
+$topbar-bg:                      scale-color($snow, $lightness: 50);
+$topbar-link-bg-active-hover:    $gainsboro;
+$topbar-link-color:              $charcoal;
+$topbar-link-color-hover:        $jet;
+$topbar-link-shadow:             $vapor;
 $topbar-link-color-active-hover: $black;
-$topbar-link-bg-hover:        $gainsboro;
-$topbar-link-bg-color-hover:  $vapor;
-$topbar-link-bg-active:       $gainsboro;
-$topbar-link-bg-active-hover: $iron;
- // Style the top bar dropdown elements
-$topbar-dropdown-bg: $silver;
+$topbar-dropdown-toggle-color:   $monsoon;
+$topbar-dropdown-toggle-alpha:   1;
+$topbar-dropdown-toggle-size:    5px;
+
+$topbar-top-border:              2px solid $primary-color;
+$topbar-bottom-border:           1px solid $iron;
+
+$topbar-top-border-fixed:        $topbar-bottom-border;
+$topbar-bottom-border-fixed:     $topbar-top-border;
+
+
+$topbar-link-color-active: $topbar-link-color-hover;
+$topbar-link-bg-hover: $topbar-bg-color;
+$topbar-link-bg-active:       $topbar-bg-color;
+// Style the top bar dropdown elements
+$topbar-dropdown-bg: $topbar-bg;
 $topbar-dropdown-link-color: $topbar-link-color;
-$topbar-dropdown-link-color-hover: $jet;
-
-$topbar-dropdown-link-bg: $silver;
+$topbar-dropdown-link-color-hover: $topbar-link-color-hover;
+$topbar-dropdown-link-bg: $topbar-bg;
 $topbar-dropdown-link-bg-hover: $topbar-link-bg-hover;
-$topbar-dropdown-link-weight: $font-weight-normal;
-$topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: $monsoon;
-$topbar-dropdown-toggle-alpha: 1;
-
-$topbar-dropdown-label-color: $monsoon;
-$topbar-dropdown-label-text-transform: uppercase;
-$topbar-dropdown-label-font-weight: $font-weight-bold;
-$topbar-dropdown-label-font-size: rem-calc(10);
-$topbar-dropdown-label-bg: $oil;
 
 // Off-canvas
 $tabbar-bg: $primary-color;

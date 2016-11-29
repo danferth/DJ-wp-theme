@@ -1,6 +1,10 @@
 .top-bar-container{
-	border-top:2px solid $primary-color;
-	border-bottom:1px solid $gainsboro;
+	border-top: $topbar-top-border;
+	border-bottom: $topbar-bottom-border;
+	&.fixed{
+		border-top: $topbar-top-border-fixed;
+		border-bottom: $topbar-bottom-border-fixed;
+	}
 }
 
 // Add some whitespace between top bar and content
