@@ -36,7 +36,7 @@ $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
 
 // Foundation color naming conventions
-$base-color: hsla(0, 0%, 67%, 1);
+$base-color: hsla(201, 0%, 67%, 1);
 //$base-color: hsla(360, 50%, 67%, 1); //red example
 $white       : scale-color($base-color, $lightness: 100%);
 $ghost       : scale-color($base-color, $lightness: 94%);
@@ -91,11 +91,6 @@ $topbar-link-color-hover:        $vapor;
 $topbar-link-color-active:       $vapor;
 $topbar-link-color-active-hover: $white;
 
-//$topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover:        scale-color($primary-color, $lightness: -10%);
-$topbar-link-bg-color-hover:  $vapor;
-$topbar-link-bg-active:       scale-color($primary-color, $lightness: -20%);
-$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -30%);
 
 // Media query breakpoints
 $small-breakpoint:  em-calc(640);
@@ -107,21 +102,29 @@ $xlarge-breakpoint: em-calc(1920);
 //==========================================
 //======COPIED FROM _SETTINGS.SCSS==========
 //==========================================
-
 // Background color for the top bar
-$topbar-bg-color: $primary-color;
-$topbar-bg:       $primary-color;
- 
+$topbar-bg-color: $gainsboro;
+$topbar-bg:       $silver;
+$topbar-link-color: $charcoal;
+$topbar-link-shadow: $vapor;
+$topbar-link-color-hover: $jet;
+$topbar-link-color-active: $topbar-link-color-hover;
+$topbar-link-color-active-hover: $black;
+$topbar-link-bg-hover:        $gainsboro;
+$topbar-link-bg-color-hover:  $vapor;
+$topbar-link-bg-active:       $gainsboro;
+$topbar-link-bg-active-hover: $iron;
  // Style the top bar dropdown elements
-$topbar-dropdown-bg: $primary-color;
-$topbar-dropdown-link-color: $white;
-$topbar-dropdown-link-color-hover: $vapor;
-$topbar-dropdown-link-bg: scale-color($primary-color, $lightness: -10%);
-$topbar-dropdown-link-bg-hover: scale-color($primary-color, $lightness: -20%);
+$topbar-dropdown-bg: $silver;
+$topbar-dropdown-link-color: $topbar-link-color;
+$topbar-dropdown-link-color-hover: $jet;
+
+$topbar-dropdown-link-bg: $silver;
+$topbar-dropdown-link-bg-hover: $topbar-link-bg-hover;
 $topbar-dropdown-link-weight: $font-weight-normal;
 $topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: $white;
-$topbar-dropdown-toggle-alpha: .4;
+$topbar-dropdown-toggle-color: $monsoon;
+$topbar-dropdown-toggle-alpha: 1;
 
 $topbar-dropdown-label-color: $monsoon;
 $topbar-dropdown-label-text-transform: uppercase;
