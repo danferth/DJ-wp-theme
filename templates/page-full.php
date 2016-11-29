@@ -46,6 +46,7 @@ get_header(); ?>
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 				<div class="tweet-header-module">
+					<span class="tweet-link">
 					<a
 						href="https://twitter.com/share"
 						class="twitter-share-button"
@@ -56,6 +57,7 @@ get_header(); ?>
 						Tweet
 					</a>
 					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</span>
 				</div>
 			</header>
 	<div class="small-12 large-12 columns" role="main">

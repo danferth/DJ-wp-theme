@@ -40,16 +40,18 @@ get_header(); ?>
 			<header>
 				<h1 class="entry-title" ng-bind-html="pageTitle">Technical Note</h1>
 				<div class="tweet-header-module">
-					<a
-						href="https://twitter.com/share"
-						class="twitter-share-button"
-						data-text="Check out this application note from Thomson!"
-						data-url="<?php	true_url(); ?>"
-						data-hashtags="science"
-						data-show-count="false">
-						Tweet
-					</a>
-					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<span class="tweet-link">
+						<a
+							href="https://twitter.com/share"
+							class="twitter-share-button"
+							data-text="Check out this application note from Thomson!"
+							data-url="<?php	true_url(); ?>"
+							data-hashtags="science"
+							data-show-count="false">
+							Tweet
+						</a>
+						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</span>
 				</div>
 			</header>
 	<div class="small-12 large-12 columns" role="main" >

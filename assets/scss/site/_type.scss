@@ -3,7 +3,7 @@
 //=========================================================
 article header{
   background:$white;
-  padding: rem-calc(32) rem-calc(30) 2rem rem-calc(30);
+  padding: rem-calc(32) rem-calc(30) rem-calc(10) rem-calc(30);
   margin: 0 0 0 0;
   border-bottom: 1px solid $iron;
     @media screen and (max-width:$small-breakpoint){
@@ -18,7 +18,7 @@ article header{
   margin:0;
   padding:0;
   color:scale-color($secondary-color, $lightness: -40%, $saturation:-20%);
-  text-shadow:0 1px 0 $white;
+  text-shadow:0 1px 0 $snow;
   @media screen and (max-width:$small-breakpoint){
     font-size:1.5rem;
   }

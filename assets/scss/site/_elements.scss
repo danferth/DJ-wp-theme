@@ -1030,4 +1030,31 @@ table.product-ref-table{
 .railNav ul.railNav_closed{
   background:$primary-color;  
 }
+
+//=========================================
+//===========tweet-page-module=============
+//=========================================
+.tweet-header-module{
+  .tweet-link{
+    float:right;
+    @media screen and(max-width:$small-breakpoint){
+      float:left;
+      margin-top:1rem;
+    }
+    &:before{
+      content:"Share this page!";
+      margin-right:.25rem;
+      margin-bottom:50%;
+      font-size:.75rem;
+      color:$charcoal;
+      font-style:italic;
+      vertical-align:super;
+    }
+  }
+  &:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
+}
 //next up?
