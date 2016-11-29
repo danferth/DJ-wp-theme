@@ -45,6 +45,18 @@ get_header(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>" <?php echo $ng_controller; ?>>
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<div class="tweet-header-module">
+					<a
+						href="https://twitter.com/share"
+						class="twitter-share-button"
+						data-text="Check out <?php the_title(); ?> from Thomson!"
+						data-url="<?php	true_url(); ?>"
+						data-hashtags="science"
+						data-show-count="false">
+						Tweet
+					</a>
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
 			</header>
 	<div class="small-12 large-12 columns" role="main">
 

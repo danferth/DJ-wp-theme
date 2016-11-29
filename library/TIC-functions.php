@@ -17,4 +17,17 @@ if(!function_exists('remove_wp_open_sans')) :
 remove_filter('the_content', 'wpautop');
 remove_filter('the_excerpt', 'wpautop');
 
+//returns full url with any querys
+function true_url(){
+    $output = "";
+    if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off'){
+        $output .= "https";
+    }else{
+        $output .= "http";
+    }
+    $output .= "://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    echo $output;
+};
+
+
 ?>
