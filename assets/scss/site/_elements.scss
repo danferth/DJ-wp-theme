@@ -823,7 +823,11 @@ table.product-ref-table{
       float:left;
       width:20%;
       text-align:center;
-      background:$silver;
+      background:$primary-color;
+      border-right:1px solid scale-color($primary-color, $lightness: -10%);
+      &:last-of-type{
+        border-right:none;
+      }
       @media screen and (max-width:$small-breakpoint){
         width:100%;
         &:nth-child(1){
@@ -839,10 +843,13 @@ table.product-ref-table{
         height:100%;
         padding: .5rem 0;
         display:block;
-        font-weight:bold;
+        color:$snow;
+        text-shadow: 0 1px 0 scale-color($primary-color, $lightness: -15%);
         transition: background 300ms;
         &:hover{
-          background:$gainsboro;
+          background:scale-color($primary-color, $lightness: -10%);
+          color:$white;
+          text-shadow: 0 2px 0 scale-color($primary-color, $lightness: -25%);
         }
       }
     }
