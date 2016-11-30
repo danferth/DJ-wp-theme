@@ -989,8 +989,9 @@ table.product-ref-table{
 .railNav{
   //outline:1px solid olive;
   position:fixed;
-  left: 0;
+  left: -3rem;
   top: 0;
+  opacity:0;
   height:100%;
   padding-top:20%;
   //pointer-events:none;
@@ -1065,4 +1066,36 @@ table.product-ref-table{
     clear:both;
   }
 }
+
+//trial and error for row in a row sepration
+/*
+$main-bg: $gainsboro;
+body{
+  background:$main-bg;
+}
+.full-page-top{
+  background:$main-bg;
+}
+.row .row{
+  background:$white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  &.full-background{
+    margin-top:0;
+  }
+  &.info-module{
+    margin-top:0;
+    margin-bottom: 0;
+  }
+  &.tech-link-module{
+    margin-top:0;
+    margin-bottom:0;
+  }
+  &.partnumber_set{
+    margin-top:0;
+    margin-bottom:0;
+  }
+}
+*/
+
 //next up?

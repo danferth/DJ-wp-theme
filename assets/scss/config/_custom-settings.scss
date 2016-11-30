@@ -115,7 +115,7 @@ $topbar-dropdown-toggle-color:   $monsoon;
 $topbar-dropdown-toggle-alpha:   1;
 $topbar-dropdown-toggle-size:    5px;
 
-$topbar-top-border:              2px solid $primary-color;
+$topbar-top-border:              3px solid $primary-color;
 $topbar-bottom-border:           1px solid $iron;
 
 $topbar-top-border-fixed:        $topbar-bottom-border;
@@ -145,9 +145,10 @@ $row-width: rem-calc(1200);
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to control header font styles
+$entry-title-color: scale-color($secondary-color, $lightness: -40%, $saturation:-20%);
  $header-font-family: $font-family-title;
  $header-font-weight: 700;
- $header-font-color: scale-color($secondary-color, $lightness: -35%);
+ $header-font-color: scale-color($primary-color, $lightness: 10%, $saturation: -60%);
  $header-top-margin: rem-calc(31);
  $header-bottom-margin: rem-calc(10);
 

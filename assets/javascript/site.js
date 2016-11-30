@@ -51,12 +51,12 @@ var footer_waypint = new Waypoint({
 var railNav = $('.railNav');
 var railNav_links = $('.railNav ul');
 var railNav_tl = new TimelineMax();
-railNav_tl.add( TweenMax.from(railNav, .5, {delay:2, left:'-3rem', ease:Sine.easeIn}) );
+
+railNav_tl.add( TweenMax.to(railNav, .5, {delay:2, opacity:1}) );
+railNav_tl.add( TweenMax.to(railNav, .5, {delay:.5, left:'0', ease:Sine.easeIn}) );
 railNav_tl.add( TweenMax.to(railNav, .5, {delay:3, left:'-2.75rem', ease:Bounce.easeOut}) );
 railNav_tl.call(function(){
-	console.log('start');
 	railNav_links.addClass('railNav_closed');
-	console.log('done');
 });
 
 
