@@ -1044,6 +1044,7 @@ table.product-ref-table{
 .tweet-header-module{
   .tweet-link{
     float:right;
+    opacity:0;
     @media screen and(max-width:$small-breakpoint){
       float:left;
       margin-top:1rem;

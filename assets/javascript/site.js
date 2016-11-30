@@ -52,7 +52,7 @@ var railNav = $('.railNav');
 var railNav_links = $('.railNav ul');
 var railNav_tl = new TimelineMax();
 railNav_tl.add( TweenMax.from(railNav, .5, {delay:2, left:'-3rem', ease:Sine.easeIn}) );
-railNav_tl.add( TweenMax.to(railNav, .5, {delay:5, left:'-2.75rem', ease:Bounce.easeOut}) );
+railNav_tl.add( TweenMax.to(railNav, .5, {delay:3, left:'-2.75rem', ease:Bounce.easeOut}) );
 railNav_tl.call(function(){
 	console.log('start');
 	railNav_links.addClass('railNav_closed');
@@ -70,4 +70,10 @@ railNav.mouseleave(function(){
 	railNav_links.addClass('railNav_closed');
 });
 
+//==================================
+//=======twitter page module========
+//==================================
+var tpm = $('.tweet-link');
+var tpm_tl = new TimelineMax();
+tpm_tl.add( TweenMax.to(tpm, .5, {delay:1.5, opacity:1}) );
 });//end doc ready

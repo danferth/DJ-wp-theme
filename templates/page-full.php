@@ -46,7 +46,7 @@ get_header(); ?>
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 				<div class="tweet-header-module">
-					<span class="tweet-link">
+					<span class="tweet-link animated">
 					<a
 						href="https://twitter.com/share"
 						class="twitter-share-button"

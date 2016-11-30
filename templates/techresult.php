@@ -39,7 +39,7 @@ get_header(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>" <?php echo $ng_controller; ?>>
 			<header>
 				<h1 class="entry-title" ng-bind-html="pageTitle">Technical Note</h1>
-				<div class="tweet-header-module">
+				<div class="tweet-header-module animated">
 					<span class="tweet-link">
 						<a
 							href="https://twitter.com/share"
