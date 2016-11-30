@@ -76,4 +76,13 @@ railNav.mouseleave(function(){
 var tpm = $('.tweet-link');
 var tpm_tl = new TimelineMax();
 tpm_tl.add( TweenMax.to(tpm, .5, {delay:1.5, opacity:1}) );
+
+tpm.mouseenter(function(){
+	$(this).addClass('tada');
+});
+tpm.mouseleave(function(){
+	$(this).removeClass('tada');
+});
+
+
 });//end doc ready

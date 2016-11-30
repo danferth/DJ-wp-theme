@@ -3,10 +3,10 @@
 //=========================================================
 article header{
   background:$white;
-  padding: rem-calc(32) rem-calc(30) rem-calc(10) rem-calc(30);
+  padding: rem-calc(32) rem-calc(30) rem-calc(20) rem-calc(30);
   margin: 0 0 0 0;
   border-bottom: 1px solid $iron;
-  overflow:hidden;
+  position:relative;
     @media screen and (max-width:$small-breakpoint){
     padding:rem-calc(15) rem-calc(15) 1rem rem-calc(15);
   }
