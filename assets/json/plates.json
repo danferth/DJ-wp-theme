@@ -120,23 +120,6 @@
 		"worksWith" : ["899410", "899405-1", "899406", "359747"]
 	},{
 		"series" : "well plate",
-		"partNum" : "951652",
-		"qty" : "100",
-		"description" : "96 Well Plate, 2mL, Square Well, Round Bottom",
-		"wellCount" : "96",
-		"wellVolume" : "2mL",
-		"wellShape" : "S-R",
-		"sterile" : false,
-		"ANSI-SLAS" : true,
-		"filter" : false,
-		"collectionPlate" : false,
-		"accessory" : false,
-		"drawing" : false,
-		"notes" : false,
-		"tag" : [],
-		"worksWith" : ["899410", "899405-1", "899406", "A210100"]
-	},{
-		"series" : "well plate",
 		"partNum" : "951652B",
 		"qty" : "50",
 		"description" : "96 Well Plate, 2mL, Square Well, V-Bottom | Rim | Raised Lettering | Skirted Bottom",
@@ -178,6 +161,23 @@
 		"wellVolume" : "2mL",
 		"wellShape" : "S-R",
 		"sterile" : false,
+		"ANSI-SLAS" : true,
+		"filter" : false,
+		"collectionPlate" : false,
+		"accessory" : false,
+		"drawing" : false,
+		"notes" : false,
+		"tag" : [],
+		"worksWith" : ["899410", "899405-1", "899406", "A210100"]
+	},{
+		"series" : "well plate",
+		"partNum" : "931130-S",
+		"qty" : "20",
+		"description" : "96 Well Plate, 2mL, Square Well, Round Bottom | Irreversible",
+		"wellCount" : "96",
+		"wellVolume" : "2mL",
+		"wellShape" : "S-R",
+		"sterile" : true,
 		"ANSI-SLAS" : true,
 		"filter" : false,
 		"collectionPlate" : false,
@@ -325,7 +325,7 @@
 		"drawing" : false,
 		"notes" : false,
 		"tag" : [],
-		"worksWith" : ["931130", "951652"]
+		"worksWith" : ["931130"]
 	},{
 		"series" : "plate cover",
 		"partNum" : "899405-1",
