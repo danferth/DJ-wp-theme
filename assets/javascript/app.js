@@ -202,8 +202,12 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($sco
     $scope.distributors = responce.data;
   });
     
+    if($scope.getStorage('distributor')){
+      $scope.distId = $scope.getStorage('distributor');
+    }else{
+      $scope.distId = "66";
+    }
     //set defaults for single distributor view
-    $scope.distId = "66";
     $scope.hasTel2 = true;
     $scope.hasFax = true;
     $scope.hasWeb = true;
@@ -212,6 +216,7 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($sco
     //on click of info buttom
     $scope.singleDist = function(obj){
       $scope.distId = obj.target.attributes.value.value;
+      $scope.setStorage('distributor', $scope.distId);
     };
     
     //sorting default

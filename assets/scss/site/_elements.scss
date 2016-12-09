@@ -267,9 +267,7 @@ video.tech-video-page-single{
   }
 }
 .distributor-form{
-  //padding-top:1rem;
-  background:$info-color;
-  //margin-bottom:1.25rem;
+  //background:$info-color;
    ul.button-group{
     li{
       a.button{
@@ -280,8 +278,9 @@ video.tech-video-page-single{
 }
 .joyride-help{
   color:$iron;
+  font-size:.875rem;
   text-align:center;
-  margin-bottom:.6rem;
+  margin: .6rem 0;
   transition:color 250ms;
   cursor:pointer;
   i{
@@ -289,8 +288,7 @@ video.tech-video-page-single{
     transition:color 250ms;
   }
   &:hover{
-    color:$base;
-    text-decoration:underline;
+    color:$charcoal;
     i{
       color:$primary-color;
     }
