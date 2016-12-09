@@ -203,7 +203,7 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($sco
   });
     
     //set defaults for single distributor view
-    $scope.distId = "73";
+    $scope.distId = "66";
     $scope.hasTel2 = true;
     $scope.hasFax = true;
     $scope.hasWeb = true;
@@ -211,38 +211,7 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($sco
     $scope.hasNotes = false;
     //on click of info buttom
     $scope.singleDist = function(obj){
-      //set id
       $scope.distId = obj.target.attributes.value.value;
-      //check for tel2
-      if($scope.distributors[$scope.distId].tel2 == "" || !$scope.distributors[$scope.distId].hasOwnProperty('tel2')){
-        $scope.hasTel2 = false;
-      }else{
-        $scope.hasTel2 = true;
-      }
-      //check for fax
-      if($scope.distributors[$scope.distId].fax == "" || !$scope.distributors[$scope.distId].hasOwnProperty('fax')){
-        $scope.hasFax = false;
-      }else{
-        $scope.hasFax = true;
-      }
-      //check for notes (special)
-      if($scope.distributors[$scope.distId].special == "" || !$scope.distributors[$scope.distId].hasOwnProperty('special')){
-        $scope.hasNotes = false;
-      }else{
-        $scope.hasNotes = true;
-      }
-      //check for web
-      if($scope.distributors[$scope.distId].web == "" || !$scope.distributors[$scope.distId].hasOwnProperty('web')){
-        $scope.hasWeb = false;
-      }else{
-        $scope.hasWeb = true;
-      }
-      //check for email
-      if($scope.distributors[$scope.distId].email == "" || !$scope.distributors[$scope.distId].hasOwnProperty('email')){
-        $scope.hasEmail = false;
-      }else{
-        $scope.hasEmail = true;
-      }
     };
     
     //sorting default

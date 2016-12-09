@@ -214,12 +214,9 @@ video.tech-video-page-single{
 //=======================Distributors Page=============================
 //=====================================================================
 .distributor-single-view{
-  border:1px solid $silver;
-  border-right:none;
   background:$ghost;
-  margin-bottom:.6rem;
-  padding-bottom:1rem;
-  border-radius:.5rem;
+  //margin-bottom:.6rem;
+  //padding-bottom:1rem;
   h3.company{
     color:$charcoal;
     text-shadow:0 1px 0 $white;
@@ -269,21 +266,16 @@ video.tech-video-page-single{
     font-weight:bold;
   }
 }
-.row.distributor-form{
-  padding-top:1rem;
+.distributor-form{
+  //padding-top:1rem;
   background:$info-color;
-  margin-bottom:1.25rem;
+  //margin-bottom:1.25rem;
    ul.button-group{
     li{
       a.button{
       margin-bottom:.5rem;
       }
     }
-  }
-  h3{
-    color:$charcoal;
-    text-shadow:0 1px 0 $white;
-    margin-top:0;
   }
 }
 .joyride-help{
