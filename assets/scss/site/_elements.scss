@@ -377,6 +377,9 @@ table.product-ref-table{
     position:absolute;
     opacity:0;
   }
+  .wellCount radiogroup label{
+    margin-right:.125rem;
+  }
   .wellCount label{
     background:lighten($primary-color, 5%);
     color:$white;

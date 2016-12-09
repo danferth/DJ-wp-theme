@@ -12,7 +12,8 @@
 			</div>
 
 			<div class="column small-5">
-				<p class="card-partNum"><b>Part # : </b>{{ set.partNum }} | <b>Qty/case : </b>{{ set.qty }}</p>
+				<p class="card-partNum"><b>Part # : </b>{{ set.partNum }}<br/>
+					<b>Qty/case : </b>{{ set.qty }}</p>
 				<p class="card-stop"><b>Description : </b>{{ set.description }}</p>
 				<p><b>No. of Wells : </b>{{ set.wellCount }}</p>
 				<p><b>Well Vol. : </b>{{ set.wellVolume }}</p>
@@ -23,10 +24,10 @@
 			<div class="column small-4">
 				<p><b>ANSI-SLAS : </b>{{ set.ANSI-SLAS | yesNo }}</p>
 				<p><b>Sterile : </b>{{ set.sterile | yesNo }}</p>
-				<p><b>Filter : </b>{{ set.filter | yesNo }}</p>
-				<p class="card-stop"><b>Collection Plate : </b>{{ set.collectionPlate | yesNo }}</p>
+				<p ng-show="set.filter"><b>Filter : </b>{{ set.filter }}</p>
+				<p class="card-stop" ng-show="set.collectionPlate"><b>Collection Plate : </b>{{ set.collectionPlate }}</p>
 				<p class="card-stop"><b>Works with : </b>{{ set.worksWith | tostring }}</p>
-				<p><b>Notes : </b>{{ set.notes }}</p>
+				<p ng-show="set.notes"><b>Notes : </b>{{ set.notes }}</p>
 			</div>
 			
 		</div>
