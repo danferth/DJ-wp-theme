@@ -28,8 +28,8 @@
 	<?php do_action( 'foundationpress_after_body' ); ?>
 <div class="railNav">
 	<ul>
+		<li><a href="https://twitter.com/tic_2017" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		<li><a href="/tl/"><i class="fa fa-line-chart" aria-hidden="true"></i></a></li>
-		<li><a href="https://twitter.com/mobio" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		<li><a href="https://www.linkedin.com/company/thomson-instrument" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 	</ul>
 </div>

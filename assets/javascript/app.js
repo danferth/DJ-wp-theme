@@ -202,21 +202,22 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($sco
     $scope.distributors = responce.data;
   });
     
-    if($scope.getStorage('distributor')){
-      $scope.distId = $scope.getStorage('distributor');
-    }else{
-      $scope.distId = "66";
-    }
-    //set defaults for single distributor view
-    $scope.hasTel2 = true;
-    $scope.hasFax = true;
-    $scope.hasWeb = true;
-    $scope.hasEmail = true;
-    $scope.hasNotes = false;
+    
+    $scope.$watch('distId', function(){
+      if($scope.getStorage('distributor')){
+        $scope.distId = $scope.getStorage('distributor');
+        $scope.distHeader = "Your Chosen Distributor";
+      }else{
+        $scope.distId = "66";
+        $scope.distHeader = "We Ship Worldwide if you Come up Empty";
+      }
+    });
+    
     //on click of info buttom
     $scope.singleDist = function(obj){
       $scope.distId = obj.target.attributes.value.value;
       $scope.setStorage('distributor', $scope.distId);
+      $scope.scrollToTop();
     };
     
     //sorting default
