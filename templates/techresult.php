@@ -62,7 +62,7 @@ get_header(); ?>
 <!-- =======================START======================= -->
 <!-- ==============PDF's==================== -->
 <div class="tech-PDF row" ng-show="PDF">
-	<div class="small-12 medium-8 large-10 column">
+	<div class="small-12 medium-10 large-8 column">
 		<h2 class="tech-title" ng-bind-html="techNote.title"></h2>
 		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>
@@ -94,7 +94,7 @@ get_header(); ?>
 </div>
 
 <div class="row" ng-controller="techlibraryController">
-	<div class="small-12 medium-6 column">
+	<div class="small-12 medium-8 large-6 column">
 	<p></p>Explore more of what {{ pi.title }} has to offer in one of the categories below.</p>
 	<?php echo do_shortcode('[tech_nav]'); ?>
 	</div>

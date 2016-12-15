@@ -207,11 +207,11 @@ function tech_nav_shortcode($atts, $content, $tag){
   $a = shortcode_atts(array(
     "class" => ""
     ), $atts);
-  $output = "<ul class='".$a['class']." techlibrary_navigation'>\n
-        <li class='tl-nav-gi'><a href='tl/gi/' ng-class='{disable: !gi.length}'>General Information</a></li>\n
-        <li class='tl-nav-v'><a href='tl/v/'   ng-class='{disable: !v.length}' >Videos</a></li>\n
-        <li class='tl-nav-an'><a href='tl/an/' ng-class='{disable: !an.length}'>Application Notes</a></li>\n
-        <li class='tl-nav-pw'><a href='tl/pw/' ng-class='{disable: !pw.length}'>Published Works</a></li>\n
+  $output = "<ul class='".$a['class']." techlibrary_navigation' data-equalizer='tlnav'>\n
+        <li class='tl-nav-gi'><a href='tl/gi/' ng-class='{disable: !gi.length}' data-equalizer-watch='tlnav'>General Information</a></li>\n
+        <li class='tl-nav-v'><a href='tl/v/'   ng-class='{disable: !v.length}'  data-equalizer-watch='tlnav'>Videos</a></li>\n
+        <li class='tl-nav-an'><a href='tl/an/' ng-class='{disable: !an.length}' data-equalizer-watch='tlnav'>Application Notes</a></li>\n
+        <li class='tl-nav-pw'><a href='tl/pw/' ng-class='{disable: !pw.length}' data-equalizer-watch='tlnav'>Published Works</a></li>\n
       </ul>\n
       <input type='text' id='searchanything' ng-model='searchanything' placeholder='search anything!'/>";
   return $output;

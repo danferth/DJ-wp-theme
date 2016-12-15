@@ -32,6 +32,16 @@
     }
   }
 }
+//if and when you need a word most likely a product name bold and blue like in a table cell
+.bold-blue{
+  font-weight:bold;
+  color:$primary-color;
+}
+.bold-green{
+  font-weight:bold;
+  color:$success-color;
+  text-align:center;
+}
 //=====================================================================
 //==========================main blocks================================
 //=====================================================================
@@ -946,6 +956,7 @@ table.product-ref-table{
     width:25%;
     background:$snow;
     list-style:none;
+    padding: 0 .125rem;
     border-right:1px solid $base;
     &:last-of-type{
       border-right:none;
@@ -972,6 +983,15 @@ table.product-ref-table{
         color:$gainsboro;
         cursor:none;
       }
+    }
+    @media screen and (max-width:$small-breakpoint){
+      float:none;
+      width:100%;
+      border-right:none;
+      border-bottom: 1px solid $base;
+      &:last-of-type{
+      border-right:none;
+    }
     }
   }
 }
@@ -1062,6 +1082,9 @@ table.product-ref-table{
     clear:both;
   }
 }
+
+
+
 
 //trial and error for row in a row sepration
 /*
