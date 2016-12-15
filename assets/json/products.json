@@ -2131,5 +2131,101 @@
 		"thum_image" : "81700WH_tn.png",
 		"tag" : [],
 		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "12 Position for 20mL and 40mL Metal Rack | Blue",
+		"description1" : "",
+		"description2" : "",
+		"partNum" : "932MR",
+		"partNumber" : [{"num" : "932MR", "qty" : ""}],
+		"image" : "932MR_lg.jpg",
+		"thum_image" : "932MR_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "24 Position Vial Rack For 8mL Vial | Gold",
+		"description1" : "",
+		"description2" : "",
+		"partNum" : "915MR",
+		"partNumber" : [{"num" : "915MR", "qty" : "1"}],
+		"image" : "915MR_lg.jpg",
+		"thum_image" : "915MR_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "24 Position Vial Solid Rack for 19mL Test Tubes | Gold",
+		"description1" : "(For Prep HPLC Collection)",
+		"description2" : "",
+		"partNum" : "1212095",
+		"partNumber" : [{"num" : "1212095", "qty" : "1"}],
+		"image" : "1212095_lg.jpg",
+		"thum_image" : "1212095_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "24 Well Blocks For 4mL Vial | Green",
+		"description1" : "",
+		"description2" : "",
+		"partNum" : "1212205",
+		"partNumber" : [{"num" : "1212205", "qty" : "1"}],
+		"image" : "1212205_lg.jpg",
+		"thum_image" : "1212205_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "24 Position 16 x100 Test Tube Holder | Blue",
+		"description1" : "(Requires special swings)",
+		"description2" : "",
+		"partNum" : "1212085",
+		"partNumber" : [{"num" : "1212085", "qty" : "1"}],
+		"image" : "1212085_lg.jpg",
+		"thum_image" : "1212085_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "15 Position Rack for 16mm Tubes | Blue",
+		"description1" : "(Works in normal swings)",
+		"description2" : "",
+		"partNum" : "1212030",
+		"partNumber" : [{"num" : "1212030", "qty" : "1"}],
+		"image" : "1212030_lg.jpg",
+		"thum_image" : "1212030_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "6 Position 50mL Centrifuge tube block | Blue",
+		"description1" : "(Works in normal swings)",
+		"description2" : "",
+		"partNum" : "971MR",
+		"partNumber" : [{"num" : "971MR", "qty" : "1"}],
+		"image" : "971MR_lg.jpg",
+		"thum_image" : "971MR_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
+	},{
+		"line" : "glassware",
+		"series" : "metal racks",
+		"title" : "6 Well Block | Blue",
+		"description1" : "For Glass Vials",
+		"description2" : "",
+		"partNum" : "1212225",
+		"partNumber" : [{"num" : "1212225", "qty" : "1"}],
+		"image" : "1212225_lg.jpg",
+		"thum_image" : "1212225_tn.png",
+		"tag" : [],
+		"URL" : "glassware/"
 	}
 ]
