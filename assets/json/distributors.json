@@ -24,10 +24,7 @@
 		"webUrl": "http://www.biosilta.com",
 		"web": "biosilta.com",
 		"email": "info@biosilta.com"
-	},
-
-
-	{
+	}, {
 		"id": 2,
 		"region": "asia",
 		"country": "China",
@@ -152,19 +149,6 @@
 		"webUrl": "http://www.buch-holm.dk/",
 		"web": "buch-holm.dk",
 		"email": "b-h@buch-holm.dk"
-	}, {
-		"id": 12,
-		"region": "Europe",
-		"country": "Finnland",
-		"company": "Berner Oy",
-		"products": ["Flasks", "Well Plates"],
-		"address": "Sahaajankatu 24\n00880 Helsinki",
-		"tel": "+358 (0)20 690 761",
-		"tel2": false,
-		"fax": "+358 (0)20 791 4241",
-		"webUrl": "http://www.berner.fi/pro",
-		"web": "www.berner.fi/pro",
-		"email": "pro.tilaukset@berner.fi"
 	}, {
 		"id": 13,
 		"region": "Europe",
@@ -360,20 +344,7 @@
 		"webUrl": "http://www.tecnocroma.pt/",
 		"web": "www.tecnocroma.pt",
 		"email": "info@tecnocroma.pt"
-	}, {
-		"id": 28,
-		"region": "Europe",
-		"country": "Russia",
-		"company": "Dia-M",
-		"products": ["Flasks", "Well Plates"],
-		"address": "str. Kosmonavta Volkova 10\nRU-127 299 Moscow",
-		"tel": "+7 495 745 0508",
-		"tel2": false,
-		"fax": "+7 495 745 0509",
-		"webUrl": "http://www.dia-m.ru/",
-		"web": "www.dia-m.ru",
-		"email": "info@dia-m.ru"
-	}, {
+	},{
 		"id": 29,
 		"region": "Europe",
 		"country": "Slovenia",

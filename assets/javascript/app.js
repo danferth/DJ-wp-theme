@@ -196,26 +196,26 @@ tic.controller('inquiryController', ['$scope', function($scope){
 //======================================================================================
 
 //=====distributors page=====
-tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($scope, $sce, dataFactory){
+tic.controller('distController', ['$scope', '$sce', 'dataFactory', '$filter', function($scope, $sce, dataFactory, $filter){
     //grab JSON data
   dataFactory.get_distributors().then(function(responce){
     $scope.distributors = responce.data;
-  });
-    
+    $scope.sd = $filter('filter')($scope.distributors, {id : 66})[0];
     
     $scope.$watch('distId', function(){
       if($scope.getStorage('distributor')){
         $scope.distId = $scope.getStorage('distributor');
+        $scope.sd = $filter('filter')($scope.distributors, {id : $scope.distId})[0];
         $scope.distHeader = "Your Chosen Distributor";
       }else{
-        $scope.distId = "66";
         $scope.distHeader = "We Ship Worldwide if you Come up Empty";
       }
     });
     
     //on click of info buttom
     $scope.singleDist = function(obj){
-      $scope.distId = obj.target.attributes.value.value;
+      $scope.sd = $filter('filter')($scope.distributors, {id : obj})[0];
+      $scope.distId = $scope.sd.id;
       $scope.setStorage('distributor', $scope.distId);
       $scope.scrollToTop();
     };
@@ -224,6 +224,8 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', function($sco
     $scope.sortType = 'company';
     $scope.sortReverse = false;
     $scope.filterType = "";
+
+  });
 }]);
 
 //=====compound compatibility=====
