@@ -304,6 +304,16 @@ video.tech-video-page-single{
     }
   }
 }
+.distributor-id-btn{
+  background:transparent;
+  margin: 0;
+  padding: 0;
+  color:scale-color($secondary-color, $lightness:-25%, $saturation:15%);
+  &:hover{
+    background:transparent;
+    color:$primary-color;
+  }
+}
 
 //=====================================================================
 //================Compound compatibility index Page====================
