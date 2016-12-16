@@ -149,6 +149,19 @@
 		"webUrl": "http://www.buch-holm.dk/",
 		"web": "buch-holm.dk",
 		"email": "b-h@buch-holm.dk"
+	},  {
+		"id": 12,
+		"region": "Europe",
+		"country": "Estonia, Latvia, Lithuania",
+		"company": "G.W.Berg O&Uuml;",
+		"products": ["Filter Vials", "Well Plates", "Flasks"],
+		"address": "Laki 25,\nTallinn 12915\nEstonia",
+		"tel": "+ 372 6505 658",
+		"tel2": false,
+		"fax": false,
+		"webUrl": "http://www.gwb.ee/",
+		"web": "www.gwb.ee",
+		"email": "aivar.tugedam@gwb.ee"
 	}, {
 		"id": 13,
 		"region": "Europe",
