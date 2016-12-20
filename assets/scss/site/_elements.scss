@@ -411,6 +411,9 @@ table.product-ref-table{
       opacity:1;
     }
   }
+  .wellShape input[type='radio'] + label{
+    margin-right:0;
+  }
   .wellShape input[type='radio']:checked + label img{
     opacity:1;
   }

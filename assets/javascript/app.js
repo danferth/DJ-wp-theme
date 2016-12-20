@@ -282,6 +282,11 @@ tic.controller('platesearchController', ['$scope', function($scope){
   
   $scope.setItem = function(rslt){
     $scope.set = rslt;
+    if($scope.set.series === "plate cover"){
+      $scope.notAplate = true;
+    }else{
+      $scope.notAplate = false;
+    }
   };
   
 }]);

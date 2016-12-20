@@ -5,7 +5,7 @@ tic.directive('plateSearch', function(){
   return{
     restrict: 'E',
     replace: 'true',
-    templateUrl: url+'/wp-content/themes/TIC/assets/templates/plate-search.html',
+    templateUrl: url+'/wp-content/themes/TIC/assets/templates/plate-search.php',
     link: function(scope, elem, attrs){
       // elem.bind('click', function(){
       //   elem.addClass('hidden');
