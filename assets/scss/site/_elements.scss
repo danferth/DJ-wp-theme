@@ -500,17 +500,40 @@ table.product-ref-table{
   padding: 3rem 5rem;
   margin-top:12%;
   cursor:pointer;
+  .card-partNum{
+    background:$ghost;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    margin-bottom:.5rem;
+    border-bottom:2px solid $jumbo;
+    p{
+      margin:0;
+    }
+    .card-pn{
+      margin-bottom:.25rem;
+    }
+    .card-title{
+      
+    }
+    .card-description{
+      font-size:.75rem;
+    }
+  }
+  .card-left{
+    border-right:1px solid $jumbo;
+  }
   .row{
     max-width:75rem;
     margin:0 auto;
   }
   p{
-    margin-bottom:.75rem;
+    margin-bottom:.25rem;
   }
 }
 .hidden{
   visibility:hidden;
 }
+
 
 //=====================================================================
 //=========================Product page elements=======================
