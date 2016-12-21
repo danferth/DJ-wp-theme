@@ -123,9 +123,9 @@ if($a['title']){
 }
   $output .=  "<div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"}";
   if($a['filter']){
-    $output .= "| filter:".$a['filter']."'>";
+    $output .= "| filter:".$a['filter']."' ng-click='setProduct(p); triggerOverlay();'>";
   }else{
-    $output .= "'>";
+    $output .= "' ng-click='setProduct(p); triggerOverlay();'>";
   }
       
       $output .= "<div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
@@ -363,6 +363,7 @@ function intro_quiry_shortcode($atts, $content=null, $tag){
     'product' => ''
     ), $atts);
     $output = "
+    <product-overview></product-overview>\n
     <div class='".$a['class']." row'>\n
 	    <div class='small-12 medium-6 large-7 column'>\n
 		    <h2>".$a['title']."</h2>\n

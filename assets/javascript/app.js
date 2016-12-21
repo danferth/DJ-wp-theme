@@ -296,8 +296,47 @@ tic.controller('product_pageController', ['$scope', function($scope){
 
   //product set with attribute on <product-inquiry product="foobar"></product-inquiry>
   $scope.product = "no product set!";
+  
+  $scope.isFlask = false;
+  $scope.isVial = false;
+  $scope.isPlate = false;
+  $scope.isOther = false;
+  
+  $scope.setProduct = function(rslt){
+    $scope.setP = rslt;
+    if($scope.setP.line == "FV"){//FILTER VIALS
+      $scope.isVial = true;
+      $scope.isFlask = false;
+      $scope.isPlate = false;
+      $scope.isOther = false;
+    }
+    if($scope.setP.series == "flask"){//FLASKS
+      $scope.isVial = false;
+      $scope.isFlask = true;
+      $scope.isPlate = false;
+      $scope.isOther = false;
+    }
+    if($scope.setP.series != "flask" && $scope.setP.line != "FV" && $scope.setP.line != "well plate"){//OTHER
+      $scope.isVial = false;
+      $scope.isFlask = false;
+      $scope.isPlate = false;
+      $scope.isOther = true;
+    }
+    if($scope.setP.line == "well plate"){//WELL PLATES
+      $scope.isVial = false;
+      $scope.isFlask = false;
+      $scope.isPlate = true;
+      $scope.isOther = false;
+      if($scope.setP.series === "plate cover"){
+        $scope.notAplate = true;
+      }else{
+        $scope.notAplate = false;
+      }
+    }
+  };
+    
+  
   //select
-
     $scope.UYF_options = [
       { "value" : "ecoli", "label" : "E. Coli" },
       { "value" : "microbial", "label" : "Microbial" },

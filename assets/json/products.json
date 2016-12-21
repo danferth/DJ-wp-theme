@@ -12,7 +12,14 @@
 		"image" : "35531_lg.jpg",
 		"thum_image" : "35531_tn.png",
 		"tag" : [],
-		"URL" : "fv/standard/"
+		"URL" : "fv/standard/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -26,7 +33,14 @@
 		"image" : "35541_lg.jpg",
 		"thum_image" : "35541_tn.png",
 		"tag" : [],
-		"URL" : "fv/standard/"
+		"URL" : "fv/standard/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -40,7 +54,14 @@
 		"image" : "35530_lg.jpg",
 		"thum_image" : "35530_tn.png",
 		"tag" : [],
-		"URL" : "fv/standard/"
+		"URL" : "fv/standard/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -54,7 +75,14 @@
 		"image" : "35540_lg.jpg",
 		"thum_image" : "35540_tn.png",
 		"tag" : [],
-		"URL" : "fv/standard/"
+		"URL" : "fv/standard/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -68,7 +96,14 @@
 		"image" : "35535_lg.jpg",
 		"thum_image" : "35535_tn.png",
 		"tag" : [],
-		"URL" : "fv/standard/"
+		"URL" : "fv/standard/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -82,7 +117,14 @@
 		"image" : "35538_lg.jpg",
 		"thum_image" : "35538_tn.png",
 		"tag" : [],
-		"URL" : "fv/standard/"
+		"URL" : "fv/standard/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "standard",
@@ -96,7 +138,14 @@
 		"image" : "35539_lg.jpg",
 		"thum_image" : "35539_tn.png",
 		"tag" : [],
-		"URL" : "fv/standard/"
+		"URL" : "fv/standard/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -110,7 +159,14 @@
 		"image" : "15531_lg.jpg",
 		"thum_image" : "15531_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -124,7 +180,14 @@
 		"image" : "25531_lg.jpg",
 		"thum_image" : "25531_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -138,7 +201,14 @@
 		"image" : "15541_lg.jpg",
 		"thum_image" : "15541_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -152,7 +222,14 @@
 		"image" : "25541_lg.jpg",
 		"thum_image" : "25541_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -166,7 +243,14 @@
 		"image" : "15530_lg.jpg",
 		"thum_image" : "15530_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -180,7 +264,14 @@
 		"image" : "25530_lg.jpg",
 		"thum_image" : "25530_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -194,7 +285,14 @@
 		"image" : "15540_lg.jpg",
 		"thum_image" : "15540_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -208,7 +306,14 @@
 		"image" : "25540_lg.jpg",
 		"thum_image" : "25540_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -222,7 +327,14 @@
 		"image" : "15535_lg.jpg",
 		"thum_image" : "15535_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -236,7 +348,14 @@
 		"image" : "25535_lg.jpg",
 		"thum_image" : "25535_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -250,7 +369,14 @@
 		"image" : "15538_lg.jpg",
 		"thum_image" : "15538_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "nano",
@@ -264,7 +390,14 @@
 		"image" : "25538_lg.jpg",
 		"thum_image" : "25538_tn.png",
 		"tag" : [],
-		"URL" : "fv/nano/"
+		"URL" : "fv/nano/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -278,7 +411,14 @@
 		"image" : "85531_lg.jpg",
 		"thum_image" : "85531_tn.png",
 		"tag" : [],
-		"URL" : "fv/extreme/"
+		"URL" : "fv/extreme/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -292,7 +432,14 @@
 		"image" : "85541_lg.jpg",
 		"thum_image" : "85541_tn.png",
 		"tag" : [],
-		"URL" : "fv/extreme/"
+		"URL" : "fv/extreme/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -306,7 +453,14 @@
 		"image" : "85530_lg.jpg",
 		"thum_image" : "85530_tn.png",
 		"tag" : [],
-		"URL" : "fv/extreme/"
+		"URL" : "fv/extreme/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -320,7 +474,14 @@
 		"image" : "85540_lg.jpg",
 		"thum_image" : "85540_tn.png",
 		"tag" : [],
-		"URL" : "fv/extreme/"
+		"URL" : "fv/extreme/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -334,7 +495,14 @@
 		"image" : "85535_lg.jpg",
 		"thum_image" : "85535_tn.png",
 		"tag" : [],
-		"URL" : "fv/extreme/"
+		"URL" : "fv/extreme/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -348,7 +516,14 @@
 		"image" : "85538_lg.jpg",
 		"thum_image" : "85538_tn.png",
 		"tag" : [],
-		"URL" : "fv/extreme/"
+		"URL" : "fv/extreme/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extreme",
@@ -362,7 +537,14 @@
 		"image" : "85539_lg.jpg",
 		"thum_image" : "85539_tn.png",
 		"tag" : [],
-		"URL" : "fv/extreme/"
+		"URL" : "fv/extreme/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -376,7 +558,14 @@
 		"image" : "48831_lg.jpg",
 		"thum_image" : "48831_tn.png",
 		"tag" : [],
-		"URL" : "fv/mega/"
+		"URL" : "fv/mega/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -390,7 +579,14 @@
 		"image" : "48841_lg.jpg",
 		"thum_image" : "48841_tn.png",
 		"tag" : [],
-		"URL" : "fv/mega/"
+		"URL" : "fv/mega/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -404,7 +600,14 @@
 		"image" : "48830_lg.jpg",
 		"thum_image" : "48830_tn.png",
 		"tag" : [],
-		"URL" : "fv/mega/"
+		"URL" : "fv/mega/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -418,7 +621,14 @@
 		"image" : "48840_lg.jpg",
 		"thum_image" : "48840_tn.png",
 		"tag" : [],
-		"URL" : "fv/mega/"
+		"URL" : "fv/mega/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -432,7 +642,14 @@
 		"image" : "48838_lg.jpg",
 		"thum_image" : "48838_tn.png",
 		"tag" : [],
-		"URL" : "fv/mega/"
+		"URL" : "fv/mega/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -446,7 +663,14 @@
 		"image" : "48839_lg.jpg",
 		"thum_image" : "48839_tn.png",
 		"tag" : [],
-		"URL" : "fv/mega/"
+		"URL" : "fv/mega/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "mega",
@@ -458,7 +682,14 @@
 		"image" : "899030_lg.jpg",
 		"thum_image" : "899030_tn.png",
 		"tag" : ["accessory"],
-		"URL" : "fv/mega/"
+		"URL" : "fv/mega/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -472,7 +703,14 @@
 		"image" : "95531_lg.jpg",
 		"thum_image" : "95531_tn.png",
 		"tag" : [],
-		"URL" : "fv/extractor/"
+		"URL" : "fv/extractor/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -486,7 +724,14 @@
 		"image" : "95541_lg.jpg",
 		"thum_image" : "95541_tn.png",
 		"tag" : [],
-		"URL" : "fv/extractor/"
+		"URL" : "fv/extractor/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -500,7 +745,14 @@
 		"image" : "95530_lg.jpg",
 		"thum_image" : "95530_tn.png",
 		"tag" : [],
-		"URL" : "fv/extractor/"
+		"URL" : "fv/extractor/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -514,7 +766,14 @@
 		"image" : "95540_lg.jpg",
 		"thum_image" : "95540_tn.png",
 		"tag" : [],
-		"URL" : "fv/extractor/"
+		"URL" : "fv/extractor/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -528,7 +787,14 @@
 		"image" : "95535_lg.jpg",
 		"thum_image" : "95535_tn.png",
 		"tag" : [],
-		"URL" : "fv/extractor/"
+		"URL" : "fv/extractor/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -542,7 +808,14 @@
 		"image" : "95538_lg.jpg",
 		"thum_image" : "95538_tn.png",
 		"tag" : [],
-		"URL" : "fv/extractor/"
+		"URL" : "fv/extractor/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "extractor",
@@ -556,7 +829,14 @@
 		"image" : "95539_lg.jpg",
 		"thum_image" : "95539_tn.png",
 		"tag" : [],
-		"URL" : "fv/extractor/"
+		"URL" : "fv/extractor/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -570,7 +850,14 @@
 		"image" : "65531_lg.jpg",
 		"thum_image" : "65531_tn.png",
 		"tag" : [],
-		"URL" : "fv/low-evap/"
+		"URL" : "fv/low-evap/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -584,7 +871,14 @@
 		"image" : "65541_lg.jpg",
 		"thum_image" : "65541_tn.png",
 		"tag" : [],
-		"URL" : "fv/low-evap/"
+		"URL" : "fv/low-evap/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -598,7 +892,14 @@
 		"image" : "65530_lg.jpg",
 		"thum_image" : "65530_tn.png",
 		"tag" : [],
-		"URL" : "fv/low-evap/"
+		"URL" : "fv/low-evap/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -612,7 +913,14 @@
 		"image" : "65540_lg.jpg",
 		"thum_image" : "65540_tn.png",
 		"tag" : [],
-		"URL" : "fv/low-evap/"
+		"URL" : "fv/low-evap/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -626,7 +934,14 @@
 		"image" : "65538_lg.jpg",
 		"thum_image" : "65538_tn.png",
 		"tag" : [],
-		"URL" : "fv/low-evap/"
+		"URL" : "fv/low-evap/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
@@ -640,7 +955,14 @@
 		"image" : "65539_lg.jpg",
 		"thum_image" : "65539_tn.png",
 		"tag" : [],
-		"URL" : "fv/low-evap/"
+		"URL" : "fv/low-evap/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "accessory",
@@ -652,7 +974,14 @@
 		"image" : "35005_lg.jpg",
 		"thum_image" : "35005_tn.png",
 		"tag" : [],
-		"URL" : "fv/fv-accessories/"
+		"URL" : "fv/fv-accessories/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "FV",
 		"series" : "accessory",
@@ -664,7 +993,14 @@
 		"image" : "35015-476_lg.jpg",
 		"thum_image" : "35015-476_tn.png",
 		"tag" : [],
-		"URL" : "fv/fv-accessories/"
+		"URL" : "fv/fv-accessories/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -676,7 +1012,14 @@
 		"image" : "94520-10_lg.jpg",
 		"thum_image" : "94520-10_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -689,7 +1032,14 @@
 		"image" : "9452086_lg.jpg",
 		"thum_image" : "9452086_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -702,7 +1052,14 @@
 		"image" : "9452088_lg.jpg",
 		"thum_image" : "9452088_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -715,7 +1072,14 @@
 		"image" : "9452090_lg.jpg",
 		"thum_image" : "9452090_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -728,7 +1092,14 @@
 		"image" : "9452092_lg.jpg",
 		"thum_image" : "9452092_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -741,7 +1112,14 @@
 		"image" : "9452094_lg.jpg",
 		"thum_image" : "9452094_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -753,7 +1131,14 @@
 		"image" : "9452099_lg.jpg",
 		"thum_image" : "9452099_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -765,7 +1150,14 @@
 		"image" : "9452097_lg.jpg",
 		"thum_image" : "9452097_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "column",
@@ -777,7 +1169,14 @@
 		"image" : "9452097-B_lg.jpg",
 		"thum_image" : "9452097-B_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "accessory",
@@ -789,7 +1188,14 @@
 		"image" : "235008_lg.jpg",
 		"thum_image" : "235008_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "frits",
@@ -801,7 +1207,14 @@
 		"image" : "491250_lg.jpg",
 		"thum_image" : "491250_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "frits",
@@ -813,7 +1226,14 @@
 		"image" : "491252_lg.jpg",
 		"thum_image" : "491252_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "frits",
@@ -825,7 +1245,14 @@
 		"image" : "491253_lg.jpg",
 		"thum_image" : "491253_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "frits",
@@ -837,7 +1264,14 @@
 		"image" : "491254_lg.jpg",
 		"thum_image" : "491254_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "frits",
@@ -849,7 +1283,14 @@
 		"image" : "491256_lg.jpg",
 		"thum_image" : "491256_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "frits",
@@ -861,7 +1302,14 @@
 		"image" : "491258_lg.jpg",
 		"thum_image" : "491258_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "columns",
 		"series" : "frits",
@@ -873,7 +1321,14 @@
 		"image" : "491260_lg.jpg",
 		"thum_image" : "491260_tn.png",
 		"tag" : [],
-		"URL" : "columns/"
+		"URL" : "columns/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -885,7 +1340,14 @@
 		"image" : "931110_lg.jpg",
 		"thum_image" : "931110_tn.png",
 		"tag" : [],
-		"URL" : "og/"
+		"URL" : "og/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -897,7 +1359,14 @@
 		"image" : "1212900_lg.jpg",
 		"thum_image" : "1212900_tn.png",
 		"tag" : [],
-		"URL" : "og/og-accessories/"
+		"URL" : "og/og-accessories/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -909,7 +1378,14 @@
 		"image" : "931111_lg.jpg",
 		"thum_image" : "931111_tn.png",
 		"tag" : [],
-		"URL" : "og/"
+		"URL" : "og/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -921,7 +1397,14 @@
 		"image" : "1212905_lg.jpg",
 		"thum_image" : "1212905_tn.png",
 		"tag" : [],
-		"URL" : "og/og-accessories/"
+		"URL" : "og/og-accessories/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -933,7 +1416,14 @@
 		"image" : "931112_lg.jpg",
 		"thum_image" : "931112_tn.png",
 		"tag" : [],
-		"URL" : "og/"
+		"URL" : "og/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -945,7 +1435,14 @@
 		"image" : "931113_lg.jpg",
 		"thum_image" : "931113_tn.png",
 		"tag" : [],
-		"URL" : "og/"
+		"URL" : "og/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -957,7 +1454,14 @@
 		"image" : "931114_lg.jpg",
 		"thum_image" : "931114_tn.png",
 		"tag" : [],
-		"URL" : "og/"
+		"URL" : "og/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "flask",
@@ -969,7 +1473,14 @@
 		"image" : "931116_lg.jpg",
 		"thum_image" : "931116_tn.png",
 		"tag" : [],
-		"URL" : "og/"
+		"URL" : "og/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "special",
@@ -981,7 +1492,14 @@
 		"image" : "931116-PORT-E_lg.jpg",
 		"thum_image" : "931116-PORT-E_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "special",
@@ -993,7 +1511,14 @@
 		"image" : "931113-PORT-TRT_lg.jpg",
 		"thum_image" : "931113-PORT-TRT_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "special",
@@ -1005,7 +1530,14 @@
 		"image" : "931116-PORT-E-TRT_lg.jpg",
 		"thum_image" : "931116-PORT-E-TRT_tn.png",
 		"tag" : [],
-		"URL" : ""
+		"URL" : "",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -1017,7 +1549,14 @@
 		"image" : "899116_lg.jpg",
 		"thum_image" : "899116_tn.png",
 		"tag" : [],
-		"URL" : "og/og-accessories/"
+		"URL" : "og/og-accessories/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -1029,7 +1568,14 @@
 		"image" : "899600-B_lg.jpg",
 		"thum_image" : "899600-B_tn.png",
 		"tag" : [],
-		"URL" : "og/og-accessories/"
+		"URL" : "og/og-accessories/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "OG",
 		"series" : "accessory",
@@ -1041,7 +1587,14 @@
 		"image" : "931116-SC-B_lg.jpg",
 		"thum_image" : "931116-SC-B_tn.png",
 		"tag" : [],
-		"URL" : "og/og-accessories/"
+		"URL" : "og/og-accessories/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1053,7 +1606,14 @@
 		"image" : "931147_lg.jpg",
 		"thum_image" : "931147_tn.png",
 		"tag" : [],
-		"URL" : "uyf/"
+		"URL" : "uyf/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1065,7 +1625,14 @@
 		"image" : "931144_lg.jpg",
 		"thum_image" : "931144_tn.png",
 		"tag" : [],
-		"URL" : "uyf/"
+		"URL" : "uyf/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1077,7 +1644,14 @@
 		"image" : "931141_lg.jpg",
 		"thum_image" : "931141_tn.png",
 		"tag" : [],
-		"URL" : "uyf/"
+		"URL" : "uyf/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1089,7 +1663,14 @@
 		"image" : "931136-B_lg.jpg",
 		"thum_image" : "931136-B_tn.png",
 		"tag" : [],
-		"URL" : "uyf/"
+		"URL" : "uyf/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1101,7 +1682,14 @@
 		"image" : "931136-B-VC_lg.jpg",
 		"thum_image" : "931136-B-VC_tn.png",
 		"tag" : [],
-		"URL" : "uyf/"
+		"URL" : "uyf/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "flask",
@@ -1113,7 +1701,14 @@
 		"image" : "899566_lg.jpg",
 		"thum_image" : "899566_tn.png",
 		"tag" : [],
-		"URL" : "uyf/"
+		"URL" : "uyf/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1125,7 +1720,14 @@
 		"image" : "899425_lg.jpg",
 		"thum_image" : "899425_tn.png",
 		"tag" : [],
-		"URL" : "uyf/airotop/"
+		"URL" : "uyf/airotop/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1137,7 +1739,14 @@
 		"image" : "899424_lg.jpg",
 		"thum_image" : "899424_tn.png",
 		"tag" : [],
-		"URL" : "uyf/airotop/"
+		"URL" : "uyf/airotop/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1149,7 +1758,14 @@
 		"image" : "899423_lg.jpg",
 		"thum_image" : "899423_tn.png",
 		"tag" : [],
-		"URL" : "uyf/airotop/"
+		"URL" : "uyf/airotop/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
@@ -1161,7 +1777,14 @@
 		"image" : "899421_lg.jpg",
 		"thum_image" : "899421_tn.png",
 		"tag" : [],
-		"URL" : "uyf/airotop/"
+		"URL" : "uyf/airotop/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "UYF",
 		"series" : "media",
@@ -1173,7 +1796,14 @@
 		"image" : "446300_lg.jpg",
 		"thum_image" : "446300_tn.png",
 		"tag" : [],
-		"URL" : "uyf/plasmid/"
+		"URL" : "uyf/plasmid/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1186,7 +1816,14 @@
 		"image" : "931706_lg.jpg",
 		"thum_image" : "931706_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1199,7 +1836,14 @@
 		"image" : "931705_lg.jpg",
 		"thum_image" : "931705_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1212,7 +1856,14 @@
 		"image" : "931708_lg.jpg",
 		"thum_image" : "931708_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1225,7 +1876,14 @@
 		"image" : "931710_lg.jpg",
 		"thum_image" : "931710_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1237,7 +1895,14 @@
 		"image" : "931609_lg.jpg",
 		"thum_image" : "931609_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1249,7 +1914,14 @@
 		"image" : "931700_lg.jpg",
 		"thum_image" : "931700_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1262,7 +1934,14 @@
 		"image" : "931594_lg.jpg",
 		"thum_image" : "931594_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1275,7 +1954,14 @@
 		"image" : "931596_lg.jpg",
 		"thum_image" : "931596_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1288,7 +1974,14 @@
 		"image" : "931595_lg.jpg",
 		"thum_image" : "931595_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1301,7 +1994,14 @@
 		"image" : "931598_lg.jpg",
 		"thum_image" : "931598_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "inversion",
@@ -1314,7 +2014,14 @@
 		"image" : "931616_lg.jpg",
 		"thum_image" : "931616_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1326,7 +2033,14 @@
 		"image" : "931606_lg.jpg",
 		"thum_image" : "931606_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "accessory",
@@ -1338,7 +2052,14 @@
 		"image" : "931607_lg.jpg",
 		"thum_image" : "931607_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1350,7 +2071,14 @@
 		"image" : "931704_lg.jpg",
 		"thum_image" : "931704_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1362,7 +2090,14 @@
 		"image" : "931702_lg.jpg",
 		"thum_image" : "931702_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1374,7 +2109,14 @@
 		"image" : "931804_lg.jpg",
 		"thum_image" : "931804_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1386,7 +2128,14 @@
 		"image" : "931614_lg.jpg",
 		"thum_image" : "931614_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "TC",
 		"series" : "bidirectional",
@@ -1398,7 +2147,14 @@
 		"image" : "931618_lg.jpg",
 		"thum_image" : "931618_tn.png",
 		"tag" : [],
-		"URL" : "og/tc/"
+		"URL" : "og/tc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1410,7 +2166,14 @@
 		"image" : "931565-G-1X_lg.jpg",
 		"thum_image" : "931565-G-1X_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1422,7 +2185,14 @@
 		"image" : "931568_lg.jpg",
 		"thum_image" : "931568_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1434,7 +2204,14 @@
 		"image" : "931569-G-1X_lg.jpg",
 		"thum_image" : "931569-G-1X_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1446,7 +2223,14 @@
 		"image" : "931571_lg.jpg",
 		"thum_image" : "931571_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1458,7 +2242,14 @@
 		"image" : "951657_lg.jpg",
 		"thum_image" : "951657_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1470,7 +2261,14 @@
 		"image" : "951652B_lg.jpg",
 		"thum_image" : "951652B_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1482,7 +2280,14 @@
 		"image" : "951652C_lg.jpg",
 		"thum_image" : "951652C_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1494,7 +2299,14 @@
 		"image" : "931130_lg.jpg",
 		"thum_image" : "931130_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1506,7 +2318,14 @@
 		"image" : "931130_lg.jpg",
 		"thum_image" : "931130_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1518,7 +2337,14 @@
 		"image" : "931512B_lg.jpg",
 		"thum_image" : "931512B_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1530,7 +2356,14 @@
 		"image" : "9356045_lg.jpg",
 		"thum_image" : "9356045_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1542,7 +2375,14 @@
 		"image" : "951651B_lg.jpg",
 		"thum_image" : "951651B_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
@@ -1554,7 +2394,14 @@
 		"image" : "931134_lg.jpg",
 		"thum_image" : "931134_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "filter plate",
@@ -1566,7 +2413,14 @@
 		"image" : "931919_lg.jpg",
 		"thum_image" : "931919_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "filter plate",
@@ -1578,7 +2432,14 @@
 		"image" : "921481-B_lg.jpg",
 		"thum_image" : "921481-B_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
@@ -1590,7 +2451,14 @@
 		"image" : "359747_lg.jpg",
 		"thum_image" : "359747_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
@@ -1602,7 +2470,14 @@
 		"image" : "982005_lg.jpg",
 		"thum_image" : "982005_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
@@ -1614,7 +2489,14 @@
 		"image" : "A210100_lg.jpg",
 		"thum_image" : "A210100_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
@@ -1626,7 +2508,14 @@
 		"image" : "899405-1_lg.jpg",
 		"thum_image" : "899405-1_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
@@ -1638,7 +2527,14 @@
 		"image" : "899410_lg.jpg",
 		"thum_image" : "899410_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
@@ -1650,7 +2546,14 @@
 		"image" : "899403_lg.jpg",
 		"thum_image" : "899403_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
@@ -1662,7 +2565,14 @@
 		"image" : "899406_lg.jpg",
 		"thum_image" : "899406_tn.png",
 		"tag" : [],
-		"URL" : "wp/"
+		"URL" : "wp/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "test tubes",
@@ -1674,7 +2584,14 @@
 		"image" : "351692B_lg.jpg",
 		"thum_image" : "351692B_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "test tubes",
@@ -1686,7 +2603,14 @@
 		"image" : "81778_lg.jpg",
 		"thum_image" : "81778_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "pierceable caps",
@@ -1698,7 +2622,14 @@
 		"image" : "55511W_lg.jpg",
 		"thum_image" : "55511W_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "pierceable caps",
@@ -1710,7 +2641,14 @@
 		"image" : "81705_lg.jpg",
 		"thum_image" : "81705_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "pierceable caps",
@@ -1722,7 +2660,14 @@
 		"image" : "81715_lg.jpg",
 		"thum_image" : "81715_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "pierceable caps",
@@ -1734,7 +2679,14 @@
 		"image" : "402805_lg.jpg",
 		"thum_image" : "402805_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "med chem vials",
@@ -1746,7 +2698,14 @@
 		"image" : "50012M_lg.jpg",
 		"thum_image" : "50012M_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "med chem vials",
@@ -1758,7 +2717,14 @@
 		"image" : "50012MA_lg.jpg",
 		"thum_image" : "50012MA_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "med chem vials",
@@ -1770,7 +2736,14 @@
 		"image" : "205410_lg.jpg",
 		"thum_image" : "205410_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "med chem vials",
@@ -1782,7 +2755,14 @@
 		"image" : "205410A_lg.jpg",
 		"thum_image" : "205410A_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "med chem vials",
@@ -1794,7 +2774,14 @@
 		"image" : "402877_lg.jpg",
 		"thum_image" : "402877_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "med chem vials",
@@ -1806,7 +2793,14 @@
 		"image" : "402877A_lg.jpg",
 		"thum_image" : "402877A_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "med chem vials",
@@ -1818,7 +2812,14 @@
 		"image" : "402898_lg.jpg",
 		"thum_image" : "402898_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "storage caps",
@@ -1830,7 +2831,14 @@
 		"image" : "50425-W_lg.jpg",
 		"thum_image" : "50425-W_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "storage caps",
@@ -1842,7 +2850,14 @@
 		"image" : "81700_lg.jpg",
 		"thum_image" : "81700_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1854,7 +2869,14 @@
 		"image" : "30312_lg.jpg",
 		"thum_image" : "30312_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1866,7 +2888,14 @@
 		"image" : "70211M_lg.jpg",
 		"thum_image" : "70211M_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1878,7 +2907,14 @@
 		"image" : "70502_lg.jpg",
 		"thum_image" : "70502_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1890,7 +2926,14 @@
 		"image" : "70512_lg.jpg",
 		"thum_image" : "70512_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1902,7 +2945,14 @@
 		"image" : "61629M-2_lg.jpg",
 		"thum_image" : "61629M-2_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1914,7 +2964,14 @@
 		"image" : "61629MA-B_lg.jpg",
 		"thum_image" : "61629MA-B_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1926,7 +2983,14 @@
 		"image" : "65691B-2_lg.jpg",
 		"thum_image" : "65691B-2_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1938,7 +3002,14 @@
 		"image" : "67117_lg.jpg",
 		"thum_image" : "67117_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "hplc vials",
@@ -1950,7 +3021,14 @@
 		"image" : "65671B-2_lg.jpg",
 		"thum_image" : "65671B-2_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "cap mats",
@@ -1962,7 +3040,14 @@
 		"image" : "399125_lg.jpg",
 		"thum_image" : "399125_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "cap mats",
@@ -1974,7 +3059,14 @@
 		"image" : "399128_lg.jpg",
 		"thum_image" : "399128_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "cap mats",
@@ -1986,7 +3078,14 @@
 		"image" : "399138_lg.jpg",
 		"thum_image" : "399138_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "cap mats",
@@ -1998,7 +3097,14 @@
 		"image" : "399137_lg.jpg",
 		"thum_image" : "399137_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "cap mats",
@@ -2010,7 +3116,14 @@
 		"image" : "399139_lg.jpg",
 		"thum_image" : "399139_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "inserts",
@@ -2022,7 +3135,14 @@
 		"image" : "30412_lg.jpg",
 		"thum_image" : "30412_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "inserts",
@@ -2034,7 +3154,14 @@
 		"image" : "55811_lg.jpg",
 		"thum_image" : "55811_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "inserts",
@@ -2046,7 +3173,14 @@
 		"image" : "55811Z_lg.jpg",
 		"thum_image" : "55811Z_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "inserts",
@@ -2058,7 +3192,14 @@
 		"image" : "55815_lg.jpg",
 		"thum_image" : "55815_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "well blocks",
@@ -2070,7 +3211,14 @@
 		"image" : "1212280_lg.jpg",
 		"thum_image" : "1212280_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "well blocks",
@@ -2082,7 +3230,14 @@
 		"image" : "1212305_lg.jpg",
 		"thum_image" : "1212305_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "microwave vials",
@@ -2094,7 +3249,14 @@
 		"image" : "90814_lg.jpg",
 		"thum_image" : "90814_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "microwave vials",
@@ -2106,7 +3268,14 @@
 		"image" : "81792_lg.jpg",
 		"thum_image" : "81792_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "high temp caps",
@@ -2118,7 +3287,14 @@
 		"image" : "50425-WH_lg.jpg",
 		"thum_image" : "50425-WH_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "high temp caps",
@@ -2130,7 +3306,14 @@
 		"image" : "81700WH_lg.jpg",
 		"thum_image" : "81700WH_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2142,7 +3325,14 @@
 		"image" : "932MR_lg.jpg",
 		"thum_image" : "932MR_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2154,7 +3344,14 @@
 		"image" : "915MR_lg.jpg",
 		"thum_image" : "915MR_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2166,7 +3363,14 @@
 		"image" : "1212095_lg.jpg",
 		"thum_image" : "1212095_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2178,7 +3382,14 @@
 		"image" : "1212205_lg.jpg",
 		"thum_image" : "1212205_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2190,7 +3401,14 @@
 		"image" : "1212085_lg.jpg",
 		"thum_image" : "1212085_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2202,7 +3420,14 @@
 		"image" : "1212030_lg.jpg",
 		"thum_image" : "1212030_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2214,7 +3439,14 @@
 		"image" : "971MR_lg.jpg",
 		"thum_image" : "971MR_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
@@ -2226,6 +3458,13 @@
 		"image" : "1212225_lg.jpg",
 		"thum_image" : "1212225_tn.png",
 		"tag" : [],
-		"URL" : "glassware/"
+		"URL" : "glassware/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false
 	}
 ]
