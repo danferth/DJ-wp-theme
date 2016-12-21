@@ -89,8 +89,6 @@ tpm.mouseleave(function(){
 //======================================
 
 var secondOverlay = $('.overlay');
-console.log(secondOverlay);
-console.log(secondOverlay.length);
 
 
 });//end doc ready

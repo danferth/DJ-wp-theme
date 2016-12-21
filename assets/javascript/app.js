@@ -56,9 +56,6 @@ tic.factory('dataFactory', function($http, $filter){
   factory.get_distributors = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/distributors.json');
   };
-  factory.get_plates = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/plates.json');
-  };
   factory.get_prodinfo = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json');
   };
@@ -86,9 +83,6 @@ tic.controller('ticController', ['$scope', '$sce', 'dataFactory', function($scop
  });
  dataFactory.get_products().then(function(responce){
    $scope.products = responce.data;
- });
- dataFactory.get_plates().then(function(responce){
-   $scope.plates = responce.data;
  });
  dataFactory.get_tc().then(function(responce){
    $scope.tcinfo = responce.data;
@@ -272,23 +266,6 @@ tic.controller('productsController', ['$scope', function($scope){
   $scope.goToProduct = function(n){
     window.location.href = url + "/" + n;
   };
-}]);
-
-//=====Plates search page=====
-tic.controller('platesearchController', ['$scope', function($scope){
-
-  $scope.sortType = "partNum";
-  $scope.sortReverse = false;
-  
-  $scope.setItem = function(rslt){
-    $scope.set = rslt;
-    if($scope.set.series === "plate cover"){
-      $scope.notAplate = true;
-    }else{
-      $scope.notAplate = false;
-    }
-  };
-  
 }]);
 
 //=====Product pages=====

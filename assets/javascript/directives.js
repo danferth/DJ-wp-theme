@@ -1,27 +1,6 @@
-//==============================
-//=========PLATE SEARCH=========
-//==============================
-tic.directive('plateSearch', function(){
-  return{
-    restrict: 'E',
-    replace: 'true',
-    templateUrl: url+'/wp-content/themes/TIC/assets/templates/plate-search.php',
-    link: function(scope, elem, attrs){
-      // elem.bind('click', function(){
-      //   elem.addClass('hidden');
-      //   elem.children('.overlay-content').removeClass('fadeInUp');
-      // });
-      elem.find('.close-overlay').bind('click', function(){
-        elem.children('.overlay-content').removeClass('fadeInUp');
-        elem.addClass('hidden');
-      });
-    }
-  };
-});
-
-//==============================
-//=========PLATE SEARCH=========
-//==============================
+//================================
+//========PRODUCT OVERLAY=========
+//================================
 tic.directive('productOverview', function(){
   return{
     restrict: 'E',
