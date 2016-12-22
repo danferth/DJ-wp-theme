@@ -7,11 +7,11 @@
 				<button class='close-overlay button tiny secondary'>close</button>
 			</div>
 			
-			<div class='column small-3'>
+			<div class='column small-12 medium-3'>
 				<img src='../../wp-content/uploads/products/{{ setP.partNum }}_lg.jpg' alt='Thomson part number # {{ setP.partNum }}'>
 			</div>
 			
-			<div class='column small-9'>
+			<div class='column small-9' data-equalizer="card">
 				
 				<!-- ALL HEADER -->
 				<div class="card-partNum small-12 column">
@@ -26,11 +26,11 @@
 				<div class="card-left small-12 medium-6 column" ng-show="isFlask">
 					<p ng-show="setP.minVolume"><b>Min Working Volume : </b><span ng-bind-html="setP.minVolume"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 					<p ng-show="setP.maxVolume"><b>Max Working Volume : </b><span ng-bind-html="setP.maxVolume"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
-					<p ng-show="setP.shakeSpeed"><b>Average Shake Speed: </b><span ng-bind-html="setP.shakeSpeed"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
+					<p ng-show="setP.shakeSpeed"><b>Shake Speed Range: </b><span ng-bind-html="setP.shakeSpeed"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 				</div>
 				<div class="card-right small-12 medium-6 column" ng-show="isFlask">
 					<p ng-show="setP.membrane"><b>Vent Cap : </b><span ng-bind-html="setP.membrane"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span> | <span ng-bind-html="setP.poreSize"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
-					<p ng-show="setP.accessories[0]"><b>Accessories : </b><span ng-repeat="l in setP.accessories"><a class="card-link" href="{{ l.url }}">{{ l.link }}</a></span></p>
+					<p class="card-accessories" ng-show="setP.accessories[0]"><b>Accessories : </b><br/><span ng-repeat="l in setP.accessories"><a href="{{ l.url }}" ng-bind-html="l.link"></a><br/></span></p>
 					<p><b>Sterile : </b><span ng-bind-html="setP.sterile | yesNo"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 				</div>
 				
@@ -42,7 +42,7 @@
 					<p ng-show="setP.membrane"><b>Filter : </b><span ng-bind-html="setP.membrane"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span> | <span ng-bind-html="setP.poreSize"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 				</div>
 				<div class="card-right small-12 medium-6 column" ng-show="isVial">
-					<p ng-show="setP.accessories[0]"><b>Accessories : </b><span ng-repeat="l in setP.accessories"><a class="card-link" href="{{ l.url }}">{{ l.link }}</a></span></p>
+					<p class="card-accessories" ng-show="setP.accessories[0]"><b>Accessories : </b><br/><span ng-repeat="l in setP.accessories"><a href="{{ l.url }}" ng-bind-html="l.link"></a><br/></span></p>
 					<p><b>Sterile : </b><span ng-bind-html="setP.sterile | yesNo"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 				</div>
 				
@@ -54,7 +54,7 @@
 					<p ng-show="setP.membrane"><b>Filter : </b><span ng-bind-html="setP.membrane"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span> | <span ng-bind-html="setP.poreSize"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 				</div>
 				<div class="card-right small-12 medium-6 column" ng-show="isOther">
-					<p ng-show="setP.accessories[0]"><b>Accessories : </b><span ng-repeat="l in setP.accessories"><a class="card-link" href="{{ l.url }}">{{ l.link }}</a></span></p>
+					<p class="card-accessories" ng-show="setP.accessories[0]"><b>Accessories : </b><br/><span ng-repeat="l in setP.accessories"><a href="{{ l.url }}" ng-bind-html="l.link"></a><br/></span></p>
 					<p><b>Sterile : </b><span ng-bind-html="setP.sterile | yesNo"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 				</div>
 				

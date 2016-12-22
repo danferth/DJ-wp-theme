@@ -522,6 +522,12 @@ table.product-ref-table{
   .card-left{
     border-right:1px solid $jumbo;
   }
+  .card-accessories{
+    a{
+      margin-right:.5rem;
+    }
+    
+  }
   .row{
     max-width:75rem;
     margin:0 auto;
