@@ -15,6 +15,10 @@ tic.directive('productOverview', function(){
         elem.children('.overlay-content').removeClass('fadeInUp');
         elem.addClass('hidden');
       });
+      elem.find('.close-overlay-mobile').bind('click', function(){
+        elem.children('.overlay-content-mobile').removeClass('fadeInUp');
+        elem.addClass('hidden');
+      });
     }
   };
 });

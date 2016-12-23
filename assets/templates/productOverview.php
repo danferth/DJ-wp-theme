@@ -1,17 +1,16 @@
 <div class='hidden overlay'>
-	<div class='overlay-content'>
+	<div class='overlay-content row medium-collapse'>
 
-		<div class='row'>
 			
-			<div class='medium-2 medium-offset-10'>
-				<button class='close-overlay button tiny secondary'>close</button>
-			</div>
+	<span class='close-overlay show-for-large-up'><i class="fa fa-close"></i></span>
+	<span class='close-overlay-mobile show-for-small-up hide-for-large-up'>close</span>
+
 			
-			<div class='column small-12 medium-3'>
+			<div class='card-image small-12 medium-3 column'>
 				<img src='../../wp-content/uploads/products/{{ setP.partNum }}_lg.jpg' alt='Thomson part number # {{ setP.partNum }}'>
 			</div>
 			
-			<div class='column small-9' data-equalizer="card">
+			<div class='column small-12 medium-9'>
 				
 				<!-- ALL HEADER -->
 				<div class="card-partNum small-12 column">
@@ -75,5 +74,4 @@
 			
 			</div>
 		</div>
-	</div>
 </div>

@@ -129,7 +129,7 @@ if($a['title']){
   }
       
       $output .= "<div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
-        <img ng-src='".$prod_url."{{ p.image }}'/>
+        <img ng-src='".$prod_url."{{ p.thum_image }}'/>
       </div>
       
       <div class='partnumber_text small-12 show-for-small-only column'>

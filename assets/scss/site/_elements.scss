@@ -495,11 +495,44 @@ table.product-ref-table{
   bottom:0;
   cursor:pointer;
 }
-.overlay-content{
+.row .row.overlay-content{
   background:$white;
-  padding: 3rem 5rem;
-  margin-top:12%;
+  position:relative;
   cursor:pointer;
+  padding: 2rem 0 0 0;
+  margin:12% auto 0 auto;
+  width: 60%;
+  @media screen and (max-width:$medium-breakpoint){
+    width: 95%;
+  }
+  @media screen and (max-width:$small-breakpoint){
+    width: 100%;
+    margin:3rem 0 0 0;
+  }
+  .close-overlay{
+    position:absolute;
+    top:.5rem;
+    right:.5rem;
+  }
+  .close-overlay-mobile{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding:.25rem 0;
+    background:$monsoon;
+    color:white;
+    font-size:.875rem;
+    text-align:center;
+  }
+  .card-image{
+    img{
+      margin:0 auto;
+      display:block;
+      width:100%;
+      height:auto;
+    }
+  }
   .card-partNum{
     background:$ghost;
     padding-top:.5rem;
@@ -521,16 +554,15 @@ table.product-ref-table{
   }
   .card-left{
     border-right:1px solid $jumbo;
+    @media screen and (max-width:$small-breakpoint){
+      border-right:none;
+    }
   }
   .card-accessories{
     a{
       margin-right:.5rem;
     }
     
-  }
-  .row{
-    max-width:75rem;
-    margin:0 auto;
   }
   p{
     margin-bottom:.25rem;

@@ -84,11 +84,5 @@ tpm.mouseleave(function(){
 	$(this).removeClass('tada');
 });
 
-//======================================
-//=========remove second overlay========
-//======================================
-
-var secondOverlay = $('.overlay');
-
 
 });//end doc ready
