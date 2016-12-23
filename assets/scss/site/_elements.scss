@@ -430,8 +430,11 @@ table.product-ref-table{
       border-right:none;
     }
     @media screen and (max-width:$small-breakpoint){
-      min-height:1rem;
-      border-bottom:2px solid $smoke;
+      border-right:none;
+      border-bottom:1px solid $smoke;
+      &:last-of-type{
+      border-bottom:none;
+    }
     }
   }
 }
@@ -511,8 +514,8 @@ table.product-ref-table{
   }
   .close-overlay{
     position:absolute;
-    top:.5rem;
-    right:.5rem;
+    top:.25rem;
+    right:.75rem;
   }
   .close-overlay-mobile{
     position:absolute;
@@ -552,6 +555,9 @@ table.product-ref-table{
       font-size:.75rem;
     }
   }
+  .card-left, .card-right{
+    padding-bottom:.75rem;
+  }
   .card-left{
     border-right:1px solid $jumbo;
     @media screen and (max-width:$small-breakpoint){
@@ -559,8 +565,12 @@ table.product-ref-table{
     }
   }
   .card-accessories{
+    b{
+      text-decoration:underline;
+    }
     a{
       margin-right:.5rem;
+      border-bottom:none;
     }
     
   }
