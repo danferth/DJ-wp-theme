@@ -1752,7 +1752,7 @@
 		"membrane"    : "PTFE",
 		"poreSize"    : "0.2&mu;m",
 		"accessories" : [],
-		"sterile"     : "sterile",
+		"sterile"     : true,
 		"notes"		  : false
 	},{
 		"line" : "UYF",

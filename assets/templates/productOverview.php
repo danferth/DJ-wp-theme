@@ -1,5 +1,6 @@
-<div class='hidden overlay'>
-	<div class='overlay-content row medium-collapse'>
+<div class="hidden overlay-wrap">
+
+	<div class='overlay-content animated row medium-collapse'>
 
 			
 	<span class='close-overlay show-for-large-up'><i class="fa fa-close"></i></span>
@@ -74,4 +75,7 @@
 			
 			</div>
 		</div>
+		
+	<div class='overlay'></div>
+	
 </div>

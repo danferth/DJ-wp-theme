@@ -498,10 +498,22 @@ table.product-ref-table{
   bottom:0;
   cursor:pointer;
 }
+.overlay-wrap{
+  z-index:5000;
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  cursor:pointer;
+}
 .row .row.overlay-content{
   background:$white;
   position:relative;
   cursor:pointer;
+  z-index:6000;
   padding: 2rem 0 0 0;
   margin:12% auto 0 auto;
   width: 60%;

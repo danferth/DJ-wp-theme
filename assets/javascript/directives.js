@@ -7,16 +7,16 @@ tic.directive('productOverview', function(){
     replace: 'true',
     templateUrl: url+'/wp-content/themes/TIC/assets/templates/productOverview.php',
     link: function(scope, elem, attrs){
-      // elem.bind('click', function(){
-      //   elem.addClass('hidden');
-      //   elem.children('.overlay-content').removeClass('fadeInUp');
-      // });
       elem.find('.close-overlay').bind('click', function(){
-        elem.children('.overlay-content').removeClass('fadeInUp');
+        elem.children('.overlay-content').removeClass('fadeIn');
+        elem.addClass('hidden');
+      });
+      elem.find('.overlay').bind('click', function(){
+        elem.children('.overlay-content').removeClass('fadeIn');
         elem.addClass('hidden');
       });
       elem.find('.close-overlay-mobile').bind('click', function(){
-        elem.children('.overlay-content-mobile').removeClass('fadeInUp');
+        elem.children('.overlay-content-mobile').removeClass('fadeIn');
         elem.addClass('hidden');
       });
     }
