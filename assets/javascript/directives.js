@@ -8,15 +8,15 @@ tic.directive('productOverview', function(){
     templateUrl: url+'/wp-content/themes/TIC/assets/templates/productOverview.php',
     link: function(scope, elem, attrs){
       elem.find('.close-overlay').bind('click', function(){
-        elem.children('.overlay-content').removeClass('fadeIn');
+        elem.children('.overlay-content').removeClass('fadeInUp');
         elem.addClass('hidden');
       });
       elem.find('.overlay').bind('click', function(){
-        elem.children('.overlay-content').removeClass('fadeIn');
+        elem.children('.overlay-content').removeClass('fadeInUp');
         elem.addClass('hidden');
       });
       elem.find('.close-overlay-mobile').bind('click', function(){
-        elem.children('.overlay-content-mobile').removeClass('fadeIn');
+        elem.children('.overlay-content-mobile').removeClass('fadeInUp');
         elem.addClass('hidden');
       });
     }

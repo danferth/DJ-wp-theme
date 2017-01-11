@@ -114,7 +114,7 @@ tic.controller('ticController', ['$scope', '$sce', 'dataFactory', function($scop
   //trigger overlay. primarily used on plate search page
   $scope.triggerOverlay = function(e){
     $('.overlay-wrap').removeClass('hidden');
-		$('.overlay-content').addClass('fadeIn');
+		$('.overlay-content').addClass('fadeInUp');
   };
   
 //=======================================================
