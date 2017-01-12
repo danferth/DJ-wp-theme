@@ -137,7 +137,7 @@ $tabbar-bg: $primary-color;
 $off-canvas-bg: $primary-color;
 $off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -30%);
 $off-canvas-bg-active: scale-color($tabbar-bg, $lightness: -30%);
-
+$off-canvas-link-color: rgba($white, 1);
 //The Grid
 $row-width: rem-calc(1200);
 
