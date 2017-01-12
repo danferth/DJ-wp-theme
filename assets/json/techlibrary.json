@@ -135,7 +135,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 12,
+    "id"              : 10,
     "title"           : "Simple Protection with Filter Vials",
     "description"     : " Thomson Instrument Company ... has developed a simple SINGLE StEP Filter Vial ... has allowed for the filtration process to become a SINGLE StEP in the autosampler vial itself.",
     "citation"        : "Sam Ellis<sup>1</sup>, James Doom<sup>2</sup> , John Tyhonas<sup>3</sup><br/><sup>1</sup>Thomson Instrument Company, <sup>2</sup>Pfizer, <sup>3</sup>Takeda",
@@ -150,7 +150,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 13,
+    "id"              : 11,
     "title"           : "Having Machine Down Time?",
     "description"     : "",
     "citation"        : "",
@@ -165,7 +165,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 15,
+    "id"              : 12,
     "title"           : "Solutions at Work&trade; Oral Fluid Drugs of Abuse Testing",
     "description"     : "Flier on the collaboration of Thomson and OraSure Technologies on oral testing drugs of abuse",
     "citation"        : "",
@@ -180,7 +180,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 16,
+    "id"              : 13,
     "title"           : "Filter Vial Press Options",
     "description"     : "Flier on Thomsons Filter Vial Press options",
     "citation"        : "",
@@ -195,7 +195,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 17,
+    "id"              : 14,
     "title"           : "Filter Vial FAQs",
     "description"     : "Frequently asked questions on Thomson Filter Vials",
     "citation"        : "",
@@ -210,7 +210,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 18,
+    "id"              : 15,
     "title"           : "Chemical Compatibility",
     "description"     : "Table of chemicals compatible with Thomsons Filter Vials",
     "citation"        : "",
@@ -225,7 +225,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 19,
+    "id"              : 16,
     "title"           : "Compound Compatibility Index",
     "description"     : "Table of compounds compatible with Thomsons Filter Vials",
     "citation"        : "",
@@ -240,7 +240,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 20,
+    "id"              : 17,
     "title"           : "Plasticizers content in Filter Vials Compared to Syringe Filters",
     "description"     : "Thomson Filter Vials are manufactured without the use of plasticizers or mold release agents, making them LC/MS clean.",
     "citation"        : "Testing by Takeda Pharmaceutical Company Limited&reg; UPLC - ELSD",
@@ -255,7 +255,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 21,
+    "id"              : 18,
     "title"           : "Sample Preparation for HPLC",
     "description"     : "High quality filtration products that are easy to use, reliable, and consistent with reproducible results each and every time, are required in pharmaceutical HPLC sample preparation. Thomson offers an eco-friendly solution with a considerable cost savings advantage in the Filter Vial.",
     "citation"        : "",
@@ -270,7 +270,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 22,
+    "id"              : 19,
     "title"           : "Filter Vial Overview: Standard, eXtreme|FV&reg; &, nano|Filter Vials&trade;, eXtractor|FV&reg;",
     "description"     : "",
     "citation"        : "",
@@ -285,7 +285,7 @@
     "date"            : "20160101",
     "image"           : "fv-overview.png"
   },{
-    "id"              : 23,
+    "id"              : 20,
     "title"           : "How to use a Filter Vial",
     "description"     : "",
     "citation"        : "",
@@ -300,7 +300,7 @@
     "date"            : "20160101",
     "image"           : "How-to-use-a-filter-vial.png"
   },{
-    "id"              : 24,
+    "id"              : 21,
     "title"           : "How to use the Multi-Use Press",
     "description"     : "",
     "citation"        : "",
@@ -315,7 +315,7 @@
     "date"            : "20160101",
     "image"           : "48position.png"
   },{
-    "id"              : 25,
+    "id"              : 22,
     "title"           : "Sample Loss With Syringe Filters",
     "description"     : "",
     "citation"        : "",
@@ -330,7 +330,7 @@
     "date"            : "20160101",
     "image"           : "Sample-Loss.png"
   },{
-    "id"              : 26,
+    "id"              : 23,
     "title"           : "Syringe Filter Dangers",
     "description"     : "",
     "citation"        : "",
@@ -345,7 +345,7 @@
     "date"            : "20160101",
     "image"           : "Syringe-Filter-Dangers.png"
   },{
-    "id"              : 27,
+    "id"              : 24,
     "title"           : "The Filter Vial Revolution",
     "description"     : "",
     "citation"        : "",
@@ -360,7 +360,7 @@
     "date"            : "20160101",
     "image"           : "FV-revolution.png"
   },{
-    "id"              : 28,
+    "id"              : 25,
     "title"           : "Front End Full Automation for Filter Vials (Autosampler Ready) Grabber D885 (Brechbuler) for PAL System",
     "description"     : "",
     "citation"        : "",
@@ -375,7 +375,7 @@
     "date"            : "20160101",
     "image"           : "youtube.png"
   },{
-    "id"              : 29,
+    "id"              : 26,
     "title"           : "How to use an eXtreme|FV&reg;-PVDF",
     "description"     : "",
     "citation"        : "",
@@ -390,7 +390,7 @@
     "date"            : "20160101",
     "image"           : "eXtreme-PVDF.png"
   },{
-    "id"              : 30,
+    "id"              : 27,
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "",
     "citation"        : "",
@@ -405,7 +405,7 @@
     "date"            : "20160101",
     "image"           : "urine-appnote.png"
   },{
-    "id"              : 31,
+    "id"              : 28,
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse in Oral Fluid samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "",
     "citation"        : "",
@@ -420,7 +420,7 @@
     "date"            : "20160101",
     "image"           : "oral-fluids-appnote.png"
   },{
-    "id"              : 32,
+    "id"              : 29,
     "title"           : "eXtreme|FV&reg; for Antibody Analysis",
     "description"     : "",
     "citation"        : "",
@@ -435,7 +435,7 @@
     "date"            : "20160101",
     "image"           : "Thomson-Filter-Vials-for-Antibody-Analysis.png"
   },{
-    "id"              : 33,
+    "id"              : 30,
     "title"           : "Pharmaceutical & Food Sample Filtration with eXtractor|FV&reg;",
     "description"     : "",
     "citation"        : "",
@@ -450,7 +450,7 @@
     "date"            : "20160101",
     "image"           : "ex3d.png"
   },{
-    "id"              : 34,
+    "id"              : 31,
     "title"           : "How to use MEGA|FV&trade;",
     "description"     : "",
     "citation"        : "",
@@ -465,7 +465,7 @@
     "date"            : "20160101",
     "image"           : "mega_fv_how_2.png"
   },{
-    "id"              : 35,
+    "id"              : 32,
     "title"           : "Determination of Hexavalent Chromium in Water by Ion Exchange – ICP MS with the Filter Vials",
     "description"     : "This method utilizes a hyphenated technique, Ion Exchange Chromatography (IC) coupled to an Inductively Coupled Plasma Mass Spectrometry (ICP-MS) to determine Cr(VI) in treated drinking water, surface water, and ground water.",
     "citation"        : "",
@@ -480,7 +480,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 41,
+    "id"              : 33,
     "title"           : "Analysis of Antibiotics in Honey by an Integrated On-Line Extraction UHPLC-MS/MS System",
     "description"     : "The most critical aspects of reliable food contamination analysis are the reduction of interferences from the sample matrix and analyte recovery. ... Improved sample prep methods were developed using eXtreme|FV for contaminant analysis of antibiotics honey.",
     "citation"        : "Zicheng Yang and Louis Maljers, Bruker Daltonics Inc.<br/>Poster presented as part of NACRW 2015 Conference, St. Petersburg, FL., 19-22 July 2015. ",
@@ -495,7 +495,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 42,
+    "id"              : 34,
     "title"           : "Screening and Quantitation of 200+ Pesticides in Honey by an Integrated On-Line Extraction UHPLC-MS/MS System",
     "description"     : "[A] simple, cost effective and sensitive procedure for screening and quantitation of pesticides in honey using the Thomson eXtreme|Filter Vials for sample clean-up[.]",
     "citation"        : "Zicheng Yang and Louis Maljers, Bruker Daltonics Inc.<br/>Poster presented as part of NACRW 2015 Conference, St. Petersburg, FL., 19-22 July 2015.",
@@ -510,7 +510,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 44,
+    "id"              : 35,
     "title"           : "Analysis of Nitrosamines in Tobacco with eXtreme|FV&reg; by LC-MS",
     "description"     : "[N]itrosamines (TSNA) are a group of carcinogens found only in tobacco ... method descripes a simple robust sample preparation utilizing the Thomson Filter Vials for in-vial filtration[.]",
     "citation"        : "",
@@ -525,7 +525,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 50,
+    "id"              : 36,
     "title"           : "EPA Method 539: Determination of Hormones in Drinking Water by SPE and LC-ESI-MS/MS with eXtreme|FV&reg;",
     "description"     : "Method 539, Determination of Hormones in Drinking Water by ... [SPE] and ... [LCESI-MS/MS] method for the determination of hormones in finished drinking water.",
     "citation"        : "",
@@ -540,7 +540,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 51,
+    "id"              : 37,
     "title"           : "Expedited Vitamin C Sample Preparation Through the Use of eXtreme|FV&reg; Technology",
     "description"     : "Vitamin C Analysis is routinely performed for large numbers of samples. ... eXtreme|FV&reg; reduce a multi-step filtration and vial transfer process to a single step.",
     "citation"        : "Heidi Evenocheck, John Habel, Xun Yan<br/>Analytical Sciences, Amway, 7575 Street E, Ada, MI 49355. Expedited Vitamin C sample<br/> preparation through the use of vial filtration technology. Poster presented as part of 128th<br/> Annual AOAC Meeting and Expo, Boca Rotan, FL, 7-10 September 2014.",
@@ -555,7 +555,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 52,
+    "id"              : 38,
     "title"           : "eXtreme|FV&reg; vs SPE for the Analysis of Pesticides in Orange Juice by GC/MS",
     "description"     : "Pesticides act as toxins when found in sufficient quantities as residues in food. Solid Phase Extraction (SPE) is a common sample preparation technique used prior to GC or LC analysis of pesticides in food.  eXtreme|FV&reg; offer multi-layer filtration for viscous samples and samples containing up to 30% solid particulates.",
     "citation"        : "Authors: Uday Sathe<sup>1</sup>, Karine Aylozyan<sup>1</sup>, Lisa Wanders<sup>2</sup>, Joe Machamer<sup>2</sup>, & Sam Ellis<sup>2</sup><br/><sup>1</sup>Micro Quality Labs<br/><sup>2</sup>Thomson Instrument Company",
@@ -570,7 +570,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 53,
+    "id"              : 39,
     "title"           : "Filtration of Shellfish Extracts prior to final dilution for domoic acid (ASP; AMNESIC Shellfish Poisoning) analysis by HPLC",
     "description"     : "[A]mnesic shellfish poisoning (ASP) toxin, domoic acid, belongs to a group of amino acids, called the kainoids, which are classed as neuroexcitants or excitoxins that interfere with the neurotransmission mechanisms in the brain. ... Filter Vials were evaluated for inclusion in the validated method, replacing filtration using a syringe, syringe filter and transfer to the HPLC Autosampler Vial. ",
     "citation"        : "Data supplied by Canadian Food Inspection Agency",
@@ -585,7 +585,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 54,
+    "id"              : 40,
     "title"           : "Screening and Quantitation of 250 Pesticides in Apple, Cranberry, Orange, Vegetable and White Grape Juices using the eXtreme|FV&reg; by LC/MS/MS",
     "description"     : "[A]nalysis of 250 pesticides in store-bought juice using one method and simple sample preparation using the Thomson [eXtreme|FV&reg;] in a dilute-and-shoot approach without sample enrichment ... sample preparation is explored using eXtreme|FV&reg; for sample clean-up instead of lengthy alternatives like SPE or centrifugation followed by liquid-liquid extraction.",
     "citation"        : "Z.Yang, L. Maljers, Bruker, Chemical & Applied Markets (CAM) Division. &ldquo;Screening and Quantitation of 250 Pesticides in Fruit Juices with Positive/Negative Switching LC/MS/MS.&rdquo; Poster presented as part of NACRW-FPRW Conference, St. Petersburg, FL., 20-23 July 2014.",
@@ -600,7 +600,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 55,
+    "id"              : 41,
     "title"           : "Routine Targeted Quantitation & Identification of Pesticide Residues in Avocado, Carrot, Grape & Orange using the eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Thomson eXtreme|FV&reg;s for clean-up, and the Sciex Scheduled MRM Pro Algorithm for identification of pesticides in fruit and vegetables analysis.",
     "citation"        : "A. Schreiber, AB SCIEX, Concord, ON, Canada; J. Jasak, AB SCIEX, Darmstadt, Germany. &ldquo;Routine Targeted Quantitation and Identification of Pesticide Residues using Triple Quadrupole LC-MS/MS and Advanced Scheduling of MRM Transitions&rdquo; Poster presented as part of NACRW-FPRW Conference, St. Petersburg, FL., 20-23 July 2014.",
@@ -615,7 +615,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 61,
+    "id"              : 42,
     "title"           : "Quick Fermentation Sample Prep for Analysis by HPLC with eXtreme|FV&reg;",
     "description"     : "",
     "citation"        : "",
@@ -630,7 +630,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 63,
+    "id"              : 43,
     "title"           : "Tea Analysis with eXtreme|FV&reg; by GC-MS",
     "description"     : "This method investigates whether SPE is required for the analysis of pesticides in green tea leaves using GC-MS.",
     "citation"        : "",
@@ -645,22 +645,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 65,
-    "title"           : "Real Time Quantification for Biofermentation with eXtreme|FV&reg; by HPLC",
-    "description"     : "",
-    "citation"        : "",
-    "link"            : "FVBiofermentation.pdf",
-    "linkType"        : "pdf",
-    "type"            : "APPNOTE",
-    "productLine"     : "FV",
-    "subProductLine"  : "extreme",
-    "science"         : "",
-    "industry"        : [],
-    "tags"            : [],
-    "date"            : "20160101",
-    "image"           : ""
-  },{
-    "id"              : 68,
+    "id"              : 44,
     "title"           : "Sample Preparation for the Analysis of 12 Opiates in Urine using the Thomson eXtreme Filter Vials&reg; by LCMS/MS ",
     "description"     : "This improved sample preparation method allows for the quantitative measurement of Opioids in urine. ... samples are hydrolyzed, then prepared using the eXtreme|FV&reg; followed by LC/MS/MS analysis.",
     "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
@@ -675,7 +660,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 69,
+    "id"              : 45,
     "title"           : "Quick and Easy Sample Preparation of Urine for the Analysis of Psychoactive Drugs using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "This improved sample preparation method allows for the quantitative measurement of Benzodiazepines ... urine samples were prepared using the eXtreme|FV&reg;, followed by LC/MS/MS analysis.",
     "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
@@ -690,7 +675,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 70,
+    "id"              : 46,
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : " Traditionally, SPE, SLE and centrifugation have been used to reduce matrix interference prior to MS analysis. ...  eXtreme|FV&reg; ... offer multi-layer filtration for viscous samples and samples containing up to 30% solid particulates.",
     "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
@@ -705,7 +690,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 71,
+    "id"              : 47,
     "title"           : "Improved Sample Preparation Methods for Athlete Doping Analysis of Common Compounds in Urine by LCMS",
     "description"     : "The Australian Sports Drug Testing Laboratory, ... invested time in determining a limited number of comprehensive screening methods. These methods, using Thomson’s eXtreme|FV&reg; ... , comply with the World Anti-Doping Agency’s (WADA) Prohibited List.",
     "citation"        : "Authors : Dr. Catrin Goebel<sup>2</sup>, Lisa Wanders<sup>1</sup>, Sam Ellis<sup>1</sup><br /><sup>1</sup>Thomson Instrument Company <sup>2</sup>Australian Sports Drug Testing Laboratory in the National Measurement Institute Department of Industry",
@@ -720,7 +705,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 72,
+    "id"              : 48,
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse in Oral Fluid samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "The goal of this study was to improve the sample preparation for the analysis of drugs of abuse/pain management panels in oral fluids.  The oral fluid samples were collected with Intercept&reg; i2he&trade; Oral Fluid Collection Devices. The diluted oral fluid samples were filtered using Thomson Filter Vials, followed by LC/MS/MS analysis.",
     "citation"        : "Nadine Koenig<sup>2</sup>, Crystal Xander<sup>2</sup>, Melanie Stauffer<sup>2</sup>, Dean Fritch<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, Allentown, PA.<br/><sup>2</sup>Analytical Asociates, Inc,. East Greenville, PA",
@@ -735,7 +720,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 73,
+    "id"              : 49,
     "title"           : "Cost Effective Dilute and shoot Approach For Determination of Illicit Drugs in Oral Fluids Using LC-MS/MS",
     "description"     : "Due to a recent increase in the demand of oral fluid analysis, many challenges have been set forth in developing robust and cost effective assays for determination of illicit drugs. Forensic testing on oral fluids has been increasingly appreciated due to reduction in time, simplicity of collection and reduction of adulteration and substitution. Thus, we developed a simplified and robust assay using filtering vials.",
     "citation"        : "Kavinda De Silva, Mariko Nakano, Siobhan McKenney-Hara<br/>Molecular Testing Labs, Vancouver, WA<br/>Presented at MSCAL 2016",
@@ -750,7 +735,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 74,
+    "id"              : 50,
     "title"           : "10&mu;L Filtration with 2&mu;L Injection using nano|FV&trade; by LC-MS",
     "description"     : "",
     "citation"        : "",
@@ -765,7 +750,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 75,
+    "id"              : 51,
     "title"           : "Aggregation Determination using nano|FV&trade; by SEC",
     "description"     : "The aggregation of protein therapeutics has become a major concern for the pharmaceutical industry and regulatory agencies. ... Antibodies are clarified using Thomson nano|Filter Vials&reg; ... , and analyzed for purity using SEC",
     "citation"        : "",
@@ -780,7 +765,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 76,
+    "id"              : 52,
     "title"           : "Analysis of Sinapoylmalate in the Arabidopsis thaliana Leaf by Using the nano|Filter Vial&reg;: Sinapoyl Malate is a major UV protectant in <i>Arabidopsis thaliana</i>",
     "description"     : "We use the model plant Arabidopsis thaliana to examine the in vivo function and behavior of mutant enzymes that exhibit broadened product promiscuity and/or decreased folding stability in vitro. We attempt to identify genetic components involved in cellular mechanisms that assist folding or alter product profile of these mutant enzymes.",
     "citation"        : "Data provided by Jing-Ke Weng, Ph.D.<br/>Member, Whitehead Institute for Biomedical Research<br/>Assistant Professor of Biology, Massachusetts Institute of Technology",
@@ -795,7 +780,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 79,
+    "id"              : 53,
     "title"           : "Advantec&reg; Syringe Filter Cross Reference",
     "description"     : "Cross reference for Advantec&reg; syringe filters to Thosmon Filter Vials",
     "citation"        : "",
@@ -810,7 +795,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 80,
+    "id"              : 54,
     "title"           : "Millipore&reg; Syringe Filter Cross Reference",
     "description"     : "Cross reference for Millipore&reg; syringe filters to Thosmon Filter Vials",
     "citation"        : "",
@@ -825,7 +810,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 81,
+    "id"              : 55,
     "title"           : "National Scientific&reg; Syringe Filter Cross Reference",
     "description"     : "Cross reference for National Scientific&reg; syringe filters to Thosmon Filter Vials",
     "citation"        : "",
@@ -840,7 +825,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 82,
+    "id"              : 56,
     "title"           : "Pall&reg; Syringe Filter Cross Reference",
     "description"     : "Cross reference for Pall&reg; syringe filters to Thosmon Filter Vials",
     "citation"        : "",
@@ -855,7 +840,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 83,
+    "id"              : 57,
     "title"           : "Samplicity&trade; vs SINGLE StEP&trade; Filter Vials",
     "description"     : "Comparision of the EMD Millipore Samplicity&trade; vs Thomson Filter Vials",
     "citation"        : "",
@@ -870,7 +855,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 84,
+    "id"              : 58,
     "title"           : "Sartorius&reg; Syringe Filter Cross Reference",
     "description"     : "Cross reference for Sartorius&reg; syringe filters to Thosmon Filter Vials",
     "citation"        : "",
@@ -885,7 +870,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 85,
+    "id"              : 59,
     "title"           : "Spin Column to Filter Vial Cross Reference",
     "description"     : "Thomson nano|Filter Vials&reg; are the fast and convenient choice over many different Spin Columns. Get the same clean sample with minimal loss without the need to wait for centrifuging.",
     "citation"        : "",
@@ -900,7 +885,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 86,
+    "id"              : 60,
     "title"           : "Whatman&reg; Syringe Filter Cross Reference",
     "description"     : "Cross reference for Whatman&reg; syringe filters to Thosmon Filter Vials",
     "citation"        : "",
@@ -915,7 +900,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 87,
+    "id"              : 61,
     "title"           : "Time and Cost Effective Methods for Reducing Background Noise and Signal Suppression in Problem Matrices for Residue Analysis by LC-MS/MS",
     "description"     : "Poster presented at NACRW 2016",
     "citation"        : "Joseph Kolb<sup>1</sup>, Ariana Ramdin<sup>1</sup>, Ryan Undeen<sup>1</sup>, Dennis Peterson<sup>2</sup>, Sam Ellis<sup>2</sup> Lisa Wanders<sup>2</sup><br /><sup>1</sup>Merieux NutriSciences Corporation, Gainsville, FL 32607<br/><sup>2</sup>Thomson Instrument Company, Oceanside, CA 92054",
@@ -930,7 +915,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 88,
+    "id"              : 62,
     "title"           : "Improved Sample Preparation of Biological Samples Using the Thomson eXtreme|FV&reg;& Analysis by LC-MS/MS",
     "description"     : "Presentation presented at MSACL 2016",
     "citation"        : "",
@@ -945,7 +930,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 89,
+    "id"              : 63,
     "title"           : "Improved Sample Preparation for the Analysis of 12 Opiates in Urine using the Thomson eXtreme Filter Vials&reg;by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2016",
     "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Dennis Peterson<sup>3</sup>, Sam Ellis<sup>3</sup><br /><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br /><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br /><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
@@ -960,7 +945,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 90,
+    "id"              : 64,
     "title"           : "Quick and Easy Sample Preparation of Urine for the Analysis of Psychoactive Drugs using the Thomson eXtreme Filter Vials&reg;by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2016",
     "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Dennis Peterson<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
@@ -975,7 +960,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 91,
+    "id"              : 65,
     "title"           : "MSACL 2016 Cost Effective Dilute-and-shoot Approach For Determination of Illicit Drugs in Oral Fluids Using LC-MS/MS",
     "description"     : "Poster presented by Molecular Testing Labs at MSACL 2016",
     "citation"        : "Kavinda De Silva, Mariko Nakano, Siobhan McKenney-Hara<br/>Molecular Testing Labs. Vancouver, WA",
@@ -990,7 +975,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 92,
+    "id"              : 66,
     "title"           : "Use of Multiplexing and Alternative Sample Preparation Techniques for High Throughput Toxicological Screening",
     "description"     : "Presentation by Jill Yeakel - Lehigh Valley Toxicology",
     "citation"        : "Jill Yeakel-Lehigh Valley Toxicology",
@@ -1005,7 +990,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 93,
+    "id"              : 67,
     "title"           : "43rd International HPLC Zicheng Yang and Louis Maljers - Screening and Quantitation of 215 Pesticides in Honey by an Integrated On-Line Extraction UHPLC-MS/MS System",
     "description"     : "Presentation at 43<sup>rd</sup> International HPLC by Zicheng Yang and Louis Maljers-Bruker",
     "citation"        : "Zicheng Yang and Louis Maljers, September 23, 2015, Bruker Daltonics, CA 94538, USA",
@@ -1020,7 +1005,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 94,
+    "id"              : 68,
     "title"           : "Pesticide Analysis in Ground Water",
     "description"     : "Poster presented at AOAC 2015",
     "citation"        : "Olga Almaraz, Blake Gentry, Stephanie Benton, Steven Perez <br>Adpen Laboratories, Inc., 11757 Central Parkway, Jacksonville, Florida 32224",
@@ -1035,7 +1020,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 95,
+    "id"              : 69,
     "title"           : "Pesticide Analysis in Fruit/Vegetable Juice by LC/MS/MS and GC/MS",
     "description"     : "Poster presented at AOAC 2015",
     "citation"        : "Z.Yang, L. Maljers, Bruker, Chemical & Applied Markets (CAM) Division | Uday Sathe, Karin Aylozyan @ Micro Quality Labs, Burbank, CA",
@@ -1050,7 +1035,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 96,
+    "id"              : 70,
     "title"           : "Multiclass Multi-Residue Analysis of &gt;100 Veterinary Drug Residues in Bovine Tissues by Filter Vial Dispersive-SPE & LC-MS/MS",
     "description"     : "Poster presented at AOAC 2015",
     "citation"        : "Steven J. Lehotay, Marilyn J. Schneider, and Alan R. Lightfield<br/>U. S. Department of Agriculture, Agricultural Research Service, Eastern Regional Research Center; 600 East Mermaid Lane; Wyndmoor, PA 19038; USA",
@@ -1065,7 +1050,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 97,
+    "id"              : 71,
     "title"           : "Analysis of Pesticides and Antibiotics in Honey by an Integrated On-Line Extraction UHPLC-MS/MS System",
     "description"     : "Poster presented at AOAC 2015",
     "citation"        : "Zicheng Yang and Louis Maljers<br />Bruker Daltonics Inc., 3500 West Warren Ave, Fremont, CA 94538",
@@ -1080,7 +1065,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 98,
+    "id"              : 72,
     "title"           : "Zicheng Yang and Louis Maljers Screening and Quantitation of About 200 Pesticides in Honey by an Integrated On-Line Extraction UHPLC-MS/MS System",
     "description"     : "Poster pesented at NACRW 2015 by Zicheng Yang and Louis Maljers-Bruker Daltonics Inc., Fremont, CA",
     "citation"        : "Zicheng Yang and Louis Maljers Bruker Daltonics Inc., 3500 West Warren Ave, Fremont, CA 94538",
@@ -1095,7 +1080,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 99,
+    "id"              : 73,
     "title"           : "Streamlined Sample Preparation Methodology to enable Higher Recovery, and minimize loss of Pesticides, Fungicides and Antibiotics by LC/MS or GC/MS",
     "description"     : "Poster presented at NACRW 2015",
     "citation"        : "Lisa Wanders, Joe Machamer-Thomson Instrument Companay Oceanside, CA",
@@ -1110,7 +1095,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 100,
+    "id"              : 74,
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at ASMS 2015",
     "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
@@ -1125,7 +1110,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 101,
+    "id"              : 75,
     "title"           : "Improved Sample Prep of Fruit & Juices for Analysis by Mass Spectrometry Using Thomson Filter Vials",
     "description"     : "Poster presented at ASMS 2015",
     "citation"        : "Multiple papers used",
@@ -1140,7 +1125,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 102,
+    "id"              : 76,
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse/Pain Management Panel in Oral Fluid Samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at ASMS 2015",
     "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>OraSure Technologies, Inc. 150 Webster Street, Bethlehem, PA 18015<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
@@ -1155,7 +1140,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 103,
+    "id"              : 77,
     "title"           : "ASMS 2015 - Improved Sample Prep of Meat & Fish for Contaminate Analysis by LC/MS using Thomson eXtractor3D|FV&trade;",
     "description"     : "Poster presented at ASMS 2015",
     "citation"        : "Multiple papers used",
@@ -1170,7 +1155,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 104,
+    "id"              : 78,
     "title"           : "High Throughput Screening and confirmation of 41 Pain Panel Drugs in Oral Fluid by an Integrated On-Line Extraction UHPLC-MS/MS System",
     "description"     : "Poster presented at MSACL 2015 by Louis Maljers, Zicheng Yang-Bruker Daltonics Inc., Premont, CA",
     "citation"        : "Louis Maljers, Zicheng Yang-Bruker Daltonics Inc., Premont, CA",
@@ -1185,7 +1170,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 105,
+    "id"              : 79,
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse/Pain Management Panel in Oral Fluid Samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2015",
     "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>OraSure Technologies, Inc. 150 Webster Street, Bethlehem, PA 18015<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
@@ -1200,7 +1185,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 106,
+    "id"              : 80,
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
     "description"     : "Poster presented at MSACL 2015",
     "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup>, Sam Ellis<sup>3</sup><br/><sup>1</sup>Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup>Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
@@ -1215,7 +1200,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 107,
+    "id"              : 81,
     "title"           : "Screening and Quantitation of 250 Pesticides in Fruit Juices with Positive/Negative Switching LC/MS/MS",
     "description"     : "Poster presented at Florida Pesticide Residue Workshop 2014 by Bruker (CAM)",
     "citation"        : "Zicheng Yang and Louis Maljers-Bruker, Chemical & Applied Markets Division, Fremont, CA",
@@ -1230,7 +1215,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 108,
+    "id"              : 82,
     "title"           : "Routine Targeted Quantitation and Identification of Pesticide Residues using Triple Quadrupole LC-MS/MS and Advanced Scheduling of MRM Transitions",
     "description"     : "Poster presented by AB Sciex",
     "citation"        : "AB Sciex",
@@ -1245,7 +1230,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 109,
+    "id"              : 83,
     "title"           : "Multiclass multiresidue analysis of &gt;100 veterinary drug residues in bovine tissues by filter-vial dispersive-SPE and LC-MS/MS",
     "description"     : "Poster by USDA",
     "citation"        : "Steven J. Lehotay, Marilyn J. Schneider, and Alan R. Lightfield<br>U. S. Department of Agriculture, Agricultural Research Service, Eastern Regional Research Center;<br/>600 East Mermaid Lane; Wyndmoor, PA 19038; USA",
@@ -1260,7 +1245,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 110,
+    "id"              : 84,
     "title"           : "New Sample Preparation Methodology to Enable Higher Recovery and Minimize Loss of Difficult Analytes in Food and Natural Products by LC/MS or GC/MS",
     "description"     : "Poster presented at Midwest AOAC 2014",
     "citation"        : "Lisa Wanders, Sam Ellis, Joe Machamer, Thomson Instrument Company, Oceanside, CA",
@@ -1275,7 +1260,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 111,
+    "id"              : 85,
     "title"           : "New Sample Preparation Methodology to Enable Higher Recovery and Minimize Loss of Difficult Analytes in Food and Natural Products by LC/MS or GC/MS",
     "description"     : "Poster presented at NACRW 2014",
     "citation"        : "Lisa Wanders, Sam Ellis, Joe Machamer, Thomson Instrument Company, Oceanside, CA",
@@ -1290,7 +1275,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 112,
+    "id"              : 86,
     "title"           : "Improved Sample Clean-up Options For Contaminant Analysis For Juices And Water By GC/MS And LC/MS",
     "description"     : "Poster presented at IUPAC 2014",
     "citation"        : " Lisa Wanders, Sam Ellis, Joe Machamer-Thomson Instrument Company, Oceanside, CA",
@@ -1305,7 +1290,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 113,
+    "id"              : 87,
     "title"           : "Improved Sample Clean-up Options for Contaminant Analysis for Vegetation, Meats & Seafood",
     "description"     : "Poster presented at IUPAC 2014",
     "citation"        : "Lisa Wanders, Sam Ellis, Joe Machamer, Thomson Instrument Company, Oceanside, CA",
@@ -1320,7 +1305,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 114,
+    "id"              : 88,
     "title"           : "Minimize enzyme and antibiotic use, maximize ethanol yield with accurate HPLC testing",
     "description"     : "Biomass Products & Technology Publication",
     "citation"        : "Sam Ellis & Emma Murphy, Thomson Instrument Company",
@@ -1335,7 +1320,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 115,
+    "id"              : 89,
     "title"           : "Comparison of different methods of extraction for incurred contaminants in fish",
     "description"     : "Poster presented at IUPAC 2014 by USDA",
     "citation"        : "Yelena Sapozhnikova & Steven J. Lehotay<br/>U.S. Department of Agriculture, Agricultural Research Service, Eastern Regional Research Center; 600 East Mermaid Lane; Wyndmoor, PA 19038; USA",
@@ -1350,7 +1335,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 116,
+    "id"              : 90,
     "title"           : "Optimum Growth Flask&trade; General Information",
     "description"     : "Flier on Thomson Optimum Growth&trade; Flasks",
     "citation"        : "",
@@ -1365,7 +1350,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 117,
+    "id"              : 91,
     "title"           : "Optimum Growth Flask&trade; Tips & Tricks for CHO & HEK",
     "description"     : "General information about the Optimum Growth&trade; line of flasks as well as tips and tricks for CHO and HEK cell lines with the flasks",
     "citation"        : "",
@@ -1380,7 +1365,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 119,
+    "id"              : 92,
     "title"           : "Thomson Flask Clamp Compatibility Chart",
     "description"     : "Table showing the compatibility with Thomson Optimum Growth&trade; Flasks and common shaker clamps",
     "citation"        : "",
@@ -1395,7 +1380,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 120,
+    "id"              : 93,
     "title"           : "Optimum Growth Flask&trade; FAQs",
     "description"     : "Frequently asked questions on Thomson Optimum Growth&trade; Flasks",
     "citation"        : "",
@@ -1410,7 +1395,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 121,
+    "id"              : 94,
     "title"           : "The Adventures of AntiBobby",
     "description"     : "Cartoon explaining cell growth scale up",
     "citation"        : "",
@@ -1425,7 +1410,7 @@
     "date"            : "20160101",
     "image"           : ""
   },{
-    "id"              : 123,
+    "id"              : 95,
     "title"           : "Optimum Growth for PhytoPlankton Production",
     "description"     : "",
     "citation"        : "",
@@ -1440,7 +1425,7 @@
     "date"            : "20160101",
     "image"           : "phyto-plankton.png"
     },{
-    "id"              : 124,
+    "id"              : 96,
     "title"           : "Optimum Growth Flasks with Sample Port for Insect and Mammalian Cells",
     "description"     : "",
     "citation"        : "",
@@ -1455,7 +1440,7 @@
     "date"            : "20160101",
     "image"           : "samplePort.png"
     },{
-    "id"              : 125,
+    "id"              : 97,
     "title"           : "Optimum Growth Flasks with Sample Port for Algae",
     "description"     : "",
     "citation"        : "",
@@ -1470,7 +1455,7 @@
     "date"            : "20160101",
     "image"           : "sample-port.png"
     },{
-    "id"              : 126,
+    "id"              : 98,
     "title"           : "Alternative to Sticky Mats",
     "description"     : "",
     "citation"        : "",
@@ -1485,7 +1470,7 @@
     "date"            : "20160101",
     "image"           : "rugmat.png"
     },{
-    "id"              : 127,
+    "id"              : 99,
     "title"           : "125mL & 250mL Optimum Growth&trade; Flask Carrier",
     "description"     : "",
     "citation"        : "",
@@ -1500,7 +1485,7 @@
     "date"            : "20160101",
     "image"           : "flask-carrier.png"
     },{
-    "id"              : 129,
+    "id"              : 100,
     "title"           : "Optimum Growth&trade; Protocol for Insect Cells",
     "description"     : "... Sf9 and Sf21 insect cells are cell lines commonly used for expression of recombinant proteins using baculovirus systems. These cell lines were generated from the parental cell line IPBLSF21, which was derived from the pupal ovarian tissue of the fall army worm ...  Sf9, Sf21, Hi5, and S2 are all compatible with the Optimum Growth&trade; flasks ...",
     "citation"        : "Multiple citations",
@@ -1515,7 +1500,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 133,
+    "id"              : 101,
     "title"           : "Comparison of Optimum Growth&trade; 5L & Mobius&reg; 3L",
     "description"     : "Comparison of Thomson Optimum Growth&trade; 5L Flask and EMD Millipore Mobius&reg; Bioreactor",
     "citation"        : "",
@@ -1530,7 +1515,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 135,
+    "id"              : 102,
     "title"           : "How to Efficiently Shake Viscous Culture Broths Culture Broth Viscosity Evaluated in Shake Flasks Studies",
     "description"     : "In biotechnology, the use of shake flasks is widespread due to their easy handling, especially in process design and optimization as well as in small-scale upstream processing and inoculum production. Recently, geometrically optimized Thomson Optimum Growth&trade; shake flasks were introduced to the market, promoting higher yields with the same shaker footprint.",
     "citation"        : "Jolanda Meister , Rüdiger W. Maschke , Soren Werner , Gernot T. John, Ph.D. , Dieter Eibl, Ph.D., Ph.D.",
@@ -1545,7 +1530,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 136,
+    "id"              : 103,
     "title"           : "Eliminating Steps in the Bioprocess Pipeline with Aseptic Optimum Growth&trade; Sampling Flasks",
     "description"     : "Poster presented at BioProcess 2016",
     "citation"        : "Sam Ellis, Joe Machamer, Mike MyLymuk, Ana Sirianni, Thomson Instrument Company, Oceanside, CA",
@@ -1560,7 +1545,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 137,
+    "id"              : 104,
     "title"           : "Scalable Transient CHO Method that in 7-12 days may become Stable Cell Pools & Stable Lines for Quantities needed in Toxicology Studies",
     "description"     : "Poster presented at BioProcess 2016",
     "citation"        : " Joseph Abad<sup>2</sup>, James Brady<sup>2</sup>, Weili Wang<sup>2</sup>, Joe Machamer<sup>1</sup>, Ana Sirianni<sup>1</sup>, Sam Ellis<sup>1</sup><br/><sup>1</sup>Thomson Instrument Company, Oceanside, CA<br/><sup>2</sup>Maxcyte, Gaithersburg, MD",
@@ -1575,7 +1560,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 138,
+    "id"              : 105,
     "title"           : "PEGS 2016 Speed Improvement in Mid-Scale Biological Processes in: CHO, Hybridoma, HEK 293 and Cell Lines Using Single Use Optimum Growth&trade; Flasks 125mL-5L with Additional Features",
     "description"     : "Poster presented at PEGS 2016",
     "citation"        : "Sam Ellis, Joe Machamer, Mike MyLymuk, Dennis Peterson, Ana Sirianni, Thomson Instrument Company, Oceanside, CA",
@@ -1590,7 +1575,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 139,
+    "id"              : 106,
     "title"           : "Maximizing Cell Line Development Time: Minimizing FTE Time with Optimum Growth&trade; Flasks & Additions",
     "description"     : "Poster presented at PEGS 2016",
     "citation"        : " Sam Ellis, Joe Machamer, Mike MyLymuk, Dennis Peterson, Ana Sirianni, Thomson Instrument Company, Oceanside, CA",
@@ -1605,7 +1590,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 140,
+    "id"              : 107,
     "title"           : "Speed Improvement in Mid-Scale Biological Processes in: CHO, Hybridoma, HEK 293 and Cell Lines Using Single Use Optimum Growth Flasks 125mL-5L Flasks with Additional Features",
     "description"     : "Poster presented at PEP Talk 2016",
     "citation"        : "Sam Ellis, Dennis Peterson, Mike MyLymuk, David Wadsworth, Thomson Instrument Company, Oceanside, CA",
@@ -1620,7 +1605,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 141,
+    "id"              : 108,
     "title"           : "CHOgro&reg; Expression System:High titer transient transfection system for suspension CHO cells",
     "description"     : "Presentation given by Mirus&reg; at PEP Talk 2016",
     "citation"        : "Mirus&reg; Bio LLC",
@@ -1635,7 +1620,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 142,
+    "id"              : 109,
     "title"           : "Twists and Turns in Protein Expression: In Early Drug Discovery it’s Often Unclear Which Recombinant Proteins Will Be Affected by Changing the Host Cell",
     "description"     : "GEN Article",
     "citation"        : "Angelo DePalma, Ph.D.",
@@ -1650,7 +1635,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 143,
+    "id"              : 110,
     "title"           : "Evolution of Shake Flask Technology: Novel Product Introductions Offer Advantages by Increasing DNA and Protein Production",
     "description"     : "GEN Article",
     "citation"        : "Daniel Bruecher, Ph.D.",
@@ -1665,7 +1650,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 144,
+    "id"              : 111,
     "title"           : "Development and Optimization of CHOgro&trade; Transient Expression Technologies for High Titer Antibody Production in Suspension CHO cells",
     "description"     : "Poster presented at BioProcess 2015 by Mirus&reg;",
     "citation"        : "Anthony Lauer<sup>1</sup>, James Ludtke<sup>1</sup>, Chuenchanok Khodthong<sup>1</sup>, Shannon Bruse<sup>1</sup>,<sup>2</sup> and Laura Juckem<sup>1</sup><br/><sup>1</sup>Mirus Bio LLC, Madison, Wisconsin USA, <sup>2</sup>Current affiliation: Regeneron Genetics Center, Tarrytown, New York USA",
@@ -1680,7 +1665,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 145,
+    "id"              : 112,
     "title"           : "Bridging the Gap in Screening and Scale Up in Insect, CHO, Hybridoma, and HEK293 Cell Lines (Single Use Optimum Growth Flasks 125mL-5L Flasks with Transfer Caps, and Ports)",
     "description"     : "Poster presented at PEGS 2015",
     "citation"        : "Sam Ellis & Joe Machamer, Thomson Instrument Company, Oceanside, CA",
@@ -1695,7 +1680,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 146,
+    "id"              : 113,
     "title"           : "PepTalk 2015, Optimum Growth, Max-Planck Institute of Biochemistry, A new shaped rocking biorector for insect & mammalian cells",
     "description"     : "Poster presented at PepTalk 2015 by Max Planck Institute of Biochemistry",
     "citation"        : "Judith Scholz and Sabine Suppmann, Biochemistry Core Facility, Max-Planck Institute of Biochemistry, D-82152 Martinsried, Germany, suppmann@biochem.mpg.de",
@@ -1710,7 +1695,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 148,
+    "id"              : 114,
     "title"           : "Transfer Cap FAQs",
     "description"     : "Frequently asked questions on Thomon Transfer Caps",
     "citation"        : "",
@@ -1725,7 +1710,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 149,
+    "id"              : 115,
     "title"           : "Bidirectional Transfer Cap Options",
     "description"     : "",
     "citation"        : "",
@@ -1740,7 +1725,7 @@
     "date"            : "20160101",
     "image"           : "tc-options.png"
     },{
-    "id"              : 150,
+    "id"              : 116,
     "title"           : "Transfer Cap with 7/16\" Quick Connect",
     "description"     : "",
     "citation"        : "",
@@ -1755,7 +1740,7 @@
     "date"            : "20160101",
     "image"           : "tc716qc.png"
     },{
-    "id"              : 151,
+    "id"              : 117,
     "title"           : "Transfer Cap with 1/4\" Quick Connect",
     "description"     : "",
     "citation"        : "",
@@ -1770,7 +1755,7 @@
     "date"            : "20160101",
     "image"           : "tc14qc.png"
     },{
-    "id"              : 152,
+    "id"              : 118,
     "title"           : "Transfer Cap for Tube Fusing to 7/16\" for welding C-Flex 24",
     "description"     : "",
     "citation"        : "",
@@ -1785,7 +1770,7 @@
     "date"            : "20160101",
     "image"           : "tc716tf.png"
     },{
-    "id"              : 153,
+    "id"              : 119,
     "title"           : "Transfer Cap for Tube Fusing to 1/4\" for welding C-Flex 16",
     "description"     : "",
     "citation"        : "",
@@ -1800,7 +1785,7 @@
     "date"            : "20160101",
     "image"           : "tc14tf.png"
     },{
-    "id"              : 155,
+    "id"              : 120,
     "title"           : "Optimum Growth&trade; Transfer Caps Fast Aseptic Sterile Transfer of Fluids for Bioprocess from Flasks to Bags or Bioreactors",
     "description"     : "Poster presented at PepTalk 2015",
     "citation"        : " Julie Olson, Lisa Wanders, Joe Machamer, Julie Gallagher, Sam Ellis, Thomson Instrument Company, Oceanside, CA",
@@ -1815,7 +1800,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 156,
+    "id"              : 121,
     "title"           : "Ultra Yield&trade; Flasks, Plasmid+&reg;, Airotop&trade; Seals The E.coli & Microbial Growth Solution",
     "description"     : "Catalog of the complete line or Ultra Yield&trade; flasks including Plasmid+&reg; Media and Enhanced AirOtop&trade; Seals",
     "citation"        : "",
@@ -1830,7 +1815,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 157,
+    "id"              : 122,
     "title"           : "Ultra Yield&trade; Flask General Information",
     "description"     : "Flier on Ultra Yield Flask General Information",
     "citation"        : "",
@@ -1845,7 +1830,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 158,
+    "id"              : 123,
     "title"           : "Thomson Flask Clamp Compatibility Chart",
     "description"     : "Table showing the compatibility with Thomson Ultra Yield&trade; Flasks and common shaker clamps",
     "citation"        : "",
@@ -1860,7 +1845,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 159,
+    "id"              : 124,
     "title"           : "Ultra Yield Flask Cost Benefit Analysis",
     "description"     : "Tables showing the cost and benifit analysis of Ultra Yield&trade; Flasks",
     "citation"        : "",
@@ -1875,7 +1860,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 160,
+    "id"              : 125,
     "title"           : "Ultra Yield Flask&trade; FAQs",
     "description"     : "Frequently asked questions on Thomson Ultra Yield&trade; Flasks",
     "citation"        : "",
@@ -1890,7 +1875,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 161,
+    "id"              : 126,
     "title"           : "HT Infors/ATR Shakers & Ultra Yield Flasks&trade;",
     "description"     : "",
     "citation"        : "",
@@ -1905,22 +1890,7 @@
     "date"            : "20160101",
     "image"           : "ATR-UYF.png"
     },{
-    "id"              : 162,
-    "title"           : "Ultra Yield&trade; Flask Standard Protein Protocol",
-    "description"     : "The Ultra Yield Flask&trade; is a disposable shake flask design that supports high-density culture growth in rich media. The Ultra Yield&trade; Flask achieves this by using a near-vertical wall angle coupled with a six baffle design that has been optimized for the fermentation of <i>E. coli</i>, <i>P. pastoris</i>, <i>S. pombe</i>, <i>Schizomycetes</i>, and other microbes.",
-    "citation"        : "",
-    "link"            : "UYF-standard-protein-protocol.pdf",
-    "linkType"        : "pdf",
-    "type"            : "APPNOTE",
-    "productLine"     : "UYF",
-    "subProductLine"  : "Uflask",
-    "science"         : "",
-    "industry"        : [],
-    "tags"            : [],
-    "date"            : "20160101",
-    "image"           : ""
-    },{
-    "id"              : 174,
+    "id"              : 127,
     "title"           : "Twists and Turns in Protein Expression: In Early Drug Discovery it’s Often Unclear Which Recombinant Proteins Will Be Affected by Changing the Host Cell",
     "description"     : "Challenges associated with E. coli include lengthy purification, protein aggregation, and inefficient refolding. These drawbacks can be overcome with an expression platform ...",
     "citation"        : "Angelo DePalma, Ph.D.",
@@ -1935,7 +1905,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 175,
+    "id"              : 128,
     "title"           : "Evolution of Shake Flask Technology: Novel Product Introductions Offer Advantages by Increasing DNA and Protein Production",
     "description"     : "Before and for a time after the research career of Louis Pasteur, microbiology essentially remained a static task. Glass bottles would rest on shelves until the contents were analyzed. This all changed in 1949, when the Nobel Prize was awarded for the development of the antibiotic streptomycin.",
     "citation"        : "Daniel Bruecher, Ph.D.",
@@ -1950,7 +1920,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 176,
+    "id"              : 129,
     "title"           : "Crystal Structure of a Novel Dimeric Form of NS5A Domain I Protein from Hepatitis C Virus",
     "description"     : "A new protein expression vector design utilizing an N-terminal six-histidine tag and tobacco etch virus protease cleavage site upstream of the hepatitis C virus NS5A sequence has resulted in a more straightforward purification method and improved yields of purified NS5A domain I protein.",
     "citation"        : "Robert A. Love*, Oleg Brodsky, Michael J. Hickey, Peter A. Wells and Ciar&aacute;n N. Cronin Structural Biology Group, Pfizer Global Research and Development, La Jolla Laboratories, San Diego, California 92121 *Corresponding author",
@@ -1965,7 +1935,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 177,
+    "id"              : 130,
     "title"           : "Economical parallel protein expression screening and scale-up with the Ultra Yield Flasks&trade;",
     "description"     : "A novel microfermentation and scale-up platform for parallel protein production in Escherichia coli is described. ... Experimental data is presented demonstrating that the Ultra Yield flask generates, on average, an equivalent amount of recombinant protein per unit cell culture density as do traditional shake flask designs but at a substantially greater amount per unit volume.",
     "citation"        : "Brodsky O<sup>1</sup>, Cronin CN<br/><sup>1</sup>Department of Structural Biology, Pfizer Global Research and Development, 10628 Science Center Drive, La Jolla, CA 92121, USA.",
@@ -1980,7 +1950,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 178,
+    "id"              : 131,
     "title"           : "Strategies to maximize heterologous protein expression in Escherichia coli with minimal cost",
     "description"     : "Automation and miniaturization are key issues of high-throughput research projects in the post-genomic era. ... In this review, we describe recent efforts to continue to minimize the cost for the parallel processing of multiple protein targets and focus on those materials and strategies that are highly suitable for the traditional academic laboratory.",
     "citation"        : "Wolfgang Peti<sup>1</sup>, Rebecca Page<sup>2</sup><br/><sup>1</sup> Brown University, Department of Molecular Pharmacology, Physiology, and Biotechnology, Box G-E3, Providence, RI 02912, USA<br/><sup>2</sup> Brown University, Department of Molecular Biology, Cell Biology and Biochemistry, Box G-E4, Providence, RI 02912, USA",
@@ -1995,7 +1965,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 179,
+    "id"              : 132,
     "title"           : "High-yield production of biologically active recombinant protein in shake flask culture by combination of enzyme-based glucose delivery and increased oxygen transfer",
     "description"     : "[R]eport describes the combined use of an enzyme-based glucose release system (EnBase&reg;) and high-aeration shake flask (Ultra Yield Flask&trade;). The benefit of this combination is demonstrated by over 100-fold improvement in the active yield of recombinant alcohol dehydrogenase expressed in <i>E. coli</i>",
     "citation"        : "Kaisa Ukkonen<sup>1,2*</sup>, Antti Vasala<sup>1</sup>, Heikki Ojamo<sup>2</sup> and Peter Neubauer<sup>3</sup><br/> <sup>1</sup>BioSilta Oy, P. O. Box 4300, FI-90014 Oulu, Finland. <sup>2</sup>Bioprocess Engineering Laboratory, Department of Process and Environmental Engineering, University of Oulu, P. O. Box 4300, FI-90014 Oulu, Finland. <sup>3</sup>Chair of Bioprocess Engineering, Department of Biotechnology, Technische Universität Berlin, Ackerstrasse 71-76, D-13355 Berlin, Germany.",
@@ -2010,7 +1980,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 180,
+    "id"              : 133,
     "title"           : "Strategies for Maximizing Strategies for Maximizing Heterologous Protein Heterologous Protein Expression in Expression in E. coli E. coli with Minimal Cost",
     "description"     : "Presentation given by Rebecca Page at ABRF 2007 Recombinant Protein Satellite Workshop held in Tampa: &ldquolState-of-the-Art Technologies for Producing High-Quality Recombinant Proteins in Core Facilities.&rdquo;",
     "citation"        : "Rebecca Page Rebecca Page, Department of Molecular Biology, Biochemistry and Department of Molecular Biology, Biochemistry and Cell Biology",
@@ -2025,7 +1995,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 181,
+    "id"              : 134,
     "title"           : "Plasmid+&reg; General Information",
     "description"     : "Flier on general information for Plasmid+&reg; Media",
     "citation"        : "",
@@ -2040,7 +2010,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 182,
+    "id"              : 135,
     "title"           : "Plasmid+&reg; FAQs",
     "description"     : "Frequently asked questions on Thomson Plasmid+&reg; Media",
     "citation"        : "",
@@ -2055,7 +2025,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 193,
+    "id"              : 136,
     "title"           : "AirOtop Enhanced Seal&trade; General Information",
     "description"     : "Flier on general information for Thomson Enhanced AirOtop&trade; Seals",
     "citation"        : "",
@@ -2070,7 +2040,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 194,
+    "id"              : 137,
     "title"           : "Find the Enhanced AirOtop&trade; Seal for Your Glass Flask",
     "description"     : "Form to find the right Enhanced AirOtop&trade; Seal for your current non-Thomson flask",
     "citation"        : "",
@@ -2085,7 +2055,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 195,
+    "id"              : 138,
     "title"           : "AirOtop Enhanced Seal&trade; vs BugStopper&reg;",
     "description"     : "Comparision of Enhanced AirOtop&trade; Seals to Whatman BugStopper&reg;",
     "citation"        : "",
@@ -2100,7 +2070,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 203,
+    "id"              : 139,
     "title"           : "Well Plate Catalog",
     "description"     : "Catalog of Thomson Well Plates, Filter Plates, Cap Mats& Seals",
     "citation"        : "",
@@ -2115,7 +2085,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 204,
+    "id"              : 140,
     "title"           : "SINGLE StEP&reg; Empty Columns",
     "description"     : "Flier on general information for Thomson Empty Columns",
     "citation"        : "",
@@ -2130,7 +2100,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 208,
+    "id"              : 141,
     "title"           : "High Throughput Screening and confirmation of 41 Pain Panel Drugs in Oral Fluid by an Integrated On-Line Extraction UHPLC-MS/MS System",
     "description"     : "Saliva test is one of the easiest, cost-effective and most accurate ways to measure the presence of drugs in the body. Collecting saliva sample is relatively non-invasive, easier to procure and reduced risk of sample adulteration. However, saliva matrix display much lower levels of drug compounds compared to urine samples, making the need to test at lower cut-off levels more important. ... Here we present a high throughput, cost effective and sensitive procedure for screening and confirmation of Pain Panel Drugs (PPDs) in Synthetic Saliva using Thomson filter vial for sample preparation and using an integrated On-Line Extraction (OLE)-UHPLC-MS/MS System for sample analysis.",
     "citation"        : "Louis Maljers, Zicheng Yang<br/>Bruker Daltonics Inc., 3500 West Warren Ave, Fremont, CA 94538<br/>Presented at MSACL 2015",
@@ -2145,7 +2115,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 209,
+    "id"              : 142,
     "title"           : "eXtreme|FV&reg; Extraction for the Detection of 11 Antidepressants in Oral Fluid Samples",
     "description"     : "The benefits of using oral fluid as a biological matrix include the ability to detect recent drug use, ease of collection, and the collection process can be observed to prevent adulteration of the sample. ... Thomson eXtreme Filter Vials provide a simple and efficient extraction technique that has demonstrated adequate analyte recovery, reduced matrix interferences and the elimination of solvent waste and other consumables. This project specifically explores the efficacy of these vials in extracting a wide range of antidepressants in oral fluid specimens.",
     "citation"        : "Sarah Muller<sup>1</sup>, Jill Yeakel<sup>1</sup>, Lisa Wanders<sup>2</sup><br/><sup>1</sup>Lehigh Valley Toxicology, Bethlehem, PA<br/><sup>2</sup>Thomson Instrument Company, Oceanside, CA<br/>Presented at SOFT 2016",
@@ -2160,7 +2130,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 210,
+    "id"              : 143,
     "title"           : "eXtreme|FV&reg; Extraction for the Detection of 11 Antidepressants in Oral Fluid Samples",
     "description"     : "While a urine sample provides a longer detection window and more comprehensive analysis of drug use, oral fluid is a viable option for testing<sup>1,2</sup>. The benefits of using oral fluid  include the ability to detect recent drug use, ease of collection, and the collection process can be observed to prevent adulteration of the sample<sup>3</sup>. ... Thomson [eXtreme|FV&reg;] provide a simple and efficient extraction technique that has demonstrated adequate analyte recovery, reduced matrix interferences and the elimination of solvent waste and other consumables. This project specifically explores the efficacy of these vials in extracting a wide range of antidepressants in oral fluid specimens. ",
     "citation"        : "Sarah Muller<sup>1</sup>, Jill Yeakel<sup>1</sup>, Lisa Wanders<sup>2</sup> <sup>1</sup>Lehigh Valley Toxicology, Bethlehem, PA  <sup>2</sup>Thomson Instrument Company, Oceanside,  CA",
@@ -2175,7 +2145,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 211,
+    "id"              : 144,
     "title"           : "Toxicology & Forensics Application Notes",
     "description"     : "Thomsons catalog of Toxicology & Forensics Application Notes for Filter Vials",
     "citation"        : "",
@@ -2190,11 +2160,11 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 212,
+    "id"              : 145,
     "title"           : "Maintaining HPLC Performance Through the use of Thomson HPLC Filter Vials",
     "description"     : "Routine analysis of samples containing cell culture media and/or supernatant by HPLC can lead to performance issues and can require frequent purchasing of new columns and increased HPLC maintenance. ... Here, we demonstrate that using Thomson [filter vials]] during sample preparation results in minimal impact preparation time, no detectable loss in product, and improved column performance leading to extended column lifetimes.",
     "citation"        : "Srilaxmi Sarikonda, Nathan P. Oien, Ph.D. and James G. Smedley III, Ph.D.<br/>Analytical Development, KBI Biopharma, Research Triangle Park, NC",
-    "link"            : "maintaining-HPLC-performance.pdf",
+    "link"            : "simplified-sample-prep.pdf",
     "linkType"        : "pdf",
     "type"            : "APPNOTE",
     "productLine"     : "FV",
@@ -2205,7 +2175,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 213,
+    "id"              : 146,
     "title"           : "Evaluating the Impact of High Pluronic&reg; WF68 Concentrations on Antibody Producing CHO Cell Lines",
     "description"     : "Routine analysis of samples containing cell culture media and/or supernatant by HPLC can lead to performance issues and can require frequent purchasing of new columns and increased HPLC maintenance. ... Here, we demonstrate that using Thomson [filter vials]] during sample preparation results in minimal impact preparation time, no detectable loss in product, and improved column performance leading to extended column lifetimes.",
     "citation"        : "Tharmala Tharmalingam, Chetan T. Goudar<br />Cell Science & Technology, Process & Product Development, Amgen Inc. One Amgen<br />Center Drive, Thousand Oaks 91320, California; telephone: 8054475321;<br />fax: 805-499-6819; e-mail: cgoudar@amgen.com",
@@ -2220,7 +2190,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 214,
+    "id"              : 147,
     "title"           : "Pesticide Analysis in Ground Water",
     "description"     : "Groundwater is an important component in many industrial processes as well as irrigating our crops and recharging lakes, rivers and wetlands. Groundwater supplies drinking water for 51% of the total U.S. population and 99% of its rural population. Unfortunately, groundwater is susceptible to pollutants due to the widespread use of pesticides and fertilizers. Traditionally, syringe filtration or centrifugation have been used to remove particulates and reduce possible matrix interference prior to LC/ MS analysis. However, these techniques are time consuming, adversely impact reproducibility and quantification. We investigated the potential for streamlining sample preparation method for the analysis of Prosulfuron and its metabolites in ground water using the Thomson Standard|FV compared to syringe filtration and centrifugation.",
     "citation"        : "Olga Almaraz, Blake Gentry, Stephanie Benton, Steven Perez<br/>Adpen Laboratories, Inc., 11757 Central Parkway, Jacksonville, Florida 32224",
@@ -2235,7 +2205,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 215,
+    "id"              : 148,
     "title"           : "Improved DNA Protocol for <i>E.coli</i> with Plasmid+&reg; Media",
     "description"     : "Plasmid+&reg; liquid media is an enriched media specifically designed for plasmid DNA production. Plasmid+&reg; supports much higher cell densities and plasmid yields than LB media. Optimal shake flask yields are achieved using Ultra Yield&trade; Flasks (Thomson Instrument Company), which facilitates maximum culture aeration. PLASMID+® media may also be used in a bioreactor with continuous aeration and agitation.",
     "citation"        : "",
@@ -2250,7 +2220,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 216,
+    "id"              : 149,
     "title"           : "Optimum Growth&trade; Transfer Caps General Information",
     "description"     : "General information catalog on Optimum Growth&trade; Transfer Caps",
     "citation"        : "",
@@ -2265,7 +2235,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 217,
+    "id"              : 150,
     "title"           : "General methods for flash chromatography using disposable columns",
     "description"     : "As technology has evolved available guidelines for normal-phase flash chromatography have become less relevant. Years of experience performing chromatography with disposable columns have been condensed into simple guidelines useful for translating TLC results into either isocratic- or gradient-flash chromatography. The described studies should provide researchers with a means of selecting adequate columns and guidelines to reduce the waste of solvents, silica, time, and money.",
     "citation"        : "William C. Stevens Jr., Daniel C. Hill",
@@ -2280,7 +2250,7 @@
     "date"            : "20160101",
     "image"           : ""
     },{
-    "id"              : 218,
+    "id"              : 151,
     "title"           : "Economical parallel protein expression screening and scale-up in <i>Escherichia coli</i>",
     "description"     : "A novel microfermentation and scale-up platform for parallel protein production in <i>Escherichia coli</i>i> is described. The vertical shaker device Vertiga, which generates low-volume high density (A600 ~ 20) Escherichia coli cultures in 96-position deep-well plates without auxiliary oxygen supplementation, has been coupled to a new disposable shake flask design, the Ultra Yield&trade; flask, that allows for equally high cell culture densities to be obtained. The Ultra Yield&trade; flask, which accommodates up to 1L in culture volume, has a baffled base and a more vertical wall construction compared to traditional shake flask designs. Experimental data is presented demonstrating that the Ultra Yield&trade; flask generates, on average, an equivalent amount of recombinant protein per unit cell culture density as do traditional shake flask designs but at a substantially greater amount per unit volume. The combination of Vertiga and the Ultra Yield&trade; flask provides a convenient and scalable low-cost solution to parallel protein production in Escherichia coli.",
     "citation"        : "Oleg Brodsky, Ciar&aacute;n N. Cronin",
