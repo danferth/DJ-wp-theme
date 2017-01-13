@@ -121,7 +121,10 @@ if($a['title']){
     <h4>".$a['title']." Part Numbers</h4>
     </div>";
 }
-  $output .=  "<div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"}";
+  $output .=  "<div class='parts-note small-12 column'>\n
+  <p>click a product to view more information</p>
+  </div>\n
+  <div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"}";
   if($a['filter']){
     $output .= "| filter:".$a['filter']."' ng-click='setProduct(p); triggerOverlay();'>";
   }else{
