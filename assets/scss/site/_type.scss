@@ -97,10 +97,8 @@ blockquote b {
 //===============
 //LINKS==========
 //==============
-.entry-content p a,
-.entry-summary p a,
-.page-content p a,
-.comment-content p a {
+.entry-content dd a,
+.entry-content p a{
 	text-decoration: none;
 	text-shadow:none;
 	border-bottom:1px dashed $primary-color;
@@ -123,14 +121,8 @@ blockquote b {
 	}
 }
 
-.entry-content p a:hover,
-.entry-summary p a:hover,
-.page-content p a:hover,
-.comment-content p a:hover,
-.entry-content p a.button,
-.entry-summary p a.button,
-.page-content p a.button,
-.comment-content p a.button {
+.entry-content dd a:hover,
+.entry-content p a:hover{
 	text-decoration: none;
 	border-color:transparent;
 	color:scale-color($primary-color, $lightness: -20%);
@@ -143,4 +135,23 @@ p.disclaimer{
   color:$base;
   font-size:.6rem;
   font-style:italic;
+}
+//=======================
+//====definition list====
+//=======================
+dl{
+  dt{
+    margin-top:1.25rem;
+  }
+  dd{
+    margin-bottom:.25rem;
+    color:$monsoon;
+    width:75%;
+    @media screen and(max-width:$medium-breakpoint){
+      width:90%;
+    }
+    @media screen and(max-width:$small-breakpoint){
+      width:100%;
+    }
+  }
 }

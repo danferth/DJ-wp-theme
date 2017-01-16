@@ -726,6 +726,22 @@ function related_product_module_shortcode($atts, $content=null, $tag){
 }
 add_shortcode('related_product_module', 'related_product_module_shortcode');
 
+//GI module
+//[gi_link src="" product=""]
+function gi_link_shortcode($atts, $content, $tag){
+  $a = shortcode_atts( array(
+    'src' => '',
+    'product' => ''
+    ), $atts);
+  $output ="
+<div class='gi-link hide-for-small row'>\n
+  <a href='".content_url('/uploads/downloads/').$a['src']."'><i class='arrow fa fa-arrow-right'></i><i class='pdf fa fa-file-pdf-o'></i> click here to download the latest PDF copy or our ".$a['product']." General information flier</a>\n
+</div>";
+  return $output;
+}
+add_shortcode('gi_link', 'gi_link_shortcode');
+
+
 //links and what not oh god here we go down the rabbit hole.......
 
 function uploads_shortcode($atts, $content, $tag){
