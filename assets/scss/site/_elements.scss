@@ -7,6 +7,21 @@
     display:none;
   }
 }
+//classes for nav bar
+.nav-special-border{
+  border-top:1px solid $nav-section-border-color;
+}
+.nav-section a{
+    color:$oil !important;
+    font-weight:bold !important;
+}
+.nav-about a{
+  color:$primary-color !important;
+}
+//hidden input for spam protection
+#important-input{
+  display:none;
+}
 //=====================================================================
 //========================FULL WIDTH CSS===============================
 //=====================================================================
@@ -706,7 +721,8 @@ table.product-ref-table{
     &:hover{
       padding-left:1.1256rem;
       background:$smoke;
-      color:$black;
+      color:$jet;
+      text-decoration:underline;
       .arrow{
         margin-right:.25rem;
       }

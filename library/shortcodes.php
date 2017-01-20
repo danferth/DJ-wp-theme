@@ -735,11 +735,18 @@ function gi_link_shortcode($atts, $content, $tag){
     ), $atts);
   $output ="
 <div class='gi-link hide-for-small row'>\n
-  <a href='".content_url('/uploads/downloads/').$a['src']."'><i class='arrow fa fa-arrow-right'></i><i class='pdf fa fa-file-pdf-o'></i> click here to download the latest PDF copy or our ".$a['product']." General information flier</a>\n
+  <a href='".content_url('/uploads/downloads/').$a['src']."'><i class='arrow fa fa-arrow-right'></i><i class='pdf fa fa-file-pdf-o'></i> click here to download a PDF of our <b>".$a['product']."</b> General information flier</a>\n
 </div>";
   return $output;
 }
 add_shortcode('gi_link', 'gi_link_shortcode');
+
+//for spam have a hidden form field that should not have a value
+function important_input_shortcode($atts, $content, $tag){
+  $output = "<input class='important-input' type='text' name='important-input' id='important-input' />";
+  return $output;
+}
+add_shortcode('important_input', 'important_input_shortcode');
 
 
 //links and what not oh god here we go down the rabbit hole.......

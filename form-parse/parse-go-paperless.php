@@ -27,7 +27,7 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
-		if ($_POST['email']){
+		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
 			$mail->setFrom($_POST['email'], $_POST['fname']." ".$_POST['lname']);
 			$mail->addReplyTo($_POST['email'], $_POST['fname']." ".$_POST['lname']);
@@ -48,6 +48,10 @@ header('HTTP/1.1 303 See Other');
 				$query_string .= '&success=true';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}
+		}else{
+			$query_string = '?first_name=Edward';
+			$query_string .= '&success=true';
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 		}
 	}
 ?>
