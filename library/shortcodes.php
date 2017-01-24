@@ -743,7 +743,7 @@ add_shortcode('gi_link', 'gi_link_shortcode');
 
 //for spam have a hidden form field that should not have a value
 function important_input_shortcode($atts, $content, $tag){
-  $output = "<input class='important-input' type='text' name='important-input' id='important-input' />";
+  $output = "<input class='important-input' type='text' name='important-input' id='important-input' autocomplete='off'/>";
   return $output;
 }
 add_shortcode('important_input', 'important_input_shortcode');

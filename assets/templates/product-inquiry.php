@@ -28,7 +28,7 @@
 				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
 				</div>
 				<div class="small-12 medium-4 column">
-				  <input class='important-input' type='text' name='important-input' id='important-input' />
+				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='off'/>
 				  <input type="hidden" name="form" value="sample"/>
 					<input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
@@ -71,7 +71,7 @@
 				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
 				</div>
 				<div class="small-12 medium-4 column">
-				  <input class='important-input' type='text' name='important-input' id='important-input' />
+				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='off'/>
 				  <input type="hidden" name="form" value="quote"/>
 				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
@@ -114,7 +114,7 @@
 				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
 				</div>
 				<div class="small-12 medium-4 column">
-				  <input class='important-input' type='text' name='important-input' id='important-input' />
+				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='off'/>
 				  <input type="hidden" name="form" value="contact"/>
 				  <input type="hidden" name="industry" ng-value="industry.label" />
 					<input type="hidden" name="product" ng-value="product" />
