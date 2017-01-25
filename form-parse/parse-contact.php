@@ -43,7 +43,7 @@ header('HTTP/1.1 303 See Other');
 			$mail->setFrom($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
 			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
 			//$mail->addAddress('web_submissions@htslabs.com', 'Contact Form');
-			$mail->addAddress('dan@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
+			$mail->addAddress('web_test@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = "Contact From - " . $_POST['company'];
 			$mail->msgHTML($body);
 			if (!$mail->send()){

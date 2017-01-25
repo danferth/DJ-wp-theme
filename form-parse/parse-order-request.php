@@ -140,7 +140,7 @@ $comments = $_POST['comments'];
 $first_name = trim($_POST['purchFname']);
 $query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
-$next_page = 'sample-request/';
+$next_page = 'order/';
 
 	if (is_array($_POST)){
 		//body variable for email to Thomson
