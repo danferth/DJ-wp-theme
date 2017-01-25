@@ -47,6 +47,18 @@
 				</div>
 				
 				
+				<!-- TC -->
+				<div class="card-left small-12 medium-6 column" ng-show="isTC">
+					<p ng-show="setP.direction"><b>Type: </b><span ng-bind-html="setP.direction"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
+					<p ng-show="setP.flask"><b>Flask Compatibility: </b><span ng-bind-html="setP.flask"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
+					<p ng-show="setP.connection"><b>Connection: </b><span ng-bind-html="setP.connection"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
+				</div>
+				<div class="card-right small-12 medium-6 column" ng-show="isTC">
+					<p><b>Sterile: </b><span ng-bind-html="setP.sterile | yesNo"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
+					<p class="card-accessories" ng-show="setP.accessories[0]"><b>Accessories</b><br/><span ng-repeat="l in setP.accessories"><a href="{{ l.url }}" ng-bind-html="l.link"></a><br/></span></p>
+				</div>
+				
+				
 				<!-- OTHER -->
 				<div class="card-left small-12 medium-6 column" ng-show="isOther">
 					<p ng-show="setP.maxVolume"><b>Fill Volume: </b><span ng-bind-html="setP.maxVolume"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
