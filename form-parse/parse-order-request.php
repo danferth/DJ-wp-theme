@@ -143,6 +143,76 @@ $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'order/';
 
 	if (is_array($_POST)){
+		
+		//for creation of CSV file
+		$creditInfo = "$CC\",\"$ExpMo\",\"$ExpYr\",\"$secCode";
+		$creditNumber = "$creditNumber";
+		$creditName = "$nameOnCard";
+		$creditAddress = "$CCbillingAdd";
+		$creditCity = "$CCbillingCity";
+		$creditState = "$CCbillingState";
+		$creditZip = "$CCbillingZip";
+
+		$fp = fopen("5150/public.pem","r");
+		$pubKey = fread($fp,8192);
+		fclose($fp);
+
+		openssl_public_encrypt($creditInfo, $creditInfoLocked, $pubKey);
+		$creditInfoUsable = base64_encode($creditInfoLocked);
+
+		openssl_public_encrypt($creditNumber, $creditNumberLocked, $pubKey);
+		$creditNumberUsable = base64_encode($creditNumberLocked);
+
+		openssl_public_encrypt($creditName, $creditNameLocked, $pubKey);
+		$creditNameUsable = base64_encode($creditNameLocked);
+
+		openssl_public_encrypt($creditAddress, $creditAddressLocked, $pubKey);
+		$creditAddressUsable = base64_encode($creditAddressLocked);
+
+		openssl_public_encrypt($creditCity, $creditCityLocked, $pubKey);
+		$creditCityUsable = base64_encode($creditCityLocked);
+
+		openssl_public_encrypt($creditState, $creditStateLocked, $pubKey);
+		$creditStateUsable = base64_encode($creditStateLocked);
+
+		openssl_public_encrypt($creditZip, $creditZipLocked, $pubKey);
+		$creditZipUsable = base64_encode($creditZipLocked);
+
+		$companyInformation = array("$companyName","$poNumber","$ccOrder","$creditInfoUsable","$creditNumberUsable","$creditNameUsable","$creditAddressUsable","$creditCityUsable","$creditStateUsable","$creditZipUsable","$purchFname","$purchLname","$purchPhone","$purchExt","$purchFax","$userEmail","$userFname","$userLname","$userPhone","$shipAdd1","$shipAdd2","$shipAdd3","$shipCity","$shipState","$shipZip","$shipCountry","$shipAttn","$billEmail","$billFname","$billLname","$billPhone","$billAdd1","$billAdd2","$billAdd3","$billCity","$billState","$billZip","$billCountry","$billAttn","$comments","$purchEmail");
+
+		$order1 = array("$Qty1","$Pno1","$price1","$quoteNo1","$shipping1","$dateReq1");
+		$order2 = array("$Qty2","$Pno2","$price2","$quoteNo2","$shipping2","$dateReq2");
+		$order3 = array("$Qty3","$Pno3","$price3","$quoteNo3","$shipping3","$dateReq3");
+		$order4 = array("$Qty4","$Pno4","$price4","$quoteNo4","$shipping4","$dateReq4");
+		$order5 = array("$Qty5","$Pno5","$price5","$quoteNo5","$shipping5","$dateReq5");
+		$order6 = array("$Qty6","$Pno6","$price6","$quoteNo6","$shipping6","$dateReq6");
+		$order7 = array("$Qty7","$Pno7","$price7","$quoteNo7","$shipping7","$dateReq7");
+		$order8 = array("$Qty8","$Pno8","$price8","$quoteNo8","$shipping8","$dateReq8");
+		$order9 = array("$Qty9","$Pno9","$price9","$quoteNo9","$shipping9","$dateReq9");
+		$order10 = array("$Qty10","$Pno10","$price10","$quoteNo10","$shipping10","$dateReq10");
+
+		//creation of csv file
+		$date = date('m\-d\-Y\-h:iA');
+		$name = $companyName;
+		$name = preg_replace("/[^a-zA-Z 0-9]+/", " ", $name);//strip all special characters from name
+		$file = "orders/$name-$date.csv";
+		$fp = fopen($file,"a+");
+		fwrite($fp,"4EJ5JQo42t2P0eLoUpHh,");
+		fwrite($fp,"\n");
+		fputcsv($fp,$companyInformation);
+		fputcsv($fp,$order1);
+		fputcsv($fp,$order2);
+		fputcsv($fp,$order3);
+		fputcsv($fp,$order4);
+		fputcsv($fp,$order5);
+		fputcsv($fp,$order6);
+		fputcsv($fp,$order7);
+		fputcsv($fp,$order8);
+		fputcsv($fp,$order9);
+		fputcsv($fp,$order10);
+		fwrite($fp,"Bl0RNZxBVnHKbxs50V5y");
+		fclose($fp);
+		
 		//body variable for email to Thomson
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
@@ -293,8 +363,8 @@ $next_page = 'order/';
 			$mail = new PHPMailer;
 			$mail->setFrom($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
 			$mail->addReplyTo($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
-			$mail->addAddress('customerservice@htslabs.com', 'Quick Order Form');
-			//$mail->addAddress('dan@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
+			//$mail->addAddress('customerservice@htslabs.com', 'Quick Order Form');
+			$mail->addAddress('web_test@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = "ORDER - " . $_POST['companyName'];
 			$mail->msgHTML($body);
 			$mail->addAttachment($file);
