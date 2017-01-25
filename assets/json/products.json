@@ -1862,7 +1862,7 @@
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
 		"direction" : "inversion",
-		"flask" : ["1.6L"],
+		"flask" : ["1.6L", "2.8L"],
 		"connection" : "7/16&quot; (11.1mm) Barb",
 		"sterile"     : true,
 		"notes"		  : false
@@ -1880,9 +1880,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["1.6L", "2.8L"],
+		"connection" : "Tube Fuse",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1899,9 +1899,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["1.6L", "2.8L"],
+		"connection" : "Tube Fuse",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1918,9 +1918,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["1.6L", "2.8L"],
+		"connection" : "Female Luer Lock",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1967,9 +1967,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["5L"],
+		"connection" : "1/4&quot; (6.35mm) Barb",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1986,9 +1986,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["5L"],
+		"connection" : "7/16&quot; (11.1mm) Barb",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2005,9 +2005,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["5L"],
+		"connection" : "Tube Fuse",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2024,9 +2024,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["5L"],
+		"connection" : "Tube Fuse",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2043,9 +2043,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "inversion",
+		"flask" : ["5L"],
+		"connection" : "Female Luer Lock",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2091,9 +2091,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "bidirectional",
+		"flask" : ["1.6L"],
+		"connection" : "Tube Fuse",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2109,9 +2109,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "bidirectional",
+		"flask" : ["1.6L"],
+		"connection" : "Luer Lock",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2127,9 +2127,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "bidirectional",
+		"flask" : ["2.8L"],
+		"connection" : "Tube Fuse",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2145,9 +2145,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "bidirectional",
+		"flask" : ["5L"],
+		"connection" : "Tube Fuse",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2163,9 +2163,9 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"direction" : "",
-		"flask" : [],
-		"connection" : "",
+		"direction" : "bidirectional",
+		"flask" : ["5L"],
+		"connection" : "Luer Lock",
 		"sterile"     : true,
 		"notes"		  : false
 	},{
