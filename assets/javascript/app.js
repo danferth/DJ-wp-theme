@@ -154,33 +154,58 @@ tic.controller('inquiryController', ['$scope', function($scope){
   if(sessionStorage.getItem('science')){
     $scope.science = $scope.getStorage('science');
   }
+  if(sessionStorage.getItem('company')){
+    $scope.company = sessionStorage.getItem('company');
+  }
   if(sessionStorage.getItem('fname')){
     $scope.first_name = sessionStorage.getItem('fname');
   }
-    if(sessionStorage.getItem('lname')){
+  if(sessionStorage.getItem('lname')){
     $scope.last_name = sessionStorage.getItem('lname');
   }
-    if(sessionStorage.getItem('email')){
+  if(sessionStorage.getItem('email')){
     $scope.email = sessionStorage.getItem('email');
   }
-    if(sessionStorage.getItem('zipCode')){
-    $scope.zip_code = sessionStorage.getItem('zipCode');
-  }
-    if(sessionStorage.getItem('phone')){
+  if(sessionStorage.getItem('phone')){
     $scope.phone = sessionStorage.getItem('phone');
   }
+  if(sessionStorage.getItem('address')){
+    $scope.address = sessionStorage.getItem('address');
+  }
+  if(sessionStorage.getItem('building')){
+    $scope.building = sessionStorage.getItem('building');
+  }
+  if(sessionStorage.getItem('city')){
+    $scope.city = sessionStorage.getItem('city');
+  }
+  if(sessionStorage.getItem('state')){
+    $scope.state = sessionStorage.getItem('state');
+  }
+  if(sessionStorage.getItem('zipCode')){
+    $scope.zip_code = sessionStorage.getItem('zipCode');
+  }
     $scope.setter = function(formID){
-    var fname   = $('#'+formID+' input[name="first-name"]').val(),
-        lname   = $('#'+formID+' input[name="last-name"]').val(),
-        email   = $('#'+formID+' input[name="email"]').val(),
-        zipCode = $('#'+formID+' input[name="zip-code"]').val(),
-        phone   = $('#'+formID+' input[name="phone"]').val();
+    var company   = $('#'+formID+' input[name="company"]').val(),
+        fname     = $('#'+formID+' input[name="first-name"]').val(),
+        lname     = $('#'+formID+' input[name="last-name"]').val(),
+        email     = $('#'+formID+' input[name="email"]').val(),
+        phone     = $('#'+formID+' input[name="phone"]').val(),
+        address   = $('#'+formID+' input[name="address"').val(),
+        building  = $('#'+formID+' input[name="building').val(),
+        city      = $('#'+formID+' input[name="city"] ').val(),
+        state     = $('#'+formID+' input[name="state"]').val();
+        zipCode   = $('#'+formID+' input[name="zip-code"]').val(),
         
+    sessionStorage.setItem('company', company);
     sessionStorage.setItem('fname', fname);
     sessionStorage.setItem('lname', lname);
     sessionStorage.setItem('email', email);
-    sessionStorage.setItem('zipCode', zipCode);
     sessionStorage.setItem('phone', phone);
+    sessionStorage.setItem('address', address);
+    sessionStorage.setItem('building', building);
+    sessionStorage.setItem('city', city);
+    sessionStorage.setItem('state', state);
+    sessionStorage.setItem('zipCode', zipCode);
   };
   $scope.path = window.location.pathname;
 }]);

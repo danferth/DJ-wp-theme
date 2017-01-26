@@ -83,7 +83,7 @@
 				</div>
 				<div class="small-12 medium-12 column">
 				  <span id="address">
-				    <input type="text" name="address" placeholder="Address 1*" ng-value="address" required/>
+				    <input type="text" name="address" placeholder="Address*" ng-value="address" required/>
 				  </span>
 				</div>
 				<div class="small-12 medium-12 column">
@@ -91,14 +91,19 @@
 				    <input type="text" name="building" placeholder="Building/Room" ng-value="address"/>
 				  </span>
 				</div>
-				<div class="small-9 medium-8 column">
+				<div class="small-9 medium-5 column">
 				  <span id="city">
 				    <input type="text" name="city" placeholder="City*" ng-value="city" required/>
 				  </span>
 				</div>
-				<div class="small-3 medium-4 column">
+				<div class="small-3 medium-3 column">
 				  <span id="country">
 				    <input type="text" name="state" placeholder="State*" ng-value="state" required/>
+				  </span>
+				</div>
+				<div class="small-3 medium-4 column">
+				  <span id="zip">
+				    <input type="text" name="zip-code" placeholder="Zip code*" ng-value="zip-code" required/>
 				  </span>
 				</div>
 				<div class="small-12 medium-12 column">
