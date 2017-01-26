@@ -50,7 +50,7 @@
 				<!-- TC -->
 				<div class="card-left small-12 medium-6 column" ng-show="isTC">
 					<p ng-show="setP.direction"><b>Type: </b><span ng-bind-html="setP.direction"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
-					<p ng-show="setP.flask"><b>Flask Compatibility: </b><span ng-bind-html="setP.flask"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
+					<p ng-show="setP.flask"><b>Flask Compatibility: </b><span ng-bind-html="setP.flask | tostring"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 					<p ng-show="setP.connection"><b>Connection: </b><span ng-bind-html="setP.connection"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 				</div>
 				<div class="card-right small-12 medium-6 column" ng-show="isTC">
