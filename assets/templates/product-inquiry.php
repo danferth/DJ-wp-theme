@@ -4,6 +4,11 @@
 		<button class="product-inquiry-button buttom expand" data-text="Get a Sample">Get a Sample</button>
 		<form class="product-inquiry-form" id="product-inquiry-sample" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
+				<div class="small-12 medium-12 column">
+				  <span id="company">
+				    <input type="text" name="company" placeholder="Company*" ng-value="company" required/>
+				  </span>
+				</div>
 				<div class="small-12 medium-6 column">
 					<span id="first-name">
             <input type="text" name="first-name" placeholder="First Name*" ng-value="first_name" required/>
@@ -25,7 +30,9 @@
           </span>
 				</div>
 				<div class="small-12 medium-8 column">
-				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
+				  <span id="phone">
+				    <input type="text" name="phone" placeholder="Phone*" ng-value="phone" required/>
+				  </span>
 				</div>
 				<div class="small-12 medium-4 column">
 				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='off'/>
@@ -37,7 +44,7 @@
 					<input class="button small" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-sample')"/>
 				</div>
 				<div class="small-12 column">
-				  <p class="disclaimer">* Required Field</p>
+				  <p class="disclaimer"><b>*</b> Denotes required field</p>
 				</div>
 			</fieldset>
 		</form>
@@ -68,7 +75,9 @@
           </span>
 				</div>
 				<div class="small-12 medium-8 column">
-				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
+				  <span id="phone">
+				    <input type="text" name="phone" placeholder="Phone*" ng-value="phone" required/>
+				  </span>
 				</div>
 				<div class="small-12 medium-4 column">
 				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='off'/>
@@ -80,7 +89,7 @@
 					<input class="button small" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-quote')" />
 				</div>
 				<div class="small-12 column">
-				  <p class="disclaimer">* Required Field</p>
+				  <p class="disclaimer">* Denotes required field</p>
 				</div>
 			</fieldset>
 		</form>
@@ -111,7 +120,9 @@
           </span>
 				</div>
 				<div class="small-12 medium-8 column">
-				  <input type="text" name="phone" placeholder="Phone" ng-value="phone"/>
+				  <span id="phone">
+				    <input type="text" name="phone" placeholder="Phone*" ng-value="phone" required/>
+				  </span>
 				</div>
 				<div class="small-12 medium-4 column">
 				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='off'/>
@@ -123,7 +134,7 @@
 					<input class="button small" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-contact')" />
 				</div>
 				<div class="small-12 column">
-				  <p class="disclaimer">* Required Field</p>
+				  <p class="disclaimer">* Denotes required field</p>
 				</div>
 			</fieldset>
 		</form>
