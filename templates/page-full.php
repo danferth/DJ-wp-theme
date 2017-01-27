@@ -79,7 +79,7 @@ if($form_success == "true"){
 	echo "
 		window.onload = swal({
 			title: 'Success',
-			text: '" . $first_name . " your ". $form_type ." submission was a success we will contact you shortly about your inquiry into ". $product_type ."!',
+			text: '<b>" . $first_name . "</b> your ". $form_type ." submission was a success we will contact you shortly about your inquiry into ". $product_type ."!',
 			type: 'success',
 			html: true,
 			confirmButtonText: 'Thanks'

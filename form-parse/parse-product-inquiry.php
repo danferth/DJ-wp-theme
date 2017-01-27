@@ -11,28 +11,56 @@ $next_page = $path;
 header('HTTP/1.1 303 See Other');
 
 	if (is_array($_POST)){
-		$body  = sprintf("<html>"); 
-		$body .= sprintf("<body>");
-		$body .= sprintf("<h2>" . $_POST['form'] . " Product Inquiry Submission</h2>\n");
-		$body .= sprintf("<hr />");
-		$body .= sprintf("\nName: <b>%s %s</b><br/>\n",$_POST['first-name'],$_POST['last-name']);
-
-		$body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
-		$body .= sprintf("Zip code: <b>%s</b><br/>\n",$_POST['zip-code']);
-		$body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
-		$body .= sprintf("<br />");
-		$body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
-		$body .= sprintf("Industry: <b>%s</b><br/>\n",$_POST['industry']);
-		$body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
-		$body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
-
-		$body .= sprintf("<br /><hr />");
-		$body .= sprintf("For internal use:<br />\n");
-		$body .= sprintf("<br />-----------------<br />\n");
-		$body .= sprintf("\nSender's IP: %s<br />\n", $_SERVER['REMOTE_ADDR']);
-		$body .= sprintf("\nReceived: %s<br />\n",date("Y-m-d H:i:s"));
-		$body .= sprintf("</body>");
-		$body .= sprintf("</html>");
+		if($form_type == 'contact' || $form_type == 'quote'){
+		  $body  = sprintf("<html>"); 
+		  $body .= sprintf("<body>");
+		  $body .= sprintf("<h2>Product Inquiry-" . $_POST['form'] . " submission</h2>\n");
+		  $body .= sprintf("<hr />");
+		  $body .= sprintf("<b>%s</b>\n", $_POST['company']);
+		  $body .= sprintf("\nName: <b>%s %s</b><br/>\n",$_POST['first-name'],$_POST['last-name']);
+  
+		  $body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
+		  $body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
+		  $body .= sprintf("City/State: <b>%s, %s</b>\n",$_POST['city'],$_POST['state']);
+		  $body .= sprintf("<br />");
+		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
+		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
+		  $body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
+  
+		  $body .= sprintf("<br /><hr />");
+		  $body .= sprintf("For internal use:<br />\n");
+		  $body .= sprintf("<br />-----------------<br />\n");
+		  $body .= sprintf("\nSender's IP: %s<br />\n", $_SERVER['REMOTE_ADDR']);
+		  $body .= sprintf("\nReceived: %s<br />\n",date("Y-m-d H:i:s"));
+		  $body .= sprintf("</body>");
+		  $body .= sprintf("</html>");
+		}elseif($form_type == 'sample'){
+		  $body  = sprintf("<html>"); 
+		  $body .= sprintf("<body>");
+		  $body .= sprintf("<h2>Product Inquiry-" . $_POST['form'] . " submission</h2>\n");
+		  $body .= sprintf("<hr />");
+		  $body .= sprintf("<b>%s</b>\n", $_POST['company']);
+		  $body .= sprintf("\nName: <b>%s %s</b><br/>\n",$_POST['first-name'],$_POST['last-name']);
+  
+		  $body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
+		  $body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
+		  $body .= sprintf("<b>Address:</b>\n");
+		  $body .= sprintf("%s\n",$_POST['address']);
+		  $body .= sprintf("%s\n",$_POST['building']);
+		  $body .= sprintf("<b>%s, %s %s</b>\n",$_POST['city'],$_POST['state'],$_POST['zipCode']);
+		  $body .= sprintf("<br />");
+		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
+		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
+		  $body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
+  
+		  $body .= sprintf("<br /><hr />");
+		  $body .= sprintf("For internal use:<br />\n");
+		  $body .= sprintf("<br />-----------------<br />\n");
+		  $body .= sprintf("\nSender's IP: %s<br />\n", $_SERVER['REMOTE_ADDR']);
+		  $body .= sprintf("\nReceived: %s<br />\n",date("Y-m-d H:i:s"));
+		  $body .= sprintf("</body>");
+		  $body .= sprintf("</html>");
+		}
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
