@@ -182,7 +182,7 @@ tic.controller('inquiryController', ['$scope', function($scope){
     $scope.state = sessionStorage.getItem('state');
   }
   if(sessionStorage.getItem('zipCode')){
-    $scope.zip_code = sessionStorage.getItem('zipCode');
+    $scope.zipcode = sessionStorage.getItem('zipCode');
   }
     $scope.setter = function(formID){
     var company   = $('#'+formID+' input[name="company"]').val(),

@@ -103,7 +103,7 @@
 				</div>
 				<div class="small-3 medium-4 column">
 				  <span id="zip">
-				    <input type="text" name="zip-code" placeholder="Zip code*" ng-value="zip-code" required/>
+				    <input type="text" name="zip-code" placeholder="Zip code*" ng-value="zipcode" required/>
 				  </span>
 				</div>
 				<div class="small-12 medium-12 column">
