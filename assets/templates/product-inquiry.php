@@ -88,7 +88,7 @@
 				</div>
 				<div class="small-12 medium-12 column">
 				  <span id="address">
-				    <input type="text" name="building" placeholder="Building/Room" ng-value="address"/>
+				    <input type="text" name="building" placeholder="Building/Room" ng-value="building"/>
 				  </span>
 				</div>
 				<div class="small-9 medium-5 column">

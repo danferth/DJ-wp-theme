@@ -181,10 +181,12 @@ tic.controller('inquiryController', ['$scope', function($scope){
   if(sessionStorage.getItem('state')){
     $scope.state = sessionStorage.getItem('state');
   }
-  if(sessionStorage.getItem('zipCode')){
-    $scope.zipcode = sessionStorage.getItem('zipCode');
+  if(sessionStorage.getItem('zipcode')){
+    $scope.zipcode = sessionStorage.getItem('zipcode');
   }
-    $scope.setter = function(formID){
+  $scope.path = window.location.pathname;
+  
+  $scope.setter = function(formID){
     var company   = $('#'+formID+' input[name="company"]').val(),
         fname     = $('#'+formID+' input[name="first-name"]').val(),
         lname     = $('#'+formID+' input[name="last-name"]').val(),
@@ -194,20 +196,27 @@ tic.controller('inquiryController', ['$scope', function($scope){
         building  = $('#'+formID+' input[name="building').val(),
         city      = $('#'+formID+' input[name="city"] ').val(),
         state     = $('#'+formID+' input[name="state"]').val();
-        zipCode   = $('#'+formID+' input[name="zip-code"]').val(),
+        zipcode   = $('#'+formID+' input[name="zip-code"]').val();
         
-    sessionStorage.setItem('company', company);
+    if(company != undefined){   
+      sessionStorage.setItem('company', company);
+    }
     sessionStorage.setItem('fname', fname);
     sessionStorage.setItem('lname', lname);
     sessionStorage.setItem('email', email);
     sessionStorage.setItem('phone', phone);
-    sessionStorage.setItem('address', address);
-    sessionStorage.setItem('building', building);
+    if(address != undefined){
+      sessionStorage.setItem('address', address);
+    }
+    if(building != undefined){
+      sessionStorage.setItem('building', building);
+    }
     sessionStorage.setItem('city', city);
     sessionStorage.setItem('state', state);
-    sessionStorage.setItem('zipCode', zipCode);
+    if(zipcode != undefined){
+      sessionStorage.setItem('zipcode', zipcode);
+    }
   };
-  $scope.path = window.location.pathname;
 }]);
 
 //======================================================================================
