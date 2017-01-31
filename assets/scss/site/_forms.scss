@@ -1,6 +1,9 @@
 fieldset{
     border-radius:.75rem;
     box-shadow:0 0 5px rgba(darken(white, 30%), .2);
+    h2{
+      margin-top:0;
+    }
 }
 
 .on-page-form{

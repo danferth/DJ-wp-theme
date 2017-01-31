@@ -84,5 +84,83 @@ tpm.mouseleave(function(){
 	$(this).removeClass('tada');
 });
 
+//==========================================
+//=======New Order payment selection========
+//==========================================
+var po_payment    = $('#order .po'),
+    cc_payment    = $('#order .credit-card'),
+    cc_trigger    = $('#order .payment-trigger #cc-payment'),
+    po_trigger    = $('#order .payment-trigger #po-payment'),
+    company_info  = $('#order fieldset.company-info'),
+    pa_info       = $('#order fieldset.pa-info'),
+    eu_info       = $('#order fieldset.eu-info'),
+    billing_info  = $('#order fieldset.billing-info'),
+    shipping_info = $('#order fieldset.shipping-info'),
+    order_info    = $('#order fieldset.order-info'),
+    submit_info   = $('#order fieldset.submit-info');
 
+//hide payment options & wait for selection
+po_payment.hide();
+cc_payment.hide();
+//dim all fieldsets & wait for triggers
+var fieldOff = function(target){
+  target.css({opacity: .25});
+  target.prop('disabled', true);
+};
+var fieldOn = function(target){
+  target.css({opacity: 1});
+  target.prop('disabled', false);
+};
+fieldOff(company_info);
+fieldOff(pa_info);
+fieldOff(eu_info);
+fieldOff(billing_info);
+fieldOff(shipping_info);
+fieldOff(order_info);
+fieldOff(submit_info);
+//show po or credit card fieldsets
+cc_trigger.change(function(){
+  if($(this).is(':checked')){
+    cc_payment.slideDown(350);
+    po_payment.hide();
+  }
+});
+po_trigger.change(function(){
+  if($(this).is(':checked')){
+    po_payment.slideDown(350);
+    cc_payment.hide();
+  }
+});
+
+//show next on focus of any input from previous
+$('#order .po input').focus(function(){
+  fieldOn(company_info);
+});
+$('#order .credit-card input').focus(function(){
+  fieldOn(company_info);
+});
+
+$('#order .company-info input[required]').focus(function(){
+  fieldOn(pa_info);
+});
+
+$('#order .pa-info input[required]').focus(function(){
+  fieldOn(eu_info);
+});
+
+$('#order .eu-info input').focus(function(){
+  fieldOn(billing_info);
+});
+
+$('#order .billing-info input[required]').focus(function(){
+  fieldOn(shipping_info);
+});
+
+$('#order .shipping-info input').focus(function(){
+  fieldOn(order_info);
+});
+
+$('#order .order-info input').focus(function(){
+  fieldOn(submit_info);
+});
 });//end doc ready
