@@ -6,8 +6,6 @@ header('HTTP/1.1 303 See Other');
 //variables form $_POST[]
 //Company Info
 $companyName = $_POST['companyName'];
-$poNumber = $_POST['poNumber'];
-$ccOrder = $_POST['ccOrder'];
 //Credit Card
 $nameOnCard = $_POST['nameOnCard'];
 $creditNumber = $_POST['creditNumber'];
@@ -30,6 +28,19 @@ switch ($CCcheck) {
 		$CC = "unknown card";
 		break;
 }
+//the po number issue (mindware unable to be edited so ... this)
+$ccPo = $_POST['ccPo'];
+$poNumber = $_POST['poNumber'];
+$realPo = "";
+if($ccPo === "" && $poNumber === ""){
+  $realPo = "";
+}elseif($ccPo != $poNumber){
+  if($ccPo === "" && $poNumber != ""){
+    $realPo = $poNumber;
+  }elseif($poNumber === "" && $ccPo != ""){
+    $realPo = $ccPo;
+  }
+}
 
 $ExpMo = $_POST['ExpMo'];
 $ExpYr = $_POST['ExpYr'];
@@ -38,6 +49,10 @@ $CCbillingAdd = $_POST['CCbillingAdd'];
 $CCbillingCity = $_POST['CCbillingCity'];
 $CCbillingState = $_POST['CCbillingState'];
 $CCbillingZip = $_POST['CCbillingZip'];
+//is is a cc order? (this is because we changed the form and parsing code is uneditable for the CSV)
+$ccOrder = $_POST['ccOrder'];
+
+
 //Purchaseing
 $purchEmail = $_POST['purchEmail'];
 $purchFname = $_POST['purchFname'];
@@ -178,7 +193,7 @@ $next_page = 'order/';
 		openssl_public_encrypt($creditZip, $creditZipLocked, $pubKey);
 		$creditZipUsable = base64_encode($creditZipLocked);
 
-		$companyInformation = array("$companyName","$poNumber","$ccOrder","$creditInfoUsable","$creditNumberUsable","$creditNameUsable","$creditAddressUsable","$creditCityUsable","$creditStateUsable","$creditZipUsable","$purchFname","$purchLname","$purchPhone","$purchExt","$purchFax","$userEmail","$userFname","$userLname","$userPhone","$shipAdd1","$shipAdd2","$shipAdd3","$shipCity","$shipState","$shipZip","$shipCountry","$shipAttn","$billEmail","$billFname","$billLname","$billPhone","$billAdd1","$billAdd2","$billAdd3","$billCity","$billState","$billZip","$billCountry","$billAttn","$comments","$purchEmail");
+		$companyInformation = array("$companyName","$realPo","$ccOrder","$creditInfoUsable","$creditNumberUsable","$creditNameUsable","$creditAddressUsable","$creditCityUsable","$creditStateUsable","$creditZipUsable","$purchFname","$purchLname","$purchPhone","$purchExt","$purchFax","$userEmail","$userFname","$userLname","$userPhone","$shipAdd1","$shipAdd2","$shipAdd3","$shipCity","$shipState","$shipZip","$shipCountry","$shipAttn","$billEmail","$billFname","$billLname","$billPhone","$billAdd1","$billAdd2","$billAdd3","$billCity","$billState","$billZip","$billCountry","$billAttn","$comments","$purchEmail");
 
 		$order1 = array("$Qty1","$Pno1","$price1","$quoteNo1","$shipping1","$dateReq1");
 		$order2 = array("$Qty2","$Pno2","$price2","$quoteNo2","$shipping2","$dateReq2");
@@ -217,7 +232,7 @@ $next_page = 'order/';
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		$body .= sprintf("<hr /><h3>Company: %s</h3>",$_POST['companyName']);
-		$body .= sprintf("PO #: <strong>%s</strong>\n",$_POST['poNumber']);
+		$body .= sprintf("PO #: <strong>%s</strong>\n",$realPo);
 		$body .= sprintf("<br />Credit Card Order: <strong>%s</strong>\n",$_POST['ccOrder']);
 
 		$body .= sprintf("<hr /><h3>Purchasing Information</h3>");
@@ -291,7 +306,7 @@ $next_page = 'order/';
 		$custEmail .= sprintf("P: 760.757.8080<br>\n");
 		$custEmail .= sprintf("F: 760.757.9367</p>\n");
 		$custEmail .= sprintf("<hr /><h3>Company: %s</h3>\n",$_POST['companyName']);
-		$custEmail .= sprintf("PO #: <strong>%s</strong>\n",$_POST['poNumber']);
+		$custEmail .= sprintf("PO #: <strong>%s</strong>\n",$realPo);
 		$custEmail .= sprintf("<br />Credit Card Order: <strong>%s</strong>\n",$_POST['ccOrder']);
 
 		$custEmail .= sprintf("<hr /><h3>Purchasing Information</h3>");
