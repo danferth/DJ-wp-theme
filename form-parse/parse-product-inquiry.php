@@ -21,7 +21,7 @@ header('HTTP/1.1 303 See Other');
   
 		  $body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
 		  $body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
-		  $body .= sprintf("City/State: <b>%s, %s</b>\n",$_POST['city'],$_POST['state']);
+		  $body .= sprintf("City State, Zip: <b>%s %s, %s</b>\n",$_POST['city'],$_POST['state'],$_POST['zipCode']);
 		  $body .= sprintf("<br /><br/>");
 		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
 		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);

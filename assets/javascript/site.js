@@ -163,4 +163,52 @@ $('#order .shipping-info input').focus(function(){
 $('#order .order-info input').focus(function(){
   fieldOn(submit_info);
 });
+
+//copy purchasing info to end user info
+$('#order #copy-pa-info').on('click', function(){
+  if($('#order #copy-pa-info').is(':checked')){
+    var pa_fname = $('#order input[name="purchFname"]').val();
+    var pa_lname = $('#order input[name="purchLname"]').val();
+    var pa_email = $('#order input[name="purchEmail"]').val();
+    var pa_phone = $('#order input[name="purchPhone"]').val();
+    $('#order input[name="userFname"]').val(pa_fname);
+    $('#order input[name="userLname"]').val(pa_lname);
+    $('#order input[name="userEmail"]').val(pa_email);
+    $('#order input[name="userPhone"]').val(pa_phone);
+  }else{
+    $('#order input[name="userFname"]').val("");
+    $('#order input[name="userLname"]').val("");
+    $('#order input[name="userEmail"]').val("");
+    $('#order input[name="userPhone"]').val("");
+  }
+});
+$('#order #copy-billing-info').on('click', function(){
+  if($('#order #copy-billing-info').is(':checked')){
+    var billing_1 = $('#order input#billing-1').val();
+    var billing_2 = $('#order input#billing-2').val();
+    var billing_3 = $('#order input#billing-3').val();
+    var billing_4 = $('#order input#billing-4').val();
+    var billing_5 = $('#order input#billing-5').val();
+    var billing_6 = $('#order input#billing-6').val();
+    var billing_7 = $('#order input#billing-7').val();
+    var billAttn = $('#order input#billAttn').val();
+    $('#order input#shipping-1').val(billing_1);
+    $('#order input#shipping-2').val(billing_2);
+    $('#order input#shipping-3').val(billing_3);
+    $('#order input#shipping-4').val(billing_4);
+    $('#order input#shipping-5').val(billing_5);
+    $('#order input#shipping-6').val(billing_6);
+    $('#order input#shipping-7').val(billing_7);
+    $('#order input#shipAttn').val(billAttn);
+  }else{
+    $('#order input#shipping-1').val("");
+    $('#order input#shipping-2').val("");
+    $('#order input#shipping-3').val("");
+    $('#order input#shipping-4').val("");
+    $('#order input#shipping-5').val("");
+    $('#order input#shipping-6').val("");
+    $('#order input#shipping-7').val("");
+    $('#order input#shipAttn').val("");
+  }
+});
 });//end doc ready

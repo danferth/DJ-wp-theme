@@ -28,14 +28,19 @@
 				    <input type="text" name="phone" placeholder="Phone*" ng-value="phone" required/>
 				  </span>
 				</div>
-				<div class="small-9 medium-8 column">
+				<div class="small-6 medium-6 column">
 				  <span id="city">
 				    <input type="text" name="city" placeholder="City*" ng-value="city" required/>
 				  </span>
 				</div>
-				<div class="small-3 medium-4 column">
+				<div class="small-3 medium-3 column">
 				  <span id="country">
 				    <input type="text" name="state" placeholder="State*" ng-value="state" required/>
+				  </span>
+				</div>
+				<div class="small-3 medium-3 column">
+				  <span id="zip">
+				    <input type="text" name="zip-code" placeholder="Zip*" ng-value="zipcode" required/>
 				  </span>
 				</div>
 				<div class="small-12 medium-12 column">
@@ -103,7 +108,7 @@
 				</div>
 				<div class="small-3 medium-4 column">
 				  <span id="zip">
-				    <input type="text" name="zip-code" placeholder="Zip code*" ng-value="zipcode" required/>
+				    <input type="text" name="zip-code" placeholder="Zip*" ng-value="zipcode" required/>
 				  </span>
 				</div>
 				<div class="small-12 medium-12 column">
@@ -150,14 +155,19 @@
 				    <input type="text" name="phone" placeholder="Phone*" ng-value="phone" required/>
 				  </span>
 				</div>
-				<div class="small-9 medium-8 column">
+				<div class="small-6 medium-6 column">
 				  <span id="city">
 				    <input type="text" name="city" placeholder="City*" ng-value="city" required/>
 				  </span>
 				</div>
-				<div class="small-3 medium-4 column">
+				<div class="small-3 medium-3 column">
 				  <span id="country">
 				    <input type="text" name="state" placeholder="State*" ng-value="state" required/>
+				  </span>
+				</div>
+				<div class="small-3 medium-3 column">
+				  <span id="zip">
+				    <input type="text" name="zip-code" placeholder="Zip*" ng-value="zipcode" required/>
 				  </span>
 				</div>
 				<div class="small-12 medium-12 column">
