@@ -32,8 +32,11 @@ switch ($CCcheck) {
 $ccPo = $_POST['ccPo'];
 $poNumber = $_POST['poNumber'];
 $realPo = "";
+
 if($ccPo === "" && $poNumber === ""){
   $realPo = "";
+}elseif($ccPo != "" && $ccPo === $poNumber){
+  $realPo = $poNumber;
 }elseif($ccPo != $poNumber){
   if($ccPo === "" && $poNumber != ""){
     $realPo = $poNumber;
@@ -380,7 +383,7 @@ $next_page = 'order/';
 			$mail->addReplyTo($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
 			//$mail->addAddress('customerservice@htslabs.com', 'Quick Order Form');
 			$mail->addAddress('web_test@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
-			$mail->Subject = "ORDER - " . $_POST['companyName'];
+			$mail->Subject = "New website Order from - " . $_POST['companyName'];
 			$mail->msgHTML($body);
 			$mail->addAttachment($file);
 			//unlink($file); uncomment to delete file

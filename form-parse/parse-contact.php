@@ -44,7 +44,7 @@ header('HTTP/1.1 303 See Other');
 			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
 			//$mail->addAddress('web_submissions@htslabs.com', 'Contact Form');
 			$mail->addAddress('web_test@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
-			$mail->Subject = "Contact From - " . $_POST['company'];
+			$mail->Subject = "General Contact From - " . $_POST['company'];
 			$mail->msgHTML($body);
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
