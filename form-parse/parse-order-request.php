@@ -53,7 +53,13 @@ $CCbillingCity = $_POST['CCbillingCity'];
 $CCbillingState = $_POST['CCbillingState'];
 $CCbillingZip = $_POST['CCbillingZip'];
 //is is a cc order? (this is because we changed the form and parsing code is uneditable for the CSV)
-$ccOrder = $_POST['ccOrder'];
+$ccOrder = '';
+if($_POST['creditNumber'] != ""){
+  $ccOrder = "Yes";
+}else{
+  $ccOrder = "No";
+}
+
 
 
 //Purchaseing
@@ -235,46 +241,46 @@ $next_page = 'order/';
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		$body .= sprintf("<hr /><h3>Company: %s</h3>",$_POST['companyName']);
-		$body .= sprintf("PO #: <strong>%s</strong>\n",$realPo);
-		$body .= sprintf("<br />Credit Card Order: <strong>%s</strong>\n",$_POST['ccOrder']);
+		$body .= sprintf("PO #: <b>%s</b>\n",$realPo);
+		$body .= sprintf("<br />Credit Card Order: <b>%s</b>\n",$_POST['ccOrder']);
 
 		$body .= sprintf("<hr /><h3>Purchasing Information</h3>");
-		$body .= sprintf("Purchasing Agent Email: <strong>%s</strong>\n",$_POST['purchEmail']);
-		$body .= sprintf("<br />Purchasing Agent Name: <strong>%s %s</strong>\n",$_POST['purchFname'],$_POST['purchLname']);
-		$body .= sprintf("<br />Purchasing Agent Telephone: <strong>%s</strong>\n",$_POST['purchPhone']);
-		$body .= sprintf("<br />Purchasing Agent Ext: <strong>%s</strong>\n",$_POST['purchExt']);
-		$body .= sprintf("<br />Purchasing Agent Fax: <strong>%s</strong>\n",$_POST['purchFax']);
+		$body .= sprintf("Purchasing Agent Email: <b>%s</b>\n",$_POST['purchEmail']);
+		$body .= sprintf("<br />Purchasing Agent Name: <b>%s %s</b>\n",$_POST['purchFname'],$_POST['purchLname']);
+		$body .= sprintf("<br />Purchasing Agent Telephone: <b>%s</b>\n",$_POST['purchPhone']);
+		$body .= sprintf("<br />Purchasing Agent Ext: <b>%s</b>\n",$_POST['purchExt']);
+		$body .= sprintf("<br />Purchasing Agent Fax: <b>%s</b>\n",$_POST['purchFax']);
 
 		$body .= sprintf("<hr /><h3>End User Information</h3>");
-		$body .= sprintf("End User Email: <strong>%s</strong>\n",$_POST['userEmail']);
-		$body .= sprintf("<br />End User Name: <strong>%s %s</strong>\n",$_POST['userFname'],$_POST['userLname']);
-		$body .= sprintf("<br />End User Telephone: <strong>%s</strong>\n",$_POST['userPhone']);
+		$body .= sprintf("End User Email: <b>%s</b>\n",$_POST['userEmail']);
+		$body .= sprintf("<br />End User Name: <b>%s %s</b>\n",$_POST['userFname'],$_POST['userLname']);
+		$body .= sprintf("<br />End User Telephone: <b>%s</b>\n",$_POST['userPhone']);
 
 		$body .= sprintf("<hr /><h3>Billing Information</h3>");
-		$body .= sprintf("Email: <strong>%s</strong>\n",$_POST['billEmail']);
-		$body .= sprintf("<br />Name: <strong>%s %s</strong>\n",$_POST['billFname'],$_POST['billLname']);
-		$body .= sprintf("<br />Telephone: <strong>%s</strong><br />\n",$_POST['billPhone']);
+		$body .= sprintf("Email: <b>%s</b>\n",$_POST['billEmail']);
+		$body .= sprintf("<br />Name: <b>%s %s</b>\n",$_POST['billFname'],$_POST['billLname']);
+		$body .= sprintf("<br />Telephone: <b>%s</b><br />\n",$_POST['billPhone']);
 
 		foreach ($_POST['billAdd'] as $address)
-		{$body .= sprintf("Address: <strong>%s</strong><br />\n",$address);}
+		{$body .= sprintf("Address: <b>%s</b><br />\n",$address);}
 
-		$body .= sprintf("City: <strong>%s</strong>\n",$_POST['billCity']);
-		$body .= sprintf("<br />State: <strong>%s</strong>\n",$_POST['billState']);
-		$body .= sprintf("<br />Zip: <strong>%s</strong>\n",$_POST['billZip']);
-		$body .= sprintf("<br />Country: <strong>%s</strong>\n",$_POST['billCountry']);
-		$body .= sprintf("<br />Attention: <strong>%s</strong>\n",$_POST['billAttn']);
+		$body .= sprintf("City: <b>%s</b>\n",$_POST['billCity']);
+		$body .= sprintf("<br />State: <b>%s</b>\n",$_POST['billState']);
+		$body .= sprintf("<br />Zip: <b>%s</b>\n",$_POST['billZip']);
+		$body .= sprintf("<br />Country: <b>%s</b>\n",$_POST['billCountry']);
+		$body .= sprintf("<br />Attention: <b>%s</b>\n",$_POST['billAttn']);
 
 		$body .= sprintf("<hr /><h3>Shipping Information</h3>");
 
 		foreach ($_POST['shipAdd'] as $address){
-			$body .= sprintf("Address: <strong>%s</strong><br />\n",$address);
+			$body .= sprintf("Address: <b>%s</b><br />\n",$address);
 		}
 
-		$body .= sprintf("City: <strong>%s</strong>\n",$_POST['shipCity']);
-		$body .= sprintf("<br />State: <strong>%s</strong>\n",$_POST['shipState']);
-		$body .= sprintf("<br />Zip: <strong>%s</strong>\n",$_POST['shipZip']);
-		$body .= sprintf("<br />Country: <strong>%s</strong>\n",$_POST['shipCountry']);
-		$body .= sprintf("<br />Attention: <strong>%s</strong>\n",$_POST['shipAttn']);
+		$body .= sprintf("City: <b>%s</b>\n",$_POST['shipCity']);
+		$body .= sprintf("<br />State: <b>%s</b>\n",$_POST['shipState']);
+		$body .= sprintf("<br />Zip: <b>%s</b>\n",$_POST['shipZip']);
+		$body .= sprintf("<br />Country: <b>%s</b>\n",$_POST['shipCountry']);
+		$body .= sprintf("<br />Attention: <b>%s</b>\n",$_POST['shipAttn']);
 
 		$body .= sprintf("<hr /><h3>Items Ordered</h3>");
 		$body .= sprintf("<table cellpadding=\"5\" border=\"1\" pa>\n");
@@ -309,46 +315,46 @@ $next_page = 'order/';
 		$custEmail .= sprintf("P: 760.757.8080<br>\n");
 		$custEmail .= sprintf("F: 760.757.9367</p>\n");
 		$custEmail .= sprintf("<hr /><h3>Company: %s</h3>\n",$_POST['companyName']);
-		$custEmail .= sprintf("PO #: <strong>%s</strong>\n",$realPo);
-		$custEmail .= sprintf("<br />Credit Card Order: <strong>%s</strong>\n",$_POST['ccOrder']);
+		$custEmail .= sprintf("PO #: <b>%s</b>\n",$realPo);
+		$custEmail .= sprintf("<br />Credit Card Order: <b>%s</b>\n",$_POST['ccOrder']);
 
 		$custEmail .= sprintf("<hr /><h3>Purchasing Information</h3>");
-		$custEmail .= sprintf("Purchasing Agent Email: <strong>%s</strong>\n",$_POST['purchEmail']);
-		$custEmail .= sprintf("<br />Purchasing Agent Name: <strong>%s %s</strong>\n",$_POST['purchFname'],$_POST['purchLname']);
-		$custEmail .= sprintf("<br />Purchasing Agent Telephone: <strong>%s</strong>\n",$_POST['purchPhone']);
-		$custEmail .= sprintf("<br />Purchasing Agent Ext: <strong>%s</strong>\n",$_POST['purchExt']);
-		$custEmail .= sprintf("<br />Purchasing Agent Fax: <strong>%s</strong>\n",$_POST['purchFax']);
+		$custEmail .= sprintf("Purchasing Agent Email: <b>%s</b>\n",$_POST['purchEmail']);
+		$custEmail .= sprintf("<br />Purchasing Agent Name: <b>%s %s</b>\n",$_POST['purchFname'],$_POST['purchLname']);
+		$custEmail .= sprintf("<br />Purchasing Agent Telephone: <b>%s</b>\n",$_POST['purchPhone']);
+		$custEmail .= sprintf("<br />Purchasing Agent Ext: <b>%s</b>\n",$_POST['purchExt']);
+		$custEmail .= sprintf("<br />Purchasing Agent Fax: <b>%s</b>\n",$_POST['purchFax']);
 
 		$custEmail .= sprintf("<hr /><h3>End User Information</h3>");
-		$custEmail .= sprintf("End User Email: <strong>%s</strong>\n",$_POST['userEmail']);
-		$custEmail .= sprintf("<br />End User Name: <strong>%s %s</strong>\n",$_POST['userFname'],$_POST['userLname']);
-		$custEmail .= sprintf("<br />End User Telephone: <strong>%s</strong>\n",$_POST['userPhone']);
+		$custEmail .= sprintf("End User Email: <b>%s</b>\n",$_POST['userEmail']);
+		$custEmail .= sprintf("<br />End User Name: <b>%s %s</b>\n",$_POST['userFname'],$_POST['userLname']);
+		$custEmail .= sprintf("<br />End User Telephone: <b>%s</b>\n",$_POST['userPhone']);
 
 		$custEmail .= sprintf("<hr /><h3>Billing Information</h3>");
-		$custEmail .= sprintf("Email: <strong>%s</strong>\n",$_POST['billEmail']);
-		$custEmail .= sprintf("<br />Name: <strong>%s %s</strong>\n",$_POST['billFname'],$_POST['billLname']);
-		$custEmail .= sprintf("<br />Telephone: <strong>%s</strong><br />\n",$_POST['billPhone']);
+		$custEmail .= sprintf("Email: <b>%s</b>\n",$_POST['billEmail']);
+		$custEmail .= sprintf("<br />Name: <b>%s %s</b>\n",$_POST['billFname'],$_POST['billLname']);
+		$custEmail .= sprintf("<br />Telephone: <b>%s</b><br />\n",$_POST['billPhone']);
 
 		foreach ($_POST['billAdd'] as $address)
-		{$custEmail .= sprintf("Address: <strong>%s</strong><br />\n",$address);}
+		{$custEmail .= sprintf("Address: <b>%s</b><br />\n",$address);}
 
-		$custEmail .= sprintf("City: <strong>%s</strong>\n",$_POST['billCity']);
-		$custEmail .= sprintf("<br />State: <strong>%s</strong>\n",$_POST['billState']);
-		$custEmail .= sprintf("<br />Zip: <strong>%s</strong>\n",$_POST['billZip']);
-		$custEmail .= sprintf("<br />Country: <strong>%s</strong>\n",$_POST['billCountry']);
-		$custEmail .= sprintf("<br />Attention: <strong>%s</strong>\n",$_POST['billAttn']);
+		$custEmail .= sprintf("City: <b>%s</b>\n",$_POST['billCity']);
+		$custEmail .= sprintf("<br />State: <b>%s</b>\n",$_POST['billState']);
+		$custEmail .= sprintf("<br />Zip: <b>%s</b>\n",$_POST['billZip']);
+		$custEmail .= sprintf("<br />Country: <b>%s</b>\n",$_POST['billCountry']);
+		$custEmail .= sprintf("<br />Attention: <b>%s</b>\n",$_POST['billAttn']);
 
 		$custEmail .= sprintf("<hr /><h3>Shipping Information</h3>");
 
 		foreach ($_POST['shipAdd'] as $address){
-			$custEmail .= sprintf("Address: <strong>%s</strong><br />\n",$address);
+			$custEmail .= sprintf("Address: <b>%s</b><br />\n",$address);
 		}
 
-		$custEmail .= sprintf("City: <strong>%s</strong>\n",$_POST['shipCity']);
-		$custEmail .= sprintf("<br />State: <strong>%s</strong>\n",$_POST['shipState']);
-		$custEmail .= sprintf("<br />Zip: <strong>%s</strong>\n",$_POST['shipZip']);
-		$custEmail .= sprintf("<br />Country: <strong>%s</strong>\n",$_POST['shipCountry']);
-		$custEmail .= sprintf("<br />Attention: <strong>%s</strong>\n",$_POST['shipAttn']);
+		$custEmail .= sprintf("City: <b>%s</b>\n",$_POST['shipCity']);
+		$custEmail .= sprintf("<br />State: <b>%s</b>\n",$_POST['shipState']);
+		$custEmail .= sprintf("<br />Zip: <b>%s</b>\n",$_POST['shipZip']);
+		$custEmail .= sprintf("<br />Country: <b>%s</b>\n",$_POST['shipCountry']);
+		$custEmail .= sprintf("<br />Attention: <b>%s</b>\n",$_POST['shipAttn']);
 
 		$custEmail .= sprintf("<hr /><h3>Items Ordered</h3>");
 		$custEmail .= sprintf("<table cellpadding=\"5\" border=\"1\" pa>\n");
@@ -381,8 +387,8 @@ $next_page = 'order/';
 			$mail = new PHPMailer;
 			$mail->setFrom($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
 			$mail->addReplyTo($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
-			//$mail->addAddress('customerservice@htslabs.com', 'Quick Order Form');
-			$mail->addAddress('web_test@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
+			//$mail->addAddress('website_order@htslabs.com', 'New Order Form');
+			$mail->addAddress('web_test@htslabs.com', 'Testing');
 			$mail->Subject = "New website Order from - " . $_POST['companyName'];
 			$mail->msgHTML($body);
 			$mail->addAttachment($file);

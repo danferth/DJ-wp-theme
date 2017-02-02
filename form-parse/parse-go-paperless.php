@@ -31,8 +31,8 @@ header('HTTP/1.1 303 See Other');
 			$mail = new PHPMailer;
 			$mail->setFrom($_POST['email'], $_POST['fname']." ".$_POST['lname']);
 			$mail->addReplyTo($_POST['email'], $_POST['fname']." ".$_POST['lname']);
-			//$mail->addAddress('accountsreceivable@htslabs.com', 'Go paperless');
-			$mail->addAddress('web_test@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
+			//$mail->addAddress('paperless@htslabs.com', 'Go paperless');
+			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = $_POST['company'] . " Wants to go Paperless!";
 			$mail->msgHTML($body);
 			if (!$mail->send()){

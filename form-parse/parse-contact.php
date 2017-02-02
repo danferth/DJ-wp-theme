@@ -42,8 +42,8 @@ header('HTTP/1.1 303 See Other');
 			$mail = new PHPMailer;
 			$mail->setFrom($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
 			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
-			//$mail->addAddress('web_submissions@htslabs.com', 'Contact Form');
-			$mail->addAddress('web_test@htslabs.com', 'Contact Form');	//uncoment for testing to dan@htslabs.com
+			//$mail->addAddress('general_con@htslabs.com', 'Contact Form');
+			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = "General Contact From - " . $_POST['company'];
 			$mail->msgHTML($body);
 			if (!$mail->send()){

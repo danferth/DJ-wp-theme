@@ -21,7 +21,7 @@ header('HTTP/1.1 303 See Other');
   
 		  $body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
 		  $body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
-		  $body .= sprintf("City State, Zip: <b>%s %s, %s</b>\n",$_POST['city'],$_POST['state'],$_POST['zipCode']);
+		  $body .= sprintf("City State, Zip: <b>%s %s, %s</b>\n",$_POST['city'],$_POST['state'],$_POST['zip-code']);
 		  $body .= sprintf("<br /><br/>");
 		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
 		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
@@ -39,16 +39,15 @@ header('HTTP/1.1 303 See Other');
 		  $body .= sprintf("<body>");
 		  $body .= sprintf("<h2>Product Inquiry-" . $_POST['form'] . " submission</h2>\n");
 		  $body .= sprintf("<hr />");
-		  $body .= sprintf("CompNy: <b>%s</b><br/>\n", $_POST['company']);
+		  $body .= sprintf("Company: <b>%s</b><br/>\n", $_POST['company']);
 		  $body .= sprintf("\nName: <b>%s %s</b><br/>\n",$_POST['first-name'],$_POST['last-name']);
   
 		  $body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
 		  $body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
-		  $body .= sprintf("<b>Address:</b><br/>\n");
-		  $body .= sprintf("%s<br/>\n",$_POST['address']);
-		  $body .= sprintf("%s<br/>\n",$_POST['building']);
-		  $body .= sprintf("<b>%s, %s %s</b>\n",$_POST['city'],$_POST['state'],$_POST['zipCode']);
-		  $body .= sprintf("<br /><br/>");
+		  $body .= sprintf("Address: <b>%s<br/>\n", $_POST['address']);
+		  $body .= sprintf("Building: <b>%s</b><br/>\n",$_POST['building']);
+		  $body .= sprintf("City/State/Zip: <b>%s, %s %s</b><br/>\n",$_POST['city'],$_POST['state'],$_POST['zip-code']);
+		  $body .= sprintf("<br/>");
 		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
 		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
 		  $body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
@@ -66,8 +65,8 @@ header('HTTP/1.1 303 See Other');
 			$mail = new PHPMailer;
 			$mail->setFrom($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
 			$mail->addReplyTo($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
-			//$mail->addAddress('web_submissions@htslabs.com', 'Product Inquiry');
-			$mail->addAddress('web_test@htslabs.com', ' Product Inquiry');	//uncoment for testing to dan@htslabs.com
+			//$mail->addAddress('product_inq@htslabs.com', 'Product Inquiry');
+			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = "Website " . $_POST['form'] . " inquiry from - " . $_POST['company'];
 			$mail->msgHTML($body);
 			if (!$mail->send()){
