@@ -44,7 +44,7 @@ header('HTTP/1.1 303 See Other');
   
 		  $body .= sprintf("\nEmail: <b>%s</b><br/>\n",$_POST['email']);
 		  $body .= sprintf("Phone: <b>%s</b><br/>\n",$_POST['phone']);
-		  $body .= sprintf("Address: <b>%s<br/>\n", $_POST['address']);
+		  $body .= sprintf("Address: <b>%s</b><br/>\n", $_POST['address']);
 		  $body .= sprintf("Building: <b>%s</b><br/>\n",$_POST['building']);
 		  $body .= sprintf("City/State/Zip: <b>%s, %s %s</b><br/>\n",$_POST['city'],$_POST['state'],$_POST['zip-code']);
 		  $body .= sprintf("<br/>");
@@ -63,7 +63,7 @@ header('HTTP/1.1 303 See Other');
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
+			$mail->setFrom('web_test@htslabs.com', 'testing');
 			$mail->addReplyTo($_POST['email'], $_POST['first-name']." ".$_POST['last-name']);
 			//$mail->addAddress('product_inq@htslabs.com', 'Product Inquiry');
 			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com

@@ -23,14 +23,13 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("<br />-----------------<br />\n");
 		$body .= sprintf("\nSender's IP: %s<br />\n", $_SERVER['REMOTE_ADDR']);
 		$body .= sprintf("\nReceived: %s<br />\n",date("Y-m-d H:i:s"));
-
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom($_POST['email'], $_POST['fname']." ".$_POST['lname']);
-			$mail->addReplyTo($_POST['email'], $_POST['fname']." ".$_POST['lname']);
+			$mail->setFrom('web_test@htslabs.com', 'testing');
+			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
 			//$mail->addAddress('paperless@htslabs.com', 'Go paperless');
 			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com
 			$mail->Subject = $_POST['company'] . " Wants to go Paperless!";

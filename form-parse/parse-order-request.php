@@ -379,13 +379,13 @@ $next_page = 'order/';
 			$Custmail->setFrom('customerservice@htslabs.com', "Thomson Instrument Company");
 			$Custmail->addReplyTo('customerservice@htslabs.com', "Thomson Instrument Company");
 			$Custmail->addAddress($_POST['purchEmail'], 'Thomson Quick Order Form');
-			$Custmail->Subject = "Copy of Thomson Quick Order for – " . $_POST['companyName'];
+			$Custmail->Subject = "Copy of Thomson Quick Order for - " . $_POST['companyName'];
 			$Custmail->msgHTML($custEmail);
 			$Custmail->send();
 
 			//to Thomson
 			$mail = new PHPMailer;
-			$mail->setFrom($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
+			$mail->setFrom('web_test@htslabs.com', 'Testing');
 			$mail->addReplyTo($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
 			//$mail->addAddress('website_order@htslabs.com', 'New Order Form');
 			$mail->addAddress('web_test@htslabs.com', 'Testing');
