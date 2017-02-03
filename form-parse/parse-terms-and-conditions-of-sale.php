@@ -34,10 +34,9 @@ header('HTTP/1.1 303 See Other');
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom('web_test@htslabs.com', 'testing');
+			$mail->setFrom('toc_agree@htslabs.com', 'T&C Form');
 			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
-			//$mail->addAddress('toc_agree@htslabs.com', 'T&C Form');
-			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com
+			$mail->addAddress('toc_agree@htslabs.com', 'T&C Form');
 			$mail->Subject = "Terms Acceptance - " . $_POST['company'];
 			$mail->msgHTML($body);
 			if (!$mail->send()){

@@ -40,10 +40,9 @@ header('HTTP/1.1 303 See Other');
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom('web_test@htslabs.com', 'testing');
+			$mail->setFrom('general_con@htslabs.com', 'Contact Form');
 			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
-			//$mail->addAddress('general_con@htslabs.com', 'Contact Form');
-			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com
+			$mail->addAddress('general_con@htslabs.com', 'Contact Form');
 			$mail->Subject = "General Contact From - " . $_POST['company'];
 			$mail->msgHTML($body);
 			if (!$mail->send()){

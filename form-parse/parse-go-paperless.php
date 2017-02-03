@@ -28,10 +28,9 @@ header('HTTP/1.1 303 See Other');
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom('web_test@htslabs.com', 'testing');
+			$mail->setFrom('paperless@htslabs.com', 'Go paperless');
 			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
-			//$mail->addAddress('paperless@htslabs.com', 'Go paperless');
-			$mail->addAddress('web_test@htslabs.com', 'testing');	//uncoment for testing to dan@htslabs.com
+			$mail->addAddress('paperless@htslabs.com', 'Go paperless');
 			$mail->Subject = $_POST['company'] . " Wants to go Paperless!";
 			$mail->msgHTML($body);
 			if (!$mail->send()){

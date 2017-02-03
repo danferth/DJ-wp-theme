@@ -2,8 +2,6 @@
 require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
 header('HTTP/1.1 303 See Other');
-
-//variables form $_POST[]
 //Company Info
 $companyName = $_POST['companyName'];
 //Credit Card
@@ -54,7 +52,7 @@ $CCbillingState = $_POST['CCbillingState'];
 $CCbillingZip = $_POST['CCbillingZip'];
 //is is a cc order? (this is because we changed the form and parsing code is uneditable for the CSV)
 $ccOrder = '';
-if($_POST['creditNumber'] != ""){
+if(isset($_POST['creditNumber']) && $_POST['creditNumber'] != ""){
   $ccOrder = "Yes";
 }else{
   $ccOrder = "No";
@@ -242,7 +240,7 @@ $next_page = 'order/';
 		$body .= sprintf("<body>");
 		$body .= sprintf("<hr /><h3>Company: %s</h3>",$_POST['companyName']);
 		$body .= sprintf("PO #: <b>%s</b>\n",$realPo);
-		$body .= sprintf("<br />Credit Card Order: <b>%s</b>\n",$_POST['ccOrder']);
+		$body .= sprintf("<br />Credit Card Order: <b>%s</b>\n",$ccOrder);
 
 		$body .= sprintf("<hr /><h3>Purchasing Information</h3>");
 		$body .= sprintf("Purchasing Agent Email: <b>%s</b>\n",$_POST['purchEmail']);
@@ -308,7 +306,7 @@ $next_page = 'order/';
 		$custEmail  = sprintf("<html>"); 
 		$custEmail .= sprintf("<body>");
 		$custEmail .= sprintf("<h2>Copy of your Thomson Quick Order</h2>\n");
-		$custEmail .= sprintf("<p>Thank you for your order. Please see below for a copy of your submittal. Please contact Customer Service with any changes or additions. Customer Service will send an additional confirm once processed.</p>\n");
+		$custEmail .= sprintf("<p>Thank you for your order. Below is a copy of your submittal. Please contact Customer Service with any changes or additions. Customer Service will send an additional confirm once processed.</p>\n");
 		$custEmail .= sprintf("<p>Customer Service<br>\n");
 		$custEmail .= sprintf("Thomson Instrument Company<br>\n");
 		$custEmail .= sprintf("customerservice@htslabs.com<br>\n");
@@ -316,7 +314,7 @@ $next_page = 'order/';
 		$custEmail .= sprintf("F: 760.757.9367</p>\n");
 		$custEmail .= sprintf("<hr /><h3>Company: %s</h3>\n",$_POST['companyName']);
 		$custEmail .= sprintf("PO #: <b>%s</b>\n",$realPo);
-		$custEmail .= sprintf("<br />Credit Card Order: <b>%s</b>\n",$_POST['ccOrder']);
+		$custEmail .= sprintf("<br />Credit Card Order: <b>%s</b>\n",$ccOrder);
 
 		$custEmail .= sprintf("<hr /><h3>Purchasing Information</h3>");
 		$custEmail .= sprintf("Purchasing Agent Email: <b>%s</b>\n",$_POST['purchEmail']);
@@ -385,10 +383,9 @@ $next_page = 'order/';
 
 			//to Thomson
 			$mail = new PHPMailer;
-			$mail->setFrom('web_test@htslabs.com', 'Testing');
+			$mail->setFrom('website_order@htslabs.com', 'New Order Form');
 			$mail->addReplyTo($_POST['purchEmail'], $_POST['purchFname']." ".$_POST['purchLname']);
-			//$mail->addAddress('website_order@htslabs.com', 'New Order Form');
-			$mail->addAddress('web_test@htslabs.com', 'Testing');
+			$mail->addAddress('website_order@htslabs.com', 'New Order Form');
 			$mail->Subject = "New website Order from - " . $_POST['companyName'];
 			$mail->msgHTML($body);
 			$mail->addAttachment($file);
