@@ -99,10 +99,10 @@ if($form_success == "true"){
 
 ?>
 
-function hasHTML5validation(){
-	return (typeof document.createElement('input').checkValidity == 'function');
-}
-if(!hasHTML5validation() ){
+//function hasHTML5validation(){
+//	return (typeof document.createElement('input').checkValidity == 'function');
+//}
+//if(!hasHTML5validation() ){
 	<?php 
 	echo 'onload=function(){document.forms["product-inquery-sample"].reset()};
 	onload=function(){document.forms["product-inquery-quote"].reset()};
@@ -112,7 +112,7 @@ if(!hasHTML5validation() ){
 		$("#product-inquery-quote").validate();
 		$("#product-inquery-contact").validate();
 	});'; ?>
-}
+//}
 </script>
 
 <?php get_footer(); ?>
