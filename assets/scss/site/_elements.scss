@@ -14,9 +14,30 @@
 .nav-section a{
     color:$oil !important;
     font-weight:bold !important;
+    @media screen and(max-width:$medium-breakpoint){
+    color:$white !important;
+    font-weight:normal !important;
+  }
 }
 .nav-about a{
   color:$primary-color !important;
+  @media screen and(max-width:$medium-breakpoint){
+    color:$info-color !important;
+  }
+}
+//for offcanvas menu having scroll bar on submenu
+.left-submenu{
+  height:auto;
+}
+//off canvas bottom border
+ul.off-canvas-list li a{
+  border-bottom:none;
+}
+//off canvas back
+.left-submenu .back>a{
+  background:darken($primary-color, 20%);
+  color:$gainsboro;
+  font-weight:normal;
 }
 //hidden input for spam protection
 #important-input{
