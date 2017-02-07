@@ -176,27 +176,6 @@ label.error{
 }
 
 //=====================================================================
-//==============================prefooter==============================
-//=====================================================================
-.prefooter-wrap{
-    background:$white;
-    margin-top:4rem;
-  .prefooter{
-    padding: 1rem;
-    border-top:3px solid $ghost;
-    background:transparent;
-    transition:background 300ms;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    &:hover{
-      background:$ghost;
-    }
-  }
-}
-
-//=====================================================================
 //=======================Part number block=============================
 //=====================================================================
 

@@ -20,13 +20,6 @@ if(isset($_GET['product'])){
 	$product_type = $_GET['product'];
 }
 
-//for prefooter
-if(get_post_meta($post->ID, "has-prefooter")){
-	$prefooter_class = "has-prefooter";
-}else{
-	$prefooter_class = "";
-}
-
 //for angular
 $ng_controller = "";
 if(get_post_meta($post->ID, "ng-controller")){
@@ -39,7 +32,7 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
 
-<div class="row full-page-top <?php echo $prefooter_class; ?>" ng-app="tic" ng-controller="ticController">
+<div class="row full-page-top" ng-app="tic" ng-controller="ticController">
 	<?php /* Start loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>" <?php echo $ng_controller; ?>>
