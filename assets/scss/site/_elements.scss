@@ -225,7 +225,7 @@ label.error{
   img{
     width:auto;
     height:auto;
-    max-height:3rem;
+    max-height:3.5rem;
     border:1px solid $ghost;
     border-radius:.2rem;
   }
@@ -242,16 +242,16 @@ label.error{
   }
   .partnumber_title{
     font-weight:bold;
-    margin-bottom:.15rem;
+    //margin-bottom:.15rem;
     text-decoration:underline;
   }
   .partnumber_description{
-    font-style:italic;
-    font-size:.6rem;
+    //font-style:italic;
+    font-size:.68rem;
   }
   .partnumber_number{
     margin-top:.15rem;
-    font-size:.7rem;
+    font-size:.75rem;
     font-weight:bold;
   }
 }
