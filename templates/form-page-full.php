@@ -114,7 +114,7 @@ if($form_success == "true"){
 //if(!hasHTML5validation() ){
 	<?php 
 	echo 'onload=function(){document.forms["' . $form_id .'"].reset()};
-	jQuery(document).ready(function($){
+		$(window).bind("load", function() {
 		$("#' . $form_id . '").validate();
 	});'; ?>
 //}

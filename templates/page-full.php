@@ -103,15 +103,14 @@ if($form_success == "true"){
 //	return (typeof document.createElement('input').checkValidity == 'function');
 //}
 //if(!hasHTML5validation() ){
-	<?php 
-	echo 'onload=function(){document.forms["product-inquery-sample"].reset()};
-	onload=function(){document.forms["product-inquery-quote"].reset()};
-	onload=function(){document.forms["product-inquery-contact"].reset()};
-	jQuery(document).ready(function($){
-		$("#product-inquery-sample").validate();
-		$("#product-inquery-quote").validate();
-		$("#product-inquery-contact").validate();
-	});'; ?>
+  onload=function(){document.forms["product-inquiry-sample"].reset()};
+	onload=function(){document.forms["product-inquiry-quote"].reset()};
+	onload=function(){document.forms["product-inquiry-contact"].reset()};
+	$(window).bind("load", function() {
+		  $("#product-inquiry-sample").validate();
+		  $("#product-inquiry-quote").validate();
+		  $("#product-inquiry-contact").validate();
+});
 //}
 </script>
 
