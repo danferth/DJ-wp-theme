@@ -20,11 +20,11 @@ header('HTTP/1.1 303 See Other');
 		$body .= sprintf("<b>page:</b> %s<br/>\n", $_POST['page']);
 
 		if ($_POST['comment'] == "So what is the actual problem, issue or bug?"){
-			$comment = "Woops! the customer didn't leave a message, odd since it was required";
-		}else{$comment = $_POST['coment'];}
+			$commentSafe = "Woops! the customer didn't leave a message, odd since it was required";
+		}else{$comment = $_POST['comment'];}
 		$commentSafe = strip_tags($comment);
 
-		$body .= wordwrap(sprintf("\nMessage:\n\n".$commentSafe."<br />",75,"\n"));
+		$body .= wordwrap(sprintf("\n<b>Message:</b><br/>\n".$commentSafe."<br />",75,"\n"));
 
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");

@@ -22,6 +22,7 @@ article header{
   text-shadow:0 1px 0 $snow;
   @media screen and (max-width:$small-breakpoint){
     font-size:1.5rem;
+    margin-bottom:1rem;
   }
 }
 
