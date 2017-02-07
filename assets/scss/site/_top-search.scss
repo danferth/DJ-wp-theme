@@ -7,6 +7,8 @@ form.top-search-bar{
     input, button{
         margin:0;
     }
-    
+  @media print{
+    display:none;
+  }  
     
 }//end form.top-search-bar

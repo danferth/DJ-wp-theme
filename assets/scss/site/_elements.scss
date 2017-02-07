@@ -25,6 +25,12 @@
     color:$info-color !important;
   }
 }
+//print for top bar and off canvas stuff
+.top-bar-container, .left-off-canvas-menu, nav.tab-bar{
+  @media print{
+    display:none;
+  }
+}
 //for offcanvas menu having scroll bar on submenu
 .left-submenu{
   height:auto;
@@ -722,6 +728,9 @@ table.product-ref-table{
 			margin-bottom:0; //manipulated in directives.js under product_page
 		}
 	}
+	@media print{
+	  display:none;
+	}
 }
 .product-inquiry-button{
   margin:0;
@@ -1053,6 +1062,9 @@ table.product-ref-table{
       }
     }
   }
+  @media print{
+    display:none;
+  }
 }
 
 
@@ -1208,6 +1220,9 @@ table.product-ref-table{
   @media screen and(max-width:$row-width){
     display:none;
   }
+  @media print{
+    display:none;
+  } 
   ul{
     background:$snow;
     margin: 0 4rem 0 0;
