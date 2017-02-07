@@ -96,9 +96,6 @@ if($form_success == "true"){
 //	return (typeof document.createElement('input').checkValidity == 'function');
 //}
 //if(!hasHTML5validation() ){
-  onload=function(){document.forms["product-inquiry-sample"].reset()};
-	onload=function(){document.forms["product-inquiry-quote"].reset()};
-	onload=function(){document.forms["product-inquiry-contact"].reset()};
 	$(window).bind("load", function() {
 		  $("#product-inquiry-sample").validate();
 		  $("#product-inquiry-quote").validate();
