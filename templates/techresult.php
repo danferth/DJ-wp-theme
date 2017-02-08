@@ -33,7 +33,7 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
 
-<div id="tech_result_page" class="row full-page-top <?php echo $prefooter_class; ?>" ng-app="tic" ng-controller="ticController">
+<div id="tech_result_page" class="row full-page-top" ng-app="tic" ng-controller="ticController" ng-strict-di>
 	<?php /* Start loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>" <?php echo $ng_controller; ?>>

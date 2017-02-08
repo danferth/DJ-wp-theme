@@ -1,19 +1,17 @@
 jQuery(function($){
 
-//===========
+/*===========
 //main blocks
-//=============
+=============*/
 
 var mBlocks = $('.main-block');
-//click to get to `data-mainblocklink`
+// click to get to `data-mainblocklink`
 mBlocks.on('click',function(){
 	var link = $(this).attr('data-mainblocklink');
 	window.location.assign(link);
 });
 
-//on load animation
 TweenLite.to(mBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
-
 //=======================
 //related products module
 //=======================
@@ -32,9 +30,6 @@ var footer_address = $('.footer_foot');
 var foot_tl = new TimelineMax();
 foot_tl.add( TweenMax.staggerFrom(footer_articles, .8, {delay:.25, y:300, opacity:0, ease:Circ.easeOut}, .20) );
 foot_tl.add( TweenMax.from(footer_address, 1, {opacity:0}) );
-// foot_tl.add(  );
-// foot_tl.add(  );
-// foot_tl.add(  );
 foot_tl.pause();
 
 var footer_waypint = new Waypoint({
@@ -211,4 +206,5 @@ $('#order #copy-billing-info').on('click', function(){
     $('#order input#shipAttn').val("");
   }
 });
-});//end doc ready
+//end doc ready
+});

@@ -10,15 +10,15 @@ var url = protocol + "//" + hostname;
 //one module to rull them all
 var tic = angular.module('tic', ['ngSanitize']);
 
-tic.config(function($sceDelegateProvider) {
+tic.config(['$sceDelegateProvider', function($sceDelegateProvider) {
     $sceDelegateProvider.resourceUrlWhitelist(['self']);
-    });
+    }]);
 
-tic.filter('trustUrl', function ($sce) {
+tic.filter('trustUrl', ['$sce', function ($sce) {
     return function(url) {
       return $sce.trustAsResourceUrl(url);
     };
-});
+}]);
 
 tic.filter('tostring', function(){
     return function(item){
@@ -45,7 +45,7 @@ tic.filter('yesNo', function(){
   
 });
 
-tic.factory('dataFactory', function($http, $filter){
+tic.factory('dataFactory', ['$http', '$filter', function($http, $filter){
   var factory = {};
   factory.get_chemical = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/chemical.json');
@@ -69,7 +69,21 @@ tic.factory('dataFactory', function($http, $filter){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json');
   };
   return factory;
-});
+}]);
+
+//=============================================================================
+//=========FOR PRODUCTION======================================================
+//=============================================================================
+//stuff for production see: https://docs.angularjs.org/guide/production
+//DI strict mode enabled on tamplate pages with `ng-strict-di`
+tic.config(['$compileProvider', function ($compileProvider) {
+  $compileProvider.debugInfoEnabled(false);
+  //Disable comment and css class directives
+  $compileProvider.commentDirectivesEnabled(false);
+  $compileProvider.cssClassDirectivesEnabled(false);
+}]);
+
+
 
 //=============================================================================
 //=========MAIN SITE CONTROLLER================================================

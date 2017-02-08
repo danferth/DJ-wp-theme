@@ -1257,7 +1257,12 @@ table.product-ref-table{
     right:1rem;
   }
   .tweet-link{
+    float:right;//needed for animate.css
     opacity:0;
+    @media screen and(max-width:$small-breakpoint){
+      float:left;
+      margin-top:1rem;
+    }
     &:before{
       content:"Share this page!";
       margin-right:.25rem;
