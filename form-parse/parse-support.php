@@ -1,7 +1,7 @@
 <?php
 require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
-$first_name = trim($_POST['name']);
+$first_name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
 $query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
  // 1) form slug for redirect

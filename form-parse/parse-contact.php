@@ -1,35 +1,46 @@
 <?php
 require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
-$first_name = trim($_POST['firstName']);
-$query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'contact-form/';
 header('HTTP/1.1 303 See Other');
+
+//trim post
+function trim_value($value){
+  $value = trim($value);
+}
+array_filter($_POST, 'trim_value');
+
+//form variables
+$title   = filter_var($_POST['title'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$fname   = filter_var($_POST['firstName'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$lname   = filter_var($_POST['lastName'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$phone   = filter_var($_POST['telephone'], FILTER_SANITIZE_NUMBER_INT);
+$email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+$company = filter_var($_POST['company'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$comment = filter_var($_POST['message'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+
+//for body and sending email
+$query_string = '?first_name=' . $fname;
+
+if ($_POST['title'] == "title"){
+	$title = "";
+}
 
 	if (is_array($_POST)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		$body .= sprintf("<h2>Contact form submission results:</h2>\n");
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\nCompany: <b>%s</b><br />\n",$_POST['company']);
-		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$_POST['firstName'],$_POST['lastName']);
-
-		if ($_POST['title'] == "title"){
-			$title = "";
-		}else{$title = $_POST['title'];}
-
+		
+		$body .= sprintf("\nCompany: <b>%s</b><br />\n",$company);
+		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$fname,$lname);
 		$body .= sprintf("\nTitle: <b>".$title."</b><br />\n");
-		$body .= sprintf("\nTelephone: <b>%s</b><br />\n",$_POST['telephone']);
-		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$_POST['email']);
+		$body .= sprintf("\nTelephone: <b>%s</b><br />\n",$phone);
+		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<br />");
 
-		if ($_POST['message'] == "please enter your question here:"){
-			$message = "Woops! the customer didn't leave a message";
-		}else{$message = $_POST['message'];}
-		$messageSafe = strip_tags($message);
-
-		$body .= wordwrap(sprintf("\nMessage:\n\n".$messageSafe."<br />",75,"\n"));
+		$body .= wordwrap(sprintf("\nMessage:\n\n".$comment."<br />",75,"\n"));
 		$body .= sprintf("<br /><hr />");
 		$body .= sprintf("For internal use:<br />\n");
 		$body .= sprintf("<br />-----------------<br />\n");
@@ -41,9 +52,9 @@ header('HTTP/1.1 303 See Other');
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
 			$mail->setFrom('general_con@htslabs.com', 'Contact Form');
-			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
+			$mail->addReplyTo($email, $fname." ".$lname);
 			$mail->addAddress('general_con@htslabs.com', 'Contact Form');
-			$mail->Subject = "General Contact From - " . $_POST['company'];
+			$mail->Subject = "General Contact From - " . $company;
 			$mail->msgHTML($body);
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;

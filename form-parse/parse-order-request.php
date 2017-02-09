@@ -159,7 +159,7 @@ $dateReq10 = $_POST['dateReq'][9];
 $comments = $_POST['comments'];
 
 //for redirect and query
-$first_name = trim($_POST['purchFname']);
+$first_name = filter_var($_POST['purchFname'], FILTER_SANITIZE_STRING);
 $query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'order/';

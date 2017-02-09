@@ -1,7 +1,7 @@
 <?php
 require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
-$first_name = trim($_POST['first-name']);
+$first_name = filter_var($_POST['first-name'], FILTER_SANITIZE_STRING);
 $form_type = trim($_POST['form']);
 $product_type = trim($_POST['product']);
 $path = trim($_POST['path']);

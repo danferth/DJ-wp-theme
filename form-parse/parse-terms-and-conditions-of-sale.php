@@ -1,7 +1,7 @@
 <?php
 require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
-$first_name = trim($_POST['fname']);
+$first_name = filter_var($_POST['fname'], FILTER_SANITIZE_STRING);
 $query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = '/tc/';

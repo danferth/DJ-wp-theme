@@ -32,38 +32,6 @@ function mainblock_shortcode($atts, $content = null, $tag){
 
 add_shortcode('mainblock', 'mainblock_shortcode');
 
-/*
-[prefooterwrap class='']
-  [prefooter class='tweet']
-    //add twitter or linked in embed
-  [/prefooter]
-  [prefooter class='tweet']
-    //add twitter or linked in embed
-  [/prefooter]
-[/prefooterwrap]
-somewhat complicated but better to adjust it a year later here than on every page
-*/
-function prefooterwrap_shortcode($atts, $content=null, $tag){
-  $a = shortcode_atts( array('class' => ''), $atts);
-    return "<div class='row'> \n
-    <div class='". $a['class'] ." prefooter-wrap small-12 medium-8 medium-centered column' data-equalizer='prefooter'>\n
-    " . do_shortcode($content) . " \n
-    </div>\n
-    </div>";
-}
-
-function prefooter_shortcode($atts, $content=null, $tag){
-  $a = shortcode_atts( array(
-      'class' => ''
-    ), $atts);
-  return "<div class='" . $a['class'] . " column small-12 medium-6 prefooter' data-equalizer-watch='prefooter'> \n
-  " . $content . "\n
-</div>";
-}
-
-add_shortcode('prefooterwrap', 'prefooterwrap_shortcode');
-add_shortcode('prefooter', 'prefooter_shortcode');
-
 
 //====================
 //IMAGES IMAGES IMAGES
