@@ -7,6 +7,20 @@ $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'go-paperless/';
 header('HTTP/1.1 303 See Other');
 
+//trim post
+function trim_value($value){
+  $value = trim($value);
+}
+array_filter($_POST, 'trim_value');
+
+
+
+
+
+
+
+
+
 	if (is_array($_POST)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
