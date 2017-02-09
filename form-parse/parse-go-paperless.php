@@ -1,8 +1,6 @@
 <?php
 require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
-$first_name = filter_var($_POST['firstName'], FILTER_SANITIZE_STRING);
-$query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'go-paperless/';
 header('HTTP/1.1 303 See Other');
@@ -13,12 +11,15 @@ function trim_value($value){
 }
 array_filter($_POST, 'trim_value');
 
+//form variables
+$company = filter_var($_POST['company'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$fname   = filter_var($_POST['fname'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$lname   = filter_var($_POST['lname'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+$phone   = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
 
-
-
-
-
-
+//for body and sending email
+$query_string = '?first_name=' . $fname;
 
 
 	if (is_array($_POST)){
@@ -27,10 +28,10 @@ array_filter($_POST, 'trim_value');
 		
 		$body .= sprintf("<h2>Go Paperless form submission:</h2>\n");
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\nCompany: <b>%s</b><br />\n",$_POST['company']);
-		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$_POST['fname'],$_POST['lname']);
-		$body .= sprintf("\nPhone #: <b>%s</b><br />\n",$_POST['phone']);
-		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$_POST['email']);
+		$body .= sprintf("\nCompany: <b>%s</b><br />\n",$company);
+		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$fname, $lname);
+		$body .= sprintf("\nPhone #: <b>%s</b><br />\n",$phone);
+		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<br />");
 		$body .= sprintf("<br /><hr />");
 		$body .= sprintf("For internal use:<br />\n");
@@ -43,9 +44,9 @@ array_filter($_POST, 'trim_value');
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
 			$mail->setFrom('paperless@htslabs.com', 'Go paperless');
-			$mail->addReplyTo($_POST['email'], $_POST['firstName']." ".$_POST['lastName']);
+			$mail->addReplyTo($email, $fname." ".$lname);
 			$mail->addAddress('paperless@htslabs.com', 'Go paperless');
-			$mail->Subject = $_POST['company'] . " Wants to go Paperless!";
+			$mail->Subject = $company . " Wants to go Paperless!";
 			$mail->msgHTML($body);
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
