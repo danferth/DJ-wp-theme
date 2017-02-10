@@ -392,11 +392,11 @@ $next_page = 'order/';
 
 		$custEmail .= sprintf("<hr /><h3>Items Ordered</h3>");
 		$custEmail .= sprintf("<table cellpadding=\"5\" border=\"1\" pa>\n");
-		$custEmail .= sprintf("\n<tr><th>Qty</th><th>Product No.</th><th>Price</th><th>Quote#</th><th>Shipping</th><th>Delivery Date</th></tr>\n");
+		$custEmail .= sprintf("\n<tr><th>Qty</th><th>Product No.</th><th>Price</th><th>Quote#</th><th>Requested Delivery Date</th></tr>\n");
 
 		foreach($_POST['Qty'] as $i => $q){
 			if ($q){
-				$custEmail .= sprintf("\n<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>",str_pad($q,5),str_pad($_POST['Pno'][$i],8),$_POST['price'][$i],$_POST['quoteNo'][$i],$_POST['shipping'][$i],$_POST['dateReq'][$i]);
+				$custEmail .= sprintf("\n<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>",str_pad($q,5),str_pad($_POST['Pno'][$i],8),$_POST['price'][$i],$_POST['quoteNo'][$i],$_POST['dateReq'][$i]);
 			}
 		}
 
@@ -413,7 +413,7 @@ $next_page = 'order/';
 			$Custmail->setFrom('customerservice@htslabs.com', "Thomson Instrument Company");
 			$Custmail->addReplyTo('customerservice@htslabs.com', "Thomson Instrument Company");
 			$Custmail->addAddress($purchEmail, 'Thomson Quick Order Form');
-			$Custmail->Subject = "Copy of Thomson Quick Order for - " . $companyName;
+			$Custmail->Subject = "Confirmation of Thomson Quick Order for - " . $companyName;
 			$Custmail->msgHTML($custEmail);
 			$Custmail->send();
 

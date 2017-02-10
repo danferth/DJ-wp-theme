@@ -149,13 +149,7 @@ $('#order .eu-info input').focus(function(){
 
 $('#order .billing-info input[required]').focus(function(){
   fieldOn(shipping_info);
-});
-
-$('#order .shipping-info input').focus(function(){
   fieldOn(order_info);
-});
-
-$('#order .order-info input').focus(function(){
   fieldOn(submit_info);
 });
 
