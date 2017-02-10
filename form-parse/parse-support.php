@@ -1,30 +1,38 @@
 <?php
 require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
-$first_name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-$query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
- // 1) form slug for redirect
 $next_page = 'a5rfd61c/';
 header('HTTP/1.1 303 See Other');
+
+//trim post
+function trim_value($value){
+  $value = trim($value);
+}
+array_filter($_POST, 'trim_value');
+
+//form variables
+$issue   = filter_var($_POST['issue'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$name   = filter_var($_POST['name'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+$page = filter_var($_POST['page'], FILTER_SANITIZE_URL);
+$comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+
+//for body and sending email
+$query_string = '?first_name=' . $name;
 
 	if (is_array($_POST)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		
-		$body .= sprintf("<b>Issue:</b> %s<br/>\n", $_POST['issue']);
-		$body .= sprintf("<b>Name:</b> %s<br/>\n", $_POST['name']);
-		$body .= sprintf("<b>Email:</b> %s<br/>\n", $_POST['email']);
+		$body .= sprintf("<b>Issue:</b> %s<br/>\n", $issue);
+		$body .= sprintf("<b>Name:</b> %s<br/>\n", $name);
+		$body .= sprintf("<b>Email:</b> %s<br/>\n", $email);
 		$body .= sprintf("<hr/>\n");
 		$body .= sprintf("<b>Platform:</b> %s<br/>\n", $_POST['platform']);
-		$body .= sprintf("<b>page:</b> %s<br/>\n", $_POST['page']);
+		$body .= sprintf("<b>page:</b> %s<br/>\n", $page);
 
-		if ($_POST['comment'] == "So what is the actual problem, issue or bug?"){
-			$commentSafe = "Woops! the customer didn't leave a message, odd since it was required";
-		}else{$comment = $_POST['comment'];}
-		$commentSafe = strip_tags($comment);
-
-		$body .= wordwrap(sprintf("\n<b>Message:</b><br/>\n".$commentSafe."<br />",75,"\n"));
+		$body .= wordwrap(sprintf("\n<b>Message:</b><br/>\n".$comment."<br />",75,"\n"));
 
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
@@ -32,9 +40,9 @@ header('HTTP/1.1 303 See Other');
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
 			$mail->setFrom('dan@htslabs.com', 'Support Form');
-			$mail->addReplyTo($_POST['email'], $_POST['name']);
+			$mail->addReplyTo($email, $name);
 			$mail->addAddress('dan@htslabs.com', 'Support Form');
-			$mail->Subject = "WEBSITE ISSUE - " . $_POST['issue'];
+			$mail->Subject = "WEBSITE ISSUE - " . $issue;
 			$mail->msgHTML($body);
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
