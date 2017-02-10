@@ -46,7 +46,7 @@ get_header(); ?>
 							class="twitter-share-button"
 							data-text="Check out this application note from Thomson!"
 							data-url="<?php	true_url(); ?>"
-							data-hashtags="science"
+							data-hashtags="science,TICscience"
 							data-show-count="false">
 							Tweet
 						</a>
