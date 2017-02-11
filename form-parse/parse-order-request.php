@@ -3,8 +3,6 @@ require_once("PHPMailer/PHPMailerAutoload.php");
 date_default_timezone_set('America/Los_Angeles');
 header('HTTP/1.1 303 See Other');
 
-var_dump($_POST);
-
 //trim post
 function trim_value($value){
   if(gettype($value) == 'string'){
