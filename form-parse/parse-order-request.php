@@ -317,11 +317,11 @@ $next_page = 'order/';
 
 		$body .= sprintf("<hr /><h3>Items Ordered</h3>");
 		$body .= sprintf("<table cellpadding=\"5\" border=\"1\" pa>\n");
-		$body .= sprintf("\n<tr><th>Qty</th><th>Product No.</th><th>Price</th><th>Quote#</th><th>Shipping</th><th>Delivery Date</th></tr>\n");
+		$body .= sprintf("\n<tr><th>Qty</th><th>Product No.</th><th>Price</th><th>Quote#</th><th>Requested Delivery Date</th></tr>\n");
 
 		foreach($_POST['Qty'] as $i => $q){
 			if ($q){
-				$body .= sprintf("\n<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>",str_pad($q,5),str_pad($_POST['Pno'][$i],8),$_POST['price'][$i],$_POST['quoteNo'][$i],$_POST['shipping'][$i],$_POST['dateReq'][$i]);
+				$body .= sprintf("\n<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>",str_pad($q,5),str_pad($_POST['Pno'][$i],8),$_POST['price'][$i],$_POST['quoteNo'][$i],$_POST['dateReq'][$i]);
 			}
 		}
 
