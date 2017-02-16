@@ -143,6 +143,13 @@ p.disclaimer{
 dl{
   dt{
     margin-top:1.25rem;
+    width:75%;
+    @media screen and(max-width:$medium-breakpoint){
+      width:90%;
+    }
+    @media screen and(max-width:$small-breakpoint){
+      width:100%;
+    }
   }
   dd{
     margin-bottom:.25rem;

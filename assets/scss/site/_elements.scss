@@ -14,14 +14,14 @@
 .nav-section a{
     color:$oil !important;
     font-weight:bold !important;
-    @media screen and(max-width:$medium-breakpoint){
+    @media screen and(max-width:$topbar-breakpoint){
     color:$white !important;
     font-weight:normal !important;
   }
 }
 .nav-about a{
   color:$primary-color !important;
-  @media screen and(max-width:$medium-breakpoint){
+  @media screen and(max-width:$topbar-breakpoint){
     color:$info-color !important;
   }
 }

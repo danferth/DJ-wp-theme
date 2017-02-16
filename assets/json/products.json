@@ -1356,8 +1356,7 @@
 		"maxVolume"   : "75mL",
 		"membrane"    : "PTFE",
 		"poreSize"    : "0.2&mu;m",
-		"accessories" : [{"link":"Optimum Growth&reg; Accessories", "url":"../../og/og-accessories/" },
-						 {"link":"Transfer Caps", "url":"../../og/tc/"}],
+		"accessories" : [{"link":"Optimum Growth&reg; Accessories", "url":"../../og/og-accessories/" }],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1397,8 +1396,7 @@
 		"maxVolume"   : "150mL",
 		"membrane"    : "PTFE",
 		"poreSize"    : "0.2&mu;m",
-		"accessories" : [{"link":"Optimum Growth&reg; Accessories", "url":"../../og/og-accessories/" },
-						 {"link":"Transfer Caps", "url":"../../og/tc/"}],
+		"accessories" : [{"link":"Optimum Growth&reg; Accessories", "url":"../../og/og-accessories/" }],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1438,8 +1436,7 @@
 		"maxVolume"   : "250mL",
 		"membrane"    : "PTFE",
 		"poreSize"    : "0.2&mu;m",
-		"accessories" : [{"link":"Optimum Growth&reg; Accessories", "url":"../../og/og-accessories/" },
-						 {"link":"Transfer Caps", "url":"../../og/tc/"}],
+		"accessories" : [{"link":"Optimum Growth&reg; Accessories", "url":"../../og/og-accessories/" }],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -2494,7 +2491,7 @@
 		"line" : "well plate",
 		"series" : "filter plate",
 		"title" : "24 Well Filter Plate, 10.8mL",
-		"description1" : "Square Well, Long Drip | 25µm PES filter",
+		"description1" : "Square Well, Long Drip | 25µm Polypropylene filter",
 		"description2" : "Use with 931130, 931656-G-1X, 931568, 931569-G-1X,931571",
 		"partNum" : "921481-B",
 		"partNumber" : [{"num" : "921481-B", "qty" : "25"}],
