@@ -29,5 +29,14 @@ function true_url(){
     echo $output;
 };
 
+//form functions to trim and sanitize
+function trim_value(&$value){
+  if(gettype($value) == 'string'){
+    $value = trim($value);
+  }
+  if(gettype($value) == 'array'){
+      array_walk($value, 'trim_value');
+  }
+}
 
 ?>

@@ -6,10 +6,7 @@ $next_page = '/tc/';
 header('HTTP/1.1 303 See Other');
 
 //trim post
-function trim_value($value){
-  $value = trim($value);
-}
-array_filter($_POST, 'trim_value');
+array_walk($_POST, 'trim_value');
 
 //form variables
 $company = filter_var($_POST['company'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);

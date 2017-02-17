@@ -4,12 +4,7 @@ date_default_timezone_set('America/Los_Angeles');
 header('HTTP/1.1 303 See Other');
 
 //trim post
-function trim_value($value){
-  if(gettype($value) == 'string'){
-    $value = trim($value);
-  }
-}
-array_filter($_POST, 'trim_value');
+array_walk($_POST, 'trim_value');
 //================================
 //======VARIABLES=================
 //================================
@@ -104,13 +99,13 @@ $billZip        = filter_var($_POST['billZip'], FILTER_SANITIZE_NUMBER_INT);
 $billCountry    = filter_var($_POST['billCountry'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $billAttn       = filter_var($_POST['billAttn'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 //order
-function sanitize_int($value){
+function sanitize_int(&$value){
   $value = filter_var($value, FILTER_SANITIZE_NUMBER_INT);
 }
-function sanitize_str($value){
+function sanitize_str(&$value){
   $value = filter_var($value, FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 }
-array_filter($_POST['Qty'], 'sanitize_int');
+array_walk($_POST['Qty'], 'sanitize_int');
 $Qty1           = $_POST['Qty'][0];
 $Qty2           = $_POST['Qty'][1];
 $Qty3           = $_POST['Qty'][2];
@@ -121,7 +116,7 @@ $Qty7           = $_POST['Qty'][6];
 $Qty8           = $_POST['Qty'][7];
 $Qty9           = $_POST['Qty'][8];
 $Qty10          = $_POST['Qty'][9];
-array_filter($_POST['Pno'], 'sanitize_str');
+array_walk($_POST['Pno'], 'sanitize_str');
 $Pno1           = $_POST['Pno'][0];
 $Pno2           = $_POST['Pno'][1];
 $Pno3           = $_POST['Pno'][2];
@@ -132,7 +127,7 @@ $Pno7           = $_POST['Pno'][6];
 $Pno8           = $_POST['Pno'][7];
 $Pno9           = $_POST['Pno'][8];
 $Pno10          = $_POST['Pno'][9];
-array_filter($_POST['price'], 'sanitize_str');
+array_walk($_POST['price'], 'sanitize_str');
 $price1         = $_POST['price'][0];
 $price2         = $_POST['price'][1];
 $price3         = $_POST['price'][2];
@@ -143,7 +138,7 @@ $price7         = $_POST['price'][6];
 $price8         = $_POST['price'][7];
 $price9         = $_POST['price'][8];
 $price10        = $_POST['price'][9];
-array_filter($_POST['quoteNo'], 'sanitize_int');
+array_walk($_POST['quoteNo'], 'sanitize_int');
 $quoteNo1       = $_POST['quoteNo'][0];
 $quoteNo2       = $_POST['quoteNo'][1];
 $quoteNo3       = $_POST['quoteNo'][2];
@@ -164,7 +159,7 @@ $quoteNo10      = $_POST['quoteNo'][9];
 // $shipping8      = filter_var($_POST['shipping'][7], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 // $shipping9      = filter_var($_POST['shipping'][8], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 // $shipping10     = filter_var($_POST['shipping'][9], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-array_filter($_POST['dateReq'], 'sanitize_str');
+array_walk($_POST['dateReq'], 'sanitize_str');
 $dateReq1       = $_POST['dateReq'][0];
 $dateReq2       = $_POST['dateReq'][1];
 $dateReq3       = $_POST['dateReq'][2];
