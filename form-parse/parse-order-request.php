@@ -430,7 +430,7 @@ $next_page = 'order/';
 			}else{
 			  $success_ip = $_SERVER['REMOTE_ADDR'];
 				$success_date = date('m\-d\-Y\-h:iA');
-				$success_message = $success_date . " | new order | " . $success_ip . " | " . $email;
+				$success_message = $success_date . " | new order | " . $success_ip . " | " . $purchEmail;
 				$log = "logs/success.txt";
 				$fp = fopen($log,"a+");
 				fwrite($fp,$success_message . "\n");

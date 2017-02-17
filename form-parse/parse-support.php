@@ -44,14 +44,14 @@ $query_string = '?first_name=' . $name;
 				$error_date = date('m\-d\-Y\-h:iA');
 				$log = "logs/error.txt";
 				$fp = fopen($log,"a+");
-				fwrite($fp,$error_date . " | suport | " . $mail_error . "\n");
+				fwrite($fp,$error_date . " | support | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}else{
 			  $success_ip = $_SERVER['REMOTE_ADDR'];
 				$success_date = date('m\-d\-Y\-h:iA');
-				$success_message = $success_date . " | suport | " . $success_ip . " | " . $email;
+				$success_message = $success_date . " | support | " . $success_ip . " | " . $email;
 				$log = "logs/success.txt";
 				$fp = fopen($log,"a+");
 				fwrite($fp,$success_message . "\n");
