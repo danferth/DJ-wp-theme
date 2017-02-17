@@ -323,11 +323,6 @@ $next_page = 'order/';
 		$body .= sprintf("</table>");
 		$body .= sprintf("<hr /><h3>Comments</h3>");
 		$body .= sprintf("%s",wordwrap($comments,60,"<br />"));
-		$body .= sprintf("<hr />");
-		$body .= sprintf("For internal use:");
-		$body .= sprintf("<br />-----------------");
-		$body .= sprintf("<br />Sender's IP: %s", $_SERVER['REMOTE_ADDR']);
-		$body .= sprintf("<br />Received: %s",date("Y-m-d H:i:s"));
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
@@ -426,13 +421,20 @@ $next_page = 'order/';
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
 				$error_date = date('m\-d\-Y\-h:iA');
-				$log = "logs/order-request-error.txt";
+				$log = "logs/error.txt";
 				$fp = fopen($log,"a+");
-				fwrite($fp,$error_date . "\n" . $mail_error . "\n\n");
+				fwrite($fp,$error_date . " | new order | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}else{
+			  $success_ip = $_SERVER['REMOTE_ADDR'];
+				$success_date = date('m\-d\-Y\-h:iA');
+				$success_message = $success_date . " | new order | " . $success_ip . " | " . $email;
+				$log = "logs/success.txt";
+				$fp = fopen($log,"a+");
+				fwrite($fp,$success_message . "\n");
+				fclose($fp);
 				$query_string .= '&success=true';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}

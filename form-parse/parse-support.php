@@ -28,9 +28,7 @@ $query_string = '?first_name=' . $name;
 		$body .= sprintf("<hr/>\n");
 		$body .= sprintf("<b>Platform:</b> %s<br/>\n", $_POST['platform']);
 		$body .= sprintf("<b>page:</b> %s<br/>\n", $page);
-
 		$body .= wordwrap(sprintf("\n<b>Message:</b><br/>\n".$comment."<br />",75,"\n"));
-
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
@@ -44,14 +42,20 @@ $query_string = '?first_name=' . $name;
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
 				$error_date = date('m\-d\-Y\-h:iA');
-				// 5) error file name
-				$log = "logs/support-error.txt";
+				$log = "logs/error.txt";
 				$fp = fopen($log,"a+");
-				fwrite($fp,$error_date . "\n" . $mail_error . "\n\n");
+				fwrite($fp,$error_date . " | suport | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}else{
+			  $success_ip = $_SERVER['REMOTE_ADDR'];
+				$success_date = date('m\-d\-Y\-h:iA');
+				$success_message = $success_date . " | suport | " . $success_ip . " | " . $email;
+				$log = "logs/success.txt";
+				$fp = fopen($log,"a+");
+				fwrite($fp,$success_message . "\n");
+				fclose($fp);
 				$query_string .= '&success=true';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}

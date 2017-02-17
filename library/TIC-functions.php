@@ -29,7 +29,7 @@ function true_url(){
     echo $output;
 };
 
-//form functions to trim and sanitize
+//form functions to trim
 function trim_value(&$value){
   if(gettype($value) == 'string'){
     $value = trim($value);

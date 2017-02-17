@@ -45,12 +45,6 @@ $query_string = '?first_name='.$fname.'&form_type='.$form_type.'&product='.$prod
 		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
 		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
 		  $body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
-  
-		  $body .= sprintf("<br /><hr />");
-		  $body .= sprintf("For internal use:<br />\n");
-		  $body .= sprintf("<br />-----------------<br />\n");
-		  $body .= sprintf("\nSender's IP: %s<br />\n", $_SERVER['REMOTE_ADDR']);
-		  $body .= sprintf("\nReceived: %s<br />\n",date("Y-m-d H:i:s"));
 		  $body .= sprintf("</body>");
 		  $body .= sprintf("</html>");
 		}elseif($form_type == 'sample'){
@@ -70,12 +64,6 @@ $query_string = '?first_name='.$fname.'&form_type='.$form_type.'&product='.$prod
 		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
 		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
 		  $body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
-  
-		  $body .= sprintf("<br /><hr />");
-		  $body .= sprintf("For internal use:<br />\n");
-		  $body .= sprintf("<br />-----------------<br />\n");
-		  $body .= sprintf("\nSender's IP: %s<br />\n", $_SERVER['REMOTE_ADDR']);
-		  $body .= sprintf("\nReceived: %s<br />\n",date("Y-m-d H:i:s"));
 		  $body .= sprintf("</body>");
 		  $body .= sprintf("</html>");
 		}
@@ -90,13 +78,20 @@ $query_string = '?first_name='.$fname.'&form_type='.$form_type.'&product='.$prod
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
 				$error_date = date('m\-d\-Y\-h:iA');
-				$log = "logs/product-inquiry-error.txt";
+				$log = "logs/error.txt";
 				$fp = fopen($log,"a+");
-				fwrite($fp,$error_date . "\n" . $mail_error . "\n\n");
+				fwrite($fp,$error_date . " | ". $_POST['form'] . " inquiry | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}else{
+			  $success_ip = $_SERVER['REMOTE_ADDR'];
+				$success_date = date('m\-d\-Y\-h:iA');
+				$success_message = $success_date . " | ". $_POST['form'] . " inquiry | " . $success_ip . " | " . $email;
+				$log = "logs/success.txt";
+				$fp = fopen($log,"a+");
+				fwrite($fp,$success_message . "\n");
+				fclose($fp);
 				$query_string .= '&success=true';
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}
