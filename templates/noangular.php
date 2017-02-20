@@ -20,7 +20,7 @@ get_header(); ?>
 						class="twitter-share-button"
 						data-text="Check out <?php the_title(); ?> from Thomson!"
 						data-url="<?php	true_url(); ?>"
-						data-hashtags="science"
+						data-hashtags="science,TICscience"
 						data-show-count="false">
 						Tweet
 					</a>
