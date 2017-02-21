@@ -11,7 +11,7 @@ get_header(); ?>
 
 <div class="row">
 	<div class="small-12 large-8 columns" role="main">
-
+    <img src="<?php echo content_url('themes/TIC/images/'); ?>404.jpg"/>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
 				<h1 class="entry-title"><?php _e( 'File Not Found', 'foundationpress' ); ?></h1>
