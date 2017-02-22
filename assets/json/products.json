@@ -2689,6 +2689,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2709,6 +2710,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2729,6 +2731,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["50012M", "50012MA"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2749,6 +2752,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["we currently do not sell vials for this cap"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2769,6 +2773,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["205410", "205410A"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2789,6 +2794,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["205410", "205410A", "402877", "402877A"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2809,6 +2815,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["55511W", "50425-W"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2829,6 +2836,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["55511W", "50425-W"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2849,6 +2857,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["81715", "402805"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2869,6 +2878,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["81715", "402805"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2889,6 +2899,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["402805"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2909,6 +2920,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["402805"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2929,26 +2941,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
-		"sterile"     : false,
-		"notes"		  : false
-	},{
-		"line" : "glassware",
-		"series" : "storage caps",
-		"title" : "15mm Storage Cap",
-		"description1" : "Black, PTFE Lined",
-		"description2" : "For 8mm",
-		"partNum" : "81700",
-		"partNumber" : [{"num" : "81700", "qty" : "1000"}],
-		"image" : "81700_lg.jpg",
-		"thum_image" : "81700_tn.png",
-		"tag" : [],
-		"URL" : "glassware/",
-		"shakeSpeed"  : false,
-		"minVolume"   : false,
-		"maxVolume"   : false,
-		"membrane"    : false,
-		"poreSize"    : false,
-		"accessories" : [],
+		"worksWith"   : ["50012M", "50012MA"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2969,6 +2962,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["70502", "70512"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -2989,6 +2983,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["70502", "70512", "30412", "55811", "55811Z", "55815"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3009,6 +3004,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["30312", "70211M"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3029,6 +3025,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["30312", "70211M"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3049,6 +3046,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["65671B-2", "30412", "55811", "55811Z", "55815"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3069,6 +3067,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["65671B-2", "30412", "55811", "55811Z", "55815"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3089,6 +3088,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["65671B-2"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3109,6 +3109,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["61629M-2", "61629MA-B", "67117"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3129,6 +3130,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3149,6 +3151,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3169,6 +3172,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3189,6 +3193,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3209,6 +3214,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3229,6 +3235,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["61629M-2", "61629MA-B"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3249,6 +3256,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["61629M-2", "61629MA-B"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3269,6 +3277,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["61629M-2", "61629MA-B"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3289,6 +3298,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["61629M-2", "61629MA-B"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3309,6 +3319,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3329,6 +3340,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3349,6 +3361,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3369,6 +3382,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3389,6 +3403,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : ["we currently do not sell vials for this cap"],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3409,6 +3424,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3429,6 +3445,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3449,6 +3466,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3469,6 +3487,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3489,6 +3508,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3509,6 +3529,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3529,6 +3550,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	},{
@@ -3549,6 +3571,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [],
+		"worksWith"   : [],
 		"sterile"     : false,
 		"notes"		  : false
 	}
