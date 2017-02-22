@@ -76,22 +76,27 @@ function parts_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
     'title' => '',
     'class' => '',
+    'noclick' => '',
     'line' => '',
     'series' => '',
     'filter' => ''
     ), $atts);
   $content_url = wp_upload_dir();
   $prod_url = $content_url['baseurl']."/products/";
+  $clickMessage = "<p>click a product to view more information</p>";
   $output = "
   <div class='" . $a['class'] . " partnumber_set row'>";
-if($a['title']){    
+  if($a['title']){    
     $output .= "<div class='small-12 column'>
     <h4>".$a['title']." Part Numbers</h4>
     </div>";
-}
-  $output .=  "<div class='parts-note small-12 column'>\n
-  <p>click a product to view more information</p>
-  </div>\n
+  }
+  if($a['noclick']){
+    $clickMessage = "";
+  }
+  $output .=  "<div class='parts-note small-12 column'>\n";
+  $output .= $clickMessage;
+  $output .= "</div>\n
   <div class='partnumber_item column small-12' ng-repeat='p in products | filter:{line:\"".$a['line']."\"} | filter:{series:\"".$a['series']."\"}";
   if($a['filter']){
     $output .= "| filter:".$a['filter']."' ng-click='setProduct(p); triggerOverlay();'>";
