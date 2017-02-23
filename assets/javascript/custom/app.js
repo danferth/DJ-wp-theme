@@ -242,7 +242,7 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', '$filter', fu
     //grab JSON data
   dataFactory.get_distributors().then(function(responce){
     $scope.distributors = responce.data;
-    $scope.sd = $filter('filter')($scope.distributors, {id : 66})[0];
+    $scope.sd = $filter('filter')($scope.distributors, {id : 44})[0];
     
     $scope.$watch('distId', function(){
       if($scope.getStorage('distributor')){
