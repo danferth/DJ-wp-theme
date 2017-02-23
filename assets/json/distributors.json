@@ -12,19 +12,7 @@
 		"webUrl": "http://htslabs.com",
 		"web": "htslabs.com",
 		"email": "customerservice@htslabs.com"
-	}, {
-		"id": 1,
-		"region": "africa",
-		"country": "All of Africa",
-		"company": "Biosilta",
-		"products": ["Flasks", "Well Plates"],
-		"address": "BioSilta Oy, P.O. Box 4300 90014 University of Oulu\nFinland",
-		"tel": "+358-(0)50-527-4970",
-		"fax": "+358-(0)207 001 500",
-		"webUrl": "http://www.biosilta.com",
-		"web": "biosilta.com",
-		"email": "info@biosilta.com"
-	}, {
+	},{
 		"id": 2,
 		"region": "asia",
 		"country": "China",
@@ -557,7 +545,7 @@
 		"id": 44,
 		"region": "north-america",
 		"country": "USA",
-		"company": "Thomson Instrument Company",
+		"company": "A Thomson Instrument Company",
 		"products": ["All Products", "Filter Vials", "Well Plates", "Flasks", "Plasmid+"],
 		"address": "1121 South Cleveland Street\nOceanside, California 92054",
 		"tel": "800-541-4792",
