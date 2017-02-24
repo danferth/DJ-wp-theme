@@ -2,7 +2,7 @@
   {
     "id"              : 1,
     "title"           : "Filter Vial Catalog",
-    "description"     : "Thomsons full catalog of Filter Vial Application Notes",
+    "description"     : "Thomson's full catalog of Filter Vial Application Notes",
     "citation"        : "",
     "link"            : "FV-catalog-spring-2015.pdf",
     "linkType"        : "pdf",
@@ -17,7 +17,7 @@
   },{
     "id"              : 2,
     "title"           : "Food Agriculture Environmental Application Notes",
-    "description"     : "Thomsons catalog of Food, Agriculture & Environmental Application Notes for Filter Vials",
+    "description"     : "Thomson's catalog of Food, Agriculture & Environmental Application Notes for Filter Vials",
     "citation"        : "",
     "link"            : "fv-food-appnotes.pdf",
     "linkType"        : "pdf",
@@ -138,7 +138,7 @@
     "id"              : 10,
     "title"           : "Simple Protection with Filter Vials",
     "description"     : " Thomson Instrument Company ... has developed a simple SINGLE StEP Filter Vial ... has allowed for the filtration process to become a SINGLE StEP in the autosampler vial itself.",
-    "citation"        : "Sam Ellis<sup>1</sup>, James Doom<sup>2</sup> , John Tyhonas<sup>3</sup><br/><sup>1</sup>Thomson Instrument Company, <sup>2</sup>Pfizer, <sup>3</sup>Takeda",
+    "citation"        : "Sam Ellis<sup>1</sup>, James Doom<sup>2</sup>, John Tyhonas<sup>3</sup><br/><sup>1</sup>Thomson Instrument Company, <sup>2</sup>Pfizer, <sup>3</sup>Takeda",
     "link"            : "FV-simple-protection.pdf",
     "linkType"        : "pdf",
     "type"            : "GI",
@@ -212,7 +212,7 @@
   },{
     "id"              : 15,
     "title"           : "Filter Vial & Membrane Chemical Compatibility Index",
-    "description"     : "Table of chemicals compatible with Thomsons Filter Vials & membranes",
+    "description"     : "Table of chemicals compatible with Thomson's Filter Vials & membranes",
     "citation"        : "",
     "link"            : "chemicalindex",
     "linkType"        : "page",
@@ -227,7 +227,7 @@
   },{
     "id"              : 16,
     "title"           : "Filter Vial & Membrane Compound Compatibility Index",
-    "description"     : "Table of compounds compatible with Thomsons Filter Vials & membranes",
+    "description"     : "Table of compounds compatible with Thomson's Filter Vials & membranes",
     "citation"        : "",
     "link"            : "compoundindex",
     "linkType"        : "page",
@@ -512,7 +512,7 @@
   },{
     "id"              : 35,
     "title"           : "Analysis of Nitrosamines in Tobacco with eXtreme|FV&reg; by LC-MS",
-    "description"     : "[N]itrosamines (TSNA) are a group of carcinogens found only in tobacco ... method descripes a simple robust sample preparation utilizing the Thomson Filter Vials for in-vial filtration[.]",
+    "description"     : "[N]itrosamines (TSNA) are a group of carcinogens found only in tobacco ... method describes a simple robust sample preparation utilizing the Thomson Filter Vials for in-vial filtration[.]",
     "citation"        : "",
     "link"            : "nitrosamines-in-tobacco.pdf",
     "linkType"        : "pdf",
@@ -963,7 +963,7 @@
     "id"              : 73,
     "title"           : "Streamlined Sample Preparation Methodology to enable Higher Recovery, and minimize loss of Pesticides, Fungicides and Antibiotics by LC/MS or GC/MS",
     "description"     : "Poster presented at NACRW 2015",
-    "citation"        : "Lisa Wanders, Joe Machamer-Thomson Instrument Companay Oceanside, CA",
+    "citation"        : "Lisa Wanders, Joe Machamer-Thomson Instrument Company Oceanside, CA",
     "link"            : "NACRW-2015-mega-honey.pdf",
     "linkType"        : "pdf",
     "type"            : "PW",
@@ -1562,7 +1562,7 @@
     },{
     "id"              : 114,
     "title"           : "Transfer Cap FAQs",
-    "description"     : "Frequently asked questions on Thomon Transfer Caps",
+    "description"     : "Frequently asked questions on Thomson Transfer Caps",
     "citation"        : "",
     "link"            : "faq-tc",
     "linkType"        : "page",
@@ -1712,7 +1712,7 @@
     },{
     "id"              : 124,
     "title"           : "Ultra Yield Flask Cost Benefit Analysis",
-    "description"     : "Tables showing the cost and benifit analysis of Ultra Yield&trade; Flasks",
+    "description"     : "Tables showing the cost and benefit analysis of Ultra Yield&trade; Flasks",
     "citation"        : "",
     "link"            : "UYF-cost-savings.pdf",
     "linkType"        : "pdf",
@@ -1982,7 +1982,7 @@
     },{
     "id"              : 144,
     "title"           : "Toxicology & Forensics Application Notes",
-    "description"     : "Thomsons catalog of Toxicology & Forensics Application Notes for Filter Vials",
+    "description"     : "Thomson's catalog of Toxicology & Forensics Application Notes for Filter Vials",
     "citation"        : "",
     "link"            : "fv-tox-appnotes.pdf",
     "linkType"        : "pdf",

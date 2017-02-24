@@ -573,7 +573,7 @@ table.product-ref-table{
   }
   @media screen and (max-width:$small-breakpoint){
     width: 100%;
-    margin:3rem 0 0 0;
+    margin:0;
   }
   .close-overlay{
     position:absolute;
@@ -597,6 +597,9 @@ table.product-ref-table{
       display:block;
       width:100%;
       height:auto;
+      @media screen and(max-width:$small-breakpoint){
+        width:75%;
+      }
     }
   }
   .card-partNum{
@@ -1283,35 +1286,6 @@ table.product-ref-table{
 
 
 
-//trial and error for row in a row sepration
-/*
-$main-bg: $gainsboro;
-body{
-  background:$main-bg;
-}
-.full-page-top{
-  background:$main-bg;
-}
-.row .row{
-  background:$white;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  &.full-background{
-    margin-top:0;
-  }
-  &.info-module{
-    margin-top:0;
-    margin-bottom: 0;
-  }
-  &.tech-link-module{
-    margin-top:0;
-    margin-bottom:0;
-  }
-  &.partnumber_set{
-    margin-top:0;
-    margin-bottom:0;
-  }
-}
-*/
+
 
 //next up?
