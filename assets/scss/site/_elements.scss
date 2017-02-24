@@ -602,6 +602,12 @@ table.product-ref-table{
       }
     }
   }
+  .overlay-main{
+    @media screen and(max-width:$small-breakpoint){
+      padding:0;
+    }
+  }
+  
   .card-partNum{
     background:$ghost;
     padding-top:.5rem;

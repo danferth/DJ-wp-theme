@@ -11,7 +11,7 @@
 				<img src='../../wp-content/uploads/products/{{ setP.partNum }}_lg.jpg' alt='Thomson part number # {{ setP.partNum }}'>
 			</div>
 			
-			<div class='column small-12 medium-9'>
+			<div class='overlay-main column small-12 medium-9'>
 				
 				<!-- ALL HEADER -->
 				<div class="card-partNum small-12 column">
