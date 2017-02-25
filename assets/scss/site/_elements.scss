@@ -60,6 +60,11 @@ label.error{
 .mc4wp-alert{
   color:$gainsboro;
 }
+//remove padding on column - this is mostly for mobile views
+.no-padding{
+  padding-left:0;
+  padding-right:0;
+}
 //=====================================================================
 //========================FULL WIDTH CSS===============================
 //=====================================================================
@@ -434,9 +439,6 @@ table.product-ref-table{
     box-shadow:inset 3px 0 0 $primary-color;
     }
   }
-}
-.mobile-product-search-table{
-  padding:0;
 }
 //=====================================================================
 //===========================Plate Search Page=========================
