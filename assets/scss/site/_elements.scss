@@ -708,6 +708,11 @@ table.product-ref-table{
 	&:hover{
 	  box-shadow:none;
 	  border:1px solid $base;
+	  @media screen and(max-width:$small-breakpoint){
+	    border-left:none;
+	    border-right:none;
+	    box-shadow:none;
+	  }
 	}
   form{
     fieldset{
@@ -726,6 +731,11 @@ table.product-ref-table{
 	}
 	@media print{
 	  display:none;
+	}
+	@media screen and(max-width:$small-breakpoint){
+	  border-left:none;
+	  border-right:none;
+	  box-shadow:none;
 	}
 }
 .product-inquiry-button{
