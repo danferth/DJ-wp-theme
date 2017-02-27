@@ -345,7 +345,7 @@ function intro_quiry_shortcode($atts, $content=null, $tag){
 		    <h2>".$a['title']."</h2>\n
 		    ".$content."
 	    </div>\n
-	    <div class='medium-6 large-5 column'>\n
+	    <div class='product-inquiry-wrap medium-6 large-5 column'>\n
 		    <product-inquiry product='".$a['product']."'></product-inquiry>\n
 	    </div>\n
     </div>";

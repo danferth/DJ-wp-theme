@@ -71,10 +71,10 @@ prodInqBtn.on('click', function(e) {
 			$(this).parent('.product-inquiry').css({
 				'margin-bottom': '1.5rem'
 			});
-		} //add padding back to module container
-		$('.product-inquiry-module').css({
-			'padding': '2rem 1rem'
-		});
+		} //add padding back to module container (this was removed during mobile design, it was found to not have any effect durring medium or large so removed)
+		// $('.product-inquiry-module').css({
+		// 	'padding': '2rem 1rem'
+		// });
 		//bring back others
 		if ($('.product-inquiry').not(':visible')) {
 			//gather other into array
@@ -103,10 +103,10 @@ prodInqBtn.on('click', function(e) {
 		$(this).parent('.product-inquiry').css({
 			'margin': 0
 		});
-		//remove padding on module container
-		$('.product-inquiry-module').css({
-			'padding': '1rem'
-		});
+		//remove padding on module container (this was removed during mobile design, it was found to not have any effect durring medium or large so removed)
+		// $('.product-inquiry-module').css({
+		// 	'padding': '1rem'
+		// });
 	}
 });//end module jquery stuff
     

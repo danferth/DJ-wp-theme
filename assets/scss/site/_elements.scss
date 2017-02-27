@@ -697,6 +697,12 @@ table.product-ref-table{
 }
 
 //product inquiry module
+.product-inquiry-wrap{
+  @media screen and(max-width:$small-breakpoint){
+    padding-left:0;
+    padding-right:0;
+  }
+}
 .product-inquiry-module{
 	border:1px solid $iron;
 	box-shadow: 0 0 4px 0 $smoke;
@@ -728,14 +734,24 @@ table.product-ref-table{
 		&:last-of-type{
 			margin-bottom:0; //manipulated in directives.js under product_page
 		}
+		@media screen and(max-width:$medium-breakpoint){
+		  padding-left:0;
+		  padding-right:0;
+		}
 	}
-	@media print{
-	  display:none;
+	@media screen and(max-width:$medium-breakpoint){
+	  padding-left:.5rem;
+	  padding-right:.5rem;
 	}
 	@media screen and(max-width:$small-breakpoint){
 	  border-left:none;
 	  border-right:none;
 	  box-shadow:none;
+	  padding-left:0;
+	  padding-right:0;
+	}
+	@media print{
+	  display:none;
 	}
 }
 .product-inquiry-button{
