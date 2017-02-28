@@ -2168,7 +2168,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "24 Well Plate, 10.4mL",
+		"title" : "24-Well Plate, 10.4mL",
 		"description1" : "Square Well, Round Bottom | Individually Wrapped | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
 		"partNum" : "931565-G-1X",
@@ -2191,7 +2191,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "24 Well Plate, 10.4mL, Square Well, Round Bottom",
+		"title" : "24-Well Plate, 10.4mL, Square Well, Round Bottom",
 		"description1" : "Individually Wrapped with Lid | Sterile",
 		"description2" : "",
 		"partNum" : "931568",
@@ -2214,7 +2214,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "24 Well Plate, 10.8mL, Square Well, Pyramid Bottom",
+		"title" : "24-Well Plate, 10.8mL, Square Well, Pyramid Bottom",
 		"description1" : "Individually Wrapped | Sterile",
 		"description2" : "",
 		"partNum" : "931569-G-1X",
@@ -2237,7 +2237,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "24 Well Plate, 10.8mL, Square Well, Pyramid Bottom",
+		"title" : "24-Well Plate, 10.8mL, Square Well, Pyramid Bottom",
 		"description1" : "Individually Wrapped with Lid | Sterile",
 		"description2" : "",
 		"partNum" : "931571",
@@ -2260,7 +2260,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 2mL",
+		"title" : "96-Well Plate, 2mL",
 		"description1" : "Round Well, Round Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, 359747",
 		"partNum" : "951657",
@@ -2283,7 +2283,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 2mL",
+		"title" : "96-Well Plate, 2mL",
 		"description1" : "Square Well, V-Bottom | Rim | Raised Lettering | Skirted Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
 		"partNum" : "951652B",
@@ -2306,7 +2306,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 2mL",
+		"title" : "96-Well Plate, 2mL",
 		"description1" : "Square Well, V-Bottom, Raised Lettering | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
 		"partNum" : "951652C",
@@ -2329,7 +2329,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 2mL",
+		"title" : "96-Well Plate, 2mL",
 		"description1" : "Square Well, Round Bottom | Irreversible",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
 		"partNum" : "931130",
@@ -2352,7 +2352,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 2mL",
+		"title" : "96-Well Plate, 2mL",
 		"description1" : "Square Well, Round Bottom | Irreversible | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
 		"partNum" : "931130-S",
@@ -2375,7 +2375,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 650&mu;L",
+		"title" : "96-Well Plate, 650&mu;L",
 		"description1" : "Round Well, Round Bottom",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
 		"partNum" : "931512B",
@@ -2398,7 +2398,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 500&mu;L",
+		"title" : "96-Well Plate, 500&mu;L",
 		"description1" : "Round Well, V-Bottom",
 		"description2" : "Use with 899410, 899405-1, 899406, 359747",
 		"partNum" : "9356045",
@@ -2421,7 +2421,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 1.2mL",
+		"title" : "96-Well Plate, 1.2mL",
 		"description1" : "Round Well, Round Bottom",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
 		"partNum" : "951651B",
@@ -2444,7 +2444,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "well plate",
-		"title" : "96 Well Plate, 2mL",
+		"title" : "96-Well Plate, 2mL",
 		"description1" : "Square Well, Round Bottom | Individually Wrapped with Lid | Sterile",
 		"description2" : "Use with 899410, 899405-1, 899406, A210100",
 		"partNum" : "931134",
@@ -2467,7 +2467,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "filter plate",
-		"title" : "96 Well Filter Plate, 2mL",
+		"title" : "96-Well Filter Plate, 2mL",
 		"description1" : "Square Well, Long Drip | 25&mu;m Polypropylene filter",
 		"description2" : "Use with 931130",
 		"partNum" : "931919",
@@ -2490,8 +2490,8 @@
 	},{
 		"line" : "well plate",
 		"series" : "filter plate",
-		"title" : "24 Well Filter Plate, 10.8mL",
-		"description1" : "Square Well, Long Drip | 25&mu;m Polypropylene filter",
+		"title" : "24-Well Filter Plate, 10.8mL",
+		"description1" : "Square Well, Long Drip | 25&mu;m Polypropylene Filter",
 		"description2" : "Use with 931130, 931656-G-1X, 931568, 931569-G-1X,931571",
 		"partNum" : "921481-B",
 		"partNumber" : [{"num" : "921481-B", "qty" : "25"}],
@@ -2513,7 +2513,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
-		"title" : "96 Well Cap mat",
+		"title" : "96-Well Capmat",
 		"description1" : "For Wide Round Wells",
 		"description2" : "Use with 951657 & 9356045",
 		"partNum" : "359747",
@@ -2536,7 +2536,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
-		"title" : "96 Well Bottom Mat",
+		"title" : "96-Well Bottom Mat",
 		"description1" : "For Long Drip Filter Plates",
 		"description2" : "Use with 931919",
 		"partNum" : "982005",
@@ -2559,7 +2559,7 @@
 	},{
 		"line" : "well plate",
 		"series" : "plate cover",
-		"title" : "96 Well cap mat",
+		"title" : "96-Well Capmat",
 		"description1" : "For Square Wells",
 		"description2" : "Use with 931130",
 		"partNum" : "A210100",
