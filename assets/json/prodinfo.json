@@ -168,7 +168,7 @@
                     ],
     "related_product" : [
         {"name" : "Plasmid+® Media", "link" : "/uyf/plasmid-media/"},
-        {"name" : "Enhanced AirOtop™ Seals", "link" : "/uyf/airotop/"}
+        {"name" : "AirOtop™ Enhanced Seals", "link" : "/uyf/airotop/"}
         ]
 },{
     "product" : "plasmid",
@@ -186,14 +186,14 @@
                     ],
     "related_product" : [
         {"name" : "Ultra Yield™ Flasks", "link" : "/uyf/"},
-        {"name" : "Enhanced AirOtop™ Seals", "link" : "/uyf/airotop/"}
+        {"name" : "AirOtop™ Enhanced Seals", "link" : "/uyf/airotop/"}
         ]
 },{
     "product" : "airotop",
-    "title" : "Enhanced AirOtop™ Seals",
+    "title" : "AirOtop™ Enhanced Seals",
     "subtitle" : "",
     "image" : "",
-    "description" : "Enhanced AirOtop™ Seals (patented) are disposable, high gas exchange, sterile, simple seals for all shake flasks. Properties of the seal include a 0.2µm sterile barrier with a resealable membrane for use with Ultra Yield™ Flasks as well as other brand flasks. Multiple sizes are available to work with most commercially available shake flasks. Testing has been conducted by multiple customer with great results of up to 24 hours of growth. This testing included Protista (Algae), E.coli and other microbes which, has all resulted in improved growth and more aerobic growth. Also, showing that the pH of the cultures were more neutral.",
+    "description" : "AirOtop™ Enhanced Seals (patented) are disposable, high gas exchange, sterile, simple seals for all shake flasks. Properties of the seal include a 0.2µm sterile barrier with a resealable membrane for use with Ultra Yield™ Flasks as well as other brand flasks. Multiple sizes are available to work with most commercially available shake flasks. Testing has been conducted by multiple customer with great results of up to 24 hours of growth. This testing included Protista (Algae), E.coli and other microbes which, has all resulted in improved growth and more aerobic growth. Also, showing that the pH of the cultures were more neutral.",
     "key_features" : ["0.2µm high gas exchange flask seal",
                     "Sterile liquid barrier",
                     "Increased aeration",

@@ -1631,7 +1631,7 @@
 		"series" : "flask",
 		"title" : "Ultra Yield&trade; Flask 125mL",
 		"description1" : "125mL flask, 40-50mL working Volume",
-		"description2" : "Sterile | For best results use AirOtop&reg; Seals",
+		"description2" : "Sterile | For best results use AirOtop&trade; Enhanced Seals",
 		"partNum" : "931147",
 		"partNumber" : [{"num" : "931147", "qty" : "50"}],
 		"image" : "931147_lg.jpg",
@@ -1644,7 +1644,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [{"link":"Plasmid+&reg; Media", "url":"../../uyf/plasmid-media/" },
-						 {"link":"Enhanced AirOtop&trade; Seals", "url":"../../uyf/airotop/"}],
+						 {"link":"AirOtop&trade; Enhanced Seals", "url":"../../uyf/airotop/"}],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1652,7 +1652,7 @@
 		"series" : "flask",
 		"title" : "Ultra Yield&trade; Flask 250mL",
 		"description1" : "250mL flask, 75-110mL working Volume",
-		"description2" : "Sterile | For best results use AirOtop&reg; Seals",
+		"description2" : "Sterile | For best results use AirOtop&trade; Enhanced Seals",
 		"partNum" : "931144",
 		"partNumber" : [{"num" : "931144", "qty" : "50"}],
 		"image" : "931144_lg.jpg",
@@ -1665,7 +1665,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [{"link":"Plasmid+&reg; Media", "url":"../../uyf/plasmid-media/" },
-						 {"link":"Enhanced AirOtop&trade; Seals", "url":"../../uyf/airotop/"}],
+						 {"link":"AirOtop&trade; Enhanced Seals", "url":"../../uyf/airotop/"}],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1673,7 +1673,7 @@
 		"series" : "flask",
 		"title" : "Ultra Yield&trade; Flask 500mL",
 		"description1" : "500mL flask, 125-200mL working Volume",
-		"description2" : "Sterile | For best results use AirOtop&reg; Seals",
+		"description2" : "Sterile | For best results use AirOtop&trade; Enhanced Seals",
 		"partNum" : "931141",
 		"partNumber" : [{"num" : "931141", "qty" : "25"}],
 		"image" : "931141_lg.jpg",
@@ -1686,7 +1686,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [{"link":"Plasmid+&reg; Media", "url":"../../uyf/plasmid-media/" },
-						 {"link":"Enhanced AirOtop&trade; Seals", "url":"../../uyf/airotop/"}],
+						 {"link":"AirOtop&trade; Enhanced Seals", "url":"../../uyf/airotop/"}],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1694,7 +1694,7 @@
 		"series" : "flask",
 		"title" : "Ultra Yield&trade; Flask 2.5L",
 		"description1" : "2.5L flask, 500mL-1L working Volume",
-		"description2" : "Sterile | For best results use AirOtop&reg; Seals",
+		"description2" : "Sterile | For best results use AirOtop&trade; Enhanced Seals",
 		"partNum" : "931136-B",
 		"partNumber" : [{"num" : "931136-B", "qty" : "6"}],
 		"image" : "931136-B_lg.jpg",
@@ -1707,7 +1707,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [{"link":"Plasmid+&reg; Media", "url":"../../uyf/plasmid-media/" },
-						 {"link":"Enhanced AirOtop&trade; Seals", "url":"../../uyf/airotop/"}],
+						 {"link":"AirOtop&trade; Enhanced Seals", "url":"../../uyf/airotop/"}],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1728,7 +1728,7 @@
 		"membrane"    : "PTFE",
 		"poreSize"    : "0.2&mu;m",
 		"accessories" : [{"link":"Plasmid+&reg; Media", "url":"../../uyf/plasmid-media/" },
-						 {"link":"Enhanced AirOtop&trade; Seals", "url":"../../uyf/airotop/"}],
+						 {"link":"AirOtop&trade; Enhanced Seals", "url":"../../uyf/airotop/"}],
 		"sterile"     : true,
 		"notes"		  : false
 	},{
@@ -1754,8 +1754,8 @@
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
-		"title" : "AirOtop Enhanced Seal",
-		"description1" : "For Ultra Yield 2.5L Flask",
+		"title" : "AirOtop&trade; Enhanced Seal",
+		"description1" : "For Ultra Yield&trade; 2.5L Flask",
 		"description2" : "Sterile",
 		"partNum" : "899425",
 		"partNumber" : [{"num" : "899425", "qty" : "100"}],
@@ -1772,8 +1772,8 @@
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
-		"title" : "AirOtop Enhanced Seal",
-		"description1" : "For Ultra Yield 500mL Flask",
+		"title" : "AirOtop&trade; Enhanced Seal",
+		"description1" : "For Ultra Yield&trade; 500mL Flask",
 		"description2" : "Sterile",
 		"partNum" : "899424",
 		"partNumber" : [{"num" : "899424", "qty" : "100"}],
@@ -1790,8 +1790,8 @@
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
-		"title" : "AirOtop Enhanced Seal",
-		"description1" : "For Ultra Yield 250mL Flask",
+		"title" : "AirOtop&trade; Enhanced Seal",
+		"description1" : "For Ultra Yield&trade; 250mL Flask",
 		"description2" : "Sterile",
 		"partNum" : "899423",
 		"partNumber" : [{"num" : "899423", "qty" : "100"}],
@@ -1808,8 +1808,8 @@
 	},{
 		"line" : "UYF",
 		"series" : "airotop",
-		"title" : "AirOtop Enhanced Seal",
-		"description1" : "For Ultra Yield 125mL Flask",
+		"title" : "AirOtop&trade; Enhanced Seal",
+		"description1" : "For Ultra Yield&trade; 125mL Flask",
 		"description2" : "Sterile",
 		"partNum" : "899421",
 		"partNumber" : [{"num" : "899421", "qty" : "100"}],
@@ -1841,7 +1841,7 @@
 		"membrane"    : false,
 		"poreSize"    : false,
 		"accessories" : [{"link":"Ultra Yield&trade; Flasks", "url":"../../uyf/"},
-					 	 {"link":"Enhanced AirOtop&trade; Seals", "url":"../../uyf/airotop/"}],
+					 	 {"link":"AirOtop&trade; Enhanced Seals", "url":"../../uyf/airotop/"}],
 		"sterile"     : true,
 		"notes"		  : false
 	},{

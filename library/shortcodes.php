@@ -168,7 +168,7 @@ function tech_select_shortcode($atts, $content, $tag){
       <optgroup label='Ultra Yield™ Flask'>\n
         <option value='Uflask'>Ultra Yield™ Flask</option>\n
         <option value='plasmid'>Plasmid+®</option>\n
-        <option value='airotop'>Enhanced AirOtop™ Seals</option>\n
+        <option value='airotop'>AirOtop™ Enhanced Seals</option>\n
       </optgroup>\n
       <option value='wellplate'>Well Plate</option>\n
       <option value='column'>SINGLE StEP® Flash Column</option>\n

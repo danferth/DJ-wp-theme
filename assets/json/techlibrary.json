@@ -1666,8 +1666,8 @@
     "image"           : ""
     },{
     "id"              : 121,
-    "title"           : "Ultra Yield&trade; Flasks, Plasmid+&reg;, Airotop&trade; Seals The E.coli & Microbial Growth Solution",
-    "description"     : "Catalog of the complete line or Ultra Yield&trade; flasks including Plasmid+&reg; Media and Enhanced AirOtop&trade; Seals",
+    "title"           : "Ultra Yield&trade; Flasks, Plasmid+&reg;, AirOtop&trade; Enhanced Seals The <i>E.coli</i> & Microbial Growth Solution",
+    "description"     : "Catalog of the complete line or Ultra Yield&trade; flasks including Plasmid+&reg; Media and AirOtop&trade; Enhanced Seals",
     "citation"        : "",
     "link"            : "uyf-handout.pdf",
     "linkType"        : "pdf",
@@ -1891,8 +1891,8 @@
     "image"           : ""
     },{
     "id"              : 136,
-    "title"           : "AirOtop Enhanced Seal&trade; General Information",
-    "description"     : "General information for Enhanced AirOtop&trade; Seals",
+    "title"           : "AirOtop&trade; Enhanced Seal General Information",
+    "description"     : "General information for AirOtop&trade; Enhanced Seals",
     "citation"        : "",
     "link"            : "/uyf/airotop/",
     "linkType"        : "page",
