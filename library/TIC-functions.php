@@ -37,6 +37,6 @@ function trim_value(&$value){
   if(gettype($value) == 'array'){
       array_walk($value, 'trim_value');
   }
-}
+};
 
 ?>
