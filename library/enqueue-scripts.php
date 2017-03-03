@@ -10,7 +10,7 @@
  * @since FoundationPress 1.0.0
  */
 //version for updates
-$version = false;
+$version = '2.4.6';
 
 if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	function foundationpress_scripts() {
