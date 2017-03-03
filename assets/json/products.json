@@ -2,7 +2,7 @@
 	{
 		"line" : "FV",
 		"series" : "standard",
-		"title" : "PVDF Standard|Filter Vial 0.2&mu;m",
+		"title" : "Standard|Filter Vial PVDF 0.2&mu;m",
 		"description1" : "Red Pre-Split Cap",
 		"description2" : "",
 		"partNum" : "35531",
@@ -23,7 +23,7 @@
 	},{
 		"line" : "FV",
 		"series" : "standard",
-		"title" : "PVDF Standard|Filter Vial 0.45&mu;m",
+		"title" : "Standard|Filter Vial PVDF 0.45&mu;m",
 		"description1" : "Yellow Pre-Split Cap",
 		"description2" : "",
 		"partNum" : "35541",
@@ -44,7 +44,7 @@
 	},{
 		"line" : "FV",
 		"series" : "standard",
-		"title" : "PTFE Standard|Filter Vial 0.2&mu;m",
+		"title" : "Standard|Filter Vial PTFE 0.2&mu;m",
 		"description1" : "Green Pre-Split Cap",
 		"description2" : "",
 		"partNum" : "35530",
@@ -65,7 +65,7 @@
 	},{
 		"line" : "FV",
 		"series" : "standard",
-		"title" : "PTFE Standard|Filter Vial 0.45&mu;m",
+		"title" : "Standard|Filter Vial PTFE 0.45&mu;m",
 		"description1" : "Blue Pre-Split Cap",
 		"description2" : "",
 		"partNum" : "35540",
@@ -86,7 +86,7 @@
 	},{
 		"line" : "FV",
 		"series" : "standard",
-		"title" : "PES Standard|Filter Vial 0.2&mu;m",
+		"title" : "Standard|Filter Vial PES 0.2&mu;m",
 		"description1" : "Grey Pre-Split Cap",
 		"description2" : "",
 		"partNum" : "35535",
@@ -107,7 +107,7 @@
 	},{
 		"line" : "FV",
 		"series" : "standard",
-		"title" : "Nylon Standard|Filter Vial 0.2&mu;m",
+		"title" : "Standard|Filter Vial Nylon 0.2&mu;m",
 		"description1" : "Black Pre-Split Cap",
 		"description2" : "",
 		"partNum" : "35538",
@@ -128,7 +128,7 @@
 	},{
 		"line" : "FV",
 		"series" : "standard",
-		"title" : "Nylon Standard|Filter Vial 0.45&mu;m",
+		"title" : "Standard|Filter Vial Nylon 0.45&mu;m",
 		"description1" : "Pink Pre-Split Cap",
 		"description2" : "",
 		"partNum" : "35539",
@@ -149,7 +149,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PVDF nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial PVDF 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Red Non-Slit Cap",
 		"partNum" : "15531",
@@ -170,7 +170,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PVDF nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial PVDF 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Red Pre-Slit Cap",
 		"partNum" : "25531",
@@ -191,7 +191,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PVDF nano|Filter Vial 0.45&mu;m",
+		"title" : "nano|Filter Vial PVDF 0.45&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Yellow Non-Slit Cap",
 		"partNum" : "15541",
@@ -212,7 +212,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PVDF nano|Filter Vial 0.45&mu;m",
+		"title" : "nano|Filter Vial PVDF 0.45&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Yellow Pre-Slit Cap",
 		"partNum" : "25541",
@@ -233,7 +233,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PTFE nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial PTFE 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Green Non-Slit Cap",
 		"partNum" : "15530",
@@ -254,7 +254,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PTFE nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial PTFE 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Green Pre-Slit Cap",
 		"partNum" : "25530",
@@ -275,7 +275,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PTFE nano|Filter Vial 0.45&mu;m",
+		"title" : "nano|Filter Vial PTFE 0.45&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Blue Non-Slit Cap",
 		"partNum" : "15540",
@@ -296,7 +296,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PTFE nano|Filter Vial 0.45&mu;m",
+		"title" : "nano|Filter Vial PTFE 0.45&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Blue Pre-Slit Cap",
 		"partNum" : "25540",
@@ -317,7 +317,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PES nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial PES 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Grey Non-Slit Cap",
 		"partNum" : "15535",
@@ -338,7 +338,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "PES nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial PES 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Grey Pre-Slit Cap",
 		"partNum" : "25535",
@@ -359,7 +359,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "Nylon nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial Nylon 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Black Non-Slit Cap",
 		"partNum" : "15538",
@@ -380,7 +380,7 @@
 	},{
 		"line" : "FV",
 		"series" : "nano",
-		"title" : "Nylon nano|Filter Vial 0.2&mu;m",
+		"title" : "nano|Filter Vial Nylon 0.2&mu;m",
 		"description1" : "For samples down to 10&mu;L",
 		"description2" : "Black Pre-Slit Cap",
 		"partNum" : "25538",
@@ -401,7 +401,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extreme",
-		"title" : "PVDF eXtreme|FV0.2&mu;m",
+		"title" : "eXtreme|FV PVDF 0.2&mu;m",
 		"description1" : "With tiered filtration",
 		"description2" : "Red Pre-Slit Cap",
 		"partNum" : "85531",
@@ -422,7 +422,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extreme",
-		"title" : "PVDF eXtreme|FV0.45&mu;m",
+		"title" : "eXtreme|FV PVDF 0.45&mu;m",
 		"description1" : "With tiered filtration",
 		"description2" : "Yellow Pre-Slit Cap",
 		"partNum" : "85541",
@@ -443,7 +443,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extreme",
-		"title" : "PTFE eXtreme|FV 0.2&mu;m",
+		"title" : "eXtreme|FV PTFE 0.2&mu;m",
 		"description1" : "With tiered filtration",
 		"description2" : "Green Pre-Slit Cap",
 		"partNum" : "85530",
@@ -464,7 +464,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extreme",
-		"title" : "PTFE eXtreme|FV 0.45&mu;m",
+		"title" : "eXtreme|FV PTFE 0.45&mu;m",
 		"description1" : "With tiered filtration",
 		"description2" : "Blue Pre-Slit Cap",
 		"partNum" : "85540",
@@ -485,7 +485,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extreme",
-		"title" : "PES eXtreme|FV 0.2&mu;m",
+		"title" : "eXtreme|FV PES 0.2&mu;m",
 		"description1" : "With tiered filtration",
 		"description2" : "Grey Pre-Slit Cap",
 		"partNum" : "85535",
@@ -506,7 +506,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extreme",
-		"title" : "Nylon eXtreme|FV 0.2&mu;m",
+		"title" : "eXtreme|FV Nylon 0.2&mu;m",
 		"description1" : "With tiered filtration",
 		"description2" : "Black Pre-Slit Cap",
 		"partNum" : "85538",
@@ -527,7 +527,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extreme",
-		"title" : "Nylon eXtreme|FV 0.45&mu;m",
+		"title" : "eXtreme|FV Nylon 0.45&mu;m",
 		"description1" : "With tiered filtration",
 		"description2" : "Pink Pre-Slit Cap",
 		"partNum" : "85539",
@@ -548,7 +548,7 @@
 	},{
 		"line" : "FV",
 		"series" : "mega",
-		"title" : "PVDF MEGA|FV&trade; 0.2&mu;m",
+		"title" : "MEGA|FV&trade; PVDF 0.2&mu;m",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
 		"partNum" : "48831",
@@ -569,7 +569,7 @@
 	},{
 		"line" : "FV",
 		"series" : "mega",
-		"title" : "PVDF MEGA|FV&trade; 0.45&mu;m",
+		"title" : "MEGA|FV&trade; PVDF 0.45&mu;m",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
 		"partNum" : "48841",
@@ -590,7 +590,7 @@
 	},{
 		"line" : "FV",
 		"series" : "mega",
-		"title" : "PTFE MEGA|FV&trade; 0.2&mu;m",
+		"title" : "MEGA|FV&trade; PTFE 0.2&mu;m",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
 		"partNum" : "48830",
@@ -611,7 +611,7 @@
 	},{
 		"line" : "FV",
 		"series" : "mega",
-		"title" : "PTFE MEGA|FV&trade; 0.45&mu;m",
+		"title" : "MEGA|FV&trade; PTFE 0.45&mu;m",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
 		"partNum" : "48840",
@@ -632,7 +632,7 @@
 	},{
 		"line" : "FV",
 		"series" : "mega",
-		"title" : "Nylon MEGA|FV&trade; 0.2&mu;m",
+		"title" : "MEGA|FV&trade; Nylon 0.2&mu;m",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
 		"partNum" : "48838",
@@ -653,7 +653,7 @@
 	},{
 		"line" : "FV",
 		"series" : "mega",
-		"title" : "Nylon MEGA|FV&trade; 0.45&mu;m",
+		"title" : "MEGA|FV&trade; Nylon 0.45&mu;m",
 		"description1" : "Filter Once for Multiple Applications",
 		"description2" : "",
 		"partNum" : "48839",
@@ -694,7 +694,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extractor",
-		"title" : "PVDF eXtractor3D|FV&reg; 0.2&mu;m",
+		"title" : "eXtractor3D|FV&reg; PVDF 0.2&mu;m",
 		"description1" : "For Filtering Solids",
 		"description2" : "Red Non-Slit Cap",
 		"partNum" : "95531",
@@ -715,7 +715,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extractor",
-		"title" : "PVDF eXtractor3D|FV&reg; 0.45&mu;m",
+		"title" : "eXtractor3D|FV&reg; PVDF 0.45&mu;m",
 		"description1" : "For Filtering Solids",
 		"description2" : "Yellow Non-Slit Cap",
 		"partNum" : "95541",
@@ -736,7 +736,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extractor",
-		"title" : "PTFE eXtractor3D|FV&reg; 0.2&mu;m",
+		"title" : "eXtractor3D|FV&reg; PTFE 0.2&mu;m",
 		"description1" : "For Filtering Solids",
 		"description2" : "Green Non-Slit Cap",
 		"partNum" : "95530",
@@ -757,7 +757,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extractor",
-		"title" : "PTFE eXtractor3D|FV&reg; 0.45&mu;m",
+		"title" : "eXtractor3D|FV&reg; PTFE 0.45&mu;m",
 		"description1" : "For Filtering Solids",
 		"description2" : "Blue Non-Slit Cap",
 		"partNum" : "95540",
@@ -778,7 +778,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extractor",
-		"title" : "PES eXtractor3D|FV&reg; 0.2&mu;m",
+		"title" : "eXtractor3D|FV&reg; PES 0.2&mu;m",
 		"description1" : "For Filtering Solids",
 		"description2" : "Grey Non-Slit Cap",
 		"partNum" : "95535",
@@ -799,7 +799,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extractor",
-		"title" : "Nylon eXtractor3D|FV&reg; 0.2&mu;m",
+		"title" : "eXtractor3D|FV&reg; Nylon 0.2&mu;m",
 		"description1" : "For Filtering Solids",
 		"description2" : "Black Non-Slit Cap",
 		"partNum" : "95538",
@@ -820,7 +820,7 @@
 	},{
 		"line" : "FV",
 		"series" : "extractor",
-		"title" : "Nylon eXtractor3D|FV&reg; 0.45&mu;m",
+		"title" : "eXtractor3D|FV&reg; Nylon 0.45&mu;m",
 		"description1" : "For Filtering Solids",
 		"description2" : "Pink Non-Slit Cap",
 		"partNum" : "95539",
@@ -841,7 +841,7 @@
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
-		"title" : "PVDF Low Evap|Filter Vial 0.2&mu;m",
+		"title" : "Low Evap|Filter Vial PVDF 0.2&mu;m",
 		"description1" : "For Low Evaporation",
 		"description2" : "Red  Crimp Cap",
 		"partNum" : "65531",
@@ -862,7 +862,7 @@
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
-		"title" : "PVDF Low Evap|Filter Vial 0.45&mu;m",
+		"title" : "Low Evap|Filter Vial PVDF 0.45&mu;m",
 		"description1" : "For Low Evaporation",
 		"description2" : "Yellow Crimp Cap",
 		"partNum" : "65541",
@@ -883,7 +883,7 @@
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
-		"title" : "PTFE Low Evap|Filter Vial 0.2&mu;m",
+		"title" : "Low Evap|Filter Vial PTFE 0.2&mu;m",
 		"description1" : "For Low Evaporation",
 		"description2" : "Green Crimp Cap",
 		"partNum" : "65530",
@@ -904,7 +904,7 @@
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
-		"title" : "PTFE Low Evap|Filter Vial 0.45&mu;m",
+		"title" : "Low Evap|Filter Vial PTFE 0.45&mu;m",
 		"description1" : "For Low Evaporation",
 		"description2" : "Blue Crimp Cap",
 		"partNum" : "65540",
@@ -925,7 +925,7 @@
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
-		"title" : "Nylon Low Evap|Filter Vial 0.2&mu;m",
+		"title" : "Low Evap|Filter Vial Nylon 0.2&mu;m",
 		"description1" : "For Low Evaporation",
 		"description2" : "Black Crimp Cap",
 		"partNum" : "65538",
@@ -946,7 +946,7 @@
 	},{
 		"line" : "FV",
 		"series" : "low-evap",
-		"title" : "Nylon Low Evap|Filter Vial 0.45&mu;m",
+		"title" : "Low Evap|Filter Vial Nylon 0.45&mu;m",
 		"description1" : "For Low Evaporation",
 		"description2" : "Pink Crimp Cap",
 		"partNum" : "65539",
@@ -1309,7 +1309,7 @@
 		"line" : "OG",
 		"series" : "flask",
 		"title" : "Optimum Growth&trade; 125mL Flask",
-		"description1" : "Use with Transfer Cap",
+		"description1" : "",
 		"description2" : "Sterile",
 		"partNum" : "931110",
 		"partNumber" : [{"num" : "931110", "qty" : "50"}],
@@ -1349,7 +1349,7 @@
 		"line" : "OG",
 		"series" : "flask",
 		"title" : "Optimum Growth&trade; 250mL Flask",
-		"description1" : "Use with Transfer Cap",
+		"description1" : "",
 		"description2" : "Sterile",
 		"partNum" : "931111",
 		"partNumber" : [{"num" : "931111", "qty" : "50"}],
@@ -1389,7 +1389,7 @@
 		"line" : "OG",
 		"series" : "flask",
 		"title" : "Optimum Growth&trade; 500mL Flask",
-		"description1" : "Use with Transfer Cap",
+		"description1" : "",
 		"description2" : "Sterile",
 		"partNum" : "931112",
 		"partNumber" : [{"num" : "931112", "qty" : "50"}],
