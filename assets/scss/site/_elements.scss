@@ -1054,7 +1054,7 @@ table.product-ref-table{
       width:20%;
       text-align:center;
       background:$primary-color;
-      border-right:1px solid scale-color($primary-color, $lightness: -10%);
+      border-right:1px solid $gainsboro;
       &:last-of-type{
         border-right:none;
       }

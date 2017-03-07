@@ -512,7 +512,7 @@ tic.controller('techResultController', ['$scope', '$filter', '$sce', 'dataFactor
         window.location = url+"/"+$scope.techNote.link;
       }
     if($scope.techNote.linkType === "link"){
-        window.location = url+"/"+$scope.techNote.link;
+        window.location = $scope.techNote.link;
       }
     if($scope.techNote.linkType === "mp4"){
       $scope.VIDEO = true;
