@@ -23,7 +23,7 @@
 			<img src="<?php echo get_template_directory_uri(). '/images/TIC-logo-usa-lightened.png'; ?>" height='38' width='141'></img>
 		</div>
 		<div class="column small-12 medium-8 large-10 end tic-address">
-			<p>&copy; 2015 Thomson Instrument Company • 1121 South Cleveland Street, Oceanside, California 92054<br>800-541-4792 | 760-757-8080 • 760-757-9367 (fax) • info@htslabs.com | <a href="/legal/">Legal / Trademarks</a></p>
+			<p>&copy; <?php echo date(Y);  ?> Thomson Instrument Company • 1121 South Cleveland Street, Oceanside, California 92054 • 800-541-4792 | 760-757-8080 • 760-757-9367 (fax) • info@htslabs.com | <a href="/legal/">Legal / Trademarks</a></p>
 		</div>
 	</div>
 </div>
@@ -42,5 +42,6 @@
 
 <?php wp_footer(); ?>
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
+<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 </body>
 </html>
