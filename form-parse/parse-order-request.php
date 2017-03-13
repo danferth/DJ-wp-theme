@@ -62,7 +62,7 @@ $ccOrder = '';
 if(isset($_POST['creditNumber']) && $_POST['creditNumber'] != ""){
   $ccOrder = "Yes";
 }else{
-  $ccOrder = "No";
+  $ccOrder = false;
 }
 //Purchaseing
 $purchEmail     = filter_var($_POST['purchEmail'], FILTER_SANITIZE_EMAIL);
@@ -149,16 +149,16 @@ $quoteNo7       = $_POST['quoteNo'][6];
 $quoteNo8       = $_POST['quoteNo'][7];
 $quoteNo9       = $_POST['quoteNo'][8];
 $quoteNo10      = $_POST['quoteNo'][9];
-// $shipping1      = filter_var($_POST['shipping'][0], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping2      = filter_var($_POST['shipping'][1], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping3      = filter_var($_POST['shipping'][2], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping4      = filter_var($_POST['shipping'][3], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping5      = filter_var($_POST['shipping'][4], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping6      = filter_var($_POST['shipping'][5], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping7      = filter_var($_POST['shipping'][6], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping8      = filter_var($_POST['shipping'][7], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping9      = filter_var($_POST['shipping'][8], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $shipping10     = filter_var($_POST['shipping'][9], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$shipping1      = "";
+$shipping2      = "";
+$shipping3      = "";
+$shipping4      = "";
+$shipping5      = "";
+$shipping6      = "";
+$shipping7      = "";
+$shipping8      = "";
+$shipping9      = "";
+$shipping10     = "";
 array_walk($_POST['dateReq'], 'sanitize_str');
 $dateReq1       = $_POST['dateReq'][0];
 $dateReq2       = $_POST['dateReq'][1];
@@ -217,27 +217,27 @@ $next_page = 'order/';
 
 		$companyInformation = array("$companyName","$realPo","$ccOrder","$creditInfoUsable","$creditNumberUsable","$creditNameUsable","$creditAddressUsable","$creditCityUsable","$creditStateUsable","$creditZipUsable","$purchFname","$purchLname","$purchPhone","$purchExt","$purchFax","$userEmail","$userFname","$userLname","$userPhone","$shipAdd1","$shipAdd2","$shipAdd3","$shipCity","$shipState","$shipZip","$shipCountry","$shipAttn","$billEmail","$billFname","$billLname","$billPhone","$billAdd1","$billAdd2","$billAdd3","$billCity","$billState","$billZip","$billCountry","$billAttn","$comments","$purchEmail");
 
-		// $order1 = array("$Qty1","$Pno1","$price1","$quoteNo1","$shipping1","$dateReq1");
-		// $order2 = array("$Qty2","$Pno2","$price2","$quoteNo2","$shipping2","$dateReq2");
-		// $order3 = array("$Qty3","$Pno3","$price3","$quoteNo3","$shipping3","$dateReq3");
-		// $order4 = array("$Qty4","$Pno4","$price4","$quoteNo4","$shipping4","$dateReq4");
-		// $order5 = array("$Qty5","$Pno5","$price5","$quoteNo5","$shipping5","$dateReq5");
-		// $order6 = array("$Qty6","$Pno6","$price6","$quoteNo6","$shipping6","$dateReq6");
-		// $order7 = array("$Qty7","$Pno7","$price7","$quoteNo7","$shipping7","$dateReq7");
-		// $order8 = array("$Qty8","$Pno8","$price8","$quoteNo8","$shipping8","$dateReq8");
-		// $order9 = array("$Qty9","$Pno9","$price9","$quoteNo9","$shipping9","$dateReq9");
-		// $order10 = array("$Qty10","$Pno10","$price10","$quoteNo10","$shipping10","$dateReq10");
+		$order1 = array("$Qty1","$Pno1","$price1","$quoteNo1","$shipping1","$dateReq1");
+		$order2 = array("$Qty2","$Pno2","$price2","$quoteNo2","$shipping2","$dateReq2");
+		$order3 = array("$Qty3","$Pno3","$price3","$quoteNo3","$shipping3","$dateReq3");
+		$order4 = array("$Qty4","$Pno4","$price4","$quoteNo4","$shipping4","$dateReq4");
+		$order5 = array("$Qty5","$Pno5","$price5","$quoteNo5","$shipping5","$dateReq5");
+		$order6 = array("$Qty6","$Pno6","$price6","$quoteNo6","$shipping6","$dateReq6");
+		$order7 = array("$Qty7","$Pno7","$price7","$quoteNo7","$shipping7","$dateReq7");
+		$order8 = array("$Qty8","$Pno8","$price8","$quoteNo8","$shipping8","$dateReq8");
+		$order9 = array("$Qty9","$Pno9","$price9","$quoteNo9","$shipping9","$dateReq9");
+		$order10 = array("$Qty10","$Pno10","$price10","$quoteNo10","$shipping10","$dateReq10");
 
-    $order1 = array("$Qty1","$Pno1","$price1","$quoteNo1","$dateReq1");
-		$order2 = array("$Qty2","$Pno2","$price2","$quoteNo2","$dateReq2");
-		$order3 = array("$Qty3","$Pno3","$price3","$quoteNo3","$dateReq3");
-		$order4 = array("$Qty4","$Pno4","$price4","$quoteNo4","$dateReq4");
-		$order5 = array("$Qty5","$Pno5","$price5","$quoteNo5","$dateReq5");
-		$order6 = array("$Qty6","$Pno6","$price6","$quoteNo6","$dateReq6");
-		$order7 = array("$Qty7","$Pno7","$price7","$quoteNo7","$dateReq7");
-		$order8 = array("$Qty8","$Pno8","$price8","$quoteNo8","$dateReq8");
-		$order9 = array("$Qty9","$Pno9","$price9","$quoteNo9","$dateReq9");
-		$order10 = array("$Qty10","$Pno10","$price10","$quoteNo10","$dateReq10");
+    // $order1 = array("$Qty1","$Pno1","$price1","$quoteNo1","$dateReq1");
+		// $order2 = array("$Qty2","$Pno2","$price2","$quoteNo2","$dateReq2");
+		// $order3 = array("$Qty3","$Pno3","$price3","$quoteNo3","$dateReq3");
+		// $order4 = array("$Qty4","$Pno4","$price4","$quoteNo4","$dateReq4");
+		// $order5 = array("$Qty5","$Pno5","$price5","$quoteNo5","$dateReq5");
+		// $order6 = array("$Qty6","$Pno6","$price6","$quoteNo6","$dateReq6");
+		// $order7 = array("$Qty7","$Pno7","$price7","$quoteNo7","$dateReq7");
+		// $order8 = array("$Qty8","$Pno8","$price8","$quoteNo8","$dateReq8");
+		// $order9 = array("$Qty9","$Pno9","$price9","$quoteNo9","$dateReq9");
+		// $order10 = array("$Qty10","$Pno10","$price10","$quoteNo10","$dateReq10");
 
 		//creation of csv file
 		$date = date('m\-d\-Y\-h:iA');

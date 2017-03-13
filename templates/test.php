@@ -53,6 +53,7 @@ get_header(); ?>
 			<div class="entry-content">
 				<?php the_content(); 
 				//coment out this and uncoment to bellow to go back to regular mode
+				
 				?>
 			
 <!-- =======================START======================= -->
