@@ -60,6 +60,10 @@ label.error{
 .mc4wp-alert{
   color:$gainsboro;
 }
+//google custom search results page
+.entry-content #___gcse_0 .gsc-control-cse{
+  border:none !important;
+}
 //remove padding on column - this is mostly for mobile views
 .no-padding{
   padding-left:0;
