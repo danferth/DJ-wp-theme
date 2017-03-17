@@ -272,7 +272,7 @@
   },{
     "id"              : 19,
     "title"           : "Filter Vial Overview: Standard, eXtreme|FV&reg; &, nano|Filter Vials&trade;, eXtractor|FV&reg;",
-    "description"     : "",
+    "description"     : "Overview of the Thomson Filter Vial Line",
     "citation"        : "",
     "link"            : "fv-overview",
     "linkType"        : "mp4",
@@ -287,7 +287,7 @@
   },{
     "id"              : 20,
     "title"           : "How to use a Filter Vial",
-    "description"     : "",
+    "description"     : "How to use a Filter Vial",
     "citation"        : "",
     "link"            : "How-to-use-a-filter-vial",
     "linkType"        : "mp4",
@@ -302,7 +302,7 @@
   },{
     "id"              : 21,
     "title"           : "How to use the Multi-Use Press",
-    "description"     : "",
+    "description"     : "How to use the Thomson Multi-Use Press to filter up to 48 Filter Vials at once.",
     "citation"        : "",
     "link"            : "48position",
     "linkType"        : "mp4",
@@ -317,7 +317,7 @@
   },{
     "id"              : 22,
     "title"           : "Sample Loss With Syringe Filters",
-    "description"     : "",
+    "description"     : "Video showcasing Pfizer data on sample loss with syringe filters compared to Thomson Filter Vials.",
     "citation"        : "",
     "link"            : "Sample-Loss",
     "linkType"        : "mp4",
@@ -332,7 +332,7 @@
   },{
     "id"              : 23,
     "title"           : "Syringe Filter Dangers",
-    "description"     : "",
+    "description"     : "Video showing the dangers of using syringe filters: blockage and explosions, dangerous aerosols. Compared to Thomson Filter Vials clean and contained sampling properties.",
     "citation"        : "",
     "link"            : "Syringe-Filter-Dangers",
     "linkType"        : "mp4",
@@ -347,7 +347,7 @@
   },{
     "id"              : 24,
     "title"           : "The Filter Vial Revolution",
-    "description"     : "",
+    "description"     : "A laboratory technician frustrated with syringe filters discovers the simple and effective Thomson Filter Vial.",
     "citation"        : "",
     "link"            : "FV-revolution",
     "linkType"        : "mp4",
@@ -362,7 +362,7 @@
   },{
     "id"              : 25,
     "title"           : "Front End Full Automation for Filter Vials (Autosampler Ready) Grabber D885 (Brechbuler) for PAL System",
-    "description"     : "",
+    "description"     : "Front End Full Automation for Filter Vials (Autosampler Ready) Grabber D885 (Brechbuler) for PAL System.",
     "citation"        : "",
     "link"            : "youtube",
     "linkType"        : "mp4",
@@ -376,8 +376,8 @@
     "image"           : "youtube.png"
   },{
     "id"              : 26,
-    "title"           : "How to use an eXtreme|FV&reg;-PVDF",
-    "description"     : "",
+    "title"           : "How to use an eXtreme|FV&reg; PVDF",
+    "description"     : "Using the eXtreme|FV with a PVDF membrane in food applications.",
     "citation"        : "",
     "link"            : "eXtreme-PVDF",
     "linkType"        : "mp4",
@@ -392,7 +392,7 @@
   },{
     "id"              : 27,
     "title"           : "Improved Method for the Analysis of a Pain Management Supplemental Panel in Urine using the Thomson eXtreme|FV&reg; by LC-MS/MS",
-    "description"     : "",
+    "description"     : "Video showing the steps in using a Thomson Filter Vial in analyzing urine for a pain management supplemental panel.  Uses Thomson eXtreme|FV by LC-MS/MS.",
     "citation"        : "",
     "link"            : "urine-appnote",
     "linkType"        : "mp4",
@@ -407,7 +407,7 @@
   },{
     "id"              : 28,
     "title"           : "Improved Method for the Analysis of 31 Drugs of Abuse in Oral Fluid samples using the Thomson eXtreme|FV&reg; by LC-MS/MS",
-    "description"     : "",
+    "description"     : "Video showing steps in application for analyzing oral fluids for 31 drugs of abuse, using Thomson eXtreme|FV and OraSure Intercept i2he oral fluid collector.",
     "citation"        : "",
     "link"            : "oral-fluids-appnote",
     "linkType"        : "mp4",
@@ -422,7 +422,7 @@
   },{
     "id"              : 29,
     "title"           : "eXtreme|FV&reg; for Antibody Analysis",
-    "description"     : "",
+    "description"     : "Video showing the application steps needed to analyze antibodies with Thomson eXtreme|FV.",
     "citation"        : "",
     "link"            : "Thomson-Filter-Vials-for-Antibody-Analysis",
     "linkType"        : "mp4",
@@ -437,7 +437,7 @@
   },{
     "id"              : 30,
     "title"           : "Pharmaceutical & Food Sample Filtration with eXtractor|FV&reg;",
-    "description"     : "",
+    "description"     : "Video showing the process of using the eXtractor3D|FV for pharmaceutical and food sample filtration.",
     "citation"        : "",
     "link"            : "ex3d",
     "linkType"        : "mp4",
@@ -452,7 +452,7 @@
   },{
     "id"              : 31,
     "title"           : "How to use MEGA|FV&trade;",
-    "description"     : "",
+    "description"     : "Video showing the correct use of a Thomson MEGA|FV.",
     "citation"        : "",
     "link"            : "mega_fv_how_2",
     "linkType"        : "mp4",
@@ -1292,7 +1292,7 @@
   },{
     "id"              : 95,
     "title"           : "Optimum Growth for PhytoPlankton Production",
-    "description"     : "",
+    "description"     : "Video supplied by customer showing the Optimum Growth 5L flask in phyto plankton growth.",
     "citation"        : "",
     "link"            : "phyto-plankton",
     "linkType"        : "mp4",
@@ -1307,7 +1307,7 @@
     },{
     "id"              : 96,
     "title"           : "Optimum Growth Flasks with Sample Port for Insect and Mammalian Cells",
-    "description"     : "",
+    "description"     : "Video showing the use of the Thomson Optimum Growth 5L with Sample Port being used to take samples from the flask in the shaker.",
     "citation"        : "",
     "link"            : "samplePort",
     "linkType"        : "mp4",
@@ -1322,7 +1322,7 @@
     },{
     "id"              : 97,
     "title"           : "Optimum Growth Flasks with Sample Port for Algae",
-    "description"     : "",
+    "description"     : "Video showing the Thomson Optimum Growth 5L Flask with sample port in sampling algae production in the shaker.",
     "citation"        : "",
     "link"            : "sample-port",
     "linkType"        : "mp4",
@@ -1337,7 +1337,7 @@
     },{
     "id"              : 98,
     "title"           : "Alternative to Sticky Mats",
-    "description"     : "",
+    "description"     : "Video showing the use of rug mats in a shaker instead of traditional sticky mats.",
     "citation"        : "",
     "link"            : "rugmat",
     "linkType"        : "mp4",
@@ -1352,7 +1352,7 @@
     },{
     "id"              : 99,
     "title"           : "125mL & 250mL Optimum Growth&trade; Flask Carrier",
-    "description"     : "",
+    "description"     : "Video showcasing the use of Thomson flask carrier from shaker to hood for sampling with Thomson Optimum Growth 125mL or 250mL flasks.",
     "citation"        : "",
     "link"            : "flask-carrier",
     "linkType"        : "mp4",
@@ -1577,7 +1577,7 @@
     },{
     "id"              : 115,
     "title"           : "Bidirectional Transfer Cap Options",
-    "description"     : "",
+    "description"     : "Video showing the use of the Thomson Bidirectional transfer cap options.",
     "citation"        : "",
     "link"            : "tc-options",
     "linkType"        : "mp4",
@@ -1592,7 +1592,7 @@
     },{
     "id"              : 116,
     "title"           : "Transfer Cap with 7/16\" Quick Connect",
-    "description"     : "",
+    "description"     : "Video showcasing the Thomson Transfer Cap for Optimum Growth flasks with a 7/16 quick connect connection to a cell bag with bidirectional transfer in and out of the hood.",
     "citation"        : "",
     "link"            : "tc716qc",
     "linkType"        : "mp4",
@@ -1607,7 +1607,7 @@
     },{
     "id"              : 117,
     "title"           : "Transfer Cap with 1/4\" Quick Connect",
-    "description"     : "",
+    "description"     : "Video showcasing the Thomson Transfer Cap for Optimum Growth flasks with a 1/4 quick connect connection to a cell bag with bidirectional transfer in and out of the hood.",
     "citation"        : "",
     "link"            : "tc14qc",
     "linkType"        : "mp4",
@@ -1622,7 +1622,7 @@
     },{
     "id"              : 118,
     "title"           : "Transfer Cap for Tube Fusing to 7/16\" for welding C-Flex 24",
-    "description"     : "",
+    "description"     : "Video showcasing the Thomson Transfer Cap for Optimum Growth flasks using a C-Flex 24 tube fusing connection to a cell bag with bidirectional transfer in and out of the hood.",
     "citation"        : "",
     "link"            : "tc716tf",
     "linkType"        : "mp4",
@@ -1637,7 +1637,7 @@
     },{
     "id"              : 119,
     "title"           : "Transfer Cap for Tube Fusing to 1/4\" for welding C-Flex 16",
-    "description"     : "",
+    "description"     : "Video showcasing the Thomson Transfer Cap for Optimum Growth flasks using a C-Flex 16 tube fusing connection to a cell bag with bidirectional transfer in and out of the hood.",
     "citation"        : "",
     "link"            : "tc14tf",
     "linkType"        : "mp4",
@@ -1742,7 +1742,7 @@
     },{
     "id"              : 126,
     "title"           : "HT Infors/ATR Shakers & Ultra Yield Flasks&trade;",
-    "description"     : "",
+    "description"     : "Video showing the use of Thomson Ultra Yield Flasks with Plasmid+ Media and AirOtop Enhanced Flask Seals in the hood and using a HT Infors/ART shaker for E. coli production.",
     "citation"        : "",
     "link"            : "ATR-UYF",
     "linkType"        : "mp4",
