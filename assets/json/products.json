@@ -2342,7 +2342,7 @@
 		"line" : "well plate",
 		"series" : "well plate",
 		"title" : "96-Well Plate, 650&mu;L",
-		"description1" : "Round Well, Round Bottom",
+		"description1" : "Round Well, V-Bottom",
 		"description2" : "Use with 899410, 899405-1, 899403, 899406",
 		"partNum" : "931512B",
 		"partNumber" : [{"num" : "931512B", "qty" : "50"}],
