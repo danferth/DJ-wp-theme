@@ -385,19 +385,6 @@
 		"web": "www.clinisciences.com",
 		"email": "espana@clinisciences.com"
 	}, {
-		"id": 32,
-		"region": "Europe",
-		"country": "Spain",
-		"company": "Sugelabor",
-		"products": ["Filter Vials"],
-		"address": "C/ Sicilia\n36  28038 Madrid\nEspana",
-		"tel": "0034 91 501 39 36",
-		"tel2": "",
-		"fax": "0034 91 501 39 38",
-		"webUrl": "http://www.sugelabor.com",
-		"web": "sugelabor.com",
-		"email": "info@sugelabor.com"
-	}, {
 		"id": 33,
 		"region": "Europe",
 		"country": "Sweden",
