@@ -1392,7 +1392,7 @@
 		"description1" : "",
 		"description2" : "Sterile",
 		"partNum" : "931112",
-		"partNumber" : [{"num" : "931112", "qty" : "50"}],
+		"partNumber" : [{"num" : "931112", "qty" : "25"}],
 		"image" : "931112_lg.jpg",
 		"thum_image" : "931112_tn.png",
 		"tag" : [],
