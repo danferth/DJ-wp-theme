@@ -56,7 +56,7 @@ $secCode        = filter_var($_POST['secCode'], FILTER_SANITIZE_NUMBER_INT);
 $CCbillingAdd   = filter_var($_POST['CCbillingAdd'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $CCbillingCity  = filter_var($_POST['CCbillingCity'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $CCbillingState = filter_var($_POST['CCbillingState'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$CCbillingZip   = filter_var($_POST['CCbillingZip'], FILTER_SANITIZE_NUMBER_INT);
+$CCbillingZip   = filter_var($_POST['CCbillingZip'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 //is is a cc order? (this is because we changed the form and parsing code is uneditable for the CSV)
 $ccOrder = '';
 if(isset($_POST['creditNumber']) && $_POST['creditNumber'] != ""){
@@ -82,7 +82,7 @@ $shipAdd2       = filter_var($_POST['shipAdd'][1], FILTER_SANITIZE_STRING, FILTE
 $shipAdd3       = filter_var($_POST['shipAdd'][2], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $shipCity       = filter_var($_POST['shipCity'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $shipState      = filter_var($_POST['shipState'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$shipZip        = filter_var($_POST['shipZip'], FILTER_SANITIZE_NUMBER_INT);
+$shipZip        = filter_var($_POST['shipZip'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $shipCountry    = filter_var($_POST['shipCountry'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $shipAttn       = filter_var($_POST['shipAttn'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 //billing
@@ -95,7 +95,7 @@ $billAdd2       = filter_var($_POST['billAdd'][1], FILTER_SANITIZE_STRING, FILTE
 $billAdd3       = filter_var($_POST['billAdd'][2], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $billCity       = filter_var($_POST['billCity'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $billState      = filter_var($_POST['billState'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$billZip        = filter_var($_POST['billZip'], FILTER_SANITIZE_NUMBER_INT);
+$billZip        = filter_var($_POST['billZip'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $billCountry    = filter_var($_POST['billCountry'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $billAttn       = filter_var($_POST['billAttn'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 //order

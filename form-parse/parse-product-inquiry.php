@@ -18,7 +18,7 @@ $address = filter_var($_POST['address'], FILTER_SANITIZE_STRING, FILTER_FLAG_STR
 $building = filter_var($_POST['building'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $city    = filter_var($_POST['city'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $state   = filter_var($_POST['state'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$zipcode = filter_var($_POST['zip-code'], FILTER_SANITIZE_NUMBER_INT);
+$zipcode = filter_var($_POST['zip-code'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
 
 //for body and sending email
