@@ -1323,7 +1323,21 @@ table.product-ref-table{
   }
 }
 
-
+//sales portal styles
+.sales-portal{
+    h1{
+      font-family: Avenir Next LT Pro Ultra Light;
+      font-weight:100;
+      color:$primary-color;
+      font-size:3rem;
+      text-align:center;
+    }
+    h1 + p{
+      text-align:center;
+      color:$secondary-color;
+      
+    }
+}
 
 
 
