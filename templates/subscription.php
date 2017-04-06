@@ -32,26 +32,12 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
 
-<div class="row full-page-top" ng-app="tic" ng-controller="ticController" ng-strict-di>
+<div class="row full-page-top subscription" ng-app="tic" ng-controller="ticController" ng-strict-di>
 	<?php /* Start loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>" <?php echo $ng_controller; ?>>
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
-				<div class="tweet-header-module">
-					<span class="tweet-link animated">
-					<a
-						href="https://twitter.com/share"
-						class="twitter-share-button"
-						data-text="Check out <?php the_title(); ?> from Thomson!"
-						data-url="<?php	true_url(); ?>"
-						data-hashtags="science,TICscience"
-						data-show-count="false">
-						Tweet
-					</a>
-					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</span>
-				</div>
 			</header>
 	<div class="small-12 large-12 columns" role="main">
 
@@ -103,9 +89,7 @@ if($form_success == "true"){
 //}
 //if(!hasHTML5validation() ){
 	$(window).bind("load", function() {
-		  $("#product-inquiry-sample").validate();
-		  $("#product-inquiry-quote").validate();
-		  $("#product-inquiry-contact").validate();
+		 // $("#product-inquiry-sample").validate();
 });
 //}
 </script>

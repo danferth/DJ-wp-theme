@@ -1324,6 +1324,20 @@ table.product-ref-table{
 }
 
 //sales portal styles
+.subscription{
+  header{
+    background:#f5fbfe;
+    border-bottom:1px dashed $primary-color;
+    .entry-title{
+      font-family: Avenir Next LT Pro Ultra Light;
+      font-weight:100;
+      color:$primary-color;
+      font-size:3rem;
+      text-align:center;
+    }
+    
+  }
+}
 .sales-portal{
     h1{
       font-family: Avenir Next LT Pro Ultra Light;
@@ -1334,9 +1348,55 @@ table.product-ref-table{
     }
     h1 + p{
       text-align:center;
-      color:$secondary-color;
+      color:$jumbo;
+      @media screen and(min-width:$small-breakpoint){
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      @media screen and(min-width:$medium-breakpoint){
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      @media screen and(min-width:$large-breakpoint){
+        width:75%;
+        margin-left:auto;
+        margin-right:auto;
+      }
       
     }
+}
+.intro{
+  padding-bottom: 2.5rem;
+  background:#f5fbfe url('../../images/intro-bg.jpg') no-repeat top center;
+}
+.downloadable-files{
+  padding-bottom:2rem;
+  .file{
+    margin-bottom:0;
+  }
+  .file-description{
+    font-size:.7rem;
+  }
+}
+.excel{
+  h1, i.fa{
+    color:#007133;
+  }
+  background:#f4fff9;
+}
+.powerpoint{
+  h1, i.fa{
+    color:#db5a26;
+  }
+  background:#fdf8f6;
+}
+.zipfiles{
+  h1, i.fa{
+    color:#3E5D96;
+  }
+  background:#f7f9fc;
 }
 
 
