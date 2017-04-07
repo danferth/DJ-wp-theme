@@ -1379,26 +1379,46 @@ table.product-ref-table{
   .file-description{
     font-size:.7rem;
   }
+  ul{
+    li div{
+      padding: 1rem 1rem 2rem 1rem;
+      background:rgba($white,.65);
+      transition:all 300ms;
+      &:hover{
+        background:rgba($white, .85);
+      }
+
+    }
+  }
 }
 .excel{
   h1, i.fa{
     color:#007133;
   }
   background:#f4fff9;
+  border-bottom:1px dashed #007133;
 }
 .powerpoint{
   h1, i.fa{
     color:#db5a26;
   }
   background:#fdf8f6;
+  border-bottom:1px dashed #db5a26;
 }
 .zipfiles{
   h1, i.fa{
-    color:#3E5D96;
+    color:#6f2e81;
   }
-  background:#f7f9fc;
+  background:#fbf7fc;
+  border-bottom:1px dashed #6f2e81;
 }
-
+.word{
+  h1, i.fa{
+    color:#2a3281;
+  }
+  background:#f7f7fc;
+  border-bottom:1px dashed #2a3281;
+}
 
 
 
