@@ -68,6 +68,9 @@ tic.factory('dataFactory', ['$http', '$filter', function($http, $filter){
   factory.get_techdata = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json');
   };
+  factory.get_sftofv = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/sftofv.json');
+  };
   return factory;
 }]);
 
@@ -521,6 +524,18 @@ tic.controller('techResultController', ['$scope', '$filter', '$sce', 'dataFactor
   
   });
 }]);
+
+//=====Sales Portal=====
+tic.controller('sftofvController', ['$scope', 'dataFactory', '$filter', function($scope, dataFactory, $filter){
+  dataFactory.get_sftofv().then(function(responce){
+   $scope.sftofv = responce.data;
+   $scope.sfChosen = $filter('filter')($scope.techlibrary, {part: $scope.sftofvSearch })[0];
+ });
+  
+  
+
+}]);
+
 
 //=====test page=====
 tic.controller('testController', ['$scope', function($scope){

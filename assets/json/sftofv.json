@@ -1,0 +1,3560 @@
+[
+  {
+    "manufacture":"Advantec®",
+    "part":"03JP050AN",
+    "description":"3mm Syringe Filter 0.50μm PTFE/100pkg",
+    "TICpart":"15540/25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"03CP020AN",
+    "description":"3mm Syringe Filter 0.20μm Cellulose/100pkg",
+    "TICpart":"15535/25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"03CP045AN",
+    "description":"3mm Syringe Filter 0.45μm Cellulose/100pkg",
+    "TICpart":"15541/25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"13CP020AN",
+    "description":"13mm Syringe Filter 0.20μm Cellulose/100pkg",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES  0.2µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"13CP045AN",
+    "description":"13mm Syringe Filter 0.45μm Cellulose/100pkg",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"13JP020AN",
+    "description":"13mm Syringe Filter 0.20μm PTFE /100pkg",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"13JP050AN",
+    "description":"13mm Syringe Filter 0.50μm PTFE /100pkg",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"25AS020AN",
+    "description":"25mm Syringe Filter 0.20μm MCE /50 pkg",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"25AS045AN",
+    "description":"25mm Syringe Filter 0.45μm MCE /50pkg",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"25CS020AN",
+    "description":"25mm Syringe Filter 0.20μm Cellulose /50pkg",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"25CS045AN",
+    "description":"25mm Syringe Filter 0.45μm Cellulose /50pkg",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"25CS080AN",
+    "description":"25mm Syringe Filter 0.80μm Cellulose /50pkg",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"25JP020AN",
+    "description":"25mm Syringe Filter 0.20μm PTFE /50pkg",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"25JP050AN",
+    "description":"25mm Syringe Filter 0.50μm PTFE /50pkg",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"50CP020AN",
+    "description":"50mm Syringe Filter 0.20μm Cellulose /10pkg",
+    "TICpart":"85535",
+    "TICdescription":"eXtreme Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"50CP045AN",
+    "description":"50mm Syringe Filter 0.45μm Cellulose /10pkg",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"50JP020AN",
+    "description":"50mm Syringe Filter 0.20μm PTFE /10pkg",
+    "TICpart":"85530",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Advantec®",
+    "part":"50JP050AN",
+    "description":"50mm Syringe Filter 0.50μm PTFE /10pkg",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"519-1415",
+    "description":"0.45μm PTFE Mini-Uniprep®, 100/pk PTFE for aggressive samples",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"5190-1416",
+    "description":"0.45μm Nylon Mini-Uniprep®, 100/pk Nylon for aqueous and organic samples, pH 3-10",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"5190-1417",
+    "description":"0.45μm PP Mini-Uniprep®, 100/pk PP for solvent based samples, low water breakthrough values",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE  0.45µm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"5190-1418",
+    "description":"0.45μm RC Mini-Uniprep®, 100/pk Regenerated Cellulose for aquaeous or organic solvents, very low non-specific protein binding membrane",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"5190-1419",
+    "description":"0.20μm PTFE Mini-Uniprep®, 100/pk PTFE for aggressive samples",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"5190-1420",
+    "description":"0.20μm Nylon Mini-Uniprep®, 100/pk Nylon for aqueous and organic samples, pH 3-10",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"5190-1421",
+    "description":"0.20μm PP Mini-Uniprep®, 100/pk PP for solvent based samples, low water breakthrough values",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Agilent®",
+    "part":"5190-1422",
+    "description":"0.20μm RC Mini-Uniprep®, 100/pk Regenerated Cellulose for aquaeous or organic solvents, very low non-specific protein binding membrane",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLHNR04NL",
+    "description":"4mm Syringe Filter 0.45μm Nylon",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"Nano Filter Vial Nylon 0.45μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLGNR04NL",
+    "description":"4mm Syringe Filter 0.2μm Nylon",
+    "TICpart":"15538 / 25538",
+    "TICdescription":"Nano Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLFHR04NL",
+    "description":"4mm Syringe Filter 0.45μm PTFE",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"Nano Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLFGR04NL",
+    "description":"4mm Syringe Filter 0.2μm PTFE",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"Nano Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLHVR04NL",
+    "description":"4mm Syringe Filter 0.45μm PVDF",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"Nano Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLGVR04NL",
+    "description":"4mm Syringe Filter 0.2μm PVDF",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"Nano Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLHN013NL",
+    "description":"17mm Syringe Filter 0.45μm Nylon",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"Nano Filter Vial Nylon 0.45μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLGN013NL",
+    "description":"17mm Syringe Filter 0.2μm Nylon",
+    "TICpart":"15538 / 25538",
+    "TICdescription":"Nano Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLFH013NL",
+    "description":"17mm Syringe Filter 0.45μm PTFE",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"Nano Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLFG013NL",
+    "description":"17mm Syringe Filter 0.2 PTFE",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"Nano Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLHV013NL",
+    "description":"17mm Syringe Filter 0.45μm PVDF",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"Nano Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLGV013NL",
+    "description":"17mm Syringe Filter 0.2 PVDF",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"Nano Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLHN025NS",
+    "description":"30mm Syringe Filter 0.45μm Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLHP033NS",
+    "description":"30mm Syringe Filter 0.45μm Nylon PES for Ion Chromatography",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLGP033NS",
+    "description":"30mm Syringe Filter 0.2μm Nylon PES for Ion Chromatography",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLGN025NS",
+    "description":"30mm Syringe Filter 0.2μm Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial NYLON 0.2µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLFH025NS",
+    "description":"30mm Syringe Filter 0.45μm PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLFG025NS",
+    "description":"30mm Syringe Filter 0.2μm PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLHV033NS",
+    "description":"30mm Syringe Filter 0.45μm PVDF",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Millipore®",
+    "part":"SLGV025NB",
+    "description":"30mm Syringe Filter 0.2μm PVDF",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPENYL",
+    "description":"Mini-UniPrep ® Syringeless Filter, nylon, 0.2μm, 100/pk",
+    "TICpart":"65538-200",
+    "TICdescription":"Low Evap Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPENY",
+    "description":"Mini-UniPrep ® Syringeless Filter, nylon, 0.2μm, 1000/pk",
+    "TICpart":"65538-500",
+    "TICdescription":"Low Evap Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPUNYL",
+    "description":"Mini-UniPrep ® Syringeless Filter, nylon, 0.45μm, 100/pk",
+    "TICpart":"65539-200",
+    "TICdescription":"Low Evap Filter Vial Nylon 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPUNYL",
+    "description":"Mini-UniPrep ® Syringeless Filter, nylon, 0.45μm, 1000/pk",
+    "TICpart":"65539-500",
+    "TICdescription":"Low Evap Filter Vial Nylon 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPEPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, PES, 0.2μm, 100/pk",
+    "TICpart":"65535-200",
+    "TICdescription":"Low Evap Filter Vial PES 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPEPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, PES, 0.2μm, 1000/pk",
+    "TICpart":"65535-500",
+    "TICdescription":"Low Evap Filter Vial PES 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPUPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, PES, 0.45μm, 100/pk",
+    "TICpart":"65531-500",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPUPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, PES, 0.45μm, 1000/pk",
+    "TICpart":"65531-500",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPEAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, PVDF, 0.2μm, 100/pk",
+    "TICpart":"65531-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPEAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, PVDF, 0.2μm, 1000/pk",
+    "TICpart":"65531-500",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPUAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, PVDF, 0.45μm, 100/pk",
+    "TICpart":"65541-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPUAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, PVDF, 0.45μm, 1000/pk",
+    "TICpart":"65541-500",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPERC",
+    "description":"Mini-UniPrep ® Syringeless Filter, RC, 0.2μm, 100/pk",
+    "TICpart":"65535-200",
+    "TICdescription":"Low Evap Filter Vial PES 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPERC",
+    "description":"Mini-UniPrep ® Syringeless Filter, RC, 0.2μm, 1000/pk",
+    "TICpart":"65535-500",
+    "TICdescription":"Low Evap Filter Vial PES 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPURC",
+    "description":"Mini-UniPrep ® Syringeless Filter, RC, 0.45μm, 100/pk",
+    "TICpart":"65541-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPURC",
+    "description":"Mini-UniPrep ® Syringeless Filter, RC, 0.45μm, 1000/pk",
+    "TICpart":"65541-500",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPEORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, PTFE, 0.2μm, 100/pk",
+    "TICpart":"65530-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPEORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, PTFE, 0.2μm, 1000/pk",
+    "TICpart":"65530-500",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPUORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, PTFE, 0.45μm, 100/pk",
+    "TICpart":"65540-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPUORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, PTFE, 0.45μm, 1000/pk",
+    "TICpart":"65540-500",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPEPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, PP, 0.2μm, 100/pk",
+    "TICpart":"65531-200",
+    "TICdescription":"Low Evap Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPEPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, PP, 0.2μm, 1000/pk",
+    "TICpart":"65531-500",
+    "TICdescription":"Low Evap Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPUPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, PP, 0.45μm, 100/pk",
+    "TICpart":"65541-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPUPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, PP, 0.45μm, 1000/pk",
+    "TICpart":"65541-500",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPUDPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, Depth PP, 0.45μm, 100pk",
+    "TICpart":"85541-200",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPUDPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, Depth PP, 0.45μm, 1000pk",
+    "TICpart":"85541-500",
+    "TICdescription":"eXtreme  Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN203NPUGMF",
+    "description":"Mini-UniPrep ® Syringeless Filter, GMF, 0.45μm, 100/pk",
+    "TICpart":"35540-200",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"UN503NPUGMF",
+    "description":"Mini-UniPrep ® Syringeless Filter, GMF, 0.45μm, 1000/pk",
+    "TICpart":"35540-500",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPENYL",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, nylon, 0.2μm, 100/pk",
+    "TICpart":"35538-200",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPENYL",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, nylon, 0.2μm, 1000/pk",
+    "TICpart":"35538-500",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPUNYL",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, nylon, 0.45μm, 100/pk",
+    "TICpart":"35539-200",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPUNYL",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, nylon, 0.45μm, 1000/pk",
+    "TICpart":"35539-500",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPEPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PES, 0.2μm, 100/pk",
+    "TICpart":"35535-200",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPEPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PES, 0.2μm, 1000/pk",
+    "TICpart":"35535-500",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPUPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PES, 0.45μm, 100/pk",
+    "TICpart":"35541-200",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPUPES",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PES, 0.45μm, 1000/pk",
+    "TICpart":"35541-500",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPEAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PVDF, 0.2μm, 100/pk",
+    "TICpart":"35531-200",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPEAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PVDF, 0.2μm, 1000/pk",
+    "TICpart":"35531-500",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPUAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PVDF, 0.45μm, 100/pk",
+    "TICpart":"35541-200",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPUAQU",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PVDF, 0.45μm, 1000/pk",
+    "TICpart":"35541-500",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPEORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PTFE, 0.2μm, 100/pk",
+    "TICpart":"35530-200",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPEORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PTFE, 0.2μm, 1000/pk",
+    "TICpart":"35530-500",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPUORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PTFE, 0.45μm, 100/pk",
+    "TICpart":"35540-200",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPUORG",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PTFE, 0.45μm, 1000/pk",
+    "TICpart":"35540-500",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPEPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PP, 0.2μm, 100/pk",
+    "TICpart":"35531-200",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPEPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PP, 0.2μm, 1000/pk",
+    "TICpart":"35531-500",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPUPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PP, 0.45μm, 100/pk",
+    "TICpart":"35541-200",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPUPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, PP, 0.45μm, 1000/pk",
+    "TICpart":"35541-500",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPUDPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, Depth PP, 0.45μm, 100/pk",
+    "TICpart":"85541-200",
+    "TICdescription":"Filter Vial 0.45μm PVDF, w/ Pre-Slit Cap 200/Pack"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPUDPP",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, Depth PP, 0.45μm, 1000/pk",
+    "TICpart":"85541-500",
+    "TICdescription":"Filter Vial 0.45μm PVDF, w/ Pre-Slit Cap 500/Pack"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US203NPUGMF",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, GMF, 0.45μm, 100/pk",
+    "TICpart":"35540-200",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"US503NPUGMF",
+    "description":"Mini-UniPrep ® Syringeless Filter, slit septa, GMF, 0.45μm, 1000/pk",
+    "TICpart":"35540-500",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPEORG",
+    "description":"Mini-UniPrep G2 / Standard Cap with Translucent Housing / 0.2µm PTFE 100/pk",
+    "TICpart":"65530-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPEORGSP",
+    "description":"Mini-UniPrep G2 Starter Pack / Standard Cap with Translucent Housing / 0.2µm PTFE 100/pk with Hand Compressor",
+    "TICpart":"65530-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPUORG",
+    "description":"Mini-UniPrep G2 / Standard Cap with Translucent Housing / 0.45µm PTFE 100/pk",
+    "TICpart":"65540-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPUORGSP",
+    "description":"Mini-UniPrep G2 Starter Pack / Standard Cap with Translucent Housing / 0.45µm PTFE 100/pk with Hand Compressor",
+    "TICpart":"65540-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPEAQU",
+    "description":"Mini-UniPrep G2 / Standard Cap with Translucent Housing / 0.2µm PVDF 100/pk",
+    "TICpart":"65531-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPEAQUSP",
+    "description":"Mini-UniPrep G2 Starter Pack / Standard Cap with Translucent Housing / 0.2µm PVDF 100/pk with Hand Compressor",
+    "TICpart":"65531-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPUAQU",
+    "description":"Mini-UniPrep G2 / Standard Cap with Translucent Housing / 0.45µm PVDF 100/pk",
+    "TICpart":"65541-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPUAQUSP",
+    "description":"Mini-UniPrep G2 Starter Pack / Standard Cap with Translucent Housing / 0.45µm PVDF 100/pk with Hand Compressor",
+    "TICpart":"65541-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPENYLSP",
+    "description":"Mini-UniPrep G2 Starter Pack/ Standard Cap with Translucent Housing / 0.2µm Nylon 100/pk with Hand Compressor",
+    "TICpart":"65538-200",
+    "TICdescription":"Low Evap Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPEPP",
+    "description":"Mini-UniPrep G2 / Standard Cap with Translucent Housing / 0.2µm PP 100/pk",
+    "TICpart":"65531-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GN203NPEPPSP",
+    "description":"Mini-UniPrep G2 Starter Pack / Standard Cap with Translucent Housing / 0.2µm PP 100/pk with Hand Compressor",
+    "TICpart":"65531-200",
+    "TICdescription":"Low Evap Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GS203NPEORGSP",
+    "description":"Mini-UniPrep G2 Starter Pack / Slit Septum Cap with Translucent Housing / 0.2µm PTFE 100/pk with Hand Compressor",
+    "TICpart":"35530-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"GS203NPUORGSP",
+    "description":"Mini-UniPrep G2 Starter Pack / Slit Septum Cap with Translucent Housing / 0.45µm PTFE 100/pk with Hand Compressor",
+    "TICpart":"35540-200",
+    "TICdescription":"Low Evap Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6870-1302",
+    "description":"GD/X™ 13 Syringe Filter, nylon, 0.2μm, 150/pk",
+    "TICpart":"85538",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6871-1302",
+    "description":"GD/X™ 13 Syringe Filter, nylon, 0.2μm, 1500/pk",
+    "TICpart":"85538",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6870-1304",
+    "description":"GD/X™ 13 Syringe Filter, nylon, 0.45μm, 150/pk",
+    "TICpart":"85539",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6871-1304",
+    "description":"GD/X™ 13 Syringe Filter, nylon, 0.45μm, 1500/pk",
+    "TICpart":"85539",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6872-1302",
+    "description":"GD/X™ 13 Syringe Filter, PVDF, 0.2μm, 150/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6872-1304",
+    "description":"GD/X™ 13 Syringe Filter, PVDF, 0.45μm, 150/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter VialPVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6873-1304",
+    "description":"GD/X™ 13 Syringe Filter, PVDF, 0.45μm, 1500pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter VialPVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6874-1302",
+    "description":"GD/X™ 13 Syringe Filter, PTFE, 0.2μm, 150/pk",
+    "TICpart":"85530",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6875-1302",
+    "description":"GD/X™ 13 Syringe Filter, PTFE, 0.2μm, 1500/pk",
+    "TICpart":"85530",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6874-1304",
+    "description":"GD/X™ 13 Syringe Filter, PTFE, 0.45μm, 150/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6875-1304",
+    "description":"GD/X™ 13 Syringe Filter, PTFE, 0.45μm, 1500pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6869-2502",
+    "description":"GD/X™ 25 Syringe Filter, nylon high charge (positive), 0.2μm, 150/pk",
+    "TICpart":"85538",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6869-2504",
+    "description":"GD/X™ 25 Syringe Filter, nylon high charge (positive), 0.45μm, 150/pk",
+    "TICpart":"85539",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6870-2502",
+    "description":"GD/X™ 25 Syringe Filter, nylon, 0.2μm, 150/pk",
+    "TICpart":"85538",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6871-2502",
+    "description":"GD/X™ 25 Syringe Filter, nylon, 0.2μm, 1500/pk",
+    "TICpart":"85538",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6870-2504",
+    "description":"GD/X™ 25 Syringe Filter, nylon, 0.45μm, 150/pk",
+    "TICpart":"85539",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6871-2504",
+    "description":"GD/X™ 25 Syringe Filter, nylon, 0.45μm, 1500/pk",
+    "TICpart":"85539",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6872-2502",
+    "description":"GD/X™ 25 Syringe Filter, PVDF, 0.2μm, 150/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6873-2502",
+    "description":"GD/X™ 25 Syringe Filter, PVDF, 0.2μm, 1500/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6872-2504",
+    "description":"GD/X™ 25 Syringe Filter, PVDF, 0.45μm, 150/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6873-2504",
+    "description":"GD/X™ 25 Syringe Filter, PVDF, 0.45μm, 1500pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6874-2502",
+    "description":"GD/X™ 25 Syringe Filter, PTFE, 0.2μm, 150/pk",
+    "TICpart":"85530",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6875-2502",
+    "description":"GD/X™ 25 Syringe Filter, PTFE, 0.2μm, 1500/pk",
+    "TICpart":"85530",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6874-2504",
+    "description":"GD/X™ 25 Syringe Filter, PTFE, 0.45μm, 150/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6875-2504",
+    "description":"GD/X™ 25 Syringe Filter, PTFE, 0.45μm, 1500/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6900-2502",
+    "description":"GD/X™ 25 Syringe Filter, sterile, PVDF, 0.2μm, 50/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6900-2504",
+    "description":"GD/X™ 25 Syringe Filter, sterile, PVDF, 0.45μm, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter VialPVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6970-2504",
+    "description":"GD/XP™ Syringe Filter, nylon, 0.45μm, 150/pk",
+    "TICpart":"85539",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6971-2504",
+    "description":"GD/XP™ Syringe Filter, nylon, 0.45μm, 1500/pk",
+    "TICpart":"85539",
+    "TICdescription":"eXtreme Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6972-2504",
+    "description":"GD/XP™ Syringe Filter, PVDF, 0.45μm, 150/pk",
+    "TICpart":"GD/XP",
+    "TICdescription":"eXtreme Filter VialPVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6973-2504",
+    "description":"GD/XP™ Syringe Filter, PVDF, 0.45μm, 1500/pk",
+    "TICpart":"GD/XP",
+    "TICdescription":"eXtreme Filter VialPVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6974-2504",
+    "description":"GD/XP™ Syringe Filter, PTFE, 0.45μm, 150/pk",
+    "TICpart":"GD/XP",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6786-0402",
+    "description":"Puradisc™ 4 Syringe Filter, sterile, 0.2μm, nylon, 50/pk",
+    "TICpart":"15538",
+    "TICdescription":"Nano Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6789-0402",
+    "description":"Puradisc™ 4 Syringe Filter, 0.2μm, nylon, 100/pk",
+    "TICpart":"15538",
+    "TICdescription":"Nano Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6790-0402",
+    "description":"Puradisc™ 4 Syringe Filter, 0.2μm, nylon, 500/pk",
+    "TICpart":"15538",
+    "TICdescription":"Nano Filter Vial Nylon 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6789-0404",
+    "description":"Puradisc™ 4 Syringe Filter, 0.45μm, nylon, 100/pk",
+    "TICpart":"15539",
+    "TICdescription":"Nano Filter Vial Nylon 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6790-0404",
+    "description":"Puradisc™ 4 Syringe Filter, 0.45μm, nylon, 500/pk",
+    "TICpart":"15539",
+    "TICdescription":"Nano Filter Vial Nylon 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6777-0402",
+    "description":"Puradisc™ 4 Syringe Filter, with tube tip, 0.2μm, PVDF, 50/pk",
+    "TICpart":"15531",
+    "TICdescription":"Nano Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6791-0402",
+    "description":"Puradisc™ 4 Syringe Filter, sterile 0.2μm, PVDF, 50/pk",
+    "TICpart":"15531",
+    "TICdescription":"Nano Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6779-0402",
+    "description":"Puradisc™ 4 Syringe Filter, 0.2μm, PVDF, 100/pk",
+    "TICpart":"15531",
+    "TICdescription":"Nano Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6792-0402",
+    "description":"Puradisc™ 4 Syringe Filter, 0.2μm, PVDF, 500/pk",
+    "TICpart":"15531",
+    "TICdescription":"Nano Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6777-0404",
+    "description":"Puradisc™ 4 Syringe Filter, with tube tip, 0.45μm, PVDF, 50/pk",
+    "TICpart":"15541",
+    "TICdescription":"Nano Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6779-0404",
+    "description":"Puradisc™ 4 Syringe Filter, 0.45μm, PVDF, 100/pk",
+    "TICpart":"15541",
+    "TICdescription":"Nano Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6792-0404",
+    "description":"Puradisc™ 4 Syringe Filter, 0.45μm, PVDF, 500/pk",
+    "TICpart":"15541",
+    "TICdescription":"Nano Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-0402",
+    "description":"Puradisc™ 4 Syringe Filter, 0.2μm, PTFE, 100/pk",
+    "TICpart":"15530",
+    "TICdescription":"Nano Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6783-0402",
+    "description":"Puradisc™ 4 Syringe Filter, 0.2μm, PTFE, 500/pk",
+    "TICpart":"15530",
+    "TICdescription":"Nano Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-0404",
+    "description":"Puradisc™ 4 Syringe Filter, 0.45μm, PTFE, 100/pk",
+    "TICpart":"15540",
+    "TICdescription":"Nano Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6783-0404",
+    "description":"Puradisc™ 4 Syringe Filter, 0.45μm, PTFE, 500/pk",
+    "TICpart":"15540",
+    "TICdescription":"Nano Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6760-1302",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.2μm, PVDF, 500pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6760-1304",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.45μm, PVDF, 500pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6763-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, cellulose acetate, 2000/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6765-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, PVDF, 2000/pk",
+    "TICpart":"35531",
+    "TICdescription":"Filter Vial 0.2μm PVDF, w/ Pre-Slit Cap 500/Pack"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6765-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, PVDF, 2000/pk",
+    "TICpart":"35541",
+    "TICdescription":"Filter Vial 0.45μm PVDF, w/ Pre-Slit Cap 500/Pack"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6766-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, PTFE, 2000/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6766-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, PTFE, 2000/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6768-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, nylon, 2000/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6768-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, nylon, 2000/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6771-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, cellulose acetate, 100/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6775-1302",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.2μm, PTFE, 50/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6775-1304",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.45μm, PTFE, 50/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6777-1302",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.2μm, PVDF, 50/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6777-1304",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.45μm, PVDF, 50/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6778-1302",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.2μm, PVDF, 50/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6779-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, PVDF, 100/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6779-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, PVDF, 100/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6780-1302",
+    "description":"Puradisc™ 13 Syringe Filter, sterile, 0.2μm, polyethersulfone, 50/pk",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6782-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, polyethersulfone, 100/pk",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6783-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, PTFE, 500/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6783-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, PTFE, 500/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-1301",
+    "description":"Puradisc™ 13 Syringe Filter, 0.1μm, PTFE, 100/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, PTFE, 100/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, PTFE, 100/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-1310",
+    "description":"Puradisc™ 13 Syringe Filter, 1.0μm, PTFE, 100/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-1350",
+    "description":"Puradisc™ 13 Syringe Filter, 5.0μm, PTFE, 100/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6785-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, polypropylene, 500/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6785-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, polypropylene, 500/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6786-1301",
+    "description":"Puradisc™ 13 Syringe Filter, sterile 0.1μm, nylon, 50/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6786-1302",
+    "description":"Puradisc™ 13 Syringe Filter, sterile 0. 2μm, nylon, 50/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6788-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, polypropylene, 100/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6788-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, polypropylene, 100/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6789-1301",
+    "description":"Puradisc™ 13 Syringe Filter, 0.1μm, nylon, 100/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6789-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, nylon, 100/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6790-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, nylon, 500/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6789-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, nylon, 100/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6790-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, nylon, 500/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6791-1302",
+    "description":"Puradisc™ 13 Syringe Filter, sterile 0.2μm, PVDF, 50/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6791-1304",
+    "description":"Puradisc™ 13 Syringe Filter, sterile 0.45μm, PVDF, 50/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6792-1302",
+    "description":"Puradisc™ 13 Syringe Filter, 0.2μm, PVDF, 500/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6792-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, PVDF, 500/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6796-1304",
+    "description":"Puradisc™ 13 Syringe Filter, with tube tip, 0.45μm, PVDF, 100/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6806-1316",
+    "description":"Puradisc™ 13 Syringe Filter, 1.6μm, GF/A, 500/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6816-1315",
+    "description":"Puradisc™ 13 Syringe Filter, 1.5μm, 934-AH, 2000/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6818-1304",
+    "description":"Puradisc™ 13 Syringe Filter, 0.45μm, GMF, 500/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6820-1316",
+    "description":"Puradisc™ 13 Syringe Filter, 1.6μm, GF/A, 100/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6821-1310",
+    "description":"Puradisc™ 13 Syringe Filter, 1.0μm, GF/B, 100/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6822-1312",
+    "description":"Puradisc™ 13 Syringe Filter, 1.2μm, GF/C, 100/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6825-1307",
+    "description":"Puradisc™ 13 Syringe Filter, 0.7μm, GF/F, 100/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6827-1315",
+    "description":"Puradisc™ 13 Syringe Filter, 1.5μm, 934-AH, 100/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462945",
+    "description":"Puradisc™ FP 13 Syringe Filter, 0.2μm, RC, sterile, 50/pk",
+    "TICpart":"85535",
+    "TICdescription":"eXtreme Filter Vial PES 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6746-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, PVDF, 50pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6746-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, PVDF, 50pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6747-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, PVDF, 200/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6747-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, PVDF, 200/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6749-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, PVDF, 1000pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6750-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, nylon, 50/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6750-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, nylon, 50/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6750-2510",
+    "description":"Puradisc™ 25 Syringe Filter, 1.0μm, nylon, 50/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6751-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, nylon, 200/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6751-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, nylon, 200/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6751-2510",
+    "description":"Puradisc™ 25 Syringe Filter, 1.0μm, nylon, 200/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6752-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, nylon, 500/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6753-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, nylon, 1000/pk",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6753-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, nylon, 1000/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6753-2510",
+    "description":"Puradisc™ 25 Syringe Filter, 1.0μm, nylon, 1000/pk",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6759-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, PES, 300pk",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6759-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, PES, 300/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6781-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, polyethersulfone, 200/pk",
+    "TICpart":"35535",
+    "TICdescription":"Filter Vial 0.2μm PES, w/ Pre-Slit Gray Cap 200/Pack"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-2501",
+    "description":"Puradisc™ 25 Syringe Filter, 0.1μm, PTFE, 50/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, PTFE, 50/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, PTFE, 50/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6784-2510",
+    "description":"Puradisc™ 25 Syringe Filter, 1.0μm, PTFE, 50/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6785-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, PTFE, 200/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6785-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, PTFE, 200/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6786-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, polypropylene, 50/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6786-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, depth polypropylene, 50/pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6787-2520",
+    "description":"Puradisc™ 25 Syringe Filter, 0.7μm, GF/F, 1000/pk",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6788-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, polypropylene, 200/pk",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6788-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, depth polypropylene, 200/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6790-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, polypropylene, 1000/pk",
+    "TICpart":"35531",
+    "TICdescription":"Filter Vial 0.2μm PVDF, w/ Pre-Slit Septum"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6790-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, depth polypropylene, 1000/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6794-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, polyethersulfone, 1000/pk",
+    "TICpart":"35535",
+    "TICdescription":"Filter Vial 0.2μm PES, w/ Pre-Slit Septum"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6794-2512",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, polyethersulfone, sterile 1000/pk",
+    "TICpart":"35535",
+    "TICdescription":"Filter Vial 0.2μm PES, w/ Pre-Slit Septum"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6798-2501",
+    "description":"Puradisc™ 25 Syringe Filter, 0.1μm, PTFE, 1000/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6798-2502",
+    "description":"Puradisc™ 25 Syringe Filter, 0.2μm, PTFE, 1000/pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6798-2504",
+    "description":"Puradisc™ 25 Syringe Filter, 0.45μm, PTFE, 1000/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6798-2510",
+    "description":"Puradisc™ 25 Syringe Filter, 1.0μm, PTFE, 1000/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6825-2517",
+    "description":"Puradisc™ 25 Syringe Filter, 0.7μm, GF/F, 50/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6825-2527",
+    "description":"Puradisc™ 25 Syringe Filter, 0.7μm, GF/F, 200/pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462100",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.45μm, sterile, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462200",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.2μm, sterile, 50/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462205",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.2μm, luer-lock outlet, sterile, 50/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462206",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.2μm, luer-lock outlet, 500/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462240",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.8μm, sterile, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462241",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.8μm, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462243",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.8μm, 500/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462260",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate 1.2μm, sterile, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462261",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 1.2μm, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462263",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 1.2μm, 500/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462500",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose nitrate, 5.0μm, 500/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462510",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose nitrate, 5.0μm, 100/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462520",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose nitrate, 5.0μm, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462600",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.45μm, 500/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462601",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.45μm, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462610",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.45μm, 100/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462700",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.2μm, 500/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462701",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.2μm, 50/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462710",
+    "description":"Puradisc™ 30 Syringe Filter, cellulose acetate, 0.2μm, 100/pk",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462300",
+    "description":"Puradisc™ FP 30, PTFE, 0.2μm, sterile, 50/pk",
+    "TICpart":"85530",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462800",
+    "description":"Puradisc™ FP 30, PTFE, 0.2μm, 500/pk",
+    "TICpart":"85530",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462960",
+    "description":"Puradisc™ FP 30, RC, 0.2μm, sterile, 50/pk",
+    "TICpart":"85535",
+    "TICdescription":"eXtreme Filter Vial PES 0.2μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462950",
+    "description":"Puradisc™ FP 30, RC, 0.45μm, sterile, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462650",
+    "description":"Puradisc™ Aqua 30 Syringe Filter, cellulose acetate, 0.45μm, 500/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462655",
+    "description":"Puradisc™ Aqua 30 Syringe Filter, cellulose acetate, 0.45μm, 100/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"10462656",
+    "description":"Puradisc™ Aqua 30 Syringe Filter, cellulose acetate, 0.45μm, 50/pk",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-1",
+    "description":"4mm Syringe Filter 0.45μm Nylon",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"nano Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-10",
+    "description":"4mm Syringe Filter 0.2μm Polypropylene",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-15",
+    "description":"4mm Syringe Filter 0.45μm Cellulose Acetate",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-16",
+    "description":"4mm Syringe Filter 0.2μm Cellulose Acetate",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-2",
+    "description":"4mm Syringe Filter 0.2μm Nylon",
+    "TICpart":"15538 / 25538",
+    "TICdescription":"nano Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-3",
+    "description":"4mm Syringe Filter 0.45μm PTFE",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-4",
+    "description":"4mm Syringe Filter 0.2μm PTFE",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-5",
+    "description":"4mm Syringe Filter 0.45μm PVDF",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-6",
+    "description":"4mm Syringe Filter 0.2μm PVDF",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-7",
+    "description":"4mm Syringe Filter 0.45μm Regenerated Cellulose",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-8",
+    "description":"4mm Syringe Filter 0.2μm Cellulose Acetate",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2504-9",
+    "description":"4mm Syringe Filter 0.45μm Polypropylene",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-1",
+    "description":"17mm Syringe Filter 0.45μm Nylon",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"nano Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-10",
+    "description":"17mm Syringe Filter 0.2μm Polypropylene",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-14",
+    "description":"17mm Syringe Filter 0.45μm PES for Ion Chromatography",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-15",
+    "description":"17mm Syringe Filter 0.45μm Cellulose Acetate",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-16",
+    "description":"17mm Syringe Filter 0.2μm Cellulose Acetate",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-17",
+    "description":"17mm Syringe Filter 0.2μm PES for Ion Chromatography",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-2",
+    "description":"17mm Syringe Filter 0.2μm Nylon",
+    "TICpart":"15538 / 25538",
+    "TICdescription":"nano Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-3",
+    "description":"17mm Syringe Filter 0.45μm PTFE",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-4",
+    "description":"17mm Syringe Filter 0.2μm PTFE",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-5",
+    "description":"17mm Syringe Filter 0.45μm PVDF",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-6",
+    "description":"17mm Syringe Filter 0.2μm PVDF",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-7",
+    "description":"17mm Syringe Filter 0.45μm Regenerated Cellulose",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-8",
+    "description":"17mm Syringe Filter 0.2μm Regenerated Cellulose",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2513-9",
+    "description":"17mm Syringe Filter 0.45μm Polypropylene",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-1",
+    "description":"30mm Syringe Filter 0.45μm Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-10",
+    "description":"30mm Syringe Filter 0.2μm Polypropylene",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-11",
+    "description":"30mm Syringe Filter 5.0μm PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-12",
+    "description":"30mm Syringe Filter 1.2μm Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-13",
+    "description":"30mm Syringe Filter 1.0μm PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-14",
+    "description":"30mm Syringe Filter 0.45μm PES for Ion Chromatography",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-15",
+    "description":"30mm Syringe Filter 0.45μm Cellulose Acetate",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-16",
+    "description":"30mm Syringe Filter 0.2μm Cellulose Acetate",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-17",
+    "description":"30mm Syringe Filter 0.2μm PES for Ion Chromatography",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-18",
+    "description":"30mm Syringe Filter 0.7μm Glass Micro Fiber",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-19",
+    "description":"30mm Syringe Filter 1.2μm Glass Micro Fiber",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-2",
+    "description":"30mm Syringe Filter 0.2μm Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Filter Vial 0.2μm Nylon, w/ Pre-Slit Cap 200 or 500pack"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-20",
+    "description":"30mm Syringe Filter 3.1μm Glass Micro Fiber",
+    "TICpart":"85540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-3",
+    "description":"30mm Syringe Filter 0.45μm PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-4",
+    "description":"30mm Syringe Filter 0.2μm PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-5",
+    "description":"30mm Syringe Filter 0.45μm PVDF",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-6",
+    "description":"30mm Syringe Filter 0.2μm PVDF",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-7",
+    "description":"30mm Syringe Filter 0.45μm Regenerated Cellulose",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-8",
+    "description":"30mm Syringe Filter 0.2μm Regenerated Cellulose",
+    "TICpart":"35535",
+    "TICdescription":"Filter Vial 0.2μm PES, w/ Pre-Slit Cap 200 or 500pack"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2500-9",
+    "description":"30mm Syringe Filter 0.45μm Polypropylene",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2502-1",
+    "description":"30mm Syringe Filter 0.45μm Nylon with Pre-filter",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2502-10",
+    "description":"30mm Syringe Filter 0.2μm Polypropylene with Pre-filter",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2502-3",
+    "description":"30mm Syringe Filter 0.45μm PTFE with Pre-filter",
+    "TICpart":"85540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"National Scientific®",
+    "part":"F2502-9",
+    "description":"30mm Syringe Filter 0.45μm Polypropylene with Pre-filter",
+    "TICpart":"85541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4187",
+    "description":"25 Blue/Green .8/.2μm Pack of 50 Supor",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4189",
+    "description":"25mm Nonsterile .8 Case of 4 Pack of 75 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4192",
+    "description":"Sterile .2μm Pack of 50 HT Tuffryn",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4219",
+    "description":"25mm .45μm Case of 4 Pack of 50 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4225",
+    "description":"25mm .2μm Case of 4 Pack of 50 PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4226",
+    "description":"25mm 1 Case of 4 Pack of 50 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4303",
+    "description":"30mm Syringe Filter 0.45μm PTFE with Pre-filter",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4307",
+    "description":"30mm Syringe Filter 0.2μm Polypropylene with Pre-filter",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4406",
+    "description":"25mm .2μm Case of 4 Pack of 50 PVDF",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4408",
+    "description":"25mm .45μm Case of 4 Pack of 50 PVDF",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4415",
+    "description":"4mm Syringe Filter 0.2μm PVDF",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4422",
+    "description":"13mm .45μm Case of 3 Pack of 100 PTFE",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4423",
+    "description":"13mm .2μm Case of 3 Pack of 100 PTFE",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4426",
+    "description":"13mm .45μm Case of 3 Pack of 100 Nylon",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"nano Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4427",
+    "description":"13mm .2μm Case of 3 Pack of 100 Nylon",
+    "TICpart":"15538 / 25538",
+    "TICdescription":"nano Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4436",
+    "description":"25mm .2μm Case of 4 Pack of 50 Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4438",
+    "description":"25mm .45μm Case of 4 Pack of 50 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4450",
+    "description":".2μm Case of 3 Pack of 100 PVDF",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4452",
+    "description":".45μm Case of 3 Pack of 100 PVDF",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4454",
+    "description":"Sterile .2μm Pack of 75 HT Tuffryn",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4455",
+    "description":"13mm .2μm Case of 3 Pack of 100 PVDF",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4457",
+    "description":"13mm .45μm Case of 3 Pack of 100 PVDF",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4459",
+    "description":"13mm Nonsterile .8 case of 3 Pack of 100 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4472",
+    "description":"4mm Case of 3 Pack of 250 Hydrophobic PTFE",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4473",
+    "description":"4mm Nonsterile .45μm Case of 3 Pack of 250 Versapor",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4484",
+    "description":"4mm Case of 3 Pack of 250 Hydrophilic Nylon",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"nano Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4487",
+    "description":"25mm Nonsterile .45Case of 4 Pack of 75 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4488",
+    "description":"25mm Nonsterile 1.2μm Case of 4 Pack of 75 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4489",
+    "description":"25mm Nonsterile 5 Case of 4 Pack of 75 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4496",
+    "description":"Nonsterile .2μm Case of 4 Pack of 75 HT Tuffryn",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4497",
+    "description":"Nonsterile .45μm Case of 4 Pack of 75 HT Tuffryn",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4500",
+    "description":"25mm .45μm Pack of 1000 PVDF",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4501",
+    "description":"25mm .45μm Pack of 1000 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4502",
+    "description":"25mm .45μm Pack of 1000 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4503",
+    "description":"25mm 1 Pack PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4520",
+    "description":"25mm .2μm Pack of 1000 PVDF",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4521",
+    "description":"25mm .2μm Pack of 1000 PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4522",
+    "description":"25mm .2μm Case of 1000 Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4523",
+    "description":"25mm case of 4 Pack of 50 Glass Fiber",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4524",
+    "description":"37mm Case of 4 Pack of 15 Glass Fiber",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4529",
+    "description":"25mm Pack of 1000 Glass Fiber",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4540",
+    "description":"13mm .2μm Pack of 1000 Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4541",
+    "description":"13mm .45μm Pack of 1000 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4542",
+    "description":"13mm .2μm Pack of 1000 PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4543",
+    "description":"13mm .45μm Pack of 1000 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4544",
+    "description":".2μm Pack of 1000 PVDF",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4545",
+    "description":".45μm Pack of 1000 PVDF",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4546",
+    "description":".45μm Pack of 1000 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4549",
+    "description":".45μm Case of 200 Nylon/Glass Fiber",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4550",
+    "description":".2μm Case of 3 Pack of 100 Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4551",
+    "description":".45μm Case of 3 Pack of 100 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4552",
+    "description":".2μm Case of 3 Pack of 100 PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4553",
+    "description":".45μm Case of 3 Pack of 100 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4554",
+    "description":".2μm Case of 3 Pack of 100 GHP",
+    "TICpart":"85531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4556",
+    "description":".45μm Case of 3 Pack of 100 GHP",
+    "TICpart":"85541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4558",
+    "description":".45μm Pack of 1000 Glass Fiber",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4559",
+    "description":".45μm Case of 4 Pack of 50 Glass Fiber",
+    "TICpart":"85540",
+    "TICdescription":"eXtreme Filter Vial PTFE 0.45μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4560",
+    "description":"25mm .45μm Case of 4 Pack of 50 GHP",
+    "TICpart":"85541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4562",
+    "description":"25mm .45μm Pack of 1000 GHP",
+    "TICpart":"85541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4563",
+    "description":".45μm Pack of 1000 GHP",
+    "TICpart":"85541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4564",
+    "description":"25mm .2μm Case of 4 Pack of 50 GHP",
+    "TICpart":"85531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4566",
+    "description":"25mm .2μm Pace of 1000 GHP",
+    "TICpart":"85531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4567",
+    "description":".2μm Pack of 1000 GHP",
+    "TICpart":"85531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4583",
+    "description":"0.2μm Pack of 50 PES",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4584",
+    "description":"30mm Syringe Filter 0.45μm PES for Ion Chromatography",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4585",
+    "description":"0.45μm Pack of 50 PES",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4602",
+    "description":"13 Blue .2μm Pack of 75 Supor",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4604",
+    "description":"13 Clear .45μm Pack of 75 Supor",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4608",
+    "description":"13 Green .8 Pack of 75 Supor",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4611",
+    "description":"25 Red .1 Pack of 50 Supor",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4612",
+    "description":"25 Blue .2μm Pack of 50 Supor",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4614",
+    "description":"25 Clear .45μm pack of 50 Supor",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4618",
+    "description":"25 Green .8 Pack of 50 Supor",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4650",
+    "description":"32 Green 5 Pack of 50 Supor",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4651",
+    "description":"32 Red .1 Pack of 50 Supor",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4652",
+    "description":"32 Blue .2μm Pack of 50 Supor",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4654",
+    "description":"32 Clear .45μm Pack of 50 Supor",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4656",
+    "description":"32 Red 1.2μm Pack of 50 Supor",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4658",
+    "description":"32 Blue/Green .8/.2μm Pack of 50 Supor",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4783",
+    "description":"0.2μm Pack of 1000 PES",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4784",
+    "description":"Nonsterile .45μm Pack of 1000 HT Tuffryn",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4785",
+    "description":"0.45μm Pack of 1000 PES",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4905",
+    "description":"130 mL/min. .8/.2μm Supor Pack of 50",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4906",
+    "description":"78 mL/min. .2μm Ultipor Pack of 50",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4907",
+    "description":"204 mL/min. .2μm Fluorodyne II Pack of 50",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"4908",
+    "description":"77 mL/min. .2μm Posidyne Pack of 50",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"12200",
+    "description":"Nonsterile .2μm Pack of 3 Fluorodyne II Membrane",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"12201",
+    "description":"Sterile .2μm Pack of 3 Fluorodyne II Membrane",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"12202",
+    "description":"Nonsterile .8/.2μm Pack of 3 Supor Membrane",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"12203",
+    "description":"Sterile .8/.2μm Pack of 3 Supor Membrane",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"12208",
+    "description":"Nonsterile .1 Pack of 3 Fluorodyne II Membrane",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"12209",
+    "description":"Sterile .1 Pack of 3 Fluorodyne II Membrane",
+    "TICpart":"35531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4189",
+    "description":".8 Case of 200 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4190",
+    "description":".8 Pack of 200 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4219",
+    "description":".45μm Case of 200 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4225",
+    "description":".2μm Case of 200 PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4301",
+    "description":".45μm Case of 200 PTFE/GxF Prefilter",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4302",
+    "description":".45μm Pack of 1000 PTFE/GxF Prefilter",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4303",
+    "description":".45μm Case of 200 PTFE/GxF Prefilter",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4305",
+    "description":".2μm Case of 200 GHP/GxF Prefilter",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4306",
+    "description":".2μm Pack of 1000 GHP/GxF Prefilter",
+    "TICpart":"85531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4307",
+    "description":".2μm Case of 200 GHP/GxF Prefilter",
+    "TICpart":"85531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4357",
+    "description":".45μm Case of 200 GHP",
+    "TICpart":"85541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4364",
+    "description":".2μm case of 200 GHP",
+    "TICpart":"85531",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4424",
+    "description":".45μm Pack of 200 Supor/GxF Prefilter",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4425",
+    "description":".45μm Case of 200 Supor/GxF Prefilter",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4426",
+    "description":".45μm Pack of 1000 Supor/GxF Prefilter",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4436",
+    "description":".2μm Case of 200 Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4437",
+    "description":".2μm Case of 200 Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4438",
+    "description":".45μm Case of 200 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4497",
+    "description":".45μm Case of 200 HT Tuffryn",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4498",
+    "description":".45μm Pack of 200 Ht Tuffryn",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4501",
+    "description":".45μm Pack of 1000 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4502",
+    "description":".45μm Pack of 1000 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4517",
+    "description":".45μm Case of 200 Nylon",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4518",
+    "description":".45μm Case of 200 PTFE",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4520",
+    "description":".2μm Pack of 200 PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4521",
+    "description":".2μm Pack of 1000 PTFE",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4522",
+    "description":".2μm Pack of 1000 Nylon",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4523",
+    "description":"Case of 200 Glass Fiber/GxF Prefilter",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4527",
+    "description":"Case of 200 Glass Fiber/GxF Prefilter",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4528",
+    "description":".45μm Pack of 1000 Nylon/GxF Prefilter",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4529",
+    "description":"Pack of 1000 Glass Fiber/GxF Prefilter",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4548",
+    "description":".45μm Case of 200 Nylon/GxF Prefilter",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4549",
+    "description":".45μm Case of 200 Nylon/GxF Prefilter",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4557",
+    "description":".45μm Case of 200 GHP/GxF Prefilter",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4558",
+    "description":".45μm Pack of 1000 GHP/GxF Prefilter",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4559",
+    "description":".45μm Case of 200 GHP/GxF Prefilter",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4560",
+    "description":".45μm Case of 200 GHP",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4562",
+    "description":".45μm Pack of 1000 GHP",
+    "TICpart":"85541",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.45μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4564",
+    "description":".2μm case of 200 GHP",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4566",
+    "description":".2μm Pack of 1000 GHP",
+    "TICpart":"85531",
+    "TICdescription":"eXtreme Filter Vial PVDF 0.2μm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4568",
+    "description":".8 Pack of 1000 Versapor",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4585",
+    "description":".45μm Case of 200 Supor, Ion Chromatography",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4587",
+    "description":".45μm Case of 200 Supor, Ion Chromatography",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4784",
+    "description":".45μm Pack of 1000 HT Tuffryn",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"AP-4785",
+    "description":".45μm Pack of 1000 Supor, Ion Chromatography",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17856",
+    "description":"28mm/ 100ml Minisart® NML 0.7μm GF / 500 units",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"15406 N",
+    "description":"25mm 0.45μm Polyethersulfone 100 pc.",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"15407 MN",
+    "description":"25mm 0.2μm Polyethersulfone 100 pc.",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"15458 N",
+    "description":"25mm 0.1μm Polyethersulfone 100 pc.",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16532 GUK",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.2μm Polyethersulfone / 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16532 K",
+    "description":"28mm/ 100mlHigh Flow Syringe Filter 0.2μm Polyethersulfone / 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16532 Q",
+    "description":"28mm/ 100mlHigh Flow Syringe Filter 0.2μm Polyethersulfone / 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16532 Q",
+    "description":"28mm/ 100ml High Flow 0.2μm PES / 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16533 GUK",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.45μm Polyethersulfone / 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16533 K",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.45μm Polyethersulfone / 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16533 Q",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.45μm Polyethersulfone / 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16534 GUK",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.2μm, Cellulose 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16534 K",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.2μm, Cellulose 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16534 Q",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.2μm, Cellulose 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16534 Q",
+    "description":"28mm/ 100ml Minisart® NML 0.2μm SFCA/MBS / 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16537 K",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.45μm Polyethersulfone / 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16537 Q",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.45μm Polyethersulfone / 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16541 Q",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.2μm Polyethersulfone / 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16541 Q",
+    "description":"28mm/ 100ml High Flow 0.2μm PES / 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16541K",
+    "description":"28mm/ 100ml High Flow Syringe Filter 0.2μm Polyethersulfone / 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16553 K",
+    "description":"28mm / 100ml High Flow Syringe Filter 0.1μm Polyethersulfone/ 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16555 GUK",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.45μm, SFCA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16555 K",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.45μm, SFCA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16555 Q",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.45μm, SFCA 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16569 K",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 0.65μm, CA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16592 GUK",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 0.8μm, CA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16592 K",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 0.8μm, CA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"16592 Q",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 0.8μm, CA 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17528 K",
+    "description":"28mm/ 100ml Ophthalsart Syring Filter 0.2μm, Cellulose 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17558 K",
+    "description":"15mm/ 20ml Minisart® SRP15 0.2μm PTFE/PP / 500 units",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17558 K",
+    "description":"15mm / 20ml Minisart® SRP15 0.2μm PTFE /50pk",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17558 Q",
+    "description":"15mm / 20ml Minisart® SRP15 0.2μm PTFE /500pk",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17558 Q3",
+    "description":"15mm/ 20ml Minisart® SRP15 0.2μm PTFE/PP / 500 units",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17559 K",
+    "description":"15mm / 20ml Minisart® SPR15 0.45μm PTFE 50 pk",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17559 Q",
+    "description":"15mm / 20ml Minisart® SPR15 0.45μm PTFE 500 pk",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17573 ACK",
+    "description":"15mm/ 20ml Minisart® SRP15 0.2μm PTFE/ 50 units",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17573 K",
+    "description":"15mm/ 20ml Minisart® SRP15 0.2μm PTFE/ 50 units",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17573 K2",
+    "description":"15mm / 20ml Minisart® SPR15 0.2μm PTFE / 50pk",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17573 Q",
+    "description":"15mm / 20ml Minisart® SPR15 0.2μm PTFE / 500 pk",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17573 Q3",
+    "description":"15mm/ 20ml Minisart® SRP15 0.2μm PTFE/PP / 500 units",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17574 K",
+    "description":"15mm / 20ml Minisart® SPR15 0.45μm PTFE / 50pk",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17574 Q",
+    "description":"15mm / 20ml Minisart® SPR15 0.45μm PTFE / 500pk",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 ACK",
+    "description":"25mm/ 100ml Minisart® SRP25 0.2μm PTFE / 50 units",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 K",
+    "description":"25mm/ 100ml Minisart® SRP25 0.2μm PTFE / 50 units",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 K2",
+    "description":"25mm / 100ml Minisart® SRP25 0.2μm PTFE / 50pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 Q",
+    "description":"25mm/ 100ml Minisart® SRP25 0.2μm PTFE / 500 units",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 Q",
+    "description":"25mm / 100ml Minisart® SRP25 0.2μm PTFE / 500 pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 Q3, 4",
+    "description":"25mm/ 100ml Minisart® SRP25 0.2μm PTFE/PP / 500 units",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 S",
+    "description":"25mm/ 100ml Minisart® SRP25 0.2μm PTFE / 200 units",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17575 S",
+    "description":"25mm / 100ml Minisart® SRP25 0.2μm PTFE / 200 pk",
+    "TICpart":"35530",
+    "TICdescription":"Standard Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17576 K",
+    "description":"25mm / 100ml Minisart® SRP25 0.45μm PTFE / 50pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17576 Q",
+    "description":"25mm / 100ml Minisart® SRP25 0.45μm PTFE / 500 pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17576 S",
+    "description":"25mm / 100ml Minisart® SRP25 0.45μm PTFE / 200 pk",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17593 K",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 1.2μm, CA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17593 Q",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 1.2μm, CA 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17594 K",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 5.0μm, CA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17594 Q",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 5.0μm, CA 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17597 K",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.2μm, Cellulose 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17597 Q",
+    "description":"28mm/ 100ml Minisart® NML Syringe Filter 0.2μm, Cellulose 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17597 Q",
+    "description":"28mm/ 100ml Minisart® NML 0.2μm SFCA/MBS / 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17598 K",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 0.45μm, SFCA 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17598 Q",
+    "description":"28mm/100ml Minisart® NML Syringe Filter 0.45μm, SFCA 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17761 K2",
+    "description":"15mm Minisart® RC15 0.2μm Cellulose 50 pk",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17761 N",
+    "description":"15mm Minisart® RC15 0.2μm Cellulose 100 pk",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17761 Q",
+    "description":"15mm Minisart® RC15 0.2μm Cellulose 500 pk",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17761 R",
+    "description":"15mm Minisart® RC15 0.2μm Cellulose 1000 pk",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17762 K",
+    "description":"15mm Minisart® RC15 0.45μm Cellulose 50 pk",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17762 Q",
+    "description":"15mm Minisart® RC15 0.45μm Cellulose 500 pk",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17764 ACK",
+    "description":"25mm Minisart® RC25 0.2μm Cellulose 50 pk",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17764 K2",
+    "description":"25mm Minisart® RC25 0.2μm Cellulose 50 pk",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17764 Q3",
+    "description":"25mm Minisart® RC25 0.2μm Cellulose 500 pk",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17764 S",
+    "description":"25mm Minisart® RC25 0.2μm Cellulose 200 pk",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17765 K",
+    "description":"25mm Minisart® RC25 0.45μm Cellulose 50 pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17765 Q",
+    "description":"25mm Minisart® RC25 0.45μm Cellulose 500 pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17765 S",
+    "description":"25mm Minisart® RC25 0.45μm Cellulose 200 pk",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1776B K",
+    "description":"15mm /20ml Minisart® NY15 0.2μm Nylon / 50 pk (non-sterile)",
+    "TICpart":"15538 / 25538",
+    "TICdescription":"nano Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1776B Q",
+    "description":"15mm/ 20ml Minisart® NY15 0.2μm Nylon / 500 pk (non-sterile)",
+    "TICpart":"15538 / 25538",
+    "TICdescription":"nano Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1776C K",
+    "description":"15mm/ 20ml Minisart® NY15 0.45μm Nylon / 50 pk (non-sterile)",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"nano Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1776C Q",
+    "description":"15mm/ 20ml Minisart® NY15 0.45μm Nylon / 500 pk (non-sterile)",
+    "TICpart":"15539 / 25539",
+    "TICdescription":"nano Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17792 Q",
+    "description":"15mm Minisart® RC15 .045μm Cellulose 500 pk",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17820 K",
+    "description":"4mm / 1ml Minisart® SRP4 0.45μm PTFE / 50pk",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17820 Q",
+    "description":"4mm / 1ml Minisart® SRP4 0.45μm PTFE / 500pk",
+    "TICpart":"15540 / 25540",
+    "TICdescription":"nano Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17821 K",
+    "description":"4mm/ 1ml Minisart® RC4 0.2μm Cellulose 50 pk",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17821 Q",
+    "description":"4mm/ 1ml Minisart® RC4 0.2μm Cellulose 500 pk",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17822 K",
+    "description":"4mm Minisart® RC4 0.45μm Cellulose 50 pk",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17822 Q3",
+    "description":"4mm Minisart® RC4 0.45μm Cellulose 500 pk",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17823 GUK",
+    "description":"28mm/ 100ml Minisart® Plus Syringe Filter 0.2μm Cellulose 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17823 K",
+    "description":"28mm/ 100ml Minisart® Plus Syringe Filter 0.2μm Cellulose 50 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17823 Q",
+    "description":"28mm/ 100ml Minisart® Plus Syringe Filter 0.2μm Cellulose 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17823 Q",
+    "description":"28mm/ 100ml Minisart® Plus 0.2μm SFCA +GF/MBS / 500 units",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17824 K",
+    "description":"28mm/ 100ml Minisart® NML 0.7μm GF / 50 units",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17824Q",
+    "description":"28mm/ 100ml Minisart® NML 0.7μm GF / 500 units",
+    "TICpart":"35540",
+    "TICdescription":"Standard Filter Vial PTFE 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17825 Q",
+    "description":"28mm/ 100ml Minisart® Plus Syringe Filter 1.2μm SFCA+GF 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17829 K",
+    "description":"28mm/ 100ml Minisart® Plus Syringe Filter 0.45μm SFCA+GF 50 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17829 Q",
+    "description":"28mm/ 100ml Minisart® Plus Syringe Filter 0.45μm SFCA+GF 500 units",
+    "TICpart":"35541",
+    "TICdescription":"Standard Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17844 Q",
+    "description":"4mm/ 1ml Minisart® SRP4 0.2μm PTFE/PP / 500 units",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17844 Q",
+    "description":"4mm / 1ml Minisart® SRP4 0.2μm PTFE / 500pk",
+    "TICpart":"15530 / 25530",
+    "TICdescription":"nano Filter Vial PTFE 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17845 ACK",
+    "description":"28mm/ 100ml Minisart® NY25 Syringe Fliters 0.2μm Nylon /50 units",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17845 ACK",
+    "description":"25mm/ 100ml Minisart® NY25 0.2μm Nylon /50 units (EO-sterile)",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17845 Q",
+    "description":"25mm/ 100ml Minisart® NY25 0.2μm Nylon / 500 pk (non-sterile)",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17845 Q5",
+    "description":"25mm/ 100ml Minisart® NY25 0.2μm Nylon/PP /500 units",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17845 R",
+    "description":"25mm / 100ml Minisart® NY25 0.2μm Nylon / 1000 pk (non-sterile)",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17846 ACK",
+    "description":"25mm/ 100ml Minisart® NY25 0.45μm Nylon /50 PK (EO Sterile)",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17846 Q",
+    "description":"25mm/ 100ml Minisart® NY25 0.45μm Nylon /500 PK (non-Sterile)",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"17846 R",
+    "description":"25mm/ 100ml Minisart® NY25 0.45μm Nylon / 1000 pk (non-sterile)",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1784B K",
+    "description":"25mm/100ml Minisart® NY25 X Plus 0.2μm Nylon / 50pk (non-sterile)",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1784B Q",
+    "description":"25mm/100ml Minisart® NY25 X Plus 0.2μm Nylon / 500pk (non-sterile)",
+    "TICpart":"35538",
+    "TICdescription":"Standard Filter Vial Nylon 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1784C K",
+    "description":"25mm/100ml Minisart® NY25 X Plus 0.45μm Nylon / 50pk (non-sterile)",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"1784C Q",
+    "description":"25mm/100ml Minisart® NY25 X Plus 0.45μm Nylon / 50pk (non-sterile)",
+    "TICpart":"35539",
+    "TICdescription":"Standard Filter Vial Nylon 0.45µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"5235307HS M",
+    "description":"0.2μm Cellulose Acetate",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Sartorius®",
+    "part":"5235307HS M",
+    "description":"0.2μm Cellulose Acetate",
+    "TICpart":"35535",
+    "TICdescription":"Standard Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODM02C33",
+    "description":"Nanosep MF Centrifugal Devices with Bio-Inert® Membrane | 0.2μm, aqua",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODM02C34",
+    "description":"Nanosep MF Centrifugal Devices with Bio-Inert® Membrane | 0.2μm, aqua",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODM02C35",
+    "description":"Nanosep MF Centrifugal Devices with Bio-Inert® Membrane | 0.2μm, aqua",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODM45C33",
+    "description":"Nanosep MF Centrifugal Devices with Bio-Inert® Membrane | 0.45μm, wildberry",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODM45C34",
+    "description":"Nanosep MF Centrifugal Devices with Bio-Inert® Membrane | 0.45μm, wildberry",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODM45C35",
+    "description":"Nanosep MF Centrifugal Devices with Bio-Inert® Membrane | 0.45μm, wildberry",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODGHPC34",
+    "description":"Nanosep MF Centrifugal Devices with GHP Membrane | 0.45μm, clear",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Pall®",
+    "part":"ODGHPC35",
+    "description":"Nanosep MF Centrifugal Devices with GHP Membrane | 0.45μm, clear",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6831-0401",
+    "description":"VectaSpin Micro® Centrifuge Tube Filter | 400 μl, PVDF, 0.45μm",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6832-0401",
+    "description":"VectaSpin Micro® Centrifuge Tube Filter | 400 μl, polypropylene, 0.45μm",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6833-0201",
+    "description":"VectaSpin Micro® Centrifuge Tube Filter | 400 μl, polysulfone, 0.2μm",
+    "TICpart":"15535 / 25535",
+    "TICdescription":"nano Filter Vial PES 0.2µm"
+  },{
+    "manufacture":"Whatman®",
+    "part":"6833-0401",
+    "description":"VectaSpin Micro® Centrifuge Tube Filter | 400 μl, polysulfone, 0.45μm",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30DV00",
+    "description":"Ultrafree-MC, DV 0.65μm",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30VV00",
+    "description":"Ultrafree-MC, VV 0.1μm",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30DV0S",
+    "description":"Ultrafree-MC, DV 0.65μm, sterile",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30GV00",
+    "description":"Ultrafree-MC, GV 0.22μm",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30GVNB",
+    "description":"Ultrafree-MC, GV 0.22μm",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30HV00",
+    "description":"Ultrafree-MC, HV, 0.45μm",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30GV0S",
+    "description":"Ultrafree-MC, GV 0.22μm, sterile",
+    "TICpart":"15531 / 25531",
+    "TICdescription":"nano Filter Vial PVDF 0.2µm"
+  },{
+    "manufacture":"EMD Millipore®",
+    "part":"UFC30HVNB",
+    "description":"Ultrafree-MC, HV, 0.45μm",
+    "TICpart":"15541 / 25541",
+    "TICdescription":"nano Filter Vial PVDF 0.45µm"}
+]

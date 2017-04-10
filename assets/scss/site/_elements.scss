@@ -1383,9 +1383,15 @@ table.product-ref-table{
     li div{
       padding: 1rem 1rem 2rem 1rem;
       background:rgba($white,.65);
-      transition:all 300ms;
+      border-radius:1rem;
+      border:1px solid $ghost;
+      transition:background 300ms;
       &:hover{
-        background:rgba($white, .85);
+        background:rgba($white, 1);
+        border:1px solid $gainsboro;
+        p.file-description{
+          color:$black;
+        }
       }
 
     }
