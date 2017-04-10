@@ -1335,7 +1335,6 @@ table.product-ref-table{
       font-size:3rem;
       text-align:center;
     }
-    
   }
 }
 .sales-portal{
@@ -1371,6 +1370,51 @@ table.product-ref-table{
   padding-bottom: 2.5rem;
   background:#f5fbfe url('../../images/intro-bg.jpg') no-repeat top center;
 }
+.top-inputs{
+  input[type='text']{
+    border:none;
+    border-bottom:1px solid $gainsboro;
+    background:$snow;
+    border-radius:.25rem .25rem 0 0;
+    box-shadow:none;
+    &:focus{
+      background:$white;
+    }
+  }
+}
+.sf-result{
+  ul{
+    padding:0;
+    margin: 1rem 0 1rem 0;
+    border-bottom: 1px solid $smoke;
+    &:first-of-type{
+      margin-top:0;
+    }
+    li{
+      list-style:none;
+    }
+    .sftofv-current{
+      color:$monsoon;
+    }
+    .sftofv-current-description{
+      color:$monsoon;
+      font-style:italic;
+      margin-bottom: .25rem;
+    }
+    .sftofv-tic{
+      color:$primary-color;
+    }
+    .sftofv-tic-description{
+      color:$black;
+      font-style:italic;
+    }
+  }
+}
+
+
+
+
+
 .downloadable-files{
   padding-bottom:2rem;
   .file{
