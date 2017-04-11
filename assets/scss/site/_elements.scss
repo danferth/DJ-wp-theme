@@ -1324,74 +1324,72 @@ table.product-ref-table{
 }
 
 //sales portal styles
-.subscription{
-  header{
-    background:#f5fbfe;
-    border-bottom:1px dashed $primary-color;
-    .entry-title{
-      font-family: Avenir Next LT Pro Ultra Light;
-      font-weight:100;
-      color:$primary-color;
-      font-size:3rem;
-      text-align:center;
-    }
-  }
-}
 .sales-portal{
-    h1{
-      font-family: Avenir Next LT Pro Ultra Light;
-      font-weight:100;
-      color:$primary-color;
-      font-size:3rem;
-      text-align:center;
-    }
-    h1 + p{
-      text-align:center;
-      color:$jumbo;
-      @media screen and(min-width:$small-breakpoint){
-        width:90%;
-        margin-left:auto;
-        margin-right:auto;
-      }
-      @media screen and(min-width:$medium-breakpoint){
-        width:60%;
-        margin-left:auto;
-        margin-right:auto;
-      }
-      @media screen and(min-width:$large-breakpoint){
-        width:75%;
-        margin-left:auto;
-        margin-right:auto;
-      }
-      
-    }
-}
-.intro{
-  padding-bottom: 2.5rem;
-  background:#f5fbfe url('../../images/intro-bg.jpg') no-repeat top center;
-}
-.top-inputs{
-  background:$ghost;
-  h3{
-    margin-bottom: .125rem;
+  .intro{
+    padding-bottom: 2.5rem;
+    background:#f5fbfe url('../../images/intro-bg.jpg') no-repeat top center;
   }
-  h3 + p{
-    margin-top:0;
+  h1{
+    font-family: Avenir Next LT Pro Ultra Light;
+    font-weight:100;
+    color:$primary-color;
+    font-size:3rem;
+    text-align:center;
+  }
+  h1 + p{
+    text-align:center;
     color:$jumbo;
+    @media screen and(min-width:$small-breakpoint){
+      width:90%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    @media screen and(min-width:$medium-breakpoint){
+      width:60%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    @media screen and(min-width:$large-breakpoint){
+      width:75%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    
+  }
+  input[type='text'], input[type='email']{
+    outline:none;
+    border:none;
+    border-bottom: 1px solid $gainsboro;
+    box-shadow:none;
+    background:$snow;
+    border-radius: .25rem .25rem 0 0;
+    &:focus{
+      background: lighten($snow, 2%);
+      border-color: $charcoal;
+    }
+  }
+  textarea{
+    outline:none;
+    box-shadow:none;
+    background:$snow;
+    border:none;
+    border-top: 1px solid $gainsboro;
+    border-radius: 0 0 .25rem .25rem;
+    &:focus{
+      background: lighten($snow, 2%);
+      border-color: $charcoal;
+    }
+  }
+}
+
+.top-inputs{
+  input + p{
+    margin-top:0;
+    color:$charcoal;
     font-size: .75rem;
   }
-  input[type='text']{
-    border:none;
-    border-bottom:1px solid $gainsboro;
-    background:$smoke;
-    border-radius:.25rem .25rem 0 0;
-    box-shadow:none;
-    transition: background 300ms;
-    &:focus{
-      background:$white;
-    }
-  }
 }
+
 .sf-result{
   background:$ghost;
   ul{
@@ -1426,28 +1424,35 @@ table.product-ref-table{
   h3{
     margin-top:0;
   }
+  form{
+    margin-top:1rem;
+  }
 }
 
 
 
 .downloadable-files{
   padding-bottom:2rem;
+  h1{
+    margin-top:0;
+  }
+  div{
+    //margin:0;
+  }
   .file{
-    margin-bottom:0;
+    margin-bottom:.25rem;
   }
   .file-description{
     font-size:.7rem;
+    margin-bottom:0;
   }
   ul{
     li div{
-      padding: 1rem 1rem 2rem 1rem;
-      background:rgba($white,.65);
+      padding: 1rem;
       border-radius:1rem;
       border:1px solid $ghost;
       transition:background 300ms;
       &:hover{
-        background:rgba($white, 1);
-        border:1px solid $gainsboro;
         p.file-description{
           color:$black;
         }
@@ -1460,28 +1465,44 @@ table.product-ref-table{
   h1, i.fa{
     color:#007133;
   }
-  background:#f4fff9;
+  ul li{
+    div{
+      background:#f4fff9;
+    }
+  }
   border-bottom:1px dashed #007133;
 }
 .powerpoint{
   h1, i.fa{
     color:#db5a26;
   }
-  background:#fdf8f6;
+  ul li{
+    div{
+      background:#fdf8f6;
+    }
+  }
   border-bottom:1px dashed #db5a26;
 }
 .zipfiles{
   h1, i.fa{
     color:#6f2e81;
   }
-  background:#fbf7fc;
+  ul li{
+    div{
+      background:#fbf7fc;
+    }
+  }
   border-bottom:1px dashed #6f2e81;
 }
 .word{
   h1, i.fa{
     color:#2a3281;
   }
-  background:#f7f7fc;
+  ul li{
+    div{
+      background:#f7f7fc;
+    }
+  }
   border-bottom:1px dashed #2a3281;
 }
 
