@@ -1383,7 +1383,7 @@ table.product-ref-table{
 }
 
 .top-inputs{
-  input + p{
+  input + p, select + p{
     margin-top:0;
     color:$charcoal;
     font-size: .75rem;
@@ -1391,7 +1391,7 @@ table.product-ref-table{
 }
 
 .sf-result{
-  background:$ghost;
+  border-right:1px solid $gainsboro;
   ul{
     padding:0;
     margin: 1rem 0 1rem 0;
@@ -1418,6 +1418,10 @@ table.product-ref-table{
       font-style:italic;
     }
   }
+}
+
+.st-result{
+  border-left:1px solid $gainsboro;
 }
 
 .sales-portal-forms{

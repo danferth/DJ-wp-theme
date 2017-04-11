@@ -71,6 +71,9 @@ tic.factory('dataFactory', ['$http', '$filter', function($http, $filter){
   factory.get_sftofv = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/sftofv.json');
   };
+  factory.get_salestips = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/salestips.json');
+  };
   return factory;
 }]);
 
@@ -529,7 +532,18 @@ tic.controller('techResultController', ['$scope', '$filter', '$sce', 'dataFactor
 tic.controller('sftofvController', ['$scope', 'dataFactory', '$filter', function($scope, dataFactory, $filter){
   dataFactory.get_sftofv().then(function(responce){
    $scope.sftofv = responce.data;
-   $scope.sfChosen = $filter('filter')($scope.techlibrary, {part: $scope.sftofvSearch })[0];
+ });
+ 
+ dataFactory.get_salestips().then(function(responce){
+   $scope.salestips = responce.data;
+   $scope.salesTipProduct = "";
+   $scope.$watch('salesTipProduct', function(){
+     if($scope.salesTipProduct == ""){
+       $scope.st = "";
+     } else{
+        $scope.st = $filter('filter')($scope.salestips, {product: $scope.salesTipProduct})[0];
+     }
+    }); //END $watch
  });
   
   
