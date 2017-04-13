@@ -64,7 +64,7 @@ if($form_success == "true"){
 	echo "
 		window.onload = swal({
 			title: 'Success',
-			text: '<b>" . $first_name . "</b> your ". $form_type ." submission was a success we will contact you shortly about your inquiry into ". $product_type ."!',
+			text: 'Thank you! Your submission was a success & we will make addjustment to the site with your input',
 			type: 'success',
 			html: true,
 			confirmButtonText: 'Thanks'
@@ -74,7 +74,7 @@ if($form_success == "true"){
 	echo "
 		window.onload = swal({
 			title: 'Whoops',
-			text: 'Our apologies but there was an error <b>" . $first_name . "</b>, we have logged this and will have a fix soon!',
+			text: 'Our apologies but there was an error, we have logged this and will have a fix soon!',
 			type: 'error',
 			html: true,
 			confirmButtonText: 'OK'
@@ -84,14 +84,14 @@ if($form_success == "true"){
 
 ?>
 
-//function hasHTML5validation(){
-//	return (typeof document.createElement('input').checkValidity == 'function');
-//}
-//if(!hasHTML5validation() ){
 	$(window).bind("load", function() {
-		 // $("#product-inquiry-sample").validate();
+		 $("#sftofv-form").validate();
+		 $("#salestip-form").validate();
 });
-//}
+
+
+
+
 </script>
 
 <?php get_footer(); ?>

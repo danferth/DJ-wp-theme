@@ -1322,8 +1322,9 @@ table.product-ref-table{
     clear:both;
   }
 }
-
+//====================
 //sales portal styles
+//====================
 .sales-portal{
   .intro{
     padding-bottom: 2.5rem;
@@ -1356,7 +1357,9 @@ table.product-ref-table{
     }
     
   }
-  input[type='text'], input[type='email']{
+}
+.sales-portal, .reveal-modal{
+   input[type='text'], input[type='email']{
     outline:none;
     border:none;
     border-bottom: 1px solid $gainsboro;
@@ -1381,7 +1384,6 @@ table.product-ref-table{
     }
   }
 }
-
 .top-inputs{
   input + p, select + p{
     margin-top:0;
