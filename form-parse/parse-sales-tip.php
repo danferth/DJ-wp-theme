@@ -13,7 +13,10 @@ $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $product = filter_var($_POST['product'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $title   = filter_var($_POST['tipTitle'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $body   = filter_var($_POST['tipBody'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$file   = filter_var($_POST['uploaded_file'], FILTER_SANITIZE_NUMBER_INT);
+
+if(array_key_exists('uploaded_file', $_FILES)){
+  $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['uploaded_file']['name']));
+}
 
 //for body and sending email
 
@@ -37,6 +40,10 @@ $file   = filter_var($_POST['uploaded_file'], FILTER_SANITIZE_NUMBER_INT);
 			$mail->addAddress('dan@htslabs.com', 'dan in marketing');
 			$mail->Subject = "NEW SALES TIP!";
 			$mail->msgHTML($body);
+			if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+			  $attachmentName = 'sales-tip-'.date('m\-d\-Y\-h:iA');
+			  $mail->addAttachment($uploadfile, $attachmentName);
+			}
 			if (!$mail->send()){
 				$mail_error = $mail->ErrorInfo;
 				$error_date = date('m\-d\-Y\-h:iA');
