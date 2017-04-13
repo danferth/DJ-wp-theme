@@ -1383,6 +1383,37 @@ table.product-ref-table{
       border-color: $charcoal;
     }
   }
+  .file-upload-note{
+    margin-bottom:.35rem;
+    color:$steel;
+    font-size:.75rem;
+  }
+  input[type='file']{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow:hidden;
+    position:absolute;
+    z-index: -1;
+  }
+  input[type='file']:focus + label{
+    background:darken($primary-color, 10%);
+    box-shadow: 0 0 1px 2px #4d90fe;
+  }
+  input[type='file'] + label{
+    background:$primary-color;
+    color:$white;
+    padding: .5rem 1rem;
+    border-radius:.125rem;
+    margin-bottom: 1rem;
+    display:inline-block;
+    cursor:pointer;
+    transition: background 300ms;
+    &:hover{
+      background:darken($primary-color, 10%);
+      
+    }
+  }
 }
 .top-inputs{
   input + p, select + p{
@@ -1391,7 +1422,12 @@ table.product-ref-table{
     font-size: .75rem;
   }
 }
-
+.results{
+  max-height: rem-calc(300px);
+  overflow-y:scroll;
+  border-bottom: 1px dashed $secondary-color;
+  border-top: 1px solid $primary-color;
+}
 .sf-result{
   border-right:1px solid $gainsboro;
   ul{
