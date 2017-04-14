@@ -43,11 +43,19 @@ get_header(); ?>
 
 			<div class="entry-content">
 				<?php
-				  if(!is_user_logged_in()){
-				    echo "<p class='first'>Our apologies, but you need to log in to see this content, you can log in <a href='/login/'>here</a></p>";
-				  }else{
-    				the_content();
-    			}
+				  // if(!is_user_logged_in()){
+				  //   echo "<p class='first'>Our apologies, but you need to log in to see this content, you can log in <a href='/login/'>here</a></p>";
+				  // }else{
+    		// 		the_content();
+    		// 	}
+    			
+    			if( ! is_user_logged_in() ){
+    			  printf('<p class="first">Our apologies, but you need to log in to see this page.</p>');
+            printf( '<a href="%s">%s</a>', wp_login_url( get_permalink() ), __( '<button class="button small round">Click here to login</button>' ));
+          }else{
+            the_content();
+          }
+    			
     			?>
 			</div>
 			
