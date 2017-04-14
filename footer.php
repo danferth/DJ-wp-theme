@@ -45,7 +45,7 @@
 <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 
 <!-- REMOVE THIS BEFOR PUSHING TO PRODUCTION -->
-<!--<script>!function(){var e=document.createElement("script"),t=document.getElementsByTagName("script")[0];e.async=1,e.src="https://inlinemanual.com/embed/player.61062751fe49a1b1eec54de80f30290d.js",e.charset="UTF-8",t.parentNode.insertBefore(e,t)}();</script>-->
+<script>!function(){var e=document.createElement("script"),t=document.getElementsByTagName("script")[0];e.async=1,e.src="https://inlinemanual.com/embed/player.61062751fe49a1b1eec54de80f30290d.js",e.charset="UTF-8",t.parentNode.insertBefore(e,t)}();</script>
 
 </body>
 </html>

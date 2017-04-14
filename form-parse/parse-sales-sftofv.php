@@ -33,7 +33,7 @@ $purchase   = filter_var($_POST['purchase'], FILTER_SANITIZE_STRING, FILTER_FLAG
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom('paperless@htslabs.com', 'Go paperless');
+			$mail->setFrom('dan@htslabs.com', 'SF to FV form');
 			$mail->addReplyTo($email);
 			$mail->addAddress('dan@htslabs.com', 'Dan in Marketing');
 			$mail->Subject = "Syring Filter to FV addition";
@@ -46,7 +46,7 @@ $purchase   = filter_var($_POST['purchase'], FILTER_SANITIZE_STRING, FILTER_FLAG
 				fwrite($fp,$error_date . " | SF to FV form | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}else{
 			  $success_ip = $_SERVER['REMOTE_ADDR'];
 				$success_date = date('m\-d\-Y\-h:iA');
@@ -56,12 +56,12 @@ $purchase   = filter_var($_POST['purchase'], FILTER_SANITIZE_STRING, FILTER_FLAG
 				fwrite($fp,$success_message . "\n");
 				fclose($fp);
 				$query_string = '?success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}
 		}else{
 			$query_string = '?first_name=Edward';
 			$query_string .= '&success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 		}
 	}
 ?>

@@ -12,7 +12,7 @@ array_walk($_POST, 'trim_value');
 $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $product = filter_var($_POST['product'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $title   = filter_var($_POST['tipTitle'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$body   = filter_var($_POST['tipBody'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$tipBody   = filter_var($_POST['tipBody'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
 if(array_key_exists('uploaded_file', $_FILES)){
   $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['uploaded_file']['name']));
@@ -24,12 +24,14 @@ if(array_key_exists('uploaded_file', $_FILES)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		
-		$body .= sprintf("<h2>NEW SALES TIP!:</h2>\n");
+		$body .= sprintf("<h2>NEW SALES TIP!</h2>\n");
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\n<h3>%s</h3><br />\n",$title);
+		$body .= sprintf("\n<h3>%s</h3>\n",$title);
 		$body .= sprintf("\nProduct: <b>%s</b><br />\n",$product);
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
-		$body .= wordwrap(sprintf($body."<br />",75,"\n"));
+		$body .= sprintf("\n<br/><b>Sales Tip:</b><br/>\n");
+		$body .= wordwrap(sprintf($tipBody."<br /><br/>",75,"\n"));
+		$body .= sprintf("\nFile uploaded: <b>%s</b>",$_FILES['uploaded_file']['name']);
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
@@ -40,8 +42,8 @@ if(array_key_exists('uploaded_file', $_FILES)){
 			$mail->addAddress('dan@htslabs.com', 'dan in marketing');
 			$mail->Subject = "NEW SALES TIP!";
 			$mail->msgHTML($body);
-			if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
-			  $attachmentName = 'sales-tip-'.date('m\-d\-Y\-h:iA');
+			if (move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $uploadfile)) {
+			  $attachmentName = date('m\-d\-Y\-h:iA')."-".$_FILES['uploaded_file']['name'];
 			  $mail->addAttachment($uploadfile, $attachmentName);
 			}
 			if (!$mail->send()){
@@ -52,7 +54,7 @@ if(array_key_exists('uploaded_file', $_FILES)){
 				fwrite($fp,$error_date . " | sales tip form | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}else{
 			  $success_ip = $_SERVER['REMOTE_ADDR'];
 				$success_date = date('m\-d\-Y\-h:iA');
@@ -62,12 +64,12 @@ if(array_key_exists('uploaded_file', $_FILES)){
 				fwrite($fp,$success_message . "\n");
 				fclose($fp);
 				$query_string = '?success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}
 		}else{
 			$query_string = '?first_name=Edward';
 			$query_string .= '&success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 		}
 	}
 ?>
