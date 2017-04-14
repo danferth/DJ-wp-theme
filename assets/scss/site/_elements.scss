@@ -1359,7 +1359,7 @@ table.product-ref-table{
   }
 }
 .sales-portal, .reveal-modal{
-   input[type='text'], input[type='email']{
+   input[type='text'], input[type='email'], input[type='url']{
     outline:none;
     border:none;
     border-bottom: 1px solid $gainsboro;
@@ -1475,9 +1475,6 @@ table.product-ref-table{
 
 .downloadable-files{
   padding-bottom:2rem;
-  h1{
-    margin-top:0;
-  }
   div{
     //margin:0;
   }
@@ -1546,6 +1543,20 @@ table.product-ref-table{
     }
   }
   border-bottom:1px dashed #2a3281;
+}
+.twitter{
+  h1, i.fa{
+    color:#1DA1F2;
+  }
+  h3{
+    margin-top:0;
+  }
+  ul li{
+    div{
+      background:#fafcfe;
+    }
+  }
+  border-bottom:1px dashed #1DA1F2;
 }
 
 
