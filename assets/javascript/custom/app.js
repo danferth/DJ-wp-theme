@@ -546,7 +546,20 @@ tic.controller('sftofvController', ['$scope', 'dataFactory', '$filter', function
     }); //END $watch
  });
   
-  
+ $scope.tweetLimit = 140;
+ $scope.tweetText = "";
+ $scope.$watch('tweetText', function(){
+   $scope.tweetLength = $scope.tweetText.length;
+   $scope.tweetWarning = false;
+   if($scope.tweetLength > $scope.tweetLimit){
+     $scope.tweetWarning = true;
+     $('input[name="suggestTweet"]').prop('disabled', true);
+   }else{
+     $scope.tweetWarning = false;
+     $('input[name="suggestTweet"]').prop('disabled', false);
+   }
+   console.log($scope.tweetWarning);
+ });
 
 }]);
 
