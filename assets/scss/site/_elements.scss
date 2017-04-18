@@ -1329,17 +1329,20 @@ table.product-ref-table{
   .intro{
     padding-bottom: 2.5rem;
     background:#f5fbfe url('../../images/intro-bg.jpg') no-repeat top center;
+    h1{
+    text-shadow: 0 2px 4px rgba($tuatara, .5);
+    }
   }
   h1{
     font-family: Avenir Next LT Pro Ultra Light;
     font-weight:100;
     color:$primary-color;
-    font-size:3rem;
+    font-size:2.25rem;
     text-align:center;
   }
   h1 + p{
     text-align:center;
-    color:$jumbo;
+    color:$steel;
     @media screen and(min-width:$small-breakpoint){
       width:90%;
       margin-left:auto;
@@ -1364,23 +1367,24 @@ table.product-ref-table{
     border:none;
     border-bottom: 1px solid $gainsboro;
     box-shadow:none;
-    background:$snow;
+    background:$ghost;
     border-radius: .25rem .25rem 0 0;
     &:focus{
       background: lighten($snow, 2%);
-      border-color: $charcoal;
+      border-color: $primary-color;
     }
   }
   textarea{
     outline:none;
     box-shadow:none;
-    background:$snow;
+    background:$ghost;
     border:none;
     border-top: 1px solid $gainsboro;
     border-radius: 0 0 .25rem .25rem;
+    margin-bottom: 1.65rem;
     &:focus{
       background: lighten($snow, 2%);
-      border-color: $charcoal;
+      border-color: $primary-color;
     }
   }
   .file-upload-note{
@@ -1415,52 +1419,6 @@ table.product-ref-table{
     }
   }
 }
-.top-inputs{
-  input + p, select + p{
-    margin-top:0;
-    color:$charcoal;
-    font-size: .75rem;
-  }
-}
-.results{
-  max-height: rem-calc(300px);
-  overflow-y:scroll;
-  border-bottom: 1px dashed $secondary-color;
-  border-top: 1px solid $primary-color;
-}
-.sf-result{
-  border-right:1px solid $gainsboro;
-  ul{
-    padding:0;
-    margin: 1rem 0 1rem 0;
-    border-bottom: 1px solid $gainsboro;
-    &:first-of-type{
-      margin-top:0;
-    }
-    li{
-      list-style:none;
-    }
-    .sftofv-current{
-      color:$monsoon;
-    }
-    .sftofv-current-description{
-      color:$monsoon;
-      font-style:italic;
-      margin-bottom: .25rem;
-    }
-    .sftofv-tic{
-      color:$primary-color;
-    }
-    .sftofv-tic-description{
-      color:$black;
-      font-style:italic;
-    }
-  }
-}
-
-.st-result{
-  border-left:1px solid $gainsboro;
-}
 
 .sales-portal-forms{
   h3{
@@ -1470,8 +1428,6 @@ table.product-ref-table{
     margin-top:1rem;
   }
 }
-
-
 
 .downloadable-files{
   padding-bottom:2rem;
@@ -1561,6 +1517,63 @@ table.product-ref-table{
 .tweet-warning{
   color:$alert-color;
 }
+.top-inputs{
+  h1, i.fa{
+    color:#0676B3;
+  }
+  h3{
+    margin-top:0;
+  }
+  ul li{
+    div{
+      background:#f5fbfe;
+    }
+  }
+  border-bottom:1px dashed #0676B3;
+  input + p, select + p{
+    margin-top:0;
+    color:$charcoal;
+    font-size: .75rem;
+  }
+}
+.results{
+  max-height: rem-calc(300px);
+  overflow-y:scroll;
+  border-bottom: 1px dashed $secondary-color;
+  border-top: 1px solid $primary-color;
+}
+.sf-result{
+  border-right:1px solid $gainsboro;
+  ul{
+    padding:0;
+    margin: 1rem 0 1rem 0;
+    border-bottom: 1px solid $gainsboro;
+    &:first-of-type{
+      margin-top:0;
+    }
+    li{
+      list-style:none;
+    }
+    .sftofv-current{
+      color:$monsoon;
+    }
+    .sftofv-current-description{
+      color:$monsoon;
+      font-style:italic;
+      margin-bottom: .25rem;
+    }
+    .sftofv-tic{
+      color:$primary-color;
+    }
+    .sftofv-tic-description{
+      color:$black;
+      font-style:italic;
+    }
+  }
+}
 
+.st-result{
+  border-left:1px solid $gainsboro;
+}
 
 //next up?
