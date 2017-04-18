@@ -95,6 +95,9 @@ if($form_success == "true"){
 	$(window).bind("load", function() {
 		 $("#sftofv-form").validate();
 		 $("#salestip-form").validate();
+		 $('#suggest-tweet-form').validate();
+		 $('#submit-tweet-form').validate();
+		 $('#suggestion-box').validate();
 });
 
 
