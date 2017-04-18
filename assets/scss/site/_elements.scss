@@ -1368,7 +1368,7 @@ table.product-ref-table{
     border-bottom: 1px solid $gainsboro;
     box-shadow:none;
     background:$ghost;
-    border-radius: .25rem .25rem 0 0;
+    border-radius: .5rem .5rem 0 0;
     &:focus{
       background: lighten($snow, 2%);
       border-color: $primary-color;
@@ -1380,7 +1380,7 @@ table.product-ref-table{
     background:$ghost;
     border:none;
     border-top: 1px solid $gainsboro;
-    border-radius: 0 0 .25rem .25rem;
+    border-radius: 0 0 .5rem .5rem;
     margin-bottom: 1.65rem;
     &:focus{
       background: lighten($snow, 2%);
