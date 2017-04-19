@@ -21,19 +21,20 @@ if(array_key_exists('suggested_file', $_FILES)){
 	if (is_array($_POST)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
-		
-		$body .= sprintf("<h2>Sales Portal Suggestion</h2>\n");
-		$body .= sprintf("<hr />");
+
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
-		$body .= sprintf("\n<h3>%s</h3>\n",$title);
-		$body .= wordwrap(sprintf($suggestion."<br /><br/>",75,"\n"));
-		$body .= sprintf("\nFile uploaded: <b>%s</b>",$_FILES['suggested_file']['name']);
+		$body .= sprintf("<hr />");
+		$body .= sprintf("\n<b>%s</b><br/>\n",$title);
+		$body .= wordwrap(sprintf($suggestion),50,"\n");
+		if(array_key_exists('suggested_file', $_FILES)){
+		  $body .= sprintf("\nFile uploaded: <b>%s</b>",$_FILES['suggested_file']['name']);
+		}
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom('dan@htslabs.com', 'dan klotz');
+			$mail->setFrom('dan@htslabs.com', 'Suggestion Box');
 			$mail->addReplyTo($email, 'sales staff');
 			$mail->addAddress('dan@htslabs.com', 'dan in marketing');
 			$mail->Subject = "Sales Portal Suggestion";

@@ -19,17 +19,14 @@ $why   = filter_var($_POST['why'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		
-		$body .= sprintf("<h2>Tweet Suggestion from sales:</h2>\n");
-		$body .= sprintf("<hr />");
-		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
-		$body .= sprintf("\nTweet URL: <b>%s</b><br />\n",$url);
-		$body .= sprintf("\nWhy Tweet this: <b>%s</b><br />\n",$why);
+		$body .= sprintf("\n<p>%s suggests <a href='%s'>this tweet</a></p>\n",$email, $url);
+		$body .= sprintf("\n<p>Because, %s</p>\n",$why);
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom('dan@htslabs.com', 'Tweet Suggestion');
+			$mail->setFrom('dan@htslabs.com', 'Suggested Tweet');
 			$mail->addReplyTo($email);
 			$mail->addAddress('dan@htslabs.com', 'Dan in Marketing');
 			$mail->Subject = "Suggested Tweet from Sales";

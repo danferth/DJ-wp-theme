@@ -27,16 +27,17 @@ if(array_key_exists('uploaded_file', $_FILES)){
 		$body .= sprintf("\nProduct: <b>%s</b><br />\n",$product);
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\n<h3>%s</h3>\n",$title);
-		$body .= sprintf("\n<br/><b>Sales Tip:</b><br/>\n");
-		$body .= wordwrap(sprintf($tipBody."<br /><br/>",75,"\n"));
-		$body .= sprintf("\nFile uploaded: <b>%s</b>",$_FILES['uploaded_file']['name']);
+		$body .= sprintf("\n<b>%s</b><br/>\n",$title);
+		$body .= wordwrap(sprintf($tipBody."<br /><br/>"),75,"\n");
+		if(array_key_exists('uploaded_file', $_FILES)){
+		  $body .= sprintf("\nFile uploaded: <i>%s</i>",$_FILES['uploaded_file']['name']);
+		}
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
 		if (trim($_POST['important-input']) == ''){
 			$mail = new PHPMailer;
-			$mail->setFrom('dan@htslabs.com', 'dan klotz');
+			$mail->setFrom('dan@htslabs.com', 'Sales Tip!');
 			$mail->addReplyTo($email, 'sales staff');
 			$mail->addAddress('dan@htslabs.com', 'dan in marketing');
 			$mail->Subject = "NEW SALES TIP!";

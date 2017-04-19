@@ -21,13 +21,11 @@ $purchase   = filter_var($_POST['purchase'], FILTER_SANITIZE_STRING, FILTER_FLAG
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		
-		$body .= sprintf("<h2>Syringe Filter to Filter Vial:</h2>\n");
-		$body .= sprintf("<hr />");
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
-		$body .= sprintf("\nManufacture: <b>%s</b><br />\n",$make);
-		$body .= sprintf("\nPart #: <b>%s</b><br />\n",$part);
+		$body .= sprintf("<hr />");
+		$body .= sprintf("\nPart #: <b>%s</b> <i>%s</i><br />\n",$part,$purchase);
 		$body .= sprintf("\nDescription: <b>%s</b><br />\n",$description);
-		$body .= sprintf("\nPurchased From: <b>%s</b><br />\n",$purchase);
+		$body .= sprintf("\nManufacture: <b>%s</b><br />\n",$make);
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 

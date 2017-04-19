@@ -1371,7 +1371,8 @@ table.product-ref-table{
     border-radius: .5rem .5rem 0 0;
     &:focus{
       background: lighten($snow, 2%);
-      border-color: $primary-color;
+      border-bottom: 1px dashed $primary-color;
+      border-top: 1px dashed $primary-color;
     }
   }
   textarea{
@@ -1384,7 +1385,8 @@ table.product-ref-table{
     margin-bottom: 1.65rem;
     &:focus{
       background: lighten($snow, 2%);
-      border-color: $primary-color;
+      border-top: 1px dashed $primary-color;
+      border-bottom: 1px dashed $primary-color;
     }
   }
   .file-upload-note{
