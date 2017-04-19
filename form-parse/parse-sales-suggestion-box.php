@@ -10,8 +10,8 @@ array_walk($_POST, 'trim_value');
 
 //form variables
 $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-$title = filter_var($_POST['product'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$suggestion   = filter_var($_POST['tipTitle'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$title = filter_var($_POST['title'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$suggestion   = filter_var($_POST['suggestion'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 if(array_key_exists('suggested_file', $_FILES)){
   $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['suggested_file']['name']));
 }

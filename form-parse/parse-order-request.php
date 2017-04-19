@@ -426,7 +426,7 @@ $next_page = 'order/';
 				fwrite($fp,$error_date . " | new order | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}else{
 			  $success_ip = $_SERVER['REMOTE_ADDR'];
 				$success_date = date('m\-d\-Y\-h:iA');
@@ -436,12 +436,12 @@ $next_page = 'order/';
 				fwrite($fp,$success_message . "\n");
 				fclose($fp);
 				$query_string .= '&success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 			}
 		}else{
 			$query_string = '?first_name=Edward';
 			$query_string .= '&success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
+				header('Location: http://' . $server_dir . $next_page . $query_string);
 		}
 	}
 ?>

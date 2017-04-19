@@ -24,11 +24,10 @@ if(array_key_exists('uploaded_file', $_FILES)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		
-		$body .= sprintf("<h2>NEW SALES TIP!</h2>\n");
-		$body .= sprintf("<hr />");
-		$body .= sprintf("\n<h3>%s</h3>\n",$title);
 		$body .= sprintf("\nProduct: <b>%s</b><br />\n",$product);
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
+		$body .= sprintf("<hr />");
+		$body .= sprintf("\n<h3>%s</h3>\n",$title);
 		$body .= sprintf("\n<br/><b>Sales Tip:</b><br/>\n");
 		$body .= wordwrap(sprintf($tipBody."<br /><br/>",75,"\n"));
 		$body .= sprintf("\nFile uploaded: <b>%s</b>",$_FILES['uploaded_file']['name']);
