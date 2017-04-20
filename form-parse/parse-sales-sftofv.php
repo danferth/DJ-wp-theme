@@ -23,7 +23,7 @@ $purchase   = filter_var($_POST['purchase'], FILTER_SANITIZE_STRING, FILTER_FLAG
 		
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<hr />");
-		$body .= sprintf("\nPart #: <b>%s</b> <i>%s</i><br />\n",$part,$purchase);
+		$body .= sprintf("\nPart #: <b>%s</b> <i>(purchased from %s)</i><br />\n",$part,$purchase);
 		$body .= sprintf("\nDescription: <b>%s</b><br />\n",$description);
 		$body .= sprintf("\nManufacture: <b>%s</b><br />\n",$make);
 		$body .= sprintf("</body>");
@@ -33,7 +33,7 @@ $purchase   = filter_var($_POST['purchase'], FILTER_SANITIZE_STRING, FILTER_FLAG
 			$mail = new PHPMailer;
 			$mail->setFrom('dan@htslabs.com', 'SF to FV form');
 			$mail->addReplyTo($email);
-			$mail->addAddress('dan@htslabs.com', 'Dan in Marketing');
+			$mail->addAddress('dan@htslabs.com', 'SF to FV form');
 			$mail->Subject = "Syring Filter to FV addition";
 			$mail->msgHTML($body);
 			if (!$mail->send()){

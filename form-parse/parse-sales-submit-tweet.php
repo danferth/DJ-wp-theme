@@ -28,7 +28,7 @@ $tweet = filter_var($_POST['theTweet'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRI
 			$mail = new PHPMailer;
 			$mail->setFrom('dan@htslabs.com', 'Tweet Submission');
 			$mail->addReplyTo($email);
-			$mail->addAddress('dan@htslabs.com', 'Dan in Marketing');
+			$mail->addAddress('dan@htslabs.com', 'Tweet Submission');
 			$mail->Subject = "Sales Tweet Submission";
 			$mail->msgHTML($body);
 			if (!$mail->send()){

@@ -27,7 +27,7 @@ if(array_key_exists('suggested_file', $_FILES)){
 		$body .= sprintf("\n<b>%s</b><br/>\n",$title);
 		$body .= wordwrap(sprintf($suggestion),75,"<br/>");
 		if($_FILES['suggested_file']['name'] != ""){
-		  $body .= sprintf("\n<br/>File uploaded: <i>%s</i>",$_FILES['suggested_file']['name']);
+		  $body .= sprintf("\n<br/><br/>File uploaded: <i>%s</i>",$_FILES['suggested_file']['name']);
 		}
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
@@ -36,7 +36,7 @@ if(array_key_exists('suggested_file', $_FILES)){
 			$mail = new PHPMailer;
 			$mail->setFrom('dan@htslabs.com', 'Suggestion Box');
 			$mail->addReplyTo($email, 'sales staff');
-			$mail->addAddress('dan@htslabs.com', 'dan in marketing');
+			$mail->addAddress('dan@htslabs.com', 'Suggestion Box');
 			$mail->Subject = "Sales Portal Suggestion";
 			$mail->msgHTML($body);
 			if (move_uploaded_file($_FILES['suggested_file']['tmp_name'], $uploadfile)) {

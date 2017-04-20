@@ -30,7 +30,7 @@ if(array_key_exists('uploaded_file', $_FILES)){
 		$body .= sprintf("\n<b>%s</b><br/>\n",$title);
 		$body .= wordwrap(sprintf($tipBody),75,"<br>");
 		if($_FILES['uploaded_file']['name'] != ""){
-		  $body .= sprintf("\n<br/>File uploaded: <i>%s</i>",$_FILES['uploaded_file']['name']);
+		  $body .= sprintf("\n<br/><br/>File uploaded: <i>%s</i>",$_FILES['uploaded_file']['name']);
 		}
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
@@ -39,7 +39,7 @@ if(array_key_exists('uploaded_file', $_FILES)){
 			$mail = new PHPMailer;
 			$mail->setFrom('dan@htslabs.com', 'Sales Tip!');
 			$mail->addReplyTo($email, 'sales staff');
-			$mail->addAddress('dan@htslabs.com', 'dan in marketing');
+			$mail->addAddress('dan@htslabs.com', 'Sales Tip!');
 			$mail->Subject = "NEW SALES TIP!";
 			$mail->msgHTML($body);
 			if (move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $uploadfile)) {

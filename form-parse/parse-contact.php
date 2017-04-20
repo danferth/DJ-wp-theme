@@ -37,7 +37,7 @@ if ($_POST['title'] == "title"){
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<br />");
 
-		$body .= wordwrap(sprintf("\nMessage:\n\n".$comment."<br />",75,"\n"));
+		$body .= wordwrap(sprintf("\n<b>Message:</b> ".$comment),75,"<br/>");
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 

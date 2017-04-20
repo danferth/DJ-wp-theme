@@ -28,7 +28,7 @@ $query_string = '?first_name=' . $name;
 		$body .= sprintf("<hr/>\n");
 		$body .= sprintf("<b>Platform:</b> %s<br/>\n", $_POST['platform']);
 		$body .= sprintf("<b>page:</b> %s<br/>\n", $page);
-		$body .= wordwrap(sprintf("\n<b>Message:</b><br/>\n".$comment."<br />",75,"\n"));
+		$body .= wordwrap(sprintf("\n<b>Message:</b><br/>\n".$comment),75,"<br/>");
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 
