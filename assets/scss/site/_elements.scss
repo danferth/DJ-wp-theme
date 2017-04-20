@@ -69,6 +69,8 @@ label.error{
   padding-left:0;
   padding-right:0;
 }
+
+
 //=====================================================================
 //========================FULL WIDTH CSS===============================
 //=====================================================================
@@ -1361,18 +1363,24 @@ table.product-ref-table{
     
   }
 }
+.reveal-modal form{
+  h3{
+    margin-top:0;
+  }
+}
 .sales-portal, .reveal-modal{
    input[type='text'], input[type='email'], input[type='url']{
     outline:none;
     border:none;
     border-bottom: 1px solid $gainsboro;
+    border-top: 1px dashed transparent;
     box-shadow:none;
     background:$ghost;
     border-radius: .5rem .5rem 0 0;
     &:focus{
       background: lighten($snow, 2%);
-      border-bottom: 1px dashed $primary-color;
-      border-top: 1px dashed $primary-color;
+      border-bottom: 1px solid $primary-color;
+      border-top: 1px dashed $secondary-color;
     }
   }
   textarea{
@@ -1381,12 +1389,13 @@ table.product-ref-table{
     background:$ghost;
     border:none;
     border-top: 1px solid $gainsboro;
+    border-bottom: 1px dashed transparent;
     border-radius: 0 0 .5rem .5rem;
     margin-bottom: 1.65rem;
     &:focus{
       background: lighten($snow, 2%);
-      border-top: 1px dashed $primary-color;
-      border-bottom: 1px dashed $primary-color;
+      border-top: 1px solid $primary-color;
+      border-bottom: 1px dashed $secondary-color;
     }
   }
   .file-upload-note{
@@ -1454,9 +1463,82 @@ table.product-ref-table{
           color:$black;
         }
       }
-
     }
   }
+  .results{
+  max-height: rem-calc(300px);
+  overflow-y:scroll;
+  padding:0;
+}
+.sf-result{
+  ul{
+    padding:0;
+    margin: 1rem 0 1rem 0;
+    border-bottom: 1px solid $gainsboro;
+    &:first-of-type{
+      margin-top:0;
+    }
+    li{
+      list-style:none;
+    }
+    .sftofv-current{
+      color:$monsoon;
+    }
+    .sftofv-current-description{
+      color:$monsoon;
+      font-style:italic;
+      margin-bottom: .25rem;
+    }
+    .sftofv-tic{
+      color:$primary-color;
+    }
+    .sftofv-tic-description{
+      color:$black;
+      font-style:italic;
+    }
+  }
+}
+
+.st-result{
+  div{
+    padding:0;
+  }
+  h3{
+    margin-bottom:.25rem;
+  }
+  h3 + p{
+    padding-bottom:.75rem;
+    border-bottom:1px solid $secondary-color;
+  }
+  h4{
+    margin-top:0;
+    margin-bottom:1rem;
+  }
+  h5.tip-title{
+    margin-top:0;
+    margin-bottom:.25rem;
+  }
+  .tip-body{
+    margin-bottom:0;
+  }
+  .tip-citation{
+    font-size:.625rem;
+    color:$jumbo;
+    font-style:italic;
+    text-align:right;
+    margin-right:1rem;
+  }
+  ul{
+    margin:0;
+    padding:0;
+    li{
+      list-style:none;
+      padding-right:1rem;
+      border-bottom:1px solid $secondary-color;
+      margin-bottom:.5rem;
+    }
+  }
+}
 }
 .excel{
   h1, i.fa{
@@ -1538,44 +1620,6 @@ table.product-ref-table{
     font-size: .75rem;
   }
 }
-.results{
-  max-height: rem-calc(300px);
-  overflow-y:scroll;
-  border-bottom: 1px dashed $secondary-color;
-  border-top: 1px solid $primary-color;
-}
-.sf-result{
-  border-right:1px solid $gainsboro;
-  ul{
-    padding:0;
-    margin: 1rem 0 1rem 0;
-    border-bottom: 1px solid $gainsboro;
-    &:first-of-type{
-      margin-top:0;
-    }
-    li{
-      list-style:none;
-    }
-    .sftofv-current{
-      color:$monsoon;
-    }
-    .sftofv-current-description{
-      color:$monsoon;
-      font-style:italic;
-      margin-bottom: .25rem;
-    }
-    .sftofv-tic{
-      color:$primary-color;
-    }
-    .sftofv-tic-description{
-      color:$black;
-      font-style:italic;
-    }
-  }
-}
 
-.st-result{
-  border-left:1px solid $gainsboro;
-}
 
 //next up?
