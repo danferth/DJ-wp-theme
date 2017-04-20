@@ -20,7 +20,7 @@ $tweet = filter_var($_POST['theTweet'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRI
 		
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<hr />");
-		$body .= sprintf("<p style='padding:10px; border:1px solid #0676B3; border-radius:10px;'>".wordwrap($tweet,45,"\n")."</p>");
+		$body .= sprintf("<span style='padding:10px; border:1px solid #0676B3; border-radius:10px; display:inline-block;'>".wordwrap($tweet,45,"<br/>")."</span>");
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
 

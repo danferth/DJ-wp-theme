@@ -28,9 +28,9 @@ if(array_key_exists('uploaded_file', $_FILES)){
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<hr />");
 		$body .= sprintf("\n<b>%s</b><br/>\n",$title);
-		$body .= wordwrap(sprintf($tipBody."<br /><br/>"),75,"\n");
-		if(array_key_exists('uploaded_file', $_FILES)){
-		  $body .= sprintf("\nFile uploaded: <i>%s</i>",$_FILES['uploaded_file']['name']);
+		$body .= wordwrap(sprintf($tipBody),75,"<br>");
+		if($_FILES['uploaded_file']['name'] != ""){
+		  $body .= sprintf("\n<br/>File uploaded: <i>%s</i>",$_FILES['uploaded_file']['name']);
 		}
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");

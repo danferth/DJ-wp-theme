@@ -12,6 +12,7 @@ array_walk($_POST, 'trim_value');
 $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $title = filter_var($_POST['title'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $suggestion   = filter_var($_POST['suggestion'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+
 if(array_key_exists('suggested_file', $_FILES)){
   $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['suggested_file']['name']));
 }
@@ -21,13 +22,12 @@ if(array_key_exists('suggested_file', $_FILES)){
 	if (is_array($_POST)){
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
-
 		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
 		$body .= sprintf("<hr />");
 		$body .= sprintf("\n<b>%s</b><br/>\n",$title);
-		$body .= wordwrap(sprintf($suggestion),50,"\n");
-		if(array_key_exists('suggested_file', $_FILES)){
-		  $body .= sprintf("\nFile uploaded: <b>%s</b>",$_FILES['suggested_file']['name']);
+		$body .= wordwrap(sprintf($suggestion),75,"<br/>");
+		if($_FILES['suggested_file']['name'] != ""){
+		  $body .= sprintf("\n<br/>File uploaded: <i>%s</i>",$_FILES['suggested_file']['name']);
 		}
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");

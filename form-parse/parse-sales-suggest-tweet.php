@@ -19,7 +19,8 @@ $why   = filter_var($_POST['why'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW
 		$body  = sprintf("<html>"); 
 		$body .= sprintf("<body>");
 		
-		$body .= sprintf("\n<p>%s suggests <a href='%s'>this tweet</a></p>\n",$email, $url);
+		$body .= sprintf("\n<p><b>%s</b> suggests <a href='%s'>this tweet</a></p>\n",$email, $url);
+		$body .= sprintf("<hr/>");
 		$body .= sprintf("\n<p>Because, %s</p>\n",$why);
 		$body .= sprintf("</body>");
 		$body .= sprintf("</html>");
