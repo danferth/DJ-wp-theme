@@ -200,6 +200,35 @@ $('#order #copy-billing-info').on('click', function(){
     $('#order input#shipAttn').val("");
   }
 });
+
+
+//==================
+//sales portal
+//==================
+var downloadDiv = $('.downloadable-files');
+var downloadTiles = $('.downloadable-files div ul li div');
+
+console.log(downloadDiv);
+console.log(downloadTiles);
+
+
+// var footer_articles = $('#footer article');
+// var footer_address = $('.footer_foot');
+// var foot_tl = new TimelineMax();
+// foot_tl.add( TweenMax.staggerFrom(footer_articles, .8, {delay:.25, y:300, opacity:0, ease:Circ.easeOut}, .20) );
+// foot_tl.add( TweenMax.from(footer_address, 1, {opacity:0}) );
+// foot_tl.pause();
+
+// var footer_waypint = new Waypoint({
+// 	element: document.getElementById('footer'),
+// 	handler: function(){
+// 		foot_tl.play();
+// 	},
+// 	offset: '80%'
+// });
+
+
+
 //end doc ready
 });
 

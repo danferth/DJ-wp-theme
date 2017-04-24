@@ -558,7 +558,6 @@ tic.controller('sftofvController', ['$scope', 'dataFactory', '$filter', function
      $scope.tweetWarning = false;
      $('input[name="suggestTweet"]').prop('disabled', false);
    }
-   console.log($scope.tweetWarning);
  });
 
 }]);

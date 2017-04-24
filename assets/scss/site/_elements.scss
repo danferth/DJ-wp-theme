@@ -1378,7 +1378,7 @@ table.product-ref-table{
     background:$ghost;
     border-radius: .5rem .5rem 0 0;
     &:focus{
-      background: lighten($snow, 2%);
+      background: $white;
       border-bottom: 1px solid $primary-color;
       border-top: 1px dashed $secondary-color;
     }
@@ -1393,7 +1393,7 @@ table.product-ref-table{
     border-radius: 0 0 .5rem .5rem;
     margin-bottom: 1.65rem;
     &:focus{
-      background: lighten($snow, 2%);
+      background: $white;
       border-top: 1px solid $primary-color;
       border-bottom: 1px dashed $secondary-color;
     }
@@ -1593,7 +1593,7 @@ table.product-ref-table{
   }
   ul li{
     div{
-      background:#fafcfe;
+      background:#e6f4fd;
     }
   }
   border-bottom:1px dashed #1DA1F2;
@@ -1610,7 +1610,7 @@ table.product-ref-table{
   }
   ul li{
     div{
-      background:#f5fbfe;
+      background:#cdecfd;
     }
   }
   border-bottom:1px dashed #0676B3;
