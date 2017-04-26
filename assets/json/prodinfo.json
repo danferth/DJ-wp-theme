@@ -44,6 +44,9 @@
                     ],
     "related_product" : [
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
+        {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
+        {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
+        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
         {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
@@ -64,8 +67,11 @@
                     "Don’t Risk Your UPLC, HPLC, GC, LCMS, or GCMS Systems"
                     ],
     "related_product" : [
+        {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
-        {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"}
+        {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
+        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
+        {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
     "product" : "nano",
@@ -78,8 +84,10 @@
                     ],
     "related_product" : [
         {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
-        {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"},
-        {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"}
+        {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
+        {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
+        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
+        {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
     "product" : "extractor",
@@ -95,8 +103,11 @@
                     "Allows for QuEChERS"
                     ],
     "related_product" : [
+        {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
-        {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"}
+        {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
+        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
+        {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
     "product" : "mega",
@@ -109,7 +120,13 @@
                     "Long-term storage cap available <i>(p/n# 899030)</i>",
                     "Automation-friendly with 8-Position Rack <i>(p/n# 1212470)</i>"
                     ],
-    "related_product" : ""
+    "related_product" : [
+      {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
+      {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
+      {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
+      {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
+      {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
+      ]
 },{
     "product" : "low-evap",
     "title" : "LowEvap|Filter Vial",
@@ -122,7 +139,10 @@
                     ],
     "related_product" : [
         {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
-        {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"}
+        {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
+        {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
+        {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
+        {"name" : "MEGA|FV™", "link" : "/fv/mega/"}
         ]
 },{
     "product" : "Oflask",
