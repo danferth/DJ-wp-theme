@@ -204,6 +204,22 @@ $('#order #copy-billing-info').on('click', function(){
 //==========================================
 //==============Sales Portal================
 //==========================================
+var salesTiles      = $('.downloadable-files li'),
+    refTiles        = $('.top-inputs li'),
+    twitterTiles    = $('.twitter li'),
+    excelTiles      = $('.excel li'),
+    powerpointTiles  = $('.powerpoint li'),
+    wordTiles       = $('.word li'),
+    zipTiles        = $('.zipfiles li');
+    
+    // console.log(salesTiles.length);
+    // console.log(refTiles.length);
+    // console.log(twitterTiles.length);
+    // console.log(excelTiles.length);
+    // console.log(powerpointTiles.length);
+    // console.log(wordTiles.length);
+    // console.log(zipTiles.length);
+
 
 
 
