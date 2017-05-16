@@ -208,7 +208,7 @@ var salesTiles      = $('.downloadable-files li'),
     refTiles        = $('.top-inputs li'),
     twitterTiles    = $('.twitter li'),
     excelTiles      = $('.excel li'),
-    powerpointTiles  = $('.powerpoint li'),
+    powerpointTiles = $('.powerpoint li'),
     wordTiles       = $('.word li'),
     zipTiles        = $('.zipfiles li');
     
@@ -219,8 +219,17 @@ var salesTiles      = $('.downloadable-files li'),
     // console.log(powerpointTiles.length);
     // console.log(wordTiles.length);
     // console.log(zipTiles.length);
+var sales_ref_tl = new TimelineMax();
+sales_ref_tl.add( TweenMax.staggerFrom(refTiles, 1, {delay:.25, y:300, opacity:0, ease:Circ.easeOut}, .20) );
+sales_ref_tl.play();
 
-
+// var sales_waypoint = new Waypoint({
+// 	element: document.getElementById('footer'),
+// 	handler: function(){
+// 		sales_tl.play();
+// 	},
+// 	offset: '80%'
+// });
 
 
 //end doc ready

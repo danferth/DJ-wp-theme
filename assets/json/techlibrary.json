@@ -2142,7 +2142,22 @@
     "science"         : "",
     "industry"        : [],
     "tags"            : [],
-    "date"            : "4262017",
+    "date"            : "20170426",
+    "image"           : ""
+    },{
+    "id"              : 155,
+    "title"           : "Ultra Yield&trade; Flask New Additions: New Flask Sizes & Bi-directional Transfer Cap",
+    "description"     : "Poster Presented at PEGS 2017",
+    "citation"        : "Author: Sam Ellis<sup>1</sup>, Ana Sirianni<sup>1</sup>, Matt Hoss<sup>1</sup>, Lisa Wanders<sup>1</sup><br/><sup>1</sup>Thomson Instrument Company, Oceanside, CA",
+    "link"            : "PEGS_2017_UYF_poster.pdf",
+    "linkType"        : "pdf",
+    "type"            : "PW",
+    "productLine"     : "UYF",
+    "subProductLine"  : "Uflask",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20170509",
     "image"           : ""
     }
 ]
