@@ -2159,5 +2159,20 @@
     "tags"            : [],
     "date"            : "20170509",
     "image"           : ""
+    },{
+    "id"              : 156,
+    "title"           : "A Platform to Rapidly Purify and Formulate Immunoglobulins from Mammalian Expression Systems",
+    "description"     : "Poster Presented at PEGS 2017 by Aragen",
+    "citation"        : "Rene Pagila, Indira Kottayil, Nikita Patel, Sharleen Rojas, Sonam Sharma, Felix Vega, Jacqueline Wilde, Verginie Manard-Rose, Timothy Myles",
+    "link"            : "Aragen_PEGS17.pdf",
+    "linkType"        : "pdf",
+    "type"            : "PW",
+    "productLine"     : "OG",
+    "subProductLine"  : "Oflask",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20170518",
+    "image"           : ""
     }
 ]
