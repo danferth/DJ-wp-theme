@@ -2,7 +2,7 @@
 {
 		"type"            : "inversion",
 		"title"           : "Inversion Transfer Cap for Optimum Growth™ 1.6L Flask",
-		"description1"    : "7/16\" Male Connection",
+		"description1"    : "7/16\" (11.1mm) Male Connection",
 		"description2"    : "Sterile",
 		"partNum"         : "931706",
 		"partNumber"      : [{"num" : "931706-4", "qty" : "4"},
@@ -13,10 +13,10 @@
 		"flask"           : ["1.6L", "2.8L"],
 		"tubing_length"   : "n/a",
 		"tubing_diameter" : "n/a",
-		"connection"      : "7/16\" (11.1mm) Barb"
+		"connection"      : "7/16\" (11.1mm) Male Connection"
 	},{
 		"type"            : "inversion",
-		"title"           : "Inversion Transfer CProduct Nameap for Optimum Growth™ 1.6L Flask",
+		"title"           : "Inversion Transfer Cap for Optimum Growth™ 1.6L Flask",
 		"description1"    : "2' Tubing to weld to 1/4\" C-Flex 16",
 		"description2"    : "Sterile",
 		"partNum"         : "931705",
@@ -62,7 +62,7 @@
 	},{
 		"type"            : "inversion",
 		"title"           : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
-		"description1"    : "1/4\" Barb Connection",
+		"description1"    : "1/8\" Barb Connection",
 		"description2"    : "Sterile",
 		"partNum"         : "931594",
 		"partNumber"      : [{"num" : "931594-4", "qty" : "4"},
@@ -73,11 +73,11 @@
 		"flask"           : ["5L"],
 		"tubing_length"   : "n/a",
 		"tubing_diameter" : "n/a",
-		"connection"      : "1/4\" (6.35mm) Barb"
+		"connection"      : "1/8\" (3.175mm) Barb"
 	},{
 		"type"            : "inversion",
 		"title"           : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
-		"description1"    : "7/16\" Male Connection",
+		"description1"    : "7/16\" (11.1mm) Male Connection",
 		"description2"    : "Sterile",
 		"partNum"         : "931596",
 		"partNumber"      : [{"num" : "931596-4", "qty" : "4"},
@@ -88,7 +88,7 @@
 		"flask"           : ["5L"],
 		"tubing_length"   : "n/a",
 		"tubing_diameter" : "n/a",
-		"connection"      : "7/16\" (11.1mm) Barb"
+		"connection"      : "7/16\" (11.1mm) Male Connection"
 	},{
 		"type"            : "inversion",
 		"title"           : "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
