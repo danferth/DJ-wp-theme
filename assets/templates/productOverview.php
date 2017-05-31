@@ -76,7 +76,7 @@
 				<!-- WELL PLATES -->
 				<div class='card-left column small-12 medium-6' ng-show="isPlate">
 					<p ng-hide='notAplate'><b>No. of Wells: </b><span ng-bind-html="setP.wellCount"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span><br/><b>Well Vol.: </b><span ng-bind-html="setP.wellVolume"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
-					<p class='card-stop' ng-hide='notAplate'><b>Well Shape: </b><img src='../wp-content/themes/TIC/images/plate-icons-{{ setP.wellShape }}.png' width=25 height=38 /></p>
+					<p class='card-stop' ng-hide='notAplate'><b>Well Shape: </b><img src='../wp-content/themes/TIC/images/plate-icons-{{ setP.wellShape[0] }}.png' width=25 height=38 /></p>
 				</div>
 				<div class='card-right column small-12 medium-6' ng-show="isPlate">
 					<p><b>ANSI-SLAS: </b><span ng-bind-html="setP.ANSI-SLAS | yesNo"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
