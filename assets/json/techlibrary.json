@@ -2174,5 +2174,20 @@
     "tags"            : [],
     "date"            : "20170518",
     "image"           : ""
+    },{
+    "id"              : 157,
+    "title"           : "Thomson Product Live Overview",
+    "description"     : "An introduction to Thomson's product line",
+    "citation"        : "",
+    "link"            : "product-outline.pdf",
+    "linkType"        : "pdf",
+    "type"            : "GI",
+    "productLine"     : "",
+    "subProductLine"  : ["Oflask", "Uflask", "all", "wellplate", "columns"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20170616",
+    "image"           : ""
     }
 ]
