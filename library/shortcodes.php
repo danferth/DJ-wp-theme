@@ -46,7 +46,7 @@ function ng_product_image_shortcode($atts, $content, $tag){
     'height'  => ''
     ), $atts);
   $prod_url =  content_url('/uploads/products/');
-  $output = "<img ng-src='".$prod_url."{{".$a['src']."}}' alt='{{".$a['src']."}}' width='".$a['width']."' height='".$a['height']."' />";
+  $output = "<img ng-src='".$prod_url."{{".$a['src']."}}?v=001' alt='{{".$a['src']."}}' width='".$a['width']."' height='".$a['height']."' />";
 
     return $output;
 }
@@ -105,7 +105,7 @@ function parts_shortcode($atts, $content, $tag){
   }
       
       $output .= "<div class='partnumber_image show-for-medium-up medium-2 large-1 column'>
-        <img ng-src='".$prod_url."{{ p.thum_image }}'/>
+        <img ng-src='".$prod_url."{{ p.thum_image }}?v=001'/>
       </div>
       
       <div class='partnumber_text small-12 show-for-small-only column'>

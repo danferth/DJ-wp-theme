@@ -8,7 +8,7 @@
 
 			
 			<div class='card-image small-12 medium-3 column'>
-				<img src='../../wp-content/uploads/products/{{ setP.partNum }}_lg.jpg' alt='Thomson part number # {{ setP.partNum }}'>
+				<img src='../../wp-content/uploads/products/{{ setP.partNum }}_lg.jpg?v=001' alt='Thomson part number # {{ setP.partNum }}'>
 			</div>
 			
 			<div class='overlay-main column small-12 medium-9'>
