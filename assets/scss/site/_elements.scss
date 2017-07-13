@@ -1634,5 +1634,21 @@ table.product-ref-table{
   }
 }
 
-
+//table on main rapid clear page needed some custom styles to match the look (but keep with the site) of the handout
+table.rapid-clear-table{
+  table-layout:fixed;
+  thead tr th:first-of-type{
+    width:20%;
+  }
+  thead tr th{
+    background:$secondary-color;
+  }
+  thead tr:nth-child(2){
+    border-top:1px solid $primary-color;
+    border-bottom:4px solid $primary-color;
+  }
+  tbody tr td:first-of-type{
+    width:20%;
+  }
+}
 //next up?
