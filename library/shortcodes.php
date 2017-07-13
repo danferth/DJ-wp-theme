@@ -164,6 +164,7 @@ function tech_select_shortcode($atts, $content, $tag){
       <optgroup label='Optimum Growth™'>\n
         <option value='Oflask'>Optimum Growth™ Flask</option>\n
         <option value='TC'>Transfer Cap</option>\n
+         <option value='RC'>Rapid Clear&trade; Cap</option>\n
       </optgroup>\n
       <optgroup label='Ultra Yield™ Flask'>\n
         <option value='Uflask'>Ultra Yield™ Flask</option>\n
