@@ -1613,6 +1613,26 @@
 		"sterile"     : false,
 		"notes"		  : false
 	},{
+		"line" : "OG",
+		"series" : "RC",
+		"title" : "Rapid Clear&trade; for Cell Bag",
+		"description1" : "High-speed clarification of cell culture",
+		"description2" : "for use with cell bag or bioreactor with 1/4\" barb",
+		"partNum" : "788116-QD",
+		"partNumber" : [{"num" : "788116-QD", "qty" : "4"}],
+		"image" : "788116-QD_lg.jpg",
+		"thum_image" : "788116-QD_tn.png",
+		"tag" : [],
+		"URL" : "og/rc/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/" }],
+		"sterile"     : false,
+		"notes"		  : false
+	},{
 		"line" : "UYF",
 		"series" : "flask",
 		"title" : "Ultra Yield&trade; Flask 125mL",
