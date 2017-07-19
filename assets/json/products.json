@@ -3169,7 +3169,7 @@
 		"line" : "glassware",
 		"series" : "cap mats",
 		"title" : "24 Position Teflon Cap Mat",
-		"description1" : "For 4mL vials p/n 1212205",
+		"description1" : "For 24 well block for 4mL vials p/n 1212205",
 		"description2" : "",
 		"partNum" : "399128",
 		"partNumber" : [{"num" : "399128", "qty" : "20"}],
@@ -3504,7 +3504,7 @@
 	},{
 		"line" : "glassware",
 		"series" : "metal racks",
-		"title" : "24 Well Blocks For 4mL Vial | Green",
+		"title" : "24 Well Block For 4mL Vial",
 		"description1" : "",
 		"description2" : "",
 		"partNum" : "1212205",

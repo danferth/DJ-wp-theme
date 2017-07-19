@@ -15,7 +15,26 @@
 				
 				<!-- ALL HEADER -->
 				<div class="card-partNum small-12 column">
-					<p class="card-pn" ng-show="setP.partNum"><b>Part #: </b><span ng-bind-html="setP.partNum"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
+				  
+				  
+					<p class="card-pn" ng-show="setP.partNum">
+					  <span ng-repeat="pn in setP.partNumber">
+					    <b>Part #: </b>
+					    <span ng-bind-html="pn.num">
+					      <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+					      </span> | <b>Case: </b>
+					    <span ng-bind-html="pn.qty">
+					      <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+					      </span><br/>
+					  </span>
+					</p>
+					
+					<li class='partnumber_number' ng-repeat='pn in p.partNumber'>
+          pn# {{ pn.num }} | {{ pn.qty }}/case
+          </li>
+					
+					
+					
 					<p class="card-title" ng-show="setP.title"><b><span ng-bind-html="setP.title"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></b></p>
 					<p class="card-description" ng-show="setP.description1"><span ng-bind-html="setP.description1"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
 					<p class="card-description" ng-show="setP.description2"><span ng-bind-html="setP.description2"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span></p>
