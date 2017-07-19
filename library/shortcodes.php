@@ -116,7 +116,7 @@ function parts_shortcode($atts, $content, $tag){
         </ul>
         <ul>
           <li class='partnumber_number' ng-repeat='pn in p.partNumber'>
-          pn# {{ pn.num }} | case/qty: {{ pn.qty }}
+          pn# {{ pn.num }} | {{ pn.qty }}/case
           </li>
         <ul>
       </div>
@@ -131,7 +131,7 @@ function parts_shortcode($atts, $content, $tag){
       <div class='partnumber_text show-for-medium-up medium-5 end column'>
         <ul>
           <li class='partnumber_number' ng-repeat='pn in p.partNumber'>
-          pn# <span ng-bind-html='pn.num'><i class='fa fa-spinner' aria-hidden='true'></i></span> | case/qty: <span ng-bind-html='pn.qty'><i class='fa fa-spinner' aria-hidden='true'></i></span>
+          pn# <span ng-bind-html='pn.num'><i class='fa fa-spinner' aria-hidden='true'></i></span> | case:<span ng-bind-html='pn.qty'><i class='fa fa-spinner' aria-hidden='true'></i></span>
           </li>
         <ul>
       </div>

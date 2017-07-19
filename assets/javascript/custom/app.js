@@ -272,6 +272,13 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', '$filter', fu
     $scope.sortType = 'company';
     $scope.sortReverse = false;
     $scope.filterType = "";
+    
+    //email display
+    $scope.showEmail = function($event){
+      var email_target = $(event.target);
+      email_target.text(this.d.email);
+      console.log(d.email);
+    }
 
   });
 }]);
