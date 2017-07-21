@@ -1739,6 +1739,26 @@
 		"notes"		  : false
 	},{
 		"line" : "UYF",
+		"series" : "flask",
+		"title" : "Bidirectional Transfer Cap",
+		"description1" : "for 1.5L & 2.5L Ultra Yield&trade; Flask",
+		"description2" : "Sterile",
+		"partNum" : "899136",
+		"partNumber" : [{"num" : "899136", "qty" : "6"}],
+		"image" : "899136_lg.jpg",
+		"thum_image" : "899136_tn.png",
+		"tag" : [],
+		"URL" : "uyf/",
+		"shakeSpeed"  : false,
+		"minVolume"   : false,
+		"maxVolume"   : false,
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : true,
+		"notes"		  : false
+	},{
+		"line" : "UYF",
 		"series" : "airotop",
 		"title" : "AirOtop&trade; Enhanced Seal",
 		"description1" : "For Ultra Yield&trade; 2.5L Flask",
