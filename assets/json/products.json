@@ -1595,9 +1595,9 @@
 	},{
 		"line" : "OG",
 		"series" : "RC",
-		"title" : "Rapid Clear&trade; Cap",
-		"description1" : "High-speed clarification of cell culture",
-		"description2" : "for use with 5L, 2.8L, & 1.6L Optimum Growth™ Flasks",
+		"title" : "Rapid Clear&trade; Cap 3000",
+		"description1" : "High-speed clarification of 2L–4L of cell culture",
+		"description2" : "or use with 2.8L, & 5L Optimum Growth&trade; Flasks",
 		"partNum" : "788116",
 		"partNumber" : [{"num" : "788116", "qty" : "4"}],
 		"image" : "788116_lg.jpg",
@@ -1611,7 +1611,7 @@
 		"poreSize"    : false,
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/" }],
 		"sterile"     : false,
-		"notes"		  : false
+		"notes"		  : "Flasks sold separately"
 	},{
 		"line" : "UYF",
 		"series" : "flask",
