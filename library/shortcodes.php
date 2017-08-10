@@ -239,35 +239,6 @@ add_shortcode('techlibrary_top', 'techlibrary_top_shortcode');
 //***********************************************PAGE LAYOUT******************************************************
 //****************************************************************************************************************
 
-//***hero image with select for industry*****
-//[hero_select src="folder/image.jpg" class="" placeholder="placeholder" product="for industry in app.js"]
-function hero_select_shortcode($atts, $content, $tag){
-  $a = shortcode_atts( array(
-    'src' => '',
-    'class' => '',
-    'placeholder' => '',
-    'product' => ''
-    ), $atts);
-    $output = "<div class='full-background ".$a['class']." show-for-medium-up row'>\n
-		<img src='".content_url('/uploads/') . $a['src'] ."'/>\n
-	<div class='full-background-select medium-12 column'>\n
-		<select name='sub-science' ng-model='industry' ng-options='".$a['product'].".label for ".$a['product']." in ".$a['product']."_options'>\n
-			<option value=''>".$a['placeholder']."</option>\n
-		</select>\n
-	</div>\n
-</div>\n
-\n
-<div class='show-for-small-only row'>\n
-	<div class='small-12 column'>\n
-		<select name='sub-science' ng-model='industry' ng-options='".$a['product'].".label for ".$a['product']." in ".$a['product']."_options'>\n
-			<option value=''>".$a['placeholder']."</option>\n
-		</select>\n
-	</div>\n
-</div>";
-    return $output;
-}
-add_shortcode('hero_select', 'hero_select_shortcode');
-
 //*******full page width image******
 //[image_full src=“image.jpg]
 function image_full_shortcode($atts, $content, $tag){
