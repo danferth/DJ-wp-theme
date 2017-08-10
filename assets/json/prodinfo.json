@@ -159,6 +159,24 @@
                     ],
     "related_product" : [
         {"name" : "Transfer Caps", "link" : "/og/tc/"},
+        {"name" : "Rapid Clear™", "link" : "/og/rc/"},
+        {"name" : "Optimum Growth™ Special Flasks", "link" : "/og/special/"}
+        ]
+},{
+    "product" : "RC",
+    "title" : "Rapid Clear™",
+    "subtitle" : "",
+    "image" : "",
+    "description" : "The Thomson Optimum Growth™ Family of products is expanding into downstream processing with a revolutionary new technology that allows high speed clarification of cellular material. The filters work by simply switching the vented Optimum Growth™ Cap to the Rapid Clear™ Cap. The only equipment required is a peristaltic pump. In initial testing the units can filter up to 2.5L-3L of high density culture [6x10^6 -20x10^6 @ >70% viability] in approximately 18 minutes.  This technique will transform the time consuming and laborious task of harvesting cells to a rapid walk away procedure.",
+    "key_features" : ["0.2μm filter, eliminates centrifugation and multiple filtration steps",
+                    "Significant time savings versus classical spin down technique",
+                    "Cell clarification of low or high density cultures of CHO stable, CHO transient, HEK293, hybridoma, and other mammalian cell lines",
+                    "Eliminates transfer steps: The Rapid Clear™ Cap screws directly onto the Optimum Growth™ Flask",
+                    "Attaches with a Luer lock to either a new Optimum Growth™ Flask or storage container for final collection"
+                    ],
+    "related_product" : [
+        {"name" : "Optimum Growth™ Flasks", "link" : "/og/"},
+        {"name" : "Transfer Caps", "link" : "/og/tc/"},
         {"name" : "Optimum Growth™ Special Flasks", "link" : "/og/special/"}
         ]
 },{
@@ -170,7 +188,8 @@
     "key_features" : "",
     "related_product" : [
         {"name" : "Optimum Growth™ Flasks", "link" : "/og/"},
-        {"name" : "Optimum Growth™ Special Flasks", "link" : "/og/special/"}
+        {"name" : "Optimum Growth™ Special Flasks", "link" : "/og/special/"},
+        {"name" : "Optimum Growth™ Rapid Clear™", "link" : "/og/rc/"}
         ]
 },{
     "product" : "Uflask",
