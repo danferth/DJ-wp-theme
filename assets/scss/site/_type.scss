@@ -163,3 +163,12 @@ dl{
     }
   }
 }
+//=============================
+//====captions under images====
+//=============================
+.caption{
+  margin: .5rem 0 0 0;
+  border-top: 1px solid $smoke;
+  color:$steel;
+  font-size:.8rem;
+}

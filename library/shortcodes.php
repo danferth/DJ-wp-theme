@@ -278,7 +278,7 @@ function centered_shortcode($atts, $content=null, $tag){
       <img src='".content_url('/uploads/').$a['src']."' />
     </div>
     <div class='small-12 medium-8 medium-centered column'>
-      <p class='disclaimer'>".$a['caption']."</p>
+      <p class='caption'>".$a['caption']."</p>
     </div>
   </div>";
   }else{
@@ -342,7 +342,7 @@ function text_image_shortcode($atts, $content=null, $tag){
     $output = "<div class='".$a['class']." row'>\n
 	    <div class='".$class."small-12 medium-5 medium-push-7 column'>\n";
 		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
-		    if($a['caption']){$output .= "<p class='disclaimer'>".$a['caption']."</p>\n";}
+		    if($a['caption']){$output .= "<p class='caption'>".$a['caption']."</p>\n";}
 	    $output .= "</div>\n
     
 	    <div class='small-12 medium-7 medium-pull-5 column'>\n
@@ -369,7 +369,7 @@ function image_text_shortcode($atts, $content=null, $tag){
     <div class='".$a['class']." row'>\n
 	    <div class='push-down small-12 medium-5 column'>\n";
 		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
-		    if($a['caption']){$output .= "<p class='disclaimer'>".$a['caption']."</p>\n";}
+		    if($a['caption']){$output .= "<p class='caption'>".$a['caption']."</p>\n";}
 	    $output .= "</div>\n
 	    <div class='small-12 medium-7 column'>\n
 		    <h2>".$a['title']."</h2>\n
@@ -405,13 +405,13 @@ function dual_image_shortcode($atts, $content, $tag){
 	<div class='small-12 medium-6 column'>\n
 		<h2>".$a['l_title']."</h2>\n
 		<img src='".content_url('/uploads/') . $a['l_src'] ."'/>\n
-		<p class='disclaimer'>".$a['l_caption']."</p>\n
+		<p class='caption'>".$a['l_caption']."</p>\n
 	</div>\n
 \n
 	<div class='small-12 medium-6 column'>\n
 		<h2>".$a['r_title']."</h2>\n
 		<img src='".content_url('/uploads/') . $a['r_src'] ."'/>\n
-		<p class='disclaimer'>".$a['r_caption']."</p>\n
+		<p class='caption'>".$a['r_caption']."</p>\n
 	</div>\n
 </div>";
     return $output;
