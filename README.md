@@ -7,7 +7,7 @@
 ```bash
 $ npm run watch
 ```
-
+ 
 ### 2. For building all the assets, run:
 
 ```bash
