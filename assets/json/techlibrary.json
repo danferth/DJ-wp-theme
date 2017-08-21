@@ -2102,7 +2102,7 @@
     },{
     "id"              : 152,
     "title"           : "New Invention: Harvesting CHO and HEK293 Cells with the Rapid Clear® Cap provides 0.2μm sterile filtration in a fraction of the time required by traditional clarification methods",
-    "description"     : "Poster presented at PepTalk 2017 on the Rapid Clear&trade; Cap",
+    "description"     : "Poster presented at PepTalk 2017 on the Rapid Clear&reg; Cap",
     "citation"        : "Author: Sam Ellis<sup>3</sup>, Eric Ailor<sup>1</sup>, Charles Dillard<sup>2</sup>, Ana Sirianni<sup>3</sup>, Lisa Wanders<sup>3</sup><br/><sup>1</sup>Mapp Biopharmaceutical, Inc., San Diego, CA; <sup>2</sup>Dart NueroScience, San Diego, CA; <sup>3</sup>Thomson Instrument Company, Oceanside, CA",
     "link"            : "peptalk_2017_rapid_clear_cap.pdf",
     "linkType"        : "pdf",
@@ -2191,8 +2191,8 @@
     "image"           : ""
     },{
     "id"              : 158,
-    "title"           : "Rrapid Clear&trade; Cap <i>Sneak Peak</i>",
-    "description"     : "Rapid Clear&trade; Cap provides 0.2&mu;m sterile filtration for clarifying cell culture in a fraction of the time required my traditional methods.",
+    "title"           : "Rapid Clear&reg; Cap <i>Sneak Peak</i>",
+    "description"     : "Rapid Clear&reg; Cap provides 0.2&mu;m sterile filtration for clarifying cell culture in a fraction of the time required my traditional methods.",
     "citation"        : "",
     "link"            : "rapid-clear-use",
     "linkType"        : "mp4",
@@ -2206,8 +2206,8 @@
     "image"           : ""
   },{
     "id"              : 159,
-    "title"           : "Rrapid Clear&trade; Cap General Information",
-    "description"     : "Rapid Clear&trade; Cap provides 0.2&mu;m sterile filtration for clarifying cell culture in a fraction of the time required my traditional methods.",
+    "title"           : "Rapid Clear&reg; Cap General Information",
+    "description"     : "Rapid Clear&reg; Cap provides 0.2&mu;m sterile filtration for clarifying cell culture in a fraction of the time required my traditional methods.",
     "citation"        : "",
     "link"            : "/og/rc/",
     "linkType"        : "page",
@@ -2221,7 +2221,7 @@
     "image"           : ""
   },{
     "id"              : 160,
-    "title"           : "Rrapid Clear&trade; FAQ's",
+    "title"           : "Rapid Clear&reg; FAQ's",
     "description"     : "Frequently asked questions on Thomson Filter Vials",
     "citation"        : "",
     "link"            : "/faq-rc/",
