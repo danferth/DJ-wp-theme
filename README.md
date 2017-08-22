@@ -23,7 +23,6 @@ By executing the command below, you will compress only the files that are requir
 $ npm run package
 ```
 
-
 ### How to structure your styles
 
   * `style.css`: Do not worry about this file. (For some reason) it's required by WordPress. All styling are handled in the Sass files described below
