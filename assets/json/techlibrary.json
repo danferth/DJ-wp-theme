@@ -2264,5 +2264,20 @@
     "tags"            : [],
     "date"            : "20170724",
     "image"           : ""
+  },{
+    "id"              : 163,
+    "title"           : "Comparison of the Rapid Clear&reg; Cap 3000 (patented) vs GE Capsule Filters for clarifying monospecific IgG",
+    "description"     : "Two methods to clarify 10L of post transfected IgG harvested from culture are compared. The culture was harvested on day 4 with 75% viability and a yield of 3.44e6/mL VCD.",
+    "citation"        : "",
+    "link"            : "RC-vs-GE.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "OG",
+    "subProductLine"  : "RC",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20170724",
+    "image"           : ""
   }
 ]
