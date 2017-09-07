@@ -2739,7 +2739,7 @@
 		"notes" 	: ""
 	},{
 		"line" : "well plate",
-		"series" : "plate cover",
+		"series" : "filter plate",
 		"title" : "Acrylic Vacuum Manifold",
 		"description1" : "Vacuum manifold for use with filter plates",
 		"description2" : "",
@@ -2762,7 +2762,7 @@
 		"notes" 	: ""
 	},{
 		"line" : "well plate",
-		"series" : "plate cover",
+		"series" : "filter plate",
 		"title" : "PTFE coated metal Vacuum Manifold",
 		"description1" : "Vacuum manifold for use with filter plates",
 		"description2" : "",
