@@ -2,6 +2,9 @@
     max-width:100%;
     background:$top-search-bg-color;
     padding: 1rem 0;
+    @media screen and (max-width:$small-breakpoint){
+      padding: 0 0 .5rem 0;
+    }
 }
 form.top-search-bar{
     input, button{
