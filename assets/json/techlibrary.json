@@ -2279,5 +2279,50 @@
     "tags"            : [],
     "date"            : "20170724",
     "image"           : ""
+  },{
+    "id"              : 164,
+    "title"           : "Automated Hydrolysis and Sample Preparation for the Analysis of 12 Opiates in Urine using the Thomson eXtreme Filter Vials® by LC-MS/MS",
+    "description"     : "This improved sample preparation method allows for the quantitative measurement of Opioids in urine. Opioids are highly addictive and affects nearly 5 million people in the U.S. Opioids include naturally occurring Opiates, semi-synthetic opioids derived from morphine and synthetic opioids. are analgesic alkaloids found naturally in Papaver somniferum, poppy plant. The use of hydrolysis in the analysis of natural and synthetic opiates in urine has become standard practice in forensic toxicology. Many laboratories currently use solid phase extraction or solid liquid extraction techniques in the sample preparation of urine for the analysis for opiates. This improved automated sample preparation method evaluates the robustness for the quantitative measurement of opiates in urine without the need for SPE/SLE thereby reducing pipetting errors. The sample preparation of incurred urine, controls, standards and internal standard additions as well as the hydrolysis step are performed by a liquid handler. The Thomson eXtreme Filter Vials provide a simple and efficient extraction technique that has demonstrated adequate analyte recovery, reduced matrix interferences and the reduction of solvent and consumable waste.",
+    "citation"        : "Presented at MSACL 2017<br/>Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup><br/><sup>1</sup> Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup> Analytical Associates, 225 Millwood Drive, East Greenville, PA",
+    "link"            : "sample_prep_12_opiates_urine.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "FV",
+    "subProductLine"  : "extreme",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20170925",
+    "image"           : ""
+  },{
+    "id"              : 165,
+    "title"           : "Time saving sample prep for the analysis of 54 pesticide & aflatoxin residues in Cannabis by LC-MS/MS",
+    "description"     : "Pesticide analysis of cannabis leaves and finished goods is becoming increasingly important as many states are legalizing it for medicinal and recreational purposes. Dosing methods include smoking/vaporizing and edibles but cannabis is still a Schedule 1 illegal drug and therefore have no FDA testing guidelines. Trace levels of pesticides can be incurred during cultivation or inhaled from dried pesticides on the cannabis. This study evaluates the sample preparation aspect for LC-MS/ MS analysis of a 50+ analyte panel of pesticides, fungicides and aflatoxins. QuEChERS was used to extract the analytes from the cannabis flowers, followed by centrifugation and Thomson Standard Filter Vial for sample clean-up.",
+    "citation"        : "Presented at NACRW 2017<br/>Kavinda De Silva<sup>1</sup>, Tami Nguyen<sup>1</sup><br/><sup>1</sup> Molecular Testing Labs, Vancouver, WA 98684",
+    "link"            : "sample_prep_54_pesticide_aflatoxin_residue_cannabis.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "FV",
+    "subProductLine"  : "standard",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20170925",
+    "image"           : ""
+  },{
+    "id"              : 166,
+    "title"           : "Time and Cost Effective Methods for Reducing Background Noise and Signal Suppression in Problem Matrices for Residue Analysis by LC-MS/MS",
+    "description"     : "Several clean-up methods are compared for background reduction, analyte recovery, and cost effectiveness in order to successfully analyze a wide variety of multiclass multiresidues in difficult matrices including Chili Powder and Tobacco. The most critical aspects of reliable multiresidue analysis are the reduction of interferences from the sample matrix and analyte recovery. eXtreme|FV®, were compared to an existing ISO accredited QuEChERS method, as well as a dilute and shoot approach are analyzed in conjunction with different filtration techniques for residue analysis by LC-MS/MS for minimal number of steps, speed, reduced reagent use and reduced cost.",
+    "citation"        : "Presented at NACRW 2016<br/>Joseph Kolb<sup>1</sup>, Ariana Ramdin<sup>1</sup>, Ryan Undeen<sup>1</sup><br/><sup>1</sup>Merieux NutriSciences Corporation, Gainsville, FL 32607",
+    "link"            : "time_cost_reduce_background_noise.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "FV",
+    "subProductLine"  : "extreme",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20170925",
+    "image"           : ""
   }
 ]
