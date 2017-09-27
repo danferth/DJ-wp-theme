@@ -832,5 +832,33 @@
 		"webUrl": "http://www.restek.com",
 		"web": "restek.com",
 		"email": "Carrie.Sprout@restek.com"
+	},
+
+	{
+		"id": 68,
+		"region": "Europe",
+		"country": "Germany",
+		"company": "Biotrend",
+		"products": ["Flasks", "Well Plates"],
+		"address": "Technologiezentrum Köln,\nEupener Str. 157\nD-50933 Köln - Germany",
+		"tel": "+49 221 9498320",
+		"fax": "+49 221 9498325",
+		"webUrl": "https://www.biotrend.com",
+		"web": "biotrend.com",
+		"email": "info@biotrend.de"
+	},
+
+	{
+		"id": 69,
+		"region": "Europe",
+		"country": "Switzerland",
+		"company": "Anawa Trading",
+		"products": ["Flasks", "Well Plates"],
+		"address": "Unterdorfstrasse 21\nCH-8602 Wangen - Suisse",
+		"tel": "+41 (044) 805 76 81",
+		"fax": "+41 (044) 805 76 75",
+		"webUrl": "https://www.biotrend.ch",
+		"web": "www.biotrend.ch",
+		"email": "info@biotrend.ch"
 	}
 ]
