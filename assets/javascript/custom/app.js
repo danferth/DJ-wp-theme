@@ -350,7 +350,7 @@ tic.controller('product_pageController', ['$scope', function($scope){
       $scope.isTC     = false;
       $scope.isOther  = false;
     }
-    if($scope.setP.series == "flask"){//FLASKS
+    if($scope.setP.series == "flask" || $scope.setP.series == "special"){//FLASKS
       $scope.isVial   = false;
       $scope.isFlask  = true;
       $scope.isPlate  = false;
@@ -364,7 +364,7 @@ tic.controller('product_pageController', ['$scope', function($scope){
       $scope.isTC     = true;
       $scope.isOther  = false;
     }
-    if($scope.setP.series != "flask" && $scope.setP.line != "FV" && $scope.setP.line != "well plate" && $scope.setP.line != "TC"){//OTHER
+    if($scope.setP.series != "flask" && $scope.setP.series != "special" && $scope.setP.line != "FV" && $scope.setP.line != "well plate" && $scope.setP.line != "TC"){//OTHER
       $scope.isVial   = false;
       $scope.isFlask  = false;
       $scope.isPlate  = false;
