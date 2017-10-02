@@ -158,7 +158,6 @@ function tech_select_shortcode($atts, $content, $tag){
         <option value='extreme'>eXtreme|FV®</option>\n
         <option value='nano'>nano|Filter Vial®</option>\n
         <option value='extractor'>eXtractor3D|FV®</option>\n
-        <option value='mega'>MEGA|FV™</option>\n
         <option value='low-evap'>LowEvap|Filter Vial</option>\n
       </optgroup>\n
       <optgroup label='Optimum Growth™'>\n
