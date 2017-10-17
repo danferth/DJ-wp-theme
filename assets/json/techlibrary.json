@@ -2294,5 +2294,20 @@
     "tags"            : [],
     "date"            : "20170925",
     "image"           : ""
+  },{
+    "id"              : 167,
+    "title"           : " Screening to Small-Scale GMP Biomanufacture: Exploring a Simple, Unified Platform Strategy for Handling a Range of Cell-Culture Needs ",
+    "description"     : " The cell-line development process starts with in silico procedures combining codon-optimization algorithms, a secretion signal toolbox, flexible expression vector configurations, and high-productivity CHO-K1 cell lines.<br/><br/>Machine learning combined with in vitro screening is used to consider the end product and final process from the onset of the project. Process development can be done in parallel with clone development, thus reducing the number of steps and shortening the overall project time.",
+    "citation"        : "Andrew Magno, Gary Tompkins, Travis Scagliarini, Miles Scotcher, Ph.D.",
+    "link"            : "https://genengnews.com/gen-articles/screening-to-small-scale-gmp-biomanufacture/6183",
+    "linkType"        : "link",
+    "type"            : "PW",
+    "productLine"     : "OG",
+    "subProductLine"  : "Oflask",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20171016",
+    "image"           : ""
   }
 ]
