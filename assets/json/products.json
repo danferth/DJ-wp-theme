@@ -1508,6 +1508,27 @@
 		"notes"		  : "Comes with Storage cap pn# 899600-B"
 	},{
 		"line" : "OG",
+		"series" : "accessory",
+		"title" : "High Rate Sparging Vent Cap Trap",
+		"description1" : "Bioreactor High Rate Sparging Vent Cap Trap with 2' Tubing welds to 1/4\" x 3/8\" C-Flex -Sterile",
+		"description2" : "For use with Optimum Growth™ 1.6L",
+		"partNum" : "931713",
+		"partNumber" : [{"num" : "931713", "qty" : "8"}],
+		"image" : "931713_lg.jpg",
+		"thum_image" : "931713_tn.png",
+		"tag" : [],
+		"URL" : "og/og-accessories/",
+		"shakeSpeed"  : "",
+		"minVolume"   : "",
+		"maxVolume"   : "",
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [{"link":"Optimum Growth&reg; Flasks", "url":"../../og/" },
+						 {"link":"Transfer Caps", "url":"../../og/tc/"}],
+		"sterile"     : true,
+		"notes"		  : false
+	},{
+		"line" : "OG",
 		"series" : "RC",
 		"title" : "Rapid Clear&reg; Cap 3000",
 		"description1" : "High-speed clarification of 2L–4L of cell culture",
