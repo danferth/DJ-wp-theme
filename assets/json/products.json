@@ -2559,7 +2559,7 @@
 		"wellVolume" : false,
 		"wellVolumeClass" : ["500µL", "650µL", "1.2mL", "2mL", "10mL", ""],
 		"wellShape" : ["R-R", "R-V", "S-R", "S-V", "S-P", "S-L", ""],
-		"sterile" : false,
+		"sterile" : true,
 		"ANSI-SLAS" : false,
 		"filter" : false,
 		"collectionPlate" : false,
