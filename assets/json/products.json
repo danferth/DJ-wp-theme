@@ -1864,8 +1864,8 @@
 	},{
 		"line" : "TC",
 		"series" : "accessory",
-		"title" : "Stand with Ring for Inverting Optimum Growth&trade; 1.6L Flask",
-		"description1" : "to use w/1.6L Inversion Transfer Caps",
+		"title" : "Stand with Ring for Inverting Optimum Growth&trade; 1.6 & 2.8L Flasks",
+		"description1" : "to use w/1.6 & 2.8L Inversion Transfer Caps",
 		"description2" : "",
 		"partNum" : "931609",
 		"partNumber" : [{"num" : "931609", "qty" : "1"}],
@@ -1879,7 +1879,7 @@
 	},{
 		"line" : "TC",
 		"series" : "accessory",
-		"title" : "Ring Only for Inverting Optimum Growth&trade; 1.6L Flask ",
+		"title" : "Ring Only for Inverting Optimum Growth&trade; 1.6 & 2.8L Flasks",
 		"description1" : "requires a 22\" stand",
 		"description2" : "",
 		"partNum" : "931700",
