@@ -2309,5 +2309,20 @@
     "tags"            : [],
     "date"            : "20171016",
     "image"           : ""
+  },{
+    "id"              : 168,
+    "title"           : "Engineering characterization of Thomson Optimum Growth&trade; shake flasks with optimized geometry",
+    "description"     : "The evolution of shaken flasks for biotechnological applications began in the 1940s with the increased interest in the microbial production of antibiotics [1]. The Nobel Prize awarded production of streptomycin by Streptomyces actinobacteria showed the main disadvantage of static cultures: slow growth. Hence, shaking platforms were constructed and an already established, readily available vessel was used: the Erlenmeyer flask [2]. Nowadays, the usage of shaking flasks is widespread due to their easy handling and thus, those reactors are preferred for use used in upstream processing [3]. In recent years, numerous articles about shake flask, e.g. about general engineering aspects [4], power consumption [3, 5-6], or gas exchange [7-8], have been published, underlining the importance of shake flask in biotechnology. However, the design hasn’t changed significantly. Erlenmeyer and Fernbach style shake flask are still the predominant designs [2], despite their disadvantages (e.g. the relatively low filling volumes [1]). Consequently, the Thomson Instrument Company introduced a new shake flask design for cell cultures (Optimum Growth™), claiming higher yield on the same shaker footprint [9]. This poster gives an overview of different procedural parameters for the 500 mL and 5 L Optimum Growth™ flasks, enabling scientist to compare and evaluate the new design and to choose suitable cultivation conditions.",
+    "citation"        : "Rüdiger W. Maschke<sup>1</sup>,<sup>3</sup>, Sören Werner<sup>1</sup>, Jolanda Meister<sup>1</sup>, Adrian Rohr<sup>1</sup>, Eric Abellan<sup>2</sup>, Dieter Eibl<sup>1</sup>, Thomas Bley<sup>3</sup><br /><sup>1</sup> Zurich University of Applied Sciences, Institute of Chemistry and Biotechnology, Wädenswil, Switzerland<br /><sup>2</sup> Infors AG, Rittergasse 27, 4103 Bottmingen, Switzerland<br /><sup>3</sup> Technische Universität Dresden (TUD), Institute of Food Technology and Bioprocess Engineering, Dresden, Germany",
+    "link"            : "https://doi.org/10.21256/zhaw-1141",
+    "linkType"        : "link",
+    "type"            : "PW",
+    "productLine"     : "OG",
+    "subProductLine"  : "Oflask",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20171115",
+    "image"           : ""
   }
 ]
