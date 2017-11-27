@@ -703,18 +703,6 @@
 		"web": "restek.com",
 		"email": "Carrie.Sprout@restek.com"
 	}, {
-		"id": 58,
-		"region": "north-america",
-		"country": "USA",
-		"company": "SepSolutions",
-		"products": ["Filter Vials"],
-		"address": "141 Emerald Drive\nDanville, CA 94526",
-		"tel": "510-593-6484",
-		"fax": "",
-		"webUrl": "http://www.sepsolutions.net/",
-		"web": "www.sepsolutions.net",
-		"email": "pbarthel9042@gmail.com"
-	}, {
 		"id": 59,
 		"region": "north-america",
 		"country": "USA",
