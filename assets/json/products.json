@@ -1017,6 +1017,24 @@
 		"notes"		  : false
 	},{
 		"line" : "columns",
+		"series" : "column",
+		"title" : "1.2L Reservoir for SINGLE StEP® Empty Columns",
+		"description1" : "",
+		"description2" : "",
+		"partNum" : "9452105",
+		"partNumber" : [{"num" : "9452105", "qty" : "10"}],
+		"image" : "9452105_lg.jpg",
+		"thum_image" : "9452105_tn.png",
+		"tag" : [],
+		"URL" : "columns/",
+		"worksWith" : ["9452090", "9452092", "9452094"],
+		"membrane"    : false,
+		"poreSize"    : false,
+		"accessories" : [],
+		"sterile"     : false,
+		"notes"		  : false
+	},{
+		"line" : "columns",
 		"series" : "accessory",
 		"title" : "Dual Ended PP Cap Blue",
 		"description1" : "",

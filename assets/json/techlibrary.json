@@ -2324,5 +2324,20 @@
     "tags"            : [],
     "date"            : "20171115",
     "image"           : ""
+  },{
+    "id"              : 169,
+    "title"           : "SINGLE StEP&reg; Column Reservoir General Information",
+    "description"     : "At Thomson, we are aware of the need to customize available apparatus to the individual experiments. Our SINGLE StEP&reg; Empty Columns provide the opportunity to fill different sized columns with a variety of sorbents and resins for purification, desalting and separation techniques. The 1.2L Reservoir screws directly on to the top of 25g, 40g and 80g SINGLE StEP&reg; Empty Columns. The 1.2L Reservoir simplifies gravity filtration protocols allowing simplifying the equilibration, sample loading & elution steps.",
+    "citation"        : "",
+    "link"            : "column-reservoir-flier.pdf",
+    "linkType"        : "pdf",
+    "type"            : "GI",
+    "productLine"     : "columns",
+    "subProductLine"  : "columns",
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20171129",
+    "image"           : ""
   }
 ]
