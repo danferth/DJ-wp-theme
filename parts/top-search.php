@@ -14,7 +14,7 @@
 <?php do_action( 'foundationpress_searchform_top' ); ?>
     	<div class="small-11 medium-5 medium-push-6 large-3 large-push-8 column">
       	<input type="text" class="addsearch" disabled="disabled" placeholder="search our site"/>
-<script type="text/javascript" src="https://addsearch.com/js/?key=aac30ee18dff91a379e2dba65df683ef"></script>
+<script type="text/javascript" src="https://addsearch.com/js/?key=f71c8e23b94979a269b0cbdddd036317"></script>
     	</div>
 <?php do_action( 'foundationpress_searchform_before_search_button' ); ?>
     	<div class="small-1 medium-1 large-1 column">

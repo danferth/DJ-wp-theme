@@ -7,6 +7,8 @@
     display:none;
   }
 }
+//addSearch logo removal
+#addsearch-logo { display: none !important; }
 //classes for nav bar
 .nav-special-border{
   border-top:1px solid $nav-section-border-color;
