@@ -2339,5 +2339,20 @@
     "tags"            : [],
     "date"            : "20171129",
     "image"           : ""
+  },{
+    "id"              : 170,
+    "title"           : "Detection of THC in Oral Fluid: The Bane of a Toxicologist’s Existence",
+    "description"     : "It is critical that samples collected in a clinical setting meet the requirments for compliance or drug monitoring. Urine samples can be difficult to obtain in patients with medical conditions, elderly, and drug addicts. Urine samples have a long detection window but require large measurable volume and are easily adulturated. While Oral Fluids, have a shorter detection window, the sample is easily collected with minimal invasion of privacy and the collection can be observed making it difficult to adulturate. This shorter window with Oral Fluids, in most cases allows for confirmation of recent ingestion, active drug versus metabolites.",
+    "citation"        : "Jill Yeakel<br/>Lehigh Valley Toxicology<br/>MSACL 2017 Oral Presentation",
+    "link"            : "detection-of-thc-in-oral-fluid.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "extreme"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20171214",
+    "image"           : ""
   }
 ]
