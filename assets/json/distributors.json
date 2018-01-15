@@ -216,19 +216,6 @@
 		"web": "bischoff-chrom.de",
 		"email": "info@bischoff-chrom.de"
 	}, {
-		"id": 18,
-		"region": "Europe",
-		"country": "Germany",
-		"company": "Chrom4 GMBH",
-		"products": ["Filter Vials"],
-		"address": "Hauptstrasse 365\n Suhl, Thuringen\n98530 Germany",
-		"tel": "036846 418310",
-		"tel2": "",
-		"fax": "",
-		"webUrl": "http://www.firmenwissen.de/az",
-		"web": "lifescience.ca",
-		"email": "kick@lifescience.ca"
-	}, {
 		"id": 19,
 		"region": "Europe",
 		"country": "Ireland",
@@ -552,19 +539,7 @@
 		"webUrl": "http://htslabs.com",
 		"web": "htslabs.com",
 		"email": "customerservice@htslabs.com"
-	}, {
-		"id": 46,
-		"region": "north-america",
-		"country": "Canada",
-		"company": "Canadian Lifescience",
-		"products": ["Filter Vials", "Well Plates"],
-		"address": "270 Jameson Drive\nPeterborough, Ontario K9J 6X6\nCanada",
-		"tel": "705-749-9557",
-		"fax": "705-749-9139",
-		"webUrl": "http://www.lifescience.ca",
-		"web": "lifescience.ca",
-		"email": "Info@lifescience.ca"
-	}, {
+	},  {
 		"id": 47,
 		"region": "north-america",
 		"country": "Canada",
