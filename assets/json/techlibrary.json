@@ -2354,5 +2354,20 @@
     "tags"            : [],
     "date"            : "20171214",
     "image"           : ""
+  },{
+    "id"              : 171,
+    "title"           : "eXtreme Filter Vial Extraction for the Detection of Fentanyl & Analogues in Oral Fluid Samples",
+    "description"     : "Use of oral fluid (saliva) in toxicology has been increasing within recent years due to its non-invasive, low cost effectiveness in recent drug use detection. There is little opportunity for adulteration of the sample and a large volume is not required for collection and analysis. Liquid chromatography tandem mass spectrometry (LC-MS/MS) has proven to be a useful tool in the analysis of oral fluid due to its ability to run highly sensitive assays1. The necessity for a sensitive assay is especially important in the detection of an analyte and its analogues that are administered in low concentrations. Detection of fentanyl and its analogues such as furanyl fentanyl and sufentanil, have become important due to the increasing widespread use of illicit fentanyl formulations in heroin and counterfeit opioid tablet formulations. Suppliers of illicit heroin are developing fentanyl analogues and including them as cutting agents in the final product due to their high potency and relatively low production cost2. As a result, development of a method to detect these compounds has become vital to many toxicology labs. Thomson eXtreme Filter Vials provide a simple and efficient extraction technique that has demonstrated adequate analyte recovery, reduced matrix interferences from a simple dilute-and-shoot method and the elimination of solvent waste and other consumables. This project specifically explores the efficacy of these vials in extracting a range of fentanyl analogues in oral fluid specimens.",
+    "citation"        : "Stevi Hooper<sup>1</sup>, Jill Yeakel<sup>1</sup>, Lisa Wanders<sup>2</sup><br><sup>1</sup>Lehigh Valley Toxicology, Bethlehem, PA  <sup>2</sup>Thomson Instrument Company, Oceanside,  CA",
+    "link"            : "MSACL-2018_Fentanyl_Analogue_in_Filter_Vials_Presentation.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "extreme"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20180122",
+    "image"           : ""
   }
 ]
