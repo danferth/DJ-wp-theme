@@ -65,3 +65,12 @@ function my_login_logo_url_title() {
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 ?>
+
+<?php
+// Source: https://wpcolt.com/fix-hentry-errors-wordpress/
+add_filter( 'post_class', 'remove_hentry' );
+function remove_hentry( $class ) {
+	$class = array_diff( $class, array( 'hentry' ) );	
+	return $class;
+}
+?>
