@@ -23,6 +23,33 @@
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png?v=3">
 
 		<?php wp_head(); ?>
+		
+		<!-- structured data -->
+		<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name" : "Thomson Instrument Company",
+  "url" : "https://htslabs.com",
+  "sameAs" : [
+  	"https://www.linkedin.com/company/thomson-instrument",
+  	"https://twitter.com/tic_2017"
+  ],
+  "logo": "https://htslabs.com/wp-content/themes/TIC/images/TIC-logo-black.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-760-757-8080",
+    "contactType": "customer service"
+  },{
+    "@type": "ContactPoint",
+    "telephone": "+1-800-541-4792",
+    "contactType": "customer service",
+    "contactOption": [
+      "TollFree"
+    ]
+  }]
+}
+</script>
 	</head>
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
