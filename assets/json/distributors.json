@@ -823,5 +823,19 @@
 		"webUrl": "https://www.biotrend.ch",
 		"web": "www.biotrend.ch",
 		"email": "info@biotrend.ch"
+	},
+
+	{
+		"id": 70,
+		"region": "Asia",
+		"country": "India",
+		"company": "Krishgen Biosystems",
+		"products": ["Flasks", "Well Plates"],
+		"address": "Unit Nos#318/319, Shah & Nahar, \nOff Dr E Moses Road, \nWorli, Mumbai 400 018",
+		"tel": "+91-22-49198700",
+		"fax": "+91-22-49198799",
+		"webUrl": "http://www.krishgen.com/",
+		"web": "www.krishgen.com",
+		"email": "sales@krishgen.com"
 	}
 ]
