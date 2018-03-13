@@ -2074,7 +2074,7 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"sterile"     : true,
+		"sterile"     : false,
 		"notes"		  : false
 	},{
 		"line" : "TC",
@@ -2089,7 +2089,7 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"sterile"     : true,
+		"sterile"     : false,
 		"notes"		  : false
 	},{
 		"line" : "TC",
@@ -2194,7 +2194,7 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"sterile"     : true,
+		"sterile"     : false,
 		"notes"		  : false
 	},{
 		"line" : "TC",
@@ -2209,7 +2209,7 @@
 		"tag" : [],
 		"URL" : "og/tc/",
 		"accessories" : [{"link":"Optimum Growth&trade; Flasks", "url":"../../og/"}],
-		"sterile"     : true,
+		"sterile"     : false,
 		"notes"		  : false
 	},{
 		"line" : "TC",
