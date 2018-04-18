@@ -31,10 +31,20 @@ $font-family-title: 	'Avenir Next LT Pro Bold', "Helvetica Neue", Helvetica, Rob
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
+//new fonts so lets try new variables!important
+
+$font-family-title-light: 'Avenir Next LT Pro Ultra Light', serif;
+$font-family-title-regular: 'Avenir Next LT Pro Regular', serif;
+$font-family-title-bold: 'Avenir Next LT Pro Bold', serif;
+$font-family-body-regular: 'Roboto', serif;
+$font-family-body-condensed: 'Roboto Condensed', serif;
+
+
+
 // We use these to define default font weights
 $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
-
+$font-weight-light: 300 !default;
 // Foundation color naming conventions
 $base-color: hsla(201, 0%, 67%, 1);
 //$base-color: hsla(360, 50%, 67%, 1); //red example

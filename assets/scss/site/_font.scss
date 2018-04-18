@@ -18,3 +18,15 @@ font-style: normal;
 font-weight: normal;
 src: local('Avenir Next LT Pro Bold'), url('../fonts/avenir/AvenirNextLTPro-UltLtCn.woff') format('woff');
 }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto/roboto_400_regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url('../fonts/roboto/roboto_300_condensed.woff2') format('woff2');
+}

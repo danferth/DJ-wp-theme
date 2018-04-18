@@ -71,7 +71,23 @@ label.error{
   padding-left:0;
   padding-right:0;
 }
-
+//for space in a page layout the blocks need a little more top and bottom margin
+.row .spaced{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  @media screen and (max-width:$medium-breakpoint){
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+}
+//To center images and captions inside of div
+.row .center-inside{
+  display:flex;
+  flex-direction: column;
+}
+.center-inside img{
+  align-self:center;
+}
 
 //=====================================================================
 //========================FULL WIDTH CSS===============================

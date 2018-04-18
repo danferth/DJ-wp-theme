@@ -339,7 +339,7 @@ function text_image_shortcode($atts, $content=null, $tag){
     $class = "push-down ";
     if($a['pull']){$class = "";}
     $output = "<div class='".$a['class']." row'>\n
-	    <div class='".$class."small-12 medium-5 medium-push-7 column'>\n";
+	    <div class='".$class."center-inside small-12 medium-5 medium-push-7 column'>\n";
 		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
 		    if($a['caption']){$output .= "<p class='caption'>".$a['caption']."</p>\n";}
 	    $output .= "</div>\n
@@ -403,15 +403,15 @@ function dual_image_shortcode($atts, $content, $tag){
     <div class='row ".$a['class']."'>\n
 	<div class='small-12 medium-6 column'>\n
 		<h2>".$a['l_title']."</h2>\n
-		<img src='".content_url('/uploads/') . $a['l_src'] ."'/>\n
-		<p class='caption'>".$a['l_caption']."</p>\n
-	</div>\n
+		<img src='".content_url('/uploads/') . $a['l_src'] ."'/>\n";
+		if($a['l_caption']){$output .= "<p class='caption'>".$a['l_caption']."</p>\n";}
+	$output .="</div>\n
 \n
 	<div class='small-12 medium-6 column'>\n
 		<h2>".$a['r_title']."</h2>\n
-		<img src='".content_url('/uploads/') . $a['r_src'] ."'/>\n
-		<p class='caption'>".$a['r_caption']."</p>\n
-	</div>\n
+		<img src='".content_url('/uploads/') . $a['r_src'] ."'/>\n";
+		if($a['r_caption']){$output .= "<p class='caption'>".$a['r_caption']."</p>\n";}
+	$output .="</div>\n
 </div>";
     return $output;
 }
