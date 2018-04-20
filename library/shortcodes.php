@@ -206,7 +206,7 @@ function tech_link_shortcode($atts, $content, $tag){
       </i><span ng-bind-html='n.title'><i class='fa fa-spinner' aria-hidden='true'></i></span>
     </p>\n
     <p class='tech-link-description' ng-bind-html='n.description'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
-    <p class='tech-link-citation' ng-bind-html='n.citation'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
+    <p class='tech-link-citation' ng-bind-html='n.citation' ng-show='n.citation'><i class='fa fa-spinner' aria-hidden='true'></i></p>\n
   </div>";
   return $output;
 }

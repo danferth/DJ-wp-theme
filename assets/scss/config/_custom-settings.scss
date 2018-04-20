@@ -1,45 +1,31 @@
-
-//--------------------------------------------------------------------------------------
-//======================================================================================
-//===============================Variables from old theme===============================
-//======================================================================================
-//--------------------------------------------------------------------------------------
-
-//text------------------------------------
-//$title-color-black:     black;
-//$body-color-black:      rgba(black,.87);
-//$secondary-color-black: rgba(black, .54);
-//$tertiary-color-black:  rgba(black, .38);
-//$faint-color-black:     rgba(black, .18);
-//---------------------------------------
-//$title-color-white:     white;
-//$body-color-white:      rgba(white,1);
-//$secondary-color-white: rgba(white, .7);
-//$tertiary-color-white:  rgba(white, .3);
-//$faint-color-white:     rgba(white, .18);
-//FONTS=====================================
-//$font-body: 	"Source Sans Pro", sans-serif;
-//$font-title: 	'Avenir Next LT Pro Bold', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 /*
 	My custom settings. These variables are copied from _settings.css
 	This file will only contain uncommented settings that are actually used in the theme.
 */
 
-// We use these to define default font stacks
-$font-family-sans-serif: 'Avenir Next LT Pro Regular', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-title: 	'Avenir Next LT Pro Bold', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
-$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 //new fonts so lets try new variables!important
 
-$font-family-title-light: 'Avenir Next LT Pro Ultra Light', serif;
-$font-family-title-regular: 'Avenir Next LT Pro Regular', serif;
-$font-family-title-bold: 'Avenir Next LT Pro Bold', serif;
-$font-family-body-regular: 'Roboto', serif;
-$font-family-body-condensed: 'Roboto Condensed', serif;
+$font-family-title-light: 'Avenir Next LT Pro Ultra Light', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-title-regular: 'Avenir Next LT Pro Regular', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-title-bold: 'Avenir Next LT Pro Bold', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-body-regular: 'Roboto', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-body-condensed: 'Roboto Condensed', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
+//font family variables
+$body-font-family:      $font-family-body-regular;
+$header-font-family: $font-family-title-bold;
+$button-font-family: $font-family-title-regular;
+// $label-font-family: $body-font-family;
+// $price-title-font-family: $body-font-family;
+// $price-money-font-family: $body-font-family;
+// $side-nav-font-family: $body-font-family;
+// $sub-nav-font-family: $body-font-family;
+// $tabs-navigation-font-family: $body-font-family;
+$topbar-link-font-family: $font-family-title-regular;
 
 // We use these to define default font weights
 $font-weight-normal: 400 !default;
@@ -85,15 +71,6 @@ $alert-color:     hsl(0, 94%, 35%);        //red
 $warning-color:   $accent-reg;             //orange
 $info-color: 	    $primary-light;          //light blue
 
-// We use these to control various global styles
-$body-bg:               $white;
-$body-font-color:       $oil;
-$body-font-family:      $font-family-sans-serif;
-$body-font-weight:      $font-weight-normal;
-$body-font-style:       normal;
-$header-font-weight:    300;
-$header-text-rendering: optimizeLegibility;
-
 // Set the link colors and styles for top-level nav
 $topbar-link-weight:             bold;
 $topbar-link-color:              $white;
@@ -101,6 +78,13 @@ $topbar-link-color-hover:        $vapor;
 $topbar-link-color-active:       $vapor;
 $topbar-link-color-active-hover: $white;
 
+// We use these to control various global styles
+$body-bg:               $white;
+$body-font-color:       $oil;
+$body-font-weight:      $font-weight-normal;
+$body-font-style:       normal;
+$header-font-weight:    300;
+$header-text-rendering: optimizeLegibility;
 
 // Media query breakpoints
 $small-breakpoint:  em-calc(640);
@@ -109,9 +93,7 @@ $topbar-breakpoint: em-calc(820);
 $large-breakpoint:  em-calc(1440);
 $xlarge-breakpoint: em-calc(1920);
 
-//==========================================
-//======COPIED FROM _SETTINGS.SCSS==========
-//==========================================
+
 $top-search-bg-color: $white;
 // Background color for the top bar
 $topbar-bg-color:                $smoke;
@@ -122,7 +104,7 @@ $topbar-link-color-hover:        $jet;
 $topbar-link-shadow:             $vapor;
 $topbar-link-color-active-hover: $black;
 $topbar-dropdown-toggle-color:   $monsoon;
-$nav-section-border-color: $iron;
+$nav-section-border-color:       $iron;
 $topbar-dropdown-toggle-alpha:   1;
 $topbar-dropdown-toggle-size:    5px;
 $topbar-link-font-size: .8rem;
@@ -157,7 +139,6 @@ $row-width: rem-calc(1200);
 
 // We use these to control header font styles
 $entry-title-color: scale-color($secondary-color, $lightness: -40%, $saturation:-20%);
- $header-font-family: $font-family-title;
  $header-font-weight: 700;
  $header-font-color: scale-color($primary-color, $lightness: 10%, $saturation: -60%);
  $header-top-margin: rem-calc(31);

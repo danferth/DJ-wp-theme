@@ -14,7 +14,7 @@ article header{
 .entry-title{
   text-transform:uppercase;
   font-weight:300;
-  font-family:$font-family-sans-serif;
+  font-family:$font-family-title-regular;
   font-size:2rem;
   margin:0;
   padding:0;
@@ -169,7 +169,8 @@ dl{
 .caption{
   margin: .5rem 0 0 0;
   border-top: 1px solid $smoke;
-  color:$steel;
-  font-size:.8rem;
+  color:$monsoon;
+  font-size:.7rem;
+  font-family: $font-family-body-condensed;
   text-align:center;
 }

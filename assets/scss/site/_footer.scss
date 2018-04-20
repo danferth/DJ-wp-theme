@@ -13,6 +13,7 @@
     a{
     	color:$iron;
     	font-weight:bold;
+    	font-family:$font-family-title-regular;
     	transition:all 250ms;
     	text-shadow:-1px 0 0 $jet;
     	&:hover{
@@ -33,6 +34,7 @@
 		background:$jet;
 		p{
 			font-size:.75em;
+			font-family:$font-family-body-condensed;
 			color:$iron;
 		}
 		.tic-usa{
