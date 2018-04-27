@@ -11,7 +11,8 @@ array_walk($_POST, 'trim_value');
 
 //Company Info
 $companyName = filter_var($_POST['companyName'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-//Credit Card
+
+//Credit Card Contact info
 $CCfname = filter_var($_POST['CCfname'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $CClname = filter_var($_POST['CClname'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $CCphone = filter_var($_POST['CCphone'], FILTER_SANITIZE_NUMBER_INT);
@@ -19,26 +20,14 @@ $CCemail = filter_var($_POST['CCemail'], FILTER_SANITIZE_EMAIL);
 
 $CCname = $CCfname . " " . $CClname;
 
-//$creditNumber = filter_var($_POST['creditNumber'], FILTER_SANITIZE_NUMBER_INT);
-//check what type of card issued
-// $CCcheck = substr($creditNumber, 0, 1);
-// switch ($CCcheck) {
-// 	case '3':
-// 		$CC = "Amex";
-// 		break;
+//is is a cc order? (this is because we changed the form and parsing code is uneditable for the CSV)
+$ccOrder = '';
+if(isset($_POST['payment-type']) && $_POST['payment-type'] === "cc-payment"){
+  $ccOrder = "Yes";
+}else{
+  $ccOrder = false;
+}
 
-// 	case '4':
-// 		$CC = "VISA";
-// 		break;
-
-// 	case '5':
-// 		$CC = "MC";
-// 		break;
-	
-// 	default:
-// 		$CC = "unknown card";
-// 		break;
-// }
 //the po number issue (mindware unable to be edited so ... this)
 $ccPo = filter_var($_POST['ccPo'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $poNumber = filter_var($_POST['poNumber'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
@@ -56,21 +45,6 @@ if($ccPo === "" && $poNumber === ""){
   }
 }
 
-// $ExpMo          = filter_var($_POST['ExpMo'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $ExpYr          = filter_var($_POST['ExpYr'], FILTER_SANITIZE_NUMBER_INT);
-// $secCode        = filter_var($_POST['secCode'], FILTER_SANITIZE_NUMBER_INT);
-// $CCbillingAdd   = filter_var($_POST['CCbillingAdd'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $CCbillingCity  = filter_var($_POST['CCbillingCity'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $CCbillingState = filter_var($_POST['CCbillingState'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-// $CCbillingZip   = filter_var($_POST['CCbillingZip'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-
-//is is a cc order? (this is because we changed the form and parsing code is uneditable for the CSV)
-$ccOrder = '';
-if(isset($_POST['payment-type']) && $_POST['payment-type'] === "cc-payment"){
-  $ccOrder = "Yes";
-}else{
-  $ccOrder = false;
-}
 //Purchaseing
 $purchEmail     = filter_var($_POST['purchEmail'], FILTER_SANITIZE_EMAIL);
 $purchFname     = filter_var($_POST['purchFname'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
@@ -187,44 +161,7 @@ $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'order/';
 
 	if (is_array($_POST)){
-		
-		//for creation of CSV file
-		
-		//commented out below is incryption steps for CC info
-		// $creditInfo = "$CC\",\"$ExpMo\",\"$ExpYr\",\"$secCode";
-		// $creditNumber = "$creditNumber";
-		// $creditName = "$CCfname";
-		// $creditAddress = "$CCbillingAdd";
-		// $creditCity = "$CCbillingCity";
-		// $creditState = "$CCbillingState";
-		// $creditZip = "$CCbillingZip";
 
-		// $fp = fopen("5150/public.pem","r");
-		// $pubKey = fread($fp,8192);
-		// fclose($fp);
-
-		// openssl_public_encrypt($creditInfo, $creditInfoLocked, $pubKey);
-		// $creditInfoUsable = base64_encode($creditInfoLocked);
-
-		// openssl_public_encrypt($creditNumber, $creditNumberLocked, $pubKey);
-		// $creditNumberUsable = base64_encode($creditNumberLocked);
-
-		// openssl_public_encrypt($creditName, $creditNameLocked, $pubKey);
-		// $creditNameUsable = base64_encode($creditNameLocked);
-
-		// openssl_public_encrypt($creditAddress, $creditAddressLocked, $pubKey);
-		// $creditAddressUsable = base64_encode($creditAddressLocked);
-
-		// openssl_public_encrypt($creditCity, $creditCityLocked, $pubKey);
-		// $creditCityUsable = base64_encode($creditCityLocked);
-
-		// openssl_public_encrypt($creditState, $creditStateLocked, $pubKey);
-		// $creditStateUsable = base64_encode($creditStateLocked);
-
-		// openssl_public_encrypt($creditZip, $creditZipLocked, $pubKey);
-		// $creditZipUsable = base64_encode($creditZipLocked);
-
-		//$companyInformation = array("$companyName","$realPo","$ccOrder","$creditInfoUsable","$creditNumberUsable","$creditNameUsable","$creditAddressUsable","$creditCityUsable","$creditStateUsable","$creditZipUsable","$purchFname","$purchLname","$purchPhone","$purchExt","$purchFax","$userEmail","$userFname","$userLname","$userPhone","$shipAdd1","$shipAdd2","$shipAdd3","$shipCity","$shipState","$shipZip","$shipCountry","$shipAttn","$billEmail","$billFname","$billLname","$billPhone","$billAdd1","$billAdd2","$billAdd3","$billCity","$billState","$billZip","$billCountry","$billAttn","$comments","$purchEmail");
     $CCheader1 = "Inventory ID";
     $CCheader2 = "Quantity";
     
@@ -240,26 +177,12 @@ $next_page = 'order/';
 		$order9       = array("$Pno9","$Qty9");
 		$order10      = array("$Pno10","$Qty10");
 
-    // $order1 = array("$Qty1","$Pno1","$price1","$quoteNo1","$dateReq1");
-		// $order2 = array("$Qty2","$Pno2","$price2","$quoteNo2","$dateReq2");
-		// $order3 = array("$Qty3","$Pno3","$price3","$quoteNo3","$dateReq3");
-		// $order4 = array("$Qty4","$Pno4","$price4","$quoteNo4","$dateReq4");
-		// $order5 = array("$Qty5","$Pno5","$price5","$quoteNo5","$dateReq5");
-		// $order6 = array("$Qty6","$Pno6","$price6","$quoteNo6","$dateReq6");
-		// $order7 = array("$Qty7","$Pno7","$price7","$quoteNo7","$dateReq7");
-		// $order8 = array("$Qty8","$Pno8","$price8","$quoteNo8","$dateReq8");
-		// $order9 = array("$Qty9","$Pno9","$price9","$quoteNo9","$dateReq9");
-		// $order10 = array("$Qty10","$Pno10","$price10","$quoteNo10","$dateReq10");
-
 		//creation of csv file
 		$date = date('m\-d\-Y\-h:iA');
 		$name = $companyName;
 		$name = preg_replace("/[^a-zA-Z 0-9]+/", " ", $name);//strip all special characters from name
 		$file = "orders/$name-$date.csv";
 		$fp = fopen($file,"a+");
-		//fwrite($fp,"4EJ5JQo42t2P0eLoUpHh,");
-		//fwrite($fp,"\n");
-		//fputcsv($fp,$companyInformation);
 		fputcsv($fp,$orderHeaders);
 		fputcsv($fp,$order1);
 		fputcsv($fp,$order2);
@@ -271,7 +194,6 @@ $next_page = 'order/';
 		fputcsv($fp,$order8);
 		fputcsv($fp,$order9);
 		fputcsv($fp,$order10);
-		//fwrite($fp,"Bl0RNZxBVnHKbxs50V5y");
 		fclose($fp);
 		
 		//body variable for email to Thomson
@@ -279,6 +201,7 @@ $next_page = 'order/';
 		$body .= sprintf("<body>");
 		$body .= sprintf("<hr /><h3>Company: %s</h3>",$companyName);
 		$body .= sprintf("PO #: <b>%s</b>\n",$realPo);
+		
 		if($ccOrder === "Yes"){
 		  $body .= sprintf("<hr /><h3>Credit Card Contact Information</h3>Credit Card Order: <b>%s</b>\n",$ccOrder);
 		  $body .= sprintf("<br />Name: <b>%s</b>", $CCname);
@@ -393,11 +316,9 @@ $next_page = 'order/';
 
 		$custEmail .= sprintf("<hr /><h3>Shipping Information</h3>");
 
-
 		$custEmail .= sprintf("Address: <b>%s</b><br />\n",$shipAdd1);
 		$custEmail .= sprintf("Address: <b>%s</b><br />\n",$shipAdd2);
 		$custEmail .= sprintf("Address: <b>%s</b><br />\n",$shipAdd3);
-
 
 		$custEmail .= sprintf("City: <b>%s</b>\n",$shipCity);
 		$custEmail .= sprintf("<br />State: <b>%s</b>\n",$shipState);
@@ -421,8 +342,10 @@ $next_page = 'order/';
 		$custEmail .= sprintf("</body>");
 		$custEmail .= sprintf("</html>");
 
+    //***********************
 		//lets send some emails!
-
+    //***********************
+    
 		if (trim($_POST['important-input']) == ''){
 			$Custmail = new PHPMailer;
 			$Custmail->setFrom('customerservice@htslabs.com', "Thomson Instrument Company");
