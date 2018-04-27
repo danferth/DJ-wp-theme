@@ -135,13 +135,13 @@ label.error{
   .inner-block{
     padding: 0;
     background:$ghost;
-    box-shadow: 0 0 5px 0 $steel;
+    box-shadow: 0 0 6px 0 $steel;
     color:$oil;
     border-radius: 0 0 .30rem .30rem;
     transform-origin:50% 50%;
     transition: all 150ms;
     &:hover{
-        box-shadow: 0 0 8px 0 $oil;
+        box-shadow: 0 0 2px 0 $oil;
         background: $white;
         .main-block-image-wrap{
           //background:$black;
@@ -160,7 +160,7 @@ label.error{
       }
       p{
         padding: 0 .75rem 1rem .75rem;
-        font-size:.88rem;
+        font-size:.8rem;
         line-height:1.5;
         margin:0;
         color:$oil;
