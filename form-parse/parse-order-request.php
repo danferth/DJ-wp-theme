@@ -281,10 +281,10 @@ $next_page = 'order/';
 		$custEmail .= sprintf("<hr /><h3>Company: %s</h3>\n",$companyName);
 		$custEmail .= sprintf("PO #: <b>%s</b>\n",$realPo);
 		if($ccOrder === "Yes"){
-		  $body .= sprintf("<hr /><h3>Credit Card Contact Information</h3>Credit Card Order: <b>%s</b>\n",$ccOrder);
-		  $body .= sprintf("<br />Name: <b>%s</b>", $CCname);
-		  $body .= sprintf("<br />Phone: <b>%s</b>", $CCphone);
-		  $body .= sprintf("<br />Email: <b>%s</b>", $CCemail);
+		  $custEmail .= sprintf("<hr /><h3>Credit Card Contact Information</h3>Credit Card Order: <b>%s</b>\n",$ccOrder);
+		  $custEmail .= sprintf("<br />Name: <b>%s</b>", $CCname);
+		  $custEmail .= sprintf("<br />Phone: <b>%s</b>", $CCphone);
+		  $custEmail .= sprintf("<br />Email: <b>%s</b>", $CCemail);
 		};
 
 		$custEmail .= sprintf("<hr /><h3>Purchasing Information</h3>");
