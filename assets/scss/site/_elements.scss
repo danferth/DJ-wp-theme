@@ -89,6 +89,10 @@ label.error{
   align-self:center;
 }
 
+.circle{
+  border-radius:100%;
+}
+
 //=====================================================================
 //========================FULL WIDTH CSS===============================
 //=====================================================================
@@ -250,8 +254,8 @@ label.error{
     background:$ghost;
   }
   &:hover{
-    box-shadow:inset 3px 0 0 $primary-color;
-    background:$secondary-color;
+    box-shadow:inset 3px 0 0 $primary-dark;
+    background:$info-color;
   }
 }
 .partnumber_image{
@@ -260,7 +264,7 @@ label.error{
     height:auto;
     max-height:3.5rem;
     border:1px solid $ghost;
-    border-radius:.2rem;
+    border-radius: 100%;
   }
 }
 .partnumber_text{
@@ -281,11 +285,13 @@ label.error{
   .partnumber_description{
     //font-style:italic;
     font-size:.68rem;
+    color:$steel;
   }
   .partnumber_number{
     margin-top:.15rem;
     font-size:.75rem;
-    font-weight:bold;
+    color:$steel;
+    font-family:$font-family-body-condensed;
   }
 }
 
@@ -600,12 +606,16 @@ table.product-ref-table{
   padding: 2rem 0 0 0;
   margin:12% auto 0 auto;
   width: 60%;
+  border-radius:.5rem;
+  box-shadow: 0 0 7px 1px $black;
   @media screen and (max-width:$medium-breakpoint){
     width: 95%;
   }
   @media screen and (max-width:$small-breakpoint){
     width: 100%;
     margin:0;
+    border-radius:0;
+    box-shadow:none;
   }
   .close-overlay{
     position:absolute;
@@ -618,10 +628,11 @@ table.product-ref-table{
     left: 0;
     width:100%;
     padding:.25rem 0;
-    background:$monsoon;
+    background:$charcoal;
     color:white;
     font-size:.875rem;
     text-align:center;
+    border-radius: .5rem .5rem 0 0;
   }
   .card-image{
     img{
@@ -629,8 +640,10 @@ table.product-ref-table{
       display:block;
       width:100%;
       height:auto;
+      border-radius: 0 0 0 .5rem;
       @media screen and(max-width:$small-breakpoint){
         width:75%;
+        border-radius:0;
       }
     }
   }
@@ -641,7 +654,7 @@ table.product-ref-table{
   }
   
   .card-partNum{
-    background:$ghost;
+    background:$info-color;
     padding-top:.5rem;
     padding-bottom:.5rem;
     margin-bottom:.5rem;
@@ -732,28 +745,41 @@ table.product-ref-table{
   }
 }
 .product-inquiry-module{
-	border:1px solid $iron;
-	box-shadow: 0 0 4px 0 $smoke;
+	//box-shadow: 0 0 3px 1px $secondary-color;
+	background: $snow;
+	box-shadow: 0 0 6px 0px $base;
+	border-radius:.25rem;
 	padding:2rem 1rem; //manipulated in directives.js under product_page
-	//border-radius:.25rem;
 	margin-top: 2.5625rem;
 	margin-bottom:.625rem;
 	transition:all 300ms;
 	&:hover{
-	  box-shadow:none;
-	  border:1px solid $base;
+	  //box-shadow: 0 0 3px 1px $smoke;
+	  //background: $secondary-color;
+	  //border:1px solid $gainsboro;
+	  border-radius: .5rem;
 	  @media screen and(max-width:$small-breakpoint){
 	    border-left:none;
 	    border-right:none;
 	    box-shadow:none;
+	    background: $white;
 	  }
 	}
   form{
     fieldset{
-      margin:0;
-      border-radius: 0 0 0 0;
+      margin:.5rem 0 0 0;
+      border-radius: .25rem;
+      background: $white;
+      border: none;
+      box-shadow: inset 0 0 6px 0px $base;
       .disclaimer{
         margin-bottom:0;
+      }
+      input[type="submit"]{
+        background:$success-color;
+        &:hover{
+          background:darken($success-color, 10%);
+        }
       }
     }
   }
@@ -775,6 +801,7 @@ table.product-ref-table{
 	  border-left:none;
 	  border-right:none;
 	  box-shadow:none;
+	  border-radius: 0rem;
 	  padding-left:0;
 	  padding-right:0;
 	}
@@ -784,33 +811,48 @@ table.product-ref-table{
 }
 .product-inquiry-button{
   margin:0;
+  border-radius: .25rem;
+  box-shadow: 0 0 4px 2px $white;
+  &:hover{
+    box-shadow: 0 0 2px 1px $white;
+  }
+  &:focus{
+    outline:none;
+  }
 }
 //gi link module
 .gi-link{
-  background:$snow;
-  border-top:1px solid $gainsboro;
+  border-top:1px solid $white;
   a{
-    padding:.125rem .875rem;
-    display:inline-block;
+    padding:.25rem .875rem;
+    display:block;
+    border-radius: 0 0 .5rem .5rem;
     width:100%;
     font-size:.75rem;
-    color:$monsoon;
+    color:$white;
     font-family:$font-family-title-regular;
     font-style:italic;
     transition:all 300ms;
+    background:$primary-dark;
+    @media screen and(max-width: $medium-breakpoint){
+      border-radius: 0;
+    }
     .arrow{
-      color:$primary-color;
+      color:$primary-light;
       margin-right:.5rem;
       transition:all 300ms;
     }
     .pdf{
       color:$alert-color;
       margin-right:.25rem;
+      background:$white;
+      padding:.25rem .304125rem;
+      border-radius:100%;
+      text-align:center;
     }
     &:hover{
       padding-left:1.1256rem;
-      background:$smoke;
-      color:$jet;
+      background:$primary-color;
       text-decoration:underline;
       .arrow{
         margin-right:.25rem;
@@ -849,33 +891,39 @@ table.product-ref-table{
 }
 //related products module
 .related-product-module{
-  .related-product-wrap{
+  .related-product-wrap{ //container
     cursor:pointer;
     position:relative;
+    border-radius:.25rem;
+    box-shadow: 0 0 5px 3px $iron;
     overflow:hidden;
+    transition:all 350ms;
     &:hover{
+      box-shadow:0 0 3px 1px $jumbo;
       .related-product-pannel{
-        opacity:1;
+        opacity: 1;
+      }
+      img{
+        transform: scale(1.15);
       }
     }
-    img{
+    img{  //image
       width:100%;
       height:auto;
+      transition: all 350ms;
     }
-    .related-product-pannel{
+    .related-product-pannel{  //text block
       position:absolute;
       left:0;
       bottom:0;
+      opacity: 0;
+      transition:all 750ms;
       width:100%;
       height:100%;
       padding:1rem 1.5rem;
-      background: rgba($white, .6);
-      border-top:solid 2px $iron;
-      opacity:0;
-      transition:bottom 150ms, opacity 1000ms;
+      background: $ghost;
       @media screen and (max-width:$medium-breakpoint){
-        opacity:1;
-        background: rgba($white, .8);
+        opacity: 0;
       }
       h5{
         margin:0;
@@ -929,8 +977,8 @@ table.product-ref-table{
     background:$ghost;
   }
   &:hover{
-    background:$secondary-color;
-    box-shadow:inset 3px 0 0 $primary-color;
+    background:$info-color;
+    box-shadow:inset 3px 0 0 $primary-dark;
     .tech-link-citation{
       color:$charcoal;
     }
@@ -961,13 +1009,12 @@ table.product-ref-table{
     color:$black;
   }
   .tech-link-citation{
-    font-style:italic;
     font-size:.65rem;
-    color:$monsoon;
+    color:$steel;
     font-family:$font-family-body-condensed;
     margin-top: .4rem;
     padding-top:.3rem;
-    border-top: 1px dashed $smoke;
+    border-top: 1px dashed $silver;
   }
 }
 
@@ -1075,7 +1122,7 @@ table.product-ref-table{
 //=====================================================================
 .info-module{
   ul{
-    margin:0;
+    margin:.1rem 0 0 0;
     padding:0;
     &:after{
       clear:both;
@@ -1090,13 +1137,31 @@ table.product-ref-table{
       float:left;
       width:20%;
       text-align:center;
-      background:$primary-color;
+      background:$primary-dark;
       border-right:1px solid $gainsboro;
+      transition: background 300ms;
+      &:hover{
+        background:$primary-color;
+      }
+      &:first-of-type{
+        border-radius: .5rem 0 0 0;
+      }
       &:last-of-type{
         border-right:none;
+        border-radius: 0 .5rem 0 0;
+      }
+      @media screen and(max-width:$medium-breakpoint){
+        &:first-of-type{
+          border-radius:0;
+        }
+        &:last-of-type{
+          border-radius:0;
+        }
       }
       @media screen and (max-width:$small-breakpoint){
         width:100%;
+        border-right:none;
+        border-bottom:1px solid $primary-light;
         &:nth-child(1){
           display:none;
         }
@@ -1108,17 +1173,14 @@ table.product-ref-table{
         display:block;
         color:$snow;
         font-family:$font-family-title-regular;
-        text-shadow: 0 1px 0 scale-color($primary-color, $lightness: -15%);
-        transition: background 300ms;
+        text-shadow: 0 1px 0 $black;
         &:hover{
-          background:scale-color($primary-color, $lightness: -10%);
           color:$white;
-          text-shadow: 0 2px 0 scale-color($primary-color, $lightness: -25%);
+          text-shadow:none;
         }
         @media screen and (max-width:$small-breakpoint){
           font-size:.75rem;
-          font-family:$font-family-body-regular;
-          border-bottom:1px solid $black;
+          font-family:$font-family-body-condensed;
         }
       }
     }

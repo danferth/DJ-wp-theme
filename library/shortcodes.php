@@ -42,11 +42,12 @@ add_shortcode('mainblock', 'mainblock_shortcode');
 function ng_product_image_shortcode($atts, $content, $tag){
   $a = shortcode_atts( array(
     'src'     => '',
+    'class'   => '',
     'width'   => '',
     'height'  => ''
     ), $atts);
   $prod_url =  content_url('/uploads/products/');
-  $output = "<img ng-src='".$prod_url."{{".$a['src']."}}?v=001' alt='{{".$a['src']."}}' width='".$a['width']."' height='".$a['height']."' />";
+  $output = "<img class='".$a['class']."' ng-src='".$prod_url."{{".$a['src']."}}?v=001' alt='{{".$a['src']."}}' width='".$a['width']."' height='".$a['height']."' />";
 
     return $output;
 }
@@ -658,11 +659,11 @@ function related_product_module_shortcode($atts, $content=null, $tag){
   $output = "
 <li class='".$a['class']."'>
   <div class='related-product-wrap' data-link='".$a['link']."'>
-    <img src='".content_url('/uploads/') . $a['src'] ."'/>
-    <div class='related-product-pannel'>
-      <h5>".$a['title']."</h5>
-        ".$content."
-    </div>
+      <img src='".content_url('/uploads/') . $a['src'] ."'/>
+      <div class='related-product-pannel'>
+        <h5>".$a['title']."</h5>
+          ".$content."
+      </div>
   </div>
 </li>  
   ";
