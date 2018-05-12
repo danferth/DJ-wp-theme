@@ -679,8 +679,8 @@ function gi_link_shortcode($atts, $content, $tag){
     'product' => ''
     ), $atts);
   $output ="
-<div class='gi-link hide-for-small row'>\n
-  <a href='".content_url('/uploads/downloads/').$a['src']."'><i class='arrow fa fa-arrow-right'></i><i class='pdf fa fa-file-pdf-o'></i> click here to download a PDF of our <b>".$a['product']."</b> General information flier</a>\n
+<div class='gi-link row'>\n
+  <a href='".content_url('/uploads/downloads/').$a['src']."'><i class='arrow fa fa-arrow-right hide-for-small'></i><i class='pdf fa fa-file-pdf-o'></i> <span class='hide-for-small'>Download a PDF of our</span> <b>".$a['product']."</b> General information flier</a>\n
 </div>";
   return $output;
 }

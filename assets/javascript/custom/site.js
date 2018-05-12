@@ -202,6 +202,18 @@ $('#order #copy-billing-info').on('click', function(){
 });
 
 //==========================================
+//===============.info-module===============
+//==========================================
+//if there is a second info-module on the page it is most likelly at the bottom above the tech links
+//add a class to it so we can style slightlly differently
+var infoModules = $('.info-module');
+
+if(infoModules.length == 2){
+  $(infoModules[1]).addClass('info-module-second');
+}
+
+
+//==========================================
 //==============Sales Portal================
 //==========================================
 var salesTiles      = $('.downloadable-files li'),
