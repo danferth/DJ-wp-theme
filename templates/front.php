@@ -9,22 +9,17 @@ get_header(); ?>
 		<div class="tagline">
 			<h1><a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 			<h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-			<a role="button" class="download large button show-for-medium-up" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
 		</div>
 
 		<div id="watch" class="small-12 columns">
 			<section id="stargazers">
-				<a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a>
+				<a href="https://www.linkedin.com/company/thomson-instrument">Thomson Instrument Company</a>
 			</section>
 			<section id="twitter">
-				<a href="https://twitter.com/olefredrik">@olefredrik</a>
+				<a href="https://twitter.com/tic_2017">@tic_2017</a>
 			</section>
 		</div>
 
-
-		<div class="fpmock">
-			<img data-interchange="[<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/fpmock.png, (default)]" alt="FoundationPress - the ultimate WordPress starter theme">
-		</div>
 	</div>
 
 </header>
@@ -36,8 +31,22 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 				<header>
-					<h1 class="entry-title"><?php the_title(); ?></h1>
-				</header>
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<div class="tweet-header-module">
+					<span class="tweet-link animated">
+					<a
+						href="https://twitter.com/share"
+						class="twitter-share-button"
+						data-text="Check out <?php the_title(); ?> from Thomson!"
+						data-url="<?php	true_url(); ?>"
+						data-hashtags="science,TICscience"
+						data-show-count="false">
+						Tweet
+					</a>
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</span>
+				</div>
+			</header>
 				<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
 				<div class="entry-content">
 					<?php the_content(); ?>

@@ -129,6 +129,20 @@ label.error{
   text-align:center;
 }
 //=====================================================================
+//==========================site-search================================
+//=====================================================================
+.site-search{
+  padding:0;
+  input{
+    border-radius: 0 0 0 .5rem;
+    box-shadow: none;
+    border-top:none;
+  }
+  button{
+    border-radius: 0 0 .5rem 0;
+  }
+}
+//=====================================================================
 //==========================main blocks================================
 //=====================================================================
 .main-block{
@@ -139,19 +153,19 @@ label.error{
   .inner-block{
     padding: 0;
     background:$ghost;
-    box-shadow: 0 0 6px 0 $steel;
+    box-shadow: 0 0 3px 0 $oil;
     color:$oil;
-    border-radius: 0 0 .30rem .30rem;
+    border-radius: .5rem;
     transform-origin:50% 50%;
     transition: all 150ms;
     &:hover{
-        box-shadow: 0 0 2px 0 $oil;
+        box-shadow: inset 0 0 3px 0 $steel;
         background: $white;
         .main-block-image-wrap{
-          //background:$black;
+          //border-radius: .5rem .5rem 0 0;
           img{
-            //opacity:.25;
-            transform:scale(1.05);
+            //border-radius: .5rem .5rem 0 0;
+            transform:scale(1.2);
           }
         }
     }
@@ -182,6 +196,7 @@ label.error{
     height:auto;
     overflow:hidden;
     position:relative;
+    border-radius: .5rem .5rem 0 0;
     &:after{
       content:"";
       position:absolute;
@@ -190,7 +205,7 @@ label.error{
       width:100%;
       height:100%;
       z-index:300;
-      border-radius: 0 0 .30rem .30rem;
+      border-radius: .5rem .5rem 0 0;
       box-shadow:inset 0 0 20px 5px rgba($black, .15);
     }
     img{
@@ -1342,25 +1357,26 @@ table.product-ref-table{
   }
   li{
     float:left;
-    width:25%;
-    background:$primary-reg;
+    width: 24.5%;
     list-style:none;
-    padding: 0 .125rem;
-    border-right:1px solid $smoke;
+    padding: 0;
+    margin-right: .66%;
+    border-radius:2rem;
     &:last-of-type{
-      border-right:none;
+      margin-right:0;
     }
     a{
       display:inline-block;
       width:100%;
       height:100%;
       color:$white;
-      //font-weight:bold;
+      background:$primary-dark;
       font-family:$font-family-body-condensed;
       text-align:center;
       padding:.5rem 0;
+      border-radius:2rem;
       &:hover{
-        background:$primary-dark;
+        background:$primary-reg;
         color:$ghost;
       }
     }
@@ -1368,6 +1384,7 @@ table.product-ref-table{
       background:$white;
       color:$gainsboro;
       cursor:none;
+      box-shadow:inset 0 0 1px 1px $gainsboro;
       &:hover{
         background:$white;
         color:$gainsboro;
@@ -1378,9 +1395,12 @@ table.product-ref-table{
       float:none;
       width:100%;
       border-right:none;
-      border-bottom: 1px solid $base;
+      margin-bottom:1%;
+      margin-right:0;
       &:last-of-type{
-      border-right:none;
+      margin-bottom:0;
+      margin-right:0;
+      
     }
     }
   }

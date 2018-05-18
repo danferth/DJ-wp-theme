@@ -1,13 +1,15 @@
 <?php
-//[mainblock title='title' class='addedclass' img='src' link='href']<p>content</p>[/mainblock]
+//[mainblock title='title' class='addedclass' equalizer='block' img='src' link='href']<p>content</p>[/mainblock]
 //this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
+//<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-equalizer="block" data-equalizer-mq="medium-up">
 function mainblock_shortcode($atts, $content = null, $tag){
     $a = shortcode_atts( array(
-            'title'   => 'needs a title',
-            'img'     => '',
-            'class'   => '',
-            'storage' => '',
-            'link'    => home_url()
+            'title'     => 'needs a title',
+            'img'       => '',
+            'class'     => '',
+            'equalizer' =>'block',
+            'storage'   => '',
+            'link'      => home_url()
         ), $atts);
     $output =  "<li class='main-block " . $a['class'] . "' data-mainblocklink='" . home_url() . "/" . $a['link'] . "'";
     
@@ -16,7 +18,7 @@ function mainblock_shortcode($atts, $content = null, $tag){
     }
     
     $output .= "> \n
-              <div class='inner-block' data-equalizer-watch='block'> \n
+              <div class='inner-block' data-equalizer-watch='". $a['equalizer'] ."'> \n
                 <div class='main-block-image-wrap'> \n
                   <img src='" . get_template_directory_uri(). "/images/" . $a['img'] . "' /> \n
                 </div> \n

@@ -9,8 +9,8 @@
 
 ?>
 <?php do_action( 'foundationpress_before_searchform' ); ?>
-	<div class="extend">
-  	<div class="row collapse">
+	<div class="site-search extend">
+  	<div class="animated flipInX row collapse">
 <?php do_action( 'foundationpress_searchform_top' ); ?>
     	<div class="small-11 medium-5 medium-push-6 large-3 large-push-8 column">
       	<input type="text" class="addsearch" disabled="disabled" placeholder="search our site"/>

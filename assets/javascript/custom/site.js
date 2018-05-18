@@ -49,7 +49,7 @@ var railNav_tl = new TimelineMax();
 
 railNav_tl.add( TweenMax.to(railNav, .5, {delay:2, opacity:1}) );
 railNav_tl.add( TweenMax.to(railNav, .5, {delay:.5, left:'0', ease:Sine.easeIn}) );
-railNav_tl.add( TweenMax.to(railNav, .5, {delay:3, left:'-2.75rem', ease:Bounce.easeOut}) );
+railNav_tl.add( TweenMax.to(railNav, .5, {delay:2, left:'-2.75rem', ease:Bounce.easeOut}) );
 railNav_tl.call(function(){
 	railNav_links.addClass('railNav_closed');
 });
@@ -70,7 +70,7 @@ railNav.mouseleave(function(){
 //==================================
 var tpm = $('.tweet-link');
 var tpm_tl = new TimelineMax();
-tpm_tl.add( TweenMax.to(tpm, .5, {delay:1.5, opacity:1}) );
+tpm_tl.add( TweenMax.to(tpm, .5, {delay:5, opacity:1}) );
 
 tpm.mouseenter(function(){
 	$(this).addClass('tada');
