@@ -362,15 +362,15 @@
 		"id": 31,
 		"region": "Europe",
 		"country": "Spain",
-		"company": "CliniSciences",
+		"company": "Quimigen",
 		"products": ["Flasks", "Well Plates"],
-		"address": "Alt de Gironella, 67<br/>08017 Barcelona - Spain",
-		"tel": "512 702 901 / 912 694 065",
+		"address": "C/ Hermanos del Moral 13\n (Bajo E), 28019, Madrid, Spain",
+		"tel": "+34 91 675 0700",
 		"tel2": "",
-		"fax": "512 702 902 / 912 694 074",
-		"webUrl": "http://www.clinisciences.com/",
-		"web": "www.clinisciences.com",
-		"email": "espana@clinisciences.com"
+		"fax": "+34 91 656 6287",
+		"webUrl": "https://www.quimigen.com/",
+		"web": "www.quimigen.com",
+		"email": "pedidos@quimigen.com"
 	}, {
 		"id": 33,
 		"region": "Europe",
