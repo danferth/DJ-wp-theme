@@ -62,16 +62,32 @@ get_header(); ?>
 <!-- =======================START======================= -->
 <!-- ==============PDF's==================== -->
 <div class="tech-PDF row" ng-show="PDF">
-	<div class="small-12 medium-10 large-8 column">
+  <div class="pdfDownloadWrap small-12 medium-4 large-3 column">
+			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/downloads/'); ?>{{ techNote.link }}"><i class=" down fa fa-download"></i></a>
+		<div class="pdfDownloadText">click <i class="fa fa-arrow-up"></i> to download <i class=" file fa fa-file-pdf-o"></i>
+		</div>
+  </div>
+	<div class="small-12 medium-8 large-9 column">
 		<h2 class="tech-title" ng-bind-html="techNote.title"></h2>
 		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>
-		<p class="pdfDownloadWrap">
-			<a class="pdfDownloadIcon" href="<?php echo content_url('/uploads/downloads/'); ?>{{ techNote.link }}"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-pdf-o"></i></a>
-			<span class="pdfDownloadHover"><i class="fa fa-arrow-left"></i> Download PDF Now!</span>
-		</p>
 	</div>
 </div>
+
+<!-- =========== OLD PDF MARKUP =========== -->
+<!--<div class="tech-PDF row" ng-show="PDF">-->
+<!--	<div class="small-12 medium-10 large-8 column">-->
+<!--		<h2 class="tech-title" ng-bind-html="techNote.title"></h2>-->
+<!--		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>-->
+<!--		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>-->
+<!--		<p class="pdfDownloadWrap">-->
+<!--			<a class="pdfDownloadIcon" href="<?php //echo content_url('/uploads/downloads/'); ?>{{ techNote.link }}"><i class=" down fa fa-download"></i> <i class=" file fa fa-file-pdf-o"></i></a>-->
+<!--			<span class="pdfDownloadHover"><i class="fa fa-arrow-left"></i> Download PDF Now!</span>-->
+<!--		</p>-->
+<!--	</div>-->
+<!--</div>-->
+<!-- ====================================== -->
+
 
 <!-- ==============VIDEO==================== -->
 <div class="row" ng-show="VIDEO">

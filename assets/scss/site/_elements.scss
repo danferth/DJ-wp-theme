@@ -1067,49 +1067,36 @@ table.product-ref-table{
 //=====================================================================
 //==========================PDF download link==========================
 //=====================================================================
-@keyframes pdfDownloadHover{
-  0%{padding-left:0;}
-  50%{padding-left:1rem;}
-  100%{padding-left:0;}
-}
 .pdfDownloadWrap{
-  border-top:2px solid $jumbo;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 1.9375rem;
+}
+.pdfDownloadIcon{
+  background: $success-color;
+  padding:rem-calc(28) rem-calc(55.422);
+  color: lighten($success-color, 40%);
+  font-size:6rem;
+  border-radius: 100%;
+  transition:all 300ms;
   &:hover{
-    .pdfDownloadHover{
-      opacity:1;
-      color:$jet;
-      animation: pdfDownloadHover 350ms ease-in-out 2;
-    }
+    background:darken($success-color, 1%);
+    box-shadow: inset 0 0 7px 2px rgba($steel, .8);
+    color:$white;
   }
-  .pdfDownloadHover{
-    color:$jumbo;
-    font-size:.75rem;
-    text-shadow:0 1px 0 $smoke;
-    opacity:.5;
-    transition:opacity 500ms;
-    
+}
+.pdfDownloadText{
+  margin-top: .5rem;
+  font-size:.8rem;
+  cursor: none;
+  font-family: $font-family-body-condensed;
+  color:$steel;
+  i.fa-arrow-up{
+    color:$aluminum;
   }
-  .pdfDownloadIcon{
-    text-decoration:none;
-    border:none;
-    font-size:1.25rem;
-    .down{
-      color:$jet;
-    }
-    .file{
-      color:$alert-color;
-    }
-    &:before{
-      background:transparent;
-    }
-    &:hover{
-      .down{
-        color:darken($success-color, 15%);
-      }
-      .file{
-        color:$success-color;
-      }
-    }
+  i.fa-file-pdf-o{
+    color:$alert-color;
   }
 }
 
