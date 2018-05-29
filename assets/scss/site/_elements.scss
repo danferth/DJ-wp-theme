@@ -216,6 +216,87 @@ label.error{
     }
   }
 }
+//=====================================================================
+//==========================tech blocks================================
+//=====================================================================
+.tech-select-wrap{
+  select{
+    border-radius:2rem;
+    padding-left:1.5rem;
+    @media screen and (max-width:$medium-breakpoint){
+      padding-left:.5rem;
+      border-radius:1rem;
+    }
+    @media screen and(max-width:$small-breakpoint){
+      border-radius:.25rem;
+      padding-left:.5rem;
+    }
+  }
+}
+.techlibrary-home-tiles{
+  margin-top:.75rem;
+  margin-bottom:1rem;
+  //border-bottom:2px solid $vapor;
+}
+.tech-block{
+  opacity:0;
+  cursor:pointer;
+  z-index:80;
+  position:relative;
+  transition:all 350ms;
+  &:hover{
+    background:$snow;
+    .tech-block-image-wrap img{
+      transform: scale(1.25);
+    }
+  }
+}
+.inner-tech-block{
+  margin-top: 1.25rem;
+  h3{
+    text-align:center;
+    font-size: .9rem;
+    margin: .75rem 0 .25rem 0;
+    color:$charcoal;
+  }
+  p{
+    text-align:center;
+    margin:0;
+    font-size:.75rem;
+    color:$aluminum;
+  }
+  ul{
+    margin:0;
+    li{
+      text-align:center;
+      list-style:none;
+      font-size:.75rem;
+      color:$aluminum;
+    }
+  }
+}
+.tech-block-image-wrap{
+  box-shadow: 0 0 5px 1px $iron;
+  border-radius:100%;
+  margin:0 auto;
+  overflow:hidden;
+  @media screen and (min-width:$medium-breakpoint){
+    width:75%;
+  }
+  @media screen and (max-width:$medium-breakpoint){
+    width:60%;
+  }
+  @media screen and (max-width:$small-breakpoint){
+    width:50%;
+  }
+  img{
+  border-radius:100%;
+  transition: all 350ms;
+  }
+}
+
+
+
 
 //=====================================================================
 //==========================video single===============================
@@ -1081,8 +1162,8 @@ table.product-ref-table{
   border-radius: 100%;
   transition:all 300ms;
   &:hover{
-    background:darken($success-color, 1%);
-    box-shadow: inset 0 0 7px 2px rgba($steel, .8);
+    background:darken($success-color, 3%);
+    box-shadow: inset 0 0 5px 1px rgba($steel, .8);
     color:$white;
   }
 }
@@ -1302,10 +1383,16 @@ table.product-ref-table{
     }
   }
 }
+.tech-home-product-info-description{}
+.tech-home-product-info-features{}
+.tech-home-product-info-related{
+  margin-top: rem-calc(28px);
+  border-top:1px dashed $secondary-color;
+}
 
 //tiles div
 .techlibrary-home-tiles{
-  border-left:4px solid $smoke;
+  //border-left:4px solid $smoke;
   .main-block .inner-block h3{
     @media screen and (min-width:$small-breakpoint){
       font-size:.95rem;

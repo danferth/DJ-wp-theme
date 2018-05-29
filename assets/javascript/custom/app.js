@@ -459,18 +459,23 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
     
   });
   
+  
   dataFactory.get_prodinfo().then(function(responce){
     $scope.prodinfo = responce.data;
     //watch for changes to $scope.product
     $scope.$watch('product', function(){
       $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product})[0];
-      if($scope.product != ""){
-        $scope.product_select_message = "Select a Different Product";
-        $scope.library_select_message = "Explore " + $scope.pi.title;
-      }else{
-        $scope.product_select_message = "Select a Product to Explore";
-        $scope.library_select_message = "Or Explore Our Full Library";
-      }
+      
+      //this chunk o code was for the tech library, it changed some h2 or h3 tags depending on if a product was selected or not
+      // if($scope.product != ""){
+      //   $scope.product_select_message = "Select a Different Product";
+      //   $scope.library_select_message = "Explore " + $scope.pi.title;
+      // }else{
+      //   $scope.product_select_message = "Select a Product to Explore";
+      //   $scope.library_select_message = "Or Explore Our Full Library";
+      // }
+      
+      
     }); //END $watch
   });
 

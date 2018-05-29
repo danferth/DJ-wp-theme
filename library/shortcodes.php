@@ -35,6 +35,42 @@ function mainblock_shortcode($atts, $content = null, $tag){
 add_shortcode('mainblock', 'mainblock_shortcode');
 
 
+//[techblock title='title' class='addedclass' equalizer='block' img='src' link='href']<p>content</p>[/techblock]
+//this needs to be placed inside ( div.row>div.column.small-12 ) at the minimum
+//<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-equalizer="block" data-equalizer-mq="medium-up">
+function techblock_shortcode($atts, $content = null, $tag){
+    $a = shortcode_atts( array(
+            'title'     => 'needs a title',
+            'img'       => '',
+            'class'     => '',
+            'equalizer' =>'block',
+            'storage'   => '',
+            'link'      => home_url()
+        ), $atts);
+    $output =  "<li class='tech-block " . $a['class'] . "' data-techblocklink='" . home_url() . "/" . $a['link'] . "'";
+    
+    if($a['storage']){
+      $output .= "ng-click = \"setStorage(".$a['storage'].")\" ";
+    }
+    
+    $output .= "> \n
+              <div class='inner-tech-block' data-equalizer-watch='". $a['equalizer'] ."'> \n
+                <div class='tech-block-image-wrap'> \n
+                  <img src='" . get_template_directory_uri(). "/images/" . $a['img'] . "' /> \n
+                </div> \n
+                
+                  <h3>" . $a['title'] . "</h3> \n
+                  $content
+                
+              </div> \n
+            </li>";
+            
+    return $output;
+}
+
+add_shortcode('techblock', 'techblock_shortcode');
+
+
 //====================
 //IMAGES IMAGES IMAGES
 //====================
@@ -154,7 +190,7 @@ function tech_select_shortcode($atts, $content, $tag){
     ), $atts);
   $output = "
     <select class='".$a['class']."' name='product' ng-model='product' ng-change='setStorage(\"tl_subLine\", product)'>\n
-      <option value=''>Select Product</option>\n
+      <option value=''>Select a product to explore</option>\n
       <optgroup label='Filter Vials'>\n
         <option value='all'>All Filter Vials</option>\n
         <option value='standard'>Standard|Filter Vials</option>\n
