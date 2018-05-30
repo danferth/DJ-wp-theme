@@ -13,7 +13,7 @@
     "title" : "All Filter Vials",
     "subtitle" : "",
     "image" : "",
-    "description" : "Thomson SINGLE StEP® Filter Vials (patented) are a single system which replaces HPLC Vials, HPLC Caps, Syringes, & Syringe Filters for the filtration of samples. In 15 seconds, Thomson Filter Vials allow for sample preparation of unfiltered samples to filtered samples in an autosampler-ready vial.",
+    "description" : "Thomson Filter Vials are a single system which replaces HPLC Vials, HPLC Caps, Syringes, & Syringe Filters for the filtration of samples. In 15 seconds, Thomson Filter Vials allow for sample preparation of unfiltered samples to filtered samples in an autosampler-ready vial.",
     "key_features" : ["Eliminate Syringe Filter, Syringe, HPLC Vial, HPLC Cap",
                     "ECO Friendly",
                     "Simple to Use",
@@ -26,13 +26,12 @@
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
         {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
         {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
-        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
         {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
     "product" : "standard",
     "title" : "Standard|Filter Vials",
-    "subtitle" : "120μL Dead Volume",
+    "subtitle" : "Standard For Most Samples",
     "image" : "",
     "description" : "Thomson Standard Filter Vials can be used for samples containing less than 10% solid particulates. The filter vial consists of two parts: a filter vial shell and a plunger which includes a single layer filter on one end and a vial cap on the other end. Applications for Standard Filter Vials include filtration of catalysts from organic and medicinal chemistry synthesis reactions, saccharide analysis in corn syrup, and in-vial protein precipitation.",
     "key_features" : ["Eliminate Syringe Filter, Syringe, HPLC Vial, HPLC Cap",
@@ -46,7 +45,6 @@
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
         {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
         {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
-        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
         {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
@@ -59,7 +57,7 @@
                     "Used for Particulate Laden Samples",
                     "Pre Filter, 1-10 µM Depth Filter",
                     "Eliminates Multiple Syringe Filters, Syringe, HPLC Vial, & CAP",
-                    "Easy to Press Down with Hand or Toggle Press (See back)",
+                    "Easy to Press Down with Hand or Toggle Press",
                     "No more Syringe Filter Hand/Thumb Fatigue",
                     "Saves Costly Repairs & Service Issues",
                     "Upfront Protection Minimizes Instrument Downtime",
@@ -70,13 +68,12 @@
         {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
         {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
-        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
         {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
     "product" : "nano",
     "title" : "nano|Filter Vial®",
-    "subtitle" : "10µL Minimum Volume",
+    "subtitle" : "When Every µL Counts",
     "image" : "",
     "description" : "Thomson nano|Filter Vials® offer a very low dead volume, allowing one to filter as little as 10µL of sample with enough remaining filtrate to make a 2µL injection.",
     "key_features" : ["10µL sample for 2µL injection",
@@ -86,7 +83,6 @@
         {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
         {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
         {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
-        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
         {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
 },{
@@ -94,11 +90,11 @@
     "title" : "eXtractor3D|FV®",
     "subtitle" : "Multi-Mode Filtration",
     "image" : "",
-    "description" : "Thomson eXtractor3D|FV® Filter Vials (patented) offers filtration with increased volume enabling multiple extraction techniques with different resins/sorbents or solids/large particulates (heavily laden) to autosampler ready vials. eXtractor3D|FV® is a product uniquely designed for the addition of resins/sorbents, QuEChERS dispersive salts, pills, or special resins in the standard autosampler ready vial. The filter vial consists of two parts: a filter vial shell and a plunger which includes a multi-layer filter on one end and a low evaporation screw cap on the other end.",
+    "description" : "Thomson eXtractor3D|FV® Filter Vials offers filtration with increased volume enabling multiple extraction techniques with different resins/sorbents or solids/large particulates (heavily laden) to autosampler ready vials. eXtractor3D|FV® is a product uniquely designed for the addition of resins/sorbents, QuEChERS dispersive salts, pills, or special resins in the standard autosampler ready vial. The filter vial consists of two parts: a filter vial shell and a plunger which includes a multi-layer filter on one end and a low evaporation screw cap on the other end.",
     "key_features" : ["Minimize Matrix Effects & Ion Suppression from direct injection",
                     "Direct inject can result in complex spectra; Extraction/Filtration minimizes this effect",
                     "High solid/liquid ratio",
-                    "Fill Volume 630 µL",
+                    "Fill Volume 630µL",
                     "Can accept Solids or Large Particulates",
                     "Allows for QuEChERS"
                     ],
@@ -106,27 +102,8 @@
         {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
         {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
-        {"name" : "MEGA|FV™", "link" : "/fv/mega/"},
         {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
         ]
-},{
-    "product" : "mega",
-    "title" : "MEGA|FV™",
-    "subtitle" : "Filter Once for Multiple Applications",
-    "image" : "",
-    "description" : "The MEGA|FV™ (patented) with 15mL working volume, from Thomson Instrument Company, performs similarly to our other Filter Vials. Available in multiple membranes (PVDF, PTFE & Nylon) and pore sizes (0.45µm & 0.2µm), the MEGA|FV™ can be used for many applications from biologics to chemistry to food science.",
-    "key_features" : ["Fast Filtration for large volumes, up to 15mL",
-                    "Minimum sample loss, dead volume of 400µL",
-                    "Long-term storage cap available <i>(p/n# 899030)</i>",
-                    "Automation-friendly with 8-Position Rack <i>(p/n# 1212470)</i>"
-                    ],
-    "related_product" : [
-      {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
-      {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
-      {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
-      {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
-      {"name" : "Low Evap|Filter Vial", "link" : "/fv/low-evap/"}
-      ]
 },{
     "product" : "low-evap",
     "title" : "LowEvap|Filter Vial",
@@ -141,8 +118,7 @@
         {"name" : "Standard|Filter Vial", "link" : "/fv/standard/"},
         {"name" : "nano|Filter Vial®", "link" : "/fv/nano/"},
         {"name" : "eXtreme|FV®", "link" : "/fv/extreme/"},
-        {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"},
-        {"name" : "MEGA|FV™", "link" : "/fv/mega/"}
+        {"name" : "eXtractor3D|FV®", "link" : "/fv/extractor/"}
         ]
 },{
     "product" : "Oflask",
@@ -184,7 +160,7 @@
     "title" : "Transfer Cap",
     "subtitle" : "",
     "image" : "",
-    "description" : "Optimum Growth™ Flasks (patented) in conjunction with the Transfer Cap System eliminates the need to move cells to an intermediate transfer for scale up or seed cultures. The ability to pump into the Optimum Growth™ Flask (patented) makes filling with media from a bulk source a simple aseptic method. The Transfer Cap in conjunction with the Thomson Optimum Growth™ Flask (patented) product line can be used for reagent addition, seeding of larger bioreactors or cell bags, pumping of media into flasks from large drums or bags of media, and other liquid media transfers into and out of bioreactors.",
+    "description" : "Optimum Growth™ Flasks in conjunction with the Transfer Cap System eliminates the need to move cells to an intermediate transfer for scale up or seed cultures. The ability to pump into the Optimum Growth™ Flask makes filling with media from a bulk source a simple aseptic method. The Transfer Cap in conjunction with the Thomson Optimum Growth™ Flask product line can be used for reagent addition, seeding of larger bioreactors or cell bags, pumping of media into flasks from large drums or bags of media, and other liquid media transfers into and out of bioreactors.",
     "key_features" : "",
     "related_product" : [
         {"name" : "Optimum Growth™ Flasks", "link" : "/og/"},
@@ -193,10 +169,10 @@
         ]
 },{
     "product" : "Uflask",
-    "title" : "Ultra Yield™ Flask",
+    "title" : "Ultra Yield® Flask",
     "subtitle" : "",
     "image" : "",
-    "description" : "Thomson’s Ultra Yield Flasks™ (patented) have proven over the last decade to enhance the growth of E.coli & other microbial cells. The patented flask design makes them the work horse of protein and DNA labs worldwide. The Ultra Yield Flasks come in standardized sizes of 125mL, 250mL, 500mL and 2.5L.",
+    "description" : "Thomson’s Ultra Yield Flasks® have proven over the last decade to enhance the growth of E.coli & other microbial cells. The patented flask design makes them the work horse of protein and DNA labs worldwide. The Ultra Yield Flasks come in standardized sizes of 125mL, 250mL, 500mL and 2.5L.",
     "key_features" : ["10x Increased Aeration Over Standard Shake Flasks",
                     "Increased DNA & Protein Production",
                     "Fully Scalable Results",
@@ -214,7 +190,7 @@
     "title" : "Plasmid+®",
     "subtitle" : "",
     "image" : "",
-    "description" : "PLASMID+® is an enriched liquid medium specifically designed for plasmid DNA production. PLASMID+® supports higher cell densities and plasmid yields than LB media. Maximum culture aeration is achieved using the Ultra Yield™ Flasks. OE.coli DH5α is the preferred host strain for use with PLASMID+® liquid medium. E.coli XL1-Blue also produce high quality plasmid DNA and may improve plasmid DNA yields with plasmids smaller than 3kb.",
+    "description" : "PLASMID+® is an enriched liquid medium specifically designed for plasmid DNA production. PLASMID+® supports higher cell densities and plasmid yields than LB media. Maximum culture aeration is achieved using the Ultra Yield® Flasks. OE.coli DH5α is the preferred host strain for use with PLASMID+® liquid medium. E.coli XL1-Blue also produce high quality plasmid DNA and may improve plasmid DNA yields with plasmids smaller than 3kb.",
     "key_features" : ["Medium specifically formulated for high DNA growth",
                     "Increased Super Coiled DNA per Liter",
                     "Use with: mini-prep, midi-prep, maxi-prep, and giga-prep",
@@ -224,7 +200,7 @@
                     "Sterile, ready to use. Simply add antibiotics and Grow!"
                     ],
     "related_product" : [
-        {"name" : "Ultra Yield™ Flasks", "link" : "/uyf/"},
+        {"name" : "Ultra Yield® Flasks", "link" : "/uyf/"},
         {"name" : "AirOtop™ Enhanced Seals", "link" : "/uyf/airotop/"}
         ]
 },{
@@ -232,7 +208,7 @@
     "title" : "AirOtop™ Enhanced Seals",
     "subtitle" : "",
     "image" : "",
-    "description" : "AirOtop™ Enhanced Seals (patented) are disposable, high gas exchange, sterile, simple seals for all shake flasks. Properties of the seal include a 0.2µm sterile barrier with a resealable membrane for use with Ultra Yield™ Flasks as well as other brand flasks. Multiple sizes are available to work with most commercially available shake flasks. Testing has been conducted by multiple customer with great results of up to 24 hours of growth. This testing included Protista (Algae), E.coli and other microbes which, has all resulted in improved growth and more aerobic growth. Also, showing that the pH of the cultures were more neutral.",
+    "description" : "AirOtop™ Enhanced Seals are disposable, high gas exchange, sterile, simple seals for all shake flasks. Properties of the seal include a 0.2µm sterile barrier with a resealable membrane for use with Ultra Yield® Flasks as well as other brand flasks. Multiple sizes are available to work with most commercially available shake flasks. Testing has been conducted by multiple customer with great results of up to 24 hours of growth. This testing included Protista (Algae), E.coli and other microbes which, has all resulted in improved growth and more aerobic growth. Also, showing that the pH of the cultures were more neutral.",
     "key_features" : ["0.2µm high gas exchange flask seal",
                     "Sterile liquid barrier",
                     "Increased aeration",
@@ -242,7 +218,7 @@
                     "Eliminates flask contamination"
                     ],
     "related_product" : [
-        {"name" : "Ultra Yield™ Flasks", "link" : "/uyf/"},
+        {"name" : "Ultra Yield® Flasks", "link" : "/uyf/"},
         {"name" : "Plasmid+® Media", "link" : "/uyf/plasmid-media/"}
         ]
 },{
@@ -258,7 +234,7 @@
     "title" : "SINGLE StEP® Flash Column",
     "subtitle" : "",
     "image" : "",
-    "description" : "At Thomson, we are aware of the need to customize available apparatus to the individual experiments. Our SINGLE StEP Empty Columns (patented) provide you the opportunity to fill different sized columns with a variety of sorbents and resins for purification applications. The wide range in which we offer these Columns means you are not limited by column size. SINGLE StEP® Empty Columns allow for the simple connection to FPLC/LPLC/MPLC systems.",
+    "description" : "At Thomson, we are aware of the need to customize available apparatus to the individual experiments. Our SINGLE StEP® Empty Columns provide you the opportunity to fill different sized columns with a variety of sorbents and resins for purification applications. The wide range in which we offer these Columns means you are not limited by column size. SINGLE StEP® Empty Columns allow for the simple connection to FPLC/LPLC/MPLC systems.",
     "key_features" : ["Acceptable for use with Gravity or FPLC/LPLC/MPLC",
                     "Multiple sizes for scales from 10mL-650mL (4g – 300g)",
                     "Durable design for pressures up to 200psi"

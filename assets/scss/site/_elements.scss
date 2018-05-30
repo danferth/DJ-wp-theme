@@ -243,11 +243,15 @@ label.error{
   cursor:pointer;
   z-index:80;
   position:relative;
+  border-radius:.5rem;
   transition:all 350ms;
   &:hover{
     background:$snow;
-    .tech-block-image-wrap img{
-      transform: scale(1.25);
+    .tech-block-image-wrap{
+      box-shadow: 0 0 3px 1px $base;
+      img{
+        transform: scale(1.25);
+      }
     }
   }
 }
@@ -276,7 +280,7 @@ label.error{
   }
 }
 .tech-block-image-wrap{
-  box-shadow: 0 0 5px 1px $iron;
+  box-shadow: 0 0 3px 1px $iron;
   border-radius:100%;
   margin:0 auto;
   overflow:hidden;
@@ -1359,14 +1363,14 @@ table.product-ref-table{
     margin-bottom:0;
     color:$tuatara;
     border-bottom:1px dashed $secondary-color;
-    span{
-      margin-top:0;
-      margin-bottom:.45rem;
-      font-size:.75rem;
-      font-family:$font-family-title-regular;
-      display:block;
-      color:$monsoon;
-    }
+  }
+  span{
+    margin-top:.25rem;
+    margin-bottom:.45rem;
+    font-size:.75rem;
+    font-family:$font-family-title-regular;
+    display:block;
+    color:$monsoon;
   }
   h5{
     margin-top:.5rem;
