@@ -423,16 +423,19 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
       //checks for length on result and dim or undim tiles
       $scope.noGo = function(main, nav){
         $(main).addClass('dim');
-        $(main).attr('data-mainblocklink', '');
-        
+        $(main).attr('data-techblocklink', '');
+        //prevent clicks on disabled tech nav bar links
         $(nav+" a").on('click', function(e){
           e.preventDefault();
         });
       };
       $scope.yesGo = function(main, nav, url){
         $(main).removeClass('dim');
-        $(main).attr('data-mainblocklink', url);
-        
+        $(main).attr('data-techblocklink', url);
+        //moved this here from site.js since the .dim class was added after site.js parsed causing a click responce from tech library blocks that were disabled with .dim
+        $(main).on('click', function(e){
+          window.location.assign(url);
+        });
         $(nav+" a").off();
       };
       if($scope.gi.length == 0 && $scope.faq.length == 0 && $scope.comp.length == 0){

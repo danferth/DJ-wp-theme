@@ -299,7 +299,20 @@ label.error{
   }
 }
 
-
+//class needed for dimming tiles
+.techlibrary-home-tiles .dim{
+  opacity:.25 !important;
+  cursor:none;
+  &:hover{
+    background:$white;
+    .tech-block-image-wrap{
+      box-shadow: 0 0 3px 1px $iron;
+      img{
+        transform: scale(1);
+      }
+    }
+  }
+}
 
 
 //=====================================================================
@@ -1341,21 +1354,6 @@ table.product-ref-table{
 //=========================tech library HOME===========================
 //=====================================================================
 //product info and selection div
-.techlibrary-home-tiles h2, .techlibrary-home-product-info h2{
-  margin: 0 0 1.5rem 0;
-  position:relative;
-  z-index:1;
-  //z-index:50;
-  &:after{
-    content:"";
-    position:absolute;
-    z-index:-1;
-    bottom: .25rem;
-    left:0;
-    width:100%;
-    border-bottom:1px solid $gainsboro;
-  }
-}
 
 .techlibrary-home-product-info{
   h3{
@@ -1408,20 +1406,7 @@ table.product-ref-table{
     }
   }
 }
-//class needed for dimming tiles
-.techlibrary-home-tiles .dim{
-  opacity:.25 !important;
-  cursor:none;
-  .inner-block:hover{
-    box-shadow:0 0 5px 0 $steel;
-    background:$ghost;
-    .main-block-image-wrap{
-      img{
-        transform:scale(1); 
-      }
-    }
-  }
-}
+
 //=====================================================================
 //=======================tech library nav bar==========================
 //=====================================================================

@@ -17,11 +17,6 @@ TweenLite.to(mBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
 =============*/
 
 var tBlocks = $('.tech-block');
-// click to get to `data-techblocklink`
-tBlocks.on('click',function(){
-	var link = $(this).attr('data-techblocklink');
-	window.location.assign(link);
-});
 
 TweenLite.to(tBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
 //=======================
