@@ -231,6 +231,9 @@ label.error{
       border-radius:.25rem;
       padding-left:.5rem;
     }
+    &:focus{
+      outline:none;
+    }
   }
 }
 .techlibrary-home-tiles{
@@ -1356,6 +1359,15 @@ table.product-ref-table{
 //product info and selection div
 
 .techlibrary-home-product-info{
+  background:$snow;
+  border-radius: .5rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 3px $gainsboro;
+  @media screen and (max-width:$small-breakpoint){
+    border-radius: 0;
+    box-shadow:none;
+    padding: 1rem .25rem;
+  } 
   h3{
     margin-top:0;
     margin-bottom:0;
