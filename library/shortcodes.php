@@ -227,8 +227,7 @@ function tech_nav_shortcode($atts, $content, $tag){
         <li class='tl-nav-v'><a href='tl/v/'   ng-class='{disable: !v.length}'  data-equalizer-watch='tlnav'>Videos</a></li>\n
         <li class='tl-nav-an'><a href='tl/an/' ng-class='{disable: !an.length}' data-equalizer-watch='tlnav'>Application Notes</a></li>\n
         <li class='tl-nav-pw'><a href='tl/pw/' ng-class='{disable: !pw.length}' data-equalizer-watch='tlnav'>Published Works</a></li>\n
-      </ul>\n
-      <input type='text' id='searchanything' ng-model='searchanything' placeholder='search anything!'/>";
+      </ul>";
   return $output;
 }
 add_shortcode('tech_nav', 'tech_nav_shortcode');
@@ -264,8 +263,9 @@ function techlibrary_top_shortcode($atts, $content, $tag){
     ".do_shortcode('[tech_select]')."
   </div>\n
   <div class='small-12 medium-6 column'>\n
-    <h5>Jump to a Different Section</h5>\n
+    <h5>Explore to a Different Category</h5>\n
     ".do_shortcode('[tech_nav]')."
+    <input class='tech-search-anything' type='text' id='searchanything' ng-model='searchanything' placeholder='search anything!'/>
   </div>\n
 </div>\n
 <hr/>";
