@@ -137,9 +137,21 @@ label.error{
     border-radius: 0 0 0 .5rem;
     box-shadow: none;
     border-top:none;
+    @media screen and (max-width: $small-breakpoint){
+      border-radius: 0;
+      margin:0;
+      border:none;
+    }
   }
   button{
     border-radius: 0 0 .5rem 0;
+    @media screen and (max-width: $small-breakpoint){
+      border-radius: 0;
+      margin:0;
+      background:$gainsboro;
+      color:$primary-dark;
+      
+    }
   }
 }
 //=====================================================================
@@ -221,18 +233,37 @@ label.error{
 //=====================================================================
 .tech-select-wrap{
   select{
-    border-radius:2rem;
-    padding-left:1.5rem;
+    border-radius: 2rem;
+    padding-left: 1.5rem;
+    margin-bottom: .5rem;
     @media screen and (max-width:$medium-breakpoint){
       padding-left:.5rem;
-      border-radius:1rem;
+      border-radius: .25rem;
     }
     @media screen and(max-width:$small-breakpoint){
-      border-radius:.25rem;
+      //border-radius:.25rem;
       padding-left:.5rem;
     }
     &:focus{
       outline:none;
+    }
+    &:hover:focus{
+      border-radius: 0;
+    }
+  }
+  p{
+    margin: 0 0 .5rem 1.5rem;
+    color:$jumbo;
+    font-size:.75rem;
+    cursor:pointer;
+    i{
+      color:$primary-color;
+    }
+    @media screen and (max-width:$medium-breakpoint){
+      margin-left:.5rem;
+    }
+    @media screen and (max-width:$small-breakpoint){
+      margin-left:.25rem;
     }
   }
 }
@@ -1359,20 +1390,21 @@ table.product-ref-table{
 //product info and selection div
 
 .techlibrary-home-product-info{
-  background:$snow;
-  border-radius: .5rem;
-  padding: 1rem 2rem;
-  box-shadow: 0 0 3px $gainsboro;
+  border: 1px dashed $jumbo;
+  padding: 2rem 0;
+  border-left:none;
+  border-right:none;
+  @media screen and (max-width:$medium-breakpoint){
+    padding: 1rem 0;
+  } 
   @media screen and (max-width:$small-breakpoint){
-    border-radius: 0;
-    box-shadow:none;
-    padding: 1rem .25rem;
+    background:$snow;
   } 
   h3{
     margin-top:0;
     margin-bottom:0;
     color:$tuatara;
-    border-bottom:1px dashed $secondary-color;
+    border-bottom:1px solid $jumbo;
   }
   span{
     margin-top:.25rem;
@@ -1401,7 +1433,7 @@ table.product-ref-table{
 .tech-home-product-info-features{}
 .tech-home-product-info-related{
   margin-top: rem-calc(28px);
-  border-top:1px dashed $secondary-color;
+  border-top:1px solid $jumbo;
 }
 
 //tiles div

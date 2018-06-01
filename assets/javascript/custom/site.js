@@ -15,10 +15,23 @@ TweenLite.to(mBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
 /*===========
 //tech blocks
 =============*/
-
 var tBlocks = $('.tech-block');
-
 TweenLite.to(tBlocks, .25, {opacity:1, delay:.5, ease:Power2.easeOut});
+
+//following is for the select and tech info on the main tech library page
+var techInfoTrigger = $('.selectHelp'),
+    techInfoTarget  = $('.techlibrary-home-product-info');
+//hide techInfoTarget
+techInfoTarget.hide();
+//open the module if "product" is selected & techInfoTrigger is clicked
+techInfoTrigger.on('click', function(e){
+  if(techInfoTarget.is(':hidden')){
+    techInfoTarget.slideDown(350);
+  }else{
+    techInfoTarget.slideUp(250);
+  }
+});
+
 //=======================
 //related products module
 //=======================
