@@ -259,12 +259,13 @@ function techlibrary_top_shortcode($atts, $content, $tag){
     ),$atts);
   $output = "<div class='".$a['class']." row'>\n
   <div class='small-12 medium-6 column'>\n
-    <h5>Search a Different Product</h5>\n
-    ".do_shortcode('[tech_select]')."
+    <h5>Search a Different Product or Change Category</h5>\n
+    ".do_shortcode('[tech_select]')."\n
+    ".do_shortcode('[tech_nav]')."
   </div>\n
   <div class='small-12 medium-6 column'>\n
-    <h5>Explore to a Different Category</h5>\n
-    ".do_shortcode('[tech_nav]')."
+    <h5>Search the Links Below</h5>\n
+    
     <input class='tech-search-anything' type='text' id='searchanything' ng-model='searchanything' placeholder='search anything!'/>
   </div>\n
 </div>\n
