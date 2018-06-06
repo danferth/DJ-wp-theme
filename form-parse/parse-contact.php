@@ -1,5 +1,6 @@
 <?php
 require_once("PHPMailer/PHPMailerAutoload.php");
+require_once("form-functions.php");
 date_default_timezone_set('America/Los_Angeles');
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'contact-form/';
@@ -17,8 +18,33 @@ $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $company = filter_var($_POST['company'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $comment = filter_var($_POST['message'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
+//Let's check for a few things and then go forward shall we
+
+//Honeypot variables
+$honeypotCSS = filter_var($POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$honeypotJS = filter_var($POST['your-email247htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+
+//Validate email
+$isEmailValid = "";
+if(filter_var($email, FILTER_VALIDATE_EMAIL)){
+  $isEmailValid = "yes";
+}else{
+  $isEmailValid = "no";
+}
+
+//lets test the error
+$query_string = '?first_name=' . $fname;
+$query_string .= '&success=error';
+header('Location: http://' . $server_dir . $next_page . $query_string);
+
+
+
+/*
+
 //for body and sending email
 $query_string = '?first_name=' . $fname;
+
+
 
 if ($_POST['title'] == "title"){
 	$title = "";
@@ -74,4 +100,7 @@ if ($_POST['title'] == "title"){
 				header('Location: http://' . $server_dir . $next_page . $query_string);
 		}
 	}
+	
+	
+	*/
 ?>

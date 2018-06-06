@@ -29,16 +29,6 @@ function true_url(){
     echo $output;
 };
 
-//form functions to trim
-function trim_value(&$value){
-  if(gettype($value) == 'string'){
-    $value = trim($value);
-  }
-  if(gettype($value) == 'array'){
-      array_walk($value, 'trim_value');
-  }
-};
-
 //login page changes
 //logo change
 function my_login_logo() { ?>

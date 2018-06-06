@@ -104,6 +104,16 @@ if($form_success == "true"){
 			confirmButtonText: 'OK'
 		});
 	";
+}elseif($form_success == "error"){
+	echo "
+		window.onload = swal({
+			title: 'Error',
+			text: 'It seems there was an error with your email <b>" . $first_name . "</b>, please make sure it is a valid email and try to submit the form again.',
+			type: 'error',
+			html: true,
+			confirmButtonText: 'OK'
+		});
+	";
 }
 
 ?>
