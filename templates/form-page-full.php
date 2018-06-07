@@ -98,17 +98,27 @@ if($form_success == "true"){
 	echo "
 		window.onload = swal({
 			title: 'Whoops',
-			text: 'Our apologies but there was an error <b>" . $first_name . "</b>, we have logged this and will have a fix soon!',
+			text: 'Our apologies but there was an error " . $first_name . ", we have logged this and will have a fix soon!',
 			type: 'error',
 			html: true,
 			confirmButtonText: 'OK'
 		});
 	";
-}elseif($form_success == "error"){
+}elseif($form_success == "email"){
 	echo "
 		window.onload = swal({
 			title: 'Error',
-			text: 'It seems there was an error with your email <b>" . $first_name . "</b>, please make sure it is a valid email and try to submit the form again.',
+			text: 'It seems there was an error with one or more of your email entries. " . $first_name . ", please make sure it is a valid email and try to submit the form again.',
+			type: 'error',
+			html: true,
+			confirmButtonText: 'OK'
+		});
+	";
+}elseif($form_success == "required"){
+	echo "
+		window.onload = swal({
+			title: 'Error',
+			text: 'It looks like you have missed some of the required fields in your attempt. Please make sure all fields with an <b>*</b> are completed and try submiting the form again.',
 			type: 'error',
 			html: true,
 			confirmButtonText: 'OK'

@@ -17,25 +17,50 @@ $phone   = filter_var($_POST['telephone'], FILTER_SANITIZE_NUMBER_INT);
 $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $company = filter_var($_POST['company'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $comment = filter_var($_POST['message'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-
-//Let's check for a few things and then go forward shall we
-
 //Honeypot variables
-$honeypotCSS = filter_var($POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$honeypotJS = filter_var($POST['your-email247htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$honeypotCSS = filter_var($_POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$honeypotJS = filter_var($_POST['your-email247htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
-//Validate email
-$isEmailValid = "";
-if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-  $isEmailValid = "yes";
-}else{
-  $isEmailValid = "no";
-}
+//set fname query
+$query_string = '?first_name=' . $fname;
+
+//==========================================================
+//Let's check for a few things and then go forward shall we
+//==========================================================
+
+//CHECK required inputs=====================================
+//put required variables into array
+$required = array($fname, $lname, $phone, $email, $company);
+//run array through check function
+checkRequired($required, $query_string, $server_dir, $next_page);
+
+
+//Validate email===========================================
+//put any emails that need to be validated into an array
+$checkTheseEmails = array($email);
+//check email validity function
+checkEmailValid($checkTheseEmails, $query_string, $server_dir, $next_page);
+  
+  
+//check the honeypots======================================
+//put honeypots into array
+$honeypots = array($honeypotCSS, $honeypotJS);
+//check if empty
+checkHoneypot($honeypots, $query_string, $server_dir, $next_page);
+
+echo"just for the record:<br/>honeycss is '".$honeypotCSS."'<br/>honeyjs is '".$honeypotJS."'";
+
+
+
+
+
+
+
+
+
+
 
 //lets test the error
-$query_string = '?first_name=' . $fname;
-$query_string .= '&success=error';
-header('Location: http://' . $server_dir . $next_page . $query_string);
 
 
 
