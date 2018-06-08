@@ -1,10 +1,31 @@
 <?php
+session_start();
 require_once("PHPMailer/PHPMailerAutoload.php");
 require_once("form-functions.php");
 date_default_timezone_set('America/Los_Angeles');
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'contact-form/';
 header('HTTP/1.1 303 See Other');
+
+//grab time stamp from form page in session
+if(isset($_SESSION['formLoadTime'])){
+  $formLoadTime = $_SESSION['formLoadTime'];
+  unset($_SESSION['formLoadTime']);
+}
+//check how long it took them to fill out form
+//$formLoadTime = $_POST['formLoadTime'];
+$formSubmitTime = time();
+
+//how many seconds
+$formTimeSeconds = $formSubmitTime - $formLoadTime;
+
+if($formTimeSeconds < 10){
+  
+}
+
+echo "<br/><br/>Form loaded = ".$formLoadTime."<br/>Form submit = ".$formSubmitTime."<br/><br/>";
+echo "Time to complete form = ".$formTimeSeconds;
+
 
 //trim post
 array_walk($_POST, 'trim_value');
@@ -32,26 +53,21 @@ $query_string = '?first_name=' . $fname;
 //put required variables into array
 $required = array($fname, $lname, $phone, $email, $company);
 //run array through check function
-checkRequired($required, $query_string, $server_dir, $next_page);
+checkRequired($required,  $server_dir, $next_page, $query_string);
 
 
 //Validate email===========================================
 //put any emails that need to be validated into an array
 $checkTheseEmails = array($email);
 //check email validity function
-checkEmailValid($checkTheseEmails, $query_string, $server_dir, $next_page);
+checkEmailValid($checkTheseEmails,  $server_dir, $next_page, $query_string);
   
   
 //check the honeypots======================================
 //put honeypots into array
 $honeypots = array($honeypotCSS, $honeypotJS);
 //check if empty
-checkHoneypot($honeypots, $query_string, $server_dir, $next_page);
-
-echo"just for the record:<br/>honeycss is '".$honeypotCSS."'<br/>honeyjs is '".$honeypotJS."'";
-
-
-
+checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
 
 
 
@@ -107,7 +123,7 @@ if ($_POST['title'] == "title"){
 				fwrite($fp,$error_date . " | general contact | " . $mail_error . "\n");
 				fclose($fp);
 				$query_string = '?success=false';
-				header('Location: http://' . $server_dir . $next_page . $query_string);
+				header('Location: https://' . $server_dir . $next_page . $query_string);
 			}else{
 			  $success_ip = $_SERVER['REMOTE_ADDR'];
 				$success_date = date('m\-d\-Y\-h:iA');
@@ -117,12 +133,12 @@ if ($_POST['title'] == "title"){
 				fwrite($fp,$success_message . "\n");
 				fclose($fp);
 				$query_string .= '&success=true';
-				header('Location: http://' . $server_dir . $next_page . $query_string);
+				header('Location: https://' . $server_dir . $next_page . $query_string);
 			}
 		}else{
 			$query_string = '?first_name=Edward';
 			$query_string .= '&success=true';
-				header('Location: http://' . $server_dir . $next_page . $query_string);
+				header('Location: https://' . $server_dir . $next_page . $query_string);
 		}
 	}
 	

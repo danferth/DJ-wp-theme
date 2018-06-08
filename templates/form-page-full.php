@@ -1,15 +1,21 @@
 <?php
-/*
-Template Name: FORM Full Width
+//Template Name: FORM Full Width
 
+
+//start session to set timestamp
+session_start();
+if(isset($_SESSION['formLoadTime'])){
+  unset($_SESSION['formLoadTime']);
+  $_SESSION['formLoadTime'] = time();
+}else{
+  $_SESSION['formLoadTime'] = time();
+};
+//grab the get from parse file
+$first_name = $_GET['first_name'];
 //grab get and custom fields
-*/
 if(isset($_GET['success'])){
 	$form_success = $_GET['success'];
 }
-
-$first_name = $_GET['first_name'];
-
 if(get_post_meta($post->ID, "form-parse")){
 $parse = '/wp-content/themes/TIC/form-parse/' . get_post_meta($post->ID, "form-parse", true) . '.php';
 }
@@ -34,6 +40,12 @@ get_header(); ?>
 
 			<div class="entry-content">
 				<?php echo "<form action='" . $parse . "' method='POST' id='" . $form_id . "'>"; 
+				
+				//here's an input to set a timestamp for when the form was loaded
+				//we will check this agaist a timestamp when it is submitted and 
+				//decide if it's a bot or not
+				//echo "<input type='hidden' name='formLoadTime' id='formLoadTime' value='".time()."' />"
+				
 				
 				/*
 				CUSTOM FIELDS NEEDED:
