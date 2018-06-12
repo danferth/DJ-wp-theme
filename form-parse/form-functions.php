@@ -54,20 +54,37 @@ function checkEmailValid($emailArray, $server_dir, $next_page, $query_string){
 function checkHoneypot($honeyArray,  $server_dir, $next_page, $query_string){
   $honeyCount = 0;
   foreach($honeyArray as $honey){
-    if(empty($honey) === false){
+    if($honey !== ''){
       ++$honeyCount;
     }
   }
   if($honeyCount > 0){
-  //   $query_string = '?first_name=Edward';
-		// $query_string .= '&success=true';
-		// header('Location: https://' . $server_dir . $next_page . $query_string);
+    $query_string = '?first_name=Edward';
+		$query_string .= '&success=true';
+		header('Location: https://' . $server_dir . $next_page . $query_string);
   }
 };
 //====================================================================
-//
+//Form tim to complete
 //====================================================================
-
+function formTimeCheck($formTimeLimit, $server_dir, $next_page, $query_string){
+  
+  if(!isset($_SESSION['formLoadTime'])){
+    $query_string .= '&success=false';
+    header('Location: https://' . $server_dir . $next_page . $query_string);
+  }else{
+    $formLoadTime = $_SESSION['formLoadTime'];
+    unset($_SESSION['formLoadTime']);
+    
+    $formSubmitTime = time();
+    $formTimeSeconds = $formSubmitTime - $formLoadTime;
+    
+    if($formTimeSeconds < $formTimeLimit){
+      $query_string .= '&success=false';
+      header('Location: https://' . $server_dir . $next_page . $query_string);
+    }
+  }
+};
 
 //end doc
 ?>

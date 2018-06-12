@@ -7,26 +7,6 @@ $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'contact-form/';
 header('HTTP/1.1 303 See Other');
 
-//grab time stamp from form page in session
-if(isset($_SESSION['formLoadTime'])){
-  $formLoadTime = $_SESSION['formLoadTime'];
-  unset($_SESSION['formLoadTime']);
-}
-//check how long it took them to fill out form
-//$formLoadTime = $_POST['formLoadTime'];
-$formSubmitTime = time();
-
-//how many seconds
-$formTimeSeconds = $formSubmitTime - $formLoadTime;
-
-if($formTimeSeconds < 10){
-  
-}
-
-echo "<br/><br/>Form loaded = ".$formLoadTime."<br/>Form submit = ".$formSubmitTime."<br/><br/>";
-echo "Time to complete form = ".$formTimeSeconds;
-
-
 //trim post
 array_walk($_POST, 'trim_value');
 
@@ -49,26 +29,30 @@ $query_string = '?first_name=' . $fname;
 //Let's check for a few things and then go forward shall we
 //==========================================================
 
+//CHECK form completion time=====================================
+formTimeCheck(10, $server_dir, $next_page, $query_string);
+
+echo "passed time check<br/>";
 //CHECK required inputs=====================================
 //put required variables into array
 $required = array($fname, $lname, $phone, $email, $company);
 //run array through check function
 checkRequired($required,  $server_dir, $next_page, $query_string);
 
-
+echo "passed input check<br/>";
 //Validate email===========================================
 //put any emails that need to be validated into an array
 $checkTheseEmails = array($email);
 //check email validity function
 checkEmailValid($checkTheseEmails,  $server_dir, $next_page, $query_string);
   
-  
+ echo "passed email check<br/>"; 
 //check the honeypots======================================
 //put honeypots into array
 $honeypots = array($honeypotCSS, $honeypotJS);
 //check if empty
 checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
-
+echo "passed honeypot check<br/>";
 
 
 
