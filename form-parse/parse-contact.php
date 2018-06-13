@@ -11,7 +11,11 @@ header('HTTP/1.1 303 See Other');
 array_walk($_POST, 'trim_value');
 
 //form variables
-$title   = filter_var($_POST['title'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+if ($_POST['title'] === "title"){
+	$title = "";
+}else{
+  $title   = filter_var($_POST['title'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+}
 $fname   = filter_var($_POST['firstName'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $lname   = filter_var($_POST['lastName'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $phone   = filter_var($_POST['telephone'], FILTER_SANITIZE_NUMBER_INT);
@@ -21,7 +25,6 @@ $comment = filter_var($_POST['message'], FILTER_SANITIZE_STRING, FILTER_FLAG_STR
 //Honeypot variables
 $honeypotCSS = filter_var($_POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $honeypotJS = filter_var($_POST['your-email247htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-
 //set fname query
 $query_string = '?first_name=' . $fname;
 
@@ -30,102 +33,72 @@ $query_string = '?first_name=' . $fname;
 //==========================================================
 
 //CHECK form completion time=====================================
-formTimeCheck(10, $server_dir, $next_page, $query_string);
+//first variable passed to function should be seconds for minimum completion
+formTimeCheck(5, $server_dir, $next_page, $query_string);
 
-echo "passed time check<br/>";
 //CHECK required inputs=====================================
 //put required variables into array
 $required = array($fname, $lname, $phone, $email, $company);
-//run array through check function
 checkRequired($required,  $server_dir, $next_page, $query_string);
 
-echo "passed input check<br/>";
 //Validate email===========================================
 //put any emails that need to be validated into an array
 $checkTheseEmails = array($email);
-//check email validity function
 checkEmailValid($checkTheseEmails,  $server_dir, $next_page, $query_string);
   
- echo "passed email check<br/>"; 
 //check the honeypots======================================
 //put honeypots into array
 $honeypots = array($honeypotCSS, $honeypotJS);
-//check if empty
 checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
-echo "passed honeypot check<br/>";
 
 
+//all must be good, lets send a few emails=================
 
+if (is_array($_POST)){
+	$body  = sprintf("<html>"); 
+	$body .= sprintf("<body>");
+	$body .= sprintf("<h2>Contact form submission results:</h2>\n");
+	$body .= sprintf("<hr />");
+	
+	$body .= sprintf("\nCompany: <b>%s</b><br />\n",$company);
+	$body .= sprintf("\nName: <b>%s %s</b><br />\n",$fname,$lname);
+	$body .= sprintf("\nTitle: <b>".$title."</b><br />\n");
+	$body .= sprintf("\nTelephone: <b>%s</b><br />\n",$phone);
+	$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
+	$body .= sprintf("<br />");
 
+	$body .= wordwrap(sprintf("\n<b>Message:</b> ".$comment),75,"<br/>");
+	$body .= sprintf("</body>");
+	$body .= sprintf("</html>");
 
-
-
-//lets test the error
-
-
-
-/*
-
-//for body and sending email
-$query_string = '?first_name=' . $fname;
-
-
-
-if ($_POST['title'] == "title"){
-	$title = "";
+	$mail = new PHPMailer;
+	$mail->setFrom('general_con@htslabs.com', 'Contact Form');
+	$mail->addReplyTo($email, $fname." ".$lname);
+	$mail->addAddress('general_con@htslabs.com', 'Contact Form');
+	$mail->Subject = "General Contact From - " . $company;
+	$mail->msgHTML($body);
+	if (!$mail->send()){
+		$mail_error = $mail->ErrorInfo;
+		$error_date = date('m\-d\-Y\-h:iA');
+		$log = "logs/error.txt";
+		$fp = fopen($log,"a+");
+		fwrite($fp,$error_date . " | general contact | " . $mail_error . "\n");
+		fclose($fp);
+		$query_string = '?success=false';
+		header('Location: https://' . $server_dir . $next_page . $query_string);
+		exit();
+	}else{
+	  $success_ip = $_SERVER['REMOTE_ADDR'];
+		$success_date = date('m\-d\-Y\-h:iA');
+		$success_message = $success_date . " | general contact | " . $success_ip . " | " . $email;
+		$log = "logs/success.txt";
+		$fp = fopen($log,"a+");
+		fwrite($fp,$success_message . "\n");
+		fclose($fp);
+		$query_string .= '&success=true';
+		header('Location: https://' . $server_dir . $next_page . $query_string);
+	}
 }
 
-	if (is_array($_POST)){
-		$body  = sprintf("<html>"); 
-		$body .= sprintf("<body>");
-		$body .= sprintf("<h2>Contact form submission results:</h2>\n");
-		$body .= sprintf("<hr />");
-		
-		$body .= sprintf("\nCompany: <b>%s</b><br />\n",$company);
-		$body .= sprintf("\nName: <b>%s %s</b><br />\n",$fname,$lname);
-		$body .= sprintf("\nTitle: <b>".$title."</b><br />\n");
-		$body .= sprintf("\nTelephone: <b>%s</b><br />\n",$phone);
-		$body .= sprintf("\nEmail: <b>%s</b><br />\n",$email);
-		$body .= sprintf("<br />");
 
-		$body .= wordwrap(sprintf("\n<b>Message:</b> ".$comment),75,"<br/>");
-		$body .= sprintf("</body>");
-		$body .= sprintf("</html>");
-
-		if (trim($_POST['important-input']) == ''){
-			$mail = new PHPMailer;
-			$mail->setFrom('general_con@htslabs.com', 'Contact Form');
-			$mail->addReplyTo($email, $fname." ".$lname);
-			$mail->addAddress('general_con@htslabs.com', 'Contact Form');
-			$mail->Subject = "General Contact From - " . $company;
-			$mail->msgHTML($body);
-			if (!$mail->send()){
-				$mail_error = $mail->ErrorInfo;
-				$error_date = date('m\-d\-Y\-h:iA');
-				$log = "logs/error.txt";
-				$fp = fopen($log,"a+");
-				fwrite($fp,$error_date . " | general contact | " . $mail_error . "\n");
-				fclose($fp);
-				$query_string = '?success=false';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
-			}else{
-			  $success_ip = $_SERVER['REMOTE_ADDR'];
-				$success_date = date('m\-d\-Y\-h:iA');
-				$success_message = $success_date . " | general contact | " . $success_ip . " | " . $email;
-				$log = "logs/success.txt";
-				$fp = fopen($log,"a+");
-				fwrite($fp,$success_message . "\n");
-				fclose($fp);
-				$query_string .= '&success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
-			}
-		}else{
-			$query_string = '?first_name=Edward';
-			$query_string .= '&success=true';
-				header('Location: https://' . $server_dir . $next_page . $query_string);
-		}
-	}
-	
-	
-	*/
 ?>

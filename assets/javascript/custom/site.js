@@ -250,13 +250,6 @@ var salesTiles      = $('.downloadable-files li'),
     wordTiles       = $('.word li'),
     zipTiles        = $('.zipfiles li');
     
-    // console.log(salesTiles.length);
-    // console.log(refTiles.length);
-    // console.log(twitterTiles.length);
-    // console.log(excelTiles.length);
-    // console.log(powerpointTiles.length);
-    // console.log(wordTiles.length);
-    // console.log(zipTiles.length);
 var sales_ref_tl = new TimelineMax();
 sales_ref_tl.add( TweenMax.staggerFrom(refTiles, 1, {delay:.25, y:300, opacity:0, ease:Circ.easeOut}, .20) );
 sales_ref_tl.play();

@@ -1,5 +1,7 @@
 <?php
+session_start();
 require_once("PHPMailer/PHPMailerAutoload.php");
+require_once("form-functions.php");
 date_default_timezone_set('America/Los_Angeles');
 header('HTTP/1.1 303 See Other');
 
@@ -130,16 +132,6 @@ $quoteNo7       = $_POST['quoteNo'][6];
 $quoteNo8       = $_POST['quoteNo'][7];
 $quoteNo9       = $_POST['quoteNo'][8];
 $quoteNo10      = $_POST['quoteNo'][9];
-$shipping1      = "";
-$shipping2      = "";
-$shipping3      = "";
-$shipping4      = "";
-$shipping5      = "";
-$shipping6      = "";
-$shipping7      = "";
-$shipping8      = "";
-$shipping9      = "";
-$shipping10     = "";
 array_walk($_POST['dateReq'], 'sanitize_str');
 $dateReq1       = $_POST['dateReq'][0];
 $dateReq2       = $_POST['dateReq'][1];
@@ -154,11 +146,22 @@ $dateReq10      = $_POST['dateReq'][9];
 //comments
 $comments       = filter_var($_POST['comments'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
+//Honeypot variables
+$honeypotCSS = filter_var($POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$honeypotJS = filter_var($POST['your-email247htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+
+
+
 //for redirect and query
 $first_name = $purchFname;
 $query_string = '?first_name=' . $first_name;
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = 'order/';
+
+
+
+
+
 
 	if (is_array($_POST)){
 

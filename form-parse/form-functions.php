@@ -28,6 +28,7 @@ function checkRequired($requiredArray,  $server_dir, $next_page, $query_string){
   if($requiredCount > 0){
     $query_string .= '&success=required';
     header('Location: https://' . $server_dir . $next_page . $query_string);
+    exit();
   }
 };
 //====================================================================
@@ -46,6 +47,7 @@ function checkEmailValid($emailArray, $server_dir, $next_page, $query_string){
   if($isEmailValid > 0){
     $query_string .= '&success=email';
     header('Location: https://' . $server_dir . $next_page . $query_string);
+    exit();
   }
 };
 //====================================================================
@@ -62,6 +64,7 @@ function checkHoneypot($honeyArray,  $server_dir, $next_page, $query_string){
     $query_string = '?first_name=Edward';
 		$query_string .= '&success=true';
 		header('Location: https://' . $server_dir . $next_page . $query_string);
+		exit();
   }
 };
 //====================================================================
@@ -72,16 +75,16 @@ function formTimeCheck($formTimeLimit, $server_dir, $next_page, $query_string){
   if(!isset($_SESSION['formLoadTime'])){
     $query_string .= '&success=false';
     header('Location: https://' . $server_dir . $next_page . $query_string);
+    exit();
   }else{
     $formLoadTime = $_SESSION['formLoadTime'];
     unset($_SESSION['formLoadTime']);
-    
     $formSubmitTime = time();
     $formTimeSeconds = $formSubmitTime - $formLoadTime;
-    
     if($formTimeSeconds < $formTimeLimit){
       $query_string .= '&success=false';
       header('Location: https://' . $server_dir . $next_page . $query_string);
+      exit();
     }
   }
 };
