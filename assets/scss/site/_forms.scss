@@ -1,7 +1,10 @@
 fieldset{
-    border-radius:.75rem;
-    box-shadow:0 0 5px rgba(darken(white, 30%), .2);
-    font-family:$font-family-title-regular;
+    border-radius:.5rem;
+    box-shadow: inset 0 0 5px rgba(darken(white, 30%), .2);
+    font-family:$font-family-body-regular;
+    border:2px solid $gainsboro;
+    border-left:none;
+    border-right:none;
     h2{
       margin-top:0;
     }

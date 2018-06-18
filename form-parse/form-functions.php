@@ -53,13 +53,14 @@ function checkEmailValid($emailArray, $server_dir, $next_page, $query_string){
 //====================================================================
 //check honeypots
 //====================================================================
-function checkHoneypot($honeyArray,  $server_dir, $next_page, $query_string){
+function checkHoneypot($honeyArray, $server_dir, $next_page, $query_string){
   $honeyCount = 0;
   foreach($honeyArray as $honey){
     if($honey !== ''){
       ++$honeyCount;
     }
   }
+
   if($honeyCount > 0){
     $query_string = '?first_name=Edward';
 		$query_string .= '&success=true';

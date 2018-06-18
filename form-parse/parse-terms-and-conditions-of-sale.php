@@ -22,8 +22,8 @@ if ($_POST['title'] === "Title"){
 $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $phone   = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
 //Honeypot variables
-$honeypotCSS = filter_var($POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$honeypotJS = filter_var($POST['your-email247htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$honeypotCSS = filter_var($_POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$honeypotJS = filter_var($_POST['your-email247htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
 //for body and sending email
 $query_string = '?first_name=' . $fname;
