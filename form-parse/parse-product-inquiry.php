@@ -1,5 +1,7 @@
 <?php
+session_start();
 require_once("PHPMailer/PHPMailerAutoload.php");
+require_once("form-functions.php");
 date_default_timezone_set('America/Los_Angeles');
 $server_dir = $_SERVER['HTTP_HOST'] . '/';
 $next_page = $_POST['path'];
@@ -14,18 +16,53 @@ $fname   = filter_var($_POST['first-name'], FILTER_SANITIZE_STRING, FILTER_FLAG_
 $lname   = filter_var($_POST['last-name'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $email   = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $phone   = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
-$address = filter_var($_POST['address'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-$building = filter_var($_POST['building'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+if(isset($_POST['address'])){
+  $address = filter_var($_POST['address'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+}
+if(isset($_POST['building'])){
+  $building = filter_var($_POST['building'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+}
 $city    = filter_var($_POST['city'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $state   = filter_var($_POST['state'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $zipcode = filter_var($_POST['zip-code'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
-
+//Honeypot variables
+$honeypotCSS = filter_var($_POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
 //for body and sending email
 $form_type    = $_POST['form'];
 $product_type = $_POST['product'];
 $path         = $_POST['path'];
 $query_string = '?first_name='.$fname.'&form_type='.$form_type.'&product='.$product_type;
+
+//==========================================================
+//Let's check for a few things and then go forward shall we
+//==========================================================
+
+//CHECK form completion time=====================================
+//first variable passed to function should be seconds for minimum completion
+formTimeCheck(3, $server_dir, $next_page, $query_string);
+
+//CHECK required inputs=====================================
+//put required variables into array
+$required_contact_quote = array($company, $fname, $lname, $email, $phone, $city, $state, $zipcode);
+$required_sample = array($company, $fname, $lname, $email, $phone, $address, $city, $state, $zipcode);
+if($form_type == 'contact' || $form_type == 'quote'){
+  checkRequired($required_contact_quote,  $server_dir, $next_page, $query_string);
+}elseif($form_type == 'sample'){
+  checkRequired($required_sample,  $server_dir, $next_page, $query_string);
+}
+//Validate email===========================================
+//put any emails that need to be validated into an array
+$checkTheseEmails = array($email);
+checkEmailValid($checkTheseEmails,  $server_dir, $next_page, $query_string);
+  
+//check the honeypots======================================
+//put honeypots into array
+$honeypots = array($honeypotCSS);
+checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
+
+//all must be good, lets send a few emails=================
+
 
 
 
@@ -68,37 +105,33 @@ $query_string = '?first_name='.$fname.'&form_type='.$form_type.'&product='.$prod
 		  $body .= sprintf("</html>");
 		}
 
-		if (trim($_POST['important-input']) == ''){
-			$mail = new PHPMailer;
-			$mail->setFrom('product_inq@htslabs.com', 'Product Inquiry');
-			$mail->addReplyTo($email, $fname." ".$lname);
-			$mail->addAddress('product_inq@htslabs.com', 'Product Inquiry');
-			$mail->Subject = "Website " . $_POST['form'] . " inquiry from - " . $company;
-			$mail->msgHTML($body);
-			if (!$mail->send()){
-				$mail_error = $mail->ErrorInfo;
-				$error_date = date('m\-d\-Y\-h:iA');
-				$log = "logs/error.txt";
-				$fp = fopen($log,"a+");
-				fwrite($fp,$error_date . " | ". $_POST['form'] . " inquiry | " . $mail_error . "\n");
-				fclose($fp);
-				$query_string = '?success=false';
-				header('Location: http://' . $server_dir . $next_page . $query_string);
-			}else{
-			  $success_ip = $_SERVER['REMOTE_ADDR'];
-				$success_date = date('m\-d\-Y\-h:iA');
-				$success_message = $success_date . " | ". $_POST['form'] . " inquiry | " . $success_ip . " | " . $email;
-				$log = "logs/success.txt";
-				$fp = fopen($log,"a+");
-				fwrite($fp,$success_message . "\n");
-				fclose($fp);
-				$query_string .= '&success=true';
-				header('Location: http://' . $server_dir . $next_page . $query_string);
-			}
+
+		$mail = new PHPMailer;
+		$mail->setFrom('product_inq@htslabs.com', 'Product Inquiry');
+		$mail->addReplyTo($email, $fname." ".$lname);
+		$mail->addAddress('product_inq@htslabs.com', 'Product Inquiry');
+		$mail->Subject = "Website " . $_POST['form'] . " inquiry from - " . $company;
+		$mail->msgHTML($body);
+		if (!$mail->send()){
+			$mail_error = $mail->ErrorInfo;
+			$error_date = date('m\-d\-Y\-h:iA');
+			$log = "logs/error.txt";
+			$fp = fopen($log,"a+");
+			fwrite($fp,$error_date . " | ". $_POST['form'] . " inquiry | " . $mail_error . "\n");
+			fclose($fp);
+			$query_string = '?success=false';
+			header('Location: https://' . $server_dir . $next_page . $query_string);
 		}else{
-			$query_string = '?first_name=Edward';
+		  $success_ip = $_SERVER['REMOTE_ADDR'];
+			$success_date = date('m\-d\-Y\-h:iA');
+			$success_message = $success_date . " | ". $_POST['form'] . " inquiry | " . $success_ip . " | " . $email;
+			$log = "logs/success.txt";
+			$fp = fopen($log,"a+");
+			fwrite($fp,$success_message . "\n");
+			fclose($fp);
 			$query_string .= '&success=true';
-				header('Location: http://' . $server_dir . $next_page . $query_string);
+			header('Location: https://' . $server_dir . $next_page . $query_string);
 		}
 	}
+	
 ?>

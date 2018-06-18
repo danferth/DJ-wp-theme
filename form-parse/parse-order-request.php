@@ -399,6 +399,7 @@ if (is_array($_POST)){
   	fclose($fp);
   	$query_string = '?success=false';
   	header('Location: https://' . $server_dir . $next_page . $query_string);
+  	exit();
   }else{
     $success_ip = $_SERVER['REMOTE_ADDR'];
   	$success_date = date('m\-d\-Y\-h:iA');

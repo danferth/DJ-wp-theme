@@ -2,7 +2,14 @@
 /*
 Template Name: Full Width
 */
-
+//start session to set timestamp
+session_start();
+if(isset($_SESSION['formLoadTime'])){
+  unset($_SESSION['formLoadTime']);
+  $_SESSION['formLoadTime'] = time();
+}else{
+  $_SESSION['formLoadTime'] = time();
+};
 //for forms
 if(isset($_GET['success'])){
 	$form_success = $_GET['success'];
@@ -83,6 +90,26 @@ if($form_success == "true"){
 		window.onload = swal({
 			title: 'Whoops',
 			text: 'Our apologies but there was an error <b>" . $first_name . "</b>, we have logged this and will have a fix soon!',
+			type: 'error',
+			html: true,
+			confirmButtonText: 'OK'
+		});
+	";
+}elseif($form_success == "email"){
+	echo "
+		window.onload = swal({
+			title: 'Error',
+			text: 'It seems there was an error with one or more of your email entries. " . $first_name . ", please make sure it is a valid email and try to submit the form again.',
+			type: 'error',
+			html: true,
+			confirmButtonText: 'OK'
+		});
+	";
+}elseif($form_success == "required"){
+	echo "
+		window.onload = swal({
+			title: 'Error',
+			text: 'It looks like you have missed some of the required fields in your attempt. Please make sure all fields with an <b>*</b> are completed and try submiting the form again.',
 			type: 'error',
 			html: true,
 			confirmButtonText: 'OK'

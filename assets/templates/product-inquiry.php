@@ -30,7 +30,7 @@
 				    <input type="text" name="zip-code" placeholder="Zip*" ng-value="zipcode" required/>
 				</div>
 				<div class="small-12 medium-12 column">
-				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
+				  <input type='text' name='your-name925htj' id='your-name925htj' placeholder='your name' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
 				  <input type="hidden" name="form" value="contact"/>
 					<input type="hidden" name="product" ng-value="product" />
 					<input type="hidden" name="science" ng-value="science" />
@@ -78,7 +78,7 @@
 				    <input type="text" name="zip-code" placeholder="Zip*" ng-value="zipcode" required/>
 				</div>
 				<div class="small-12 medium-12 column">
-				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
+				  <input type='text' name='your-name925htj' id='your-name925htj' placeholder='your name' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
 				  <input type="hidden" name="form" value="sample"/>
 					<input type="hidden" name="product" ng-value="product" />
 					<input type="hidden" name="science" ng-value="science" />
@@ -121,7 +121,7 @@
 				    <input type="text" name="zip-code" placeholder="Zip*" ng-value="zipcode" required/>
 				</div>
 				<div class="small-12 medium-12 column">
-				  <input class='important-input' type='text' name='important-input' id='important-input' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
+				  <input type='text' name='your-name925htj' id='your-name925htj' placeholder='your name' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
 				  <input type="hidden" name="form" value="quote"/>
 					<input type="hidden" name="product" ng-value="product" />
 					<input type="hidden" name="science" ng-value="science" />

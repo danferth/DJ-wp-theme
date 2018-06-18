@@ -38,3 +38,10 @@
 06-13-2018-12:01PM | new order | 10.240.0.42 | dan@boomvile.com
 06-13-2018-12:03PM | new order | 10.240.1.78 | dan@boomvile.com
 06-15-2018-10:31AM | new order | 10.240.1.78 | dan@boomvile.com
+06-18-2018-03:41PM | quote inquiry | 10.240.2.147 | dan@boomvile.com
+06-18-2018-03:42PM | contact inquiry | 10.240.0.231 | dan@boomvile.com
+06-18-2018-03:42PM | quote inquiry | 10.240.0.171 | dan@boomvile.com
+06-18-2018-03:43PM | contact inquiry | 10.240.2.147 | dan@boomvile.com
+06-18-2018-03:43PM | quote inquiry | 10.240.1.78 | dan@boomvile.com
+06-18-2018-03:44PM | contact inquiry | 10.240.0.207 | dan@boomvile.com
+06-18-2018-03:44PM | sample inquiry | 10.240.0.116 | dan@boomvile.com
