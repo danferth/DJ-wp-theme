@@ -16,9 +16,8 @@ $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 //font family variables
-$body-font-family:      $font-family-body-regular;
+$body-font-family:   $font-family-body-regular;
 $header-font-family: $font-family-title-bold;
-$button-font-family: $font-family-title-regular;
 // $label-font-family: $body-font-family;
 // $price-title-font-family: $body-font-family;
 // $price-money-font-family: $body-font-family;
@@ -259,6 +258,10 @@ $tabs-navigation-active-font-color: $white;
 $tabs-navigation-font-size: rem-calc(14);
 $tabs-content-margin-bottom: rem-calc(24);
 
+// 05. Buttons
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$button-bg-color: $primary-dark;
+$button-bg-hover: $primary-color;
 
 
 

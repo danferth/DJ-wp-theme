@@ -1,6 +1,6 @@
 <div class="product-inquiry-module small-12 column" ng-controller="inquiryController">
   	<div class="product-inquiry small-12 column">
-		<button class="product-inquiry-button buttom expand" data-text="Contact Me">Contact Me</button>
+		<button class="product-inquiry-button button expand" data-text="Contact Me">Contact Me</button>
 		<form class="product-inquiry-form" id="product-inquiry-contact" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-12 column">
@@ -44,7 +44,7 @@
 		</form>
 	</div>
 	<div class="product-inquiry small-12 column">
-		<button class="product-inquiry-button buttom expand" data-text="Get a Sample">Get a Sample</button>
+		<button class="product-inquiry-button button expand" data-text="Get a Sample">Get a Sample</button>
 		<form class="product-inquiry-form" id="product-inquiry-sample" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-12 column">
@@ -93,7 +93,7 @@
 	</div>
 	
 	<div class="product-inquiry small-12 column">
-		<button class="product-inquiry-button buttom expand" data-text="Get a Quote">Get a Quote</button>
+		<button class="product-inquiry-button button expand" data-text="Get a Quote">Get a Quote</button>
 		<form class="product-inquiry-form" id="product-inquiry-quote" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-12 column">

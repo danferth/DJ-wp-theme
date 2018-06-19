@@ -729,9 +729,10 @@ add_shortcode('gi_link', 'gi_link_shortcode');
 function important_input_shortcode($atts, $content, $tag){
   //you have to have autocomplete set to a randonm string so
   //chrome will not autocomplete the hidden fields.  If set to off chrome still autocompletes
-  $rand_str = substr(md5(rand()), 0, 7);
-  $output = "<input type='text' name='your-name925htj' id='your-name925htj' placeholder='your name' autocomplete='". $rand_str ."'/>\n
-             <input type='text' name='your-email247htj' id='your-email247htj' placeholder='your email' autocomplete='". $rand_str ."'/>";
+  $rand_str1 = substr(md5(rand()), 0, 7);
+  $rand_str2 = substr(md5(rand()), 0, 7);
+  $output = "<input type='text' name='your-name925htj' id='your-name925htj' autocomplete='". $rand_str1 ."'/>\n
+             <input type='text' name='your-email247htj' id='your-email247htj' autocomplete='". $rand_str2 ."'/>";
   return $output;
 }
 add_shortcode('important_input', 'important_input_shortcode');

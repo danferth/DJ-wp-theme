@@ -1,6 +1,14 @@
+form{
+  font-family: $font-family-body-regular;
+  #your-name925htj, #your-email247htj{
+  color:$white;
+  border: none;
+  background:$white;
+}
+}
 fieldset{
     border-radius:.5rem;
-    box-shadow: inset 0 0 5px rgba(darken(white, 30%), .2);
+    box-shadow: inset 0 0 5px 0px $snow;
     font-family:$font-family-body-regular;
     border:2px solid $gainsboro;
     border-left:none;
@@ -24,6 +32,7 @@ fieldset{
     }
     textarea{
         box-shadow:none;
+        border-radius: 0 .25rem 0 .25rem;
         &:focus{
             background:darken(white, 3%);
             border-radius:5px;
@@ -37,5 +46,8 @@ fieldset{
         padding:0 1rem;
         background:$silver;
         border-radius:1.5rem;
+    }
+    input[type="submit"]{
+      border-radius: .25rem;
     }
 }
