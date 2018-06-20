@@ -1220,7 +1220,7 @@ table.product-ref-table{
   cursor: none;
   font-family: $font-family-body-condensed;
   color:$steel;
-  i.fa-arrow-up{
+  i.fa-arrow-up, i.fa-video-camera{
     color:$aluminum;
   }
   i.fa-file-pdf-o{
@@ -1268,6 +1268,7 @@ table.product-ref-table{
   margin-bottom:1rem;
   video{
     width:100%;
+    border-radius: .25rem;
   }
 }
 
