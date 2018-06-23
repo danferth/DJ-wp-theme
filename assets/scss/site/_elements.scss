@@ -451,21 +451,64 @@ video.tech-video-page-single{
 //=====================================================================
 //=======================Distributors Page=============================
 //=====================================================================
-.distributor-single-view{
-  background:$ghost;
-  //margin-bottom:.6rem;
-  //padding-bottom:1rem;
-  h3.company{
+.to-view{
+  padding:0;
+  p{
+    font-size: .8rem;
     color:$charcoal;
+    background:$ghost;
+    padding:.5rem;
+    margin: 0;
+    border-radius:.25rem;
+    display:inline-block;
+  }
+  i{
+    color:rgba($primary-color, .5);
+  }
+}
+.vendor-face{
+  background:$white-smoke;
+  text-align:center;
+  border-radius: .5rem 0 0 .5rem;
+  margin-top: 1rem;
+}
+.vendor-face-wrap{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  width:100%;
+  height:100%;
+  i{
+    color:rgba($primary-dark, .15);
+    text-shadow: 0 1px 0 $white;
+    font-size:8rem;
+  }
+}
+.distributor-single-view{
+  border-radius: 0 .5rem .5rem 0;
+  background:$white-smoke;
+  padding-bottom:1.5rem;
+  margin-top:1rem;
+  .column{
+    padding-left:0;
+  }
+  h3.company{
+    color:$oil;
     text-shadow:0 1px 0 $white;
     margin:1rem 0 0 0;
   }
   ul.products{
-    color:$base;
+    color:$charcoal;
     text-shadow:0 1px 0 $white;
     font-style:italic;
+    font-size: .8rem;
     padding:0;
-    margin:0;
+    margin:0 0 .6rem 0;
+    &:before{
+    content: "Products: ";
+    font-weight:bold;
+    font-style:normal;
+  }
     li{
       display:inline;
       margin-right:.5rem;
@@ -481,22 +524,31 @@ video.tech-video-page-single{
     }
   }
   p, pre{
-    margin:.5rem 0;
+    margin:0rem 0 .5rem 0;
     text-shadow:0 1px 0 $white;
+    font-size: .8rem;
+    color:$oil;
+    a{
+      border:none;
+      text-shadow: 0 1px 0 $white;
+      &:hover{
+        text-decoration:underline;
+        &:before{
+          display:none;
+        }
+      }
+    }
+    i{
+      margin-right:.25rem;
+      color:$monsoon;
+    }
   }
+  
   .address{
-    font-size:.8rem;
-    color:$iron;
-  }
-  .phone:before, .fax:before{
-    font:normal normal normal 14px/1 'FontAwesome';
-    margin-right:.25rem;
-  }
-  .phone:before{
-    content:"\f098";
-  }
-  .fax:before{
-    content:"\f1ac";
+    color:$monsoon;
+    margin: 0;
+    display:inline-block;
+    border-bottom:1px dashed $gainsboro;
   }
   .notes:before{
     content:"Notes:";
@@ -505,41 +557,31 @@ video.tech-video-page-single{
   }
 }
 .distributor-form{
-  //background:$info-color;
-   ul.button-group{
-    li{
-      a.button{
-      margin-bottom:.5rem;
-      }
-    }
+  border-radius: .5rem 0 0 .5rem;
+  background:$white-smoke;
+  border-right:2px solid $primary-light;
+  label{
+    font-family:$font-family-body-condensed;
+    color:$oil;
+    margin-bottom: 1rem;
+  }
+  input[type="radio"]{
+    margin: -1px .25rem 0 0;
+    vertical-align:middle;
   }
 }
-.joyride-help{
-  color:$iron;
-  font-size:.875rem;
-  text-align:center;
-  margin: .6rem 0;
-  transition:color 250ms;
-  cursor:pointer;
-  i{
-    color:scale-color($primary-color, $lightness:50%, $saturation:-50%);
-    transition:color 250ms;
-  }
-  &:hover{
-    color:$charcoal;
-    i{
-      color:$primary-color;
-    }
-  }
+.vendor-results{
+  padding:0;
 }
 .distributor-id-btn{
   background:transparent;
   margin: 0;
   padding: 0;
-  color:scale-color($secondary-color, $lightness:-25%, $saturation:15%);
+  color:rgba($primary-color, .5);
+  transition: color 350ms;
   &:hover{
     background:transparent;
-    color:$primary-color;
+    color:$primary-dark;
   }
 }
 .secure-email-target{

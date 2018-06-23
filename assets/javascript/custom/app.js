@@ -248,7 +248,7 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', '$filter', fu
     //grab JSON data
   dataFactory.get_distributors().then(function(responce){
     $scope.distributors = responce.data;
-    $scope.sd = $filter('filter')($scope.distributors, {id : 44})[0];
+    $scope.sd = "";
     
     $scope.$watch('distId', function(){
       if($scope.getStorage('distributor')){
@@ -277,7 +277,6 @@ tic.controller('distController', ['$scope', '$sce', 'dataFactory', '$filter', fu
     $scope.showEmail = function($event){
       var email_target = $(event.target);
       email_target.text(this.d.email);
-      console.log(d.email);
     }
 
   });
