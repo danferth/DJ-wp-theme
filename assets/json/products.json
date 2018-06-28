@@ -1548,9 +1548,9 @@
 	},{
 		"line" : "OG",
 		"series" : "accessory",
-		"title" : "Vented Cap for Bioreactor Trap",
+		"title" : "Bioreactor Exhaust Cap",
 		"description1" : "2' C-Flex&reg; (I.D. 1/4\" x O.D. 3/8\") Tubing | Sterile",
-		"description2" : "Use with Optimum Growth&trade; 1.6L Flask",
+		"description2" : "Use with Optimum Growth&trade; 1.6L Flask & bioreactor",
 		"partNum" : "931713",
 		"partNumber" : [{"num" : "931713", "qty" : "8"}],
 		"image" : "931713_lg.jpg",

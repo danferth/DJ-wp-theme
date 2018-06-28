@@ -13,10 +13,10 @@ get_header(); ?>
 
 		<div id="watch" class="small-12 columns">
 			<section id="stargazers">
-				<a href="https://www.linkedin.com/company/thomson-instrument">Thomson Instrument Company</a>
+				<a href="https://www.linkedin.com/company/thomson-instrument"></a>
 			</section>
 			<section id="twitter">
-				<a href="https://twitter.com/tic_2017">@tic_2017</a>
+				<a href="https://twitter.com/tic_2017"></a>
 			</section>
 		</div>
 

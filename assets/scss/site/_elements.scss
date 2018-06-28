@@ -461,16 +461,27 @@ video.tech-video-page-single{
     margin: 0;
     border-radius:.25rem;
     display:inline-block;
+    span{
+      margin-right:.5rem;
+      margin-left:.25rem;
+      font-size:1rem;
+      i{color:$oil;}
+    }
   }
   i{
     color:rgba($primary-color, .5);
   }
 }
 .vendor-face{
-  background:$white-smoke;
+  border:1px solid $gainsboro;
+  border-right:1px dotted $silver;
   text-align:center;
   border-radius: .5rem 0 0 .5rem;
   margin-top: 1rem;
+  @media screen and (max-width:$medium-breakpoint){
+    border-left:none;
+    border-radius:0;
+  }
 }
 .vendor-face-wrap{
   display:flex;
@@ -479,16 +490,20 @@ video.tech-video-page-single{
   width:100%;
   height:100%;
   i{
-    color:rgba($primary-dark, .15);
-    text-shadow: 0 1px 0 $white;
+    color:rgba($primary-dark, .07);
     font-size:8rem;
   }
 }
 .distributor-single-view{
   border-radius: 0 .5rem .5rem 0;
-  background:$white-smoke;
+  border:1px solid $gainsboro;
+  border-left:none;
   padding-bottom:1.5rem;
   margin-top:1rem;
+  @media screen and(max-width:$medium-breakpoint){
+    border-radius:0;
+    border-right:none;
+  }
   .column{
     padding-left:0;
   }
@@ -558,8 +573,8 @@ video.tech-video-page-single{
 }
 .distributor-form{
   border-radius: .5rem 0 0 .5rem;
-  background:$white-smoke;
-  border-right:2px solid $primary-light;
+  background:$ghost;
+  border-right:4px solid $smoke;
   label{
     font-family:$font-family-body-condensed;
     color:$oil;
@@ -572,6 +587,15 @@ video.tech-video-page-single{
 }
 .vendor-results{
   padding:0;
+  table{
+    margin-bottom:0;
+    a{
+      &:hover{
+        color:$primary-dark;
+        border-bottom:1px dashed $primary-dark;
+      }
+    }
+  }
 }
 .distributor-id-btn{
   background:transparent;
@@ -587,6 +611,10 @@ video.tech-video-page-single{
 .secure-email-target{
   color:$primary-color;
   cursor:pointer;
+  &:hover{
+    color:$primary-dark;
+    border-bottom:1px dashed $primary-dark;
+  }
 }
 
 //=====================================================================
@@ -647,15 +675,77 @@ video.tech-video-page-single{
 //=====================================================================
 //=========================product referance table=====================
 //=====================================================================
-table.product-ref-table{
-  th, tr, td{
-    cursor:pointer;
+.reset-form{
+  color:$primary-dark;
+  text-shadow: 0 1px 0 $white;
+  font-size:.8rem;
+  font-family: $font-family-body-condensed;
+  margin:.25rem 1rem 1rem 0;
+  font-weight:bold;
+  text-align:right;
+  display:block;
+  cursor:pointer;
+}
+.radio-target-reset{
+  display:none;
+}
+.product-search{
+  background:$ghost;
+  padding-top:1rem;
+  border-radius: .5rem 0 0 .5rem;
+  background:$ghost;
+  border-right:4px solid $smoke;
+  ul{
+    margin-left:0;
+    margin-bottom: .5rem;
+    li{
+      list-style:none;
+    }
+    ul{
+      margin-left:1rem;
+      li{
+        margin-bottom:0;
+      }
+    }
   }
-  tr:hover{
-    transition:all 300ms;
-    &:hover{
-    background:$secondary-color;
-    box-shadow:inset 3px 0 0 $primary-color;
+  label{
+    font-family:$font-family-body-condensed;
+    color:$oil;
+  }
+  input[type="radio"]{
+    display:none;
+  }
+  i.fa{
+    margin-right:.25rem;
+    font-size: .7rem;
+  }
+  input[type="text"]{
+    border-radius:1rem;
+    padding-left:1rem;
+    margin-bottom:0;
+  }
+}
+.product-search-mobile{
+  input{
+    
+  }
+}
+
+
+
+.product-ref-table{
+  padding:0;
+  table{
+    margin-bottom:0;
+    th, tr, td{
+      cursor:pointer;
+    }
+    tr:hover{
+      transition:all 300ms;
+      &:hover{
+      background:$secondary-color;
+      box-shadow:inset 3px 0 0 $primary-color;
+      }
     }
   }
 }
