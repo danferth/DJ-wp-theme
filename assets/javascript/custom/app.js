@@ -322,10 +322,33 @@ tic.controller('productsController', ['$scope', function($scope){
   
   $scope.sortType = "line";
   $scope.sortReverse = false;
+  $scope.search = "";
+  $scope.prodLine = "";
+  $scope.prodSeries = "";
+  
+  // $('.radio-trigger').on('click', function(e){
+  //   $scope.prodLine = "";
+  //   $scope.prodSeries = "";
+  //   $scope.search = "";
+  //   $scope.$apply();
+  // });
+  
+  $scope.newTarget = function(e){
+    $scope.prodSeries = ""
+  };
+  
+  $scope.resetForm = function(e){
+    $scope.prodLine = "";
+    $scope.prodSeries = "";
+    $scope.search = "";
+    //$scope.$apply();
+  };
   
   $scope.goToProduct = function(n){
     window.location.href = url + "/" + n;
   };
+  
+  
 }]);
 
 //=====Product pages=====

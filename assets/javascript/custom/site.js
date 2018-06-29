@@ -235,6 +235,7 @@ $('.radio-accordian').hide();
 
 //circle thing
 $('input[type="radio"]').on('change', function(e){
+  console.log('triggered<br/>');
   $('input[type="radio"]').each(function(){
     if($(this).is(':checked')){
       $(this).siblings('i').removeClass('fa-circle-o');
@@ -254,25 +255,25 @@ $('.radio-trigger').on('click', function(e){
   $('input[type="radio"].yup').prop('checked',false);
   //and then remove the class that tells us it was open
   $('input[type="radio"].yup').removeClass('yup');
-  //now click the reset radio so angular zeros the variable for series and search (incase they have a value for the search box)
-  $('.radio-target-reset-series, .radio-target-reset-search').prop('checked', true).trigger('click');
 });
 
-$('.radio-target').on('click', function(e){
   //If you click an open accordian's radio add a class to it
+$('.radio-target').on('click', function(e){
   $(this).addClass('yup');
 });
 
-//click to clear all form inputs
 $('.reset-form').on('click', function(e){
   $('input[type="radio"].yup').removeClass('yup');
-  $('.radio-accordian').hide();
-  $('.product-search input[type="text"]').val("").trigger('submit');
-  $('.product-search input[type="radio"]').prop('checked', false);
-  $('.radio-target-reset-series, .radio-target-reset-line, .radio-target-reset-search').prop('checked', true).trigger('click');
+    $('.radio-accordian').hide();
+    $('input[type="radio"]').prop('checked', false);
+  $('input[type="radio"]').each(function(){
+    var i = $(this).siblings('i');
+    if(i.hasClass('fa-check-circle-o')){
+      i.removeClass('fa-check-circle-o');
+      i.addClass('fa-circle-o');
+    }
+  });
 });
-
-
 
 //==========================================
 //===============.info-module===============

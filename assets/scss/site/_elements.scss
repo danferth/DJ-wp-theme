@@ -88,7 +88,19 @@ label.error{
 .circle{
   border-radius:100%;
 }
-
+//radio button swap
+label{
+  i.fa-check-circle-o, i.fa-circle-o{
+    margin-right:.25rem;
+    margin-top: -1px;
+    font-size: .7rem;
+    vertical-align:middle;
+    color:$steel;
+  }
+  input[type="radio"]{
+    display:none;
+  }
+}
 //=====================================================================
 //========================FULL WIDTH CSS===============================
 //=====================================================================
@@ -578,11 +590,7 @@ video.tech-video-page-single{
   label{
     font-family:$font-family-body-condensed;
     color:$oil;
-    margin-bottom: 1rem;
-  }
-  input[type="radio"]{
-    margin: -1px .25rem 0 0;
-    vertical-align:middle;
+    margin-bottom: .5rem;
   }
 }
 .vendor-results{
@@ -675,29 +683,34 @@ video.tech-video-page-single{
 //=====================================================================
 //=========================product referance table=====================
 //=====================================================================
-.reset-form{
-  color:$primary-dark;
-  text-shadow: 0 1px 0 $white;
-  font-size:.8rem;
-  font-family: $font-family-body-condensed;
-  margin:.25rem 1rem 1rem 0;
-  font-weight:bold;
-  text-align:right;
-  display:block;
-  cursor:pointer;
-}
-.radio-target-reset{
-  display:none;
-}
 .product-search{
   background:$ghost;
   padding-top:1rem;
   border-radius: .5rem 0 0 .5rem;
   background:$ghost;
   border-right:4px solid $smoke;
+  .reset-form{
+    color:$primary-dark;
+    text-shadow: 0 1px 0 $white;
+    font-size:.8rem;
+    font-family: $font-family-body-condensed;
+    margin:.25rem 1rem 1rem 0;
+    font-weight:bold;
+    text-align:right;
+    display:block;
+    cursor:pointer;
+    &:hover{
+      text-decoration:underline;
+    }
+  }
+  .radio-accordian-wrap{
+    margin-bottom: .5rem;
+    .radio-accordian-wrap{
+      margin-bottom:0;
+    }
+  }
   ul{
     margin-left:0;
-    margin-bottom: .5rem;
     li{
       list-style:none;
     }
@@ -711,13 +724,7 @@ video.tech-video-page-single{
   label{
     font-family:$font-family-body-condensed;
     color:$oil;
-  }
-  input[type="radio"]{
-    display:none;
-  }
-  i.fa{
-    margin-right:.25rem;
-    font-size: .7rem;
+    text-shadow:0 1px 0 $white;
   }
   input[type="text"]{
     border-radius:1rem;
