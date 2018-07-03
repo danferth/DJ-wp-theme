@@ -53,6 +53,14 @@
 	</head>
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
+<!-- loader -->
+<div class="loader">
+  <div class="loaderAnimation">
+    <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
+  </div>
+  </div>
+</div>
+<!-- end loader -->
 <div class="railNav">
 	<ul>
 		<li><a href="https://twitter.com/tic_2017" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

@@ -7,6 +7,25 @@
     display:none;
   }
 }
+//loader for page loads
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 6000;
+  background: rgba($white, .95);
+  .loaderAnimation{
+    font-size:3rem;
+    color:$white;
+    text-shadow:0 0 3px $charcoal;
+  }
+}
 //addSearch logo removal
 #addsearch-logo { display: none !important; }
 //classes for nav bar
