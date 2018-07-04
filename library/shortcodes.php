@@ -190,7 +190,7 @@ function tech_select_shortcode($atts, $content, $tag){
     ), $atts);
   $output = "
     <select class='".$a['class']."' name='product' ng-model='product' ng-change='setStorage(\"tl_subLine\", product)'>\n
-      <option value=''>Select a product then choose a category below</option>\n
+      <option value=''>Select a product, then choose a category below</option>\n
       <optgroup label='Filter Vials'>\n
         <option value='all'>All Filter Vials</option>\n
         <option value='standard'>Standard|Filter Vials</option>\n

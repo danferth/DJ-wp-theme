@@ -606,6 +606,10 @@ video.tech-video-page-single{
   border-radius: .5rem 0 0 .5rem;
   background:$ghost;
   border-right:4px solid $smoke;
+  border-top: 4px solid $secondary-color;
+  @media screen and (max-width:$medium-breakpoint){
+    border-radius:0;
+  }
   label{
     font-family:$font-family-body-condensed;
     color:$oil;
@@ -708,6 +712,10 @@ video.tech-video-page-single{
   border-radius: .5rem 0 0 .5rem;
   background:$ghost;
   border-right:4px solid $smoke;
+  border-top: 4px solid $secondary-color;
+  @media screen and (max-width:$medium-breakpoint){
+    border-radius:0;
+  }
   .reset-form{
     color:$primary-dark;
     text-shadow: 0 1px 0 $white;
@@ -778,6 +786,37 @@ video.tech-video-page-single{
 //=====================================================================
 //===========================Plate Search Page=========================
 //=====================================================================
+.wellSearch{
+  border-radius: .5rem 0 0 .5rem;
+  background:$ghost;
+  border-right:1px solid $smoke;
+  border-top:3px solid $primary-dark;
+  @media screen and (max-width:$medium-breakpoint){
+    border-radius:0;
+  }
+  p{
+    font-size: .8rem;
+    font-family: $font-family-body-condensed;
+    color:$tuatara;
+    margin: 1rem 0;
+  }
+  .reset-form{
+    color:$primary-dark;
+    text-shadow: 0 1px 0 $white;
+    font-size:.8rem;
+    font-family: $font-family-body-condensed;
+    margin:.25rem 1rem 1rem 0;
+    font-weight:bold;
+    //text-align:right;
+    display:block;
+    cursor:pointer;
+    &:hover{
+      text-decoration:underline;
+    }
+  }
+}
+
+
 .platesearch-form{
   .wellCount input[type='radio'], .wellShape input[type='radio']{
     position:absolute;
@@ -808,24 +847,13 @@ video.tech-video-page-single{
     }
   }
   .wellShape input[type='radio'] + label{
-    margin-right:0;
+    margin: 0 .25rem .5rem 0;
   }
   .wellShape input[type='radio']:checked + label img{
     opacity:1;
   }
-  .selection{
-    border-right:1px solid $smoke;
-    min-height:rem-calc(130px);
-    &:last-of-type{
-      border-right:none;
-    }
-    @media screen and (max-width:$small-breakpoint){
-      border-right:none;
-      border-bottom:1px solid $smoke;
-      &:last-of-type{
-      border-bottom:none;
-    }
-    }
+  select{
+    margin-bottom: 0;
   }
 }
 .plate-cards{
@@ -1386,14 +1414,22 @@ video.tech-video-page-single{
   }
 }
 
+//the paragraph in the bottom section of the tech results page
+.techNoteOther{
+  padding: 0 0 0 1rem;
+  font-size:.8rem;
+  margin-bottom: 1rem;
+}
 //=====================================================================
 //====================tech result page for PDF info====================
 //=====================================================================
-.tech-description, .tech-citation{
+.tech-description, .tech-citation, .tech-share{
   position:relative;
   padding-left:100px;
+  font-size: .8rem;
   &:before{
     position:absolute;
+    font-size: .8rem;
     top: 0;
     left: 0;
     color:$jet;
@@ -1402,7 +1438,6 @@ video.tech-video-page-single{
   }
 }
 .tech-description{
-  font-size: .8rem;
   &:before{
     content: "Description:";
   }
@@ -1415,6 +1450,28 @@ video.tech-video-page-single{
   &:before{
     content:"Citation:";
     font-size: .8rem;
+  }
+}
+.tech-share{
+  a.tech-share-mailto{
+    color:$primary-color;
+    font-size: rem-calc(20);
+    border-bottom:none;
+    line-height: rem-calc(19.2);
+    vertical-align:top;
+    margin-right:.5rem;
+    color:#0093DC;
+    &:hover{
+      color:#0079BB;
+    }
+    &:before{
+      background:transparent;
+    }
+  }
+  &:before{
+    //content:"Share:";
+    content:"&#xf064;";
+    font-family:'FontAwesome';
   }
 }
 //=====================================================================

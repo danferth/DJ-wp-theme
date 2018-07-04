@@ -71,6 +71,21 @@ get_header(); ?>
 		<h2 class="tech-title" ng-bind-html="techNote.title"></h2>
 		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>
+		<p class="tech-share">
+		  <a class='tech-share-mailto' href='mailto:&subject={{techNote.title}}%20PDF%20Link&body=Download%20the%20PDF%20for%20{{techNote.title}}%20with%20the%20link%20below.%0Ahttps:htslabs.com/wp-content/uploads/downloads/{{techNote.link}}'>
+		    <i class='fa fa-envelope' arie-hidden='true' title="Email this PDF!"></i>
+		  </a>
+		  <a
+		  	href="https://twitter.com/share"
+		  	class="twitter-share-button"
+		  	data-text="Check out this application note from Thomson!"
+		  	data-url="<?php	true_url(); ?>"
+		  	data-hashtags="TICscience"
+		  	data-show-count="false">
+		  	Tweet
+		  </a>
+		  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</p>
 	</div>
 </div>
 
@@ -96,8 +111,8 @@ get_header(); ?>
 </div>
 
 <div class="row" ng-controller="techlibraryController">
-	<div class="small-12 medium-8 large-6 column">
-	<p>Explore more of what {{ pi.title }} has to offer in one of the categories below.</p>
+	<div class="first small-12 medium-8 large-6 column">
+	<p class="techNoteOther">Explore more of what {{ pi.title }} has to offer in one of the categories below.</p>
 	<?php echo do_shortcode('[tech_nav]'); ?>
 	</div>
 </div>
