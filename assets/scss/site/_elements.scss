@@ -107,6 +107,9 @@ label.error{
 .circle{
   border-radius:100%;
 }
+.row.circle-image img{
+  border-radius:100%;
+}
 //radio button swap
 label{
   i.fa-check-circle-o, i.fa-circle-o{
@@ -1267,11 +1270,16 @@ video.tech-video-page-single{
     }
   }
 }
-
+//key freatures block
+.key-features{
+  background:$snow;
+  margin-left:0;
+  padding:.5rem 1.5rem 1rem 2rem;
+}
 //[text_image] & [image_text] shortcodes have image flush with top
 // needs to be pushed down to be inline with text not header 
 .push-down{
-  margin-top:4rem;
+  margin-top: 4.45rem;
 }
 
 //page-module is for column elements in a page that need to stand out

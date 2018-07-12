@@ -326,12 +326,6 @@ tic.controller('productsController', ['$scope', function($scope){
   $scope.prodLine = "";
   $scope.prodSeries = "";
   
-  // $('.radio-trigger').on('click', function(e){
-  //   $scope.prodLine = "";
-  //   $scope.prodSeries = "";
-  //   $scope.search = "";
-  //   $scope.$apply();
-  // });
   
   $scope.newTarget = function(e){
     $scope.prodSeries = ""
@@ -341,7 +335,6 @@ tic.controller('productsController', ['$scope', function($scope){
     $scope.prodLine = "";
     $scope.prodSeries = "";
     $scope.search = "";
-    //$scope.$apply();
   };
   
   $scope.goToProduct = function(n){
@@ -490,15 +483,6 @@ tic.controller('techlibraryController',['$scope', '$filter', 'dataFactory',  fun
     //watch for changes to $scope.product
     $scope.$watch('product', function(){
       $scope.pi = $filter('filter')($scope.prodinfo, {product: $scope.product})[0];
-      
-      //this chunk o code was for the tech library, it changed some h2 or h3 tags depending on if a product was selected or not
-      // if($scope.product != ""){
-      //   $scope.product_select_message = "Select a Different Product";
-      //   $scope.library_select_message = "Explore " + $scope.pi.title;
-      // }else{
-      //   $scope.product_select_message = "Select a Product to Explore";
-      //   $scope.library_select_message = "Or Explore Our Full Library";
-      // }
       
       
     }); //END $watch
