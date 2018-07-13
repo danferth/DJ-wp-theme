@@ -1275,11 +1275,12 @@ video.tech-video-page-single{
   background:$snow;
   margin-left:0;
   padding:.5rem 1.5rem 1rem 2rem;
+  border-radius: .5rem;
 }
 //[text_image] & [image_text] shortcodes have image flush with top
 // needs to be pushed down to be inline with text not header 
 .push-down{
-  margin-top: 4.45rem;
+  margin-top: rem-calc(71px);
 }
 
 //page-module is for column elements in a page that need to stand out
@@ -1342,6 +1343,7 @@ video.tech-video-page-single{
     box-shadow:inset 3px 0 0 $primary-dark;
     .tech-link-citation{
       color:$charcoal;
+      border-color:$white;
     }
   }
 }
@@ -1375,7 +1377,7 @@ video.tech-video-page-single{
     font-family:$font-family-body-condensed;
     margin-top: .4rem;
     padding-top:.3rem;
-    border-top: 1px dashed $silver;
+    border-top: 1px dashed $iron;
   }
 }
 
