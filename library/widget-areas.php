@@ -25,7 +25,7 @@ function foundationpress_sidebar_widgets() {
 	  'description' => __( 'Drag widgets to this footer container', 'foundationpress' ),
 	  'before_widget' => '<article id="%1$s" class="medium-4 columns widget %2$s">',
 	  'after_widget' => '</article>',
-	  'before_title' => '<h6>',
+	  'before_title' => '<h5>',
 	  'after_title' => '</h6>',
 	));
 }

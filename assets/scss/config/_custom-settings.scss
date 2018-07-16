@@ -57,7 +57,8 @@ $black       : scale-color($base-color, $lightness: -100%);
 //COLORS==================================
 $primary-light:   hsl(202.2, 50.9%, 89.6%);
 $primary-reg:	    hsl(201.2, 93.5%, 36.3%);
-$primary-dark:	   hsl(201.4, 100%, 22.5%);
+$primary-dark:	  hsl(201.4, 100%, 22.5%);
+$yellow:          hsl(45, 100, 60);
 //accent----------------------------------
 $accent-light:	   hsl(32.7, 80.7%, 59.4%);
 $accent-reg:	     hsl(32.7, 100%, 44.3%);
@@ -144,12 +145,12 @@ $entry-title-color: scale-color($secondary-color, $lightness: -40%, $saturation:
  $header-bottom-margin: rem-calc(10);
 
 // We use these to control header font sizes
- $h1-font-size: rem-calc(24);
+ $h1-font-size: rem-calc(26);
  $h2-font-size: rem-calc(22);
- $h3-font-size: rem-calc(20);
- $h4-font-size: rem-calc(18);
- $h5-font-size: rem-calc(16);
- $h6-font-size: 1rem;
+ $h3-font-size: rem-calc(18);
+ $h4-font-size: rem-calc(16);
+ $h5-font-size: rem-calc(14);
+ $h6-font-size: rem-calc(12);
  
 // We use these to control header size reduction on small screens
  $h1-font-reduction: rem-calc(10);
@@ -159,9 +160,9 @@ $entry-title-color: scale-color($secondary-color, $lightness: -40%, $saturation:
  $h5-font-reduction: 0;
  $h6-font-reduction: 0;
 
- $paragraph-font-size: rem-calc(14);
+ $paragraph-font-size: rem-calc(13);
  $paragraph-line-height: 1.5;
- $paragraph-margin-bottom: rem-calc(21);
+ $paragraph-margin-bottom: rem-calc(17);
  $paragraph-aside-font-size: rem-calc(12);
 
 // We use these to style blockquotes
@@ -191,7 +192,7 @@ $entry-title-color: scale-color($secondary-color, $lightness: -40%, $saturation:
  .entry-content table{
   border-left:none;
   border-right:none;
-  border-top:4px solid $secondary-color;
+  border-top:4px solid $yellow;
     th{
    border-right:1px dashed $gainsboro;
    &:last-of-type{

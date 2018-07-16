@@ -175,6 +175,7 @@ label{
   }
   button{
     border-radius: 0 0 .5rem 0;
+    color:$yellow;
     @media screen and (max-width: $small-breakpoint){
       border-radius: 0;
       margin:0;
@@ -1175,7 +1176,7 @@ video.tech-video-page-single{
       border-radius: 0;
     }
     .arrow{
-      color:$primary-light;
+      color:$yellow;
       margin-right:.5rem;
       transition:all 300ms;
     }
@@ -1739,7 +1740,6 @@ video.tech-video-page-single{
 //===========RAIL NAV=============
 //================================
 .railNav{
-  //outline:1px solid olive;
   position:fixed;
   left: -3rem;
   top: 0;
@@ -1791,7 +1791,7 @@ video.tech-video-page-single{
   }
 }
 .railNav ul.railNav_closed{
-  background:$primary-color;  
+  background:$yellow;  
 }
 
 //=========================================

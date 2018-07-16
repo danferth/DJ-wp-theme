@@ -28,6 +28,7 @@ fieldset{
        &:focus{
            background:darken(white,3%);
            border-radius:5px 5px 0 0;
+           border-color:$yellow;
        } 
     }
     textarea{
