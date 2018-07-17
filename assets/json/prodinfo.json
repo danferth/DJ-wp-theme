@@ -135,7 +135,7 @@
                     ],
     "related_product" : [
         {"name" : "Transfer Caps", "link" : "/og/tc/"},
-        {"name" : "Rapid Clear®", "link" : "/og/rc/"},
+        {"name" : "Rapid Clear®", "link" : "/rc/"},
         {"name" : "Optimum Growth™ Special Flasks", "link" : "/og/special/"}
         ]
 },{
@@ -165,7 +165,7 @@
     "related_product" : [
         {"name" : "Optimum Growth™ Flasks", "link" : "/og/"},
         {"name" : "Optimum Growth™ Special Flasks", "link" : "/og/special/"},
-        {"name" : "Optimum Growth™ Rapid Clear®", "link" : "/og/rc/"}
+        {"name" : "Optimum Growth™ Rapid Clear®", "link" : "/rc/"}
         ]
 },{
     "product" : "Uflask",

@@ -1577,7 +1577,7 @@
 		"image" : "788116_lg.jpg",
 		"thum_image" : "788116_tn.png",
 		"tag" : [],
-		"URL" : "og/rc/",
+		"URL" : "rc/",
 		"shakeSpeed"  : false,
 		"minVolume"   : false,
 		"maxVolume"   : false,
@@ -2748,27 +2748,6 @@
 		"notes" 	: ""
 	},{
 		"line" : "glassware",
-		"series" : "test tubes",
-		"title" : "Round Bottom tube",
-		"description1" : "18mL",
-		"description2" : "",
-		"partNum" : "81778",
-		"partNumber" : [{"num" : "81778", "qty" : "756"}],
-		"image" : "81778_lg.jpg",
-		"thum_image" : "81778_tn.png",
-		"tag" : [],
-		"URL" : "glassware/",
-		"shakeSpeed"  : false,
-		"minVolume"   : false,
-		"maxVolume"   : false,
-		"membrane"    : false,
-		"poreSize"    : false,
-		"accessories" : [],
-		"worksWith"   : [],
-		"sterile"     : false,
-		"notes"		  : false
-	},{
-		"line" : "glassware",
 		"series" : "pierceable caps",
 		"title" : "13mm Black Cap | PTFE/SIL",
 		"description1" : "For 4mL",
@@ -2811,7 +2790,7 @@
 		"notes"		  : false
 	},{
 		"line" : "glassware",
-		"series" : "hplc vials",
+		"series" : "pierceable caps",
 		"title" : "11mm Clear Snap Cap",
 		"description1" : "PTFE/Red Rubber Septa",
 		"description2" : "",
@@ -2832,7 +2811,7 @@
 		"notes"		  : false
 	},{
 		"line" : "glassware",
-		"series" : "hplc vials",
+		"series" : "pierceable caps",
 		"title" : "11mm Clear Snap Cap",
 		"description1" : "PTFE/Silicone Septa",
 		"description2" : "",
@@ -2853,7 +2832,7 @@
 		"notes"		  : false
 	},{
 		"line" : "glassware",
-		"series" : "hplc vials",
+		"series" : "pierceable caps",
 		"title" : "9mm Caps PTFE/Silicone",
 		"description1" : "Pre-slit Cap",
 		"description2" : "",
@@ -2916,7 +2895,7 @@
 		"notes"		  : false
 	},{
 		"line" : "glassware",
-		"series" : "microwave vials",
+		"series" : "pierceable caps",
 		"title" : "Microwave Vial Cap",
 		"description1" : "",
 		"description2" : "",
@@ -2924,27 +2903,6 @@
 		"partNumber" : [{"num" : "90814", "qty" : "100"}],
 		"image" : "90814_lg.jpg",
 		"thum_image" : "90814_tn.png",
-		"tag" : [],
-		"URL" : "glassware/",
-		"shakeSpeed"  : false,
-		"minVolume"   : false,
-		"maxVolume"   : false,
-		"membrane"    : false,
-		"poreSize"    : false,
-		"accessories" : [],
-		"worksWith"   : [],
-		"sterile"     : false,
-		"notes"		  : false
-	},{
-		"line" : "glassware",
-		"series" : "microwave vials",
-		"title" : "Microwave Vial 2-5mL Kit",
-		"description1" : "(Vial, Stir Bar, Cap)",
-		"description2" : "",
-		"partNum" : "81792",
-		"partNumber" : [{"num" : "81792", "qty" : "100"}],
-		"image" : "81792_lg.jpg",
-		"thum_image" : "81792_tn.png",
 		"tag" : [],
 		"URL" : "glassware/",
 		"shakeSpeed"  : false,

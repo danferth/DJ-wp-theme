@@ -307,7 +307,7 @@ function centered_shortcode($atts, $content=null, $tag){
    $output = "<div class='".$a['class']." row'>";
    
     if($a['title']){
-      $output .= "<div class='small-12 medium-8 medium-centered column'><h2>".$a['title']."</h2></div>";
+      $output .= "<div class='small-12 medium-8 medium-centered column'><h2 class='first-h2'>".$a['title']."</h2></div>";
     }
    
   $output .= "<div class='";
@@ -324,7 +324,7 @@ function centered_shortcode($atts, $content=null, $tag){
    $output = "<div class='".$a['class']." row'>";
    
     if($a['title']){
-      $output .= "<div class='small-12 medium-8 medium-centered column'><h2>".$a['title']."</h2></div>";
+      $output .= "<div class='small-12 medium-8 medium-centered column'><h2 class='first-h2'>".$a['title']."</h2></div>";
     }
    
    $output .= "<div class='small-12 medium-8 medium-centered column'>
@@ -385,7 +385,7 @@ function text_image_shortcode($atts, $content=null, $tag){
 	    $output .= "</div>\n
     
 	    <div class='small-12 medium-7 medium-pull-5 column'>\n
-		    <h2>".$a['title']."</h2>\n
+		    <h2 class='first-h2'>".$a['title']."</h2>\n
 		    ".do_shortcode($content)."
 	    </div>\n
     </div>";
@@ -411,7 +411,7 @@ function image_text_shortcode($atts, $content=null, $tag){
 		    if($a['caption']){$output .= "<p class='caption'>".$a['caption']."</p>\n";}
 	    $output .= "</div>\n
 	    <div class='small-12 medium-7 column'>\n
-		    <h2>".$a['title']."</h2>\n
+		    <h2 class='first-h2'>".$a['title']."</h2>\n
 		    ".do_shortcode($content)."
 	    </div>\n
     </div>";
@@ -442,13 +442,13 @@ function dual_image_shortcode($atts, $content, $tag){
     $output="
     <div class='row ".$a['class']."'>\n
 	<div class='small-12 medium-6 column'>\n
-		<h2>".$a['l_title']."</h2>\n
+		<h2 class='first-h2'>".$a['l_title']."</h2>\n
 		<img src='".content_url('/uploads/') . $a['l_src'] ."'/>\n";
 		if($a['l_caption']){$output .= "<p class='caption'>".$a['l_caption']."</p>\n";}
 	$output .="</div>\n
 \n
 	<div class='small-12 medium-6 column'>\n
-		<h2>".$a['r_title']."</h2>\n
+		<h2 class='first-h2'>".$a['r_title']."</h2>\n
 		<img src='".content_url('/uploads/') . $a['r_src'] ."'/>\n";
 		if($a['r_caption']){$output .= "<p class='caption'>".$a['r_caption']."</p>\n";}
 	$output .="</div>\n
@@ -468,7 +468,7 @@ function column_text_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "<div class='".$a['class']." row'>\n";
       if($a['title']){$output .= "<div class='small-12 column'>\n
-        <h2>".$a['title']."</h2>
+        <h2 class='first-h2'>".$a['title']."</h2>
       </div>\n";}
       $output .= "<div class='column-text small-12 column'>\n
         ".$content."\n
@@ -559,7 +559,7 @@ function comparison_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "<div class='comparison row ".$a['class']."'>";
     if($a['title']){$output .= "<div class='small-12 column'>
-        <h2>".$a['title']."</h2>
+        <h2 class='first-h2'>".$a['title']."</h2>
       </div>";}
     $output .= do_shortcode($content) . "</div>";
     return $output;
@@ -598,7 +598,7 @@ function duel_boxes_shortcode($atts, $content=null, $tag){
     ), $atts);
     $output = "<div class='row ".$a['class']."'>";
     if($a['title']){$output .= "<div class='small-12 column'>
-        <h2>".$a['title']."</h2>
+        <h2 class='first-h2'>".$a['title']."</h2>
       </div>";}
     $output .= do_shortcode($content) . "</div>";
     return $output;
@@ -677,7 +677,7 @@ function related_product_module_wrap_shortcode($atts, $content=null, $tag){
 <div class='".$a['class']." row'>
   <div class='related-product-module small-12 column'>
     <div class='small-12 column'>
-      <h2>".$a['title']."</h2>
+      <h2 class='first-h2'>".$a['title']."</h2>
     </div>
     <ul class='small-block-grid-1 medium-block-grid-".$a['module_count']."'>
     ".do_shortcode($content)."

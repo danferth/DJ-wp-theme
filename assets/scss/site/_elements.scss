@@ -129,7 +129,7 @@ label{
 //use this class so the first element like a 
 //paragraph or select is not flush against the header of page
 .first{
-  margin-top:2rem;
+  margin-top:2rem !important;
 }
 .inline-radio{
   display:inline-block;
@@ -1286,7 +1286,7 @@ video.tech-video-page-single{
 //[text_image] & [image_text] shortcodes have image flush with top
 // needs to be pushed down to be inline with text not header 
 .push-down{
-  margin-top: rem-calc(71px);
+  margin-top: rem-calc(40px);
 }
 
 //page-module is for column elements in a page that need to stand out
