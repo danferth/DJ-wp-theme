@@ -179,3 +179,65 @@ dl{
   font-family: $font-family-body-condensed;
   text-align:center;
 }
+//====================================
+//===============<hr />===============
+//====================================
+hr{
+  height:4rem;
+  background:linear-gradient(
+    to bottom,
+    rgba($snow, 0) 0%,
+    rgba($snow, .04) 5%,
+    rgba($snow, .08) 10%,
+    rgba($snow, .11) 15%,
+    rgba($snow, .13) 20%,
+    rgba($snow, .20) 25%,
+    rgba($snow, .27) 30%,
+    rgba($snow, .35) 35%,
+    rgba($snow, .55) 40%,
+    rgba($snow, .75) 45%,
+    rgba($snow, 1) 50%,
+    rgba($snow, .75) 55%,
+    rgba($snow, .55) 60%,
+    rgba($snow, .35) 65%,
+    rgba($snow, .27) 70%,
+    rgba($snow, .20) 75%,
+    rgba($snow, .12) 80%,
+    rgba($snow, .11) 85%,
+    rgba($snow, .08) 90%,
+    rgba($snow, .04) 95%,
+    rgba($snow, 0) 100%);
+    position:relative;
+  &:before{
+    content:"";
+    position:absolute;
+    top: 2rem;
+    left:0;
+    width:100%;
+    height:1px;
+    border-radius:100%;
+    background:$silver;
+  }
+  &:after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background:radial-gradient(ellipse at center, rgba($white, 0) 50%, rgba($white, 1) 70%);
+  }
+  @media screen and(max-width:$small-breakpoint){
+    height:1px;
+    background:$gainsboro;
+    margin: 1rem 0;
+    &:before{
+      content:none;
+    }
+    &:after{
+      content:none;
+    }
+  }
+}

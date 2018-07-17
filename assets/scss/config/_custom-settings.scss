@@ -65,7 +65,7 @@ $accent-reg:	     hsl(32.7, 100%, 44.3%);
 $accent-dark:	    hsl(33, 100%, 33.5%);
 //foundation------------------------------------
 $primary-color:   $primary-reg;            //blue
-$secondary-color: hsl(198, 28%, 90%);      //light blue grey
+$secondary-color: $primary-light;           //light blue grey
 $success-color:   hsla(164, 49%, 43%, 1);  //teal
 $alert-color:     hsl(0, 94%, 35%);        //red
 $warning-color:   $accent-reg;             //orange
@@ -175,6 +175,10 @@ $entry-title-color: scale-color($secondary-color, $lightness: -40%, $saturation:
 // $hr-border-style: solid;
 // $hr-border-color: $gainsboro;
 // $hr-margin: rem-calc(20);
+ $hr-border-width: 0;
+ $hr-border-style: solid;
+ $hr-border-color: transparent;
+ $hr-margin: 1rem;
 
 // 30. Tables
 // - - - - - - - - - - - - - - - - - - - - - - - - -
