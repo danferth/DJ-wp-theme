@@ -14,6 +14,8 @@
   height: 100%;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,8 +31,19 @@
 //addSearch logo removal
 #addsearch-logo { display: none !important; }
 //classes for nav bar
+.dropdown{
+  border-top: 1px solid $iron;
+  border-left: 1px solid $silver;
+  border-right: 1px solid $silver;
+}
+.dropdown .dropdown{
+  border-top: none;
+}
 .nav-special-border{
   border-top:1px solid $nav-section-border-color;
+  @media screen and(max-width:$topbar-breakpoint){
+    border-top: 1px solid $primary-dark;
+  }
 }
 .nav-section a{
     color:$oil !important;
@@ -41,7 +54,7 @@
   }
 }
 .nav-about a{
-  color:$primary-color !important;
+  color:$primary-dark !important;
   @media screen and(max-width:$topbar-breakpoint){
     color:$info-color !important;
   }

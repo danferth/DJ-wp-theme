@@ -107,9 +107,9 @@ $topbar-dropdown-toggle-color:   $monsoon;
 $nav-section-border-color:       $iron;
 $topbar-dropdown-toggle-alpha:   1;
 $topbar-dropdown-toggle-size:    5px;
-$topbar-link-font-size: .8rem;
+$topbar-link-font-size:          .8rem;
 
-$topbar-top-border:              3px solid $primary-color;
+$topbar-top-border:              3px solid $primary-dark;
 $topbar-bottom-border:           1px solid $iron;
 
 $topbar-top-border-fixed:        $topbar-bottom-border;
@@ -126,10 +126,10 @@ $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
 $topbar-dropdown-link-bg: $topbar-bg;
 $topbar-dropdown-link-bg-hover: $topbar-link-bg-hover;
 // Off-canvas
-$tabbar-bg: $primary-color;
-$off-canvas-bg: $primary-color;
-$off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -30%);
-$off-canvas-bg-active: scale-color($tabbar-bg, $lightness: -30%);
+$tabbar-bg: $primary-dark;
+$off-canvas-bg: $primary-dark;
+$off-canvas-bg-hover: $primary-color;
+$off-canvas-bg-active: $primary-color;
 $off-canvas-link-color: rgba($white, 1);
 //The Grid
 $row-width: rem-calc(1200);
