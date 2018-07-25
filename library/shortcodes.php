@@ -169,8 +169,9 @@ function parts_shortcode($atts, $content, $tag){
       </div>
       <div class='partnumber_text show-for-medium-up medium-5 end column'>
         <ul>
+          <li class='partnumber_pn_title' >Part Number</li>
           <li class='partnumber_number' ng-repeat='pn in p.partNumber'>
-          pn# <span ng-bind-html='pn.num'><i class='fa fa-spinner' aria-hidden='true'></i></span> | case:<span ng-bind-html='pn.qty'><i class='fa fa-spinner' aria-hidden='true'></i></span>
+          <span ng-bind-html='pn.num'><i class='fa fa-spinner' aria-hidden='true'></i></span> | <span ng-bind-html='pn.qty'><i class='fa fa-spinner' aria-hidden='true'></i></span>/case
           </li>
         <ul>
       </div>

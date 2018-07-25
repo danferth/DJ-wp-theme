@@ -1,6 +1,6 @@
 <div class="hidden overlay-wrap">
 
-	<div class='overlay-content animated row medium-collapse'>
+	<div class='overlay-content animated medium-collapse row'>
 
 			
 	<span class='close-overlay show-for-large-up'><i class="fa fa-close"></i></span>

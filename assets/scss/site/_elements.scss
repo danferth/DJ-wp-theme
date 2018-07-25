@@ -412,7 +412,7 @@ label{
   background:$white;
   border-top:3px solid $primary-dark;
   h4{
-    margin: .5rem 0 .2rem 0;
+    margin: .5rem 0 0rem 0;
     font-size:1rem;
   }
   .parts-note{
@@ -421,10 +421,10 @@ label{
     padding-bottom:0;
     border-bottom:1px solid $base;
     p{
-      color:$jumbo;
-      font-size:.8rem;
+      color:$base;
+      font-size:.7rem;
       font-style:italic;
-      margin: .25rem 0 .125rem 0;
+      margin: .125rem 0 .125rem 0;
     }
   }
 }
@@ -453,7 +453,7 @@ label{
   img{
     width:auto;
     height:auto;
-    max-height:3.5rem;
+    max-height: 3.5rem;
     border:1px solid $ghost;
     border-radius: 100%;
   }
@@ -470,8 +470,9 @@ label{
   }
   .partnumber_title{
     font-weight:bold;
-    //margin-bottom:.15rem;
     text-decoration:underline;
+    font-size:.68rem;
+    margin-top: .18rem;
   }
   .partnumber_description{
     //font-style:italic;
@@ -479,10 +480,19 @@ label{
     color:$steel;
   }
   .partnumber_number{
-    margin-top:.15rem;
-    font-size:.75rem;
-    color:$steel;
-    font-family:$font-family-body-condensed;
+    //margin-top:.15rem;
+    font-size:.68rem;
+    color:$tuatara;
+    font-family:$font-family-body-regular;
+    // &:first-of-type{
+    //   margin-top: 1.21875rem;
+    // }
+  }
+  .partnumber_pn_title{
+    font-size:.68rem;
+    margin-top: .18rem;
+    font-weight:bold;
+    text-decoration:underline;
   }
 }
 
@@ -1393,7 +1403,7 @@ video.tech-video-page-single{
   .tech-link-citation{
     font-size:.65rem;
     color:$steel;
-    font-family:$font-family-body-condensed;
+    font-family:$font-family-body-regular;
     margin-top: .4rem;
     padding-top:.3rem;
     border-top: 1px dashed $iron;
