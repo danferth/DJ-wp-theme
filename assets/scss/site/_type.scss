@@ -150,7 +150,7 @@ p.disclaimer{
 //=======================
 dl{
   dt{
-    margin-top:1.25rem;
+    margin-top: 1.25rem;
     width:75%;
     @media screen and(max-width:$medium-breakpoint){
       width:90%;
@@ -160,14 +160,23 @@ dl{
     }
   }
   dd{
-    margin-bottom:.25rem;
+    margin-bottom:.5rem;
+    margin-left: 1rem;
     color:$monsoon;
     width:75%;
+    position:relative;
     @media screen and(max-width:$medium-breakpoint){
       width:90%;
     }
     @media screen and(max-width:$small-breakpoint){
       width:100%;
+    }
+    &:before{
+      content: "-";
+      margin-left: -1rem;
+      margin-right: .7rem;
+      position:absolute;
+      
     }
   }
 }
