@@ -1194,10 +1194,10 @@ video.tech-video-page-single{
     display:inline-block;
     border-radius: 0 0 .5rem .5rem;
     width:100%;
-    font-size:.75rem;
+    font-size:.67rem;
     color:$white;
     font-family:$font-family-title-regular;
-    font-style:italic;
+    //font-style:italic;
     transition:all 300ms;
     background:$primary-dark;
     @media screen and(max-width: $medium-breakpoint){
@@ -1530,6 +1530,7 @@ video.tech-video-page-single{
 //============================info-module==============================
 //=====================================================================
 .info-module{
+  border-bottom: 1px solid $white;
   ul{
     margin:.1rem 0 0 0;
     padding:0;
