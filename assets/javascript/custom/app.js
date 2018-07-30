@@ -74,6 +74,9 @@ tic.factory('dataFactory', ['$http', '$filter', function($http, $filter){
   factory.get_salestips = function(){
     return $http.get(url+'/wp-content/themes/TIC/assets/json/salestips.json');
   };
+  factory.get_tradeshow = function(){
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/tradeshow.json');
+  };
   return factory;
 }]);
 
@@ -106,6 +109,9 @@ tic.controller('ticController', ['$scope', '$sce', 'dataFactory', function($scop
  });
  dataFactory.get_tc().then(function(responce){
    $scope.tcinfo = responce.data;
+ });
+ dataFactory.get_tradeshow().then(function(responce){
+   $scope.tradeshows = responce.data;
  });
   
   //get query for tech note

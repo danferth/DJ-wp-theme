@@ -2,6 +2,15 @@
 /*
 Template Name: Front
 */
+
+//for angular
+$ng_controller = "";
+if(get_post_meta($post->ID, "ng-controller")){
+	$ngController = get_post_meta($post->ID, "ng-controller", true);
+	$ng_controller = "ng-controller='" . $ngController . "'";
+}
+
+
 get_header(); ?>
 
 <header id="front-hero" role="banner">
@@ -24,7 +33,7 @@ get_header(); ?>
 
 </header>
 
-	<div class="row">
+	<div class="row" ng-app="tic" ng-controller="ticController" ng-strict-di>
 		<?php get_template_part( 'parts/check-if-sidebar-exist' ); ?>
 		<?php do_action( 'foundationpress_before_content' ); ?>
 

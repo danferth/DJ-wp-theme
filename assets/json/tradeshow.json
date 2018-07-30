@@ -1,0 +1,41 @@
+[
+  {
+    "type"     : "tradeshow",
+    "show"     : "ASMS 2018",
+    "link"     : "https://www.asms.org/conferences/annual-conference/annual-conference-homepage",
+    "date"     : "06/13/18 - 06/07/18",
+    "presence" : "Attending & Poster"
+  },{
+    "type"     : "tradeshow",
+    "show"     : "NACRW 2018",
+    "link"     : "https://nacrw.org/",
+    "date"     : "07/22/18 - 07/25/18",
+    "presence" : "Attending & Poster"
+  },{
+    "type"     : "tradeshow",
+    "show"     : "SIMB 2018",
+    "link"     : "http://www.simbhq.org/annual/",
+    "date"     : "08/12/18 - 08/16/18",
+    "presence" : "Booth 28"
+  },{
+    "type"     : "tradeshow",
+    "show"     : "SOFT 2018",
+    "link"     : "http://www.soft2018.eu/",
+    "date"     : "10/07/18 - 10/12/18",
+    "presence" : "Booth TBA & Poster<i>(customer supplied)</i>"
+  },{
+    "type"     : "presentation",
+    "company"  : "Biomarin",
+    "link"     : "http://www.biomarin.com/",
+    "date"     : "05-18-2018",
+    "sales"    : "Joe Machamer",
+    "presence" : "Customer Appreciation Pizza Break"
+  },{
+    "type"     : "presentation",
+    "company"  : "Surrozen",
+    "link"     : "https://surrozen.com/",
+    "date"     : "08-02-2018",
+    "sales"    : "Joe Machamer",
+    "presence" : "Customer Appreciation Pizza Break"
+  }   
+]

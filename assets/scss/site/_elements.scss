@@ -35,6 +35,7 @@
   border-top: 1px solid $iron;
   border-left: 1px solid $silver;
   border-right: 1px solid $silver;
+  border-bottom: 3px solid $yellow;
 }
 .dropdown .dropdown{
   border-top: none;
@@ -104,8 +105,8 @@ label.error{
   margin-top: 4rem;
   margin-bottom: 4rem;
   @media screen and (max-width:$medium-breakpoint){
-      margin-top: 0;
-      margin-bottom: 0;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
 }
 //To center images and captions inside of div
@@ -189,12 +190,14 @@ label{
   button{
     border-radius: 0 0 .5rem 0;
     color:$yellow;
+    @media screen and (max-width: $medium-breakpoint){
+      border-radius: 0;
+    }
     @media screen and (max-width: $small-breakpoint){
       border-radius: 0;
       margin:0;
       background:$gainsboro;
       color:$primary-dark;
-      
     }
   }
 }
