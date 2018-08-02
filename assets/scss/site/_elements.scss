@@ -116,6 +116,7 @@ label.error{
 }
 .center-inside img{
   align-self:center;
+  border-radius: .5rem;
 }
 
 .circle{
@@ -326,6 +327,7 @@ label{
   position:relative;
   border-radius:.5rem;
   transition:all 350ms;
+  overflow: hidden;
   &:hover{
     background:$snow;
     .tech-block-image-wrap{
@@ -1603,7 +1605,6 @@ video.tech-video-page-single{
         display:block;
         color:$snow;
         font-family:$font-family-title-regular;
-        text-shadow: 0 1px 0 $black;
         &:hover{
           color:$white;
           text-shadow:none;
