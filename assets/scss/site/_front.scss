@@ -5,16 +5,20 @@
 	}
 
 	@media #{$small-up} {
-		background: url("../../images/TIC-header.png") no-repeat center #004C72;
+		background: url("../../images/TIC-header-small.jpg") no-repeat center hsl(200, 100%, 22%);
 		padding: rem-calc(65%) 0;
-		//margin: - rem-calc(32) 0 rem-calc(32);
 		position: relative;
 		text-align: left;
 	}
 
 	@media #{$medium-up} {
+	  background: url("../../images/TIC-header.png") no-repeat center hsl(200, 100%, 22%);
 		height: rem-calc(400);
-		//margin: - rem-calc(32) 0 rem-calc(72);
+		background-position: center left -450px;
+	}
+	
+	@media #{$large-up} {
+		background-position: center center;
 	}
 
 	#watch {

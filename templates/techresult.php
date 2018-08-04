@@ -92,14 +92,14 @@ get_header(); ?>
 
 <!-- ==============VIDEO==================== -->
 <div class="row" ng-show="VIDEO">
-	<div class="tech-VIDEO small-12 medium-7 large-9 column">
+	<div class="tech-VIDEO small-12 medium-12 large-8 column">
 		<video src="{{ videoUrl | trustUrl }}" controls muted autoplay>
 			Our apologies, but video playback in not possible at this time. <a href="<?php echo content_url('/uploads/video/videos/'); ?>{{ techNote.link }}.mp4">Please download</a> the video to play it with video player of your choice. 
 			
 		</video>
 	</div>
 	
-	<div class="first small-12 medium-5 large-3 column">
+	<div class="first small-12 medium-12 large-4 column">
 		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<div class="spaced pdfDownloadWrap">
