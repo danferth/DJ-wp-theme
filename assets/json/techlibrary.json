@@ -2414,5 +2414,20 @@
     "tags"            : [],
     "date"            : "20180123",
     "image"           : ""
+  },{
+    "id"              : 175,
+    "title"           : "Bioreactor Exhaust Cap General Information",
+    "description"     : "The Bioreactor Exhaust Cap allows for the efficient ventilation of CO<sub>2</sub> in bioreactors ensuring exhaust filters will not clog ever again. This device works as a trap allowing the condensed fluid to pool in a flask so that it never touches the exhaust filter.",
+    "citation"        : "",
+    "link"            : "GI_Flier_Exhaust_Cap_2018.pdf",
+    "linkType"        : "pdf",
+    "type"            : "GI",
+    "productLine"     : "OG",
+    "subProductLine"  : ["accessory", "Oflask"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20180806",
+    "image"           : ""
   }
 ]
