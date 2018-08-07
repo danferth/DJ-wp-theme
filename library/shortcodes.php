@@ -441,7 +441,7 @@ function dual_image_shortcode($atts, $content, $tag){
     'r_caption' => ''
     ), $atts);
     $output="
-    <div class='row ".$a['class']."'>\n
+    <div class='row dual-images ".$a['class']."'>\n
 	<div class='small-12 medium-6 column'>\n
 		<h2 class='first-h2'>".$a['l_title']."</h2>\n
 		<img src='".content_url('/uploads/') . $a['l_src'] ."'/>\n";

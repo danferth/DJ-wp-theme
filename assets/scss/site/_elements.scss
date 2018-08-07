@@ -42,9 +42,6 @@
 }
 .nav-special-border{
   border-top:1px solid $nav-section-border-color;
-  @media screen and(max-width:$topbar-breakpoint){
-    border-top: 1px solid $primary-dark;
-  }
 }
 .nav-section a{
     color:$oil !important;
@@ -125,6 +122,9 @@ label.error{
 .row.circle-image img{
   border-radius:100%;
 }
+.dual-images img{
+  border-radius:.5rem;
+}
 //radio button swap
 label{
   i.fa-check-circle-o, i.fa-circle-o{
@@ -148,7 +148,10 @@ label{
 }
 .inline-radio{
   display:inline-block;
-  margin-right:1.5rem;
+  margin-right:1.25rem;
+  &:last-of-type{
+    margin-right:0;
+  }
 }
 //for ng-repeat of multiples in spans. Appends space and comma to all but last
 .multiple-spans{
