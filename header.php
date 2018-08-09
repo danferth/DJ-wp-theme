@@ -9,7 +9,20 @@
  * @since FoundationPress 1.0.0
  */
 
+//for loader
+$pageloader = "<!-- page loader not needed for this page -->";
+if(get_post_meta($post->ID, "pageloader", true)){
+	$pageloader = "<div class='loader'>
+  <div class='loaderAnimation'>
+    <i class='fa fa-circle-o-notch fa-spin' aria-hidden='true'></i>
+  </div>
+  </div>
+</div>";
+}
+
+
 ?>
+
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >
 	<head>
@@ -54,12 +67,7 @@
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
 <!-- loader -->
-<div class="loader">
-  <div class="loaderAnimation">
-    <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
-  </div>
-  </div>
-</div>
+<?php echo $pageloader; ?>
 <!-- end loader -->
 <div class="railNav">
 	<ul>

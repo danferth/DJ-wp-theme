@@ -1,6 +1,9 @@
 //shamefull corrections to the core!========
 .entry-content table{
   width:100%;  //this may have to be moved to core if no issues creep up.
+  @media screen and(max-width:$small-breakpoint){
+    table-layout:fixed;
+  }
 }
 #tech_result_page{
   #searchanything{
@@ -1017,7 +1020,7 @@ video.tech-video-page-single{
     color:white;
     font-size:.875rem;
     text-align:center;
-    border-radius: .5rem .5rem 0 0;
+    border-radius:0;
   }
   .card-image{
     img{
@@ -1652,6 +1655,9 @@ video.tech-video-page-single{
       }
       &:last-of-type{
         border-radius: 2rem;
+      }
+      @media screen and (max-width:$small-breakpoint){
+        width:48.5%;
       }
     }
   }
