@@ -338,5 +338,7 @@ Array.prototype.forEach.call( inputs, function( input )
 
 //page loader thingy
 $(window).on('load', function(){
-	$('.loader').fadeOut(200);
+	if($('.loader').is(':visible')){
+	  $('.loader').fadeOut(200);
+	}
 });

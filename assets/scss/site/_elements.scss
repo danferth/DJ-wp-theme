@@ -1338,6 +1338,12 @@ video.tech-video-page-single{
 .push-down{
   margin-top: rem-calc(40px);
 }
+//on mobile the stacked [text_image]  is too close together
+.text_inside_img{
+  @media screen and (max-width:$small-breakpoint){
+    margin-bottom: 2rem;
+  }
+}
 
 //page-module is for column elements in a page that need to stand out
 .page-module{

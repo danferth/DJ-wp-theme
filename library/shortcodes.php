@@ -380,12 +380,12 @@ function text_image_shortcode($atts, $content=null, $tag){
     $class = "push-down ";
     if($a['pull']){$class = "";}
     $output = "<div class='".$a['class']." row'>\n
-	    <div class='".$class."center-inside small-12 medium-5 medium-push-7 column'>\n";
+	    <div class='".$class."text_inside_img center-inside small-12 medium-5 medium-push-7 column'>\n";
 		    if($a['src']){$output .= "<img src='".content_url('/uploads/') . $a['src'] ."'/>\n";}
 		    if($a['caption']){$output .= "<p class='caption'>".$a['caption']."</p>\n";}
 	    $output .= "</div>\n
     
-	    <div class='small-12 medium-7 medium-pull-5 column'>\n
+	    <div class='text_inside_text small-12 medium-7 medium-pull-5 column'>\n
 		    <h2 class='first-h2'>".$a['title']."</h2>\n
 		    ".do_shortcode($content)."
 	    </div>\n
