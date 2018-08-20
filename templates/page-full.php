@@ -124,9 +124,14 @@ if($form_success == "true"){
 //}
 //if(!hasHTML5validation() ){
 	$(window).bind("load", function() {
-		  $("#product-inquiry-sample").validate();
-		  $("#product-inquiry-quote").validate();
-		  $("#product-inquiry-contact").validate();
+		  //$("#product-inquiry-sample").validate();
+		  //$("#product-inquiry-quote").validate();
+		  //$("#product-inquiry-contact").validate();
+		  
+		  $("#product-inquiry-sample").attr("novalidate","novalidate");
+		  $("#product-inquiry-quote").attr("novalidate","novalidate");
+		  $("#product-inquiry-contact").attr("novalidate","novalidate");
+		  
 });
 //}
 </script>

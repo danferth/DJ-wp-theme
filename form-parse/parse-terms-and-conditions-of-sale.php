@@ -79,7 +79,8 @@ if (is_array($_POST)){
 	$mail = new PHPMailer;
 	$mail->setFrom('toc_agree@htslabs.com', 'T&C Form');
 	$mail->addReplyTo($email, $fname." ".$lname);
-	$mail->addAddress('toc_agree@htslabs.com', 'T&C Form');
+	//$mail->addAddress('toc_agree@htslabs.com', 'T&C Form');
+	$mail->addAddress('dan@htslabs.com', 'T&C Form');
 	$mail->Subject = "Terms Acceptance - " . $company;
 	$mail->msgHTML($body);
 	if (!$mail->send()){

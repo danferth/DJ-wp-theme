@@ -74,7 +74,8 @@ if (is_array($_POST)){
 	$mail = new PHPMailer;
 	$mail->setFrom('general_con@htslabs.com', 'Contact Form');
 	$mail->addReplyTo($email, $fname." ".$lname);
-	$mail->addAddress('general_con@htslabs.com', 'Contact Form');
+	//$mail->addAddress('general_con@htslabs.com', 'Contact Form');
+	$mail->addAddress('dan@htslabs.com', 'Contact Form');
 	$mail->Subject = "General Contact From - " . $company;
 	$mail->msgHTML($body);
 	if (!$mail->send()){

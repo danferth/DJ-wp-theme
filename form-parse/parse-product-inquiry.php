@@ -109,7 +109,8 @@ checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
 		$mail = new PHPMailer;
 		$mail->setFrom('product_inq@htslabs.com', 'Product Inquiry');
 		$mail->addReplyTo($email, $fname." ".$lname);
-		$mail->addAddress('product_inq@htslabs.com', 'Product Inquiry');
+		//$mail->addAddress('product_inq@htslabs.com', 'Product Inquiry');
+		$mail->addAddress('dan@htslabs.com', 'Product Inquiry');
 		$mail->Subject = "Website " . $_POST['form'] . " inquiry from - " . $company;
 		$mail->msgHTML($body);
 		if (!$mail->send()){

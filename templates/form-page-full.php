@@ -147,7 +147,9 @@ if($form_success == "true"){
 	<?php 
 	echo 'onload=function(){document.forms["' . $form_id .'"].reset()};
 		$(window).bind("load", function() {
-		$("#' . $form_id . '").validate();
+		
+		//$("#' . $form_id . '").validate();
+		$("#' . $form_id . '").attr("novalidate","novalidate");
 	});'; ?>
 //}
 </script>
