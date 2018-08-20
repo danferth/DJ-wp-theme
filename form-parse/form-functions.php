@@ -69,7 +69,7 @@ function checkHoneypot($honeyArray, $server_dir, $next_page, $query_string){
   }
 };
 //====================================================================
-//Form tim to complete
+//Form time to complete
 //====================================================================
 function formTimeCheck($formTimeLimit, $server_dir, $next_page, $query_string){
   

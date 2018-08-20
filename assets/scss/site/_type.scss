@@ -242,8 +242,11 @@ hr{
     background:radial-gradient(ellipse at center, rgba($white, 0) 50%, rgba($white, 1) 70%);
   }
   @media screen and(max-width:$small-breakpoint){
-    height:1px;
-    background:$gainsboro;
+    height:3px;
+    background: linear-gradient(to right, $white 0%, $gainsboro 50%, $white 100%);
+    border: 1px dotted $gainsboro;
+    border-left:none;
+    border-right:none;
     margin: 1rem 0;
     &:before{
       content:none;
