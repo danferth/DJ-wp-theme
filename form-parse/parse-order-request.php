@@ -385,8 +385,8 @@ if (is_array($_POST)){
   $mail = new PHPMailer;
   $mail->setFrom('website_order@htslabs.com', 'New Order Form');
   $mail->addReplyTo($purchEmail, $purchFname." ".$purchLname);
-  //$mail->addAddress('website_order@htslabs.com', 'New Order Form');
-  $mail->addAddress('dan@htslabs.com', 'New Order Form');
+  $mail->addAddress('website_order@htslabs.com', 'New Order Form');
+  //$mail->addAddress('dan@htslabs.com', 'New Order Form');
   $mail->Subject = "Website Order | " . $companyName;
   $mail->msgHTML($body);
   $mail->addAttachment($file);

@@ -65,8 +65,8 @@ if (is_array($_POST)){
 	$mail = new PHPMailer;
 	$mail->setFrom('paperless@htslabs.com', 'Go paperless');
 	$mail->addReplyTo($email, $fname." ".$lname);
-	//$mail->addAddress('paperless@htslabs.com', 'Go paperless');
-	$mail->addAddress('dan@htslabs.com', 'Go paperless');
+	$mail->addAddress('paperless@htslabs.com', 'Go paperless');
+	//$mail->addAddress('dan@htslabs.com', 'Go paperless');
 	$mail->Subject = $company . " Wants to go Paperless!";
 	$mail->msgHTML($body);
 	if (!$mail->send()){
