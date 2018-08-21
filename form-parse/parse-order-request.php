@@ -223,7 +223,7 @@ fclose($fp);
 //body variable for email to Thomson
 $body  = sprintf("<html>"); 
 $body .= sprintf("<body>");
-$body .= sprintf("<hr /><h3>Company: %s</h3>",$companyName);
+$body .= sprintf("<h3>%s</h3>",$companyName);
 $body .= sprintf("PO #: <b>%s</b>\n",$realPo);
 
 if($ccOrder === "Yes"){
@@ -387,7 +387,7 @@ if (is_array($_POST)){
   $mail->addReplyTo($purchEmail, $purchFname." ".$purchLname);
   //$mail->addAddress('website_order@htslabs.com', 'New Order Form');
   $mail->addAddress('dan@htslabs.com', 'New Order Form');
-  $mail->Subject = "New website Order from - " . $companyName;
+  $mail->Subject = "Website Order | " . $companyName;
   $mail->msgHTML($body);
   $mail->addAttachment($file);
   //unlink($file); uncomment to delete file

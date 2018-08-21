@@ -52,7 +52,7 @@ if (is_array($_POST)){
 	$body  = sprintf("<html>"); 
 	$body .= sprintf("<body>");
 	
-	$body .= sprintf("<h2>Go Paperless form submission:</h2>\n");
+	$body .= sprintf("<h2>Go Paperless submission | %s</h2>\n",$company);
 	$body .= sprintf("<hr />");
 	$body .= sprintf("\nCompany: <b>%s</b><br />\n",$company);
 	$body .= sprintf("\nName: <b>%s %s</b><br />\n",$fname, $lname);

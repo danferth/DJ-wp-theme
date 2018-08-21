@@ -31,9 +31,8 @@
 				</div>
 				<div class="small-12 medium-12 column">
 				  <input type='text' name='your-name925htj' id='your-name925htj' placeholder='your name' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
-				  <input type="hidden" name="form" value="contact"/>
+				  <input type="hidden" name="form" value="Contact"/>
 					<input type="hidden" name="product" ng-value="product" />
-					<input type="hidden" name="science" ng-value="science" />
 					<input type="hidden" name="path" ng-value="path" />
 					<input class="button small expand" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-contact')" />
 				</div>
@@ -79,9 +78,8 @@
 				</div>
 				<div class="small-12 medium-12 column">
 				  <input type='text' name='your-name925htj' id='your-name925htj' placeholder='your name' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
-				  <input type="hidden" name="form" value="sample"/>
+				  <input type="hidden" name="form" value="Sample"/>
 					<input type="hidden" name="product" ng-value="product" />
-					<input type="hidden" name="science" ng-value="science" />
 					<input type="hidden" name="path" ng-value="path" />
 					<input class="button small expand" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-sample')"/>
 				</div>
@@ -122,9 +120,8 @@
 				</div>
 				<div class="small-12 medium-12 column">
 				  <input type='text' name='your-name925htj' id='your-name925htj' placeholder='your name' autocomplete='<?php echo substr(md5(rand()), 0, 7);  ?>'/>
-				  <input type="hidden" name="form" value="quote"/>
+				  <input type="hidden" name="form" value="Quote"/>
 					<input type="hidden" name="product" ng-value="product" />
-					<input type="hidden" name="science" ng-value="science" />
 					<input type="hidden" name="path" ng-value="path" />
 					<input class="button small expand" type="submit" name="submit" value="Submit" ng-click="setter('product-inquiry-quote')" />
 				</div>

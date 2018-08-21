@@ -57,7 +57,7 @@ checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
 if (is_array($_POST)){
 	$body  = sprintf("<html>"); 
 	$body .= sprintf("<body>");
-	$body .= sprintf("<h2>Contact form submission results:</h2>\n");
+	$body .= sprintf("<h2>Website Contact | %s</h2>\n",$company);
 	$body .= sprintf("<hr />");
 	
 	$body .= sprintf("\nCompany: <b>%s</b><br />\n",$company);
@@ -76,7 +76,7 @@ if (is_array($_POST)){
 	$mail->addReplyTo($email, $fname." ".$lname);
 	//$mail->addAddress('general_con@htslabs.com', 'Contact Form');
 	$mail->addAddress('dan@htslabs.com', 'Contact Form');
-	$mail->Subject = "General Contact From - " . $company;
+	$mail->Subject = "Website Contact From | " . $company;
 	$mail->msgHTML($body);
 	if (!$mail->send()){
 		$mail_error = $mail->ErrorInfo;

@@ -29,9 +29,8 @@ $zipcode = filter_var($_POST['zip-code'], FILTER_SANITIZE_STRING, FILTER_FLAG_ST
 $honeypotCSS = filter_var($_POST['your-name925htj'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 
 //for body and sending email
-$form_type    = $_POST['form'];
-$product_type = $_POST['product'];
-$path         = $_POST['path'];
+$form_type    = filter_var($_POST['form'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
+$product_type = filter_var($_POST['product'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_ENCODE_HIGH);
 $query_string = '?first_name='.$fname.'&form_type='.$form_type.'&product='.$product_type;
 
 //==========================================================
@@ -46,9 +45,9 @@ formTimeCheck(3, $server_dir, $next_page, $query_string);
 //put required variables into array
 $required_contact_quote = array($company, $fname, $lname, $email, $phone, $city, $state, $zipcode);
 $required_sample = array($company, $fname, $lname, $email, $phone, $address, $city, $state, $zipcode);
-if($form_type == 'contact' || $form_type == 'quote'){
+if($form_type == 'Contact' || $form_type == 'Quote'){
   checkRequired($required_contact_quote,  $server_dir, $next_page, $query_string);
-}elseif($form_type == 'sample'){
+}elseif($form_type == 'Sample'){
   checkRequired($required_sample,  $server_dir, $next_page, $query_string);
 }
 //Validate email===========================================
@@ -67,10 +66,11 @@ checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
 
 
 	if (is_array($_POST)){
-		if($form_type == 'contact' || $form_type == 'quote'){
+		if($form_type == 'Contact' || $form_type == 'Quote'){
 		  $body  = sprintf("<html>"); 
 		  $body .= sprintf("<body>");
-		  $body .= sprintf("<h2>Product Inquiry-" . $_POST['form'] . " submission</h2>\n");
+		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$form_type);
+		  $body .= sprintf("Product: <b>%s</b><br/>\n",$product_type);
 		  $body .= sprintf("<hr />");
 		  $body .= sprintf("Company: <b>%s</b><br/>\n", $company);
 		  $body .= sprintf("\nName: <b>%s %s</b><br/>\n",$fname,$lname);
@@ -78,16 +78,13 @@ checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
 		  $body .= sprintf("\nEmail: <b>%s</b><br/>\n",$email);
 		  $body .= sprintf("Phone: <b>%s</b><br/>\n",$phone);
 		  $body .= sprintf("City State, Zip: <b>%s %s, %s</b>\n",$city,$state,$zipcode);
-		  $body .= sprintf("<br /><br/>");
-		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
-		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
-		  $body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
 		  $body .= sprintf("</body>");
 		  $body .= sprintf("</html>");
-		}elseif($form_type == 'sample'){
+		}elseif($form_type == 'Sample'){
 		  $body  = sprintf("<html>"); 
 		  $body .= sprintf("<body>");
-		  $body .= sprintf("<h2>Product Inquiry-" . $_POST['form'] . " submission</h2>\n");
+		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$form_type);
+		  $body .= sprintf("Product: <b>%s</b><br/>\n",$product_type);
 		  $body .= sprintf("<hr />");
 		  $body .= sprintf("Company: <b>%s</b><br/>\n", $company);
 		  $body .= sprintf("\nName: <b>%s %s</b><br/>\n",$fname,$lname);
@@ -97,10 +94,7 @@ checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
 		  $body .= sprintf("Address: <b>%s</b><br/>\n", $address);
 		  $body .= sprintf("Building: <b>%s</b><br/>\n",$building);
 		  $body .= sprintf("City/State/Zip: <b>%s, %s %s</b><br/>\n",$city,$state,$zipcode);
-		  $body .= sprintf("<br/>");
-		  $body .= sprintf("Inquiry type: <b>%s</b><br/>\n",$_POST['form']);
-		  $body .= sprintf("Product: <b>%s</b><br/>\n",$_POST['product']);
-		  $body .= sprintf("Science path: <b>%s</b><br/>\n",$_POST['science']);
+
 		  $body .= sprintf("</body>");
 		  $body .= sprintf("</html>");
 		}
@@ -111,21 +105,21 @@ checkHoneypot($honeypots,  $server_dir, $next_page, $query_string);
 		$mail->addReplyTo($email, $fname." ".$lname);
 		//$mail->addAddress('product_inq@htslabs.com', 'Product Inquiry');
 		$mail->addAddress('dan@htslabs.com', 'Product Inquiry');
-		$mail->Subject = "Website " . $_POST['form'] . " inquiry from - " . $company;
+		$mail->Subject = $form_type . " | " . $company . " | " . $product_type;
 		$mail->msgHTML($body);
 		if (!$mail->send()){
 			$mail_error = $mail->ErrorInfo;
 			$error_date = date('m\-d\-Y\-h:iA');
 			$log = "logs/error.txt";
 			$fp = fopen($log,"a+");
-			fwrite($fp,$error_date . " | ". $_POST['form'] . " inquiry | " . $mail_error . "\n");
+			fwrite($fp,$error_date . " | ". $form_type . " inquiry | " . $mail_error . "\n");
 			fclose($fp);
 			$query_string = '?success=false';
 			header('Location: https://' . $server_dir . $next_page . $query_string);
 		}else{
 		  $success_ip = $_SERVER['REMOTE_ADDR'];
 			$success_date = date('m\-d\-Y\-h:iA');
-			$success_message = $success_date . " | ". $_POST['form'] . " inquiry | " . $success_ip . " | " . $email;
+			$success_message = $success_date . " | ". $form_type . " inquiry | " . $success_ip . " | " . $email;
 			$log = "logs/success.txt";
 			$fp = fopen($log,"a+");
 			fwrite($fp,$success_message . "\n");

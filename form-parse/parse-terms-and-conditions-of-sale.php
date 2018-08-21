@@ -65,7 +65,7 @@ if (is_array($_POST)){
 	$body  = sprintf("<html>"); 
 	$body .= sprintf("<body>");
 	
-	$body .= sprintf("<h2>Terms &amp; Conditions Acceptance:</h2>\n");
+	$body .= sprintf("<h2>%s Terms &amp; Conditions Acceptance</h2>\n",$company);
 	$body .= sprintf("<hr />");
 	$body .= sprintf("\nCompany: <b>%s</b><br />\n",$company);
 	$body .= sprintf("\nName: <b>%s %s</b><br />\n",$fname, $lname);
@@ -81,7 +81,7 @@ if (is_array($_POST)){
 	$mail->addReplyTo($email, $fname." ".$lname);
 	//$mail->addAddress('toc_agree@htslabs.com', 'T&C Form');
 	$mail->addAddress('dan@htslabs.com', 'T&C Form');
-	$mail->Subject = "Terms Acceptance - " . $company;
+	$mail->Subject = "Terms Acceptance | " . $company;
 	$mail->msgHTML($body);
 	if (!$mail->send()){
 		$mail_error = $mail->ErrorInfo;
