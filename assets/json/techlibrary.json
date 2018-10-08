@@ -2429,5 +2429,35 @@
     "tags"            : [],
     "date"            : "20180806",
     "image"           : ""
+  },{
+    "id"              : 176,
+    "title"           : "Filter Vial Introductions",
+    "description"     : "An introduction to Filter Vials",
+    "citation"        : "",
+    "link"            : "FV-Intro.pdf",
+    "linkType"        : "pdf",
+    "type"            : "GI",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "standard", "extreme", "nano", "extractor", "low-evap"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20180905",
+    "image"           : ""
+  },{
+    "id"              : 177,
+    "title"           : "Fast and Simple Creatinine Determination in Wastewater by Liquid Chromatography-Mass Spectrometry",
+    "description"     : "A fast and simple method was developed to determine creatinine in wastewater samples with high sensitivity (LOQ 0.01 g/mL) and specificity (2 MRM transitions per analyte). The developed method could be applied to urine samples (dilution cut-off 20 mg/dL) as well. Creatinine was detected in all authentic wastewater samples with concentrations from 0.22 to 2.68 g/mL, and it should be further investigated as a normalization factor in wastewater analysis.",
+    "citation"        : "Nicole Centazzo<sup>1</sup>, Bonnie-Marie Frederick<sup>1</sup>, Daniel Korostyshevsky<sup>2</sup>, Lisa Wanders<sup>2</sup>, Marta Concheiro-Guisan<sup>1</sup>* <br/><sup>1</sup>Department of Sciences, John Jay College of Criminal Justice, City University of New York, New York, NY <sup>2</sup>Thomson Instrument Company, Oceanside, CA",
+    "link"            : "SOFT_2018_Poster_WW-Creatinine.pdf",
+    "linkType"        : "pdf",
+    "type"            : "PW",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "standard", "extreme", "nano", "extractor", "low-evap"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20181008",
+    "image"           : ""
   }
 ]

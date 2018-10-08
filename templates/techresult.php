@@ -72,7 +72,7 @@ get_header(); ?>
 		<p class="tech-description" ng-bind-html="techNote.description" ng-hide="!techNote.description"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="tech-citation" ng-bind-html="techNote.citation" ng-hide="!techNote.citation"><i class='fa fa-spinner' aria-hidden='true'></i></p>
 		<p class="tech-share">
-		  <a class='tech-share-mailto' href='mailto:&subject=Requested%20PDF%20Link&body=Download%20your%20requested%20PDF%20with%20the%20link%20below.%0Ahttps://htslabs.com/wp-content/uploads/downloads/{{techNote.link}}'>
+		  <a class='tech-share-mailto' href='mailto:?&subject=Requested%20PDF%20Link&body=Download%20your%20requested%20PDF%20with%20the%20link%20below.%0Ahttps://htslabs.com/wp-content/uploads/downloads/{{techNote.link}}'>
 		    <i class='fa fa-envelope' arie-hidden='true' title="Email this PDF!"></i>
 		  </a>
 		  <a
