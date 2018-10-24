@@ -47,34 +47,34 @@ tic.filter('yesNo', function(){
 tic.factory('dataFactory', ['$http', '$filter', function($http, $filter){
   var factory = {};
   factory.get_chemical = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/chemical.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/chemical.json');
   };
   factory.get_compound = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/compound.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/compound.json');
   };
   factory.get_distributors = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/distributors.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/distributors.json');
   };
   factory.get_prodinfo = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/prodinfo.json');
   };
   factory.get_products = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/products.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/products.json');
   };
   factory.get_tc = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/tc.json');
   };
   factory.get_techdata = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/techlibrary.json');
   };
   factory.get_sftofv = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/sftofv.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/sftofv.json');
   };
   factory.get_salestips = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/salestips.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/salestips.json');
   };
   factory.get_tradeshow = function(){
-    return $http.get(url+'/wp-content/themes/TIC/assets/json/tradeshow.json?v=2345');
+    return $http.get(url+'/wp-content/themes/TIC/assets/json/tradeshow.json');
   };
   return factory;
 }]);
