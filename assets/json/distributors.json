@@ -837,5 +837,19 @@
 		"webUrl": "http://www.krishgen.com/",
 		"web": "www.krishgen.com",
 		"email": "sales@krishgen.com"
+	},
+
+	{
+		"id": 71,
+		"region": "Europe",
+		"country": "Netherlands",
+		"company": "KyvoBio",
+		"products": ["Flasks", "Well Plates"],
+		"address": "Gaetano Martinolaan 85,\n6229 GS Maastricht - Netherlands",
+		"tel": "+31 85 2082 351",
+		"fax": "+31 85 2082 353",
+		"webUrl": "https://www.kyvobio.com//",
+		"web": "www.kyvobio.com",
+		"email": "info@kyvobio.com"
 	}
 ]
