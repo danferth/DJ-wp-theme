@@ -2609,5 +2609,35 @@
     "tags"            : [],
     "date"            : "20190318",
     "image"           : ""
+  },{
+    "id"              : 189,
+    "title"           : "Clinical Urine Mega Method by LC-MS/MS",
+    "description"     : "This improved sample preparation method allows for the quantitative measurement of over 60 drugs of different classes in urine for clinical purposes. Drugs of abuse include naturally occurring, semi-synthetic and synthetic drugs. The use of hydrolysis in the analysis of natural and synthetic drugs in urine has become standard practice in toxicology labs. Many laboratories currently use solid phase extraction or solid liquid extraction techniques in the sample preparation of urine. This method quantitatively measures multiple drugs of different classes in urine for clinical purposes.  This method is known as the CLUMM (Clinical Urine Mega Method) and run on the Sciex 4500 using the Phenomenex Phenyl-hexyl Kinetex analytical column. The samples are hydrolyzed, then prepared using a dilute and filter technique followed by LC/MS/MS analysis.",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Melanie Stauffer<sup>1</sup>, Dean Fritch<sup>2</sup><br/><sup>1</sup> Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup> Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/>Presented at MSACL 2019",
+    "link"            : "urine_mega_method.pdf",
+    "linkType"        : "pdf",
+    "type"            : "APPNOTE",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "extreme"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20190321",
+    "image"           : ""
+  },{
+    "id"              : 190,
+    "title"           : "Sample Preparation for over 60 Analytes in Urine using the Thomson eXtreme Filter Vials® by LC-MS/MS",
+    "description"     : "This improved sample preparation method allows for the quantitative measurement of over 60 different drugs in urine for clinical purposes. Drugs of abuse include naturally occurring, semi-synthetic and synthetic drugs. The use of hydrolysis in the analysis of natural and synthetic drugs in urine has become standard practice in toxicology labs. Many laboratories currently use Solid Phase Extraction or Supported. Liquid Extraction techniques in the sample preparation of urine. This method quantitatively measures multiple drugs of different classes in urine for clinical purposes. This method is known as the Clinical Urine Mega Method and run on the Sciex 4500 using the Phenomenex Kinetex Phenyl-Hexyl analytical column. The samples are hydrolyzed, then prepared using a dilute and filter technique followed by LC-MS/MS analysis.",
+    "citation"        : "Nadine Koenig<sup>1</sup>, Crystal Xander<sup>1</sup>, Dean Fritch<sup>2</sup>, Lisa Wanders<sup>3</sup><br/><sup>1</sup> Health Network Laboratories, 794 Roble Road, Allentown, PA 18109<br/><sup>2</sup> Analytical Associates, 225 Millwood Drive, East Greenville, PA<br/><sup>3</sup>Thomson Instrument Company, 1121 South Cleveland Street Oceanside, CA 92054",
+    "link"            : "MSACL_2019_poster_mega_method.pdf",
+    "linkType"        : "pdf",
+    "type"            : "PW",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "extreme"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20190401",
+    "image"           : ""
   }
 ]

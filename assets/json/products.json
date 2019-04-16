@@ -2557,7 +2557,7 @@
 		"wellShape" : ["S-L", ""],
 		"sterile" : true,
 		"ANSI-SLAS" : true,
-		"filter" : "25&mu;m Rapid Clear",
+		"filter" : "0.2&mu;m Rapid Clear",
 		"collectionPlate" : "931565-G-1X",
 		"drawing" : false,
 		"worksWith" : ["931565-G-1X", "931568", "931569-G-1X", "931571"],
