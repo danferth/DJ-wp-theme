@@ -848,8 +848,22 @@
 		"address": "Gaetano Martinolaan 85,\n6229 GS Maastricht - Netherlands",
 		"tel": "+31 85 2082 351",
 		"fax": "+31 85 2082 353",
-		"webUrl": "https://www.kyvobio.com//",
+		"webUrl": "https://www.kyvobio.com/",
 		"web": "www.kyvobio.com",
 		"email": "info@kyvobio.com"
+	},
+
+	{
+		"id": 72,
+		"region": "Europe",
+		"country": "Ireland",
+		"company": "Generon Ireland",
+		"products": ["Flasks"],
+		"address": "Ground Floor, 8-9 Marino Mart, Fairview\nClontarf Dublin 3\nD03P590, Ireland",
+		"tel": "+353 1 6971 146",
+		"fax": "+353 1 6971 147",
+		"webUrl": "https://www.generon.ie/",
+		"web": "generon.ie",
+		"email": "info@generon.ie"
 	}
 ]
