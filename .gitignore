@@ -4,5 +4,5 @@
 node_modules/
 assets/stylesheets/
 assets/javascript/foundation.js
-packaged/
+package/
 form-parse/5150*

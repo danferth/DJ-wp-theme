@@ -1,44 +1,36 @@
 {
- "name": "TIC",
- "title": "TIC-WP-theme",
- "version": "1.0.5",
- "description": "Theme for Thomson Instrument Company wordpress site",
- "author" : "Dan Klotz <danferth@gmail.com> (http://danferth.com)",
- "keywords": [
-   "WordPress",
-   "science",
-   "Foundation",
-   "semantic",
-   "mobile first",
-   "responsive"
- ],
- "homepage": "http://htslabs.com.com/",
- "bugs": "https://github.com/danferth/DJ-wp-theme/issues",
- "license": "MIT",
- "main": "Gruntfile.js",
- "repository": {
-   "type": "git",
-   "url": "https://github.com/danferth/DJ-wp-theme.git"
- },
- "devDependencies": {
-   "bower": "~1.4.1",
-   "grunt": "~0.4.5",
-   "grunt-cli": "^0.1.13",
-   "grunt-contrib-compress": "~0.13.0",
-   "grunt-contrib-concat": "~0.3.0",
-   "grunt-contrib-copy": "~0.4.1",
-   "grunt-contrib-uglify": "~0.2.7",
-   "grunt-contrib-watch": "~0.5.3",
-   "grunt-sass": "~1.1.0-beta",
-   "grunt-string-replace": "~0.2.7",
-   "node-sass": "~3.3.0",
-   "time-grunt": "~1.1.0"
- },
- "scripts": {
-   "build": "grunt build",
-   "grunt": "grunt",
-   "postinstall": "bower install && grunt build",
-   "watch": "grunt watch",
-   "package": "grunt package"
- }
+  "name": "gulp",
+  "version": "3.1.0",
+  "description": "default gulp setup. Includes tasks for css, js, images, watch, build, & package",
+  "license": "MIT",
+  "repository": "danferth/gulp",
+  "author": {
+    "name": "Dan Klotz",
+    "email": "danferth@gmail.com",
+    "url": "danferth.com"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "colors": "^1.3.3",
+    "create-file": "^1.0.1",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.1",
+    "es6-promise": "^4.2.6",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-pngquant": "^7.0.0",
+    "jshint": "^2.10.2",
+    "jshint-stylish": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "gulp-zip": "^4.2.0"
+
+  }
 }
