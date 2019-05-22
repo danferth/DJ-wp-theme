@@ -54,4 +54,6 @@ require_once('library/TIC-functions.php');
 //Shortcodes
 require_once('library/shortcodes.php');
 
+// Disable the Gutenberg editor
+add_filter('use_block_editor_for_post', '__return_false');
 ?>

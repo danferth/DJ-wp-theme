@@ -76,7 +76,7 @@ function foundationpress_cleanup_head() {
 	remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
 	// Remove WP version from css.
-	add_filter( 'style_loader_src', 'foundationpress_remove_wp_ver_css_js', 9999 );
+	//add_filter( 'style_loader_src', 'foundationpress_remove_wp_ver_css_js', 9999 );
 
 	// Remove WP version from scripts.
 	//add_filter( 'script_loader_src', 'foundationpress_remove_wp_ver_css_js', 9999 );

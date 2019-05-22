@@ -16,9 +16,10 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	//<link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
 	//wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,300,700' );
 	//version for updates
-	$version = '2.4.6';
+	//$version = '2.4.6';
+	$version = time();
 	// Enqueue the main Stylesheet.
-	wp_enqueue_style( 'main-stylesheet', get_stylesheet_directory_uri() . '/assets/stylesheets/foundation.css' );
+	wp_enqueue_style( 'main-stylesheet', get_stylesheet_directory_uri() . '/assets/stylesheets/foundation.css', array(), $version, $media = 'all' );
 
 	// Deregister the jquery version bundled with WordPress.
 	wp_deregister_script( 'jquery' );
