@@ -1801,7 +1801,7 @@
     "image"           : ""
     },{
     "id"              : 133,
-    "title"           : "Strategies for Maximizing Strategies for Maximizing Heterologous Protein Heterologous Protein Expression in Expression in E. coli E. coli with Minimal Cost",
+    "title"           : "Strategies for Maximizing Heterologous Protein Expression in E. coli with Minimal Cost",
     "description"     : "Presentation given by Rebecca Page at ABRF 2007 Recombinant Protein Satellite Workshop held in Tampa: &ldquolState-of-the-Art Technologies for Producing High-Quality Recombinant Proteins in Core Facilities.&rdquo;",
     "citation"        : "Rebecca Page Rebecca Page, Department of Molecular Biology, Biochemistry and Department of Molecular Biology, Biochemistry and Cell Biology",
     "link"            : "page-perg2007.pdf",
@@ -2638,6 +2638,36 @@
     "industry"        : [],
     "tags"            : [],
     "date"            : "20190401",
+    "image"           : ""
+  },{
+    "id"              : 191,
+    "title"           : "Autosampler-Ready Microporous Filter Vials As A Viable Alternative For Microbiological Sample Processing",
+    "description"     : "<b>Presented at Systems Biology for Clinical Infectious Diseases Research Symposium 2019</b> Demand for high-throughput sample processing technologies will increaseas LC-based methods become more prevalent in academic and clinical microbiological research labs. Filter sterilization steps are required during the processing of microbiological samples because of the following. i) many bacteria and fungi are BSL2/3 level pathogens; ii) used broth media tend to contain solids; and,iii) chromatographic column longevity is required in a high-throughput laboratory. Introduction Project Aims",
+    "citation"        : "Thomas D. Horvath<sup>1,2</sup>, Sibel Ak<sup>1,2</sup>, Sigmund J. Haidacher<sup>1,2</sup>, Kathleen M Hoch<sup>1,2</sup>, Tor C. Savidge<sup>1,2</sup>, and Anthony M. Haag<sup>1,2</sup><br/><sup>1</sup>Baylor College of Medicine, <sup>2</sup>Texas Children’s Hospital, Houston, TX. 77030",
+    "link"            : "190910_GI-SysBioClinInfectDis_FilterVial_final.pdf",
+    "linkType"        : "pdf",
+    "type"            : "PW",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "extreme"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20190920",
+    "image"           : ""
+  },{
+    "id"              : 192,
+    "title"           : "Method Consolidation to Improve Scope and Efficiency in Postmortem Toxicology",
+    "description"     : "Systematic toxicological approaches that employ both ideology changes and improvements in instrumentation and sample extraction allow for improved toxicology testing efficiency through lower sensitivities, higher specificity and minimized resource use. Historically, the San Francisco Office of the Chief Medical Examiner relied heavily on a GC-MS testing regime, comprised of individual drug-class confirmation and quantitation assays. Traditional methods utilizing GC-MS typically require iterations of testing, exhausting sample volume, and hindering productivity and turnaround times. Particularly for polypharmacy cases frequently seen in modern postmortem toxicology. The method described here consolidated the scope of seven legacy methods into a single LC-MS/MS method for better sensitivity, higher throughput, quantitation of drugs of abuse with minimal sample consumption, and incorporation of smart automated processing for improved quality assurance. One hundred microlitres of blood or urine were rapidly extracted using a simple acetonitrile protein crash and subsequent in-vial filtration and injected on to an LC-MS/MS system. The developed method was fully validated to SWGTOX and international guidelines and incorporated 55 analytes and a customized query that facilitates rapid and consistent application of acceptability criteria for data processing and review. Applicability was demonstrated with the analysis of 1389 samples (858 blood and 531 urine) where at least 41% of positive results may have been potentially missed due to their decreased sensitivity, and 11% of results were not within the scope, of the previous analytical methods estimated. On average, cases in this study would have previously required three distinct GC-MS assays, 3 mL of blood, and upwards of 30 hours of active staff time. The described LC-MS/MS analytical approach has mitigated the need to perform multiple assays, utilized only 0.1 mL of sample, significantly reduced analyst work time, incorporated 10 additional analytes, and allowed for a more comprehensive testing regime to better inform cause of death determinations.",
+    "citation"        : "Jirair Gevorkyan <sup>1 4</sup>, Megan Wong <sup>1 5</sup>, Sue Pearring <sup>1 6</sup>, Luke N. Rodda <sup>1, 2</sup> *<br><sup>1</sup> Office of the Chief Medical Examiner, San Francisco, California, USA, <sup>2</sup> Department of Laboratory Medicine, University of California, San Francisco, California, USA<br>* corresponding author: Luke.Rodda@sfgov.org; Office of the Chief Medical Examiner, City and County of San 12 Francisco, 1 Newhall Street, San Francisco, California 94124, USA; Tel: +1 415-641-3688",
+    "link"            : "SFCO_LCQA_Manuscript.pdf",
+    "linkType"        : "pdf",
+    "type"            : "PW",
+    "productLine"     : "FV",
+    "subProductLine"  : ["all", "extreme"],
+    "science"         : "",
+    "industry"        : [],
+    "tags"            : [],
+    "date"            : "20191230",
     "image"           : ""
   }
 ]

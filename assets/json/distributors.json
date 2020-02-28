@@ -169,13 +169,13 @@
 		"country": "France",
 		"company": "CliniSciences",
 		"products": ["Flasks", "Well Plates"],
-		"address": "183, avenue Georges Clémenceau<br/>92000 Nanterre - France",
-		"tel": "+33 9 77 40 09 09",
+		"address": "74 Rue des Suisses<br/>92000 Nanterre - France",
+		"tel": "+44 330 684 5068",
 		"tel2": "",
 		"fax": "+33 9 77 40 10 11",
 		"webUrl": "http://www.clinisciences.com/",
 		"web": "www.clinisciences.com",
-		"email": "info@clinisciences.com"
+		"email": "j.mosedale@clinisciences.com"
 	}, {
 		"id": 15,
 		"region": "Europe",
@@ -215,19 +215,6 @@
 		"webUrl": "http://filtervials.bischoff-chrom.de/",
 		"web": "bischoff-chrom.de",
 		"email": "info@bischoff-chrom.de"
-	}, {
-		"id": 19,
-		"region": "Europe",
-		"country": "Ireland",
-		"company": "Elementec Ltd",
-		"products": ["Filter Vials", "Well Plates"],
-		"address": "F8, Maynooth Business Campus, Maynooth, Co. Kildare, Ireland",
-		"tel": "+353 (0)1 9602050",
-		"tel2": "",
-		"fax": "+353 (0)1 9602059",
-		"webUrl": "http://www.elementec.ie/",
-		"web": "www.elementec.ie",
-		"email": "sales@elementec.ie"
 	}, {
 		"id": 20,
 		"region": "Europe",
@@ -357,7 +344,7 @@
 		"fax": "+34 91 361 10 69",
 		"webUrl": "http://www.biogen.es/es/",
 		"web": "www.biogen.es",
-		"email": "biogen@biogencientifica.com"
+		"email": "biogen@biogen.es"
 	}, {
 		"id": 31,
 		"region": "Europe",
@@ -865,5 +852,19 @@
 		"webUrl": "https://www.generon.ie/",
 		"web": "generon.ie",
 		"email": "info@generon.ie"
+	},
+
+	{
+		"id": 73,
+		"region": "Europe",
+		"country": "Portugal",
+		"company": "CliniSciences",
+		"products": ["Flasks", "Well Plates"],
+		"address": "Rua Almada Negreiros, Lote 5,\nLoja14, 2615-275 Alverca Do\nRibatejo, Portugal",
+		"tel": "+353 1 6971 146",
+		"fax": "+353 1 6971 147",
+		"webUrl": "https://www.quimigen.com/pt/",
+		"web": "www.quimigen.pt",
+		"email": "info@quimigen.com"
 	}
 ]
