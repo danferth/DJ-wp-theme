@@ -6,7 +6,7 @@
     "description2": "Use with Stand & Ring (931609)",
     "partNum": "931706",
     "flask": ["1.6L", "2.8L"],
-    "connection": ["7/16\" (11.1mm) CPC Connection"]
+    "connection": ["7/16\" (11.1mm) O.D. Male Quick Connect"]
   },
   {
     "type": "inversion",
@@ -38,11 +38,11 @@
   {
     "type": "inversion",
     "title": "Inversion Transfer Cap for Optimum Growth™ 5 Liter Flask",
-    "description1": "1/8\" Barb Connection | Sterile",
+    "description1": "1/4\" OD Barbed Quick Connect | Sterile",
     "description2": "Use with Stand & Ring (931609)",
     "partNum": "931594",
     "flask": ["5L"],
-    "connection": ["1/8\" (3.175mm) Barb"]
+    "connection": ["1/4\" (3.175mm) O.D. Barb"]
   },
   {
     "type": "inversion",
@@ -51,7 +51,7 @@
     "description2": "Use with Stand & Ring (931609)",
     "partNum": "931596",
     "flask": ["5L"],
-    "connection": ["7/16\" (11.1mm) CPC Connection"]
+    "connection": ["7/16\" (11.1mm) O.D. Male Quick Connect"]
   },
   {
     "type": "inversion",
@@ -78,7 +78,7 @@
     "description2": "Use with Stand & Ring (931609)",
     "partNum": "931616",
     "flask": ["5L"],
-    "connection": ["Male Luer Lock"," Tube Fuse"]
+    "connection": ["Male Luer Lock", " Tube Fuse"]
   },
   {
     "type": "bidirectional",
@@ -123,6 +123,6 @@
     "description2": "Use with Peristaltic Pump",
     "partNum": "931618",
     "flask": ["5L"],
-    "connection": ["Male Luer Lock" , "Tube Fuse"]
+    "connection": ["Male Luer Lock", "Tube Fuse"]
   }
 ]

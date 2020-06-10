@@ -2212,11 +2212,12 @@
     ],
     "sterile": true,
     "notes": false
-  },{
+  },
+  {
     "line": "TC",
     "series": "inversion",
     "title": "Inversion Transfer Cap for Optimum Growth&trade; 1.6 & 2.8L Flask",
-    "description1": "7/16\" Male Connection | Sterile",
+    "description1": "7/16\" O.D. Male Quick  Connect | Sterile",
     "description2": "Use with Stand & Ring (931609)",
     "partNum": "931706",
     "partNumber": [{ "num": "931706-4", "qty": "4" }],
@@ -2229,7 +2230,7 @@
     ],
     "direction": "inversion",
     "flask": ["1.6L", "2.8L"],
-    "connection": "7/16&quot; (11.1mm) CPC Connection",
+    "connection": "7/16&quot; (11.1mm) O.D. Male Quick Connect",
     "sterile": true,
     "notes": false
   },
@@ -2250,7 +2251,7 @@
     ],
     "direction": "inversion",
     "flask": ["1.6L", "2.8L"],
-    "connection": "Tube Fuse",
+    "connection": "Tube Fuse w/ Plug",
     "sterile": true,
     "notes": false
   },
@@ -2271,7 +2272,7 @@
     ],
     "direction": "inversion",
     "flask": ["1.6L", "2.8L"],
-    "connection": "Tube Fuse",
+    "connection": "Tube Fuse w/ Plug",
     "sterile": true,
     "notes": false
   },
@@ -2336,7 +2337,7 @@
     "line": "TC",
     "series": "inversion",
     "title": "Inversion Transfer Cap for Optimum Growth&trade; 5L Flask",
-    "description1": "1/8\" Barb Connection | Sterile",
+    "description1": "1/4\" O.D. Barbed Quick Connect | Sterile",
     "description2": "Use with Stand & Ring (931606)",
     "partNum": "931594",
     "partNumber": [{ "num": "931594-4", "qty": "4" }],
@@ -2349,7 +2350,7 @@
     ],
     "direction": "inversion",
     "flask": ["5L"],
-    "connection": "1/8&quot; (3.175mm) Barb",
+    "connection": "1/4&quot; (3.175mm) O.D. Barbed Quick Connect",
     "sterile": true,
     "notes": false
   },
@@ -2357,7 +2358,7 @@
     "line": "TC",
     "series": "inversion",
     "title": "Inversion Transfer Cap for Optimum Growth&trade; 5L Flask",
-    "description1": "7/16\" Male Connection | Sterile",
+    "description1": "7/16\" O.D. Male Quick  Connect | Sterile",
     "description2": "Use with Stand & Ring (931606)",
     "partNum": "931596",
     "partNumber": [{ "num": "931596-4", "qty": "4" }],
@@ -2370,7 +2371,7 @@
     ],
     "direction": "inversion",
     "flask": ["5L"],
-    "connection": "7/16&quot; (11.1mm) CPC Connection",
+    "connection": "7/16&quot; (11.1mm) O.D. Male Quick Connect",
     "sterile": true,
     "notes": false
   },
@@ -2391,7 +2392,7 @@
     ],
     "direction": "inversion",
     "flask": ["5L"],
-    "connection": "Tube Fuse",
+    "connection": "Tube Fuse w/ Plug",
     "sterile": true,
     "notes": false
   },
@@ -2412,7 +2413,7 @@
     ],
     "direction": "inversion",
     "flask": ["5L"],
-    "connection": "Tube Fuse",
+    "connection": "Tube Fuse w/ Plug",
     "sterile": true,
     "notes": false
   },
@@ -2490,7 +2491,7 @@
     ],
     "direction": "bidirectional",
     "flask": ["1.6L"],
-    "connection": "Tube Fuse",
+    "connection": "Tube Fuse w/ Plug",
     "sterile": true,
     "notes": false
   },
@@ -2553,7 +2554,7 @@
     ],
     "direction": "bidirectional",
     "flask": ["5L"],
-    "connection": "Tube Fuse",
+    "connection": "Tube Fuse w/ Plug",
     "sterile": true,
     "notes": false
   },
