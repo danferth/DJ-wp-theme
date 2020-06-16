@@ -1979,30 +1979,6 @@
   {
     "line": "UYF",
     "series": "flask",
-    "title": "Ultra Yield&trade; 2.5L Flask w/ Vent Cap *DISCONTINUED*",
-    "description1": "<b>*DISCONTINUED*</b>",
-    "description2": "Please use the following parts to replace; PN:931136-B and PN:899566",
-    "partNum": "931136-B-VC",
-    "partNumber": [{ "num": "931136-B-VC", "qty": "6" }],
-    "image": "931136-B-VC_lg.jpg",
-    "thum_image": "931136-B-VC_tn.png",
-    "tag": [],
-    "URL": "uyf/",
-    "shakeSpeed": "250-400 RPM",
-    "minVolume": "500mL",
-    "maxVolume": "1L",
-    "membrane": "PTFE",
-    "poreSize": "0.2&mu;m",
-    "accessories": [
-      { "link": "Plasmid+&reg; Media", "url": "../../uyf/plasmid-media/" },
-      { "link": "AirOtop&trade; Enhanced Seals", "url": "../../uyf/airotop/" }
-    ],
-    "sterile": true,
-    "notes": false
-  },
-  {
-    "line": "UYF",
-    "series": "flask",
     "title": "Ultra Yield&trade; Bidirectional Transfer Cap",
     "description1": "For 1.5 & 2.5L Ultra Yield&trade; Flask | Sterile",
     "description2": "Use with Peristaltic Pump",
