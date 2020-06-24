@@ -506,6 +506,30 @@
   {
     "line": "FV",
     "series": "extreme",
+    "title": "eXtreme|FV&reg; - PVDF 0.45&mu;m",
+    "description1": "Non-Slit Septum, Yellow Cap",
+    "description2": "Multi-Layered Filtration",
+    "partNum": "85541-500-NS",
+    "partNumber": [
+      { "num": "85541-200-NS", "qty": "200" },
+      { "num": "85541-500-NS", "qty": "500" }
+    ],
+    "image": "85541.jpg",
+    "tag": [],
+    "URL": "fv/extreme/",
+    "minVolume": "120&mu;L",
+    "maxVolume": "450&mu;L",
+    "membrane": "PVDF",
+    "poreSize": "0.45&mu;m",
+    "accessories": [
+      { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
+    ],
+    "sterile": false,
+    "notes": false
+  },
+  {
+    "line": "FV",
+    "series": "extreme",
     "title": "eXtreme|FV&reg; - PTFE 0.2&mu;m",
     "description1": "Pre-Slit Septum, Green Cap",
     "description2": "Multi-Layered Filtration",
@@ -513,6 +537,54 @@
     "partNumber": [
       { "num": "85530-200", "qty": "200" },
       { "num": "85530-500", "qty": "500" }
+    ],
+    "image": "85530.jpg",
+    "tag": [],
+    "URL": "fv/extreme/",
+    "minVolume": "120&mu;L",
+    "maxVolume": "450&mu;L",
+    "membrane": "PTFE",
+    "poreSize": "0.2&mu;m",
+    "accessories": [
+      { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
+    ],
+    "sterile": false,
+    "notes": false
+  },
+  {
+    "line": "FV",
+    "series": "extreme",
+    "title": "eXtreme|FV&reg; - PTFE 0.2&mu;m",
+    "description1": "Pre-Slit Septum, Green Screw Cap",
+    "description2": "Multi-Layered Filtration",
+    "partNum": "85530-500-SC",
+    "partNumber": [
+      { "num": "85530-200-SC", "qty": "200" },
+      { "num": "85530-500-SC", "qty": "500" }
+    ],
+    "image": "85530.jpg",
+    "tag": [],
+    "URL": "fv/extreme/",
+    "minVolume": "120&mu;L",
+    "maxVolume": "450&mu;L",
+    "membrane": "PTFE",
+    "poreSize": "0.2&mu;m",
+    "accessories": [
+      { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
+    ],
+    "sterile": false,
+    "notes": false
+  },
+  {
+    "line": "FV",
+    "series": "extreme",
+    "title": "eXtreme|FV&reg; - PTFE 0.2&mu;m",
+    "description1": "Non-Slit Septum, Green Screw Cap",
+    "description2": "Multi-Layered Filtration",
+    "partNum": "85530-500-SCNS",
+    "partNumber": [
+      { "num": "85530-200-SCNS", "qty": "200" },
+      { "num": "85530-500-SCNS", "qty": "500" }
     ],
     "image": "85530.jpg",
     "tag": [],
@@ -795,7 +867,7 @@
     "line": "FV",
     "series": "low-evap",
     "title": "Low Evap|Filter Vial - PVDF 0.2&mu;m",
-    "description1": "Red Crimp Cap",
+    "description1": "Red Screw Cap",
     "description2": "For Low Evaporation",
     "partNum": "65531",
     "partNumber": [
@@ -813,13 +885,13 @@
       { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
     ],
     "sterile": false,
-    "notes": "Low evaporation crimp cap"
+    "notes": "Low evaporation Screw Cap"
   },
   {
     "line": "FV",
     "series": "low-evap",
     "title": "Low Evap|Filter Vial - PVDF 0.45&mu;m",
-    "description1": "Yellow Crimp Cap",
+    "description1": "Yellow Screw Cap",
     "description2": "For Low Evaporation",
     "partNum": "65541",
     "partNumber": [
@@ -837,13 +909,13 @@
       { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
     ],
     "sterile": false,
-    "notes": "Low evaporation crimp cap"
+    "notes": "Low evaporation Screw Cap"
   },
   {
     "line": "FV",
     "series": "low-evap",
     "title": "Low Evap|Filter Vial - PTFE 0.2&mu;m",
-    "description1": "Green Crimp Cap",
+    "description1": "Green Screw Cap",
     "description2": "For Low Evaporation",
     "partNum": "65530",
     "partNumber": [
@@ -861,13 +933,13 @@
       { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
     ],
     "sterile": false,
-    "notes": "Low evaporation crimp cap"
+    "notes": "Low evaporation Screw Cap"
   },
   {
     "line": "FV",
     "series": "low-evap",
     "title": "Low Evap|Filter Vial - PTFE 0.45&mu;m",
-    "description1": "Blue Crimp Cap",
+    "description1": "Blue Screw Cap",
     "description2": "For Low Evaporation",
     "partNum": "65540",
     "partNumber": [
@@ -885,13 +957,13 @@
       { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
     ],
     "sterile": false,
-    "notes": "Low evaporation crimp cap"
+    "notes": "Low evaporation Screw Cap"
   },
   {
     "line": "FV",
     "series": "low-evap",
     "title": "Low Evap|Filter Vial - Nylon 0.2&mu;m",
-    "description1": "Black Crimp Cap",
+    "description1": "Black Screw Cap",
     "description2": "For Low Evaporation",
     "partNum": "65538",
     "partNumber": [
@@ -909,13 +981,13 @@
       { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
     ],
     "sterile": false,
-    "notes": "Low evaporation crimp cap"
+    "notes": "Low evaporation Screw Cap"
   },
   {
     "line": "FV",
     "series": "low-evap",
     "title": "Low Evap|Filter Vial - Nylon 0.45&mu;m",
-    "description1": "Pink Crimp Cap",
+    "description1": "Violet Screw Cap",
     "description2": "For Low Evaporation",
     "partNum": "65539",
     "partNumber": [
@@ -933,7 +1005,7 @@
       { "link": "Filter Vial Press", "url": "../../fv/fv-accessories/" }
     ],
     "sterile": false,
-    "notes": "Low evaporation crimp cap"
+    "notes": "Low evaporation Screw Cap"
   },
   {
     "line": "FV",
