@@ -43,7 +43,7 @@
 		</form>
 	</div>
 	<div class="product-inquiry small-12 column">
-		<button class="product-inquiry-button button expand" data-text="Get a Sample">Get a Sample</button>
+		<button class="product-inquiry-button button expand" data-text="Request a Sample">Request a Sample</button>
 		<form class="product-inquiry-form" id="product-inquiry-sample" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-12 column">
@@ -91,7 +91,7 @@
 	</div>
 	
 	<div class="product-inquiry small-12 column">
-		<button class="product-inquiry-button button expand" data-text="Get a Quote">Get a Quote</button>
+		<button class="product-inquiry-button button expand" data-text="Request a Quote">Request a Quote</button>
 		<form class="product-inquiry-form" id="product-inquiry-quote" action="/wp-content/themes/TIC/form-parse/parse-product-inquiry.php" method="POST">
 			<fieldset class="on-page-form">
 				<div class="small-12 medium-12 column">
